@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cluedown — main page design variations</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.7.0/dist/tabler-icons.min.css">
+<style>
+  :root{
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --serif: Georgia, "Times New Roman", serif;
+    --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0; background:#e8e8e6; font-family:var(--sans); color:#1c1c1a; padding:40px 24px 80px;}
+  .page-head{max-width:1280px; margin:0 auto 32px;}
+  .page-head h1{font-size:26px; font-weight:600; margin:0 0 6px;}
+  .page-head p{margin:0; color:#5f5e5a; font-size:15px; line-height:1.6; max-width:760px;}
+  .grid{max-width:1280px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit, minmax(360px, 1fr)); gap:36px 28px;}
+  .cell{display:flex; flex-direction:column; gap:12px;}
+  .cap{font-size:14px; color:#3d3c39; line-height:1.5;}
+  .cap b{font-weight:600; color:#1c1c1a;}
+  .cap .tag{display:inline-block; font-size:11px; letter-spacing:.5px; text-transform:uppercase; background:#1c1c1a; color:#fff; padding:2px 8px; border-radius:20px; margin-left:6px; vertical-align:1px;}
+  .frame{margin:0 auto; width:100%; max-width:392px;}
+  .ti{font-style:normal;}
+</style>
+</head>
+<body>
+
+<div class="page-head">
+  <h1>Cluedown — main daily play screen, 6 style directions</h1>
+  <p>Same moment in every frame: clue 1 of the Venus question, 5 points on the line, the guess box, and the reveal-next control. You're comparing style, not content. Open in a browser; resize the window to see them reflow.</p>
+</div>
+
+<div class="grid">
+
+  <!-- 1 NEWSPRINT -->
+  <div class="cell">
+    <div class="cap"><b>1 · Newsprint puzzle desk</b><span class="tag">Daily</span><br>Editorial serif, paper stock, letterpress red. Calm, literary, "earned smart."</div>
+    <div class="frame">
+      <div style="background:#f3eddd; color:#211e18; border:1px solid #211e18; border-radius:3px; font-family:var(--serif); padding:24px;">
+        <div style="display:flex; justify-content:space-between; align-items:flex-end; border-bottom:3px double #211e18; padding-bottom:8px;">
+          <div style="font-size:27px; letter-spacing:1px;">Cluedown</div>
+          <div style="display:flex; align-items:center; gap:5px; font-size:13px; color:#5b5343;"><i class="ti ti-flame"></i>7</div>
+        </div>
+        <div style="display:flex; justify-content:space-between; font-size:11px; letter-spacing:1.5px; text-transform:uppercase; margin-top:8px; color:#6b6250;">
+          <span>Daily · Tuesday, June 28</span><span>No. 142</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:14px; margin:22px 0 4px;">
+          <div style="border:1.5px solid #9a2b1a; color:#9a2b1a; border-radius:3px; padding:4px 12px; text-align:center; line-height:1;">
+            <div style="font-size:34px;">5</div>
+            <div style="font-size:10px; letter-spacing:2px; text-transform:uppercase; margin-top:3px;">points</div>
+          </div>
+          <div style="font-size:14px; color:#3a352b; line-height:1.5;">First clue of four.<br>Guess now for the full five.</div>
+        </div>
+        <p style="font-size:21px; line-height:1.55; margin:18px 0 16px;">A single day on this world lasts longer than its whole year — and it spins backward compared to most of its neighbors.</p>
+        <div style="font-size:12px; letter-spacing:2px; text-transform:uppercase; color:#6b6250; border-top:1px solid #c9bfa6; border-bottom:1px solid #c9bfa6; padding:7px 0; margin-bottom:20px; display:flex; gap:10px;">
+          <span style="color:#9a2b1a;">5</span><span>4</span><span>3</span><span>2</span><span style="margin-left:auto; letter-spacing:1px; text-transform:none; font-style:italic;">value falls each clue</span>
+        </div>
+        <div style="display:flex; gap:10px; align-items:stretch; margin-bottom:14px;">
+          <div style="flex:1; border-bottom:1.5px solid #211e18; font-size:16px; color:#9b9483; padding:8px 2px;">Your answer…</div>
+          <div style="border:1.5px solid #211e18; border-radius:3px; padding:9px 20px; font-size:15px; background:#211e18; color:#f3eddd;">Guess</div>
+        </div>
+        <div style="display:flex; justify-content:space-between; align-items:center; font-size:14px;">
+          <span style="border-bottom:1px solid #211e18; padding-bottom:1px;">Reveal next clue <span style="color:#9a2b1a;">(−1 point)</span></span>
+          <span style="color:#6b6250; display:flex; align-items:center; gap:4px;"><i class="ti ti-flag"></i>Give up</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2 BRUTALIST -->
+  <div class="cell">
+    <div class="cap"><b>2 · Neo-brutalist party</b><span class="tag">Party</span><br>Thick ink borders, hard offset shadows, blocky color. Loud, legible across a room.</div>
+    <div class="frame">
+      <div style="background:#fffdf3; color:#14110c; border:3px solid #14110c; box-shadow:7px 7px 0 #14110c; font-family:var(--sans);">
+        <div style="background:#ffd23f; border-bottom:3px solid #14110c; padding:13px 16px; display:flex; justify-content:space-between; align-items:center;">
+          <div style="font-size:22px; font-weight:700; letter-spacing:-0.5px;">CLUEDOWN</div>
+          <div style="background:#14110c; color:#ffd23f; font-size:12px; font-weight:600; padding:4px 9px; display:flex; align-items:center; gap:5px;"><i class="ti ti-flame"></i>7</div>
+        </div>
+        <div style="padding:16px;">
+          <div style="display:flex; gap:10px; margin-bottom:16px;">
+            <div style="background:#4f7cff; color:#fff; border:3px solid #14110c; padding:8px 14px; text-align:center;">
+              <div style="font-size:30px; font-weight:700; line-height:1;">5</div>
+              <div style="font-size:11px; font-weight:600; letter-spacing:1px;">PTS NOW</div>
+            </div>
+            <div style="flex:1; border:3px solid #14110c; padding:8px 12px; display:flex; flex-direction:column; justify-content:center;">
+              <div style="font-size:12px; font-weight:600; color:#6a6555;">CLUE</div>
+              <div style="font-size:22px; font-weight:700;">1 <span style="color:#9b9686;">of 4</span></div>
+            </div>
+          </div>
+          <div style="border:3px solid #14110c; background:#fff; padding:15px; font-size:18px; line-height:1.5; margin-bottom:14px;">
+            A single day on this world lasts longer than its whole year — and it spins <span style="background:#ff5c8a; padding:0 3px;">backward</span> compared to most of its neighbors.
+          </div>
+          <div style="display:flex; gap:7px; margin-bottom:16px;">
+            <div style="flex:1; height:12px; background:#14110c; border:2px solid #14110c;"></div>
+            <div style="flex:1; height:12px; background:#fffdf3; border:2px solid #14110c;"></div>
+            <div style="flex:1; height:12px; background:#fffdf3; border:2px solid #14110c;"></div>
+            <div style="flex:1; height:12px; background:#fffdf3; border:2px solid #14110c;"></div>
+          </div>
+          <div style="border:3px solid #14110c; font-size:16px; color:#9b9686; padding:11px 12px; margin-bottom:12px;">Type your guess</div>
+          <div style="display:flex; gap:10px;">
+            <div style="flex:2; background:#14110c; color:#fffdf3; border:3px solid #14110c; box-shadow:4px 4px 0 #4f7cff; text-align:center; font-size:17px; font-weight:700; padding:12px;">Guess it</div>
+            <div style="flex:1; background:#fffdf3; border:3px solid #14110c; text-align:center; font-size:14px; font-weight:600; padding:12px 6px; line-height:1.2;">Next clue<br><span style="color:#6a6555;">−1</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3 ARCADE -->
+  <div class="cell">
+    <div class="cap"><b>3 · Dark arcade buzzer</b><span class="tag">Party</span><br>Near-black surface, electric lime CTA, mono micro-labels. Tense, buzz-in, game-night.</div>
+    <div class="frame">
+      <div style="background:#0d1014; color:#e7edf3; border:1px solid #232a33; border-radius:22px; font-family:var(--sans); padding:22px 20px 24px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:22px;">
+          <div style="display:flex; align-items:center; gap:8px;">
+            <span style="width:9px; height:9px; border-radius:50%; background:#c6f24e;"></span>
+            <span style="font-size:18px; font-weight:600;">Cluedown</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:14px; font-family:var(--mono); font-size:12px; color:#7c8794;">
+            <span>DAILY · 06.28</span>
+            <span style="color:#f0a93b; display:flex; align-items:center; gap:4px;"><i class="ti ti-flame"></i>7</span>
+          </div>
+        </div>
+        <div style="text-align:center; margin-bottom:22px;">
+          <div style="font-family:var(--mono); font-size:11px; letter-spacing:3px; color:#7c8794;">POINTS ON THE LINE</div>
+          <div style="font-size:64px; font-weight:700; line-height:1.05; color:#c6f24e;">5</div>
+          <div style="display:flex; justify-content:center; gap:8px; margin-top:4px;">
+            <span style="width:22px; height:5px; border-radius:3px; background:#c6f24e;"></span>
+            <span style="width:22px; height:5px; border-radius:3px; background:#2b333d;"></span>
+            <span style="width:22px; height:5px; border-radius:3px; background:#2b333d;"></span>
+            <span style="width:22px; height:5px; border-radius:3px; background:#2b333d;"></span>
+          </div>
+        </div>
+        <div style="background:#151a21; border:1px solid #242c36; border-radius:14px; padding:16px; font-size:17px; line-height:1.55; margin-bottom:18px;">
+          <span style="font-family:var(--mono); font-size:11px; letter-spacing:2px; color:#7c8794;">CLUE 01 / 04</span><br>
+          A single day on this world lasts longer than its whole year — and it spins backward compared to most of its neighbors.
+        </div>
+        <div style="background:#151a21; border:1px solid #242c36; border-radius:12px; color:#6f7a87; font-size:16px; padding:13px 14px; margin-bottom:12px;">Type to buzz in…</div>
+        <div style="display:flex; gap:10px;">
+          <div style="flex:2; background:#c6f24e; color:#10160a; border-radius:12px; text-align:center; font-size:17px; font-weight:700; padding:14px;">Buzz · guess</div>
+          <div style="flex:1; border:1px solid #2f3742; color:#aeb8c2; border-radius:12px; text-align:center; font-size:14px; padding:14px 6px; line-height:1.2;">Next<br><span style="color:#7c8794;">−1 pt</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4 SOFT -->
+  <div class="cell">
+    <div class="cap"><b>4 · Soft minimalist</b><span class="tag">Daily</span><br>Warm off-white, rounded, one coral accent, lots of air. Friendly, low-pressure, Wordle-clean.</div>
+    <div class="frame">
+      <div style="background:#faf6f1; color:#33302b; border:1px solid #ece5db; border-radius:28px; font-family:var(--sans); padding:26px 24px 28px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:30px;">
+          <div style="font-size:19px; font-weight:600;">Cluedown</div>
+          <div style="display:flex; align-items:center; gap:6px; font-size:13px; color:#8c8478; background:#f1ebe2; padding:5px 11px; border-radius:20px;"><i class="ti ti-flame"></i>7 day streak</div>
+        </div>
+        <div style="display:flex; align-items:baseline; gap:8px; margin-bottom:6px;">
+          <span style="font-size:13px; color:#9a9286;">Clue 1 of 4</span>
+          <span style="margin-left:auto; font-size:13px; color:#cf7355; background:#f7e7e0; padding:4px 12px; border-radius:20px; font-weight:600;">5 points</span>
+        </div>
+        <p style="font-size:21px; line-height:1.6; font-weight:400; margin:14px 0 26px; color:#3d3933;">A single day on this world lasts longer than its whole year — and it spins backward compared to most of its neighbors.</p>
+        <div style="display:flex; gap:6px; margin-bottom:26px;">
+          <div style="flex:1; height:5px; border-radius:3px; background:#cf7355;"></div>
+          <div style="flex:1; height:5px; border-radius:3px; background:#e8ded2;"></div>
+          <div style="flex:1; height:5px; border-radius:3px; background:#e8ded2;"></div>
+          <div style="flex:1; height:5px; border-radius:3px; background:#e8ded2;"></div>
+        </div>
+        <div style="background:#fff; border:1px solid #ece5db; border-radius:16px; color:#a59c8f; font-size:16px; padding:14px 16px; margin-bottom:12px;">What's your guess?</div>
+        <div style="background:#cf7355; color:#fff; border-radius:16px; text-align:center; font-size:17px; font-weight:600; padding:15px; margin-bottom:14px;">Guess</div>
+        <div style="text-align:center; font-size:14px; color:#8c8478;">Not sure? <span style="color:#cf7355; border-bottom:1px solid #e2b6a6; padding-bottom:1px;">Show the next clue</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5 GAME SHOW -->
+  <div class="cell">
+    <div class="cap"><b>5 · Game-show stage</b><span class="tag">Party</span><br>Deep royal blue, gold medallion points, display type. Premium TV, "lock it in" drama.</div>
+    <div class="frame">
+      <div style="background:#0c1f4a; color:#f3eede; border:1px solid #21356b; border-radius:18px; font-family:var(--sans); padding:24px 22px 26px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+          <div style="font-family:var(--serif); font-size:23px; font-weight:600; color:#e8b94a; letter-spacing:0.5px;">Cluedown</div>
+          <div style="display:flex; align-items:center; gap:5px; font-size:13px; color:#e8b94a; border:1px solid #6a5a2e; padding:4px 10px; border-radius:20px;"><i class="ti ti-flame"></i>7</div>
+        </div>
+        <div style="text-align:center; font-size:11px; letter-spacing:3px; text-transform:uppercase; color:#8ea0c9; margin-bottom:20px;">Daily round · June 28</div>
+        <div style="display:flex; flex-direction:column; align-items:center; margin-bottom:20px;">
+          <div style="width:78px; height:78px; border-radius:50%; background:#e8b94a; border:3px solid #f6dd9b; display:flex; flex-direction:column; align-items:center; justify-content:center; color:#0c1f4a;">
+            <span style="font-size:32px; font-weight:700; line-height:1;">5</span>
+            <span style="font-size:9px; letter-spacing:1.5px; text-transform:uppercase;">points</span>
+          </div>
+          <div style="font-size:12px; letter-spacing:2px; text-transform:uppercase; color:#8ea0c9; margin-top:8px;">Clue 1 of 4</div>
+        </div>
+        <div style="background:#112860; border:1px solid #2a4080; border-radius:12px; padding:18px 16px; text-align:center; font-size:18px; line-height:1.55; margin-bottom:18px;">
+          A single day on this world lasts longer than its whole year — and it spins backward compared to most of its neighbors.
+        </div>
+        <div style="display:flex; justify-content:center; gap:9px; margin-bottom:20px;">
+          <span style="width:10px; height:10px; border-radius:50%; background:#e8b94a;"></span>
+          <span style="width:10px; height:10px; border-radius:50%; background:#23386f;"></span>
+          <span style="width:10px; height:10px; border-radius:50%; background:#23386f;"></span>
+          <span style="width:10px; height:10px; border-radius:50%; background:#23386f;"></span>
+        </div>
+        <div style="background:#0a1838; border:1px solid #2a4080; border-radius:12px; color:#7e90ba; font-size:16px; padding:13px 14px; margin-bottom:12px; text-align:center;">Enter your answer</div>
+        <div style="background:#e8b94a; color:#0c1f4a; border-radius:12px; text-align:center; font-size:17px; font-weight:700; padding:14px; margin-bottom:13px;">Lock in your guess</div>
+        <div style="text-align:center; font-size:14px; color:#8ea0c9;"><i class="ti ti-arrow-right"></i> Next clue, drop to 4 points</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6 GLASS -->
+  <div class="cell">
+    <div class="cap"><b>6 · Modern glass</b><span class="tag">Either</span><br>Soft lavender canvas, layered translucent cards, indigo accent. Safe, contemporary, default-SaaS.</div>
+    <div class="frame">
+      <div style="background:#e9ecfb; border-radius:30px; padding:14px;">
+        <div style="background:rgba(255,255,255,0.72); border:1px solid rgba(255,255,255,0.9); border-radius:24px; box-shadow:0 14px 34px rgba(70,80,170,0.16); color:#2a2e45; font-family:var(--sans); padding:24px 22px 26px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:24px;">
+            <div style="font-size:19px; font-weight:600;">Cluedown</div>
+            <div style="display:flex; align-items:center; gap:6px; font-size:13px; color:#5b6cff; background:rgba(91,108,255,0.1); padding:5px 11px; border-radius:20px;"><i class="ti ti-flame"></i>7</div>
+          </div>
+          <div style="display:flex; align-items:center; gap:14px; margin-bottom:20px;">
+            <div style="background:rgba(91,108,255,0.1); border-radius:18px; padding:10px 16px; text-align:center;">
+              <div style="font-size:30px; font-weight:700; color:#5b6cff; line-height:1;">5</div>
+              <div style="font-size:11px; color:#7a7fa0; letter-spacing:0.5px;">points</div>
+            </div>
+            <div>
+              <div style="font-size:15px; font-weight:600;">Clue 1 of 4</div>
+              <div style="font-size:13px; color:#7a7fa0;">Guess early for more</div>
+            </div>
+          </div>
+          <div style="background:rgba(255,255,255,0.85); border:1px solid rgba(120,130,200,0.16); border-radius:18px; padding:17px; font-size:18px; line-height:1.55; margin-bottom:18px;">
+            A single day on this world lasts longer than its whole year — and it spins backward compared to most of its neighbors.
+          </div>
+          <div style="display:flex; gap:6px; margin-bottom:20px;">
+            <div style="flex:1; height:6px; border-radius:3px; background:#5b6cff;"></div>
+            <div style="flex:1; height:6px; border-radius:3px; background:rgba(91,108,255,0.18);"></div>
+            <div style="flex:1; height:6px; border-radius:3px; background:rgba(91,108,255,0.18);"></div>
+            <div style="flex:1; height:6px; border-radius:3px; background:rgba(91,108,255,0.18);"></div>
+          </div>
+          <div style="background:rgba(255,255,255,0.9); border:1px solid rgba(120,130,200,0.2); border-radius:14px; color:#9499b8; font-size:16px; padding:14px 15px; margin-bottom:11px;">Type your guess</div>
+          <div style="background:#5b6cff; color:#fff; border-radius:14px; text-align:center; font-size:17px; font-weight:600; padding:15px; box-shadow:0 8px 18px rgba(91,108,255,0.32); margin-bottom:13px;">Submit guess</div>
+          <div style="text-align:center; font-size:14px; color:#7a7fa0;">Show next clue · <span style="color:#5b6cff;">−1 point</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

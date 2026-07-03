@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cluedown — cute concepts</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.7.0/dist/tabler-icons.min.css">
+<style>
+  :root{
+    --sans:"Nunito", "Quicksand", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --mono:ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+  *{box-sizing:border-box}
+  body{margin:0; background:#e8e8e6; font-family:var(--sans); color:#1c1c1a; padding:40px 24px 80px;}
+  .page-head{max-width:1280px; margin:0 auto 32px;}
+  .page-head h1{font-size:26px; font-weight:800; margin:0 0 6px;}
+  .page-head p{margin:0; color:#5f5e5a; font-size:15px; line-height:1.6; max-width:780px;}
+  .grid{max-width:1280px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit, minmax(360px, 1fr)); gap:36px 28px;}
+  .cell{display:flex; flex-direction:column; gap:10px;}
+  .cap{font-size:14px; color:#3d3c39; line-height:1.5;}
+  .cap b{font-weight:800; color:#1c1c1a;}
+  .cap .tag{display:inline-block; font-size:11px; letter-spacing:.5px; text-transform:uppercase; background:#1c1c1a; color:#fff; padding:2px 8px; border-radius:20px; margin-left:6px; vertical-align:1px;}
+  .cap .note{color:#8a8984; font-size:12.5px;}
+  .frame{margin:0 auto; width:100%; max-width:392px;}
+  .ti{font-style:normal;}
+</style>
+</head>
+<body>
+
+<div class="page-head">
+  <h1>Cluedown — cuter concepts (with room for a mascot)</h1>
+  <p>Same Venus moment as before, in a softer register. The mascots are rough placeholders — simple blobs to show where a character would live and how it would carry the clue, not finished art. A clue game wants a little detective, so each mascot leans that way.</p>
+</div>
+
+<div class="grid">
+
+  <!-- A · CLUE BUDDY -->
+  <div class="cell">
+    <div class="cap"><b>A · Clue Buddy</b><span class="tag">Mascot-forward</span><br>The mascot hands you each clue from a speech bubble. Cozy cream + mint. <span class="note">Mascot = placeholder.</span></div>
+    <div class="frame">
+      <div style="background:#fdf8ee; color:#2a2620; border:1px solid #efe3cf; border-radius:30px; padding:22px 22px 24px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:18px;">
+          <div style="font-size:21px; font-weight:800; color:#2f9e6f;">Cluedown</div>
+          <div style="display:flex; align-items:center; gap:5px; font-size:13px; font-weight:700; color:#e07a55; background:#fce9df; padding:5px 11px; border-radius:20px;"><i class="ti ti-flame"></i>7</div>
+        </div>
+
+        <div style="display:flex; align-items:baseline; margin-bottom:12px;">
+          <span style="font-size:13px; font-weight:700; color:#a89a82;">Clue 1 of 4</span>
+          <span style="margin-left:auto; font-size:13px; font-weight:800; color:#2f9e6f; background:#dff3e8; padding:4px 12px; border-radius:20px;">5 points</span>
+        </div>
+
+        <div style="position:relative; background:#fff; border:1px solid #ecdfca; border-radius:20px; padding:16px 18px; font-size:18px; line-height:1.5; margin-bottom:6px;">
+          A single day on this world lasts longer than its whole year — and it spins backward compared to most of its neighbors.
+          <div style="position:absolute; left:34px; bottom:-9px; width:18px; height:18px; background:#fff; border-right:1px solid #ecdfca; border-bottom:1px solid #ecdfca; transform:rotate(45deg);"></div>
+        </div>
+
+        <div style="display:flex; align-items:flex-end; gap:10px; margin:10px 0 18px;">
+          <svg viewBox="0 0 112 100" width="86" height="77" aria-hidden="true">
+            <ellipse cx="50" cy="58" rx="33" ry="31" fill="#7ed0a3"/>
+            <path d="M30 34 q6 -12 14 -6" stroke="#5bbd8a" stroke-width="5" fill="none" stroke-linecap="round"/>
+            <ellipse cx="50" cy="64" rx="20" ry="20" fill="#d3f0e1"/>
+            <circle cx="41" cy="52" r="5.5" fill="#243b32"/><circle cx="59" cy="52" r="5.5" fill="#243b32"/>
+            <circle cx="43" cy="50" r="1.8" fill="#fff"/><circle cx="61" cy="50" r="1.8" fill="#fff"/>
+            <circle cx="33" cy="61" r="4" fill="#f49ab0" opacity=".6"/><circle cx="67" cy="61" r="4" fill="#f49ab0" opacity=".6"/>
+            <path d="M45 63 Q50 68 55 63" stroke="#243b32" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+            <circle cx="90" cy="56" r="12" fill="#bfe9ff" opacity=".55"/>
+            <circle cx="90" cy="56" r="12" fill="none" stroke="#243b32" stroke-width="3.5"/>
+            <line x1="82" y1="64" x2="74" y2="72" stroke="#243b32" stroke-width="5" stroke-linecap="round"/>
+          </svg>
+          <div style="font-size:13px; color:#9a8d77; padding-bottom:8px;">Take a guess, or ask Buddy for clue 2.</div>
+        </div>
+
+        <div style="background:#fff; border:1px solid #ecdfca; border-radius:16px; color:#b3a78f; font-size:16px; padding:14px 16px; margin-bottom:11px;">Type your guess…</div>
+        <div style="background:#2f9e6f; color:#fff; border-radius:16px; text-align:center; font-size:17px; font-weight:800; padding:15px; margin-bottom:13px;">Guess</div>
+        <div style="text-align:center; font-size:14px; font-weight:700; color:#9a8d77;">Next clue <span style="color:#e07a55;">· −1 point</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- B · STICKER POP -->
+  <div class="cell">
+    <div class="cap"><b>B · Sticker pop</b><span class="tag">Daily</span><br>Chunky rounded cards, pressable buttons, mascot peeking over the clue. Duolingo energy. <span class="note">Mascot = placeholder.</span></div>
+    <div class="frame">
+      <div style="background:#f2eefb; color:#312a47; border:1px solid #e3daf6; border-radius:28px; padding:22px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
+          <div style="font-size:21px; font-weight:800; color:#7c5cdb;">Cluedown</div>
+          <div style="display:flex; align-items:center; gap:5px; font-size:14px; font-weight:800; color:#fff; background:#ffae42; padding:5px 12px; border-radius:20px; box-shadow:0 3px 0 #e0901f;"><i class="ti ti-flame"></i>7</div>
+        </div>
+
+        <div style="display:flex; align-items:center; gap:14px; margin-bottom:8px;">
+          <div style="background:#fff; border-radius:20px; padding:10px 16px; text-align:center; box-shadow:0 5px 0 #ddd0f5;">
+            <div style="font-size:30px; font-weight:800; color:#7c5cdb; line-height:1;">5</div>
+            <div style="font-size:11px; font-weight:700; color:#9b8fc0;">points</div>
+          </div>
+          <div style="font-size:14px; font-weight:700; color:#6f6594; line-height:1.4;">Clue 1 of 4<br><span style="color:#a99fce; font-weight:600;">guess early, score big</span></div>
+        </div>
+
+        <div style="position:relative; margin-top:14px;">
+          <svg viewBox="0 0 100 100" width="58" height="58" aria-hidden="true" style="position:absolute; right:10px; top:-34px;">
+            <ellipse cx="50" cy="56" rx="32" ry="30" fill="#ff96b8"/>
+            <path d="M26 30 l-4 -16 16 8z" fill="#ff96b8"/><path d="M74 30 l4 -16 -16 8z" fill="#ff96b8"/>
+            <ellipse cx="50" cy="62" rx="19" ry="18" fill="#ffd2e0"/>
+            <circle cx="41" cy="52" r="5" fill="#3a2440"/><circle cx="59" cy="52" r="5" fill="#3a2440"/>
+            <circle cx="43" cy="50" r="1.6" fill="#fff"/><circle cx="61" cy="50" r="1.6" fill="#fff"/>
+            <circle cx="34" cy="60" r="3.5" fill="#ff6f9c" opacity=".55"/><circle cx="66" cy="60" r="3.5" fill="#ff6f9c" opacity=".55"/>
+            <path d="M45 62 Q50 67 55 62" stroke="#3a2440" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+          </svg>
+          <div style="background:#fff; border-radius:22px; padding:18px; font-size:18px; line-height:1.5; box-shadow:0 6px 0 #ddd0f5;">
+            A single day on this world lasts longer than its whole year — and it spins backward compared to most of its neighbors.
+          </div>
+        </div>
+
+        <div style="display:flex; gap:8px; margin:18px 0;">
+          <div style="flex:1; height:8px; border-radius:6px; background:#7c5cdb;"></div>
+          <div style="flex:1; height:8px; border-radius:6px; background:#ddd0f5;"></div>
+          <div style="flex:1; height:8px; border-radius:6px; background:#ddd0f5;"></div>
+          <div style="flex:1; height:8px; border-radius:6px; background:#ddd0f5;"></div>
+        </div>
+
+        <div style="background:#fff; border:none; border-radius:16px; color:#a99fce; font-size:16px; padding:14px 16px; margin-bottom:12px; box-shadow:0 4px 0 #ddd0f5;">Type your guess</div>
+        <div style="background:#7c5cdb; color:#fff; border-radius:16px; text-align:center; font-size:18px; font-weight:800; padding:15px; box-shadow:0 5px 0 #5a3fb0; margin-bottom:14px;">Guess!</div>
+        <div style="text-align:center; font-size:14px; font-weight:700; color:#9b8fc0;">Show next clue · −1</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- C · COSMIC KAWAII -->
+  <div class="cell">
+    <div class="cap"><b>C · Cosmic kawaii</b><span class="tag">Daily</span><br>Soft dusk, twinkles, a smiley star mascot. Leans into the celestial questions. <span class="note">Mascot = placeholder.</span></div>
+    <div class="frame">
+      <div style="position:relative; overflow:hidden; background:#211b40; color:#efe9ff; border:1px solid #3a3168; border-radius:28px; padding:22px;">
+        <span style="position:absolute; top:18px; left:30px; color:#ffd66e; font-size:10px;">✦</span>
+        <span style="position:absolute; top:60px; right:28px; color:#ff9ecb; font-size:8px;">✦</span>
+        <span style="position:absolute; bottom:120px; left:22px; color:#9ad8ff; font-size:9px;">✦</span>
+        <span style="position:absolute; top:120px; right:60px; color:#efe9ff; font-size:7px;">✦</span>
+
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:18px;">
+          <div style="font-size:21px; font-weight:800; color:#ffd66e;">Cluedown</div>
+          <div style="display:flex; align-items:center; gap:5px; font-size:13px; font-weight:700; color:#ff9ecb; background:#3a2a52; padding:5px 11px; border-radius:20px;"><i class="ti ti-flame"></i>7</div>
+        </div>
+
+        <div style="display:flex; flex-direction:column; align-items:center; margin-bottom:16px;">
+          <svg viewBox="0 0 100 100" width="76" height="76" aria-hidden="true">
+            <path d="M50 8 l11 24 26 3 -19 18 5 26 -23 -13 -23 13 5 -26 -19 -18 26 -3z" fill="#ffd66e"/>
+            <circle cx="43" cy="46" r="4" fill="#3a2440"/><circle cx="57" cy="46" r="4" fill="#3a2440"/>
+            <circle cx="35" cy="52" r="3" fill="#ff9ecb" opacity=".6"/><circle cx="65" cy="52" r="3" fill="#ff9ecb" opacity=".6"/>
+            <path d="M45 53 Q50 58 55 53" stroke="#3a2440" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+          </svg>
+          <div style="font-size:12px; letter-spacing:1.5px; text-transform:uppercase; color:#b3a8e0; margin-top:4px;">Clue 1 of 4 · worth 5</div>
+        </div>
+
+        <div style="background:#2c2456; border:1px solid #423a73; border-radius:20px; padding:17px; font-size:17px; line-height:1.55; text-align:center; margin-bottom:18px;">
+          A single day on this world lasts longer than its whole year — and it spins backward compared to most of its neighbors.
+        </div>
+
+        <div style="display:flex; justify-content:center; gap:9px; margin-bottom:18px;">
+          <span style="font-size:14px; color:#ffd66e;">★</span>
+          <span style="font-size:14px; color:#4a3f7d;">★</span>
+          <span style="font-size:14px; color:#4a3f7d;">★</span>
+          <span style="font-size:14px; color:#4a3f7d;">★</span>
+        </div>
+
+        <div style="background:#1a1535; border:1px solid #423a73; border-radius:14px; color:#8a7fbe; font-size:16px; padding:13px 15px; margin-bottom:11px;">Make a wish… er, a guess</div>
+        <div style="background:#ff9ecb; color:#3a1a2c; border-radius:14px; text-align:center; font-size:17px; font-weight:800; padding:14px; margin-bottom:13px;">Guess</div>
+        <div style="text-align:center; font-size:14px; font-weight:700; color:#b3a8e0;">Reveal next clue · −1 point</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- D · COZY TABLETOP -->
+  <div class="cell">
+    <div class="cap"><b>D · Cozy tabletop</b><span class="tag">Party</span><br>Board-game night: parchment, felt strip, a meeple mascot. Warm and tactile. <span class="note">Mascot = placeholder.</span></div>
+    <div class="frame">
+      <div style="background:#f2e6cd; color:#3a2f20; border:1px solid #ddc9a3; border-radius:20px; padding:22px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+          <div style="font-size:21px; font-weight:800; color:#b5462f;">Cluedown</div>
+          <div style="display:flex; align-items:center; gap:5px; font-size:13px; font-weight:800; color:#5a3f1e; background:#e6cf9f; border:1px solid #cdb27c; padding:5px 11px; border-radius:20px;"><i class="ti ti-flame"></i>7</div>
+        </div>
+
+        <div style="display:flex; align-items:center; gap:12px; background:#3f7d5a; border-radius:14px; padding:12px 14px; margin-bottom:16px;">
+          <svg viewBox="0 0 100 110" width="44" height="48" aria-hidden="true">
+            <path d="M50 10 a13 13 0 0 1 9 22 l20 9 a8 8 0 0 1 5 7 v6 h-26 l-3 42 h-10 l-3 -42 h-26 v-6 a8 8 0 0 1 5 -7 l20 -9 a13 13 0 0 1 9 -22z" fill="#f2e6cd"/>
+            <circle cx="45" cy="22" r="2.6" fill="#3a2f20"/><circle cx="55" cy="22" r="2.6" fill="#3a2f20"/>
+            <path d="M46 28 Q50 31 54 28" stroke="#3a2f20" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+          </svg>
+          <div style="color:#eaf5ee;">
+            <div style="font-size:12px; letter-spacing:1px; text-transform:uppercase; color:#bfe0cc;">Your turn</div>
+            <div style="font-size:18px; font-weight:800;">Clue 1 of 4 · 5 pts</div>
+          </div>
+        </div>
+
+        <div style="background:#fbf4e3; border:1px solid #3a2f20; border-radius:10px; padding:16px; font-size:18px; line-height:1.5; margin-bottom:16px; box-shadow:3px 3px 0 #ddc9a3;">
+          A single day on this world lasts longer than its whole year — and it spins backward compared to most of its neighbors.
+        </div>
+
+        <div style="display:flex; gap:7px; margin-bottom:16px;">
+          <div style="flex:1; height:10px; border-radius:5px; background:#b5462f;"></div>
+          <div style="flex:1; height:10px; border-radius:5px; background:#e0cba1;"></div>
+          <div style="flex:1; height:10px; border-radius:5px; background:#e0cba1;"></div>
+          <div style="flex:1; height:10px; border-radius:5px; background:#e0cba1;"></div>
+        </div>
+
+        <div style="background:#fbf4e3; border:1px solid #cdb27c; border-radius:10px; color:#a99372; font-size:16px; padding:13px 15px; margin-bottom:12px;">Type your guess</div>
+        <div style="display:flex; gap:10px;">
+          <div style="flex:2; background:#b5462f; color:#fdf3e0; border-radius:10px; text-align:center; font-size:17px; font-weight:800; padding:14px;">Lock it in</div>
+          <div style="flex:1; background:#fbf4e3; border:1px solid #cdb27c; color:#5a3f1e; border-radius:10px; text-align:center; font-size:14px; font-weight:700; padding:14px 6px; line-height:1.2;">Next<br>−1</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cluedown — cosmic game show</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.7.0/dist/tabler-icons.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{ --display:"Fredoka", system-ui, sans-serif; --gold:#e8b94a; --gold-lt:#f6dd9b; --cream:#f3eede; }
+  *{box-sizing:border-box}
+  body{margin:0; background:#e8e8e6; font-family:var(--display); color:#1c1c1a; padding:40px 24px 80px;}
+  .page-head{max-width:880px; margin:0 auto 32px;}
+  .page-head h1{font-size:26px; font-weight:600; margin:0 0 6px;}
+  .page-head p{margin:0; color:#5f5e5a; font-size:15px; line-height:1.6; max-width:760px; font-weight:400;}
+  .grid{max-width:880px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit, minmax(360px, 1fr)); gap:36px 28px;}
+  .cell{display:flex; flex-direction:column; gap:12px;}
+  .cap{font-size:14px; color:#3d3c39; line-height:1.5; font-weight:400;}
+  .cap b{font-weight:600; color:#1c1c1a;}
+  .cap .tag{display:inline-block; font-size:11px; letter-spacing:.5px; text-transform:uppercase; background:#1c1c1a; color:#fff; padding:2px 8px; border-radius:20px; margin-left:6px; vertical-align:1px; font-weight:500;}
+  .frame{margin:0 auto; width:100%; max-width:400px;}
+  .ti{font-style:normal;}
+  .twk{position:absolute; color:#cdb9ff;}
+  .bulbs{display:flex; justify-content:center; gap:9px; margin-bottom:10px;}
+  .bulb{width:6px; height:6px; border-radius:50%; background:var(--gold); box-shadow:0 0 7px rgba(232,185,74,.8);}
+  .bulb.off{background:#4a4170; box-shadow:none;}
+  .pill-streak{display:flex; align-items:center; gap:5px; font-size:13px; font-weight:600; color:#1f2350; background:linear-gradient(180deg,#f6dd9b,#e8b94a); padding:5px 12px; border-radius:20px;}
+  .medallion{width:96px; height:96px; border-radius:50%; border:3px solid var(--gold-lt);
+    background:radial-gradient(circle at 38% 30%, #fdeebd, #ecc45f 46%, #c8993a 100%);
+    box-shadow:0 0 30px rgba(232,185,74,.45), inset 0 -7px 11px rgba(132,94,26,.45), inset 0 4px 9px rgba(255,255,255,.55);
+    display:flex; flex-direction:column; align-items:center; justify-content:center; color:#3a2c0a; position:relative;}
+  .medallion .shine{position:absolute; top:11px; left:20px; width:24px; height:14px; border-radius:50%; background:rgba(255,255,255,.55); transform:rotate(-20deg);}
+  .ladder{display:flex; justify-content:center; gap:11px;}
+  .lb{width:13px; height:13px; border-radius:50%; background:#2a2456; border:2px solid #4a4170;}
+  .lb.on{background:radial-gradient(circle at 38% 32%, #fdeebd, #e8b94a 70%); border-color:var(--gold-lt); box-shadow:0 0 10px rgba(232,185,74,.7);}
+  .field{border-radius:14px; font-size:16px; padding:13px 15px; font-weight:400;}
+  .btn-gold{background:linear-gradient(180deg,#f6dd9b,#e8b94a); color:#27306a; border-radius:14px; text-align:center; font-size:18px; font-weight:600; padding:15px; box-shadow:0 5px 16px rgba(232,185,74,.35);}
+</style>
+</head>
+<body>
+
+<div class="page-head">
+  <h1>Cluedown — cosmic game show</h1>
+  <p>Option C's starlit, mascot-led feel, with a game-show layer on top: a gold points medallion as the "prize," marquee bulbs, lit-bulb point ladder, and a "lock it in" CTA. The space styling stays ambient — twinkles and the star host — so it never fights a non-space question. The smiley star wears a bowtie now (placeholder). Left is the recommended balance; right pushes the game-show dial further.</p>
+</div>
+
+<div class="grid">
+
+  <!-- A · STARLIT STAGE (recommended) -->
+  <div class="cell">
+    <div class="cap"><b>A · Starlit stage</b><span class="tag">Recommended</span><br>Cosmic base, game-show prize energy. Balanced ~60/40.</div>
+    <div class="frame">
+      <div style="position:relative; overflow:hidden; background:linear-gradient(180deg,#1d2c63 0%, #20254f 55%, #221b40 100%); color:var(--cream); border:1px solid #3a3168; border-radius:28px; padding:20px 22px 24px;">
+        <div style="position:absolute; top:-40px; left:50%; transform:translateX(-50%); width:240px; height:160px; background:radial-gradient(ellipse at center, rgba(255,240,200,.16), transparent 70%); pointer-events:none;"></div>
+        <span class="twk" style="top:64px; left:26px; font-size:9px;">✦</span>
+        <span class="twk" style="top:120px; right:24px; font-size:8px; color:#ff9ecb;">✦</span>
+        <span class="twk" style="bottom:150px; left:30px; font-size:7px; color:#9ad8ff;">✦</span>
+
+        <div class="bulbs"><span class="bulb"></span><span class="bulb off"></span><span class="bulb"></span><span class="bulb off"></span><span class="bulb"></span></div>
+
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+          <div style="font-size:22px; font-weight:600; color:var(--gold-lt); letter-spacing:.3px;">Cluedown</div>
+          <div class="pill-streak"><i class="ti ti-flame"></i>7</div>
+        </div>
+        <div style="text-align:center; font-size:11px; letter-spacing:2.5px; text-transform:uppercase; color:#9c92cc; margin-bottom:16px;">Daily round · clue 1 of 4</div>
+
+        <div style="display:flex; align-items:center; justify-content:center; gap:8px; margin-bottom:18px;">
+          <svg viewBox="0 0 100 116" width="60" height="70" aria-hidden="true">
+            <path d="M50 8 l11 24 26 3 -19 18 5 26 -23 -13 -23 13 5 -26 -19 -18 26 -3z" fill="#ffd66e" stroke="#f6dd9b" stroke-width="1.5"/>
+            <circle cx="43" cy="45" r="4" fill="#3a2440"/><circle cx="57" cy="45" r="4" fill="#3a2440"/>
+            <circle cx="35" cy="51" r="3" fill="#ff9ecb" opacity=".6"/><circle cx="65" cy="51" r="3" fill="#ff9ecb" opacity=".6"/>
+            <path d="M45 52 Q50 57 55 52" stroke="#3a2440" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+            <path d="M50 84 l-11 -5 v11 z" fill="#e8b94a"/><path d="M50 84 l11 -5 v11 z" fill="#e8b94a"/><circle cx="50" cy="84" r="3.4" fill="#c8993a"/>
+          </svg>
+          <div class="medallion"><span class="shine"></span>
+            <span style="font-size:32px; font-weight:600; line-height:1;">10</span>
+            <span style="font-size:9px; letter-spacing:1.5px; text-transform:uppercase; margin-top:1px;">points</span>
+          </div>
+        </div>
+
+        <div style="background:rgba(44,36,86,.65); border:1px solid #4a3f7d; border-radius:20px; padding:16px 16px 18px; text-align:center; position:relative; margin-bottom:18px;">
+          <div style="position:absolute; top:-11px; left:50%; transform:translateX(-50%); background:linear-gradient(180deg,#f6dd9b,#e8b94a); color:#27306a; font-size:11px; font-weight:600; letter-spacing:1px; text-transform:uppercase; padding:2px 12px; border-radius:20px;">Clue 1</div>
+          <div style="font-size:17px; line-height:1.55; margin-top:6px; font-weight:400;">A single day on this world lasts longer than its whole year — and it spins backward compared to most of its neighbors.</div>
+        </div>
+
+        <div class="ladder" style="margin-bottom:18px;"><span class="lb on"></span><span class="lb"></span><span class="lb"></span><span class="lb"></span></div>
+
+        <div class="field" style="background:#181433; border:1px solid #4a3f7d; color:#8a7fbe; margin-bottom:11px;">Type your answer…</div>
+        <div class="btn-gold" style="margin-bottom:13px;">Lock in your guess</div>
+        <div style="text-align:center; font-size:14px; font-weight:500; color:#b3a8e0;">Next clue <i class="ti ti-arrow-right" style="vertical-align:-2px;"></i> drops to 8 points · −1 per wrong guess</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- B · PRIME TIME (more game-show) -->
+  <div class="cell">
+    <div class="cap"><b>B · Prime time</b><span class="tag">More game-show</span><br>Royal-blue stage forward, gold louder, cosmic dialed back. ~40/60.</div>
+    <div class="frame">
+      <div style="position:relative; overflow:hidden; background:linear-gradient(180deg,#14245f 0%, #1a2a66 55%, #182253 100%); color:var(--cream); border:1px solid #2c3f86; border-radius:24px; padding:0 0 24px;">
+        <div style="background:linear-gradient(180deg, rgba(232,185,74,.16), transparent); border-bottom:1px solid #2c3f86; padding:11px 0 9px;">
+          <div class="bulbs" style="margin-bottom:0; gap:11px;"><span class="bulb"></span><span class="bulb"></span><span class="bulb"></span><span class="bulb"></span><span class="bulb"></span><span class="bulb"></span><span class="bulb"></span></div>
+        </div>
+        <span class="twk" style="top:80px; right:30px; font-size:8px;">✦</span>
+        <span class="twk" style="bottom:160px; left:26px; font-size:7px; color:#9ad8ff;">✦</span>
+
+        <div style="padding:16px 22px 0;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+            <div style="font-size:24px; font-weight:700; color:var(--gold-lt); letter-spacing:.3px;">Cluedown</div>
+            <div class="pill-streak"><i class="ti ti-flame"></i>7</div>
+          </div>
+          <div style="text-align:center; font-size:11px; letter-spacing:3px; text-transform:uppercase; color:#8fa0d6; margin-bottom:14px;">Daily round · clue 1 of 4</div>
+
+          <div style="position:relative; display:flex; flex-direction:column; align-items:center; margin-bottom:18px;">
+            <div style="position:absolute; top:-22px; width:220px; height:150px; background:radial-gradient(ellipse at center, rgba(255,240,200,.2), transparent 68%); pointer-events:none;"></div>
+            <div class="medallion" style="width:112px; height:112px;"><span class="shine"></span>
+              <span style="font-size:38px; font-weight:700; line-height:1;">10</span>
+              <span style="font-size:10px; letter-spacing:2px; text-transform:uppercase;">points</span>
+            </div>
+            <svg viewBox="0 0 100 110" width="40" height="44" aria-hidden="true" style="position:absolute; right:54px; bottom:-6px;">
+              <path d="M50 8 l11 24 26 3 -19 18 5 26 -23 -13 -23 13 5 -26 -19 -18 26 -3z" fill="#ffd66e" stroke="#f6dd9b" stroke-width="1.5"/>
+              <circle cx="43" cy="45" r="4.5" fill="#3a2440"/><circle cx="57" cy="45" r="4.5" fill="#3a2440"/>
+              <path d="M45 52 Q50 57 55 52" stroke="#3a2440" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+            </svg>
+            <div style="font-size:11px; letter-spacing:2px; text-transform:uppercase; color:#8fa0d6; margin-top:10px;">Guess now for the full ten</div>
+          </div>
+
+          <div style="background:#10204e; border:1px solid #2c3f86; border-radius:14px; padding:18px 16px; text-align:center; margin-bottom:16px;">
+            <div style="font-size:11px; letter-spacing:2px; text-transform:uppercase; color:#e8b94a; margin-bottom:7px;">Clue 1 of 4</div>
+            <div style="font-size:17px; line-height:1.55; font-weight:400;">A single day on this world lasts longer than its whole year — and it spins backward compared to most of its neighbors.</div>
+          </div>
+
+          <div class="ladder" style="margin-bottom:18px;"><span class="lb on"></span><span class="lb"></span><span class="lb"></span><span class="lb"></span></div>
+
+          <div class="field" style="background:#0d1a42; border:1px solid #2c3f86; color:#7e8fc6; margin-bottom:11px; text-align:center;">Type your answer</div>
+          <div class="btn-gold" style="border-radius:12px; margin-bottom:13px;">Lock in your guess</div>
+          <div style="text-align:center; font-size:14px; font-weight:500; color:#8fa0d6;">Pass · reveal next clue for 8 points</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
