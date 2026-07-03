@@ -71,6 +71,23 @@ export async function fetchDailyQuestionFromSupabase(
   return rowToQuestion(data.questions as unknown as QuestionRow);
 }
 
+export async function fetchRandomVerifiedQuestionFromSupabase(
+  exclude: string[],
+): Promise<Question | null> {
+  const sb = getServerSupabase();
+  const { data, error } = await sb
+    .from("questions")
+    .select("id")
+    .eq("status", "verified")
+    .limit(1000);
+  if (error || !data?.length) return null;
+  const ids = data.map((r) => r.id as string);
+  const pool = ids.filter((id) => !exclude.includes(id));
+  const from = pool.length ? pool : ids;
+  const pick = from[Math.floor(Math.random() * from.length)];
+  return fetchQuestionByIdFromSupabase(pick);
+}
+
 export async function fetchQuestionByIdFromSupabase(id: string): Promise<Question | null> {
   const sb = getServerSupabase();
   const { data, error } = await sb

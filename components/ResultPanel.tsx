@@ -13,9 +13,19 @@ interface ResultPanelProps {
   dailyNumber: number;
   clueCount: number;
   stats: PlayerStats;
+  onSecondary?: () => void;
+  secondaryLabel?: string;
 }
 
-export function ResultPanel({ round, answer, dailyNumber, clueCount, stats }: ResultPanelProps) {
+export function ResultPanel({
+  round,
+  answer,
+  dailyNumber,
+  clueCount,
+  stats,
+  onSecondary,
+  secondaryLabel,
+}: ResultPanelProps) {
   const [copied, setCopied] = useState(false);
   const won = round.status === "won";
   const misses = round.wrongGuesses.length;
@@ -116,6 +126,17 @@ export function ResultPanel({ round, answer, dailyNumber, clueCount, stats }: Re
         {copied ? "Copied!" : "Share result"}
       </button>
       <p className="mt-2 text-xs text-lav">Spoiler-free — never shows the answer.</p>
+
+      {onSecondary && (
+        <button
+          type="button"
+          onClick={onSecondary}
+          className="mt-4 w-full rounded-2xl border border-purple-line py-3 text-sm font-medium text-lav-lt hover:text-cream focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+        >
+          {secondaryLabel ?? "Keep playing"}{" "}
+          <i className="ti ti-arrow-right" style={{ verticalAlign: -2 }} aria-hidden />
+        </button>
+      )}
     </div>
   );
 }

@@ -1,21 +1,19 @@
 "use server";
 
 /**
- * Server actions for daily mode. The full question (with answer) never
- * leaves the server; the client receives clue text and match verdicts.
+ * Server actions for daily + practice mode. The full question (with answer)
+ * never leaves the server; the client receives clue text and match verdicts.
  */
 
 import { matchGuess } from "@/lib/game/answerMatch";
 import { dailyNumber } from "@/lib/game/daily";
-import type { Difficulty } from "@/lib/game/types";
-import { getDailyQuestion, getQuestionById } from "@/lib/questions/source";
+import type { Difficulty, Question } from "@/lib/game/types";
+import { getDailyQuestion, getQuestionById, getRandomQuestion } from "@/lib/questions/source";
 
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 
-export interface DailyPuzzleDto {
+export interface PuzzleDto {
   questionId: string;
-  dateStr: string;
-  dailyNumber: number;
   category: string;
   difficulty: Difficulty;
   clueCount: number;
@@ -23,18 +21,31 @@ export interface DailyPuzzleDto {
   clues: string[];
 }
 
-export async function fetchDailyPuzzle(dateStr: string): Promise<DailyPuzzleDto> {
-  if (!DATE_RE.test(dateStr)) throw new Error("Bad date");
-  const { question } = await getDailyQuestion(dateStr);
+export interface DailyPuzzleDto extends PuzzleDto {
+  dateStr: string;
+  dailyNumber: number;
+}
+
+function toPuzzleDto(question: Question): PuzzleDto {
   return {
     questionId: question.id,
-    dateStr,
-    dailyNumber: dailyNumber(dateStr),
     category: question.category,
     difficulty: question.difficulty,
     clueCount: question.clues.length,
-    clues: question.clues.map((c) => c.text),
+    clues: [...question.clues].sort((a, b) => a.position - b.position).map((c) => c.text),
   };
+}
+
+export async function fetchDailyPuzzle(dateStr: string): Promise<DailyPuzzleDto> {
+  if (!DATE_RE.test(dateStr)) throw new Error("Bad date");
+  const { question } = await getDailyQuestion(dateStr);
+  return { ...toPuzzleDto(question), dateStr, dailyNumber: dailyNumber(dateStr) };
+}
+
+/** A random verified question for endless practice, avoiding recent repeats. */
+export async function fetchPracticePuzzle(exclude: string[] = []): Promise<PuzzleDto> {
+  const question = await getRandomQuestion(exclude.slice(0, 50));
+  return toPuzzleDto(question);
 }
 
 export interface GuessVerdict {

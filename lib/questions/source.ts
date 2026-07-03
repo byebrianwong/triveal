@@ -12,7 +12,11 @@ import { dailyQuestionIndex } from "@/lib/game/daily";
 import type { Question } from "@/lib/game/types";
 import { SEED_QUESTIONS } from "./seed";
 import { loadPrivateBank } from "./privateBank";
-import { fetchDailyQuestionFromSupabase, supabaseConfigured } from "@/lib/supabase/questions";
+import {
+  fetchDailyQuestionFromSupabase,
+  fetchRandomVerifiedQuestionFromSupabase,
+  supabaseConfigured,
+} from "@/lib/supabase/questions";
 
 /** Public samples + gitignored private bank (when present). */
 function localBank(): Question[] {
@@ -46,8 +50,14 @@ export async function getQuestionById(id: string): Promise<Question | null> {
   return null;
 }
 
-/** A random verified question for practice mode (excludes today's). */
-export async function getPracticeQuestion(excludeId?: string): Promise<Question> {
-  const pool = localBank().filter((q) => q.id !== excludeId);
-  return pool[Math.floor(Math.random() * pool.length)];
+/** A random verified question for practice mode, avoiding recent repeats. */
+export async function getRandomQuestion(exclude: string[] = []): Promise<Question> {
+  if (supabaseConfigured()) {
+    const q = await fetchRandomVerifiedQuestionFromSupabase(exclude);
+    if (q) return q;
+  }
+  const bank = localBank();
+  const pool = bank.filter((q) => !exclude.includes(q.id));
+  const from = pool.length ? pool : bank;
+  return from[Math.floor(Math.random() * from.length)];
 }
