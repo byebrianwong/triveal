@@ -45,3 +45,6 @@ pipeline/data/
 
 # private question bank (spoilers) — stays local / on the server
 lib/questions/private-bank.json
+
+# keep the example env file tracked
+!.env.example
