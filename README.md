@@ -30,9 +30,22 @@ With no environment variables the app serves the local question bank:
 4 public sample questions (the spec's worked examples) plus
 `lib/questions/private-bank.json` — a gitignored file holding the rest of
 the hand-verified bank, kept out of the public repo so upcoming dailies
-can't be spoiled. Copy that file to any deploy target (or use Supabase).
-Add Supabase env vars (see `.env.example`) to serve from Postgres instead;
-apply `supabase/migrations/0001_init.sql` first.
+can't be spoiled. Add Supabase env vars (see `.env.example`) to serve from
+Postgres instead; apply `supabase/migrations/0001_init.sql` first.
+
+### Deploying
+
+The private bank is gitignored, so deploys carry it as a base64 env var
+instead of the file:
+
+```bash
+base64 -i lib/questions/private-bank.json | vercel env add CLUEDOWN_PRIVATE_BANK production
+vercel --prod
+```
+
+`lib/questions/privateBank.ts` reads `CLUEDOWN_PRIVATE_BANK` first, then the
+local file — so dev uses the file and prod uses the env var, with all 23
+questions in both.
 
 ## Layout
 
