@@ -11,6 +11,7 @@ import "server-only";
 import { dailyQuestionIndex } from "@/lib/game/daily";
 import type { Question } from "@/lib/game/types";
 import { SEED_QUESTIONS } from "./seed";
+import { EXTRA_QUESTIONS } from "./extraBank";
 import { loadPrivateBank } from "./privateBank";
 import {
   fetchDailyQuestionFromSupabase,
@@ -18,9 +19,9 @@ import {
   supabaseConfigured,
 } from "@/lib/supabase/questions";
 
-/** Public samples + gitignored private bank (when present). */
+/** Public samples + committed extra bank + gitignored private bank (when present). */
 function localBank(): Question[] {
-  return [...SEED_QUESTIONS, ...loadPrivateBank()];
+  return [...SEED_QUESTIONS, ...EXTRA_QUESTIONS, ...loadPrivateBank()];
 }
 
 export interface DailyPuzzle {
