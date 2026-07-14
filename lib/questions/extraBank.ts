@@ -1,5 +1,5 @@
 /**
- * Expanded question bank — 30 hand-written questions added to grow the daily
+ * Expanded question bank — 40 hand-written questions added to grow the daily
  * and practice pools. Same shape and rules as the seed samples (spec §2.2):
  * every clue true of the answer; clues 1–2 also plausibly fit a decoy; each
  * later clue eliminates a decoy or adds recognizability; clue 4 is a fair
@@ -554,6 +554,186 @@ export const EXTRA_QUESTIONS: Question[] = [
     decoys: [
       { text: "Kyoto", eliminatedByClue: 2 },
       { text: "Osaka", eliminatedByClue: 4 },
+    ],
+  },
+  {
+    id: "blue-whale",
+    answer: "Blue Whale",
+    answerCanonical: "blue whale",
+    answerAliases: [],
+    category: "Animals",
+    difficulty: "easy",
+    clues: [
+      { position: 1, text: "A nursing newborn packs on roughly the weight of an adult human every single day." },
+      { position: 2, text: "Its heart alone is about the size of a small car, and its low moans are the loudest sounds made by any animal." },
+      { position: 3, text: "For all its bulk, it lives almost entirely on tiny shrimp-like krill, straining tons of them through fringed plates of baleen." },
+      { position: 4, text: "The largest animal ever known to have lived, this baleen whale is named for its bluish-gray color." },
+    ],
+    decoys: [
+      { text: "Sperm Whale", eliminatedByClue: 3 },
+      { text: "Whale Shark", eliminatedByClue: 4 },
+    ],
+  },
+  {
+    id: "great-white-shark",
+    answer: "Great White Shark",
+    answerCanonical: "great white shark",
+    answerAliases: ["great white"],
+    category: "Animals",
+    difficulty: "medium",
+    clues: [
+      { position: 1, text: "Jelly-filled pores on its snout let it sense the faint electric fields of a heartbeat, sniffing out prey hidden in the sand." },
+      { position: 2, text: "Warmer-bodied than most fish, it can rocket its whole body clear out of the water to ambush a seal from below." },
+      { position: 3, text: "It grows and sheds thousands of serrated teeth over its life, set in replaceable rows, yet has never survived long in a tank." },
+      { position: 4, text: "The huge predatory fish behind the movie 'Jaws,' it is named for its pale underside." },
+    ],
+    decoys: [
+      { text: "Killer Whale", eliminatedByClue: 4 },
+      { text: "Tiger Shark", eliminatedByClue: 4 },
+    ],
+  },
+  {
+    id: "napoleon-bonaparte",
+    answer: "Napoleon Bonaparte",
+    answerCanonical: "napoleon bonaparte",
+    answerAliases: ["Napoleon"],
+    category: "History",
+    difficulty: "medium",
+    clues: [
+      { position: 1, text: "The legend that he was unusually short is a myth — a muddle of old French and British units, sharpened by enemy cartoonists." },
+      { position: 2, text: "Born on the island of Corsica, he rode the chaos of a revolution all the way to crowning himself emperor in 1804." },
+      { position: 3, text: "His sweeping legal code still shapes law around the world, but his empire cracked after a catastrophic invasion of Russia." },
+      { position: 4, text: "This French military genius met his final defeat at Waterloo in 1815 and died in exile on St. Helena." },
+    ],
+    decoys: [
+      { text: "Julius Caesar", eliminatedByClue: 4 },
+      { text: "Louis XVI", eliminatedByClue: 2 },
+    ],
+  },
+  {
+    id: "mount-fuji",
+    answer: "Mount Fuji",
+    answerCanonical: "mount fuji",
+    answerAliases: ["Fuji", "Fujisan"],
+    category: "Geography",
+    difficulty: "medium",
+    clues: [
+      { position: 1, text: "Hokusai gave it an entire series of woodblock prints, among them one of a towering, claw-like wave." },
+      { position: 2, text: "An active volcano that last erupted in 1707, its near-perfect symmetrical cone is a sacred site that draws hundreds of thousands of climbers each summer." },
+      { position: 3, text: "The highest peak in its country at about 3,776 meters, it can be seen from Tokyo on a clear day." },
+      { position: 4, text: "This snow-capped volcano is Japan's most famous mountain and a national symbol." },
+    ],
+    decoys: [
+      { text: "Mount Kilimanjaro", eliminatedByClue: 3 },
+      { text: "Mount Vesuvius", eliminatedByClue: 3 },
+    ],
+  },
+  {
+    id: "machu-picchu",
+    answer: "Machu Picchu",
+    answerCanonical: "machu picchu",
+    answerAliases: ["the Lost City of the Incas"],
+    category: "Landmarks",
+    difficulty: "medium",
+    clues: [
+      { position: 1, text: "Its finest stones are cut and fitted so tightly, without any mortar, that a knife blade cannot slip between them." },
+      { position: 2, text: "Built around 1450 and abandoned barely a century later, it slipped past the Spanish conquistadors entirely." },
+      { position: 3, text: "Perched on a ridge high in the Peruvian Andes, it was brought to the world's attention by explorer Hiram Bingham in 1911." },
+      { position: 4, text: "This mist-wrapped stone citadel is the most famous ruin of the Inca Empire." },
+    ],
+    decoys: [
+      { text: "Chichen Itza", eliminatedByClue: 4 },
+      { text: "Petra", eliminatedByClue: 3 },
+    ],
+  },
+  {
+    id: "the-nile",
+    answer: "The Nile",
+    answerCanonical: "the nile",
+    answerAliases: ["Nile", "Nile River"],
+    category: "Geography",
+    difficulty: "medium",
+    clues: [
+      { position: 1, text: "Unlike most great rivers, it runs from south to north, emptying into the Mediterranean Sea." },
+      { position: 2, text: "Its yearly floods laid down rich black silt that fed one of the world's earliest civilizations." },
+      { position: 3, text: "Its two main branches, the White and the Blue, join at Khartoum in Sudan before the water flows on through Egypt." },
+      { position: 4, text: "Often called the longest river on Earth, this African waterway was the lifeblood of ancient Egypt." },
+    ],
+    decoys: [
+      { text: "Amazon River", eliminatedByClue: 1 },
+      { text: "Congo River", eliminatedByClue: 3 },
+    ],
+  },
+  {
+    id: "charles-darwin",
+    answer: "Charles Darwin",
+    answerCanonical: "charles darwin",
+    answerAliases: ["Darwin"],
+    category: "Science",
+    difficulty: "medium",
+    clues: [
+      { position: 1, text: "He sat on his world-changing theory for some twenty years before he dared to publish it." },
+      { position: 2, text: "A five-year voyage aboard HMS Beagle — and especially the finches of the Galápagos Islands — reshaped his thinking." },
+      { position: 3, text: "This English naturalist argued that living things change over generations through a process he called 'natural selection.'" },
+      { position: 4, text: "His 1859 book 'On the Origin of Species' laid out the theory of evolution." },
+    ],
+    decoys: [
+      { text: "Alfred Russel Wallace", eliminatedByClue: 4 },
+      { text: "Gregor Mendel", eliminatedByClue: 2 },
+    ],
+  },
+  {
+    id: "amelia-earhart",
+    answer: "Amelia Earhart",
+    answerCanonical: "amelia earhart",
+    answerAliases: ["Earhart"],
+    category: "History",
+    difficulty: "medium",
+    clues: [
+      { position: 1, text: "She vanished without a trace over the Pacific in 1937, and her fate is still argued about today." },
+      { position: 2, text: "Five years earlier, in 1932, she became the first woman to fly solo across the Atlantic Ocean." },
+      { position: 3, text: "She disappeared while trying to circle the globe, her plane lost somewhere near tiny Howland Island." },
+      { position: 4, text: "This pioneering American aviator remains one of history's most famous missing persons." },
+    ],
+    decoys: [
+      { text: "Charles Lindbergh", eliminatedByClue: 2 },
+      { text: "Bessie Coleman", eliminatedByClue: 3 },
+    ],
+  },
+  {
+    id: "pizza",
+    answer: "Pizza",
+    answerCanonical: "pizza",
+    answerAliases: [],
+    category: "Food & Drink",
+    difficulty: "easy",
+    clues: [
+      { position: 1, text: "Its classic Margherita version was supposedly dreamed up to honor an Italian queen, its red, white, and green echoing the flag." },
+      { position: 2, text: "Born among the poor of Naples, it was long a humble street food before it conquered the world." },
+      { position: 3, text: "The 'Hawaiian' style, crowned with pineapple, was actually invented in Canada in 1962." },
+      { position: 4, text: "This round, oven-baked Italian dish of dough, tomato sauce, and cheese is served in wedges." },
+    ],
+    decoys: [
+      { text: "Focaccia", eliminatedByClue: 3 },
+      { text: "Calzone", eliminatedByClue: 4 },
+    ],
+  },
+  {
+    id: "basketball",
+    answer: "Basketball",
+    answerCanonical: "basketball",
+    answerAliases: [],
+    category: "Sports",
+    difficulty: "easy",
+    clues: [
+      { position: 1, text: "The very first version used a fruit basket with its bottom still in, so someone had to fetch the ball by ladder after every score." },
+      { position: 2, text: "Dr. James Naismith invented it in 1891 at a Massachusetts YMCA to keep students active indoors through the winter." },
+      { position: 3, text: "Two teams bounce the ball as they move it, aiming to drop it through a hoop set 10 feet above the floor." },
+      { position: 4, text: "In this sport, players 'dribble' and 'dunk' to score, and the NBA is its top professional league." },
+    ],
+    decoys: [
+      { text: "Volleyball", eliminatedByClue: 3 },
+      { text: "Netball", eliminatedByClue: 4 },
     ],
   },
 ];
