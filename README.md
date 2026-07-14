@@ -26,26 +26,56 @@ pnpm test       # vitest unit suite (engine + bank integrity checks)
 pnpm build      # production build
 ```
 
-With no environment variables the app serves the local question bank:
-4 public sample questions (the spec's worked examples) plus
-`lib/questions/private-bank.json` — a gitignored file holding the rest of
-the hand-verified bank, kept out of the public repo so upcoming dailies
-can't be spoiled. Add Supabase env vars (see `.env.example`) to serve from
-Postgres instead; apply `supabase/migrations/0001_init.sql` first.
+With no environment variables the app serves the local question bank —
+**44 questions, zero config**:
 
-### Deploying
+- 4 public sample questions (the spec's worked examples) in `lib/questions/seed.ts`
+- 40 committed questions in `lib/questions/extraBank.ts`
+- *(optional)* whatever is in `lib/questions/private-bank.json` — a gitignored
+  file for extra hand-verified questions kept out of the public repo so
+  upcoming dailies can't be spoiled. The app runs fine without it.
 
-The private bank is gitignored, so deploys carry it as a base64 env var
-instead of the file:
+Add Supabase env vars (see `.env.example`) to serve from Postgres instead;
+apply `supabase/migrations/0001_init.sql` first.
 
-```bash
-base64 -i lib/questions/private-bank.json | vercel env add CLUEDOWN_PRIVATE_BANK production
-vercel --prod
-```
+## Deploy
+
+This is a stock Next.js app, so [Vercel](https://vercel.com) hosts it with
+**no configuration** — it auto-detects Next.js and pnpm, and the committed
+question bank means the deployed site is playable immediately (daily +
+practice) without any environment variables.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/byebrianwong/triveal)
+
+### Recommended: connect the repo (push-to-deploy)
+
+1. In the [Vercel dashboard](https://vercel.com/new), **Add New → Project**
+   and import `byebrianwong/triveal`.
+2. Accept the auto-detected settings (Framework: Next.js, Build: `next build`,
+   Install: `pnpm install`) and **Deploy**.
+3. Every push to `main` now ships automatically, and PRs get preview URLs.
+
+That's the whole setup — no env vars required.
+
+### Optional environment variables
+
+Set these in **Project → Settings → Environment Variables** only if you want
+the extras; all are optional:
+
+| Variable | Purpose |
+|---|---|
+| `CLUEDOWN_PRIVATE_BANK` | base64 of `private-bank.json`, to add private questions on top of the committed bank. Generate with `base64 -i lib/questions/private-bank.json`. |
+| `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY` | serve questions from Supabase Postgres instead of the local bank. |
 
 `lib/questions/privateBank.ts` reads `CLUEDOWN_PRIVATE_BANK` first, then the
-local file — so dev uses the file and prod uses the env var, with all 23
-questions in both.
+local file — so dev uses the file and prod uses the env var when set.
+
+### Or deploy from the CLI
+
+```bash
+pnpm dlx vercel        # first run links/creates the project
+pnpm dlx vercel --prod # ship to production
+```
 
 ## Layout
 
