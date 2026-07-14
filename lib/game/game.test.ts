@@ -6,10 +6,11 @@ import { dailyQuestionIndex, hashString, localDateString } from "./daily";
 import { applyResult, initialStats } from "./stats";
 import { buildShareGlyphs, buildShareText } from "./shareCard";
 import { SEED_QUESTIONS } from "@/lib/questions/seed";
+import { EXTRA_QUESTIONS } from "@/lib/questions/extraBank";
 import { loadPrivateBank } from "@/lib/questions/privateBank";
 
-/** Public samples + gitignored private bank (integrity-checked together). */
-const FULL_BANK = [...SEED_QUESTIONS, ...loadPrivateBank()];
+/** Public samples + committed extra bank + gitignored private bank (integrity-checked together). */
+const FULL_BANK = [...SEED_QUESTIONS, ...EXTRA_QUESTIONS, ...loadPrivateBank()];
 
 const venus = SEED_QUESTIONS.find((q) => q.id === "venus")!;
 const nyc = SEED_QUESTIONS.find((q) => q.id === "new-york-city")!;

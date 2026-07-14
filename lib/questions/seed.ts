@@ -25,7 +25,7 @@ export const SEED_QUESTIONS: Question[] = [
     clues: [
       {
         position: 1,
-        text: "A single day on this world lasts longer than its entire year, and it spins backward compared to most of its neighbors.",
+        text: "Here a day outlasts a year, and the Sun rises in the west.",
       },
       {
         position: 2,
@@ -55,7 +55,7 @@ export const SEED_QUESTIONS: Question[] = [
     clues: [
       {
         position: 1,
-        text: "Though she ruled Egypt, she came from a Greek-speaking Macedonian dynasty and was reportedly the first of her line to learn the Egyptian language.",
+        text: "She ruled Egypt but was Greek, and never spoke her subjects' language — until she chose to.",
       },
       {
         position: 2,
@@ -85,7 +85,7 @@ export const SEED_QUESTIONS: Question[] = [
     clues: [
       {
         position: 1,
-        text: "It has three hearts and blue, copper-based blood, and at least one of those hearts stops beating when it swims, which tires it out and is partly why it prefers to crawl.",
+        text: "Three hearts, blue copper-based blood, and most of its mind spread out through its arms.",
       },
       {
         position: 2,
@@ -116,7 +116,7 @@ export const SEED_QUESTIONS: Question[] = [
     clues: [
       {
         position: 1,
-        text: "George Washington was sworn in as the first U.S. president here in 1789, when it briefly served as the nation's capital.",
+        text: "The first U.S. president was sworn in here — back when it was the nation's capital.",
       },
       {
         position: 2,
