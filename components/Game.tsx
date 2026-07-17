@@ -31,8 +31,9 @@ export interface GameConfig {
   onRoundChange?: (round: RoundState) => void;
   onResolved?: (round: RoundState) => void;
   renderResult: (round: RoundState, answer: string) => React.ReactNode;
-  /** Small always-available link in the footer (mode switch). */
+  /** Small always-available link(s) in the footer (mode switches). */
   footerLink?: { label: string; onClick: () => void };
+  footerLinkAlt?: { label: string; onClick: () => void };
 }
 
 export function Game({ puzzle, config }: { puzzle: PuzzleDto; config: GameConfig }) {
@@ -252,15 +253,21 @@ export function Game({ puzzle, config }: { puzzle: PuzzleDto; config: GameConfig
               Give up
             </button>
           </div>
-          {config.footerLink && (
-            <div className="mt-2 text-center">
-              <button
-                type="button"
-                onClick={config.footerLink.onClick}
-                className="text-[12.5px] text-lav hover:text-cream focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold rounded px-1"
-              >
-                {config.footerLink.label}
-              </button>
+          {(config.footerLink || config.footerLinkAlt) && (
+            <div className="mt-2 flex items-center justify-center gap-4 text-center">
+              {[config.footerLink, config.footerLinkAlt].map(
+                (link, i) =>
+                  link && (
+                    <button
+                      key={i}
+                      type="button"
+                      onClick={link.onClick}
+                      className="text-[12.5px] text-lav hover:text-cream focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold rounded px-1"
+                    >
+                      {link.label}
+                    </button>
+                  ),
+              )}
             </div>
           )}
         </footer>

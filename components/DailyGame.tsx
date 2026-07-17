@@ -29,7 +29,13 @@ function saveJson(key: string, value: unknown) {
   }
 }
 
-export function DailyGame({ onEnterPractice }: { onEnterPractice: () => void }) {
+export function DailyGame({
+  onEnterPractice,
+  onEnterParty,
+}: {
+  onEnterPractice: () => void;
+  onEnterParty: () => void;
+}) {
   const [puzzle, setPuzzle] = useState<DailyPuzzleDto | null>(null);
   const [stats, setStats] = useState<PlayerStats>(initialStats());
   const [restored, setRestored] = useState<RoundState | null | undefined>(undefined);
@@ -68,6 +74,7 @@ export function DailyGame({ onEnterPractice }: { onEnterPractice: () => void }) 
     onRoundChange,
     onResolved,
     footerLink: { label: "Practice more questions →", onClick: onEnterPractice },
+    footerLinkAlt: { label: "Party mode →", onClick: onEnterParty },
     renderResult: (round, answer) => (
       <ResultPanel
         round={round}
