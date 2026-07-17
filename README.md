@@ -1,5 +1,7 @@
 # Cluedown
 
+[![CI](https://github.com/byebrianwong/triveal/actions/workflows/ci.yml/badge.svg)](https://github.com/byebrianwong/triveal/actions/workflows/ci.yml)
+
 A trivia game of counting-down clues. One hidden answer, four clues revealed
 one at a time — hardest first, giveaway last. Guess early for more points,
 but wrong guesses cost you. Two modes share one verified question bank:
