@@ -1,8 +1,14 @@
--- Cluedown schema (handoff spec §4, scoring updated to 10/8/6/4 with
--- -1 per wrong guess computed in app logic).
+-- Cluedown schema (handoff spec §4, scoring 10/8/6/4 with -1 per wrong guess
+-- computed in app logic).
+--
+-- All tables are prefixed `cluedown_` because this project may be SHARED with
+-- other apps — the prefix namespaces Cluedown's tables inside the public
+-- schema so they can't collide with another app's `games`, `players`, etc.,
+-- while keeping the default PostgREST/Realtime setup working with no extra
+-- "exposed schemas" configuration.
 
 -- Question bank (populated by the offline pipeline)
-create table questions (
+create table if not exists cluedown_questions (
   id                uuid primary key default gen_random_uuid(),
   answer            text not null,               -- display form
   answer_canonical  text not null,               -- normalized for matching
@@ -15,30 +21,30 @@ create table questions (
   created_at        timestamptz not null default now()
 );
 
-create table clues (
+create table if not exists cluedown_clues (
   id            uuid primary key default gen_random_uuid(),
-  question_id   uuid not null references questions(id) on delete cascade,
+  question_id   uuid not null references cluedown_questions(id) on delete cascade,
   position      int  not null,                   -- 1..n, 1 = hardest
   text          text not null,
   points_value  int  not null,                   -- 10/8/6/4(/2) by position
   unique (question_id, position)
 );
 
-create table decoys (
+create table if not exists cluedown_decoys (
   id                 uuid primary key default gen_random_uuid(),
-  question_id        uuid not null references questions(id) on delete cascade,
+  question_id        uuid not null references cluedown_questions(id) on delete cascade,
   text               text not null,
   eliminated_by_clue int
 );
 
 -- Daily mode
-create table daily_questions (
+create table if not exists cluedown_daily_questions (
   play_date   date primary key,
-  question_id uuid not null references questions(id)
+  question_id uuid not null references cluedown_questions(id)
 );
 
 -- Party mode
-create table games (
+create table if not exists cluedown_games (
   id             uuid primary key default gen_random_uuid(),
   room_code      text unique not null,            -- 4 chars, no I/O/1/0
   host_player_id uuid,
@@ -49,31 +55,31 @@ create table games (
   created_at     timestamptz not null default now()
 );
 
-create table players (
+create table if not exists cluedown_players (
   id        uuid primary key default gen_random_uuid(),
-  game_id   uuid not null references games(id) on delete cascade,
+  game_id   uuid not null references cluedown_games(id) on delete cascade,
   name      text not null,
   score     int  not null default 0,
   is_host   boolean not null default false,
   joined_at timestamptz not null default now()
 );
 
-create table rounds (
+create table if not exists cluedown_rounds (
   id               uuid primary key default gen_random_uuid(),
-  game_id          uuid not null references games(id) on delete cascade,
-  question_id      uuid not null references questions(id),
+  game_id          uuid not null references cluedown_games(id) on delete cascade,
+  question_id      uuid not null references cluedown_questions(id),
   round_number     int  not null,
   current_clue     int  not null default 1,
   clue_started_at  timestamptz,                   -- server time, for synced timers
   state            text not null default 'revealing'
                    check (state in ('revealing','resolved')),
-  winner_player_id uuid references players(id)
+  winner_player_id uuid references cluedown_players(id)
 );
 
-create table guesses (
+create table if not exists cluedown_guesses (
   id            uuid primary key default gen_random_uuid(),
-  round_id      uuid not null references rounds(id) on delete cascade,
-  player_id     uuid not null references players(id),
+  round_id      uuid not null references cluedown_rounds(id) on delete cascade,
+  player_id     uuid not null references cluedown_players(id),
   clue_position int  not null,
   answer_text   text not null,
   is_correct    boolean not null,
@@ -82,33 +88,53 @@ create table guesses (
 
 -- Only one player can win a round: enforce first-correct-wins at the DB
 -- level so two simultaneous correct guesses can't both resolve it.
-create unique index one_correct_guess_per_round
-  on guesses (round_id) where is_correct;
+create unique index if not exists cluedown_one_correct_guess_per_round
+  on cluedown_guesses (round_id) where is_correct;
 
-create index guesses_round_idx on guesses (round_id);
-create index players_game_idx on players (game_id);
-create index rounds_game_idx on rounds (game_id);
-create index clues_question_idx on clues (question_id);
-create index decoys_question_idx on decoys (question_id);
-create index questions_status_idx on questions (status);
+create index if not exists cluedown_guesses_round_idx on cluedown_guesses (round_id);
+create index if not exists cluedown_players_game_idx on cluedown_players (game_id);
+create index if not exists cluedown_rounds_game_idx on cluedown_rounds (game_id);
+create index if not exists cluedown_clues_question_idx on cluedown_clues (question_id);
+create index if not exists cluedown_decoys_question_idx on cluedown_decoys (question_id);
+create index if not exists cluedown_questions_status_idx on cluedown_questions (status);
 
--- Realtime: party clients subscribe per game_id.
-alter publication supabase_realtime add table games, players, rounds, guesses;
+-- Realtime: party clients subscribe per game_id. Added one table at a time
+-- inside a guard so re-running the migration doesn't error on tables already
+-- in the publication (there is no `add table if not exists`).
+do $$
+declare
+  t text;
+begin
+  foreach t in array array[
+    'cluedown_games', 'cluedown_players', 'cluedown_rounds', 'cluedown_guesses'
+  ] loop
+    if not exists (
+      select 1 from pg_publication_tables
+      where pubname = 'supabase_realtime' and schemaname = 'public' and tablename = t
+    ) then
+      execute format('alter publication supabase_realtime add table %I', t);
+    end if;
+  end loop;
+end $$;
 
 -- RLS: the app reads via server (service role). Lock tables down by
 -- default; anon can read only what party clients need via realtime.
-alter table questions enable row level security;
-alter table clues enable row level security;
-alter table decoys enable row level security;
-alter table daily_questions enable row level security;
-alter table games enable row level security;
-alter table players enable row level security;
-alter table rounds enable row level security;
-alter table guesses enable row level security;
+alter table cluedown_questions       enable row level security;
+alter table cluedown_clues           enable row level security;
+alter table cluedown_decoys          enable row level security;
+alter table cluedown_daily_questions enable row level security;
+alter table cluedown_games           enable row level security;
+alter table cluedown_players         enable row level security;
+alter table cluedown_rounds          enable row level security;
+alter table cluedown_guesses         enable row level security;
 
-create policy "anon read games"   on games   for select using (true);
-create policy "anon read players" on players for select using (true);
-create policy "anon read rounds"  on rounds  for select using (true);
-create policy "anon read guesses" on guesses for select using (true);
+drop policy if exists "anon read games"   on cluedown_games;
+drop policy if exists "anon read players" on cluedown_players;
+drop policy if exists "anon read rounds"  on cluedown_rounds;
+drop policy if exists "anon read guesses" on cluedown_guesses;
+create policy "anon read games"   on cluedown_games   for select using (true);
+create policy "anon read players" on cluedown_players for select using (true);
+create policy "anon read rounds"  on cluedown_rounds  for select using (true);
+create policy "anon read guesses" on cluedown_guesses for select using (true);
 -- questions/clues/decoys/daily_questions: no anon policies — answers never
 -- reach the client; the server (service role) bypasses RLS.

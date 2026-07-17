@@ -55,16 +55,18 @@ function rowToQuestion(row: QuestionRow): Question {
   };
 }
 
+// Embedded resources are aliased (`clues:cluedown_clues`) so the response
+// keys stay `clues`/`decoys`/`questions` regardless of the prefixed tables.
 const QUESTION_SELECT =
-  "id, answer, answer_canonical, answer_aliases, category, difficulty, clues(position, text), decoys(text, eliminated_by_clue)";
+  "id, answer, answer_canonical, answer_aliases, category, difficulty, clues:cluedown_clues(position, text), decoys:cluedown_decoys(text, eliminated_by_clue)";
 
 export async function fetchDailyQuestionFromSupabase(
   dateStr: string,
 ): Promise<Question | null> {
   const sb = getServerSupabase();
   const { data, error } = await sb
-    .from("daily_questions")
-    .select(`play_date, questions(${QUESTION_SELECT})`)
+    .from("cluedown_daily_questions")
+    .select(`play_date, questions:cluedown_questions(${QUESTION_SELECT})`)
     .eq("play_date", dateStr)
     .maybeSingle();
   if (error || !data?.questions) return null;
@@ -76,7 +78,7 @@ export async function fetchRandomVerifiedQuestionFromSupabase(
 ): Promise<Question | null> {
   const sb = getServerSupabase();
   const { data, error } = await sb
-    .from("questions")
+    .from("cluedown_questions")
     .select("id")
     .eq("status", "verified")
     .limit(1000);
@@ -91,7 +93,7 @@ export async function fetchRandomVerifiedQuestionFromSupabase(
 export async function fetchQuestionByIdFromSupabase(id: string): Promise<Question | null> {
   const sb = getServerSupabase();
   const { data, error } = await sb
-    .from("questions")
+    .from("cluedown_questions")
     .select(QUESTION_SELECT)
     .eq("id", id)
     .eq("status", "verified")

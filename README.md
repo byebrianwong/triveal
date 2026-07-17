@@ -79,6 +79,37 @@ pnpm dlx vercel        # first run links/creates the project
 pnpm dlx vercel --prod # ship to production
 ```
 
+## Party mode (multiplayer)
+
+Party mode needs a Supabase project (Postgres + Realtime). Daily and practice
+modes do **not** — skip this section entirely if you only want single-player.
+
+All Cluedown tables are prefixed `cluedown_` so the schema is safe to apply to
+a **shared** Supabase project used by other apps — the prefix namespaces them
+inside `public` without needing custom "exposed schemas" config.
+
+**One-time setup:**
+
+1. In the Supabase dashboard, open **SQL Editor** and run
+   `supabase/migrations/0001_init.sql`. It is idempotent (`create ... if not
+   exists`), so re-running is safe.
+2. Add these env vars in **Vercel → Project → Settings → Environment
+   Variables** (and to a local `.env.local` if you want party mode in `pnpm
+   dev`):
+
+   | Variable | Where to find it |
+   |---|---|
+   | `NEXT_PUBLIC_SUPABASE_URL` | Settings → API → Project URL |
+   | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Settings → API → anon/public key |
+   | `SUPABASE_SERVICE_ROLE_KEY` | Settings → API → service_role key (server-only) |
+
+3. Redeploy. `supabaseConfigured()` flips on automatically when the URL + a key
+   are present.
+
+The pure party engine (room codes, first-correct-wins resolution, per-clue
+scoring, standings) lives in `lib/game/party.ts` and is unit-tested
+independently of Supabase.
+
 ## Layout
 
 ```
@@ -112,5 +143,7 @@ wrong guesses; the answer box never leaves the screen.
   scoring, round state — 35 unit tests
 - ✅ Supabase schema + env-gated data layer (seed fallback with zero config)
 - ✅ Pipeline scaffolded end to end (needs ANTHROPIC_API_KEY + kaggle CSV)
-- ⬜ Party mode (schema ready; needs a Supabase project for realtime)
+- 🚧 Party mode: pure engine done + unit-tested (`lib/game/party.ts`);
+  namespaced schema ready; server actions + realtime UI in progress
+  (needs a Supabase project — see "Party mode" above)
 - ⬜ Real mascot art (current star is a placeholder)
