@@ -26,7 +26,7 @@ const questions = readJson<VerifiedQuestion[]>("verified.json").filter(
 let inserted = 0;
 for (const q of questions) {
   const { data: existing } = await sb
-    .from("questions")
+    .from("cluedown_questions")
     .select("id")
     .eq("answer_canonical", q.canonical)
     .maybeSingle();
@@ -36,7 +36,7 @@ for (const q of questions) {
   }
 
   const { data: row, error } = await sb
-    .from("questions")
+    .from("cluedown_questions")
     .insert({
       answer: q.answer,
       answer_canonical: q.canonical,
@@ -53,7 +53,7 @@ for (const q of questions) {
     continue;
   }
 
-  const { error: clueErr } = await sb.from("clues").insert(
+  const { error: clueErr } = await sb.from("cluedown_clues").insert(
     q.clues.map((c) => ({
       question_id: row.id,
       position: c.position,
@@ -61,7 +61,7 @@ for (const q of questions) {
       points_value: CLUE_POINTS[Math.min(c.position - 1, CLUE_POINTS.length - 1)],
     })),
   );
-  const { error: decoyErr } = await sb.from("decoys").insert(
+  const { error: decoyErr } = await sb.from("cluedown_decoys").insert(
     q.decoys.map((d) => ({
       question_id: row.id,
       text: d.text,
@@ -70,7 +70,7 @@ for (const q of questions) {
   );
   if (clueErr || decoyErr) {
     console.error(`children failed "${q.answer}": ${clueErr?.message ?? decoyErr?.message}`);
-    await sb.from("questions").delete().eq("id", row.id); // keep the bank consistent
+    await sb.from("cluedown_questions").delete().eq("id", row.id); // keep the bank consistent
     continue;
   }
   inserted++;
