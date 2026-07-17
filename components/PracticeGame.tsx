@@ -18,17 +18,25 @@ export function PracticeGame({ onExit }: { onExit: () => void }) {
   const [solved, setSolved] = useState(0);
   const seenRef = useRef<string[]>([]);
 
-  const loadNext = useCallback(() => {
-    setPuzzle(null);
-    fetchPracticePuzzle(seenRef.current).then((p) => {
+  const loadPuzzle = useCallback(() => {
+    return fetchPracticePuzzle(seenRef.current).then((p) => {
       seenRef.current = [...seenRef.current, p.questionId].slice(-12);
       setPuzzle(p);
     });
   }, []);
 
+  // Called from the "Next question" button (an event handler): clear the
+  // current puzzle to show the loading stage, then fetch the next one.
+  const loadNext = useCallback(() => {
+    setPuzzle(null);
+    loadPuzzle();
+  }, [loadPuzzle]);
+
+  // First load: state is only set inside the async continuation, so nothing
+  // is set synchronously in the effect body.
   useEffect(() => {
-    loadNext();
-  }, [loadNext]);
+    loadPuzzle();
+  }, [loadPuzzle]);
 
   const onResolved = useCallback((round: RoundState) => {
     setSessionScore((s) => s + round.score);
