@@ -29,10 +29,10 @@ pnpm build      # production build
 ```
 
 With no environment variables the app serves the local question bank —
-**44 questions, zero config**:
+**59 questions, zero config**:
 
 - 4 public sample questions (the spec's worked examples) in `lib/questions/seed.ts`
-- 40 committed questions in `lib/questions/extraBank.ts`
+- 55 committed questions in `lib/questions/extraBank.ts`
 - *(optional)* whatever is in `lib/questions/private-bank.json` — a gitignored
   file for extra hand-verified questions kept out of the public repo so
   upcoming dailies can't be spoiled. The app runs fine without it.
