@@ -37,9 +37,14 @@ export function DailyGame({ onEnterPractice }: { onEnterPractice: () => void }) 
 
   useEffect(() => {
     const dateStr = dateRef.current;
-    setStats(loadJson<PlayerStats>(STATS_KEY) ?? initialStats());
-    setRestored(loadJson<RoundState>(ROUND_KEY(dateStr)) ?? null);
-    fetchDailyPuzzle(dateStr).then(setPuzzle);
+    // Load persisted state and the puzzle together, applying them once the
+    // fetch resolves. The view gates on `!puzzle || restored === undefined`,
+    // so a single post-fetch update renders the ready stage in one pass.
+    fetchDailyPuzzle(dateStr).then((p) => {
+      setStats(loadJson<PlayerStats>(STATS_KEY) ?? initialStats());
+      setRestored(loadJson<RoundState>(ROUND_KEY(dateStr)) ?? null);
+      setPuzzle(p);
+    });
   }, []);
 
   const onRoundChange = useCallback((round: RoundState) => {
