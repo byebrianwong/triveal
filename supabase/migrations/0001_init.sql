@@ -64,16 +64,29 @@ create table if not exists cluedown_players (
   joined_at timestamptz not null default now()
 );
 
+-- Rounds carry ONLY non-secret coordination data so they can stay
+-- anon-readable (party clients need realtime clue-advance signals). The
+-- question behind a round — and therefore the answer — is never referenced
+-- here; that mapping lives in the server-only cluedown_round_questions table.
 create table if not exists cluedown_rounds (
   id               uuid primary key default gen_random_uuid(),
   game_id          uuid not null references cluedown_games(id) on delete cascade,
-  question_id      uuid not null references cluedown_questions(id),
   round_number     int  not null,
-  current_clue     int  not null default 1,
+  current_clue     int  not null default 1,       -- 1-based; the clue now showing
+  clue_count       int  not null default 4,       -- total clues, so clients can page
   clue_started_at  timestamptz,                   -- server time, for synced timers
   state            text not null default 'revealing'
                    check (state in ('revealing','resolved')),
-  winner_player_id uuid references cluedown_players(id)
+  winner_player_id uuid references cluedown_players(id),
+  unique (game_id, round_number)
+);
+
+-- Which bank question backs each round. Server-only (RLS on, no anon policy)
+-- so clients can never read the question id and pre-map it to the answer via
+-- the public bank; the server sends only clue texts up to the revealed index.
+create table if not exists cluedown_round_questions (
+  round_id      uuid primary key references cluedown_rounds(id) on delete cascade,
+  question_ref  text not null                     -- local bank slug or DB uuid
 );
 
 create table if not exists cluedown_guesses (
@@ -119,14 +132,15 @@ end $$;
 
 -- RLS: the app reads via server (service role). Lock tables down by
 -- default; anon can read only what party clients need via realtime.
-alter table cluedown_questions       enable row level security;
-alter table cluedown_clues           enable row level security;
-alter table cluedown_decoys          enable row level security;
-alter table cluedown_daily_questions enable row level security;
-alter table cluedown_games           enable row level security;
-alter table cluedown_players         enable row level security;
-alter table cluedown_rounds          enable row level security;
-alter table cluedown_guesses         enable row level security;
+alter table cluedown_questions         enable row level security;
+alter table cluedown_clues             enable row level security;
+alter table cluedown_decoys            enable row level security;
+alter table cluedown_daily_questions   enable row level security;
+alter table cluedown_games             enable row level security;
+alter table cluedown_players           enable row level security;
+alter table cluedown_rounds            enable row level security;
+alter table cluedown_guesses           enable row level security;
+alter table cluedown_round_questions   enable row level security;
 
 drop policy if exists "anon read games"   on cluedown_games;
 drop policy if exists "anon read players" on cluedown_players;
@@ -136,5 +150,6 @@ create policy "anon read games"   on cluedown_games   for select using (true);
 create policy "anon read players" on cluedown_players for select using (true);
 create policy "anon read rounds"  on cluedown_rounds  for select using (true);
 create policy "anon read guesses" on cluedown_guesses for select using (true);
--- questions/clues/decoys/daily_questions: no anon policies — answers never
--- reach the client; the server (service role) bypasses RLS.
+-- questions/clues/decoys/daily_questions/round_questions: no anon policies —
+-- answers (and which question backs a round) never reach the client; the
+-- server (service role) bypasses RLS.

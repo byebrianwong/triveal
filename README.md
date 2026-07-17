@@ -119,7 +119,7 @@ lib/game/            pure game logic (no React/Supabase) — scoring, matching,
                      round state, streaks, share card. Portable to RN later.
 lib/questions/       public samples + gitignored private bank + data source
                      (env-gated Supabase fallback)
-lib/supabase/        server-side Supabase access
+lib/supabase/        server-side (service role) + browser (anon realtime) clients
 supabase/migrations/ full schema incl. party mode tables + realtime
 pipeline/            offline question bank builder (Kaggle -> Wikipedia ->
                      generate -> verify -> Supabase). See pipeline/README.md.
@@ -143,7 +143,8 @@ wrong guesses; the answer box never leaves the screen.
   scoring, round state — 35 unit tests
 - ✅ Supabase schema + env-gated data layer (seed fallback with zero config)
 - ✅ Pipeline scaffolded end to end (needs ANTHROPIC_API_KEY + kaggle CSV)
-- 🚧 Party mode: pure engine done + unit-tested (`lib/game/party.ts`);
-  namespaced schema ready; server actions + realtime UI in progress
-  (needs a Supabase project — see "Party mode" above)
+- 🚧 Party mode: fully built — pure engine (`lib/game/party.ts`, unit-tested),
+  namespaced schema, server actions, realtime hook, and lobby/round/results
+  UI. Needs a Supabase project to run (see "Party mode" above); realtime not
+  yet exercised end-to-end against a live database.
 - ⬜ Real mascot art (current star is a placeholder)
