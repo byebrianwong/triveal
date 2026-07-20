@@ -34,7 +34,7 @@ export function ClueStack({ clues, clueIndex, wrongGuesses, roundOver }: ClueSta
     <div className="relative min-h-0 flex-1">
       <div
         ref={scrollRef}
-        className="scroll-thin flex h-full flex-col gap-2.5 overflow-y-auto px-0.5 py-2"
+        className="scroll-thin flex h-full flex-col gap-2.5 overflow-y-auto px-0.5 py-2 lg:justify-end"
       >
         {clues.slice(0, lastVisible + 1).map((text, i) => {
           const live = !roundOver && i === clueIndex;

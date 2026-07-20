@@ -131,32 +131,36 @@ export function Game({ puzzle, config }: { puzzle: PuzzleDto; config: GameConfig
   const clueLine = playing ? ` · clue ${round.clueIndex + 1} of ${puzzle.clueCount}` : "";
 
   return (
-    <>
+    <div className="flex min-h-0 flex-1 flex-col lg:flex-row">
       <p aria-live="polite" className="sr-only-live">
         {announce}
       </p>
 
-      {/* Pinned header */}
-      <header className="relative flex-none px-5 pt-4">
-        <div className="spotlight pointer-events-none absolute -top-11 left-1/2 h-40 w-64 -translate-x-1/2" />
-        <span className="twinkle absolute left-6 top-14 text-[9px] text-[#cdb9ff]" aria-hidden>✦</span>
-        <span className="twinkle absolute right-6 top-24 text-[8px] text-pink-lt [animation-delay:1.2s]" aria-hidden>✦</span>
+      {/*
+        The stage: a pinned header on phones, a persistent side panel on
+        desktop. Same furniture (title, badge, host, medallion, prize hint)
+        either way — only the axis changes.
+      */}
+      <header className="relative flex-none px-5 pt-4 lg:flex lg:w-[320px] lg:flex-none lg:flex-col lg:justify-center lg:border-r lg:border-[#332a5e] lg:px-8 lg:pb-8 lg:pt-8">
+        <div className="spotlight pointer-events-none absolute -top-11 left-1/2 h-40 w-64 -translate-x-1/2 lg:top-2" />
+        <span className="twinkle absolute left-6 top-14 text-[9px] text-[#cdb9ff] lg:left-8" aria-hidden>✦</span>
+        <span className="twinkle absolute right-6 top-24 text-[8px] text-pink-lt [animation-delay:1.2s] lg:right-8" aria-hidden>✦</span>
         <div className="relative flex items-center justify-between">
-          <h1 className="text-[21px] font-semibold tracking-[.3px] text-gold-lt">Cluedown</h1>
+          <h1 className="text-[21px] font-semibold tracking-[.3px] text-gold-lt lg:text-[26px]">Cluedown</h1>
           {config.badge}
         </div>
-        <p className="mt-1.5 mb-3 text-center text-[10.5px] uppercase tracking-[2.5px] text-lav">
+        <p className="mt-1.5 mb-3 text-center text-[10.5px] uppercase tracking-[2.5px] text-lav lg:mb-6 lg:text-left">
           {config.sublinePrefix} · {puzzle.category}
           {clueLine}
         </p>
         {playing && (
           <>
-            <div className="flex items-center justify-center gap-2">
+            <div className="flex items-center justify-center gap-2 lg:flex-col lg:gap-4">
               <StarHost expression={expression} size={52} />
               <Medallion value={clueValue(round.clueIndex)} penalty={misses} />
             </div>
             {misses > 0 && (
-              <p className="mt-2 text-center text-[12.5px] font-medium text-[#ffd9a8]">
+              <p className="mt-2 text-center text-[12.5px] font-medium text-[#ffd9a8] lg:mt-4">
                 Solve now for{" "}
                 <b className="font-semibold text-gold-lt">
                   {currentNetValue(round.clueIndex, misses)}
@@ -171,107 +175,112 @@ export function Game({ puzzle, config }: { puzzle: PuzzleDto; config: GameConfig
         )}
       </header>
 
-      {/* Scrollable middle */}
-      <main className="flex min-h-0 flex-1 flex-col px-5">
-        {toast && playing && (
-          <div className="toast-miss clue-enter mt-1 flex flex-none items-center gap-2 rounded-xl px-3 py-2 text-[13px]">
-            <span aria-hidden>✕</span> {toast}
-          </div>
-        )}
-        {playing ? (
-          <ClueStack
-            clues={puzzle.clues}
-            clueIndex={round.clueIndex}
-            wrongGuesses={round.wrongGuesses}
-            roundOver={false}
-          />
-        ) : answer ? (
-          <div className="scroll-thin min-h-0 flex-1 overflow-y-auto py-2">
-            {config.renderResult(round, answer)}
-          </div>
-        ) : (
-          <div className="flex flex-1 items-center justify-center text-sm text-lav">
-            Revealing…
-          </div>
-        )}
-      </main>
-
-      {/* Pinned input */}
-      {playing && (
-        <footer className="flex-none px-5 pb-5 pt-1.5">
-          <div className="mb-3.5 flex justify-center gap-2.5" aria-hidden>
-            {Array.from({ length: puzzle.clueCount }, (_, i) => (
-              <span
-                key={i}
-                className={`h-[11px] w-[11px] rounded-full border-2 ${
-                  i === round.clueIndex ? "bulb-on border-gold-lt" : "border-[#463c78] bg-[#241f4d]"
-                }`}
-              />
-            ))}
-          </div>
-          <form onSubmit={onSubmit}>
-            <label htmlFor="guess" className="sr-only-live">
-              Your answer
-            </label>
-            <input
-              id="guess"
-              type="text"
-              value={guess}
-              onChange={(e) => setGuess(e.target.value)}
-              placeholder="Type your answer…"
-              autoComplete="off"
-              autoCapitalize="off"
-              spellCheck={false}
-              maxLength={80}
-              className="field-dark mb-2.5 w-full rounded-xl px-3.5 py-3 text-[15px]"
-            />
-            <button
-              type="submit"
-              disabled={busy || !guess.trim()}
-              className="btn-gold w-full rounded-2xl py-3 text-base font-semibold"
-            >
-              {busy ? "Checking…" : "Lock in your guess"}
-            </button>
-          </form>
-          <div className="mt-2 flex items-center justify-between text-[13px] font-medium text-lav-lt">
-            {onLastClue ? (
-              <span className="text-lav">Last clue — make it count</span>
-            ) : (
-              <button
-                type="button"
-                onClick={onRevealNext}
-                className="rounded px-1 py-0.5 hover:text-cream focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
-              >
-                Next clue → drops to {clueValue(round.clueIndex + 1)} points
-              </button>
-            )}
-            <button
-              type="button"
-              onClick={onGiveUp}
-              className="rounded px-1 py-0.5 text-lav hover:text-cream focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
-            >
-              Give up
-            </button>
-          </div>
-          {(config.footerLink || config.footerLinkAlt) && (
-            <div className="mt-2 flex items-center justify-center gap-4 text-center">
-              {[config.footerLink, config.footerLinkAlt].map(
-                (link, i) =>
-                  link && (
-                    <button
-                      key={i}
-                      type="button"
-                      onClick={link.onClick}
-                      className="text-[12.5px] text-lav hover:text-cream focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold rounded px-1"
-                    >
-                      {link.label}
-                    </button>
-                  ),
-              )}
+      {/* Play area: clue history + answer input (right column on desktop) */}
+      <div className="flex min-h-0 flex-1 flex-col">
+        {/* Scrollable middle */}
+        <main className="flex min-h-0 flex-1 flex-col px-5 lg:mx-auto lg:w-full lg:max-w-xl lg:px-8">
+          {toast && playing && (
+            <div className="toast-miss clue-enter mt-1 flex flex-none items-center gap-2 rounded-xl px-3 py-2 text-[13px] lg:mt-4">
+              <span aria-hidden>✕</span> {toast}
             </div>
           )}
-        </footer>
-      )}
-    </>
+          {playing ? (
+            <ClueStack
+              clues={puzzle.clues}
+              clueIndex={round.clueIndex}
+              wrongGuesses={round.wrongGuesses}
+              roundOver={false}
+            />
+          ) : answer ? (
+            <div className="scroll-thin min-h-0 flex-1 overflow-y-auto py-2">
+              <div className="mx-auto w-full max-w-md">
+                {config.renderResult(round, answer)}
+              </div>
+            </div>
+          ) : (
+            <div className="flex flex-1 items-center justify-center text-sm text-lav">
+              Revealing…
+            </div>
+          )}
+        </main>
+
+        {/* Pinned input */}
+        {playing && (
+          <footer className="flex-none px-5 pb-5 pt-1.5 lg:mx-auto lg:w-full lg:max-w-xl lg:px-8 lg:pb-8">
+            <div className="mb-3.5 flex justify-center gap-2.5" aria-hidden>
+              {Array.from({ length: puzzle.clueCount }, (_, i) => (
+                <span
+                  key={i}
+                  className={`h-[11px] w-[11px] rounded-full border-2 ${
+                    i === round.clueIndex ? "bulb-on border-gold-lt" : "border-[#463c78] bg-[#241f4d]"
+                  }`}
+                />
+              ))}
+            </div>
+            <form onSubmit={onSubmit}>
+              <label htmlFor="guess" className="sr-only-live">
+                Your answer
+              </label>
+              <input
+                id="guess"
+                type="text"
+                value={guess}
+                onChange={(e) => setGuess(e.target.value)}
+                placeholder="Type your answer…"
+                autoComplete="off"
+                autoCapitalize="off"
+                spellCheck={false}
+                maxLength={80}
+                className="field-dark mb-2.5 w-full rounded-xl px-3.5 py-3 text-[15px]"
+              />
+              <button
+                type="submit"
+                disabled={busy || !guess.trim()}
+                className="btn-gold w-full rounded-2xl py-3 text-base font-semibold"
+              >
+                {busy ? "Checking…" : "Lock in your guess"}
+              </button>
+            </form>
+            <div className="mt-2 flex items-center justify-between text-[13px] font-medium text-lav-lt">
+              {onLastClue ? (
+                <span className="text-lav">Last clue — make it count</span>
+              ) : (
+                <button
+                  type="button"
+                  onClick={onRevealNext}
+                  className="rounded px-1 py-0.5 hover:text-cream focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+                >
+                  Next clue → drops to {clueValue(round.clueIndex + 1)} points
+                </button>
+              )}
+              <button
+                type="button"
+                onClick={onGiveUp}
+                className="rounded px-1 py-0.5 text-lav hover:text-cream focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+              >
+                Give up
+              </button>
+            </div>
+            {(config.footerLink || config.footerLinkAlt) && (
+              <div className="mt-2 flex items-center justify-center gap-4 text-center">
+                {[config.footerLink, config.footerLinkAlt].map(
+                  (link, i) =>
+                    link && (
+                      <button
+                        key={i}
+                        type="button"
+                        onClick={link.onClick}
+                        className="text-[12.5px] text-lav hover:text-cream focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold rounded px-1"
+                      >
+                        {link.label}
+                      </button>
+                    ),
+                )}
+              </div>
+            )}
+          </footer>
+        )}
+      </div>
+    </div>
   );
 }
