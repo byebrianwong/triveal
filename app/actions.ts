@@ -42,9 +42,16 @@ export async function fetchDailyPuzzle(dateStr: string): Promise<DailyPuzzleDto>
   return { ...toPuzzleDto(question), dateStr, dailyNumber: dailyNumber(dateStr) };
 }
 
-/** A random verified question for endless practice, avoiding recent repeats. */
-export async function fetchPracticePuzzle(exclude: string[] = []): Promise<PuzzleDto> {
-  const question = await getRandomQuestion(exclude.slice(0, 50));
+/**
+ * A random verified question for endless practice. `exclude` avoids recently-
+ * seen questions; `avoidCategories` (newest-last) spaces categories apart so
+ * the same one doesn't come up several rounds in a row.
+ */
+export async function fetchPracticePuzzle(
+  exclude: string[] = [],
+  avoidCategories: string[] = [],
+): Promise<PuzzleDto> {
+  const question = await getRandomQuestion(exclude.slice(0, 50), avoidCategories.slice(0, 8));
   return toPuzzleDto(question);
 }
 

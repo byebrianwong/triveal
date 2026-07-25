@@ -13,6 +13,7 @@ import type { Question } from "@/lib/game/types";
 import { SEED_QUESTIONS } from "./seed";
 import { EXTRA_QUESTIONS } from "./extraBank";
 import { loadPrivateBank } from "./privateBank";
+import { pickAvoidingCategories } from "./select";
 import {
   fetchDailyQuestionFromSupabase,
   fetchRandomVerifiedQuestionFromSupabase,
@@ -51,14 +52,25 @@ export async function getQuestionById(id: string): Promise<Question | null> {
   return null;
 }
 
-/** A random verified question for practice mode, avoiding recent repeats. */
-export async function getRandomQuestion(exclude: string[] = []): Promise<Question> {
+/**
+ * A random verified question for practice mode. `exclude` skips recently-seen
+ * question ids; `avoidCategories` (newest-last) steers away from categories
+ * just served so a uniform-random draw doesn't clump the same category
+ * several rounds in a row.
+ */
+export async function getRandomQuestion(
+  exclude: string[] = [],
+  avoidCategories: string[] = [],
+): Promise<Question> {
   if (supabaseConfigured()) {
-    const q = await fetchRandomVerifiedQuestionFromSupabase(exclude);
+    const q = await fetchRandomVerifiedQuestionFromSupabase(exclude, avoidCategories);
     if (q) return q;
   }
   const bank = localBank();
   const pool = bank.filter((q) => !exclude.includes(q.id));
   const from = pool.length ? pool : bank;
-  return from[Math.floor(Math.random() * from.length)];
+  return (
+    pickAvoidingCategories(from, avoidCategories, (q) => q.category) ??
+    from[Math.floor(Math.random() * from.length)]
+  );
 }

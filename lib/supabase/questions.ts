@@ -7,6 +7,7 @@
 import "server-only";
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import type { Question } from "@/lib/game/types";
+import { pickAvoidingCategories } from "@/lib/questions/select";
 
 export function supabaseConfigured(): boolean {
   return Boolean(
@@ -75,19 +76,21 @@ export async function fetchDailyQuestionFromSupabase(
 
 export async function fetchRandomVerifiedQuestionFromSupabase(
   exclude: string[],
+  avoidCategories: string[] = [],
 ): Promise<Question | null> {
   const sb = getServerSupabase();
   const { data, error } = await sb
     .from("cluedown_questions")
-    .select("id")
+    .select("id, category")
     .eq("status", "verified")
     .limit(1000);
   if (error || !data?.length) return null;
-  const ids = data.map((r) => r.id as string);
-  const pool = ids.filter((id) => !exclude.includes(id));
-  const from = pool.length ? pool : ids;
-  const pick = from[Math.floor(Math.random() * from.length)];
-  return fetchQuestionByIdFromSupabase(pick);
+  const rows = data as { id: string; category: string | null }[];
+  const pool = rows.filter((r) => !exclude.includes(r.id));
+  const from = pool.length ? pool : rows;
+  const pick = pickAvoidingCategories(from, avoidCategories, (r) => r.category ?? "General");
+  if (!pick) return null;
+  return fetchQuestionByIdFromSupabase(pick.id);
 }
 
 export async function fetchQuestionByIdFromSupabase(id: string): Promise<Question | null> {
