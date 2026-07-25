@@ -17,10 +17,13 @@ export function PracticeGame({ onExit }: { onExit: () => void }) {
   const [played, setPlayed] = useState(0);
   const [solved, setSolved] = useState(0);
   const seenRef = useRef<string[]>([]);
+  // Recent categories (newest-last) so the server can space categories apart.
+  const recentCategoriesRef = useRef<string[]>([]);
 
   const loadPuzzle = useCallback(() => {
-    return fetchPracticePuzzle(seenRef.current).then((p) => {
+    return fetchPracticePuzzle(seenRef.current, recentCategoriesRef.current).then((p) => {
       seenRef.current = [...seenRef.current, p.questionId].slice(-12);
+      recentCategoriesRef.current = [...recentCategoriesRef.current, p.category].slice(-3);
       setPuzzle(p);
     });
   }, []);
