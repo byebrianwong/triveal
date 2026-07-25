@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "test": "vitest run",
-    "pipeline": "tsx"
+    "pipeline": "tsx",
+    "sync-bank": "tsx pipeline/sync-bank-to-supabase.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.110.0",

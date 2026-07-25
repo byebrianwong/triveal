@@ -38,7 +38,21 @@ With no environment variables the app serves the local question bank —
   upcoming dailies can't be spoiled. The app runs fine without it.
 
 Add Supabase env vars (see `.env.example`) to serve from Postgres instead;
-apply `supabase/migrations/0001_init.sql` first.
+apply `supabase/migrations/0001_init.sql` first, then load the committed bank
+into the database:
+
+```bash
+# apply migrations first, then:
+NEXT_PUBLIC_SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... pnpm sync-bank
+```
+
+`pnpm sync-bank` copies the committed bank (`SEED_QUESTIONS` + `EXTRA_QUESTIONS`
++ any private bank) into the `cluedown_*` tables as `verified` questions. It is
+idempotent — it dedupes by `answer_canonical` and inserts only what's missing —
+so re-run it whenever you add questions. Add `--dry-run` to preview the counts
+without writing (no credentials needed). Without this step a Supabase-backed
+deploy would serve only whatever is already in the database, not the committed
+bank.
 
 ## Deploy
 
