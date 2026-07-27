@@ -30,20 +30,45 @@ function Scoreboard({ state, playerId }: { state: PartyStateDto; playerId: strin
   );
 }
 
-/** One in-flight party round: clue ladder, guessing, host controls. */
-export function PartyRound({
-  state,
-  playerId,
-  onLeave,
-}: {
+interface PartyRoundProps {
   state: PartyStateDto;
   playerId: string;
   onLeave: () => void;
-}) {
+}
+
+/**
+ * One in-flight party round.
+ *
+ * This component stays mounted for the whole game — the host advancing the
+ * room just hands it a new `round` — but every bit of local state below (the
+ * typed guess, the in-flight flag, the feedback line) describes one specific
+ * round. So it is keyed by round number and React remounts it per round.
+ * Otherwise "🎉 You got it!" from the round you just won hangs over the next,
+ * unanswered question, and a guess that resolves after the host moved on
+ * paints its feedback onto that new round instead of a dead component.
+ */
+export function PartyRound(props: PartyRoundProps) {
+  return <RoundView key={props.state.round!.roundNumber} {...props} />;
+}
+
+/** Clue ladder, guessing and host controls for the round currently in play. */
+function RoundView({ state, playerId, onLeave }: PartyRoundProps) {
   const round = state.round!;
   const [guess, setGuess] = useState("");
   const [busy, setBusy] = useState(false);
   const [feedback, setFeedback] = useState<string | null>(null);
+
+  // Feedback is narrower than the round: it describes one guess against one
+  // clue. Revealing the next clue clears every lockout server-side, so
+  // "locked out until the next clue" would otherwise sit under a re-enabled
+  // input. Adjusted during render rather than in an effect so the stale line
+  // never paints. The typed guess survives — the host revealing a clue
+  // shouldn't wipe what someone is mid-way through typing.
+  const [feedbackClue, setFeedbackClue] = useState(round.clueIndex);
+  if (feedbackClue !== round.clueIndex) {
+    setFeedbackClue(round.clueIndex);
+    setFeedback(null);
+  }
 
   const resolved = round.status === "resolved";
   const canGuess = !resolved && !round.youLockedOut;
