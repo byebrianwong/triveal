@@ -8,6 +8,7 @@ import {
   type PartyStateDto,
 } from "@/app/party-actions";
 import { clueValue } from "@/lib/game/scoring";
+import { AnswerImage } from "./AnswerImage";
 
 /** Live scoreboard, sorted, with the current player highlighted. */
 function Scoreboard({ state, playerId }: { state: PartyStateDto; playerId: string }) {
@@ -149,9 +150,12 @@ function RoundView({ state, playerId, onLeave }: PartyRoundProps) {
             <p className="text-lav">Nobody got it.</p>
           )}
           {round.answer && (
-            <p className="mt-1 text-sm text-lav">
-              Answer: <span className="font-semibold text-cream">{round.answer}</span>
-            </p>
+            <>
+              <p className="mt-1 text-sm text-lav">
+                Answer: <span className="font-semibold text-cream">{round.answer}</span>
+              </p>
+              {round.questionId && <AnswerImage questionId={round.questionId} />}
+            </>
           )}
         </div>
       ) : (

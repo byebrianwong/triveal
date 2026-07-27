@@ -36,6 +36,7 @@ interface QuestionRow {
   answer_aliases: string[];
   category: string | null;
   difficulty: "easy" | "medium" | "hard" | null;
+  wikipedia_title: string | null;
   clues: { position: number; text: string }[];
   decoys: { text: string; eliminated_by_clue: number | null }[];
 }
@@ -48,6 +49,7 @@ function rowToQuestion(row: QuestionRow): Question {
     answerAliases: row.answer_aliases ?? [],
     category: row.category ?? "General",
     difficulty: row.difficulty ?? "medium",
+    wikipediaTitle: row.wikipedia_title ?? undefined,
     clues: [...row.clues].sort((a, b) => a.position - b.position),
     decoys: row.decoys.map((d) => ({
       text: d.text,
@@ -59,7 +61,7 @@ function rowToQuestion(row: QuestionRow): Question {
 // Embedded resources are aliased (`clues:cluedown_clues`) so the response
 // keys stay `clues`/`decoys`/`questions` regardless of the prefixed tables.
 const QUESTION_SELECT =
-  "id, answer, answer_canonical, answer_aliases, category, difficulty, clues:cluedown_clues(position, text), decoys:cluedown_decoys(text, eliminated_by_clue)";
+  "id, answer, answer_canonical, answer_aliases, category, difficulty, wikipedia_title, clues:cluedown_clues(position, text), decoys:cluedown_decoys(text, eliminated_by_clue)";
 
 export async function fetchDailyQuestionFromSupabase(
   dateStr: string,

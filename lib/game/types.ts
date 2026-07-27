@@ -30,4 +30,9 @@ export interface Question {
   difficulty: Difficulty;
   clues: Clue[];
   decoys: Decoy[];
+  /**
+   * Canonical Wikipedia article title, when the pipeline resolved one. Used to
+   * find the picture shown with the revealed answer.
+   */
+  wikipediaTitle?: string;
 }

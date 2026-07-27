@@ -65,6 +65,33 @@ Flags:
   rows). It matches on `answer_canonical`, so changing the answer text itself
   reads as a new question rather than an edit, and it never deletes questions.
 
+## Answer pictures
+
+When a round ends, the revealed answer gets a picture beside it — a salt
+shaker for "Salt", an octopus for "Octopus". It is Wikipedia's lead image for
+the answer's article, fetched after the reveal (so nothing in the round waits
+on it) and cached for a month. No API key, no configuration.
+
+Two rules keep it honest:
+
+- **Free pictures only.** Only files hosted on Wikimedia Commons are used;
+  English Wikipedia's own uploads (`upload.wikimedia.org/wikipedia/en/…`) are
+  mostly non-free fair-use posters and logos that a game has no right to reuse.
+  So most people, places, animals and objects get a picture, while film,
+  TV and game answers usually don't.
+- **The right picture or none.** A bare answer that lands on a disambiguation
+  page falls back to a category-scoped search, and search results are only
+  accepted when the article title *is* the answer — a confidently wrong picture
+  is worse than no picture. Answers whose plain name means something else
+  ("Apple", "Queen", "Mercury") are pinned to the right article in
+  `ANSWER_PAGE_TITLES` (`lib/questions/answerImage.ts`); add to that short list
+  when a new question needs it. Questions coming from Supabase use their
+  `wikipedia_title` column when it is set.
+
+Every picture carries its author and license and links to the Commons file
+page. Anything that fails — no article, no free image, Wikipedia unreachable,
+slow response — just renders no picture at all.
+
 ## Deploy
 
 This is a stock Next.js app, so [Vercel](https://vercel.com) hosts it with
@@ -167,11 +194,12 @@ set null` (it blocked deleting an individual player who had won a round).
 
 ```
 app/                 Next.js App Router; server actions keep answers server-side
-components/          DailyGame, ClueStack, Medallion, StarHost, ResultPanel
+components/          DailyGame, ClueStack, Medallion, StarHost, ResultPanel,
+                     AnswerImage
 lib/game/            pure game logic (no React/Supabase) — scoring, matching,
                      round state, streaks, share card. Portable to RN later.
 lib/questions/       public samples + gitignored private bank + data source
-                     (env-gated Supabase fallback)
+                     (env-gated Supabase fallback) + answer-picture lookup
 lib/supabase/        server-side (service role) + browser (anon realtime) clients
 supabase/migrations/ full schema incl. party mode tables + realtime
 pipeline/            offline question bank builder (Kaggle -> Wikipedia ->
@@ -195,6 +223,8 @@ wrong guesses; the answer box never leaves the screen.
   reduced-motion support
 - ✅ Question engine: matching (aliases, typo tolerance, decoy rejection),
   scoring, round state — 35 unit tests
+- ✅ Answer pictures: freely-licensed Wikimedia Commons art on every reveal
+  (daily, practice and party), credited and degrading to nothing
 - ✅ Supabase schema + env-gated data layer (seed fallback with zero config)
 - ✅ Pipeline scaffolded end to end (needs ANTHROPIC_API_KEY + kaggle CSV)
 - 🚧 Party mode: fully built — pure engine (`lib/game/party.ts`, unit-tested),

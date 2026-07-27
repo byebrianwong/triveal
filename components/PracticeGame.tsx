@@ -58,6 +58,7 @@ export function PracticeGame({ onExit }: { onExit: () => void }) {
       <PracticeResult
         round={round}
         answer={answer}
+        questionId={puzzle.questionId}
         sessionScore={sessionScore}
         played={played}
         solved={solved}
