@@ -124,6 +124,7 @@ async function main(): Promise<void> {
           answer_aliases: q.answerAliases,
           category: q.category,
           difficulty: q.difficulty,
+          wikipedia_title: q.wikipediaTitle ?? null,
           status: "verified",
         })),
       )

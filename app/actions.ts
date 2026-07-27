@@ -8,6 +8,8 @@
 import { matchGuess } from "@/lib/game/answerMatch";
 import { dailyNumber } from "@/lib/game/daily";
 import type { Difficulty, Question } from "@/lib/game/types";
+import type { AnswerImage } from "@/lib/questions/answerImage";
+import { getAnswerImage } from "@/lib/questions/answerImageSource";
 import { getDailyQuestion, getQuestionById, getRandomQuestion } from "@/lib/questions/source";
 
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
@@ -78,4 +80,15 @@ export async function revealAnswer(questionId: string): Promise<RevealDto> {
   const question = await getQuestionById(questionId);
   if (!question) throw new Error("Unknown question");
   return { answer: question.answer };
+}
+
+/**
+ * The picture that goes with a revealed answer. Deliberately a second round
+ * trip: it hits Wikipedia on a cold cache, and the result panel should never
+ * wait on that. `null` whenever there is no freely-licensed picture.
+ */
+export async function fetchAnswerImage(questionId: string): Promise<AnswerImage | null> {
+  const question = await getQuestionById(questionId);
+  if (!question) return null;
+  return getAnswerImage(question);
 }

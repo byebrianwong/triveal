@@ -2,11 +2,14 @@
 
 import type { RoundState } from "@/lib/game/roundState";
 import { clueValue } from "@/lib/game/scoring";
+import { AnswerImage } from "./AnswerImage";
 import { StarHost } from "./StarHost";
 
 interface PracticeResultProps {
   round: RoundState;
   answer: string;
+  /** Identifies the question to the answer-picture lookup. */
+  questionId: string;
   /** Running totals for this practice session (already include this round). */
   sessionScore: number;
   played: number;
@@ -18,6 +21,7 @@ interface PracticeResultProps {
 export function PracticeResult({
   round,
   answer,
+  questionId,
   sessionScore,
   played,
   solved,
@@ -50,7 +54,8 @@ export function PracticeResult({
       <div className="mt-4 w-full rounded-2xl border border-purple-line bg-[#2c2456]/60 p-3.5">
         <div className="text-[11px] uppercase tracking-[2px] text-lav">The answer was</div>
         <div className="my-1 text-[22px] font-semibold text-gold-lt">{answer}</div>
-        <p className="text-[12.5px] leading-normal text-lav-lt">
+        <AnswerImage questionId={questionId} />
+        <p className="mt-2.5 text-[12.5px] leading-normal text-lav-lt">
           Every clue above is a real fact — keep one for trivia night.
         </p>
       </div>

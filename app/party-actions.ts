@@ -64,6 +64,12 @@ export interface PartyRoundDto {
   winner: { playerId: string; name: string } | null;
   /** Answer only once the round has resolved; null while in play. */
   answer: string | null;
+  /**
+   * Question id, sent only alongside the answer: it feeds the answer-picture
+   * lookup, and local bank ids are answer slugs, so it stays server-side while
+   * the round is live.
+   */
+  questionId: string | null;
   youLockedOut: boolean;
   youWon: boolean;
 }
@@ -436,6 +442,7 @@ export async function getPartyState(gameId: string, playerId: string): Promise<P
         status: r.state,
         winner: winnerPlayer ? { playerId: winnerPlayer.id, name: winnerPlayer.name } : null,
         answer: r.state === "resolved" ? question.answer : null,
+        questionId: r.state === "resolved" ? question.id : null,
         youLockedOut:
           r.state === "revealing" && (await playerLockedOut(r.id, playerId, r.current_clue)),
         youWon: r.winner_player_id === playerId,

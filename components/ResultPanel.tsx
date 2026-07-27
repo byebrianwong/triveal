@@ -5,11 +5,14 @@ import type { RoundState } from "@/lib/game/roundState";
 import type { PlayerStats } from "@/lib/game/stats";
 import { buildShareText } from "@/lib/game/shareCard";
 import { clueValue } from "@/lib/game/scoring";
+import { AnswerImage } from "./AnswerImage";
 import { StarHost } from "./StarHost";
 
 interface ResultPanelProps {
   round: RoundState;
   answer: string;
+  /** Identifies the question to the answer-picture lookup. */
+  questionId: string;
   dailyNumber: number;
   clueCount: number;
   stats: PlayerStats;
@@ -20,6 +23,7 @@ interface ResultPanelProps {
 export function ResultPanel({
   round,
   answer,
+  questionId,
   dailyNumber,
   clueCount,
   stats,
@@ -78,7 +82,8 @@ export function ResultPanel({
       <div className="mt-4 w-full rounded-2xl border border-purple-line bg-[#2c2456]/60 p-3.5">
         <div className="text-[11px] uppercase tracking-[2px] text-lav">The answer was</div>
         <div className="my-1 text-[22px] font-semibold text-gold-lt">{answer}</div>
-        <p className="text-[12.5px] leading-normal text-lav-lt">
+        <AnswerImage questionId={questionId} />
+        <p className="mt-2.5 text-[12.5px] leading-normal text-lav-lt">
           {won
             ? "Every clue above is a real fact — take one to trivia night."
             : "The clues above are yours to keep — tomorrow's a fresh one."}

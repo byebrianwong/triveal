@@ -79,6 +79,7 @@ export function DailyGame({
       <ResultPanel
         round={round}
         answer={answer}
+        questionId={puzzle.questionId}
         dailyNumber={puzzle.dailyNumber}
         clueCount={puzzle.clueCount}
         stats={stats}
