@@ -9,7 +9,8 @@
     "lint": "eslint",
     "test": "vitest run",
     "pipeline": "tsx",
-    "sync-bank": "tsx pipeline/sync-bank-to-supabase.ts"
+    "sync-bank": "tsx pipeline/sync-bank-to-supabase.ts",
+    "cleanup-rooms": "tsx pipeline/cleanup-party-rooms.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.110.0",

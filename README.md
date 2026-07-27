@@ -38,8 +38,8 @@ With no environment variables the app serves the local question bank —
   upcoming dailies can't be spoiled. The app runs fine without it.
 
 Add Supabase env vars (see `.env.example`) to serve from Postgres instead;
-apply `supabase/migrations/0001_init.sql` first, then load the committed bank
-into the database:
+apply the migrations in `supabase/migrations/` in order first, then load the
+committed bank into the database:
 
 ```bash
 # apply migrations first, then:
@@ -115,9 +115,13 @@ inside `public` without needing custom "exposed schemas" config.
 
 **One-time setup:**
 
-1. In the Supabase dashboard, open **SQL Editor** and run
-   `supabase/migrations/0001_init.sql`. It is idempotent (`create ... if not
-   exists`), so re-running is safe.
+1. In the Supabase dashboard, open **SQL Editor** and run the files in
+   `supabase/migrations/` in order — `0001_init.sql`, then
+   `0002_player_delete_cascade.sql`. Both are idempotent, so re-running is safe.
+
+   `0002` is required for any project provisioned before it existed: `0001`
+   creates its tables with `if not exists`, so re-running it will *not* repair
+   an existing schema. See "Cleaning up old rooms" below for what it fixes.
 2. Add these env vars in **Vercel → Project → Settings → Environment
    Variables** (and to a local `.env.local` if you want party mode in `pnpm
    dev`):
@@ -135,6 +139,30 @@ The pure party engine (room codes, first-correct-wins resolution, per-clue
 scoring, standings) lives in `lib/game/party.ts` and is unit-tested
 independently of Supabase.
 
+### Cleaning up old rooms
+
+Party rooms are disposable — a game runs for minutes and is never revisited —
+so they need sweeping up, or `cluedown_games` grows without bound.
+
+```bash
+NEXT_PUBLIC_SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... pnpm cleanup-rooms
+```
+
+By default this removes finished rooms older than 2 hours (long enough that a
+results screen someone left open still resolves) and lobby/active rooms older
+than 24 hours (abandoned mid-play). Tune with `--finished-grace=<hours>` and
+`--abandoned-after=<hours>`; preview with `--dry-run`. It is a thin wrapper
+over the `cluedown_cleanup_stale_games()` SQL function, so you can equally call
+it from the SQL editor or from pg_cron — see the note at the end of
+`0002_player_delete_cascade.sql`.
+
+`0002` is what makes this possible at all. `0001` created
+`cluedown_guesses.player_id` with no `on delete` action, so deleting a game
+aborted with a foreign-key violation the moment the room contained a single
+guess — rooms could be created but never removed. `0002` gives that column
+`on delete cascade`, and gives `cluedown_rounds.winner_player_id` `on delete
+set null` (it blocked deleting an individual player who had won a round).
+
 ## Layout
 
 ```
@@ -148,6 +176,7 @@ lib/supabase/        server-side (service role) + browser (anon realtime) client
 supabase/migrations/ full schema incl. party mode tables + realtime
 pipeline/            offline question bank builder (Kaggle -> Wikipedia ->
                      generate -> verify -> Supabase). See pipeline/README.md.
+                     Also the party-room cleanup script (pnpm cleanup-rooms).
 mocks/               design exploration HTML (Starlit stage etc.)
 ```
 

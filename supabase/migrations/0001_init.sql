@@ -6,6 +6,11 @@
 -- schema so they can't collide with another app's `games`, `players`, etc.,
 -- while keeping the default PostgREST/Realtime setup working with no extra
 -- "exposed schemas" configuration.
+--
+-- NOTE: every table here is `create ... if not exists`, so re-running this file
+-- will NOT alter a database that already has these tables. If your project was
+-- provisioned before the player-delete cascades below were added, apply
+-- 0002_player_delete_cascade.sql — it patches the existing constraints in place.
 
 -- Question bank (populated by the offline pipeline)
 create table if not exists cluedown_questions (
@@ -77,7 +82,10 @@ create table if not exists cluedown_rounds (
   clue_started_at  timestamptz,                   -- server time, for synced timers
   state            text not null default 'revealing'
                    check (state in ('revealing','resolved')),
-  winner_player_id uuid references cluedown_players(id),
+  -- set null, not cascade: a round outlives its winner. Removing the player
+  -- who won it just clears the winner (resolved-with-no-winner is already a
+  -- valid state — it is what happens when the last clue runs out).
+  winner_player_id uuid references cluedown_players(id) on delete set null,
   unique (game_id, round_number)
 );
 
@@ -92,7 +100,10 @@ create table if not exists cluedown_round_questions (
 create table if not exists cluedown_guesses (
   id            uuid primary key default gen_random_uuid(),
   round_id      uuid not null references cluedown_rounds(id) on delete cascade,
-  player_id     uuid not null references cluedown_players(id),
+  -- cascade, not the SQL default of no action: without it the delete of a
+  -- player is checked before the round cascade that would have cleared these
+  -- rows, so a room with any guess in it can never be deleted at all.
+  player_id     uuid not null references cluedown_players(id) on delete cascade,
   clue_position int  not null,
   answer_text   text not null,
   is_correct    boolean not null,
@@ -107,6 +118,11 @@ create unique index if not exists cluedown_one_correct_guess_per_round
 create index if not exists cluedown_guesses_round_idx on cluedown_guesses (round_id);
 create index if not exists cluedown_players_game_idx on cluedown_players (game_id);
 create index if not exists cluedown_rounds_game_idx on cluedown_rounds (game_id);
+-- Referencing sides of the player FKs above, so deleting a player (or a whole
+-- room) enforces them with an index scan instead of a seq scan.
+create index if not exists cluedown_guesses_player_idx on cluedown_guesses (player_id);
+create index if not exists cluedown_rounds_winner_idx on cluedown_rounds (winner_player_id);
+create index if not exists cluedown_games_created_idx on cluedown_games (created_at);
 create index if not exists cluedown_clues_question_idx on cluedown_clues (question_id);
 create index if not exists cluedown_decoys_question_idx on cluedown_decoys (question_id);
 create index if not exists cluedown_questions_status_idx on cluedown_questions (status);
