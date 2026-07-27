@@ -49,10 +49,21 @@ NEXT_PUBLIC_SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... pnpm sync-bank
 `pnpm sync-bank` copies the committed bank (`SEED_QUESTIONS` + `EXTRA_QUESTIONS`
 + any private bank) into the `cluedown_*` tables as `verified` questions. It is
 idempotent — it dedupes by `answer_canonical` and inserts only what's missing —
-so re-run it whenever you add questions. Add `--dry-run` to preview the counts
-without writing (no credentials needed). Without this step a Supabase-backed
+so re-run it whenever you add questions. Without this step a Supabase-backed
 deploy would serve only whatever is already in the database, not the committed
 bank.
+
+Flags:
+
+- `--dry-run` previews what would change and writes nothing. On its own it just
+  reports the local bank (no credentials needed); combined with `--update` it
+  reads the DB to compute the diff, so credentials are required.
+- `--update` also reconciles questions **already** in the DB whose committed
+  content changed — the answer/aliases/category/difficulty, the clues, or the
+  decoys — rewriting only the parts that differ. Use it after editing existing
+  questions (a plain sync inserts new questions but never touches existing
+  rows). It matches on `answer_canonical`, so changing the answer text itself
+  reads as a new question rather than an edit, and it never deletes questions.
 
 ## Answer pictures
 
