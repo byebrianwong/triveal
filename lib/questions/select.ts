@@ -17,6 +17,25 @@ export function categoryGroup(category: string): string {
 }
 
 /**
+ * Collapse items sharing a canonical answer, keeping the first occurrence.
+ *
+ * The gitignored private bank overlaps the committed one, so concatenating
+ * the banks yields the same question more than once. Both the local pool
+ * (`source.ts` `localBank`) and the Supabase mirror
+ * (`pipeline/sync-bank-to-supabase.ts`) run everything through this, so the
+ * two paths serve an identical set — without it the overlapping questions
+ * come up roughly twice as often locally as they do from Postgres.
+ */
+export function dedupeByCanonical<T>(items: T[], canonicalOf: (item: T) => string): T[] {
+  const byCanonical = new Map<string, T>();
+  for (const it of items) {
+    const key = canonicalOf(it);
+    if (!byCanonical.has(key)) byCanonical.set(key, it);
+  }
+  return [...byCanonical.values()];
+}
+
+/**
  * Pick one item at random while steering away from recently-served
  * categories, so a uniform-random draw doesn't clump the same category
  * several times in a row.
