@@ -1,5 +1,8 @@
 import { describe, expect, it } from "vitest";
-import { categoryGroup, pickAvoidingCategories } from "./select";
+import { SEED_QUESTIONS } from "./seed";
+import { EXTRA_QUESTIONS } from "./extraBank";
+import { loadPrivateBank } from "./privateBank";
+import { categoryGroup, dedupeByCanonical, pickAvoidingCategories } from "./select";
 
 /** Deterministic rand stub: always returns the first element of the pool. */
 const first = () => 0;
@@ -15,6 +18,34 @@ describe("categoryGroup", () => {
     expect(categoryGroup("  Science ")).toBe("science");
     expect(categoryGroup("Animals")).toBe("animals");
     expect(categoryGroup("Space")).toBe("space");
+  });
+});
+
+describe("dedupeByCanonical", () => {
+  const canonOf = (i: { c: string }) => i.c;
+
+  it("keeps the first occurrence and drops later ones", () => {
+    const items = [
+      { id: "public", c: "chess" },
+      { id: "private", c: "chess" },
+      { id: "other", c: "honey" },
+    ];
+    expect(dedupeByCanonical(items, canonOf).map((i) => i.id)).toEqual(["public", "other"]);
+  });
+
+  it("preserves order and passes through an already-unique list", () => {
+    const items = [{ id: "a", c: "x" }, { id: "b", c: "y" }];
+    expect(dedupeByCanonical(items, canonOf)).toEqual(items);
+    expect(dedupeByCanonical([], canonOf)).toEqual([]);
+  });
+
+  it("leaves the assembled local bank free of duplicate answers", () => {
+    // The private bank overlaps the committed one, so the raw concatenation
+    // genuinely repeats questions. This is the guarantee `localBank` relies on
+    // to serve the same set Supabase does.
+    const raw = [...SEED_QUESTIONS, ...EXTRA_QUESTIONS, ...loadPrivateBank()];
+    const unique = dedupeByCanonical(raw, (q) => q.answerCanonical);
+    expect(new Set(unique.map((q) => q.answerCanonical)).size).toBe(unique.length);
   });
 });
 

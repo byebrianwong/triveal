@@ -13,16 +13,25 @@ import type { Question } from "@/lib/game/types";
 import { SEED_QUESTIONS } from "./seed";
 import { EXTRA_QUESTIONS } from "./extraBank";
 import { loadPrivateBank } from "./privateBank";
-import { pickAvoidingCategories } from "./select";
+import { dedupeByCanonical, pickAvoidingCategories } from "./select";
 import {
   fetchDailyQuestionFromSupabase,
   fetchRandomVerifiedQuestionFromSupabase,
   supabaseConfigured,
 } from "@/lib/supabase/questions";
 
-/** Public samples + committed extra bank + gitignored private bank (when present). */
+/**
+ * Public samples + committed extra bank + gitignored private bank (when
+ * present), de-duped by canonical answer the same way the Supabase mirror is.
+ * The private bank overlaps the committed one, so without the dedupe the
+ * overlapping questions would sit in this pool twice and come up about twice
+ * as often as they do when Supabase is configured.
+ */
 function localBank(): Question[] {
-  return [...SEED_QUESTIONS, ...EXTRA_QUESTIONS, ...loadPrivateBank()];
+  return dedupeByCanonical(
+    [...SEED_QUESTIONS, ...EXTRA_QUESTIONS, ...loadPrivateBank()],
+    (q) => q.answerCanonical,
+  );
 }
 
 export interface DailyPuzzle {
