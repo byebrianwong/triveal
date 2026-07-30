@@ -528,7 +528,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Chess",
     answerCanonical: "chess",
     answerAliases: [],
-    category: "Games",
+    category: "Video Games",
     difficulty: "medium",
     clues: [
       { position: 1, text: "The number of possible games it allows outstrips the count of atoms in the observable universe." },
@@ -2958,7 +2958,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Star Wars",
     answerCanonical: "star wars",
     answerAliases: [],
-    category: "Film",
+    category: "Movies",
     difficulty: "easy",
     clues: [
       { position: 1, text: "Its opening words scroll up the screen and into the distance: 'A long time ago in a galaxy far, far away.'" },
@@ -2976,7 +2976,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "The Wizard of Oz",
     answerCanonical: "wizard of oz",
     answerAliases: [],
-    category: "Film",
+    category: "Movies",
     difficulty: "medium",
     clues: [
       { position: 1, text: "A twister carries a Kansas farm girl and her dog Toto over the rainbow to a Technicolor land." },
@@ -2994,7 +2994,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Jurassic Park",
     answerCanonical: "jurassic park",
     answerAliases: [],
-    category: "Film",
+    category: "Movies",
     difficulty: "medium",
     clues: [
       { position: 1, text: "Scientists extract ancient DNA from mosquitoes trapped in amber to work their resurrection." },
@@ -3012,7 +3012,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Charlie Chaplin",
     answerCanonical: "charlie chaplin",
     answerAliases: ["Chaplin", "the Tramp"],
-    category: "Film",
+    category: "Movies",
     difficulty: "medium",
     clues: [
       { position: 1, text: "He once reportedly entered a look-alike contest of himself and failed to place near the top." },
@@ -3030,7 +3030,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Walt Disney",
     answerCanonical: "walt disney",
     answerAliases: ["Disney"],
-    category: "Film",
+    category: "Movies",
     difficulty: "easy",
     clues: [
       { position: 1, text: "He was told early on that he 'lacked imagination and had no good ideas,' and was fired from a newspaper job." },
