@@ -151,7 +151,7 @@ describe("getAnswerImage", () => {
 
     expect(
       await getAnswerImage(
-        question({ answer: "Star Wars", answerCanonical: "star wars", category: "Film" }),
+        question({ answer: "Star Wars", answerCanonical: "star wars", category: "Movies" }),
       ),
     ).toBeNull();
   });
