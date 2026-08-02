@@ -9,7 +9,7 @@
  * more — mirroring the single-player decay.
  *
  * These functions are the source of truth the server actions call; the DB
- * rows (cluedown_games / _players / _rounds / _guesses) persist the results
+ * rows (triveal_games / _players / _rounds / _guesses) persist the results
  * and a unique index enforces first-correct-wins at the storage layer too.
  */
 

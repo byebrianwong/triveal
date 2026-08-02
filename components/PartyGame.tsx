@@ -9,7 +9,10 @@ import { PartyRound } from "./PartyRound";
 import { usePartyState } from "./usePartyState";
 import { StageLoading } from "./chrome";
 
-const IDENTITY_KEY = "cluedown:party";
+const IDENTITY_KEY = "triveal:party";
+// Key before the Cluedown → Triveal rename, read once as a fallback so the
+// rename doesn't eject players already sitting in a room.
+const LEGACY_IDENTITY_KEY = "cluedown:party";
 
 /** Party mode: entry → lobby → rounds → results, driven by live game state. */
 export function PartyGame({ onExit }: { onExit: () => void }) {
@@ -23,7 +26,14 @@ export function PartyGame({ onExit }: { onExit: () => void }) {
     void Promise.resolve().then(() => {
       if (!active) return;
       try {
-        const raw = localStorage.getItem(IDENTITY_KEY);
+        let raw = localStorage.getItem(IDENTITY_KEY);
+        if (!raw) {
+          raw = localStorage.getItem(LEGACY_IDENTITY_KEY);
+          if (raw) {
+            localStorage.setItem(IDENTITY_KEY, raw);
+            localStorage.removeItem(LEGACY_IDENTITY_KEY);
+          }
+        }
         if (raw) setIdentity(JSON.parse(raw) as PartyIdentity);
       } catch {
         // ignore malformed storage

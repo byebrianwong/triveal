@@ -19,7 +19,7 @@ if (!process.env.ANTHROPIC_API_KEY) {
 
 // A stronger model for the checking pass (spec: "use a stronger model or
 // human spot-review").
-const MODEL = process.env.CLUEDOWN_VERIFY_MODEL ?? "claude-opus-4-8";
+const MODEL = process.env.TRIVEAL_VERIFY_MODEL ?? "claude-opus-4-8";
 
 const client = new Anthropic();
 const generated = readJson<GeneratedQuestion[]>("generated.json");

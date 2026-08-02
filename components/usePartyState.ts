@@ -42,22 +42,22 @@ export function usePartyState(gameId: string | null, playerId: string | null) {
       ?.channel(`party:${gameId}`)
       .on(
         "postgres_changes",
-        { event: "*", schema: "public", table: "cluedown_games", filter: `id=eq.${gameId}` },
+        { event: "*", schema: "public", table: "triveal_games", filter: `id=eq.${gameId}` },
         kick,
       )
       .on(
         "postgres_changes",
-        { event: "*", schema: "public", table: "cluedown_players", filter: `game_id=eq.${gameId}` },
+        { event: "*", schema: "public", table: "triveal_players", filter: `game_id=eq.${gameId}` },
         kick,
       )
       .on(
         "postgres_changes",
-        { event: "*", schema: "public", table: "cluedown_rounds", filter: `game_id=eq.${gameId}` },
+        { event: "*", schema: "public", table: "triveal_rounds", filter: `game_id=eq.${gameId}` },
         kick,
       )
       .on(
         "postgres_changes",
-        { event: "*", schema: "public", table: "cluedown_guesses" },
+        { event: "*", schema: "public", table: "triveal_guesses" },
         kick,
       )
       .subscribe();

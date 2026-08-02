@@ -1,4 +1,4 @@
-# Cluedown question pipeline (offline)
+# Triveal question pipeline (offline)
 
 Builds the verified question bank. Runs on your machine, never in the live
 app — the app only serves rows that already passed verification.
@@ -26,7 +26,7 @@ NEXT_PUBLIC_SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... pnpm pipeline pipelin
 
 Models: generation defaults to `claude-sonnet-5` (batch volume), verification
 to `claude-opus-4-8` (stronger checking pass). Override with
-`CLUEDOWN_GENERATE_MODEL` / `CLUEDOWN_VERIFY_MODEL`.
+`TRIVEAL_GENERATE_MODEL` / `TRIVEAL_VERIFY_MODEL`.
 
 ## Rules enforced
 

@@ -2,7 +2,7 @@
  * Spoiler-free share text. Encodes the round's shape — never the answer,
  * never clue text.
  *
- *   Cluedown No. 142 — solved on clue 2
+ *   Triveal No. 142 — solved on clue 2
  *   ✕★··  7 pts · streak 8
  */
 
@@ -37,7 +37,7 @@ export function buildShareText(input: ShareInput): string {
   const scoreBit = round.status === "won" ? `${round.score} pts` : "0 pts";
   const streakBit = streak > 0 ? ` · streak ${streak}` : "";
   const lines = [
-    `Cluedown No. ${dailyNumber} — ${headline}`,
+    `Triveal No. ${dailyNumber} — ${headline}`,
     `${glyphs}  ${scoreBit}${streakBit}`,
   ];
   if (url) lines.push(url);

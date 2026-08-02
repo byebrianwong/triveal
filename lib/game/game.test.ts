@@ -176,7 +176,7 @@ describe("share card", () => {
     const won = submitGuess(miss, venus, "Venus").state;
     expect(buildShareGlyphs(won, 4)).toBe("✕★··");
     const text = buildShareText({ dailyNumber: 142, round: won, clueCount: 4, streak: 8 });
-    expect(text).toContain("Cluedown No. 142");
+    expect(text).toContain("Triveal No. 142");
     expect(text).toContain("7 pts");
     expect(text.toLowerCase()).not.toContain("venus");
   });

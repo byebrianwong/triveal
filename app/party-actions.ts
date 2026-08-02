@@ -123,7 +123,7 @@ interface RoundRow {
 async function loadGame(gameId: string): Promise<GameRow> {
   const sb = getServerSupabase();
   const { data, error } = await sb
-    .from("cluedown_games")
+    .from("triveal_games")
     .select("id, room_code, host_player_id, status, settings, current_round")
     .eq("id", gameId)
     .maybeSingle();
@@ -134,7 +134,7 @@ async function loadGame(gameId: string): Promise<GameRow> {
 async function loadPlayers(gameId: string): Promise<PlayerRow[]> {
   const sb = getServerSupabase();
   const { data, error } = await sb
-    .from("cluedown_players")
+    .from("triveal_players")
     .select("id, name, score, is_host, joined_at")
     .eq("game_id", gameId)
     .order("joined_at", { ascending: true });
@@ -145,7 +145,7 @@ async function loadPlayers(gameId: string): Promise<PlayerRow[]> {
 async function loadRound(gameId: string, roundNumber: number): Promise<RoundRow | null> {
   const sb = getServerSupabase();
   const { data, error } = await sb
-    .from("cluedown_rounds")
+    .from("triveal_rounds")
     .select("id, round_number, current_clue, clue_count, state, winner_player_id")
     .eq("game_id", gameId)
     .eq("round_number", roundNumber)
@@ -157,7 +157,7 @@ async function loadRound(gameId: string, roundNumber: number): Promise<RoundRow 
 async function questionForRound(roundId: string): Promise<Question> {
   const sb = getServerSupabase();
   const { data, error } = await sb
-    .from("cluedown_round_questions")
+    .from("triveal_round_questions")
     .select("question_ref")
     .eq("round_id", roundId)
     .maybeSingle();
@@ -173,14 +173,14 @@ async function createRound(gameId: string, roundNumber: number): Promise<void> {
 
   // Exclude questions already used this game so rounds don't repeat.
   const { data: roundRows } = await sb
-    .from("cluedown_rounds")
+    .from("triveal_rounds")
     .select("id")
     .eq("game_id", gameId);
   const roundIds = (roundRows ?? []).map((r) => r.id as string);
   let used: string[] = [];
   if (roundIds.length) {
     const { data: refRows } = await sb
-      .from("cluedown_round_questions")
+      .from("triveal_round_questions")
       .select("question_ref")
       .in("round_id", roundIds);
     used = (refRows ?? []).map((r) => r.question_ref as string);
@@ -189,7 +189,7 @@ async function createRound(gameId: string, roundNumber: number): Promise<void> {
   const question = await getRandomQuestion(used);
 
   const { data: round, error: roundErr } = await sb
-    .from("cluedown_rounds")
+    .from("triveal_rounds")
     .insert({
       game_id: gameId,
       round_number: roundNumber,
@@ -203,10 +203,10 @@ async function createRound(gameId: string, roundNumber: number): Promise<void> {
   if (roundErr || !round) throw new Error("Could not start the round.");
 
   const { error: linkErr } = await sb
-    .from("cluedown_round_questions")
+    .from("triveal_round_questions")
     .insert({ round_id: round.id, question_ref: question.id });
   if (linkErr) {
-    await sb.from("cluedown_rounds").delete().eq("id", round.id);
+    await sb.from("triveal_rounds").delete().eq("id", round.id);
     throw new Error("Could not start the round.");
   }
 }
@@ -214,7 +214,7 @@ async function createRound(gameId: string, roundNumber: number): Promise<void> {
 async function playerLockedOut(roundId: string, playerId: string, cluePos: number): Promise<boolean> {
   const sb = getServerSupabase();
   const { data } = await sb
-    .from("cluedown_guesses")
+    .from("triveal_guesses")
     .select("id")
     .eq("round_id", roundId)
     .eq("player_id", playerId)
@@ -237,7 +237,7 @@ export async function createPartyRoom(hostName: string): Promise<CreateRoomResul
   for (let attempt = 0; attempt < 12 && !gameId; attempt++) {
     roomCode = generateRoomCode();
     const { data, error } = await sb
-      .from("cluedown_games")
+      .from("triveal_games")
       .insert({ room_code: roomCode, status: "lobby", settings: { totalRounds: DEFAULT_PARTY_ROUNDS } })
       .select("id")
       .single();
@@ -247,13 +247,13 @@ export async function createPartyRoom(hostName: string): Promise<CreateRoomResul
   if (!gameId) throw new Error("Could not allocate a room code — try again.");
 
   const { data: player, error: playerErr } = await sb
-    .from("cluedown_players")
+    .from("triveal_players")
     .insert({ game_id: gameId, name, is_host: true })
     .select("id")
     .single();
   if (playerErr || !player) throw new Error("Could not create host player.");
 
-  await sb.from("cluedown_games").update({ host_player_id: player.id }).eq("id", gameId);
+  await sb.from("triveal_games").update({ host_player_id: player.id }).eq("id", gameId);
   return { gameId, playerId: player.id as string, roomCode };
 }
 
@@ -268,7 +268,7 @@ export async function joinPartyRoom(
   const sb = getServerSupabase();
 
   const { data: game } = await sb
-    .from("cluedown_games")
+    .from("triveal_games")
     .select("id, status")
     .eq("room_code", cleanCode)
     .maybeSingle();
@@ -276,13 +276,13 @@ export async function joinPartyRoom(
   if (game.status !== "lobby") throw new Error("That game has already started.");
 
   const { count } = await sb
-    .from("cluedown_players")
+    .from("triveal_players")
     .select("id", { count: "exact", head: true })
     .eq("game_id", game.id);
   if ((count ?? 0) >= MAX_PLAYERS) throw new Error("That room is full.");
 
   const { data: player, error } = await sb
-    .from("cluedown_players")
+    .from("triveal_players")
     .insert({ game_id: game.id, name: playerName })
     .select("id")
     .single();
@@ -297,7 +297,7 @@ export async function startPartyGame(gameId: string, playerId: string): Promise<
   if (game.status !== "lobby") throw new Error("The game has already started.");
 
   const sb = getServerSupabase();
-  await sb.from("cluedown_games").update({ status: "active", current_round: 1 }).eq("id", gameId);
+  await sb.from("triveal_games").update({ status: "active", current_round: 1 }).eq("id", gameId);
   await createRound(gameId, 1);
 }
 
@@ -327,7 +327,7 @@ export async function submitPartyGuess(
   const match = matchGuess(question, String(guess).slice(0, MAX_GUESS));
   const sb = getServerSupabase();
 
-  const { error: insErr } = await sb.from("cluedown_guesses").insert({
+  const { error: insErr } = await sb.from("triveal_guesses").insert({
     round_id: round.id,
     player_id: playerId,
     clue_position: round.current_clue,
@@ -351,16 +351,16 @@ export async function submitPartyGuess(
   // This player recorded the first correct guess: resolve + award points.
   const points = clueValue(round.current_clue - 1);
   await sb
-    .from("cluedown_rounds")
+    .from("triveal_rounds")
     .update({ state: "resolved", winner_player_id: playerId })
     .eq("id", round.id);
   const { data: me } = await sb
-    .from("cluedown_players")
+    .from("triveal_players")
     .select("score")
     .eq("id", playerId)
     .maybeSingle();
   await sb
-    .from("cluedown_players")
+    .from("triveal_players")
     .update({ score: (me?.score ?? 0) + points })
     .eq("id", playerId);
 
@@ -377,12 +377,12 @@ export async function revealNextPartyClue(gameId: string, playerId: string): Pro
   const sb = getServerSupabase();
   if (round.current_clue < round.clue_count) {
     await sb
-      .from("cluedown_rounds")
+      .from("triveal_rounds")
       .update({ current_clue: round.current_clue + 1, clue_started_at: new Date().toISOString() })
       .eq("id", round.id);
   } else {
     // Last clue exhausted with no winner: resolve the round.
-    await sb.from("cluedown_rounds").update({ state: "resolved" }).eq("id", round.id);
+    await sb.from("triveal_rounds").update({ state: "resolved" }).eq("id", round.id);
   }
 }
 
@@ -398,11 +398,11 @@ export async function startNextPartyRound(gameId: string, playerId: string): Pro
   const totalRounds = game.settings?.totalRounds ?? DEFAULT_PARTY_ROUNDS;
   const sb = getServerSupabase();
   if (game.current_round >= totalRounds) {
-    await sb.from("cluedown_games").update({ status: "finished" }).eq("id", gameId);
+    await sb.from("triveal_games").update({ status: "finished" }).eq("id", gameId);
     return;
   }
   const next = game.current_round + 1;
-  await sb.from("cluedown_games").update({ current_round: next }).eq("id", gameId);
+  await sb.from("triveal_games").update({ current_round: next }).eq("id", gameId);
   await createRound(gameId, next);
 }
 

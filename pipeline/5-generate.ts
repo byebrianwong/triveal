@@ -16,7 +16,7 @@ if (!process.env.ANTHROPIC_API_KEY) {
 }
 
 // Sonnet-class for batch volume per the handoff spec §3.5.
-const MODEL = process.env.CLUEDOWN_GENERATE_MODEL ?? "claude-sonnet-5";
+const MODEL = process.env.TRIVEAL_GENERATE_MODEL ?? "claude-sonnet-5";
 const LIMIT = Number(process.argv[process.argv.indexOf("--limit") + 1]) || 50;
 
 const client = new Anthropic();

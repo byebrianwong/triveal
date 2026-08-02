@@ -146,7 +146,7 @@ export function Game({ puzzle, config }: { puzzle: PuzzleDto; config: GameConfig
         <span className="twinkle absolute left-6 top-14 text-[9px] text-[#cdb9ff] lg:left-8" aria-hidden>✦</span>
         <span className="twinkle absolute right-6 top-24 text-[8px] text-pink-lt [animation-delay:1.2s] lg:right-8" aria-hidden>✦</span>
         <div className="relative flex items-center justify-between">
-          <h1 className="text-[21px] font-semibold tracking-[.3px] text-gold-lt lg:text-[26px]">Cluedown</h1>
+          <h1 className="text-[21px] font-semibold tracking-[.3px] text-gold-lt lg:text-[26px]">Triveal</h1>
           {config.badge}
         </div>
         <p className="mt-1.5 mb-3 text-center text-[10.5px] uppercase tracking-[2.5px] text-lav lg:mb-6 lg:text-left">

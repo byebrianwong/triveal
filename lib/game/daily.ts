@@ -37,5 +37,9 @@ export function hashString(s: string): number {
  */
 export function dailyQuestionIndex(dateStr: string, bankSize: number): number {
   if (bankSize <= 0) return 0;
+  // "cluedown:" is a frozen hash seed, not a name — it survives the rename to
+  // Triveal on purpose. Changing it repoints every date at a different bank
+  // entry, which would swap the puzzle out from under anyone mid-round on a
+  // date the DB schedule doesn't cover.
   return hashString(`cluedown:${dateStr}`) % bankSize;
 }

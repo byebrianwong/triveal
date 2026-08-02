@@ -27,7 +27,7 @@ import {
 
 const API = "https://en.wikipedia.org/w/api.php";
 // Wikimedia's API etiquette asks for a descriptive agent with a contact URL.
-const USER_AGENT = "Cluedown/0.1 (https://github.com/byebrianwong/triveal)";
+const USER_AGENT = "Triveal/0.1 (https://github.com/byebrianwong/triveal)";
 /** Answer artwork is effectively static; a month between refetches is plenty. */
 const REVALIDATE_SECONDS = 60 * 60 * 24 * 30;
 const TIMEOUT_MS = 6000;
