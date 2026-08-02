@@ -112,6 +112,10 @@ function dbCluesFingerprint(row: ExistingRow): string {
   return JSON.stringify(rows);
 }
 
+// NUL separates the two fields because it can't occur in either, so the join
+// stays unambiguous. Keep it written as a unicode escape rather than a literal
+// byte: a raw NUL makes git classify this entire file as binary, which silently
+// costs every future diff and review of it.
 const decoyKey = (d: { text: string; eliminated_by_clue: number | null }) =>
   `${d.text}\u0000${d.eliminated_by_clue ?? ""}`;
 
