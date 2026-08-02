@@ -1,4 +1,4 @@
-# Cluedown
+# Triveal
 
 [![CI](https://github.com/byebrianwong/triveal/actions/workflows/ci.yml/badge.svg)](https://github.com/byebrianwong/triveal/actions/workflows/ci.yml)
 
@@ -47,7 +47,7 @@ NEXT_PUBLIC_SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... pnpm sync-bank
 ```
 
 `pnpm sync-bank` copies the committed bank (`SEED_QUESTIONS` + `EXTRA_QUESTIONS`
-+ any private bank) into the `cluedown_*` tables as `verified` questions. It is
++ any private bank) into the `triveal_*` tables as `verified` questions. It is
 idempotent — it dedupes by `answer_canonical` and inserts only what's missing —
 so re-run it whenever you add questions. Without this step a Supabase-backed
 deploy would serve only whatever is already in the database, not the committed
@@ -118,10 +118,10 @@ the extras; all are optional:
 
 | Variable | Purpose |
 |---|---|
-| `CLUEDOWN_PRIVATE_BANK` | base64 of `private-bank.json`, to add private questions on top of the committed bank. Generate with `base64 -i lib/questions/private-bank.json`. |
+| `TRIVEAL_PRIVATE_BANK` | base64 of `private-bank.json`, to add private questions on top of the committed bank. Generate with `base64 -i lib/questions/private-bank.json`. |
 | `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY` | serve questions from Supabase Postgres instead of the local bank. |
 
-`lib/questions/privateBank.ts` reads `CLUEDOWN_PRIVATE_BANK` first, then the
+`lib/questions/privateBank.ts` reads `TRIVEAL_PRIVATE_BANK` first, then the
 local file — so dev uses the file and prod uses the env var when set.
 
 ### Or deploy from the CLI
@@ -136,7 +136,7 @@ pnpm dlx vercel --prod # ship to production
 Party mode needs a Supabase project (Postgres + Realtime). Daily and practice
 modes do **not** — skip this section entirely if you only want single-player.
 
-All Cluedown tables are prefixed `cluedown_` so the schema is safe to apply to
+All Triveal tables are prefixed `triveal_` so the schema is safe to apply to
 a **shared** Supabase project used by other apps — the prefix namespaces them
 inside `public` without needing custom "exposed schemas" config.
 
@@ -169,7 +169,7 @@ independently of Supabase.
 ### Cleaning up old rooms
 
 Party rooms are disposable — a game runs for minutes and is never revisited —
-so they need sweeping up, or `cluedown_games` grows without bound.
+so they need sweeping up, or `triveal_games` grows without bound.
 
 ```bash
 NEXT_PUBLIC_SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... pnpm cleanup-rooms
@@ -179,15 +179,15 @@ By default this removes finished rooms older than 2 hours (long enough that a
 results screen someone left open still resolves) and lobby/active rooms older
 than 24 hours (abandoned mid-play). Tune with `--finished-grace=<hours>` and
 `--abandoned-after=<hours>`; preview with `--dry-run`. It is a thin wrapper
-over the `cluedown_cleanup_stale_games()` SQL function, so you can equally call
+over the `triveal_cleanup_stale_games()` SQL function, so you can equally call
 it from the SQL editor or from pg_cron — see the note at the end of
 `0002_player_delete_cascade.sql`.
 
 `0002` is what makes this possible at all. `0001` created
-`cluedown_guesses.player_id` with no `on delete` action, so deleting a game
+`triveal_guesses.player_id` with no `on delete` action, so deleting a game
 aborted with a foreign-key violation the moment the room contained a single
 guess — rooms could be created but never removed. `0002` gives that column
-`on delete cascade`, and gives `cluedown_rounds.winner_player_id` `on delete
+`on delete cascade`, and gives `triveal_rounds.winner_player_id` `on delete
 set null` (it blocked deleting an individual player who had won a round).
 
 ## Layout

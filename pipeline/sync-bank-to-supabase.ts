@@ -66,8 +66,8 @@ interface ExistingRow {
 const EXISTING_SELECT =
   "id, answer, answer_canonical, answer_aliases, category, difficulty, " +
   "wikipedia_title, status, " +
-  "clues:cluedown_clues(position, text, points_value), " +
-  "decoys:cluedown_decoys(text, eliminated_by_clue)";
+  "clues:triveal_clues(position, text, points_value), " +
+  "decoys:triveal_decoys(text, eliminated_by_clue)";
 
 function chunk<T>(arr: T[], size: number): T[][] {
   const out: T[][] = [];
@@ -171,7 +171,7 @@ async function main(): Promise<void> {
   const existingByCanonical = new Map<string, ExistingRow>();
   for (let from = 0; ; from += 1000) {
     const { data, error } = await sb
-      .from("cluedown_questions")
+      .from("triveal_questions")
       .select(doUpdate ? EXISTING_SELECT : "answer_canonical")
       .range(from, from + 999);
     if (error) {
@@ -219,7 +219,7 @@ async function main(): Promise<void> {
   const idByCanonical = new Map<string, string>();
   for (const group of chunk(toInsert, CHUNK)) {
     const { data, error } = await sb
-      .from("cluedown_questions")
+      .from("triveal_questions")
       .insert(
         group.map((q) => ({
           answer: q.answer,
@@ -245,7 +245,7 @@ async function main(): Promise<void> {
     console.error(reason);
     const ids = [...idByCanonical.values()];
     for (const group of chunk(ids, CHUNK)) {
-      await sb.from("cluedown_questions").delete().in("id", group);
+      await sb.from("triveal_questions").delete().in("id", group);
     }
     console.error(`rolled back ${ids.length} inserted questions from this run.`);
     process.exit(1);
@@ -254,11 +254,11 @@ async function main(): Promise<void> {
   const clueRows = toInsert.flatMap((q) => clueRowsFor(q, idByCanonical.get(q.answerCanonical)!));
   const decoyRows = toInsert.flatMap((q) => decoyRowsFor(q, idByCanonical.get(q.answerCanonical)!));
   for (const group of chunk(clueRows, CHUNK)) {
-    const { error } = await sb.from("cluedown_clues").insert(group);
+    const { error } = await sb.from("triveal_clues").insert(group);
     if (error) await rollback(`clue insert failed: ${error.message}`);
   }
   for (const group of chunk(decoyRows, CHUNK)) {
-    const { error } = await sb.from("cluedown_decoys").insert(group);
+    const { error } = await sb.from("triveal_decoys").insert(group);
     if (error) await rollback(`decoy insert failed: ${error.message}`);
   }
 
@@ -272,7 +272,7 @@ async function main(): Promise<void> {
     try {
       if (u.scalar) {
         const { error } = await sb
-          .from("cluedown_questions")
+          .from("triveal_questions")
           .update({
             answer: u.q.answer,
             answer_aliases: u.q.answerAliases,
@@ -285,15 +285,15 @@ async function main(): Promise<void> {
         if (error) throw new Error(`fields: ${error.message}`);
       }
       if (u.clues) {
-        const del = await sb.from("cluedown_clues").delete().eq("question_id", id);
+        const del = await sb.from("triveal_clues").delete().eq("question_id", id);
         if (del.error) throw new Error(`clues delete: ${del.error.message}`);
-        const ins = await sb.from("cluedown_clues").insert(clueRowsFor(u.q, id));
+        const ins = await sb.from("triveal_clues").insert(clueRowsFor(u.q, id));
         if (ins.error) throw new Error(`clues insert: ${ins.error.message}`);
       }
       if (u.decoys) {
-        const del = await sb.from("cluedown_decoys").delete().eq("question_id", id);
+        const del = await sb.from("triveal_decoys").delete().eq("question_id", id);
         if (del.error) throw new Error(`decoys delete: ${del.error.message}`);
-        const ins = await sb.from("cluedown_decoys").insert(decoyRowsFor(u.q, id));
+        const ins = await sb.from("triveal_decoys").insert(decoyRowsFor(u.q, id));
         if (ins.error) throw new Error(`decoys insert: ${ins.error.message}`);
       }
       updated++;

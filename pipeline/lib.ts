@@ -36,7 +36,7 @@ export const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 /** Wikimedia asks for a descriptive UA; generic agents get rate-limited. */
 export const WIKI_HEADERS = {
-  "User-Agent": "Cluedown-pipeline/0.1 (side project; contact: beamer408@gmail.com)",
+  "User-Agent": "Triveal-pipeline/0.1 (side project; contact: beamer408@gmail.com)",
   Accept: "application/json",
 };
 

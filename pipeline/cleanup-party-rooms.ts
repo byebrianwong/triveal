@@ -1,9 +1,9 @@
 /**
  * Delete finished and abandoned party rooms. Party rooms are disposable —
  * a game runs for minutes and is never revisited — but nothing removed them,
- * so cluedown_games and everything under it grew without bound.
+ * so triveal_games and everything under it grew without bound.
  *
- * This is a thin wrapper over the cluedown_cleanup_stale_games() SQL function
+ * This is a thin wrapper over the triveal_cleanup_stale_games() SQL function
  * added in supabase/migrations/0002_player_delete_cascade.sql. Deleting the
  * game row is enough: players, rounds, round_questions and guesses all cascade
  * from it (which is exactly what 0002 fixed).
@@ -75,9 +75,9 @@ async function main(): Promise<void> {
     `finished older than ${finishedGrace}h, lobby/active older than ${abandonedAfter}h`;
 
   if (dryRun) {
-    // cluedown_stale_games() is the same predicate the delete uses, so the
+    // triveal_stale_games() is the same predicate the delete uses, so the
     // preview can't disagree with what a real run would remove.
-    const { data, error } = await sb.rpc("cluedown_stale_games", windows);
+    const { data, error } = await sb.rpc("triveal_stale_games", windows);
     if (error) missingFunctionHint(error.message);
     const stale = (data ?? []) as StaleRoom[];
     console.error(`dry run — ${described}`);
@@ -88,7 +88,7 @@ async function main(): Promise<void> {
     return;
   }
 
-  const { data, error } = await sb.rpc("cluedown_cleanup_stale_games", windows);
+  const { data, error } = await sb.rpc("triveal_cleanup_stale_games", windows);
   if (error) missingFunctionHint(error.message);
   console.error(`done — removed ${data ?? 0} room(s) (${described}).`);
 }

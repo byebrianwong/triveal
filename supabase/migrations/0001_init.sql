@@ -1,5 +1,10 @@
--- Cluedown schema (handoff spec §4, scoring 10/8/6/4 with -1 per wrong guess
+-- Triveal schema (handoff spec §4, scoring 10/8/6/4 with -1 per wrong guess
 -- computed in app logic).
+--
+-- HISTORICAL: this file is left as it was applied, so it still creates the
+-- `cluedown_*` names the game used before it was renamed to Triveal.
+-- 0003_rename_cluedown_to_triveal.sql renames them all; run the files in
+-- order and a fresh project lands on the current `triveal_*` schema.
 --
 -- All tables are prefixed `cluedown_` because this project may be SHARED with
 -- other apps — the prefix namespaces Cluedown's tables inside the public

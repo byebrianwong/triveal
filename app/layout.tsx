@@ -9,7 +9,7 @@ const fredoka = Fredoka({
 });
 
 export const metadata: Metadata = {
-  title: "Cluedown",
+  title: "Triveal",
   description:
     "A daily trivia game of counting-down clues. Guess early for glory, or wait for the giveaway.",
 };

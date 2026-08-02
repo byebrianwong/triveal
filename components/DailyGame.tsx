@@ -9,13 +9,25 @@ import { Game, type GameConfig } from "./Game";
 import { ResultPanel } from "./ResultPanel";
 import { StageLoading, StreakChip } from "./chrome";
 
-const ROUND_KEY = (date: string) => `cluedown:round:${date}`;
-const STATS_KEY = "cluedown:stats";
+const ROUND_KEY = (date: string) => `triveal:round:${date}`;
+const STATS_KEY = "triveal:stats";
 
-function loadJson<T>(key: string): T | null {
+// Keys before the Cluedown → Triveal rename. Read once as a fallback so the
+// rename doesn't wipe an existing player's streak or their in-progress round;
+// whatever is found is rewritten under the new key and the old one dropped.
+const LEGACY_ROUND_KEY = (date: string) => `cluedown:round:${date}`;
+const LEGACY_STATS_KEY = "cluedown:stats";
+
+function loadJson<T>(key: string, legacyKey?: string): T | null {
   try {
     const raw = localStorage.getItem(key);
-    return raw ? (JSON.parse(raw) as T) : null;
+    if (raw) return JSON.parse(raw) as T;
+    if (!legacyKey) return null;
+    const legacy = localStorage.getItem(legacyKey);
+    if (!legacy) return null;
+    localStorage.setItem(key, legacy);
+    localStorage.removeItem(legacyKey);
+    return JSON.parse(legacy) as T;
   } catch {
     return null;
   }
@@ -47,8 +59,8 @@ export function DailyGame({
     // fetch resolves. The view gates on `!puzzle || restored === undefined`,
     // so a single post-fetch update renders the ready stage in one pass.
     fetchDailyPuzzle(dateStr).then((p) => {
-      setStats(loadJson<PlayerStats>(STATS_KEY) ?? initialStats());
-      setRestored(loadJson<RoundState>(ROUND_KEY(dateStr)) ?? null);
+      setStats(loadJson<PlayerStats>(STATS_KEY, LEGACY_STATS_KEY) ?? initialStats());
+      setRestored(loadJson<RoundState>(ROUND_KEY(dateStr), LEGACY_ROUND_KEY(dateStr)) ?? null);
       setPuzzle(p);
     });
   }, []);
