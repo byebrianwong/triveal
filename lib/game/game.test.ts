@@ -15,6 +15,7 @@ const FULL_BANK = [...SEED_QUESTIONS, ...EXTRA_QUESTIONS, ...loadPrivateBank()];
 const venus = SEED_QUESTIONS.find((q) => q.id === "venus")!;
 const nyc = SEED_QUESTIONS.find((q) => q.id === "new-york-city")!;
 const cleopatra = SEED_QUESTIONS.find((q) => q.id === "cleopatra")!;
+const rushmore = EXTRA_QUESTIONS.find((q) => q.id === "mount-rushmore")!;
 
 describe("scoring", () => {
   it("decays 10/8/6/4 down the clue ladder", () => {
@@ -37,6 +38,20 @@ describe("normalizeAnswer", () => {
     expect(normalizeAnswer("  NEW   YORK CITY! ")).toBe("new york city");
     expect(normalizeAnswer("Beyoncé")).toBe("beyonce");
     expect(normalizeAnswer("Spider-Man")).toBe("spider man");
+  });
+
+  it("expands title abbreviations to their spelled-out form", () => {
+    expect(normalizeAnswer("Mt. Rushmore")).toBe("mount rushmore");
+    expect(normalizeAnswer("Mt Fuji")).toBe("mount fuji");
+    expect(normalizeAnswer("St. Louis")).toBe("saint louis");
+    expect(normalizeAnswer("Ft Knox")).toBe("fort knox");
+    expect(normalizeAnswer("Dr. Strange")).toBe("doctor strange");
+  });
+
+  it("leaves abbreviations alone where they mean something else", () => {
+    expect(normalizeAnswer("Wall St")).toBe("wall st"); // Street, not Saint
+    expect(normalizeAnswer("St")).toBe("st");
+    expect(normalizeAnswer("Fortnite")).toBe("fortnite");
   });
 });
 
@@ -74,6 +89,12 @@ describe("matchGuess", () => {
     expect(matchGuess(venus, "Mercury")).toMatchObject({ correct: false, kind: "decoy" });
     expect(matchGuess(venus, "mercurry").kind).toBe("decoy");
     expect(matchGuess(nyc, "Boston").kind).toBe("decoy");
+  });
+
+  it("accepts abbreviated titles", () => {
+    expect(matchGuess(rushmore, "Mt Rushmore")).toMatchObject({ correct: true, kind: "exact" });
+    expect(matchGuess(rushmore, "mt. rushmore").correct).toBe(true);
+    expect(matchGuess(rushmore, "Mount Rushmore").kind).toBe("exact");
   });
 
   it("rejects unrelated wrong answers", () => {

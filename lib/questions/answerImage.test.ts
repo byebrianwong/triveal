@@ -11,6 +11,7 @@ import {
   pageTitleFor,
   plainText,
   searchQueryFor,
+  stripThumbQuery,
   titleMatchesAnswer,
 } from "./answerImage";
 import { SEED_QUESTIONS } from "./seed";
@@ -107,6 +108,17 @@ describe("licensing guard", () => {
     expect(
       isCommonsFile("https://upload.wikimedia.org/wikipedia/commons/thumb/a/b/Salt.jpg/640px-Salt.jpg"),
     ).toBe(true);
+  });
+
+  it("drops the analytics query Wikipedia staples onto thumbnails", () => {
+    expect(
+      stripThumbQuery(
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/R.jpg/640px-R.jpg?utm_source=en.wikipedia.org&utm_campaign=api",
+      ),
+    ).toBe("https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/R.jpg/640px-R.jpg");
+    expect(stripThumbQuery("https://upload.wikimedia.org/wikipedia/commons/a/b/Salt.jpg")).toBe(
+      "https://upload.wikimedia.org/wikipedia/commons/a/b/Salt.jpg",
+    );
   });
 
   it("rejects Wikipedia's own (largely non-free) uploads and anything else", () => {

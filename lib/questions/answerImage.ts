@@ -103,6 +103,17 @@ export function titleMatchesAnswer(title: string, question: AnswerLike): boolean
 }
 
 /**
+ * Drop the query string Wikipedia now staples onto thumbnail URLs
+ * (`?utm_source=…&utm_campaign=api`). It identifies nothing about the file, and
+ * next/image's `remotePatterns` entry pins the query to empty — so a tagged URL
+ * is rejected by the optimizer with a 400 and the picture renders broken.
+ */
+export function stripThumbQuery(src: string): string {
+  const query = src.indexOf("?");
+  return query === -1 ? src : src.slice(0, query);
+}
+
+/**
  * True only for Wikimedia Commons files. Wikipedia's own uploads
  * (/wikipedia/en/…) are overwhelmingly non-free fair-use art: legal for an
  * encyclopedia article, not for a game to reuse.

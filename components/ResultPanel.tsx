@@ -83,11 +83,11 @@ export function ResultPanel({
         <div className="text-[11px] uppercase tracking-[2px] text-lav">The answer was</div>
         <div className="my-1 text-[22px] font-semibold text-gold-lt">{answer}</div>
         <AnswerImage questionId={questionId} />
-        <p className="mt-2.5 text-[12.5px] leading-normal text-lav-lt">
-          {won
-            ? "Every clue above is a real fact — take one to trivia night."
-            : "The clues above are yours to keep — tomorrow's a fresh one."}
-        </p>
+        {!won && (
+          <p className="mt-2.5 text-[12.5px] leading-normal text-lav-lt">
+            The clues above are yours to keep — tomorrow&rsquo;s a fresh one.
+          </p>
+        )}
       </div>
 
       <div className="mt-4 flex w-full items-center justify-center gap-5 text-[13px] text-cream">

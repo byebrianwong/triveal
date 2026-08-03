@@ -21,6 +21,7 @@ import {
   isCommonsFile,
   pageTitleFor,
   searchQueryFor,
+  stripThumbQuery,
   titleMatchesAnswer,
   type AnswerImage,
 } from "./answerImage";
@@ -166,7 +167,7 @@ async function resolveAnswerImage(question: Question): Promise<AnswerImage | nul
 
   const { credit, creditUrl } = await fileCredit(page.pageimage);
   return {
-    src: page.thumbnail.source,
+    src: stripThumbQuery(page.thumbnail.source),
     width: page.thumbnail.width,
     height: page.thumbnail.height,
     alt: `Picture of ${question.answer}`,
