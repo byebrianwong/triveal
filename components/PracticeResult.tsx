@@ -55,9 +55,6 @@ export function PracticeResult({
         <div className="text-[11px] uppercase tracking-[2px] text-lav">The answer was</div>
         <div className="my-1 text-[22px] font-semibold text-gold-lt">{answer}</div>
         <AnswerImage questionId={questionId} />
-        <p className="mt-2.5 text-[12.5px] leading-normal text-lav-lt">
-          Every clue above is a real fact — keep one for trivia night.
-        </p>
       </div>
 
       <div className="mt-4 flex w-full items-center justify-center gap-5 text-[13px] text-cream">

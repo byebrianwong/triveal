@@ -9,9 +9,40 @@ import type { Question } from "./types";
 
 const LEADING_ARTICLES = /^(a|an|the)\s+/;
 
+/**
+ * Title abbreviations expanded to the spelled-out form both sides normalize to,
+ * so "Mt Rushmore" and "St Louis" land on "mount rushmore" / "saint louis".
+ * Only the leading word is expanded: trailing "st" is Street ("Wall St") and
+ * trailing "dr" is Drive, which are not the same word at all. "Mt" has no such
+ * trailing sense, so it expands wherever it appears.
+ */
+const LEADING_ABBREVIATIONS: Record<string, string> = {
+  st: "saint",
+  ft: "fort",
+  dr: "doctor",
+  mtn: "mountain",
+};
+const ANYWHERE_ABBREVIATIONS: Record<string, string> = {
+  mt: "mount",
+};
+
+/** Expand abbreviated words once the text is lowercase and depunctuated. */
+function expandAbbreviations(text: string): string {
+  const words = text.split(" ");
+  return words
+    .map((word, i) => {
+      const anywhere = ANYWHERE_ABBREVIATIONS[word];
+      if (anywhere) return anywhere;
+      // A lone "St"/"Dr" is a word, not a title \u2014 leave single-word guesses be.
+      if (i === 0 && words.length > 1) return LEADING_ABBREVIATIONS[word] ?? word;
+      return word;
+    })
+    .join(" ");
+}
+
 /** Lowercase, strip diacritics/punctuation/articles, collapse whitespace. */
 export function normalizeAnswer(raw: string): string {
-  return raw
+  const cleaned = raw
     .normalize("NFKD")
     .replace(/[\u0300-\u036f]/g, "") // diacritics
     .toLowerCase()
@@ -20,6 +51,7 @@ export function normalizeAnswer(raw: string): string {
     .replace(/\s+/g, " ")
     .trim()
     .replace(LEADING_ARTICLES, "");
+  return expandAbbreviations(cleaned);
 }
 
 /** Classic dynamic-programming Levenshtein distance. */
