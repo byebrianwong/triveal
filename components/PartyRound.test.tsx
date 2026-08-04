@@ -56,6 +56,7 @@ function partyState(round: Partial<PartyRoundDto> = {}): PartyStateDto {
       status: "revealing",
       winner: null,
       answer: null,
+      questionId: null,
       youLockedOut: false,
       youWon: false,
       ...round,
