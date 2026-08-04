@@ -49,5 +49,8 @@ pipeline/data/
 # private question bank (spoilers) — stays local / on the server
 lib/questions/private-bank.json
 
+# question ratings written by the zero-config (no-Supabase) store
+/.triveal/
+
 # keep the example env file tracked
 !.env.example

@@ -11,6 +11,14 @@ import type { Difficulty, Question } from "@/lib/game/types";
 import type { AnswerImage } from "@/lib/questions/answerImage";
 import { getAnswerImage } from "@/lib/questions/answerImageSource";
 import { getDailyQuestion, getQuestionById, getRandomQuestion } from "@/lib/questions/source";
+import { saveRating, updateRating } from "@/lib/ratings/store";
+import {
+  MAX_COMMENT_LENGTH,
+  isRatingMode,
+  isRatingValue,
+  type RatingMode,
+  type RatingValue,
+} from "@/lib/ratings/types";
 
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 
@@ -91,4 +99,50 @@ export async function fetchAnswerImage(questionId: string): Promise<AnswerImage 
   const question = await getQuestionById(questionId);
   if (!question) return null;
   return getAnswerImage(question);
+}
+
+export interface RateQuestionInput {
+  questionId: string;
+  rating: RatingValue;
+  mode: RatingMode;
+  /** Whether the rater solved the round they are rating. */
+  solved: boolean;
+  /** Set when revising a rating already sent for this round. */
+  ratingId?: string;
+}
+
+/**
+ * Record (or revise) how a player felt about the question they just played.
+ *
+ * Server actions are public endpoints, so everything here is treated as
+ * untrusted: the rating must be one of the three values and the question must
+ * actually exist, or nothing is written. Failure is deliberately quiet — a
+ * rating that can't be stored is not worth breaking the result screen over,
+ * so the caller gets a null id and the UI says so in small print.
+ */
+export async function rateQuestion(input: RateQuestionInput): Promise<{ ratingId: string | null }> {
+  const { questionId, rating, mode, solved, ratingId } = input ?? {};
+  if (!isRatingValue(rating) || !isRatingMode(mode)) return { ratingId: null };
+  if (typeof questionId !== "string" || !questionId) return { ratingId: null };
+
+  if (typeof ratingId === "string" && ratingId) {
+    const ok = await updateRating(ratingId, { rating });
+    if (ok) return { ratingId };
+    // The id went stale (file store wiped, row deleted) — fall through and
+    // record it afresh rather than losing the rating.
+  }
+
+  const question = await getQuestionById(questionId);
+  if (!question) return { ratingId: null };
+
+  const saved = await saveRating({ questionId, rating, mode, solved: Boolean(solved) });
+  return { ratingId: saved?.id ?? null };
+}
+
+/** Attach an optional note to a rating already submitted. */
+export async function commentOnRating(ratingId: string, comment: string): Promise<boolean> {
+  if (typeof ratingId !== "string" || !ratingId) return false;
+  const text = String(comment ?? "").trim().slice(0, MAX_COMMENT_LENGTH);
+  if (!text) return false;
+  return updateRating(ratingId, { comment: text });
 }
