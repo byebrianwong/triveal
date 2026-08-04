@@ -255,7 +255,7 @@ set null` (it blocked deleting an individual player who had won a round).
 ```
 app/                 Next.js App Router; server actions keep answers server-side.
                      app/ratings is the private question-review page.
-components/          DailyGame, ClueStack, Medallion, StarHost, ResultPanel,
+components/          DailyGame, ClueStack, ClueRecap, Medallion, StarHost, ResultPanel,
                      AnswerImage, RateQuestion
 lib/game/            pure game logic (no React/Supabase) — scoring, matching,
                      round state, streaks, share card. Portable to RN later.
