@@ -86,7 +86,7 @@ export function ResultPanel({
         <AnswerImage questionId={questionId} />
         {!won && (
           <p className="mt-2.5 text-[12.5px] leading-normal text-lav-lt">
-            The clues above are yours to keep — tomorrow&rsquo;s a fresh one.
+            Your clues are below, yours to keep — tomorrow&rsquo;s a fresh one.
           </p>
         )}
       </div>
