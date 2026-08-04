@@ -6,6 +6,7 @@ import type { PlayerStats } from "@/lib/game/stats";
 import { buildShareText } from "@/lib/game/shareCard";
 import { clueValue } from "@/lib/game/scoring";
 import { AnswerImage } from "./AnswerImage";
+import { RateQuestion } from "./RateQuestion";
 import { StarHost } from "./StarHost";
 
 interface ResultPanelProps {
@@ -89,6 +90,8 @@ export function ResultPanel({
           </p>
         )}
       </div>
+
+      <RateQuestion questionId={questionId} mode="daily" solved={won} />
 
       <div className="mt-4 flex w-full items-center justify-center gap-5 text-[13px] text-cream">
         <span>

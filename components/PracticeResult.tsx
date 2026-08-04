@@ -3,6 +3,7 @@
 import type { RoundState } from "@/lib/game/roundState";
 import { clueValue } from "@/lib/game/scoring";
 import { AnswerImage } from "./AnswerImage";
+import { RateQuestion } from "./RateQuestion";
 import { StarHost } from "./StarHost";
 
 interface PracticeResultProps {
@@ -56,6 +57,8 @@ export function PracticeResult({
         <div className="my-1 text-[22px] font-semibold text-gold-lt">{answer}</div>
         <AnswerImage questionId={questionId} />
       </div>
+
+      <RateQuestion questionId={questionId} mode="practice" solved={won} />
 
       <div className="mt-4 flex w-full items-center justify-center gap-5 text-[13px] text-cream">
         <span>

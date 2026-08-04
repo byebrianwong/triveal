@@ -92,6 +92,54 @@ Every picture carries its author and license and links to the Commons file
 page. Anything that fails — no article, no free image, Wikipedia unreachable,
 slow response — just renders no picture at all.
 
+## Rating questions
+
+Every finished round — daily and practice — ends with one line under the
+answer: **How was this question?** and three faces, ☹ / 😐 / ☺. One tap
+records it. A small "Add a note" link appears afterwards for the rare player
+who wants to say *why*; nobody has to open it.
+
+Tapping a different face revises the rating already sent rather than adding a
+second one, and your verdict is remembered locally, so re-opening a finished
+daily shows what you chose instead of asking again.
+
+### Reviewing them
+
+`/ratings` lists every rated question, **worst first**, with the answer, its
+category, the three counts, a score from −1 (unanimously bad) to +1
+(unanimously good), how many raters actually solved it, and any notes. Sort
+by best, most-rated or most-recent from the links at the top.
+
+The page shows answers, so it is private:
+
+- With `TRIVEAL_ADMIN_TOKEN` set, it needs `?key=<that value>` — anything else
+  404s.
+- With the variable unset it works in `pnpm dev` and **404s in production**,
+  so an unconfigured deploy can't leak upcoming dailies.
+
+Ratings are stored per question id, which is enough context to read them
+fairly: a "bad" from someone who never solved the round is not the same
+complaint as a "bad" from someone who breezed through it, and the page shows
+the solve count next to the score.
+
+### Where they are stored
+
+| Environment | Store |
+|---|---|
+| `NEXT_PUBLIC_SUPABASE_URL` + `SUPABASE_SERVICE_ROLE_KEY` | Postgres (`triveal_question_ratings`) |
+| anything else | `.triveal/ratings.json` in the project root (gitignored) |
+
+The file store exists so the whole loop works in `pnpm dev` with zero config.
+It is **not** durable on Vercel — serverless filesystems are per-request — so
+a deploy that should keep its ratings needs the Supabase pair above, plus
+`supabase/migrations/0004_question_ratings.sql` applied. The review page says
+which store it read from, and warns when it's the file.
+
+The ratings table carries RLS with no policies at all: only the service role
+touches it, so the anon key can neither read other people's notes nor rewrite
+a rating. That is also why the anon key alone isn't enough to turn the
+Supabase store on.
+
 ## Deploy
 
 This is a stock Next.js app, so [Vercel](https://vercel.com) hosts it with
@@ -119,6 +167,7 @@ the extras; all are optional:
 | Variable | Purpose |
 |---|---|
 | `TRIVEAL_PRIVATE_BANK` | base64 of `private-bank.json`, to add private questions on top of the committed bank. Generate with `base64 -i lib/questions/private-bank.json`. |
+| `TRIVEAL_ADMIN_TOKEN` | password for the `/ratings` review page. Without it that page 404s in production. |
 | `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY` | serve questions from Supabase Postgres instead of the local bank. |
 
 `lib/questions/privateBank.ts` reads `TRIVEAL_PRIVATE_BANK` first, then the
@@ -142,9 +191,9 @@ inside `public` without needing custom "exposed schemas" config.
 
 **One-time setup:**
 
-1. In the Supabase dashboard, open **SQL Editor** and run the files in
-   `supabase/migrations/` in order — `0001_init.sql`, then
-   `0002_player_delete_cascade.sql`. Both are idempotent, so re-running is safe.
+1. In the Supabase dashboard, open **SQL Editor** and run every file in
+   `supabase/migrations/` in numeric order, starting with `0001_init.sql`.
+   All of them are idempotent, so re-running is safe.
 
    `0002` is required for any project provisioned before it existed: `0001`
    creates its tables with `if not exists`, so re-running it will *not* repair
@@ -193,13 +242,16 @@ set null` (it blocked deleting an individual player who had won a round).
 ## Layout
 
 ```
-app/                 Next.js App Router; server actions keep answers server-side
+app/                 Next.js App Router; server actions keep answers server-side.
+                     app/ratings is the private question-review page.
 components/          DailyGame, ClueStack, Medallion, StarHost, ResultPanel,
-                     AnswerImage
+                     AnswerImage, RateQuestion
 lib/game/            pure game logic (no React/Supabase) — scoring, matching,
                      round state, streaks, share card. Portable to RN later.
 lib/questions/       public samples + gitignored private bank + data source
                      (env-gated Supabase fallback) + answer-picture lookup
+lib/ratings/         question feedback: types, pure roll-up, and the store
+                     (Supabase, or a local JSON file with zero config)
 lib/supabase/        server-side (service role) + browser (anon realtime) clients
 supabase/migrations/ full schema incl. party mode tables + realtime
 pipeline/            offline question bank builder (Kaggle -> Wikipedia ->
@@ -225,6 +277,8 @@ wrong guesses; the answer box never leaves the screen.
   scoring, round state — 35 unit tests
 - ✅ Answer pictures: freely-licensed Wikimedia Commons art on every reveal
   (daily, practice and party), credited and degrading to nothing
+- ✅ Question ratings: three faces + an optional note after each round,
+  reviewed worst-first at `/ratings` (see "Rating questions")
 - ✅ Supabase schema + env-gated data layer (seed fallback with zero config)
 - ✅ Pipeline scaffolded end to end (needs ANTHROPIC_API_KEY + kaggle CSV)
 - 🚧 Party mode: fully built — pure engine (`lib/game/party.ts`, unit-tested),
