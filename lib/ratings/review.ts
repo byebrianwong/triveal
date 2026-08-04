@@ -24,6 +24,11 @@ export interface ReviewRow {
   answer: string | null;
   category: string | null;
   difficulty: string | null;
+  /**
+   * Clue texts in play order, hardest first. A score alone doesn't say what
+   * was wrong with a question — the clues are what you actually judge.
+   */
+  clues: string[];
 }
 
 export interface Review {
@@ -44,6 +49,7 @@ export async function buildReview(sort: SummarySort): Promise<Review> {
         answer: q?.answer ?? null,
         category: q?.category ?? null,
         difficulty: q?.difficulty ?? null,
+        clues: [...(q?.clues ?? [])].sort((a, b) => a.position - b.position).map((c) => c.text),
       };
     }),
   };
