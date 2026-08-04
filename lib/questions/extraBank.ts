@@ -4405,7 +4405,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Sports",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "The great Muhammad Ali described his style as 'float like a butterfly, sting like a bee.'" },
+      { position: 1, text: "Sweden banned its professional form in 1970, and Norway kept a similar ban in place until 2014." },
       { position: 2, text: "In it, two fighters in padded gloves trade punches inside a roped-off square, confusingly called a ring." },
       { position: 3, text: "Its bouts are split into timed rounds, won on points or by a knockout that ends things early." },
       { position: 4, text: "Weight classes from flyweight to heavyweight define this combat sport of the jab and uppercut." },
