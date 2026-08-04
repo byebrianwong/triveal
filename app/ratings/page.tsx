@@ -12,6 +12,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { connection } from "next/server";
 import { RATING_COLOR, RATING_LABEL, RatingFace } from "@/components/RatingFace";
+import { clueValue } from "@/lib/game/scoring";
 import { ratingsBackend } from "@/lib/ratings/store";
 import { buildReview, type ReviewRow } from "@/lib/ratings/review";
 import type { SummarySort } from "@/lib/ratings/summary";
@@ -98,6 +99,19 @@ function QuestionCard({ row }: { row: ReviewRow }) {
           </div>
         </div>
       </div>
+
+      {row.clues.length > 0 && (
+        <ol className="mt-3 flex flex-col gap-1.5 border-t border-purple-line pt-3">
+          {row.clues.map((clue, i) => (
+            <li key={i} className="flex gap-2.5 text-[13px] leading-snug text-cream">
+              <span className="w-14 flex-none pt-px text-right text-[11px] text-lav tabular-nums">
+                {i + 1} · {clueValue(i)} pts
+              </span>
+              <span>{clue}</span>
+            </li>
+          ))}
+        </ol>
+      )}
 
       {summary.comments.length > 0 && (
         <ul className="mt-3 flex flex-col gap-2 border-t border-purple-line pt-3">
