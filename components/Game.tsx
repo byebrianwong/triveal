@@ -10,6 +10,7 @@ import {
   type RoundState,
 } from "@/lib/game/roundState";
 import { clueValue, currentNetValue } from "@/lib/game/scoring";
+import { ClueRecap } from "./ClueRecap";
 import { ClueStack } from "./ClueStack";
 import { Medallion } from "./Medallion";
 import { StarHost, type StarExpression } from "./StarHost";
@@ -189,12 +190,16 @@ export function Game({ puzzle, config }: { puzzle: PuzzleDto; config: GameConfig
               clues={puzzle.clues}
               clueIndex={round.clueIndex}
               wrongGuesses={round.wrongGuesses}
-              roundOver={false}
             />
           ) : answer ? (
-            <div className="scroll-thin min-h-0 flex-1 overflow-y-auto py-2">
+            <div className="scroll-thin min-h-0 flex-1 overflow-y-auto py-2 pb-6">
               <div className="mx-auto w-full max-w-md">
                 {config.renderResult(round, answer)}
+                <ClueRecap
+                  clues={puzzle.clues}
+                  lastClueIndex={round.clueIndex}
+                  wrongGuesses={round.wrongGuesses}
+                />
               </div>
             </div>
           ) : (
