@@ -25,7 +25,7 @@ function rating(questionId: string, extra: Partial<RatingRecord> = {}): RatingRe
   };
 }
 
-function venus(clues: Question["clues"]): Question {
+function venus(clues: Question["clues"], decoys: Question["decoys"] = []): Question {
   return {
     id: "venus",
     answer: "Venus",
@@ -34,9 +34,14 @@ function venus(clues: Question["clues"]): Question {
     category: "Space",
     difficulty: "easy",
     clues,
-    decoys: [],
+    decoys,
   };
 }
+
+const FOUR_CLUES: Question["clues"] = [1, 2, 3, 4].map((position) => ({
+  position,
+  text: `clue ${position}`,
+}));
 
 beforeEach(() => {
   ratings.mockReset();
@@ -62,6 +67,46 @@ describe("buildReview", () => {
     expect(rows[0].category).toBe("Space");
   });
 
+  it("orders decoys by the clue that kills them", async () => {
+    ratings.mockResolvedValue([rating("venus")]);
+    question.mockResolvedValue(
+      venus(FOUR_CLUES, [
+        { text: "Jupiter", eliminatedByClue: 3 },
+        { text: "Mercury", eliminatedByClue: 1 },
+        { text: "Mars", eliminatedByClue: 2 },
+      ]),
+    );
+
+    const { rows } = await buildReview("worst");
+
+    expect(rows[0].decoys).toEqual([
+      { text: "Mercury", eliminatedByClue: 1 },
+      { text: "Mars", eliminatedByClue: 2 },
+      { text: "Jupiter", eliminatedByClue: 3 },
+    ]);
+  });
+
+  it("flags a decoy no clue ever rules out, and sorts it last", async () => {
+    ratings.mockResolvedValue([rating("venus")]);
+    question.mockResolvedValue(
+      venus(FOUR_CLUES, [
+        // 0 is what Supabase stores when the column is null; 9 is past the
+        // last clue. Neither names a clue that can eliminate anything.
+        { text: "never-killed", eliminatedByClue: 0 },
+        { text: "off-the-end", eliminatedByClue: 9 },
+        { text: "killed-late", eliminatedByClue: 4 },
+      ]),
+    );
+
+    const { rows } = await buildReview("worst");
+
+    expect(rows[0].decoys).toEqual([
+      { text: "killed-late", eliminatedByClue: 4 },
+      { text: "never-killed", eliminatedByClue: null },
+      { text: "off-the-end", eliminatedByClue: null },
+    ]);
+  });
+
   it("still shows the ratings when the question has left the bank", async () => {
     ratings.mockResolvedValue([rating("retired-question")]);
     question.mockResolvedValue(null);
@@ -71,6 +116,7 @@ describe("buildReview", () => {
     expect(rows).toHaveLength(1);
     expect(rows[0].answer).toBeNull();
     expect(rows[0].clues).toEqual([]);
+    expect(rows[0].decoys).toEqual([]);
     expect(rows[0].summary.total).toBe(1);
   });
 
