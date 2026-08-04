@@ -59,6 +59,15 @@ export const ANSWER_PAGE_TITLES: Record<string, string | null> = {
   barbie: "Barbie (film)",
   oppenheimer: "Oppenheimer (film)",
   "wizard of oz": "The Wizard of Oz (1939 film)",
+  casablanca: "Casablanca (film)", // the bare name is the Moroccan city
+  dune: "Dune (novel)", // the bare name is the sand formation
+  // Television — bare names that are disambiguation pages
+  bear: "The Bear (TV series)",
+  survivor: "Survivor (American TV series)",
+  // Places and acronyms whose article sits under a fuller name
+  alcatraz: "Alcatraz Island",
+  gps: "Global Positioning System",
+  rickroll: "Rickrolling",
 };
 
 type AnswerLike = Pick<Question, "answer" | "answerCanonical" | "answerAliases" | "category"> &
