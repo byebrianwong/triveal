@@ -204,6 +204,17 @@ describe("share card", () => {
 });
 
 describe("question bank integrity (spec §2.2 machine checks)", () => {
+  // A repeated answer is not an error anywhere in the app — the pool dedupes by
+  // canonical answer — so without this check a new question that collides with
+  // an existing one just silently fails to grow the bank. The private bank is
+  // excluded because it is *expected* to overlap the committed one.
+  it("has no duplicate ids or answers in the committed bank", () => {
+    const committed = [...SEED_QUESTIONS, ...EXTRA_QUESTIONS];
+    const dupes = <T>(xs: T[]) => [...new Set(xs.filter((x, i) => xs.indexOf(x) !== i))];
+    expect(dupes(committed.map((q) => q.id))).toEqual([]);
+    expect(dupes(committed.map((q) => normalizeAnswer(q.answerCanonical)))).toEqual([]);
+  });
+
   it.each(FULL_BANK.map((q) => [q.id, q] as const))("%s is well-formed", (_id, q) => {
     expect(q.clues.length).toBeGreaterThanOrEqual(4);
     expect(q.clues.map((c) => c.position)).toEqual(
