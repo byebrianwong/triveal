@@ -110,6 +110,17 @@ category, the three counts, a score from −1 (unanimously bad) to +1
 (unanimously good), how many raters actually solved it, and any notes. Sort
 by best, most-rated or most-recent from the links at the top.
 
+Each card also carries the question itself, because a score doesn't say what
+went wrong:
+
+- **The clue ladder** in play order, hardest first, labelled with what each
+  clue is worth — so a note like "clue 2 gives it away" can be checked against
+  clue 2 without leaving the page.
+- **The decoys**, ordered by the clue that eliminates them. Any decoy that no
+  clue rules out is flagged in pink as *never ruled out* and sorted last: it
+  means the question stays ambiguous to the end, which is often what a bad
+  rating is really complaining about.
+
 The page shows answers, so it is private:
 
 - With `TRIVEAL_ADMIN_TOKEN` set, it needs `?key=<that value>` — anything else

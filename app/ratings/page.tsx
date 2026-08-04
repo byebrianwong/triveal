@@ -100,17 +100,44 @@ function QuestionCard({ row }: { row: ReviewRow }) {
         </div>
       </div>
 
-      {row.clues.length > 0 && (
-        <ol className="mt-3 flex flex-col gap-1.5 border-t border-purple-line pt-3">
-          {row.clues.map((clue, i) => (
-            <li key={i} className="flex gap-2.5 text-[13px] leading-snug text-cream">
-              <span className="w-14 flex-none pt-px text-right text-[11px] text-lav tabular-nums">
-                {i + 1} · {clueValue(i)} pts
+      {(row.clues.length > 0 || row.decoys.length > 0) && (
+        <div className="mt-3 border-t border-purple-line pt-3">
+          <ol className="flex flex-col gap-1.5">
+            {row.clues.map((clue, i) => (
+              <li key={i} className="flex gap-2.5 text-[13px] leading-snug text-cream">
+                <span className="w-14 flex-none pt-px text-right text-[11px] text-lav tabular-nums">
+                  {i + 1} · {clueValue(i)} pts
+                </span>
+                <span>{clue}</span>
+              </li>
+            ))}
+          </ol>
+
+          {row.decoys.length > 0 && (
+            <div className="mt-2.5 flex flex-wrap items-center gap-x-2 gap-y-1.5">
+              <span className="w-14 flex-none text-right text-[11px] uppercase tracking-[1px] text-lav-dim">
+                decoys
               </span>
-              <span>{clue}</span>
-            </li>
-          ))}
-        </ol>
+              {row.decoys.map((decoy, i) => (
+                <span
+                  key={i}
+                  className={`rounded-full border px-2 py-0.5 text-[11.5px] ${
+                    decoy.eliminatedByClue === null
+                      ? "border-pink text-pink-lt"
+                      : "border-purple-line text-lav-lt"
+                  }`}
+                >
+                  {decoy.text}{" "}
+                  <span className={decoy.eliminatedByClue === null ? "" : "text-lav"}>
+                    {decoy.eliminatedByClue === null
+                      ? "· never ruled out"
+                      : `· out at clue ${decoy.eliminatedByClue}`}
+                  </span>
+                </span>
+              ))}
+            </div>
+          )}
+        </div>
       )}
 
       {summary.comments.length > 0 && (
