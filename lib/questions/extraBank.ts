@@ -104,7 +104,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "In 1911 a museum handyman walked out with it under his coat, and the bare wall it left behind drew even bigger crowds." },
       { position: 2, text: "Painted on a panel of poplar wood, this small portrait now sits behind bulletproof glass and is far tinier than most visitors expect." },
-      { position: 3, text: "The sitter's ambiguous half-smile — and her missing eyebrows — have fueled centuries of speculation." },
+      { position: 3, text: "Its sitter's ambiguous half-smile — and her missing eyebrows — have fueled centuries of speculation." },
       { position: 4, text: "Leonardo da Vinci's most celebrated portrait, it is the star attraction of the Louvre in Paris." },
     ],
     decoys: [
@@ -284,7 +284,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Its walls expose nearly two billion years of Earth's past, yet the chasm itself was cut in only the last few million." },
       { position: 2, text: "Carved by the Colorado River in Arizona, it plunges more than a mile deep in places." },
-      { position: 3, text: "A national park draws millions each year to watch the shifting light paint its banded red cliffs." },
+      { position: 3, text: "The national park around it draws millions each year to watch the shifting light paint its banded red cliffs." },
       { position: 4, text: "This vast Arizona gorge, one of the Seven Natural Wonders of the World, is famed for its sheer size and layered walls." },
     ],
     decoys: [
@@ -570,7 +570,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "A nursing newborn packs on roughly the weight of an adult human every single day." },
+      { position: 1, text: "Its nursing newborn packs on roughly the weight of an adult human every single day." },
       { position: 2, text: "Its heart alone is about the size of a small car, and its low moans are the loudest sounds made by any animal." },
       { position: 3, text: "For all its bulk, it lives almost entirely on tiny shrimp-like krill, straining tons of them through fringed plates of baleen." },
       { position: 4, text: "The largest animal ever known to have lived, this baleen whale is named for its bluish-gray color." },
@@ -716,7 +716,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Its classic Margherita version was supposedly dreamed up to honor an Italian queen, its red, white, and green echoing the flag." },
       { position: 2, text: "Born among the poor of Naples, it was long a humble street food before it conquered the world." },
-      { position: 3, text: "The 'Hawaiian' style, crowned with pineapple, was actually invented in Canada in 1962." },
+      { position: 3, text: "Its 'Hawaiian' style, crowned with pineapple, was actually invented in Canada in 1962." },
       { position: 4, text: "This round, oven-baked Italian dish of dough, tomato sauce, and cheese is served in wedges." },
     ],
     decoys: [
@@ -732,9 +732,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Sports",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "The very first version used a fruit basket with its bottom still in, so someone had to fetch the ball by ladder after every score." },
+      { position: 1, text: "Its very first version used a fruit basket with the bottom still in, so someone had to fetch the ball by ladder after every score." },
       { position: 2, text: "Dr. James Naismith invented it in 1891 at a Massachusetts YMCA to keep students active indoors through the winter." },
-      { position: 3, text: "Two teams bounce the ball as they move it, aiming to drop it through a hoop set 10 feet above the floor." },
+      { position: 3, text: "In it, two teams bounce the ball as they move it, aiming to drop it through a hoop set 10 feet above the floor." },
       { position: 4, text: "In this sport, players 'dribble' and 'dunk' to score, and the NBA is its top professional league." },
     ],
     decoys: [
@@ -806,7 +806,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Its roar can carry as far as five miles, and among these cats it is usually the females who do the hunting." },
       { position: 2, text: "The one truly social member of its cat family, it lives in groups called prides and can doze for up to 20 hours a day." },
-      { position: 3, text: "Males are set apart by a thick, shaggy mane, and the species once roamed across Africa, Europe, and Asia." },
+      { position: 3, text: "Its males are set apart by a thick, shaggy mane, and the species once roamed across Africa, Europe, and Asia." },
       { position: 4, text: "Nicknamed 'king of the jungle,' this big tawny African cat is a byword for courage and royalty." },
     ],
     decoys: [
@@ -1164,8 +1164,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Landmarks",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "The four faces were meant to be carved down to the waist, but the money ran out first." },
-      { position: 2, text: "Blasted and drilled into a granite cliff over 14 years, each head stands about 60 feet tall." },
+      { position: 1, text: "Its four faces were meant to be carved down to the waist, but the money ran out first." },
+      { position: 2, text: "Blasted and drilled into a granite cliff over 14 years, each of its heads stands about 60 feet tall." },
       { position: 3, text: "Set in the Black Hills of South Dakota, it portrays Washington, Jefferson, Roosevelt, and Lincoln." },
       { position: 4, text: "This colossal mountainside carving of four U.S. presidents is one of America's most recognizable monuments." },
     ],
@@ -1524,7 +1524,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Unwound, the copy inside just one of your cells would stretch about two meters, and all of yours together would reach the Sun and back many times over." },
+      { position: 1, text: "Unwound, the strand of it inside just one of your cells would stretch about two meters, and all of yours together would reach the Sun and back many times over." },
       { position: 2, text: "It coils into a twisting 'double helix' ladder, a shape revealed in 1953." },
       { position: 3, text: "Spelled out in only four chemical letters — A, T, C, and G — it carries the instructions for building a living thing." },
       { position: 4, text: "This molecule, found in nearly every cell, holds the genetic code passed from parents to their children." },
@@ -1632,7 +1632,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Landmarks",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Strictly, the name belongs to the giant bell inside, not the tower everyone points at." },
+      { position: 1, text: "Strictly, this name belongs to the giant bell inside, not the tower everyone points at." },
       { position: 2, text: "Its clock keeps famously precise time, fine-tuned by adding or removing old penny coins on the pendulum." },
       { position: 3, text: "Rising over the Houses of Parliament in London, its chimes are broadcast across Britain to mark the hour." },
       { position: 4, text: "This iconic clock tower beside the River Thames is one of London's most recognizable sights." },
@@ -1813,7 +1813,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "Its championship final draws a television audience of billions — more than any other single sporting event on Earth." },
-      { position: 2, text: "Apart from the goalkeeper, players may not touch the ball with their hands, moving it by foot, head, and chest." },
+      { position: 2, text: "Apart from the goalkeeper, its players may not touch the ball with their hands, moving it by foot, head, and chest." },
       { position: 3, text: "Played by two sides of eleven on a grass pitch, its World Cup is contested every four years." },
       { position: 4, text: "In this global game, fans roar as the ball is kicked into a net; Pelé and Messi are among its legends." },
     ],
@@ -2064,7 +2064,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Space",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "The faint band of light arching across a truly dark night sky is really our own galaxy, seen edge-on." },
+      { position: 1, text: "It is that faint band of light arching across a truly dark night sky — our own galaxy, seen edge-on." },
       { position: 2, text: "It holds a few hundred billion stars, and a giant black hole lurks at its very center." },
       { position: 3, text: "Our Sun is just one modest star out near the edge of one of its spiral arms." },
       { position: 4, text: "This is the name of the galaxy that contains Earth, the Sun, and every star you can see by eye." },
@@ -2118,8 +2118,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Space",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "One about 10 km wide is blamed for wiping out the dinosaurs 66 million years ago." },
-      { position: 2, text: "Most orbit the Sun in a vast belt between Mars and Jupiter, leftover rubble from the Solar System's birth." },
+      { position: 1, text: "One of these about 10 km wide is blamed for wiping out the dinosaurs 66 million years ago." },
+      { position: 2, text: "Most of them orbit the Sun in a vast belt between Mars and Jupiter, leftover rubble from the Solar System's birth." },
       { position: 3, text: "Ranging from pebbles to hundreds of miles across, these rocky bodies are sometimes called 'minor planets.'" },
       { position: 4, text: "This chunk of space rock circling the Sun becomes a 'meteor' if it streaks into Earth's atmosphere." },
     ],
@@ -2244,7 +2244,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Cut one in half and you don't get a separate 'north' and 'south' — each piece instantly has both ends again." },
+      { position: 1, text: "Cut one of these in half and you don't get a separate 'north' and 'south' — each piece instantly has both ends again." },
       { position: 2, text: "Every one has two opposite ends; like ends shove apart while opposite ends snap together." },
       { position: 3, text: "The Earth itself behaves like a giant one, which is why a compass needle always swings to point north." },
       { position: 4, text: "This piece of iron or steel invisibly tugs other metal toward it and pins notes to your fridge." },
@@ -2280,7 +2280,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Geography",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "The world's highest mountains are still growing, shoved upward as India crashes into the rest of Asia." },
+      { position: 1, text: "This range, holding the world's highest mountains, is still growing, shoved upward as India crashes into the rest of Asia." },
       { position: 2, text: "Their snowmelt feeds rivers serving billions of people, from the Ganges to the Yangtze." },
       { position: 3, text: "Nicknamed the 'roof of the world,' this range holds every one of Earth's peaks above 8,000 meters." },
       { position: 4, text: "This colossal Asian mountain range is crowned by Mount Everest, the highest point on the planet." },
@@ -2695,7 +2695,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "Botanically it counts as a berry, while a strawberry does not — and it's faintly radioactive from the potassium inside." },
-      { position: 2, text: "Nearly all sold worldwide are clones of a single variety, which leaves them dangerously prone to disease." },
+      { position: 2, text: "Nearly all of them sold worldwide are clones of a single variety, which leaves them dangerously prone to disease." },
       { position: 3, text: "Growing in hanging bunches that curve upward toward the sun, it starts green and sweetens to yellow." },
       { position: 4, text: "This long, curved yellow fruit, peeled from its skin, is the cartoon favorite of monkeys everywhere." },
     ],
@@ -2714,7 +2714,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "In its curious scoring, 'love' means zero, and the count climbs 15, 30, 40 before game point." },
       { position: 2, text: "Its oldest and grandest tournament, Wimbledon, is still played on grass, where competitors must dress in white." },
-      { position: 3, text: "Two or four players wield strung rackets to bat a fuzzy yellow ball back and forth over a net." },
+      { position: 3, text: "In it, two or four players wield strung rackets to bat a fuzzy yellow ball back and forth over a net." },
       { position: 4, text: "In this racket sport, stars like Serena Williams and Roger Federer chase four annual 'Grand Slam' titles." },
     ],
     decoys: [
@@ -2785,7 +2785,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "Its famous opening line invites the reader, 'Call me Ishmael.'" },
-      { position: 2, text: "A one-legged captain named Ahab hunts the creature that maimed him, consumed by revenge." },
+      { position: 2, text: "In it, a one-legged captain named Ahab hunts the creature that maimed him, consumed by revenge." },
       { position: 3, text: "Herman Melville's 1851 novel follows the whaling ship Pequod across the oceans." },
       { position: 4, text: "This American classic is named for the great white whale at the heart of its story." },
     ],
@@ -2857,7 +2857,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "hard",
     clues: [
       { position: 1, text: "Its hero blinds a one-eyed giant, then foolishly shouts his own name and earns a sea god's wrath." },
-      { position: 2, text: "The long voyage home features a witch named Circe, the deadly Sirens, and the whirlpool Charybdis." },
+      { position: 2, text: "Its long voyage home features a witch named Circe, the deadly Sirens, and the whirlpool Charybdis." },
       { position: 3, text: "Attributed to the Greek poet Homer, this epic follows Odysseus's ten-year journey back from the Trojan War." },
       { position: 4, text: "Its title, drawn from the hero's name, has become a word for any long, wandering adventure." },
     ],
@@ -2965,7 +2965,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "Its opening words scroll up the screen and into the distance: 'A long time ago in a galaxy far, far away.'" },
-      { position: 2, text: "A farm boy, a smuggler, and a princess battle an evil Empire wielding glowing laser swords." },
+      { position: 2, text: "In it, a farm boy, a smuggler, and a princess battle an evil Empire wielding glowing laser swords." },
       { position: 3, text: "George Lucas created this space saga, whose villain breathes heavily behind a black mask: Darth Vader." },
       { position: 4, text: "In this franchise, Luke Skywalker learns to use 'the Force,' aided by Yoda and the droids R2-D2 and C-3PO." },
     ],
@@ -2982,8 +2982,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "A twister carries a Kansas farm girl and her dog Toto over the rainbow to a Technicolor land." },
-      { position: 2, text: "Dorothy follows a yellow brick road, gaining a scarecrow, a tin man, and a cowardly lion along the way." },
+      { position: 1, text: "In this movie, a twister carries a Kansas farm girl and her dog Toto over the rainbow to a Technicolor land." },
+      { position: 2, text: "In it, Dorothy follows a yellow brick road, gaining a scarecrow, a tin man, and a cowardly lion along the way." },
       { position: 3, text: "She seeks a humbug 'great and powerful' ruler hiding behind a curtain in an Emerald City." },
       { position: 4, text: "In this 1939 musical, ruby slippers and the chant 'There's no place like home' send Dorothy back to Kansas." },
     ],
@@ -3000,8 +3000,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Scientists extract ancient DNA from mosquitoes trapped in amber to work their resurrection." },
-      { position: 2, text: "A billionaire builds an island theme park stocked with cloned creatures extinct for millions of years." },
+      { position: 1, text: "In this movie, scientists extract ancient DNA from mosquitoes trapped in amber to work their resurrection." },
+      { position: 2, text: "In it, a billionaire builds an island theme park stocked with cloned creatures extinct for millions of years." },
       { position: 3, text: "In this 1993 Steven Spielberg blockbuster, a T. rex and clever raptors break loose during a storm." },
       { position: 4, text: "The dinosaurs of this film series roar back to life on Isla Nublar, its name promising a prehistoric attraction." },
     ],
@@ -3108,7 +3108,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Music",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "The priciest examples, made by Stradivari three centuries ago, sell for millions." },
+      { position: 1, text: "Its priciest examples, made by Stradivari three centuries ago, sell for millions." },
       { position: 2, text: "Its four strings are usually played with a horsehair bow, though they can be plucked." },
       { position: 3, text: "The smallest and highest-pitched member of its bowed-string family, it is tucked under the player's chin." },
       { position: 4, text: "Drawn with a bow, it carries the melody in an orchestra's string section; folk players call it by a homelier name." },
@@ -3126,9 +3126,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Music",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "A player keeps time by clicking sticks and counting off before the band comes in." },
+      { position: 1, text: "Its player keeps time by clicking sticks and counting off before the band comes in." },
       { position: 2, text: "Struck with sticks, brushes, or the hands, its stretched skins and metal cymbals set a song's rhythm." },
-      { position: 3, text: "A rock kit pairs a foot-pedal bass, a snare, and hanging toms with crash and hi-hat cymbals." },
+      { position: 3, text: "A rock kit of these pairs a foot-pedal bass, a snare, and hanging toms with crash and hi-hat cymbals." },
       { position: 4, text: "The backbone of a band's rhythm section, this percussion instrument is what Ringo Starr famously played." },
     ],
     decoys: [
@@ -3164,7 +3164,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "A Russian chemist arranged it so cleverly that he left gaps for elements not yet discovered." },
       { position: 2, text: "Its rows are called periods and its columns groups, sorting matter's building blocks by their properties." },
-      { position: 3, text: "Each square lists a one- or two-letter symbol, an atomic number, and an atomic weight." },
+      { position: 3, text: "Each of its squares lists a one- or two-letter symbol, an atomic number, and an atomic weight." },
       { position: 4, text: "This chart, running from hydrogen to oganesson, organizes all the chemical elements." },
     ],
     decoys: [
@@ -3234,9 +3234,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "A voyage aboard HMS Beagle and a study of finch beaks helped inspire the idea." },
+      { position: 1, text: "A voyage aboard HMS Beagle and a study of finch beaks helped inspire this idea." },
       { position: 2, text: "It explains how species change over generations as the fittest survive and pass on their traits." },
-      { position: 3, text: "Charles Darwin laid out the theory in his 1859 book 'On the Origin of Species.'" },
+      { position: 3, text: "Charles Darwin laid out this theory in his 1859 book 'On the Origin of Species.'" },
       { position: 4, text: "This gradual process explains how whales descended from land mammals and humans share ancestors with apes." },
     ],
     decoys: [
@@ -3252,7 +3252,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "The word traces to the Latin for 'cow,' because the first one used a mild cattle disease." },
+      { position: 1, text: "This word traces to the Latin for 'cow,' because the first one used a mild cattle disease." },
       { position: 2, text: "Edward Jenner pioneered it in 1796 using cowpox to guard against deadly smallpox." },
       { position: 3, text: "It trains the immune system by exposing it to a harmless piece or weakened form of a germ." },
       { position: 4, text: "A jab of this preventive medicine gave the world protection against polio and measles." },
@@ -3324,7 +3324,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Forged deep underground under crushing pressure, most are far older than the dinosaurs." },
+      { position: 1, text: "Forged deep underground under crushing pressure, most of them are far older than the dinosaurs." },
       { position: 2, text: "The hardest known natural material, it can scratch any other and cut glass with ease." },
       { position: 3, text: "Just pure carbon in a rigid lattice, it is prized as a brilliant, sparkling gemstone." },
       { position: 4, text: "Measured in carats and often set in engagement rings, this April birthstone is 'a girl's best friend.'" },
@@ -3452,7 +3452,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "A faint hiss picked up by a radio antenna in 1965 turned out to be its leftover glow." },
       { position: 2, text: "It marks the beginning of space and time, about 13.8 billion years ago." },
-      { position: 3, text: "The theory holds that everything expanded from an unimaginably hot, dense point and is still spreading apart." },
+      { position: 3, text: "This theory holds that everything expanded from an unimaginably hot, dense point and is still spreading apart." },
       { position: 4, text: "Fittingly, this cosmic origin event shares its name with a hit TV sitcom about physicists." },
     ],
     decoys: [
@@ -3468,9 +3468,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Space",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Ancient armies once halted a battle in fear when day briefly turned to night." },
+      { position: 1, text: "Ancient armies once halted a battle in fear when one of these briefly turned day to night." },
       { position: 2, text: "It happens only at a new moon, when one body slips exactly between Earth and the Sun." },
-      { position: 3, text: "During totality the sky darkens, stars appear, and the Sun's wispy corona blazes into view." },
+      { position: 3, text: "During its totality the sky darkens, stars appear, and the Sun's wispy corona blazes into view." },
       { position: 4, text: "Safe-viewing glasses are a must for this event, when the Moon blots out the Sun." },
     ],
     decoys: [
@@ -3486,7 +3486,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "The father balances a single egg on his feet through the coldest winter on Earth, eating nothing for two months." },
+      { position: 1, text: "Its father balances a single egg on his feet through the coldest winter on Earth, eating nothing for two months." },
       { position: 2, text: "The tallest of its flightless kind, it huddles in vast colonies on Antarctic sea ice." },
       { position: 3, text: "It 'flies' underwater instead, diving deeper than any other bird to catch fish and squid." },
       { position: 4, text: "Star of the film 'March of the Penguins,' this regal, orange-eared seabird is the largest of its kind." },
@@ -3522,7 +3522,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Females can reproduce without a male, laying fertile eggs entirely on their own." },
+      { position: 1, text: "Its females can reproduce without a male, laying fertile eggs entirely on their own." },
       { position: 2, text: "The largest lizard alive, it grows to ten feet and its bite delivers venom that stops blood from clotting." },
       { position: 3, text: "It lives on just a handful of Indonesian islands, where it can smell carrion miles away with its forked tongue." },
       { position: 4, text: "Named for the island it roams, this giant monitor is the closest living thing to a mythical fire-breather." },
@@ -3540,7 +3540,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "The female sometimes bites the head off her mate during or after their coupling." },
+      { position: 1, text: "Its female sometimes bites the head off her mate during or after their coupling." },
       { position: 2, text: "It can swivel its head almost all the way around and has a single ear on its belly to hear bats." },
       { position: 3, text: "Holding its spiny front legs folded as if in prayer, it ambushes insects with lightning speed." },
       { position: 4, text: "This slender green predator, named for its devout-looking pose, is a gardener's pest-eating friend." },
@@ -3576,7 +3576,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "A dominant male, silver-backed with age, may beat his chest to warn off rivals without a fight." },
+      { position: 1, text: "Its dominant male, silver-backed with age, may beat his chest to warn off rivals without a fight." },
       { position: 2, text: "The largest living primate, this gentle giant eats mainly leaves and shoots and lives in family troops." },
       { position: 3, text: "Found in the mountain forests of central Africa, it shares nearly 98% of human DNA." },
       { position: 4, text: "Conservationist Dian Fossey studied these great apes; a famous albino one was named Snowflake." },
@@ -3612,7 +3612,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "The showy male fans a shimmering train studded with dozens of eye-like spots to woo a mate." },
+      { position: 1, text: "This showy male bird fans a shimmering train studded with dozens of eye-like spots to woo a mate." },
       { position: 2, text: "Strictly, only the male is so called; the drab brown female is the peahen." },
       { position: 3, text: "Native to India, it is that country's national bird and roosts in trees despite its size." },
       { position: 4, text: "This iridescent blue-green bird spreads a dazzling tail and gave a Hollywood network its logo." },
@@ -3666,7 +3666,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Both sexes grow long ivory tusks, which they use to haul their bulk out onto the ice." },
+      { position: 1, text: "Both of its sexes grow long ivory tusks, which they use to haul their bulk out onto the ice." },
       { position: 2, text: "A whiskered face and a blubber-wrapped body up to a ton and a half mark this Arctic giant." },
       { position: 3, text: "It sucks up thousands of clams from the seabed using powerful suction from its mouth." },
       { position: 4, text: "The Beatles sang 'I am the ___'; this tusked, mustachioed pinniped basks in herds on Arctic ice." },
@@ -3756,7 +3756,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Geography",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "A ten-year project in the 1960s moved entire ancient temples uphill to save them from a rising reservoir." },
+      { position: 1, text: "A ten-year project in the 1960s moved entire ancient temples inside its borders uphill to save them from a rising reservoir." },
       { position: 2, text: "This North African country depends on one great river whose yearly floods once fed its farms." },
       { position: 3, text: "Ruled long ago by pharaohs, it built the pyramids at Giza and the Sphinx." },
       { position: 4, text: "With its capital at Cairo, this land of the Nile links Africa to the Middle East via the Suez Canal." },
@@ -4044,7 +4044,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Cities",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Nine giant letters spelled out in white on a hillside began as an ad for a housing development." },
+      { position: 1, text: "Nine giant letters spelled out in white on one of its hillsides began as an ad for a housing development." },
       { position: 2, text: "The second-most-populous U.S. city, it sprawls across Southern California in endless traffic and sunshine." },
       { position: 3, text: "Its Hollywood district is the heart of the American movie industry, and stars line its Walk of Fame." },
       { position: 4, text: "Nicknamed the 'City of Angels,' this coastal metropolis hosts the Dodgers and the 2028 Summer Olympics." },
@@ -4314,9 +4314,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Food & Drink",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Trapped water inside each kernel flashes to steam and bursts it inside out with a pop." },
+      { position: 1, text: "It forms when trapped water inside a kernel flashes to steam and bursts the grain inside out with a pop." },
       { position: 2, text: "Native Americans were popping this snack thousands of years ago over open fires." },
-      { position: 3, text: "Only one special variety of maize explodes this way; sweet corn just scorches." },
+      { position: 3, text: "Only one special variety of maize makes it; sweet corn just scorches." },
       { position: 4, text: "Buttered and salted, this puffy movie-theater snack bursts from heated corn kernels." },
     ],
     decoys: [
@@ -4350,7 +4350,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Food & Drink",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Experts can sometimes name the exact hillside and year a glass came from just by taste." },
+      { position: 1, text: "Experts can sometimes name the exact hillside and year a glass of it came from just by taste." },
       { position: 2, text: "Made by fermenting crushed grapes, it is aged in oak barrels and sealed under a cork." },
       { position: 3, text: "It comes in red, white, and rose, plus a sparkling version from France's Champagne region." },
       { position: 4, text: "Sommeliers swirl and sniff this fermented grape drink before pairing it with dinner." },
@@ -4368,8 +4368,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Sports",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Astronaut Alan Shepard once whacked two balls across the Moon during the Apollo 14 mission." },
-      { position: 2, text: "Players use a bag of numbered clubs to knock a dimpled ball toward a distant hole." },
+      { position: 1, text: "Astronaut Alan Shepard once played it on the Moon, whacking two balls across the dust during the Apollo 14 mission." },
+      { position: 2, text: "Its players use a bag of numbered clubs to knock a dimpled ball toward a distant hole." },
       { position: 3, text: "Scored in strokes, its terms include birdie, bogey, and the elusive hole-in-one." },
       { position: 4, text: "Tiger Woods dominated this quiet course sport played over 18 holes toward a small flag." },
     ],
@@ -4386,9 +4386,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Sports",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "A 'perfect game' means one team's pitcher retires all 27 opposing batters in a row." },
+      { position: 1, text: "In it, a 'perfect game' means one team's pitcher retires all 27 opposing batters in a row." },
       { position: 2, text: "Called America's 'national pastime,' it is played on a diamond with nine players a side." },
-      { position: 3, text: "A batter swings a wooden bat, then runs a circuit of four bases to score a run." },
+      { position: 3, text: "Its batter swings a wooden bat, then runs a circuit of four bases to score a run." },
       { position: 4, text: "Home runs, strikeouts, and the World Series belong to this sport of the New York Yankees." },
     ],
     decoys: [
@@ -4405,8 +4405,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "The great Muhammad Ali described his style as 'float like a butterfly, sting like a bee.'" },
-      { position: 2, text: "Two fighters in padded gloves trade punches inside a roped-off square, confusingly called a ring." },
-      { position: 3, text: "Bouts are split into timed rounds, won on points or by a knockout that ends things early." },
+      { position: 2, text: "In it, two fighters in padded gloves trade punches inside a roped-off square, confusingly called a ring." },
+      { position: 3, text: "Its bouts are split into timed rounds, won on points or by a knockout that ends things early." },
       { position: 4, text: "Weight classes from flyweight to heavyweight define this combat sport of the jab and uppercut." },
     ],
     decoys: [
@@ -4424,7 +4424,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Legend says a Greek messenger ran the first one to announce a victory, then dropped dead." },
       { position: 2, text: "This grueling race covers exactly 26.2 miles, or about 42 kilometers, on open roads." },
-      { position: 3, text: "Major annual versions crowd the streets of Boston, London, and New York." },
+      { position: 3, text: "Its major annual versions crowd the streets of Boston, London, and New York." },
       { position: 4, text: "Named for a Greek battle site, this long-distance foot race caps the Olympic track program." },
     ],
     decoys: [
@@ -4440,8 +4440,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Sports",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "A single top-level match can last five full days and still end in a draw." },
-      { position: 2, text: "A bowler hurls a hard ball at a batter guarding three wooden stumps called a wicket." },
+      { position: 1, text: "A single top-level match in this sport can last five full days and still end in a draw." },
+      { position: 2, text: "In it, a bowler hurls a hard ball at a batter guarding three wooden stumps called a wicket." },
       { position: 3, text: "Wildly popular in India, England, and Australia, it scores in runs and 'overs.'" },
       { position: 4, text: "Played with a flat bat on an oval field, this bat-and-ball sport crowns champions at its own World Cup." },
     ],
@@ -4531,7 +4531,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "Its opening song, 'Circle of Life,' plays as animals gather at a towering rock." },
-      { position: 2, text: "A young cub named Simba flees home after his father Mufasa is killed by the scheming Scar." },
+      { position: 2, text: "In it, a young cub named Simba flees home after his father Mufasa is killed by the scheming Scar." },
       { position: 3, text: "The meerkat Timon and warthog Pumbaa teach him the carefree motto 'Hakuna Matata.'" },
       { position: 4, text: "This 1994 Disney film about a cub reclaiming his throne at Pride Rock got a photoreal 2019 remake." },
     ],
@@ -4548,9 +4548,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "A hobbit must carry a cursed golden band to a volcano to destroy it." },
+      { position: 1, text: "In this movie, a hobbit must carry a cursed golden band to a volcano to destroy it." },
       { position: 2, text: "Based on Tolkien's novels, its fellowship crosses Middle-earth to defeat the dark Sauron." },
-      { position: 3, text: "The creature Gollum hisses about 'my precious,' hungering for the ring Frodo carries." },
+      { position: 3, text: "In it, the creature Gollum hisses about 'my precious,' hungering for the ring Frodo carries." },
       { position: 4, text: "Peter Jackson's trilogy, capped by 'The Return of the King,' swept 11 Oscars in 2004." },
     ],
     decoys: [
@@ -4568,7 +4568,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Its release drove some fans into depression that they could not visit its fictional world." },
       { position: 2, text: "Set on the lush moon Pandora, it follows tall, blue-skinned aliens called the Na'vi." },
-      { position: 3, text: "A paralyzed marine controls a remote alien body to infiltrate them, then switches sides." },
+      { position: 3, text: "In it, a paralyzed marine controls a remote alien body to infiltrate them, then switches sides." },
       { position: 4, text: "James Cameron's 2009 3D epic became the highest-grossing film ever made." },
     ],
     decoys: [
@@ -4586,7 +4586,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Its hero is offered a red pill or a blue pill and chooses to see the truth." },
       { position: 2, text: "Humanity, it reveals, is trapped inside a computer simulation while machines harvest their bodies." },
-      { position: 3, text: "Keanu Reeves plays Neo, 'the One,' who learns to dodge bullets in slow motion." },
+      { position: 3, text: "In it, Keanu Reeves plays Neo, 'the One,' who learns to dodge bullets in slow motion." },
       { position: 4, text: "The Wachowskis' 1999 sci-fi film features cascading green code and long black coats." },
     ],
     decoys: [
@@ -4603,7 +4603,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "Its hero unwittingly inspires the smiley face, the phrase 'have a nice day,' and a bumper sticker." },
-      { position: 2, text: "Tom Hanks plays a slow-witted but kind-hearted man who keeps stumbling into history." },
+      { position: 2, text: "In it, Tom Hanks plays a slow-witted but kind-hearted man who keeps stumbling into history." },
       { position: 3, text: "He becomes a ping-pong champ, a shrimp-boat captain, and a cross-country runner." },
       { position: 4, text: "'Life is like a box of chocolates,' says this 1994 film's Alabama everyman on a bus-stop bench." },
     ],
@@ -4640,7 +4640,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Its breakout song, 'Let It Go,' became so inescapable that some parents begged for a break from it." },
       { position: 2, text: "This 2013 Disney film follows two royal sisters, Anna and the ice-powered Elsa, in the kingdom of Arendelle." },
-      { position: 3, text: "A comic-relief snowman named Olaf dreams of summer, and a reindeer called Sven tags along." },
+      { position: 3, text: "In it, a comic-relief snowman named Olaf dreams of summer, and a reindeer called Sven tags along." },
       { position: 4, text: "Loosely based on 'The Snow Queen,' this animated blockbuster turns everything Elsa touches to ice." },
     ],
     decoys: [
@@ -4657,8 +4657,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "It was the first feature film made entirely with computer animation." },
-      { position: 2, text: "A pull-string cowboy grows jealous when a flashy new spaceman action figure arrives." },
-      { position: 3, text: "Woody and Buzz Lightyear come to life whenever their owner Andy leaves the room." },
+      { position: 2, text: "In it, a pull-string cowboy grows jealous when a flashy new spaceman action figure arrives." },
+      { position: 3, text: "In it, Woody and Buzz Lightyear come to life whenever their owner Andy leaves the room." },
       { position: 4, text: "Buzz's catchphrase 'To infinity and beyond!' comes from this 1995 Pixar hit about living playthings." },
     ],
     decoys: [
@@ -4675,8 +4675,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "It ends on a spinning top, leaving audiences arguing whether the hero is still dreaming." },
-      { position: 2, text: "A team of thieves steals secrets by entering targets' dreams, sometimes dreams within dreams." },
-      { position: 3, text: "Leonardo DiCaprio leads a heist to plant an idea rather than steal one." },
+      { position: 2, text: "In it, a team of thieves steals secrets by entering targets' dreams, sometimes dreams within dreams." },
+      { position: 3, text: "In it, Leonardo DiCaprio leads a heist to plant an idea rather than steal one." },
       { position: 4, text: "Christopher Nolan's 2010 mind-bender folds cities in half and slows time the deeper you sleep." },
     ],
     decoys: [
@@ -4693,8 +4693,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "Its time machine is powered first by plutonium, then by a well-timed bolt of lightning." },
-      { position: 2, text: "A teenager is flung to 1955, where he must make sure his own parents fall in love." },
-      { position: 3, text: "Marty McFly and Doc Brown turn a DeLorean into a time machine that needs 88 miles per hour." },
+      { position: 2, text: "In it, a teenager is flung to 1955, where he must make sure his own parents fall in love." },
+      { position: 3, text: "In it, Marty McFly and Doc Brown turn a DeLorean into a time machine that needs 88 miles per hour." },
       { position: 4, text: "This 1985 film about traveling through time spawned two sequels and the bully Biff." },
     ],
     decoys: [
@@ -4711,8 +4711,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "Its green hero compares himself to an onion, insisting both have 'layers.'" },
-      { position: 2, text: "A grumpy swamp-dwelling ogre sets out to rescue a princess to win back his home." },
-      { position: 3, text: "A motor-mouthed Donkey, voiced by Eddie Murphy, becomes his unwanted sidekick." },
+      { position: 2, text: "In it, a grumpy swamp-dwelling ogre sets out to rescue a princess to win back his home." },
+      { position: 3, text: "In it, a motor-mouthed Donkey, voiced by Eddie Murphy, becomes his unwanted sidekick." },
       { position: 4, text: "This 2001 DreamWorks film about an ogre and Princess Fiona won the first Best Animated Feature Oscar." },
     ],
     decoys: [
@@ -4729,7 +4729,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "Its release painted the world pink and, paired with a nuclear-bomb drama, sparked a double-feature craze." },
-      { position: 2, text: "Margot Robbie stars as a doll who leaves her plastic 'Dreamhouse' world for the real one." },
+      { position: 2, text: "In it, Margot Robbie stars as a doll who leaves her plastic 'Dreamhouse' world for the real one." },
       { position: 3, text: "Ryan Gosling's Ken belts the song 'I'm Just Ken' in this candy-colored comedy." },
       { position: 4, text: "Greta Gerwig directed this 2023 blockbuster based on Mattel's famous fashion doll." },
     ],
@@ -4748,7 +4748,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Its title figure quotes Hindu scripture: 'Now I am become Death, the destroyer of worlds.'" },
       { position: 2, text: "It dramatizes the Manhattan Project and the first test of an atomic bomb in the New Mexico desert." },
-      { position: 3, text: "Cillian Murphy plays the tormented physicist who fathered the weapon, then feared it." },
+      { position: 3, text: "In it, Cillian Murphy plays the tormented physicist who fathered the weapon, then feared it." },
       { position: 4, text: "Christopher Nolan's 2023 biopic swept the Oscars, paired in cinemas with 'Barbie.'" },
     ],
     decoys: [
@@ -4765,7 +4765,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "hard",
     clues: [
       { position: 1, text: "It was the first film not in English to win the Academy Award for Best Picture." },
-      { position: 2, text: "A poor family cons its way into working for a wealthy household, one job at a time." },
+      { position: 2, text: "In it, a poor family cons its way into working for a wealthy household, one job at a time." },
       { position: 3, text: "This South Korean thriller hides a shocking secret in the rich family's basement." },
       { position: 4, text: "Bong Joon-ho's 2019 class satire takes its name from an organism that feeds off a host." },
     ],
@@ -4782,7 +4782,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Television",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "A fan favorite lost his head at the end of the very first season, shocking viewers." },
+      { position: 1, text: "In this show, a fan favorite lost his head at the end of the very first season, shocking viewers." },
       { position: 2, text: "Adapted from George R.R. Martin's novels, it followed noble houses warring for a throne of swords." },
       { position: 3, text: "Its lands, Westeros and Essos, feature dragons, White Walkers, and a great icy Wall." },
       { position: 4, text: "Daenerys Targaryen and Jon Snow starred in this HBO fantasy epic whose motto is 'Winter is Coming.'" },
@@ -4802,7 +4802,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Its theme song urges you to clap along: 'I'll Be There for You.'" },
       { position: 2, text: "Set mostly in a purple apartment and a coffee house called Central Perk, it followed six young New Yorkers." },
-      { position: 3, text: "Ross, Rachel, Monica, Chandler, Joey, and Phoebe navigated dating and careers over ten seasons in the 1990s." },
+      { position: 3, text: "In it, Ross, Rachel, Monica, Chandler, Joey, and Phoebe navigated dating and careers over ten seasons in the 1990s." },
       { position: 4, text: "This hugely popular NBC sitcom about a tight-knit group of pals defined must-see TV." },
     ],
     decoys: [
@@ -4820,7 +4820,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "It is the longest-running scripted primetime series in American TV history." },
       { position: 2, text: "This animated sitcom follows a yellow-skinned family in the town of Springfield." },
-      { position: 3, text: "Homer works at a nuclear plant, strangles his son Bart, and grunts 'D'oh!'" },
+      { position: 3, text: "In it, Homer works at a nuclear plant, strangles his son Bart, and grunts 'D'oh!'" },
       { position: 4, text: "Created by Matt Groening, this cartoon has aired more than 750 episodes since 1989." },
     ],
     decoys: [
@@ -4837,8 +4837,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "Its color-coded episode titles and a pink teddy bear foreshadowed the story's darkness." },
-      { position: 2, text: "A mild high-school chemistry teacher turns to cooking crystal meth after a cancer diagnosis." },
-      { position: 3, text: "Walter White adopts the alias 'Heisenberg,' partnering with his ex-student Jesse Pinkman." },
+      { position: 2, text: "In it, a mild high-school chemistry teacher turns to cooking crystal meth after a cancer diagnosis." },
+      { position: 3, text: "In it, Walter White adopts the alias 'Heisenberg,' partnering with his ex-student Jesse Pinkman." },
       { position: 4, text: "Set in Albuquerque, this acclaimed drama spawned the prequel 'Better Call Saul.'" },
     ],
     decoys: [
@@ -4855,8 +4855,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "Its 1980s setting fills every scene with vintage bikes, arcades, and Dungeons & Dragons." },
-      { position: 2, text: "A girl with a shaved head and telekinetic powers, known only as Eleven, escapes a secret lab." },
-      { position: 3, text: "Kids in the town of Hawkins battle monsters from a shadow dimension called the Upside Down." },
+      { position: 2, text: "In it, a girl with a shaved head and telekinetic powers, known only as Eleven, escapes a secret lab." },
+      { position: 3, text: "In it, kids in the town of Hawkins battle monsters from a shadow dimension called the Upside Down." },
       { position: 4, text: "This Netflix hit revived the career of Winona Ryder and unleashed a demon called the Demogorgon." },
     ],
     decoys: [
@@ -4892,7 +4892,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Its creator was a marine biology teacher before he became an animator." },
       { position: 2, text: "This cartoon takes place in an undersea town called Bikini Bottom." },
-      { position: 3, text: "A cheerful yellow sea sponge flips Krabby Patties at a restaurant called the Krusty Krab." },
+      { position: 3, text: "In it, a cheerful yellow sea sponge flips Krabby Patties at a restaurant called the Krusty Krab." },
       { position: 4, text: "He lives in a pineapple under the sea with a pet snail named Gary, alongside Patrick the starfish." },
     ],
     decoys: [
@@ -4910,7 +4910,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Its creators pitched it as 'a show about nothing.'" },
       { position: 2, text: "This 1990s sitcom followed a stand-up comedian and his eccentric New York circle." },
-      { position: 3, text: "Neurotic George, quirky Elaine, and the wild-haired Kramer bursting through the door were staples." },
+      { position: 3, text: "In it, neurotic George, quirky Elaine, and the wild-haired Kramer bursting through the door were staples." },
       { position: 4, text: "'No soup for you!' and 'yada yada yada' entered the language from this NBC comedy." },
     ],
     decoys: [
@@ -4927,8 +4927,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "Its guards wear pink jumpsuits and masks marked with circles, triangles, and squares." },
-      { position: 2, text: "Hundreds of desperate, indebted contestants play deadly versions of children's games for a cash prize." },
-      { position: 3, text: "A giant robot doll turns during 'Red Light, Green Light,' gunning down anyone who moves." },
+      { position: 2, text: "In it, hundreds of desperate, indebted contestants play deadly versions of children's games for a cash prize." },
+      { position: 3, text: "In it, a giant robot doll turns during 'Red Light, Green Light,' gunning down anyone who moves." },
       { position: 4, text: "This 2021 Korean survival series became Netflix's most-watched show ever." },
     ],
     decoys: [
@@ -4945,8 +4945,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "Its hero regenerates into a new face whenever the lead actor changes, keeping the show going for decades." },
-      { position: 2, text: "A time-traveling alien explores the universe in a ship disguised as a blue British police box." },
-      { position: 3, text: "The TARDIS is 'bigger on the inside,' and its pilot battles pepper-pot robots called Daleks." },
+      { position: 2, text: "In it, a time-traveling alien explores the universe in a ship disguised as a blue British police box." },
+      { position: 3, text: "In it, the TARDIS is 'bigger on the inside,' and its pilot battles pepper-pot robots called Daleks." },
       { position: 4, text: "This long-running BBC sci-fi series stars a two-hearted Time Lord known only by a questioning title." },
     ],
     decoys: [
@@ -4981,8 +4981,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "It opens each episode with its lead driving home through the New Jersey Turnpike." },
-      { position: 2, text: "A mob boss juggles running his crime family with panic attacks and visits to a therapist." },
-      { position: 3, text: "Tony leads a gang of gangsters while worrying about his wife Carmela and his teenage kids." },
+      { position: 2, text: "In it, a mob boss juggles running his crime family with panic attacks and visits to a therapist." },
+      { position: 3, text: "In it, Tony leads a gang of gangsters while worrying about his wife Carmela and his teenage kids." },
       { position: 4, text: "This HBO drama's abrupt cut-to-black ending sparked years of debate over its meaning." },
     ],
     decoys: [
@@ -4999,8 +4999,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "It began as one Swedish developer's side project and became the best-selling video game of all time." },
-      { position: 2, text: "Players mine blocks and craft tools in an endless world of cubes, from dirt to diamond." },
-      { position: 3, text: "By night, hissing green 'creepers' explode and skeletons attack anyone who hasn't built shelter." },
+      { position: 2, text: "Its players mine blocks and craft tools in an endless world of cubes, from dirt to diamond." },
+      { position: 3, text: "In it, hissing green 'creepers' explode by night and skeletons attack anyone who hasn't built shelter." },
       { position: 4, text: "This blocky sandbox game, now owned by Microsoft, has a 'Creative' mode with unlimited resources." },
     ],
     decoys: [
@@ -5017,7 +5017,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "Its round yellow hero was reportedly inspired by a pizza with one slice missing." },
-      { position: 2, text: "The player guides a chomping circle through a maze, gobbling dots while fleeing four ghosts." },
+      { position: 2, text: "Its player guides a chomping circle through a maze, gobbling dots while fleeing four ghosts." },
       { position: 3, text: "Eating a large flashing pellet lets it briefly turn the tables and chase the ghosts." },
       { position: 4, text: "Blinky, Pinky, Inky, and Clyde hound this 1980 arcade icon around its maze." },
     ],
@@ -5035,8 +5035,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "A Soviet computer engineer designed it in 1984, and its profits were tangled in Cold War red tape." },
-      { position: 2, text: "Seven shapes, each made of four squares, fall one by one to be fitted together." },
-      { position: 3, text: "Completing a solid horizontal line makes it vanish, and the blocks drop faster as you go." },
+      { position: 2, text: "In it, seven shapes, each made of four squares, fall one by one to be fitted together." },
+      { position: 3, text: "In it, completing a solid horizontal line makes that line vanish, and the blocks drop faster as you go." },
       { position: 4, text: "This addictive falling-block puzzle helped sell millions of Nintendo Game Boys." },
     ],
     decoys: [
@@ -5053,8 +5053,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "Its franchise, spanning games, cards, and cartoons, is the highest-grossing media property ever." },
-      { position: 2, text: "Players catch and train pocket monsters, storing them in red-and-white balls to battle." },
-      { position: 3, text: "The slogan urges you to 'catch 'em all,' starting with creatures like Charmander and Squirtle." },
+      { position: 2, text: "Its players catch and train pocket monsters, storing them in red-and-white balls to battle." },
+      { position: 3, text: "Its slogan urges you to 'catch 'em all,' starting with creatures like Charmander and Squirtle." },
       { position: 4, text: "A yellow electric mouse, Pikachu, is the mascot of this Nintendo series about a trainer named Ash." },
     ],
     decoys: [
@@ -5071,8 +5071,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "Confusingly, the princess it is named for is not the character you actually control." },
-      { position: 2, text: "Players guide the green-clad, elf-like Link across the fantasy kingdom of Hyrule on a rescue quest." },
-      { position: 3, text: "Collecting pieces of a sacred golden triangle, the Triforce, he battles the villain Ganon." },
+      { position: 2, text: "Its players guide the green-clad, elf-like Link across the fantasy kingdom of Hyrule on a rescue quest." },
+      { position: 3, text: "In it, collecting pieces of a sacred golden triangle, the Triforce, he battles the villain Ganon." },
       { position: 4, text: "This Nintendo adventure series' hero draws a Master Sword and solves dungeon puzzles." },
     ],
     decoys: [
@@ -5089,8 +5089,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "Its in-game concerts have drawn tens of millions of players to watch stars perform live." },
-      { position: 2, text: "Up to 100 players parachute onto a shrinking island and fight until one is left standing." },
-      { position: 3, text: "Between gunfights, players harvest materials to build walls and ramps for cover." },
+      { position: 2, text: "In it, up to 100 players parachute onto a shrinking island and fight until one is left standing." },
+      { position: 3, text: "Between gunfights, its players harvest materials to build walls and ramps for cover." },
       { position: 4, text: "Famous for its flossing dances and 'Battle Pass,' this free Epic Games title is a battle-royale craze." },
     ],
     decoys: [
@@ -5107,7 +5107,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "A live-action film redesigned its hero after fans revolted over his too-human teeth." },
-      { position: 2, text: "A blue creature races at super speed through loop-the-loops, collecting golden rings." },
+      { position: 2, text: "In it, a blue creature races at super speed through loop-the-loops, collecting golden rings." },
       { position: 3, text: "Losing all his rings when hit, he must scramble to grab them back before enemies close in." },
       { position: 4, text: "Sega created this spiky blue speedster to rival Nintendo's plumber, pitting him against Dr. Robotnik." },
     ],
@@ -5125,8 +5125,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "It languished for two years after release, then exploded in 2020 as a pandemic hit." },
-      { position: 2, text: "Crewmates aboard a cartoon spaceship complete tasks while secret impostors pick them off." },
-      { position: 3, text: "Players call emergency meetings to argue over who is the 'sus' saboteur and vote them out." },
+      { position: 2, text: "In it, crewmates aboard a cartoon spaceship complete tasks while secret impostors pick them off." },
+      { position: 3, text: "Its players call emergency meetings to argue over who is the 'sus' saboteur and vote them out." },
       { position: 4, text: "Its bean-shaped little astronauts made this social-deduction game a streaming phenomenon." },
     ],
     decoys: [
@@ -5142,7 +5142,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Video Games",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "One entry's online mode earned more money than almost any movie in history." },
+      { position: 1, text: "One entry in this series earned more from its online mode than almost any movie in history." },
       { position: 2, text: "This open-world crime series lets players roam sprawling cities, carjacking and fleeing the police." },
       { position: 3, text: "Set in parody versions of Los Angeles and Miami, it stirred controversy for its violence." },
       { position: 4, text: "Rockstar's blockbuster franchise, abbreviated to three letters, follows career criminals." },
@@ -5161,8 +5161,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "Its hero was originally called 'Jumpman' and worked as a carpenter, not his later trade." },
-      { position: 2, text: "A mustachioed Italian plumber stomps on turtle-like Goombas and Koopas to save a princess." },
-      { position: 3, text: "Eating a mushroom makes him grow, and a fire flower lets him hurl fireballs at enemies." },
+      { position: 2, text: "In it, a mustachioed Italian plumber stomps on turtle-like Goombas and Koopas to save a princess." },
+      { position: 3, text: "In it, eating a mushroom makes him grow, and a fire flower lets him hurl fireballs at enemies." },
       { position: 4, text: "He and his brother Luigi rescue Princess Peach from the spiky-shelled Bowser in this Nintendo classic." },
     ],
     decoys: [
@@ -5214,7 +5214,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Pop Culture",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "A bite from a radioactive arachnid gave a shy teenager his powers." },
+      { position: 1, text: "A bite from a radioactive arachnid gave this shy teenager his powers." },
       { position: 2, text: "Peter Parker learns that 'with great power comes great responsibility' after his Uncle Ben dies." },
       { position: 3, text: "This web-slinging Marvel hero swings between New York skyscrapers and battles the Green Goblin." },
       { position: 4, text: "Nicknamed your 'friendly neighborhood' hero, he shoots webs from his wrists in a red-and-blue suit." },
@@ -5269,7 +5269,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "The angrier he gets, the stronger and bigger he becomes." },
-      { position: 2, text: "A dose of gamma radiation transformed a mild scientist into a raging green giant." },
+      { position: 2, text: "A dose of gamma radiation transformed a mild scientist into this raging green giant." },
       { position: 3, text: "Dr. Bruce Banner warns, 'Don't make me angry — you wouldn't like me when I'm angry.'" },
       { position: 4, text: "This Marvel behemoth, whose catchphrase is 'smash,' bursts out of his shirt but never his purple pants." },
     ],
@@ -5360,7 +5360,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Its fan army, the 'ARMY,' has crashed servers and topped charts through sheer coordination." },
       { position: 2, text: "This seven-member South Korean group became the biggest name in K-pop worldwide." },
-      { position: 3, text: "Members like RM, Jin, and Jungkook addressed the United Nations and topped the US charts." },
+      { position: 3, text: "Its members, including RM, Jin, and Jungkook, addressed the United Nations and topped the US charts." },
       { position: 4, text: "'Dynamite' and 'Butter' were global smashes for this boy band whose initials stand for a Korean phrase." },
     ],
     decoys: [
@@ -5486,7 +5486,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Its four members were each accomplished songwriters, a rarity for a rock band." },
       { position: 2, text: "Fronted by the flamboyant Freddie Mercury, this British group stole the show at 1985's Live Aid." },
-      { position: 3, text: "Guitarist Brian May built his own instrument and holds a PhD in astrophysics." },
+      { position: 3, text: "Its guitarist Brian May built his own instrument and holds a PhD in astrophysics." },
       { position: 4, text: "This band stomped and clapped through 'We Will Rock You' and layered the operatic 'Bohemian Rhapsody.'" },
     ],
     decoys: [
@@ -5702,7 +5702,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Steve Jobs unveiled it in 2007, mocking rival gadgets that still had plastic keyboards." },
       { position: 2, text: "It combined a music player, a phone, and an internet device into one glass touchscreen slab." },
-      { position: 3, text: "Apple releases a new numbered model each year, and fans line up to buy them." },
+      { position: 3, text: "Apple releases a new numbered model of it each year, and fans line up to buy them." },
       { position: 4, text: "Running iOS and the App Store, this smartphone is its company's best-selling product." },
     ],
     decoys: [
@@ -5720,7 +5720,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Its mysterious creator, known only as Satoshi Nakamoto, has never been identified." },
       { position: 2, text: "Launched in 2009, it was the first cryptocurrency, with no bank or government behind it." },
-      { position: 3, text: "New units are 'mined' by computers solving puzzles, and only 21 million can ever exist." },
+      { position: 3, text: "Its new units are 'mined' by computers solving puzzles, and only 21 million can ever exist." },
       { position: 4, text: "This digital currency, tracked on a public blockchain, is symbolized by a capital B with two vertical strokes." },
     ],
     decoys: [
@@ -5792,7 +5792,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Its logo evolved from a realistic old camera into a simple rainbow-gradient outline." },
       { position: 2, text: "Launched in 2010 for square photos with filters, it was bought by Facebook two years later." },
-      { position: 3, text: "Users share pictures and short 'Stories' that vanish after 24 hours." },
+      { position: 3, text: "Its users share pictures and short 'Stories' that vanish after 24 hours." },
       { position: 4, text: "Influencers chase likes and followers on this photo-sharing app, often shortened to 'Insta.'" },
     ],
     decoys: [
@@ -5846,7 +5846,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Japan's word for it combines the characters for 'picture' and 'character,' unrelated to English 'emotion.'" },
       { position: 2, text: "First designed in 1990s Japan, these tiny symbols now number in the thousands, overseen by a standards body." },
-      { position: 3, text: "A yellow smiley face, a red heart, and a grinning pile of poop are among the most-used." },
+      { position: 3, text: "A yellow smiley face, a red heart, and a grinning pile of poop are among the most-used of them." },
       { position: 4, text: "You tap one of these little pictures to add a wink or a thumbs-up to a text message." },
     ],
     decoys: [
@@ -5990,7 +5990,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Its commercials cost millions of dollars for just 30 seconds and are watched as eagerly as the game." },
       { position: 2, text: "This annual February showdown crowns the champion of American football's top league." },
-      { position: 3, text: "A star-studded halftime concert splits the two halves of the contest." },
+      { position: 3, text: "A star-studded halftime concert splits its two halves." },
       { position: 4, text: "Counted in Roman numerals, this NFL title game is the most-watched U.S. television broadcast each year." },
     ],
     decoys: [
@@ -6060,9 +6060,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Sailors once died of scurvy for lack of the 'C' variety, cured by eating citrus fruit." },
+      { position: 1, text: "Sailors once died of scurvy for lack of its 'C' variety, cured by eating citrus fruit." },
       { position: 2, text: "These essential nutrients, needed only in tiny amounts, keep the body running properly." },
-      { position: 3, text: "The 'D' kind is made by the skin in sunlight; the 'A' kind helps you see in dim light." },
+      { position: 3, text: "Its 'D' kind is made by the skin in sunlight; its 'A' kind helps you see in dim light." },
       { position: 4, text: "Labeled with letters, this class of nutrients is sold as daily supplement pills." },
     ],
     decoys: [
@@ -6223,7 +6223,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "Despite its name, it contains no pork; the 'ham' part points to a German city, not the meat." },
-      { position: 2, text: "A grilled patty of ground beef is served inside a round, often sesame-seeded, bun." },
+      { position: 2, text: "Its grilled patty of ground beef is served inside a round, often sesame-seeded, bun." },
       { position: 3, text: "Fast-food chains like McDonald's sell billions of them, dressed with lettuce, cheese, and pickles." },
       { position: 4, text: "Add bacon or swap in a veggie patty, but this bun-and-patty sandwich is a cookout classic." },
     ],
@@ -6278,7 +6278,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Tourists often mix it up with a plainer neighbor whose name they wrongly give it." },
       { position: 2, text: "Its roadway splits and lifts in the middle to let tall ships pass beneath." },
-      { position: 3, text: "Two Victorian Gothic towers linked by high walkways span the River Thames in London." },
+      { position: 3, text: "Its two Victorian Gothic towers, linked by high walkways, span the River Thames in London." },
       { position: 4, text: "Painted blue and white, this drawbridge beside the Tower of London is a symbol of the city." },
     ],
     decoys: [
@@ -6330,7 +6330,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "An actor won a posthumous Academy Award for playing a scarred anarchist in clown makeup." },
+      { position: 1, text: "In this movie, an actor won a posthumous Academy Award for playing a scarred anarchist in clown makeup." },
       { position: 2, text: "Its omission from the Best Picture shortlist is widely credited with pushing the Academy to expand that category from five nominees to ten." },
       { position: 3, text: "Christopher Nolan shot much of it on IMAX cameras in Chicago, standing in for Gotham City." },
       { position: 4, text: "The middle film of Nolan's caped-crusader trilogy, in which Batman faces Heath Ledger's Joker." },
@@ -6351,7 +6351,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "The mechanical monster malfunctioned so often that the director hid it, and the film became far scarier for the absence." },
       { position: 2, text: "John Williams built its theme from two alternating notes, and the shark is barely glimpsed for the first hour." },
       { position: 3, text: "Steven Spielberg's 1975 release invented the summer blockbuster and emptied beaches for a generation." },
-      { position: 4, text: "Police chief Brody hunts a great white off Amity Island and decides he needs a bigger boat." },
+      { position: 4, text: "In it, police chief Brody hunts a great white off Amity Island and decides he needs a bigger boat." },
     ],
     decoys: [
       { text: "Jurassic Park", eliminatedByClue: 3 },
@@ -6367,9 +6367,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "Standard issue for this crew is an unlicensed nuclear accelerator worn on the back." },
-      { position: 2, text: "Ray Parker Jr.'s 1984 theme song poses a question and then answers it by shouting a name." },
+      { position: 2, text: "Its 1984 theme song by Ray Parker Jr. poses a question and then answers it by shouting a name." },
       { position: 3, text: "Dan Aykroyd and Harold Ramis wrote it, and a giant marshmallow mascot flattens much of Manhattan in the finale." },
-      { position: 4, text: "Bill Murray leads a team of parapsychologists who trap spirits around New York for a fee." },
+      { position: 4, text: "In it, Bill Murray leads a team of parapsychologists who trap spirits around New York for a fee." },
     ],
     decoys: [
       { text: "Beetlejuice", eliminatedByClue: 2 },
@@ -6384,10 +6384,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "A girl's parents eat food that was not meant for them and are turned into pigs." },
+      { position: 1, text: "In this movie, a girl's parents eat food that was not meant for them and are turned into pigs." },
       { position: 2, text: "It remains the only hand-drawn Japanese film to win the Academy Award for Best Animated Feature." },
       { position: 3, text: "Hayao Miyazaki wrote and directed it for Studio Ghibli, setting it in a bathhouse where the witch Yubaba employs the gods." },
-      { position: 4, text: "Chihiro is renamed Sen and must work in a spirit bathhouse to rescue her parents and find the way home." },
+      { position: 4, text: "In it, Chihiro is renamed Sen and must work in a spirit bathhouse to rescue her parents and find the way home." },
     ],
     decoys: [
       { text: "Princess Mononoke", eliminatedByClue: 2 },
@@ -6402,7 +6402,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "A tax audit turns into a doorway to infinite parallel lives, one of which gives people hot dogs for fingers." },
+      { position: 1, text: "In this movie, a tax audit turns into a doorway to infinite parallel lives, one of which gives people hot dogs for fingers." },
       { position: 2, text: "Michelle Yeoh became the first Asian woman to win the Best Actress Oscar for her role in it." },
       { position: 3, text: "The directing duo known as Daniels made it for A24, and Ke Huy Quan won Best Supporting Actor decades after his child-star years." },
       { position: 4, text: "A laundromat owner fights across the multiverse in the A24 film that took seven Oscars in 2023." },
@@ -6438,10 +6438,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "A botched headcount at the airport leaves an eight-year-old defending a Chicago house with paint cans and a blowtorch." },
-      { position: 2, text: "Macaulay Culkin's aftershave scream became the most reproduced image of the 1990 holiday season." },
+      { position: 1, text: "In this movie, a botched headcount at the airport leaves an eight-year-old defending a Chicago house with paint cans and a blowtorch." },
+      { position: 2, text: "Its star Macaulay Culkin's aftershave scream became the most reproduced image of the 1990 holiday season." },
       { position: 3, text: "John Hughes wrote it and Chris Columbus directed it; Joe Pesci and Daniel Stern play the bumbling Wet Bandits." },
-      { position: 4, text: "Kevin McCallister booby-traps the family house at Christmas after his parents fly to Paris without him." },
+      { position: 4, text: "In it, Kevin McCallister booby-traps the family house at Christmas after his parents fly to Paris without him." },
     ],
     decoys: [
       { text: "A Christmas Story", eliminatedByClue: 2 },
@@ -6456,7 +6456,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "A briefcase glows when it is opened, and the audience is never told what is inside." },
+      { position: 1, text: "In this movie, a briefcase glows when it is opened, and the audience is never told what is inside." },
       { position: 2, text: "Its chapters run out of order, so a character shot dead midway is walking around again by the closing scene." },
       { position: 3, text: "Quentin Tarantino took the Palme d'Or at Cannes in 1994 and won an Oscar for its screenplay." },
       { position: 4, text: "John Travolta and Samuel L. Jackson play hitmen who debate Amsterdam burgers in Tarantino's 1994 crime mosaic." },
@@ -6474,10 +6474,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Television",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "A documentary crew films a Scranton paper company, and the branch manager cannot stop mugging for the camera." },
-      { position: 2, text: "Steve Carell's Michael Scott was adapted from a character Ricky Gervais created and played for the BBC." },
+      { position: 1, text: "In this show, a documentary crew films a Scranton paper company, and the branch manager cannot stop mugging for the camera." },
+      { position: 2, text: "Its Michael Scott, played by Steve Carell, was adapted from a character Ricky Gervais created and played for the BBC." },
       { position: 3, text: "Its American run lasted nine seasons on NBC, following Jim and Pam's slow-burn romance." },
-      { position: 4, text: "Dunder Mifflin's Scranton branch is the mockumentary workplace where Dwight Schrute farms beets." },
+      { position: 4, text: "Dunder Mifflin's Scranton branch is the mockumentary workplace of this series, where Dwight Schrute farms beets." },
     ],
     decoys: [
       { text: "Parks and Recreation", eliminatedByClue: 2 },
@@ -6493,7 +6493,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "A real fungus that hijacks the bodies of ants is the thing that ends civilization here." },
-      { position: 2, text: "Pedro Pascal escorts a teenage girl who cannot be infected across a ruined United States." },
+      { position: 2, text: "In it, Pedro Pascal escorts a teenage girl who cannot be infected across a ruined United States." },
       { position: 3, text: "HBO adapted it in 2023 from a Naughty Dog PlayStation game, casting Bella Ramsey as Ellie." },
       { position: 4, text: "Joel and Ellie cross a cordyceps-ravaged America in the HBO series based on the 2013 video game." },
     ],
@@ -6510,8 +6510,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Television",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "An American college football coach is hired to run an English soccer club by an owner who is quietly counting on him to fail." },
-      { position: 2, text: "The character first appeared in a promotional sketch for NBC's Premier League coverage." },
+      { position: 1, text: "In this show, an American college football coach is hired to run an English soccer club by an owner who is quietly counting on him to fail." },
+      { position: 2, text: "Its title character first appeared in a promotional sketch for NBC's Premier League coverage." },
       { position: 3, text: "Jason Sudeikis stars for Apple TV+, and a torn 'Believe' sign above the locker room door becomes the show's emblem." },
       { position: 4, text: "AFC Richmond's relentlessly optimistic, mustachioed American manager lends his name to this Apple TV+ comedy." },
     ],
@@ -6528,9 +6528,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Television",
     difficulty: "hard",
     clues: [
-      { position: 1, text: "Employees consent to a brain implant that splits their memories, so the person at work and the person at home never meet." },
+      { position: 1, text: "In this show, employees consent to a brain implant that splits their memories, so the person at work and the person at home never meet." },
       { position: 2, text: "Ben Stiller directed most of its episodes, and its opening titles won an Emmy of their own." },
-      { position: 3, text: "At Lumon Industries, the macrodata refinement team sorts numbers that feel frightening for reasons nobody will explain." },
+      { position: 3, text: "In it, at Lumon Industries, the macrodata refinement team sorts numbers that feel frightening for reasons nobody will explain." },
       { position: 4, text: "Mark Scout's 'innie' and 'outie' are two halves of one man in the Apple TV+ thriller about surgically divided work and life." },
     ],
     decoys: [
@@ -6546,7 +6546,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Television",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "A portal gun lets an alcoholic genius drag his anxious grandson across dimensions and still be home for dinner." },
+      { position: 1, text: "In this show, a portal gun lets an alcoholic genius drag his anxious grandson across dimensions and still be home for dinner." },
       { position: 2, text: "It grew out of a crude animated parody of Doc Brown and Marty McFly." },
       { position: 3, text: "Dan Harmon co-created it for Adult Swim, where an offhand reference to a discontinued McDonald's dipping sauce caused real-world stampedes." },
       { position: 4, text: "Adult Swim's animated series about a nihilist scientist grandfather and his nervous grandson, catchphrase 'wubba lubba dub dub'." },
@@ -6564,9 +6564,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Television",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "A cartoon about a family of dogs in Brisbane became famous for making the parents cry, not the children." },
-      { position: 2, text: "Most episodes run about seven minutes and turn an invented household game into the entire plot." },
-      { position: 3, text: "The Australian series follows a Blue Heeler family: dad Bandit, mum Chilli, and their two daughters." },
+      { position: 1, text: "This cartoon about a family of dogs in Brisbane became famous for making the parents cry, not the children." },
+      { position: 2, text: "Most of its episodes run about seven minutes and turn an invented household game into the entire plot." },
+      { position: 3, text: "This Australian series follows a Blue Heeler family: dad Bandit, mum Chilli, and their two daughters." },
       { position: 4, text: "This ABC Australia preschool hit is named for its six-year-old Blue Heeler heroine, whose little sister is Bingo." },
     ],
     decoys: [
@@ -6582,10 +6582,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Television",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "A media mogul's grown children circle his empire while he refuses to name an heir." },
-      { position: 2, text: "Nicholas Britell's theme, all clattering piano and strings, became an unlikely earworm." },
+      { position: 1, text: "In this show, a media mogul's grown children circle his empire while he refuses to name an heir." },
+      { position: 2, text: "Its Nicholas Britell theme, all clattering piano and strings, became an unlikely earworm." },
       { position: 3, text: "Brian Cox plays patriarch Logan Roy in an HBO drama widely read as a portrait of the Murdoch family." },
-      { position: 4, text: "Kendall, Shiv and Roman Roy claw at each other over who will take over Waystar RoyCo." },
+      { position: 4, text: "In it, Kendall, Shiv and Roman Roy claw at each other over who will take over Waystar RoyCo." },
     ],
     decoys: [
       { text: "Empire", eliminatedByClue: 2 },
@@ -6600,8 +6600,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Television",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Every episode stands alone, and each one usually concerns a technology that seems convenient right up until it is not." },
-      { position: 2, text: "One interactive installment let viewers choose the plot as it went, branching toward several different endings." },
+      { position: 1, text: "Every one of its episodes stands alone, and each usually concerns a technology that seems convenient right up until it is not." },
+      { position: 2, text: "One of its interactive installments let viewers choose the plot as it went, branching toward several different endings." },
       { position: 3, text: "Charlie Brooker created it for Channel 4 before Netflix took it over; its very first episode about a prime minister caused a lasting political stir." },
       { position: 4, text: "Named for the blank screen of a switched-off device, this anthology includes 'San Junipero' and 'Nosedive'." },
     ],
@@ -6673,7 +6673,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "It runs on your console's real clock, so if it is three in the morning where you are, the shops are shut." },
-      { position: 2, text: "A raccoon-like landlord named Tom Nook hands you a house along with a debt that has no interest and no deadline." },
+      { position: 2, text: "In it, a raccoon-like landlord named Tom Nook hands you a house along with a debt that has no interest and no deadline." },
       { position: 3, text: "Nintendo's series lets you live among talking villagers, catch bugs and fossils, and pay off mortgages entirely at your own pace." },
       { position: 4, text: "Its 2020 entry, New Horizons, stranded tens of millions of players on deserted islands during lockdown." },
     ],
@@ -6690,7 +6690,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Video Games",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Swapping two adjacent sweets to line up three of a kind is the whole mechanic, repeated a few billion times." },
+      { position: 1, text: "Its whole mechanic is swapping two adjacent sweets to line up three of a kind, repeated a few billion times." },
       { position: 2, text: "King released it in 2012, and its free-to-play lives system turned waiting itself into a thing you could pay to skip." },
       { position: 3, text: "Microsoft inherited it when it bought Activision Blizzard for nearly $69 billion." },
       { position: 4, text: "The match-three mobile puzzle game where you clear jelly and striped sweets across thousands of levels." },
@@ -6709,7 +6709,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "A software engineer built it for his partner, then gave everyone exactly one puzzle a day and no way to binge." },
-      { position: 2, text: "Green and yellow squares let players brag about a result without spoiling it for anyone else." },
+      { position: 2, text: "Its green and yellow squares let players brag about a result without spoiling it for anyone else." },
       { position: 3, text: "Josh Wardle's daily five-letter guessing game was bought by The New York Times in 2022." },
       { position: 4, text: "Six attempts, five letters, one puzzle a day — the browser game whose name puns on its creator's surname." },
     ],
@@ -6726,9 +6726,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Video Games",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "A green-armoured supersoldier and a blue artificial intelligence gave a new console its entire identity." },
+      { position: 1, text: "Its green-armoured supersoldier and blue artificial intelligence gave a new console its entire identity." },
       { position: 2, text: "Bungie began building it as a Macintosh real-time strategy game before Microsoft bought the studio outright." },
-      { position: 3, text: "Master Chief and Cortana fight the alien Covenant across enormous artificial rings." },
+      { position: 3, text: "In it, Master Chief and Cortana fight the alien Covenant across enormous artificial rings." },
       { position: 4, text: "Xbox's flagship first-person shooter, named for the ringworlds on which much of it takes place." },
     ],
     decoys: [
@@ -6744,7 +6744,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Video Games",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Two teams of five push down three lanes toward each other's base, and one match can outlast a football game." },
+      { position: 1, text: "In it, two teams of five push down three lanes toward each other's base, and one match can outlast a football game." },
       { position: 2, text: "Riot Games launched it in 2009, free to play, as a spiritual successor to a Warcraft III custom map." },
       { position: 3, text: "Its world championship fills stadiums, and its animated Netflix spin-off Arcane won an Emmy." },
       { position: 4, text: "Summoner's Rift is the battlefield of the Riot MOBA whose champions include Jinx and Yasuo." },
@@ -6782,7 +6782,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "He was bagging groceries in a Puerto Rican supermarket while uploading tracks to SoundCloud." },
       { position: 2, text: "He was the most-streamed artist on Spotify worldwide three years running without recording mainly in English." },
-      { position: 3, text: "Un Verano Sin Ti became the first all-Spanish album nominated for the Album of the Year Grammy." },
+      { position: 3, text: "His Un Verano Sin Ti became the first all-Spanish album nominated for the Album of the Year Grammy." },
       { position: 4, text: "Puerto Rico's biggest musical export of the 2020s, born Benito Martínez Ocasio, records under a name pairing an adjective with a rabbit." },
     ],
     decoys: [
@@ -6871,7 +6871,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "He is the only musician from outside classical and jazz to win the Pulitzer Prize for Music." },
-      { position: 2, text: "To Pimp a Butterfly turned its track 'Alright' into a street protest chant." },
+      { position: 2, text: "His To Pimp a Butterfly turned its track 'Alright' into a street protest chant." },
       { position: 3, text: "The Compton rapper told his teenage years as a narrative concept album, good kid, m.A.A.d city." },
       { position: 4, text: "DAMN. and 'HUMBLE.' belong to this Compton MC, who headlined the 2025 Super Bowl halftime show." },
     ],
@@ -6998,7 +6998,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "It spun out of a site built around one man broadcasting his entire waking life around the clock." },
       { position: 2, text: "Amazon bought it in 2014 for close to a billion dollars, outbidding Google." },
-      { position: 3, text: "Viewers subscribe to channels, flood chat with custom emotes, and tip with Bits while watching games played live." },
+      { position: 3, text: "Its viewers subscribe to channels, flood chat with custom emotes, and tip with Bits while watching games played live." },
       { position: 4, text: "The dominant live-streaming platform for gamers, named for an involuntary muscle spasm." },
     ],
     decoys: [
@@ -7033,7 +7033,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "Built first for gamers who needed to talk mid-match, it became the default clubhouse for study groups and hobbyists alike." },
-      { position: 2, text: "Communities are split into text and voice channels, policed by volunteers wearing coloured roles." },
+      { position: 2, text: "Its communities are split into text and voice channels, policed by volunteers wearing coloured roles." },
       { position: 3, text: "Launched in 2015, it reportedly walked away from a multibillion-dollar approach from Microsoft in 2021." },
       { position: 4, text: "The chat platform whose blue mascot is called Wumpus and whose 'servers' are really just group chats." },
     ],
@@ -7051,7 +7051,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "It was the first private company to bring a spacecraft back from orbit, and later the first to carry people there." },
-      { position: 2, text: "Landing used boosters upright on floating platforms cut the cost of reaching orbit enough to reshape the industry." },
+      { position: 2, text: "Its trick of landing used boosters upright on floating platforms cut the cost of reaching orbit enough to reshape the industry." },
       { position: 3, text: "Elon Musk founded it in 2002; its Falcon 9 and Dragon now ferry NASA astronauts to the space station." },
       { position: 4, text: "The private rocket company behind Starship and the Starlink satellite constellation." },
     ],
@@ -7069,7 +7069,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "Its drivers endure close to five times their body weight through corners and can shed several kilos of water in an afternoon." },
-      { position: 2, text: "Two championships are settled each season, one for drivers and one for the teams that build the cars." },
+      { position: 2, text: "Two of its championships are settled each season, one for drivers and one for the teams that build the cars." },
       { position: 3, text: "Michael Schumacher and Lewis Hamilton share its record of seven world titles." },
       { position: 4, text: "Motorsport's premier open-wheel class, run under the FIA, with Monaco as its crown jewel." },
     ],
@@ -7086,7 +7086,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Sports",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Competitors must dress almost entirely in white, a rule enforced down to the soles of their shoes." },
+      { position: 1, text: "Its competitors must dress almost entirely in white, a rule enforced down to the soles of their shoes." },
       { position: 2, text: "It is the only one of tennis's four majors still contested on grass." },
       { position: 3, text: "Staged in a south-west London suburb since 1877, it is the oldest tennis tournament in the world." },
       { position: 4, text: "The All England Club's grass-court major, famous for strawberries and cream and for Federer's eight singles titles." },
