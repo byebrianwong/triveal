@@ -25,6 +25,7 @@ a Wordle-style **daily** and a Jackbox-style **party** mode (rooms + realtime).
 pnpm install
 pnpm dev        # http://localhost:3000 — daily mode, zero config
 pnpm test       # vitest unit suite (engine + bank integrity checks)
+pnpm typecheck  # tsc over the whole project, tests included
 pnpm build      # production build
 ```
 

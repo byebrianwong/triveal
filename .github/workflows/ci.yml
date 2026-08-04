@@ -34,6 +34,11 @@ jobs:
       - name: Lint
         run: pnpm lint
 
+      # `next build` only typechecks what it bundles, so test files and other
+      # non-imported sources never reach it. This covers the whole project.
+      - name: Typecheck
+        run: pnpm typecheck
+
       - name: Unit tests + bank integrity
         run: pnpm test
 
