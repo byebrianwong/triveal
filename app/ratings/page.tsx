@@ -7,12 +7,12 @@
  * outside `pnpm dev`.
  */
 
-import { timingSafeEqual } from "node:crypto";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { connection } from "next/server";
 import { RATING_COLOR, RATING_LABEL, RatingFace } from "@/components/RatingFace";
 import { clueValue } from "@/lib/game/scoring";
+import { adminAccessAllowed } from "@/lib/ratings/adminGate";
 import { ratingsBackend } from "@/lib/ratings/store";
 import { buildReview, type ReviewRow } from "@/lib/ratings/review";
 import type { SummarySort } from "@/lib/ratings/summary";
@@ -30,22 +30,13 @@ const SORTS: { key: SummarySort; label: string }[] = [
   { key: "recent", label: "Most recent" },
 ];
 
-function tokenMatches(provided: string | undefined, expected: string): boolean {
-  if (!provided) return false;
-  const a = Buffer.from(provided);
-  const b = Buffer.from(expected);
-  // timingSafeEqual throws on a length mismatch, so that case is its own check.
-  return a.length === b.length && timingSafeEqual(a, b);
-}
-
 function requireAdmin(key: string | undefined): void {
-  const token = process.env.TRIVEAL_ADMIN_TOKEN;
-  if (token) {
-    if (!tokenMatches(key, token)) notFound();
-    return;
-  }
-  // No token configured: open in local development, absent everywhere else.
-  if (process.env.NODE_ENV === "production") notFound();
+  const allowed = adminAccessAllowed(
+    key,
+    process.env.TRIVEAL_ADMIN_TOKEN,
+    process.env.NODE_ENV === "production",
+  );
+  if (!allowed) notFound();
 }
 
 function scoreColor(score: number): string {
