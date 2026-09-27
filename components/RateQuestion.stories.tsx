@@ -20,6 +20,15 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
+/**
+ * A scripted click leaves the button focused with its keyboard focus ring,
+ * which a real mouse click doesn't show. Clear it so the snapshot matches
+ * what a player sees, and is the same on every run.
+ */
+function dropFocus() {
+  (document.activeElement as HTMLElement | null)?.blur();
+}
+
 export const NotRatedYet: Story = {};
 
 /** One tap sends the rating; the note link appears. */
@@ -28,6 +37,7 @@ export const Rated: Story = {
     await userEvent.click(canvas.getByRole("button", { name: "Good question" }));
     await canvas.findByText("Thanks!");
     await canvas.findByRole("button", { name: "Add a note" });
+    dropFocus();
   },
 };
 
@@ -61,5 +71,6 @@ export const CouldNotSave: Story = {
   play: async ({ canvas, userEvent }) => {
     await userEvent.click(canvas.getByRole("button", { name: "Okay question" }));
     await canvas.findByText(/Couldn’t save that/);
+    dropFocus();
   },
 };

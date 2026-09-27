@@ -11,10 +11,17 @@
 }
 
 /*
- * A blinking caret in a focused answer box would make snapshots differ from
- * run to run. Only applied inside Chromatic, so local Storybook keeps it.
+ * Things that make snapshots differ from run to run, switched off only inside
+ * Chromatic so local Storybook still shows them: a blinking caret in a focused
+ * answer box, and CSS transitions (a colour fading in after a click), which
+ * reduced motion doesn't cover because the app only guards its animations.
  */
 .chromatic,
 .chromatic * {
   caret-color: transparent !important;
+}
+.chromatic *,
+.chromatic *::before,
+.chromatic *::after {
+  transition: none !important;
 }

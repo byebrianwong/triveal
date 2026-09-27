@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
-import { expect, fn } from "storybook/test";
+import { expect, fn, waitFor } from "storybook/test";
 import { ANSWER_IMAGES, PRACTICE_PUZZLE } from "../.storybook/fixtures";
 import { PracticeGame } from "./PracticeGame";
 import { StageFrame } from "./StageFrame";
@@ -26,6 +26,10 @@ export const FirstClue: Story = {
   play: async ({ canvas }) => {
     await canvas.findByText(PRACTICE_PUZZLE.clues[0]);
     await expect(canvas.getByText("← Back to today's daily")).toBeVisible();
+    // The answer box takes focus just after the clue appears; wait for it so
+    // every snapshot shows the same focus ring.
+    const box = canvas.getByRole("textbox", { name: "Your answer" });
+    await waitFor(() => expect(box).toHaveFocus());
   },
 };
 
