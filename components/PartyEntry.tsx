@@ -1,8 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { createPartyRoom, joinPartyRoom } from "@/app/party-actions";
 import { ROOM_CODE_LENGTH } from "@/lib/game/party";
+import { focusForTyping } from "./keyboard";
 
 export interface PartyIdentity {
   gameId: string;
@@ -22,6 +23,16 @@ export function PartyEntry({
   const [code, setCode] = useState("");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const nameRef = useRef<HTMLInputElement>(null);
+  const codeRef = useRef<HTMLInputElement>(null);
+
+  // Opening the screen, or switching to "Join room", lands the caret in the
+  // first field still to fill in. Reads the name through the ref so typing
+  // it doesn't re-run this and yank the caret into the code box.
+  useEffect(() => {
+    const named = Boolean(nameRef.current?.value.trim());
+    focusForTyping(tab === "join" && named ? codeRef.current : nameRef.current);
+  }, [tab]);
 
   async function create() {
     setBusy(true);
@@ -49,8 +60,18 @@ export function PartyEntry({
 
   const canSubmit = name.trim().length > 0 && (tab === "create" || code.trim().length === ROOM_CODE_LENGTH);
 
+  function onSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    if (busy || !canSubmit) return;
+    if (tab === "create") void create();
+    else void join();
+  }
+
   return (
-    <div className="mx-auto flex w-full max-w-sm flex-1 flex-col justify-center gap-5 px-6 py-8">
+    <form
+      onSubmit={onSubmit}
+      className="mx-auto flex w-full max-w-sm flex-1 flex-col justify-center gap-5 px-6 py-8"
+    >
       <h1 className="text-center text-2xl font-bold text-gold">Party mode</h1>
 
       <div className="flex rounded-full bg-[#181433] p-1 text-sm font-semibold">
@@ -74,6 +95,7 @@ export function PartyEntry({
       <label className="flex flex-col gap-1 text-sm text-lav">
         Your name
         <input
+          ref={nameRef}
           className="field-dark rounded-lg px-3 py-2 text-base text-cream"
           value={name}
           maxLength={24}
@@ -86,6 +108,7 @@ export function PartyEntry({
         <label className="flex flex-col gap-1 text-sm text-lav">
           Room code
           <input
+            ref={codeRef}
             className="field-dark rounded-lg px-3 py-2 text-lg uppercase tracking-[0.3em] text-cream"
             value={code}
             maxLength={ROOM_CODE_LENGTH}
@@ -103,10 +126,9 @@ export function PartyEntry({
       )}
 
       <button
-        type="button"
+        type="submit"
         className="btn-gold rounded-full py-3 text-base font-bold disabled:cursor-not-allowed"
         disabled={busy || !canSubmit}
-        onClick={tab === "create" ? create : join}
       >
         {busy ? "…" : tab === "create" ? "Create room" : "Join room"}
       </button>
@@ -114,6 +136,6 @@ export function PartyEntry({
       <button type="button" className="text-center text-sm text-lav underline" onClick={onCancel}>
         ← Back to daily
       </button>
-    </div>
+    </form>
   );
 }

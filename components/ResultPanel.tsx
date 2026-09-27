@@ -6,6 +6,7 @@ import type { PlayerStats } from "@/lib/game/stats";
 import { buildShareText } from "@/lib/game/shareCard";
 import { clueValue } from "@/lib/game/scoring";
 import { AnswerImage } from "./AnswerImage";
+import { EnterHint, useEnterKey } from "./keyboard";
 import { RateQuestion } from "./RateQuestion";
 import { StarHost } from "./StarHost";
 
@@ -34,6 +35,9 @@ export function ResultPanel({
   const [copied, setCopied] = useState(false);
   const won = round.status === "won";
   const misses = round.wrongGuesses.length;
+  // Enter keeps you playing rather than sharing: a share sheet is a detour
+  // nobody wants to open by accident.
+  useEnterKey(() => onSecondary?.(), Boolean(onSecondary));
 
   async function share() {
     const text = buildShareText({
@@ -139,10 +143,12 @@ export function ResultPanel({
         <button
           type="button"
           onClick={onSecondary}
+          aria-keyshortcuts="Enter"
           className="mt-4 w-full rounded-2xl border border-purple-line py-3 text-sm font-medium text-lav-lt hover:text-cream focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
         >
           {secondaryLabel ?? "Keep playing"}{" "}
           <i className="ti ti-arrow-right" style={{ verticalAlign: -2 }} aria-hidden />
+          <EnterHint />
         </button>
       )}
     </div>

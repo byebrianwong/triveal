@@ -3,6 +3,7 @@
 import type { RoundState } from "@/lib/game/roundState";
 import { clueValue } from "@/lib/game/scoring";
 import { AnswerImage } from "./AnswerImage";
+import { EnterHint, useEnterKey } from "./keyboard";
 import { RateQuestion } from "./RateQuestion";
 import { StarHost } from "./StarHost";
 
@@ -31,6 +32,7 @@ export function PracticeResult({
 }: PracticeResultProps) {
   const won = round.status === "won";
   const misses = round.wrongGuesses.length;
+  useEnterKey(onNext);
 
   return (
     <div className="clue-enter flex flex-col items-center px-1 text-center">
@@ -73,10 +75,11 @@ export function PracticeResult({
       <button
         type="button"
         onClick={onNext}
+        aria-keyshortcuts="Enter"
         className="btn-gold mt-5 w-full rounded-2xl py-3 text-base font-semibold"
-        autoFocus
       >
         Next question <i className="ti ti-arrow-right" style={{ verticalAlign: -2 }} aria-hidden />
+        <EnterHint />
       </button>
       <button
         type="button"

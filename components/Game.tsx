@@ -12,6 +12,7 @@ import {
 import { clueValue, currentNetValue } from "@/lib/game/scoring";
 import { ClueRecap } from "./ClueRecap";
 import { ClueStack } from "./ClueStack";
+import { EnterHint, focusForTyping } from "./keyboard";
 import { Medallion } from "./Medallion";
 import { StarHost, type StarExpression } from "./StarHost";
 
@@ -46,6 +47,7 @@ export function Game({ puzzle, config }: { puzzle: PuzzleDto; config: GameConfig
   const [answer, setAnswer] = useState<string | null>(null);
   const resolvedRef = useRef(false);
   const initRef = useRef(false);
+  const inputRef = useRef<HTMLInputElement>(null);
 
   // Restored finished round (daily resume): reveal the answer, but don't
   // re-record stats — they were folded in when it first finished.
@@ -57,6 +59,14 @@ export function Game({ puzzle, config }: { puzzle: PuzzleDto; config: GameConfig
       revealAnswer(puzzle.questionId).then((r) => setAnswer(r.answer));
     }
   }, [puzzle.questionId, round.status]);
+
+  // Every new clue (the first, a wrong guess, a skip) puts the caret back in
+  // the answer box, so a keyboard player never has to click into it. The
+  // submit button or "Next clue" would otherwise keep focus after a click.
+  const playing = round.status === "playing";
+  useEffect(() => {
+    if (playing) focusForTyping(inputRef.current);
+  }, [playing, round.clueIndex]);
 
   function commit(next: RoundState) {
     setRound(next);
@@ -117,7 +127,6 @@ export function Game({ puzzle, config }: { puzzle: PuzzleDto; config: GameConfig
     await finish(next);
   }
 
-  const playing = round.status === "playing";
   const misses = round.wrongGuesses.length;
   const onLastClue = round.clueIndex >= puzzle.clueCount - 1;
   const expression: StarExpression = !playing
@@ -227,6 +236,7 @@ export function Game({ puzzle, config }: { puzzle: PuzzleDto; config: GameConfig
                 Your answer
               </label>
               <input
+                ref={inputRef}
                 id="guess"
                 type="text"
                 value={guess}
@@ -243,7 +253,12 @@ export function Game({ puzzle, config }: { puzzle: PuzzleDto; config: GameConfig
                 disabled={busy || !guess.trim()}
                 className="btn-gold w-full rounded-2xl py-3 text-base font-semibold"
               >
-                {busy ? "Checking…" : "Lock in your guess"}
+                {busy ? "Checking…" : (
+                  <>
+                    Lock in your guess
+                    <EnterHint />
+                  </>
+                )}
               </button>
             </form>
             <div className="mt-2 flex items-center justify-between text-[13px] font-medium text-lav-lt">

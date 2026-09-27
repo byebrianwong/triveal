@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   revealNextPartyClue,
   startNextPartyRound,
@@ -9,6 +9,7 @@ import {
 } from "@/app/party-actions";
 import { clueValue } from "@/lib/game/scoring";
 import { AnswerImage } from "./AnswerImage";
+import { EnterHint, focusForTyping, useEnterKey } from "./keyboard";
 
 /** Live scoreboard, sorted, with the current player highlighted. */
 function Scoreboard({ state, playerId }: { state: PartyStateDto; playerId: string }) {
@@ -58,6 +59,7 @@ function RoundView({ state, playerId, onLeave }: PartyRoundProps) {
   const [guess, setGuess] = useState("");
   const [busy, setBusy] = useState(false);
   const [feedback, setFeedback] = useState<string | null>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
 
   // Feedback is narrower than the round: it describes one guess against one
   // clue. Revealing the next clue clears every lockout server-side, so
@@ -75,8 +77,16 @@ function RoundView({ state, playerId, onLeave }: PartyRoundProps) {
   const canGuess = !resolved && !round.youLockedOut;
   const clueWorth = clueValue(round.clueIndex);
 
+  // The guess box is disabled while a guess is in flight and while you're
+  // locked out, which drops focus. Put the caret back each time it reopens
+  // (and when the round starts) so the next guess is just typing.
+  const inputOpen = canGuess && !busy;
+  useEffect(() => {
+    if (inputOpen) focusForTyping(inputRef.current);
+  }, [inputOpen]);
+
   async function guessNow() {
-    if (!guess.trim()) return;
+    if (busy || !guess.trim()) return;
     setBusy(true);
     setFeedback(null);
     try {
@@ -113,6 +123,7 @@ function RoundView({ state, playerId, onLeave }: PartyRoundProps) {
   }
 
   const isLastRound = state.currentRound >= state.totalRounds;
+  useEnterKey(hostNext, state.youAreHost && resolved && !busy);
 
   return (
     <div className="mx-auto flex w-full max-w-md flex-1 flex-col gap-4 px-5 py-6">
@@ -160,25 +171,30 @@ function RoundView({ state, playerId, onLeave }: PartyRoundProps) {
         </div>
       ) : (
         <div className="flex flex-col gap-2">
-          <div className="flex gap-2">
+          <form
+            className="flex gap-2"
+            onSubmit={(e) => {
+              e.preventDefault();
+              void guessNow();
+            }}
+          >
             <input
+              ref={inputRef}
               className="field-dark flex-1 rounded-lg px-3 py-2 text-base text-cream disabled:opacity-60"
               value={guess}
               maxLength={120}
               placeholder={canGuess ? "Your guess…" : "Locked out — wait for the next clue"}
               disabled={!canGuess || busy}
               onChange={(e) => setGuess(e.target.value)}
-              onKeyDown={(e) => e.key === "Enter" && guessNow()}
             />
             <button
-              type="button"
+              type="submit"
               className="btn-gold rounded-lg px-4 font-bold disabled:cursor-not-allowed"
               disabled={!canGuess || busy || !guess.trim()}
-              onClick={guessNow}
             >
               Guess
             </button>
-          </div>
+          </form>
           {feedback && <p className="text-center text-sm text-lav">{feedback}</p>}
         </div>
       )}
@@ -212,8 +228,10 @@ function RoundView({ state, playerId, onLeave }: PartyRoundProps) {
               className="btn-gold flex-1 rounded-full py-2 text-sm font-bold disabled:opacity-50"
               disabled={busy}
               onClick={hostNext}
+              aria-keyshortcuts="Enter"
             >
               {isLastRound ? "See final results" : "Next round"}
+              <EnterHint />
             </button>
           )}
         </div>

@@ -11,6 +11,7 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { act, cleanup, fireEvent, render, screen } from "@testing-library/react";
 import type { PartyGuessResult, PartyRoundDto, PartyStateDto } from "@/app/party-actions";
+import { ENTER_ARM_DELAY_MS } from "./keyboard";
 import { PartyRound } from "./PartyRound";
 
 // The real module is a "use server" file that reaches for Supabase on import.
@@ -20,7 +21,12 @@ vi.mock("@/app/party-actions", () => ({
   startNextPartyRound: vi.fn(),
 }));
 
-import { submitPartyGuess } from "@/app/party-actions";
+// The answer picture fetches through the main actions module.
+vi.mock("@/app/actions", () => ({
+  fetchAnswerImage: vi.fn().mockResolvedValue(null),
+}));
+
+import { startNextPartyRound, submitPartyGuess } from "@/app/party-actions";
 
 const guessAction = vi.mocked(submitPartyGuess);
 
@@ -89,7 +95,24 @@ beforeEach(() => {
   guessAction.mockReset();
 });
 
-afterEach(cleanup);
+afterEach(() => {
+  cleanup();
+  vi.useRealTimers();
+  vi.unstubAllGlobals();
+});
+
+/** A desktop with a mouse or trackpad, where the guess box takes focus. */
+function stubFinePointer() {
+  vi.stubGlobal(
+    "matchMedia",
+    vi.fn((query: string) => ({
+      matches: query === "(pointer: fine)",
+      media: query,
+      addEventListener() {},
+      removeEventListener() {},
+    })),
+  );
+}
 
 describe("PartyRound round transitions", () => {
   it("drops the win banner once the next round starts", async () => {
@@ -163,5 +186,65 @@ describe("PartyRound round transitions", () => {
     update({ clueIndex: 1, revealedClues: ["Round one, clue one", "Round one, clue two"] });
 
     expect(guessBox().value).toBe("half an idea");
+  });
+});
+
+describe("PartyRound keyboard play", () => {
+  it("puts the caret back in the guess box once a guess comes back", async () => {
+    stubFinePointer();
+    let settle: (result: PartyGuessResult) => void = () => {};
+    guessAction.mockReturnValue(
+      new Promise<PartyGuessResult>((resolve) => {
+        settle = resolve;
+      }),
+    );
+    show();
+    expect(document.activeElement).toBe(guessBox());
+
+    await submit("Yahtzee");
+    expect(guessBox().disabled).toBe(true);
+    guessBox().blur(); // what a browser does to a field that turns disabled
+
+    await act(async () => {
+      settle({ ...MISSED, accepted: false });
+    });
+    expect(guessBox().disabled).toBe(false);
+    expect(document.activeElement).toBe(guessBox());
+  });
+
+  it("returns the caret when a lockout lifts", async () => {
+    stubFinePointer();
+    guessAction.mockResolvedValue(MISSED);
+    const update = show();
+
+    await submit("Yahtzee");
+    update({ youLockedOut: true });
+    guessBox().blur();
+
+    update({ clueIndex: 1, revealedClues: ["Round one, clue one", "Round one, clue two"] });
+    expect(document.activeElement).toBe(guessBox());
+  });
+
+  it("lets the host press Enter for the next round", () => {
+    vi.useFakeTimers();
+    const next = vi.mocked(startNextPartyRound).mockResolvedValue(undefined);
+    const resolved = partyState({ status: "resolved", answer: "Cluedo" });
+    render(<PartyRound state={{ ...resolved, youAreHost: true }} playerId="p2" onLeave={() => {}} />);
+
+    vi.advanceTimersByTime(ENTER_ARM_DELAY_MS);
+    fireEvent.keyDown(document.body, { key: "Enter" });
+
+    expect(next).toHaveBeenCalledWith("game-1", "p2");
+  });
+
+  it("gives other players no Enter shortcut on a finished round", () => {
+    vi.useFakeTimers();
+    const next = vi.mocked(startNextPartyRound).mockClear();
+    show({ status: "resolved", answer: "Cluedo" });
+
+    vi.advanceTimersByTime(ENTER_ARM_DELAY_MS);
+    fireEvent.keyDown(document.body, { key: "Enter" });
+
+    expect(next).not.toHaveBeenCalled();
   });
 });

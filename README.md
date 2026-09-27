@@ -19,6 +19,30 @@ a Wordle-style **daily** and a Jackbox-style **party** mode (rooms + realtime).
 **−1 point per wrong guess**, floored at 0. Solve on clue 2 after one miss →
 8 − 1 = 7.
 
+## Keyboard
+
+On a computer with a mouse or trackpad, the game plays from the keyboard
+alone. The answer box has focus when a question opens and gets it back after
+every new clue, so you can start typing straight away.
+
+| Screen | Key | Action |
+|---|---|---|
+| Question | Enter | Lock in your guess |
+| Question | Tab to *Next clue* or *Give up*, then Enter | Skip a clue, or give up |
+| Daily result | Enter | Practice more questions |
+| Practice result | Enter | Next question |
+| Party entry | Enter | Create or join the room |
+| Party lobby (host) | Enter | Start the game |
+| Party round over (host) | Enter | Next round |
+
+Buttons that Enter triggers show a small "↵ Enter" key cap. On phones and
+tablets nothing is focused automatically and the key caps are hidden, because
+focusing the answer box there would open the on-screen keyboard over the
+clues.
+
+A result screen ignores Enter for its first 0.4 seconds. Without that, a
+quick double press on a winning guess would skip straight past the answer.
+
 ## Run it
 
 ```bash

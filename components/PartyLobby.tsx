@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { startPartyGame, type PartyStateDto } from "@/app/party-actions";
+import { EnterHint, useEnterKey } from "./keyboard";
 
 /** Waiting room: room code to share, player list, host start button. */
 export function PartyLobby({
@@ -26,6 +27,9 @@ export function PartyLobby({
       setBusy(false);
     }
   }
+
+  const canStart = state.youAreHost && !busy && state.players.length >= 1;
+  useEnterKey(start, canStart);
 
   return (
     <div className="mx-auto flex w-full max-w-sm flex-1 flex-col gap-6 px-6 py-8">
@@ -65,10 +69,16 @@ export function PartyLobby({
         <button
           type="button"
           className="btn-gold rounded-full py-3 text-base font-bold disabled:cursor-not-allowed"
-          disabled={busy || state.players.length < 1}
+          disabled={!canStart}
           onClick={start}
+          aria-keyshortcuts="Enter"
         >
-          {busy ? "Starting…" : `Start game (${state.totalRounds} rounds)`}
+          {busy ? "Starting…" : (
+            <>
+              Start game ({state.totalRounds} rounds)
+              <EnterHint />
+            </>
+          )}
         </button>
       ) : (
         <p className="text-center text-sm text-lav">Waiting for the host to start…</p>
