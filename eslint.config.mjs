@@ -12,6 +12,9 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Claude Code keeps local git worktrees here. Each one is a full copy of
+    // the repo, build output included. Git ignores them; eslint must too.
+    ".claude/**",
   ]),
 ]);
 
