@@ -133,8 +133,20 @@ const PLAYERS: PartyPlayerDto[] = [
   { id: "p4", name: "Margaret", score: 0, isHost: false },
 ];
 
-function standings(scores: Record<string, number>): PartyStanding[] {
-  return PLAYERS.map((p) => ({ playerId: p.id, name: p.name, score: scores[p.id] ?? 0 }))
+// A full room: 12 is the most players a room takes (MAX_PLAYERS in
+// app/party-actions.ts). The lists are then taller than a phone screen.
+const FULL_ROOM: PartyPlayerDto[] = [
+  ...PLAYERS,
+  ...["Alan", "Barbara", "Dennis", "Edsger", "Frances", "Hedy", "Ken", "Radia"].map((name, i) => ({
+    id: `p${i + 5}`,
+    name,
+    score: 0,
+    isHost: false,
+  })),
+];
+
+function standings(scores: Record<string, number>, players = PLAYERS): PartyStanding[] {
+  return players.map((p) => ({ playerId: p.id, name: p.name, score: scores[p.id] ?? 0 }))
     .sort((a, b) => b.score - a.score)
     .map((s, i) => ({ ...s, rank: i + 1 }));
 }
@@ -199,4 +211,31 @@ export const PARTY_FINISHED: PartyStateDto = {
   players: PLAYERS.map((p) => ({ ...p, score: FINAL_SCORES[p.id as keyof typeof FINAL_SCORES] })),
   round: null,
   standings: standings(FINAL_SCORES),
+};
+
+export const PARTY_LOBBY_FULL: PartyStateDto = {
+  ...PARTY_LOBBY,
+  players: FULL_ROOM,
+  standings: standings({}, FULL_ROOM),
+};
+
+const FULL_ROOM_FINAL_SCORES = {
+  ...FINAL_SCORES,
+  p5: 18,
+  p6: 9,
+  p7: 22,
+  p8: 15,
+  p9: 4,
+  p10: 11,
+  p11: 7,
+  p12: 0,
+};
+
+export const PARTY_FINISHED_FULL: PartyStateDto = {
+  ...PARTY_FINISHED,
+  players: FULL_ROOM.map((p) => ({
+    ...p,
+    score: FULL_ROOM_FINAL_SCORES[p.id as keyof typeof FULL_ROOM_FINAL_SCORES],
+  })),
+  standings: standings(FULL_ROOM_FINAL_SCORES, FULL_ROOM),
 };
