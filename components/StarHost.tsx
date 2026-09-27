@@ -55,12 +55,15 @@ const FACES: Record<StarExpression, React.ReactNode> = {
 export function StarHost({
   expression,
   size = 54,
+  className,
 }: {
   expression: StarExpression;
   size?: number;
+  /** Lets a caller resize it per breakpoint; CSS width/height beat `size`. */
+  className?: string;
 }) {
   return (
-    <svg viewBox="0 0 100 100" width={size} height={size} aria-hidden="true">
+    <svg viewBox="0 0 100 100" width={size} height={size} className={className} aria-hidden="true">
       <path
         d="M50 8 l11 24 26 3 -19 18 5 26 -23 -13 -23 13 5 -26 -19 -18 26 -3z"
         fill="#ffd66e"

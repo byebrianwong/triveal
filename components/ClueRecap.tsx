@@ -23,8 +23,8 @@ export function ClueRecap({ clues, lastClueIndex, wrongGuesses }: ClueRecapProps
   if (shown.length === 0) return null;
 
   return (
-    <section className="mt-7 w-full text-left">
-      <h3 className="mb-2 text-[10.5px] uppercase tracking-[2px] text-lav">
+    <section className="mt-7 w-full text-left lg:mt-8">
+      <h3 className="mb-2 text-[10.5px] uppercase tracking-[2px] text-lav lg:mb-3 lg:text-[12.5px]">
         Clues you saw
         {shown.length < clues.length && (
           <span className="normal-case tracking-normal text-lav-lt">
@@ -33,7 +33,7 @@ export function ClueRecap({ clues, lastClueIndex, wrongGuesses }: ClueRecapProps
           </span>
         )}
       </h3>
-      <div className="flex flex-col gap-2.5">
+      <div className="flex flex-col gap-2.5 lg:gap-3">
         {shown.map((text, i) => (
           <PastClue
             key={i}

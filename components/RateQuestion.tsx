@@ -121,9 +121,9 @@ export function RateQuestion({
   }
 
   return (
-    <div className="mt-4 w-full rounded-2xl border border-purple-line/70 px-3 py-2.5">
+    <div className="mt-4 w-full rounded-2xl border border-purple-line/70 px-3 py-2.5 lg:py-3">
       <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1">
-        <span className="text-[11.5px] text-lav">
+        <span className="text-[11.5px] text-lav lg:text-[14px]">
           {choice ? "Thanks!" : "How was this question?"}
         </span>
         <div className="flex gap-1" role="group" aria-label="Rate this question">
@@ -151,12 +151,12 @@ export function RateQuestion({
           <button
             type="button"
             onClick={() => setNoteOpen(true)}
-            className="rounded px-1 text-[11.5px] text-lav underline decoration-dotted underline-offset-2 hover:text-cream focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+            className="rounded px-1 text-[11.5px] text-lav underline decoration-dotted lg:text-[14px] underline-offset-2 hover:text-cream focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
           >
             Add a note
           </button>
         )}
-        {noteSaved && <span className="text-[11.5px] text-lav-dim">Note saved</span>}
+        {noteSaved && <span className="text-[11.5px] text-lav-dim lg:text-[14px]">Note saved</span>}
       </div>
 
       {noteOpen && (
@@ -172,13 +172,13 @@ export function RateQuestion({
             maxLength={MAX_COMMENT_LENGTH}
             placeholder="Optional — what made it good or bad?"
             autoFocus
-            className="field-dark min-h-[38px] flex-1 rounded-xl px-2.5 py-1.5 text-[12.5px]"
+            className="field-dark min-h-[38px] flex-1 rounded-xl px-2.5 py-1.5 text-[12.5px] lg:text-[14.5px]"
           />
           <button
             type="button"
             onClick={sendNote}
             disabled={busy || !note.trim()}
-            className="btn-gold rounded-xl px-3 py-1.5 text-[12.5px] font-semibold"
+            className="btn-gold rounded-xl px-3 py-1.5 text-[12.5px] font-semibold lg:text-[14.5px]"
           >
             Send
           </button>
@@ -186,7 +186,7 @@ export function RateQuestion({
       )}
 
       {failed && (
-        <p className="mt-1.5 text-center text-[11px] text-lav-dim">
+        <p className="mt-1.5 text-center text-[11px] text-lav-dim lg:text-[13px]">
           Couldn&rsquo;t save that just now.
         </p>
       )}

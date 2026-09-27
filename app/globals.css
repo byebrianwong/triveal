@@ -68,6 +68,16 @@ body {
   transform: rotate(-20deg);
 }
 
+/* The medallion is 1.4× larger on desktop (lg), so its highlight scales too. */
+@media (width >= 64rem) {
+  .medallion-shine {
+    top: 13px;
+    left: 24px;
+    width: 29px;
+    height: 15px;
+  }
+}
+
 .btn-gold {
   background: linear-gradient(180deg, #f6dd9b, #e8b94a);
   color: #27306a;
