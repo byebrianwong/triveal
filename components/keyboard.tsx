@@ -73,7 +73,7 @@ export function EnterHint() {
   return (
     <kbd
       aria-hidden
-      className="ml-2 hidden rounded-md border border-current/35 px-1.5 py-px align-[1px] text-[10.5px] [font-family:inherit] font-medium tracking-wide opacity-70 pointer-fine:inline-block"
+      className="ml-2 hidden rounded-md border border-current/35 px-1.5 py-px align-[1px] text-[10.5px] lg:text-[11.5px] [font-family:inherit] font-medium tracking-wide opacity-70 pointer-fine:inline-block"
     >
       ↵ Enter
     </kbd>

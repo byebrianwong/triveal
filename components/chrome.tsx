@@ -7,7 +7,7 @@ export function StageLoading() {
   return (
     <div className="flex flex-1 flex-col items-center justify-center gap-3 text-lav">
       <StarHost expression="curious" size={64} />
-      <p className="text-sm">Setting the stage…</p>
+      <p className="text-sm lg:text-base">Setting the stage…</p>
     </div>
   );
 }
@@ -15,7 +15,7 @@ export function StageLoading() {
 /** Daily badge: current streak. */
 export function StreakChip({ streak }: { streak: number }) {
   return (
-    <div className="pill-gold flex items-center gap-1 rounded-full px-3 py-1 text-[13px] font-semibold">
+    <div className="pill-gold flex items-center gap-1 rounded-full px-3 py-1 text-[13px] font-semibold lg:px-3.5 lg:py-1.5 lg:text-[15px]">
       <span aria-hidden>🔥</span>
       <span aria-label={`${streak} day streak`}>{streak}</span>
     </div>
@@ -25,8 +25,8 @@ export function StreakChip({ streak }: { streak: number }) {
 /** Practice badge: points banked this session. */
 export function ScoreChip({ score }: { score: number }) {
   return (
-    <div className="pill-gold flex items-center gap-1 rounded-full px-3 py-1 text-[13px] font-semibold">
-      <i className="ti ti-star" aria-hidden />
+    <div className="pill-gold flex items-center gap-1 rounded-full px-3 py-1 text-[13px] font-semibold lg:px-3.5 lg:py-1.5 lg:text-[15px]">
+      <span aria-hidden>★</span>
       <span aria-label={`${score} points this session`}>{score}</span>
     </div>
   );

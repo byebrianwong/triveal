@@ -1,15 +1,38 @@
 import { HomeClient } from "@/components/HomeClient";
 
+/**
+ * Small stars scattered over the open background on desktop. Positions are in
+ * percent of the window so they spread out on any screen size. Phones don't
+ * get these: there, the game fills the screen and the header has its own two.
+ */
+const DESKTOP_STARS = [
+  { left: "7%", top: "22%", size: 10, color: "text-[#cdb9ff]", delay: "0s" },
+  { left: "13%", top: "74%", size: 8, color: "text-pink-lt", delay: "1.4s" },
+  { left: "24%", top: "40%", size: 7, color: "text-gold-lt", delay: "0.6s" },
+  { left: "79%", top: "30%", size: 9, color: "text-gold-lt", delay: "2s" },
+  { left: "91%", top: "58%", size: 11, color: "text-[#cdb9ff]", delay: "0.3s" },
+  { left: "84%", top: "86%", size: 8, color: "text-pink-lt", delay: "1.1s" },
+];
+
 export default function Home() {
   return (
-    <div className="flex flex-1 items-stretch justify-center sm:items-center sm:py-6 lg:px-6">
-      {/*
-        The card takes whatever height the window offers (minus the sm:py-6
-        gutters) up to a cap, rather than a fixed height — so a tall desktop
-        window shows the whole result panel instead of scrolling it inside a
-        short box, and a short window shrinks to fit instead of overflowing.
-      */}
-      <div className="stage relative flex h-dvh w-full max-w-[420px] flex-col overflow-hidden sm:h-[calc(100dvh-3rem)] sm:max-h-[700px] sm:rounded-[26px] sm:border sm:border-[#3a3168] lg:max-h-[900px] lg:max-w-[960px]">
+    // The background fills the whole window at every size. The game sits
+    // straight on it rather than inside a bordered card, so the browser
+    // window is the only frame.
+    <div className="stage relative flex h-dvh w-full flex-col overflow-hidden">
+      <div className="pointer-events-none absolute inset-0 hidden lg:block" aria-hidden>
+        {DESKTOP_STARS.map((s) => (
+          <span
+            key={`${s.left}-${s.top}`}
+            className={`twinkle absolute ${s.color}`}
+            style={{ left: s.left, top: s.top, fontSize: s.size, animationDelay: s.delay }}
+          >
+            ✦
+          </span>
+        ))}
+      </div>
+      {/* Below desktop width the game keeps a phone-width column. */}
+      <div className="relative mx-auto flex min-h-0 w-full max-w-md flex-1 flex-col lg:max-w-none">
         <HomeClient />
       </div>
     </div>

@@ -48,11 +48,11 @@ export function AnswerImage({ questionId }: { questionId: string }) {
           alt={image.alt}
           width={image.width}
           height={image.height}
-          sizes="(max-width: 640px) 80vw, 320px"
-          className="mx-auto h-auto max-h-[168px] w-auto max-w-full rounded-xl border border-purple-line"
+          sizes="(max-width: 640px) 80vw, 400px"
+          className="mx-auto h-auto max-h-[168px] w-auto max-w-full rounded-xl border border-purple-line lg:max-h-[220px]"
         />
       </a>
-      <figcaption className="mt-1.5 text-[10px] leading-tight text-lav-dim">
+      <figcaption className="mt-1.5 text-[10px] leading-tight text-lav-dim lg:text-[11.5px]">
         <a
           href={image.creditUrl}
           target="_blank"
