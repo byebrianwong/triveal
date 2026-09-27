@@ -1,0 +1,27 @@
+/*
+ * In the app, Fredoka comes from next/font, which defines --font-fredoka on
+ * <html> in app/layout.tsx. Stories don't render that layout, so load the same
+ * face from Google Fonts and point the same variable at it. The tokens in
+ * app/globals.css then resolve as they do in the app.
+ */
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap");
+
+:root {
+  --font-fredoka: "Fredoka", system-ui, sans-serif;
+}
+
+/*
+ * Things that make snapshots differ from run to run, switched off only inside
+ * Chromatic so local Storybook still shows them: a blinking caret in a focused
+ * answer box, and CSS transitions (a colour fading in after a click), which
+ * reduced motion doesn't cover because the app only guards its animations.
+ */
+.chromatic,
+.chromatic * {
+  caret-color: transparent !important;
+}
+.chromatic *,
+.chromatic *::before,
+.chromatic *::after {
+  transition: none !important;
+}

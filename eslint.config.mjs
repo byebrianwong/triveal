@@ -15,6 +15,8 @@ const eslintConfig = defineConfig([
     // Claude Code keeps local git worktrees here. Each one is a full copy of
     // the repo, build output included. Git ignores them; eslint must too.
     ".claude/**",
+    // Storybook's build output (`pnpm build-storybook`).
+    "storybook-static/**",
   ]),
 ]);
 

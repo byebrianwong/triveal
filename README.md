@@ -51,6 +51,7 @@ pnpm dev        # http://localhost:3000 — daily mode, zero config
 pnpm test       # vitest unit suite (engine + bank integrity checks)
 pnpm typecheck  # tsc over the whole project, tests included
 pnpm build      # production build
+pnpm storybook  # http://localhost:6006 — every screen and component, no server needed
 ```
 
 With no environment variables the app serves the local question bank —
@@ -294,7 +295,30 @@ pipeline/            offline question bank builder (Kaggle -> Wikipedia ->
                      generate -> verify -> Supabase). See pipeline/README.md.
                      Also the party-room cleanup script (pnpm cleanup-rooms).
 mocks/               design exploration HTML (Starlit stage etc.)
+.storybook/          Storybook config, stand-in server actions, and story fixtures
 ```
+
+## Visual tests (Storybook + Chromatic)
+
+Every screen and component has Storybook stories in `components/*.stories.tsx`.
+The screen stories render the real page; only the server actions (and the
+browser Supabase client) are swapped for stand-ins in `.storybook/mocks/`,
+which return the fixed data in `.storybook/fixtures.ts`. So stories need no
+database, no network and no `.env`.
+
+- **Run locally:** `pnpm storybook`. Each story's play function also checks
+  what's on screen (the Interactions panel shows the result), and the
+  Accessibility panel runs axe.
+- **On every pull request** the Chromatic workflow publishes Storybook and
+  snapshots each story at phone (375×812) and desktop (1440×900) size, with
+  animations off. Changes show up in Chromatic's "UI Tests" check for review.
+  Merges to `main` become the new baseline automatically.
+- **Adding a story:** put it next to the component. For a whole screen, set
+  `parameters: { screen: true }` and wrap it in `StageFrame`. To change what
+  a server action returns, use `mocked(fn).mockResolvedValue(...)` in the
+  story's `beforeEach`; every stand-in is reset before each story.
+- Project: [triveal on Chromatic](https://www.chromatic.com/builds?appId=6ab991a1a33e4f1ebdd2e276).
+  The workflow needs the `CHROMATIC_PROJECT_TOKEN` repository secret.
 
 ## Design
 

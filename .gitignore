@@ -54,3 +54,7 @@ lib/questions/private-bank.json
 
 # keep the example env file tracked
 !.env.example
+
+# storybook
+/storybook-static
+*storybook.log

@@ -9,7 +9,8 @@ import { PartyRound } from "./PartyRound";
 import { usePartyState } from "./usePartyState";
 import { StageLoading } from "./chrome";
 
-const IDENTITY_KEY = "triveal:party";
+// Exported so stories can put a player in a room, as a refresh would.
+export const IDENTITY_KEY = "triveal:party";
 // Key before the Cluedown → Triveal rename, read once as a fallback so the
 // rename doesn't eject players already sitting in a room.
 const LEGACY_IDENTITY_KEY = "cluedown:party";
