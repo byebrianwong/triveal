@@ -18,7 +18,7 @@ import { RATING_COLOR, RATING_LABEL, RatingFace } from "./RatingFace";
 // Remembering the rating client-side is only about not re-asking (and not
 // double-counting) the same finished round — the ratings themselves live
 // server-side.
-const STORE_KEY = "triveal:ratings";
+export const STORE_KEY = "triveal:ratings";
 const REMEMBERED = 50;
 
 interface RememberedRating {

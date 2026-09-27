@@ -9,8 +9,10 @@ import { Game, type GameConfig } from "./Game";
 import { ResultPanel } from "./ResultPanel";
 import { StageLoading, StreakChip } from "./chrome";
 
-const ROUND_KEY = (date: string) => `triveal:round:${date}`;
-const STATS_KEY = "triveal:stats";
+// Exported so stories can load a saved round and stats the same way a
+// returning player's browser would.
+export const ROUND_KEY = (date: string) => `triveal:round:${date}`;
+export const STATS_KEY = "triveal:stats";
 
 // Keys before the Cluedown → Triveal rename. Read once as a fallback so the
 // rename doesn't wipe an existing player's streak or their in-progress round;

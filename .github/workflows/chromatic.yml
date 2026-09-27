@@ -1,0 +1,57 @@
+# Builds Storybook, publishes it to Chromatic, and compares every story
+# against its approved snapshot at phone and desktop sizes. Settings (project,
+# TurboSnap) live in chromatic.config.json; the token is the
+# CHROMATIC_PROJECT_TOKEN repository secret.
+name: Chromatic
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+# Cancel superseded runs on the same ref (e.g. rapid pushes to a PR).
+concurrency:
+  group: chromatic-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  chromatic:
+    name: Visual tests
+    # A pull request from a fork cannot read repository secrets, so the job
+    # would fail on a token it never receives.
+    if: >-
+      github.event_name == 'push' ||
+      github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Chromatic picks its baseline from git history. A shallow clone
+          # leaves it nothing to compare against, so every story reads as new.
+          fetch-depth: 0
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Publish to Chromatic
+        uses: chromaui/action@v18.9.5
+        with:
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          # A visual change is not a failure: this job stays green and
+          # Chromatic's own "UI Tests" check on the pull request stays pending
+          # until someone accepts or denies the change in Chromatic.
+          exitZeroOnChanges: true
+          # Main's snapshots become the baseline without a review, since they
+          # were already reviewed on their pull request.
+          autoAcceptChanges: main
