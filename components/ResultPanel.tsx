@@ -5,7 +5,7 @@ import type { RoundState } from "@/lib/game/roundState";
 import type { PlayerStats } from "@/lib/game/stats";
 import { buildShareText } from "@/lib/game/shareCard";
 import { clueValue } from "@/lib/game/scoring";
-import { AnswerImage } from "./AnswerImage";
+import { AnswerInfo } from "./AnswerInfo";
 import { EnterHint, useEnterKey } from "./keyboard";
 import { RateQuestion } from "./RateQuestion";
 import { StarHost } from "./StarHost";
@@ -90,7 +90,7 @@ export function ResultPanel({
         <div className="mt-4 w-full rounded-2xl border border-purple-line bg-[#2c2456]/60 p-3.5 lg:mt-6 lg:p-5">
           <div className="text-[11px] uppercase tracking-[2px] text-lav lg:text-[12.5px]">The answer was</div>
           <div className="my-1 text-[22px] font-semibold text-gold-lt lg:text-[28px]">{answer}</div>
-          <AnswerImage questionId={questionId} />
+          <AnswerInfo questionId={questionId} />
           {!won && (
             <p className="mt-2.5 text-[12.5px] leading-normal text-lav-lt lg:text-[14.5px]">
               Your clues are below, yours to keep — tomorrow&rsquo;s a fresh one.

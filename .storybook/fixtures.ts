@@ -7,7 +7,7 @@ import type { PartyPlayerDto, PartyRoundDto, PartyStateDto } from "@/app/party-a
 import type { PartyStanding } from "@/lib/game/party";
 import type { RoundState } from "@/lib/game/roundState";
 import type { PlayerStats } from "@/lib/game/stats";
-import type { AnswerImage } from "@/lib/questions/answerImage";
+import type { AnswerInfo } from "@/lib/questions/answerInfo";
 
 // --- Questions ---------------------------------------------------------------
 
@@ -52,27 +52,36 @@ export const DECOYS: Record<string, string[]> = {
 };
 
 // Local drawings stand in for the Wikipedia pictures, so snapshots never
-// depend on a remote image.
-export const ANSWER_IMAGES: Record<string, AnswerImage> = {
+// depend on a remote image. The summaries are written for Storybook at the
+// length Wikipedia's two-sentence intros usually run.
+export const ANSWER_INFO = {
   asteroid: {
-    src: "/storybook-assets/asteroid.svg",
-    width: 640,
-    height: 420,
-    alt: "A grey, cratered asteroid against black space",
     pageUrl: "https://en.wikipedia.org/wiki/Asteroid",
-    credit: "Sample drawing for Storybook · CC0",
-    creditUrl: "https://en.wikipedia.org/wiki/Asteroid",
+    summary:
+      "An asteroid is a small rocky or metallic body that orbits the Sun without the glowing tail of a comet. Most known asteroids travel in the main belt between the orbits of Mars and Jupiter.",
+    image: {
+      src: "/storybook-assets/asteroid.svg",
+      width: 640,
+      height: 420,
+      alt: "A grey, cratered asteroid against black space",
+      credit: "Sample drawing for Storybook · CC0",
+      creditUrl: "https://en.wikipedia.org/wiki/Asteroid",
+    },
   },
   octopus: {
-    src: "/storybook-assets/octopus.svg",
-    width: 640,
-    height: 420,
-    alt: "A purple octopus with curled arms",
     pageUrl: "https://en.wikipedia.org/wiki/Octopus",
-    credit: "Sample drawing for Storybook · CC0",
-    creditUrl: "https://en.wikipedia.org/wiki/Octopus",
+    summary:
+      "An octopus is a soft-bodied mollusc with eight arms and no internal shell. About 300 species are known, and their closest relatives are squids and cuttlefish.",
+    image: {
+      src: "/storybook-assets/octopus.svg",
+      width: 640,
+      height: 420,
+      alt: "A purple octopus with curled arms",
+      credit: "Sample drawing for Storybook · CC0",
+      creditUrl: "https://en.wikipedia.org/wiki/Octopus",
+    },
   },
-};
+} satisfies Record<string, AnswerInfo>;
 
 // --- Daily rounds and stats --------------------------------------------------
 

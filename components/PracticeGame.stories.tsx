@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import { expect, fn, waitFor } from "storybook/test";
-import { ANSWER_IMAGES, PRACTICE_PUZZLE } from "../.storybook/fixtures";
+import { ANSWER_INFO, PRACTICE_PUZZLE } from "../.storybook/fixtures";
 import { PracticeGame } from "./PracticeGame";
 import { StageFrame } from "./StageFrame";
 
@@ -39,7 +39,7 @@ export const Solved: Story = {
     const box = await canvas.findByRole("textbox", { name: "Your answer" });
     await userEvent.type(box, "Octopus{Enter}");
     await canvas.findByRole("heading", { name: "Correct!" });
-    await canvas.findByRole("img", { name: ANSWER_IMAGES.octopus.alt });
+    await canvas.findByRole("img", { name: ANSWER_INFO.octopus.image.alt });
     await expect(canvas.getByLabelText("10 points this session")).toBeVisible();
   },
 };
@@ -48,6 +48,6 @@ export const GaveUp: Story = {
   play: async ({ canvas, userEvent }) => {
     await userEvent.click(await canvas.findByRole("button", { name: "Give up" }));
     await canvas.findByRole("heading", { name: "Out of clues" });
-    await canvas.findByRole("img", { name: ANSWER_IMAGES.octopus.alt });
+    await canvas.findByRole("img", { name: ANSWER_INFO.octopus.image.alt });
   },
 };

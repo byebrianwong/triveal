@@ -8,8 +8,8 @@
 import { matchGuess } from "@/lib/game/answerMatch";
 import { dailyNumber } from "@/lib/game/daily";
 import type { Difficulty, Question } from "@/lib/game/types";
-import type { AnswerImage } from "@/lib/questions/answerImage";
-import { getAnswerImage } from "@/lib/questions/answerImageSource";
+import type { AnswerInfo } from "@/lib/questions/answerInfo";
+import { getAnswerInfo } from "@/lib/questions/answerInfoSource";
 import { getDailyQuestion, getQuestionById, getRandomQuestion } from "@/lib/questions/source";
 import { saveRating, updateRating } from "@/lib/ratings/store";
 import {
@@ -91,14 +91,14 @@ export async function revealAnswer(questionId: string): Promise<RevealDto> {
 }
 
 /**
- * The picture that goes with a revealed answer. Deliberately a second round
- * trip: it hits Wikipedia on a cold cache, and the result panel should never
- * wait on that. `null` whenever there is no freely-licensed picture.
+ * The picture and short summary that go with a revealed answer. Deliberately
+ * a second round trip: it hits Wikipedia on a cold cache, and the result
+ * panel should never wait on that. `null` when Wikipedia has neither.
  */
-export async function fetchAnswerImage(questionId: string): Promise<AnswerImage | null> {
+export async function fetchAnswerInfo(questionId: string): Promise<AnswerInfo | null> {
   const question = await getQuestionById(questionId);
   if (!question) return null;
-  return getAnswerImage(question);
+  return getAnswerInfo(question);
 }
 
 export interface RateQuestionInput {

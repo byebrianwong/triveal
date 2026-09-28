@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import { fn } from "storybook/test";
-import { ANSWER_IMAGES, PRACTICE_PUZZLE, ROUND_LOST, ROUND_WON } from "../.storybook/fixtures";
+import { ANSWER_INFO, PRACTICE_PUZZLE, ROUND_LOST, ROUND_WON } from "../.storybook/fixtures";
 import { PracticeResult } from "./PracticeResult";
 
 /** Practice's finished-round panel, with the running session totals. */
@@ -25,7 +25,7 @@ const meta = {
     ),
   ],
   play: async ({ canvas }) => {
-    await canvas.findByRole("img", { name: ANSWER_IMAGES.octopus.alt });
+    await canvas.findByRole("img", { name: ANSWER_INFO.octopus.image.alt });
   },
 } satisfies Meta<typeof PracticeResult>;
 

@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import { mocked, fn } from "storybook/test";
-import { fetchAnswerImage } from "@/app/actions";
-import { ANSWER_IMAGES, DAILY_PUZZLE, ROUND_LOST, ROUND_WON, STATS } from "../.storybook/fixtures";
+import { fetchAnswerInfo } from "@/app/actions";
+import { ANSWER_INFO, DAILY_PUZZLE, ROUND_LOST, ROUND_WON, STATS } from "../.storybook/fixtures";
 import { ResultPanel } from "./ResultPanel";
 
 /**
@@ -34,7 +34,7 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 const waitForPicture: Story["play"] = async ({ canvas }) => {
-  await canvas.findByRole("img", { name: ANSWER_IMAGES.asteroid.alt });
+  await canvas.findByRole("img", { name: ANSWER_INFO.asteroid.image.alt });
 };
 
 /** Solved on clue 2 after a miss: the score breakdown line shows. */
@@ -53,13 +53,13 @@ export const OutOfClues: Story = {
   play: waitForPicture,
 };
 
-/** First game ever, and an answer with no picture to show. */
+/** First game ever, and an answer Wikipedia has nothing on. */
 export const FirstGameNoPicture: Story = {
   args: {
     round: ROUND_LOST,
     stats: { ...STATS, gamesPlayed: 1, wins: 0, currentStreak: 0, maxStreak: 0, solveDistribution: [0, 0, 0, 0, 0] },
   },
   beforeEach() {
-    mocked(fetchAnswerImage).mockResolvedValue(null);
+    mocked(fetchAnswerInfo).mockResolvedValue(null);
   },
 };

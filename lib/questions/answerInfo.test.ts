@@ -3,8 +3,11 @@ import { normalizeAnswer } from "@/lib/game/answerMatch";
 import type { Question } from "@/lib/game/types";
 import {
   ANSWER_PAGE_TITLES,
-  answerImageKey,
+  CREDIT_AUTHOR_MAX_LENGTH,
+  SUMMARY_MAX_LENGTH,
+  answerInfoKey,
   articleUrl,
+  cleanSummary,
   commonsFileUrl,
   formatCredit,
   isCommonsFile,
@@ -13,7 +16,7 @@ import {
   searchQueryFor,
   stripThumbQuery,
   titleMatchesAnswer,
-} from "./answerImage";
+} from "./answerInfo";
 import { SEED_QUESTIONS } from "./seed";
 import { EXTRA_QUESTIONS } from "./extraBank";
 
@@ -31,7 +34,7 @@ function question(over: Partial<Question> = {}): Question {
   };
 }
 
-describe("answer image titles", () => {
+describe("answer article titles", () => {
   it("uses the answer itself when nothing overrides it", () => {
     expect(pageTitleFor(question())).toBe("Salt");
   });
@@ -57,13 +60,13 @@ describe("answer image titles", () => {
     for (const key of Object.keys(ANSWER_PAGE_TITLES)) {
       expect(normalizeAnswer(key), `override key "${key}" is not normalized`).toBe(key);
     }
-    expect(answerImageKey(question({ answer: "The Hulk", answerCanonical: "the hulk" }))).toBe(
+    expect(answerInfoKey(question({ answer: "The Hulk", answerCanonical: "the hulk" }))).toBe(
       "hulk",
     );
   });
 
   it("only overrides answers that are actually in the committed bank", () => {
-    const keys = new Set([...SEED_QUESTIONS, ...EXTRA_QUESTIONS].map(answerImageKey));
+    const keys = new Set([...SEED_QUESTIONS, ...EXTRA_QUESTIONS].map(answerInfoKey));
     for (const key of Object.keys(ANSWER_PAGE_TITLES)) {
       expect(keys.has(key), `override "${key}" matches no question`).toBe(true);
     }
@@ -104,9 +107,13 @@ describe("titleMatchesAnswer", () => {
 });
 
 describe("licensing guard", () => {
-  it("accepts Commons files", () => {
+  it("accepts Commons files from either Wikimedia file host", () => {
     expect(
       isCommonsFile("https://upload.wikimedia.org/wikipedia/commons/thumb/a/b/Salt.jpg/640px-Salt.jpg"),
+    ).toBe(true);
+    // Scaled thumbnails moved here; originals still come from upload.
+    expect(
+      isCommonsFile("https://thumb.wikimedia.org/wikipedia/commons/thumb/a/b/Salt.jpg/960px-Salt.jpg"),
     ).toBe(true);
   });
 
@@ -123,6 +130,7 @@ describe("licensing guard", () => {
 
   it("rejects Wikipedia's own (largely non-free) uploads and anything else", () => {
     expect(isCommonsFile("https://upload.wikimedia.org/wikipedia/en/2/2f/Poster.jpg")).toBe(false);
+    expect(isCommonsFile("https://thumb.wikimedia.org/wikipedia/en/2/2f/Poster.jpg")).toBe(false);
     expect(isCommonsFile("https://example.com/wikipedia/commons/a/b/Salt.jpg")).toBe(false);
     expect(isCommonsFile("http://upload.wikimedia.org/wikipedia/commons/a/b/Salt.jpg")).toBe(false);
     expect(isCommonsFile("not a url")).toBe(false);
@@ -130,9 +138,11 @@ describe("licensing guard", () => {
 });
 
 describe("credit line", () => {
-  it("strips the markup Wikipedia returns and truncates long authors", () => {
+  it("strips the markup Wikipedia returns and truncates only runaway authors", () => {
     expect(plainText('<a href="/wiki/User:X" title="X">Jane&nbsp;Doe</a>')).toBe("Jane Doe");
-    expect(plainText("A".repeat(80))).toHaveLength(44);
+    const screenshot = 'Screenshot from "Internet Archive" of the movie Dracula (1931)';
+    expect(plainText(screenshot)).toBe(screenshot);
+    expect(plainText("A".repeat(400))).toHaveLength(CREDIT_AUTHOR_MAX_LENGTH);
   });
 
   it("names the author and license, always crediting Commons", () => {
@@ -140,6 +150,42 @@ describe("credit line", () => {
       "Jane Doe · CC BY-SA 4.0 · Wikimedia Commons",
     );
     expect(formatCredit({})).toBe("Wikimedia Commons");
+  });
+});
+
+describe("summary", () => {
+  it("drops the empty brackets plain-text extracts leave behind", () => {
+    expect(
+      cleanSummary(
+        "Count Dracula () is a fictional character and title antagonist of Bram Stoker's gothic horror novel Dracula (1897).",
+      ),
+    ).toBe(
+      "Count Dracula is a fictional character and title antagonist of Bram Stoker's gothic horror novel Dracula (1897).",
+    );
+    expect(
+      cleanSummary(
+        "An octopus (pl.: octopuses or octopodes) is a soft-bodied, eight-limbed mollusc of the order Octopoda (, ok-TOP-ə-də).",
+      ),
+    ).toBe(
+      "An octopus (pl.: octopuses or octopodes) is a soft-bodied, eight-limbed mollusc of the order Octopoda (ok-TOP-ə-də).",
+    );
+    expect(cleanSummary("Beyoncé Knowles-Carter ( ; born September 4, 1981) is a singer.")).toBe(
+      "Beyoncé Knowles-Carter (born September 4, 1981) is a singer.",
+    );
+  });
+
+  it("leaves ordinary text alone", () => {
+    const mercury =
+      "Mercury is the first planet from the Sun and the smallest in the Solar System. It is a rocky planet with a trace atmosphere.";
+    expect(cleanSummary(mercury)).toBe(mercury);
+    expect(cleanSummary("  \n ")).toBe("");
+  });
+
+  it("cuts a runaway intro at a word", () => {
+    const long = `${"word ".repeat(100)}end.`;
+    const summary = cleanSummary(long);
+    expect(summary.length).toBeLessThanOrEqual(SUMMARY_MAX_LENGTH);
+    expect(summary).toMatch(/ word…$/);
   });
 });
 

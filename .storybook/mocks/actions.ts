@@ -2,12 +2,14 @@
 //
 // Each export is a spy with a sensible default, so a story that says nothing
 // gets a working game: the daily and practice puzzles load, the right answer
-// is accepted, and a picture comes back. A story changes one behaviour with
-// `mocked(checkGuess).mockResolvedValue(...)` in its `beforeEach`.
+// is accepted, and a picture and summary come back. A story changes one
+// behaviour with `mocked(checkGuess).mockResolvedValue(...)` in its
+// `beforeEach`.
 
 import { fn, type Mock } from "storybook/test";
 import type * as real from "@/app/actions";
-import { ANSWERS, ANSWER_IMAGES, DAILY_PUZZLE, DECOYS, PRACTICE_PUZZLE } from "../fixtures";
+import type { AnswerInfo } from "@/lib/questions/answerInfo";
+import { ANSWERS, ANSWER_INFO, DAILY_PUZZLE, DECOYS, PRACTICE_PUZZLE } from "../fixtures";
 
 type Actions = typeof real;
 
@@ -23,7 +25,8 @@ const defaults: Actions = {
     return { correct: false, kind: decoy ? "decoy" : "none", close: false };
   },
   revealAnswer: async (questionId) => ({ answer: ANSWERS[questionId] ?? "Unknown" }),
-  fetchAnswerImage: async (questionId) => ANSWER_IMAGES[questionId] ?? null,
+  fetchAnswerInfo: async (questionId) =>
+    (ANSWER_INFO as Record<string, AnswerInfo>)[questionId] ?? null,
   rateQuestion: async () => ({ ratingId: "rating-1" }),
   commentOnRating: async () => true,
 };
@@ -32,7 +35,7 @@ export const fetchDailyPuzzle = fn(defaults.fetchDailyPuzzle).mockName("fetchDai
 export const fetchPracticePuzzle = fn(defaults.fetchPracticePuzzle).mockName("fetchPracticePuzzle");
 export const checkGuess = fn(defaults.checkGuess).mockName("checkGuess");
 export const revealAnswer = fn(defaults.revealAnswer).mockName("revealAnswer");
-export const fetchAnswerImage = fn(defaults.fetchAnswerImage).mockName("fetchAnswerImage");
+export const fetchAnswerInfo = fn(defaults.fetchAnswerInfo).mockName("fetchAnswerInfo");
 export const rateQuestion = fn(defaults.rateQuestion).mockName("rateQuestion");
 export const commentOnRating = fn(defaults.commentOnRating).mockName("commentOnRating");
 
@@ -47,7 +50,7 @@ export function resetActionMocks() {
   restore(fetchPracticePuzzle, defaults.fetchPracticePuzzle);
   restore(checkGuess, defaults.checkGuess);
   restore(revealAnswer, defaults.revealAnswer);
-  restore(fetchAnswerImage, defaults.fetchAnswerImage);
+  restore(fetchAnswerInfo, defaults.fetchAnswerInfo);
   restore(rateQuestion, defaults.rateQuestion);
   restore(commentOnRating, defaults.commentOnRating);
 }

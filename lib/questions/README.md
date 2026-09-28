@@ -95,12 +95,13 @@ lexically distant from the answer **and from every alias**.
   Cities as one group. A lopsided bank makes that steering worse, so prefer
   feeding thin categories over the already-fat ones.
 
-## Answer pictures
+## Answer pictures and summaries
 
-Artwork is Wikipedia's lead image for the answer's article, resolved from
-the answer text itself. When the bare answer is a disambiguation page or a
+The picture and summary shown after a round are Wikipedia's lead image and
+opening sentences for the answer's article, resolved from the answer text
+itself. When the bare answer is a disambiguation page or a
 different subject ("Casablanca" the city, "Dune" the sand formation), add an
-override to `ANSWER_PAGE_TITLES` in `answerImage.ts`, keyed by the
+override to `ANSWER_PAGE_TITLES` in `answerInfo.ts`, keyed by the
 normalized answer. A test asserts every override key matches a real bank
 question, so don't leave stale ones behind.
 

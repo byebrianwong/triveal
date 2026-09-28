@@ -91,12 +91,14 @@ Flags:
   rows). It matches on `answer_canonical`, so changing the answer text itself
   reads as a new question rather than an edit, and it never deletes questions.
 
-## Answer pictures
+## Answer pictures and summaries
 
-When a round ends, the revealed answer gets a picture beside it — a salt
-shaker for "Salt", an octopus for "Octopus". It is Wikipedia's lead image for
-the answer's article, fetched after the reveal (so nothing in the round waits
-on it) and cached for a month. No API key, no configuration.
+When a round ends, the revealed answer gets a picture beside it (a salt
+shaker for "Salt", an octopus for "Octopus") and the first two sentences of
+its Wikipedia article, with a link to read the rest. The picture is the
+article's lead image. Both come from one API request, fetched after the
+reveal (so nothing in the round waits on it) and cached for a month. No API
+key, no configuration.
 
 Two rules keep it honest:
 
@@ -110,13 +112,15 @@ Two rules keep it honest:
   accepted when the article title *is* the answer — a confidently wrong picture
   is worse than no picture. Answers whose plain name means something else
   ("Apple", "Queen", "Mercury") are pinned to the right article in
-  `ANSWER_PAGE_TITLES` (`lib/questions/answerImage.ts`); add to that short list
+  `ANSWER_PAGE_TITLES` (`lib/questions/answerInfo.ts`); add to that short list
   when a new question needs it. Questions coming from Supabase use their
   `wikipedia_title` column when it is set.
 
 Every picture carries its author and license and links to the Commons file
-page. Anything that fails — no article, no free image, Wikipedia unreachable,
-slow response — just renders no picture at all.
+page. The summary is marked as Wikipedia text under CC BY-SA 4.0 and links
+to the article. An answer whose only picture is non-free still gets its
+summary. If anything else fails (no article, Wikipedia unreachable, a slow
+response), neither is shown.
 
 ## Rating questions
 
@@ -282,11 +286,11 @@ set null` (it blocked deleting an individual player who had won a round).
 app/                 Next.js App Router; server actions keep answers server-side.
                      app/ratings is the private question-review page.
 components/          DailyGame, ClueStack, ClueRecap, Medallion, StarHost, ResultPanel,
-                     AnswerImage, RateQuestion
+                     AnswerInfo, RateQuestion
 lib/game/            pure game logic (no React/Supabase) — scoring, matching,
                      round state, streaks, share card. Portable to RN later.
 lib/questions/       public samples + gitignored private bank + data source
-                     (env-gated Supabase fallback) + answer-picture lookup
+                     (env-gated Supabase fallback) + answer picture/summary lookup
 lib/ratings/         question feedback: types, pure roll-up, and the store
                      (Supabase, or a local JSON file with zero config)
 lib/supabase/        server-side (service role) + browser (anon realtime) clients
@@ -335,8 +339,9 @@ wrong guesses; the answer box never leaves the screen.
   reduced-motion support
 - ✅ Question engine: matching (aliases, typo tolerance, decoy rejection),
   scoring, round state — 35 unit tests
-- ✅ Answer pictures: freely-licensed Wikimedia Commons art on every reveal
-  (daily, practice and party), credited and degrading to nothing
+- ✅ Answer pictures and summaries: freely-licensed Wikimedia Commons art and
+  the article's opening lines on every reveal (daily, practice and party),
+  credited and degrading to nothing
 - ✅ Question ratings: three faces + an optional note after each round,
   reviewed worst-first at `/ratings` (see "Rating questions")
 - ✅ Supabase schema + env-gated data layer (seed fallback with zero config)

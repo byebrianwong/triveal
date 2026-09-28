@@ -8,7 +8,7 @@ import {
   type PartyStateDto,
 } from "@/app/party-actions";
 import { clueValue } from "@/lib/game/scoring";
-import { AnswerImage } from "./AnswerImage";
+import { AnswerInfo } from "./AnswerInfo";
 import { ScrollScreen } from "./chrome";
 import { EnterHint, focusForTyping, useEnterKey } from "./keyboard";
 
@@ -168,7 +168,7 @@ function RoundView({ state, playerId, onLeave }: PartyRoundProps) {
               <p className="mt-1 text-sm text-lav">
                 Answer: <span className="font-semibold text-cream">{round.answer}</span>
               </p>
-              {round.questionId && <AnswerImage questionId={round.questionId} />}
+              {round.questionId && <AnswerInfo questionId={round.questionId} />}
             </>
           )}
         </div>

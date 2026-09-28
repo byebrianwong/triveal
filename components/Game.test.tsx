@@ -19,12 +19,12 @@ import { PracticeResult } from "./PracticeResult";
 vi.mock("@/app/actions", () => ({
   checkGuess: vi.fn(),
   revealAnswer: vi.fn(),
-  fetchAnswerImage: vi.fn(),
+  fetchAnswerInfo: vi.fn(),
   rateQuestion: vi.fn(),
   commentOnRating: vi.fn(),
 }));
 
-import { checkGuess, fetchAnswerImage, revealAnswer } from "@/app/actions";
+import { checkGuess, fetchAnswerInfo, revealAnswer } from "@/app/actions";
 
 const PUZZLE: PuzzleDto = {
   questionId: "salt",
@@ -59,7 +59,7 @@ beforeEach(() => {
   Element.prototype.scrollTo = () => {};
   vi.mocked(checkGuess).mockReset();
   vi.mocked(revealAnswer).mockResolvedValue({ answer: "Salt" });
-  vi.mocked(fetchAnswerImage).mockResolvedValue(null);
+  vi.mocked(fetchAnswerInfo).mockResolvedValue(null);
 });
 
 afterEach(() => {

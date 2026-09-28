@@ -23,7 +23,7 @@ vi.mock("@/app/party-actions", () => ({
 
 // The answer picture fetches through the main actions module.
 vi.mock("@/app/actions", () => ({
-  fetchAnswerImage: vi.fn().mockResolvedValue(null),
+  fetchAnswerInfo: vi.fn().mockResolvedValue(null),
 }));
 
 import { startNextPartyRound, submitPartyGuess } from "@/app/party-actions";
