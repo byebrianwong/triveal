@@ -4,7 +4,7 @@ import { getPartyState } from "@/app/party-actions";
 import type { PartyStateDto } from "@/app/party-actions";
 import { partyRealtimeConfigured } from "@/lib/supabase/browserClient";
 import {
-  ANSWER_IMAGES,
+  ANSWER_INFO,
   PARTY_FINISHED,
   PARTY_FINISHED_FULL,
   PARTY_IDENTITY_GUEST,
@@ -146,7 +146,7 @@ export const RoundResolved: Story = {
   },
   play: async ({ canvas, canvasElement }) => {
     await canvas.findByText("won this round!", { exact: false });
-    await canvas.findByRole("img", { name: ANSWER_IMAGES.octopus.alt });
+    await canvas.findByRole("img", { name: ANSWER_INFO.octopus.image.alt });
     await expect(canvas.getByRole("button", { name: /Next round/ })).toBeVisible();
     // Three clues, the picture and the scores are taller than both sizes
     // Chromatic captures.

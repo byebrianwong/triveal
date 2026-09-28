@@ -1,11 +1,11 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import { expect, mocked, waitFor } from "storybook/test";
-import { checkGuess, fetchAnswerImage, fetchDailyPuzzle } from "@/app/actions";
+import { checkGuess, fetchAnswerInfo, fetchDailyPuzzle } from "@/app/actions";
 import Home from "@/app/page";
 import { localDateString } from "@/lib/game/daily";
 import type { RoundState } from "@/lib/game/roundState";
 import {
-  ANSWER_IMAGES,
+  ANSWER_INFO,
   DAILY_PUZZLE,
   ROUND_LAST_CLUE,
   ROUND_LOST,
@@ -84,19 +84,20 @@ export const Solved: Story = {
   },
   play: async ({ canvas }) => {
     await canvas.findByRole("heading", { name: "Correct!" });
-    await canvas.findByRole("img", { name: ANSWER_IMAGES.asteroid.alt });
+    await canvas.findByRole("img", { name: ANSWER_INFO.asteroid.image.alt });
     await expect(canvas.getByText("Clues you saw")).toBeVisible();
   },
 };
 
-/** Out of clues, and the answer has no freely licensed picture. */
+/** Out of clues, and the answer has no freely licensed picture: summary only. */
 export const OutOfClues: Story = {
   beforeEach() {
     seedToday(ROUND_LOST);
-    mocked(fetchAnswerImage).mockResolvedValue(null);
+    mocked(fetchAnswerInfo).mockResolvedValue({ ...ANSWER_INFO.asteroid, image: null });
   },
   play: async ({ canvas }) => {
     await canvas.findByRole("heading", { name: "Out of clues" });
     await canvas.findByText("Asteroid");
+    await canvas.findByText(ANSWER_INFO.asteroid.summary);
   },
 };
