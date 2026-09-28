@@ -26,7 +26,7 @@ export function Medallion({ value, penalty }: { value: number; penalty: number }
         <span className="text-[8px] uppercase tracking-[1.5px] lg:mt-0.5 lg:text-[10.5px]">points</span>
       </div>
       {penalty > 0 && (
-        <div className="absolute -right-2 -top-1.5 rounded-full border-2 border-[#221b40] bg-pink px-2 py-px text-xs font-semibold text-white lg:-right-1 lg:px-2.5 lg:text-sm">
+        <div className="absolute -right-2 -top-1.5 rounded-full border-2 border-[#221b40] bg-pink-dk px-2 py-px text-xs font-semibold text-white lg:-right-1 lg:px-2.5 lg:text-sm">
           −{penalty}
         </div>
       )}
