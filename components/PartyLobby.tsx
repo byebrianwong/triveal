@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { startPartyGame, type PartyStateDto } from "@/app/party-actions";
+import { ScrollScreen } from "./chrome";
 import { EnterHint, useEnterKey } from "./keyboard";
 
 /** Waiting room: room code to share, player list, host start button. */
@@ -32,7 +33,8 @@ export function PartyLobby({
   useEnterKey(start, canStart);
 
   return (
-    <div className="mx-auto flex w-full max-w-sm flex-1 flex-col gap-6 px-6 py-8">
+    // A room holds up to 12 players, and that list doesn't fit a phone screen.
+    <ScrollScreen className="flex max-w-sm flex-col gap-6 px-6 py-8">
       <div className="text-center">
         <p className="text-sm text-lav">Room code</p>
         <p className="text-4xl font-bold tracking-[0.4em] text-gold">{state.roomCode}</p>
@@ -87,6 +89,6 @@ export function PartyLobby({
       <button type="button" className="text-center text-sm text-lav underline" onClick={onLeave}>
         Leave room
       </button>
-    </div>
+    </ScrollScreen>
   );
 }

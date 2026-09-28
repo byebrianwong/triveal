@@ -9,6 +9,7 @@ import {
 } from "@/app/party-actions";
 import { clueValue } from "@/lib/game/scoring";
 import { AnswerImage } from "./AnswerImage";
+import { ScrollScreen } from "./chrome";
 import { EnterHint, focusForTyping, useEnterKey } from "./keyboard";
 
 /** Live scoreboard, sorted, with the current player highlighted. */
@@ -126,7 +127,9 @@ function RoundView({ state, playerId, onLeave }: PartyRoundProps) {
   useEnterKey(hostNext, state.youAreHost && resolved && !busy);
 
   return (
-    <div className="mx-auto flex w-full max-w-md flex-1 flex-col gap-4 px-5 py-6">
+    // Three clues, the answer picture and the scoreboard are taller than a
+    // phone screen, and than many desktop windows, so the round scrolls.
+    <ScrollScreen className="flex max-w-md flex-col gap-4 px-5 py-6">
       <div className="flex items-center justify-between text-sm text-lav">
         <span>
           Round {round.roundNumber} / {state.totalRounds}
@@ -248,6 +251,6 @@ function RoundView({ state, playerId, onLeave }: PartyRoundProps) {
       <button type="button" className="text-center text-xs text-lav underline" onClick={onLeave}>
         Leave game
       </button>
-    </div>
+    </ScrollScreen>
   );
 }

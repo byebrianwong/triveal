@@ -6,9 +6,11 @@ import { partyRealtimeConfigured } from "@/lib/supabase/browserClient";
 import {
   ANSWER_IMAGES,
   PARTY_FINISHED,
+  PARTY_FINISHED_FULL,
   PARTY_IDENTITY_GUEST,
   PARTY_IDENTITY_HOST,
   PARTY_LOBBY,
+  PARTY_LOBBY_FULL,
   PARTY_ROUND_IN_PLAY,
   PARTY_ROUND_RESOLVED,
   PRACTICE_PUZZLE,
@@ -42,6 +44,16 @@ type Story = StoryObj<typeof meta>;
 function inRoom(identity: { gameId: string; playerId: string }, state: PartyStateDto) {
   localStorage.setItem(IDENTITY_KEY, JSON.stringify(identity));
   mocked(getPartyState).mockResolvedValue(state);
+}
+
+/**
+ * Fail if the screen is taller than the page frame. The frame hides whatever
+ * spills out of it, where nobody can scroll to it, so a tall screen has to
+ * scroll inside the frame instead.
+ */
+async function expectNothingCutOff(canvasElement: HTMLElement) {
+  const frame = canvasElement.querySelector<HTMLElement>(".stage")!;
+  await expect(frame.scrollHeight).toBeLessThanOrEqual(frame.clientHeight);
 }
 
 /** A deployment without Supabase keys. */
@@ -78,6 +90,17 @@ export const LobbyAsHost: Story = {
   play: async ({ canvas }) => {
     await canvas.findByText("QZRT");
     await expect(canvas.getByRole("button", { name: /Start game/ })).toBeEnabled();
+  },
+};
+
+/** Twelve players, the most a room takes. On a phone the list scrolls. */
+export const LobbyFullRoom: Story = {
+  beforeEach() {
+    inRoom(PARTY_IDENTITY_HOST, PARTY_LOBBY_FULL);
+  },
+  play: async ({ canvas, canvasElement }) => {
+    await canvas.findByText("Players (12)");
+    await expectNothingCutOff(canvasElement);
   },
 };
 
@@ -121,10 +144,13 @@ export const RoundResolved: Story = {
   beforeEach() {
     inRoom(PARTY_IDENTITY_HOST, PARTY_ROUND_RESOLVED);
   },
-  play: async ({ canvas }) => {
+  play: async ({ canvas, canvasElement }) => {
     await canvas.findByText("won this round!", { exact: false });
     await canvas.findByRole("img", { name: ANSWER_IMAGES.octopus.alt });
     await expect(canvas.getByRole("button", { name: /Next round/ })).toBeVisible();
+    // Three clues, the picture and the scores are taller than both sizes
+    // Chromatic captures.
+    await expectNothingCutOff(canvasElement);
   },
 };
 
@@ -134,6 +160,17 @@ export const FinalResults: Story = {
   },
   play: async ({ canvas }) => {
     await canvas.findByText("🥇 Grace wins!");
+  },
+};
+
+/** Twelve players' standings. On a phone they scroll instead of centring. */
+export const FinalResultsFullRoom: Story = {
+  beforeEach() {
+    inRoom(PARTY_IDENTITY_HOST, PARTY_FINISHED_FULL);
+  },
+  play: async ({ canvas, canvasElement }) => {
+    await canvas.findByText("🥇 Grace wins!");
+    await expectNothingCutOff(canvasElement);
   },
 };
 

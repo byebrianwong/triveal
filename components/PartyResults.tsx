@@ -1,6 +1,7 @@
 "use client";
 
 import type { PartyStateDto } from "@/app/party-actions";
+import { ScrollScreen } from "./chrome";
 
 /** Final standings after the last round. */
 export function PartyResults({
@@ -14,7 +15,9 @@ export function PartyResults({
   const medals = ["🥇", "🥈", "🥉"];
 
   return (
-    <div className="mx-auto flex w-full max-w-sm flex-1 flex-col justify-center gap-6 px-6 py-8">
+    // With a full room of 12 the standings don't fit a phone screen, so they
+    // scroll. With a few players they stay centred.
+    <ScrollScreen center className="flex max-w-sm flex-col gap-6 px-6 py-8">
       <div className="text-center">
         <p className="text-sm text-lav">Game over</p>
         {winner && (
@@ -46,6 +49,6 @@ export function PartyResults({
       >
         Back to daily
       </button>
-    </div>
+    </ScrollScreen>
   );
 }
