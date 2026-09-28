@@ -76,9 +76,18 @@ export function ClueStack({ clues, clueIndex, wrongGuesses }: ClueStackProps) {
     // fills the space between header and input, and on desktop it is only as
     // tall as its clues, shrinking and scrolling once the window runs short.
     <div className="relative flex min-h-0 flex-1 flex-col lg:flex-initial">
+      {/*
+        tabIndex lets keyboard users focus the list and scroll it with the
+        arrow keys; it holds no buttons or links that could take focus
+        instead. It is never focused by code, so the answer box still gets
+        the caret after each clue.
+      */}
       <div
         ref={scrollRef}
-        className="scroll-thin flex min-h-0 flex-1 flex-col gap-2.5 overflow-y-auto px-0.5 py-2 lg:flex-initial lg:gap-3 lg:py-3.5"
+        role="region"
+        aria-label="Clues"
+        tabIndex={0}
+        className="scroll-thin flex min-h-0 flex-1 flex-col gap-2.5 overflow-y-auto px-0.5 py-2 focus-visible:rounded-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold lg:flex-initial lg:gap-3 lg:py-3.5"
       >
         {clues.slice(0, clueIndex + 1).map((text, i) =>
           i === clueIndex ? (

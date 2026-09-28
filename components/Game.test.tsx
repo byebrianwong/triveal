@@ -103,6 +103,22 @@ describe("Game keyboard play", () => {
     expect(document.activeElement).toBe(answerBox());
   });
 
+  it("lets the clue list take keyboard focus without keeping it on a new clue", () => {
+    stubPointer("fine");
+    render(<Game puzzle={PUZZLE} config={CONFIG} />);
+
+    // Focusable so a keyboard player can scroll it; the answer box keeps the caret.
+    const clues = screen.getByRole("region", { name: "Clues" });
+    expect(clues.tabIndex).toBe(0);
+    expect(document.activeElement).toBe(answerBox());
+
+    clues.focus();
+    fireEvent.click(screen.getByRole("button", { name: /Next clue/ }));
+
+    expect(screen.getByText("Clue two")).toBeTruthy();
+    expect(document.activeElement).toBe(answerBox());
+  });
+
   it("does not grab focus on a touchscreen", () => {
     stubPointer("coarse");
     render(<Game puzzle={PUZZLE} config={CONFIG} />);

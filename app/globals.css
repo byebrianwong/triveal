@@ -11,6 +11,8 @@
   --purple-line: #4a3f7d;
   --pink: #e0567a;
   --pink-lt: #ff9ecb;
+  /* Background for small white text. White on --pink is only 3.6:1; this is 4.8:1. */
+  --pink-dk: #c93f66;
 }
 
 @theme inline {
@@ -23,6 +25,7 @@
   --color-purple-line: var(--purple-line);
   --color-pink: var(--pink);
   --color-pink-lt: var(--pink-lt);
+  --color-pink-dk: var(--pink-dk);
   --font-display: var(--font-fredoka);
 }
 
