@@ -175,11 +175,15 @@ const sb = createClient(url, key, { auth: { persistSession: false } });
 async function main(): Promise<void> {
   // 1) Read what's already in the DB. For --update we need the full rows to
   //    diff against; otherwise just the canonicals are enough.
+  //    Pages need a fixed sort order. Without one, Postgres can return rows in a
+  //    different order on each request, so a page could skip a question. The
+  //    sync would then treat it as new and insert it a second time.
   const existingByCanonical = new Map<string, ExistingRow>();
   for (let from = 0; ; from += 1000) {
     const { data, error } = await sb
       .from("triveal_questions")
       .select(doUpdate ? EXISTING_SELECT : "answer_canonical")
+      .order("id")
       .range(from, from + 999);
     if (error) {
       console.error(`failed reading existing questions: ${error.message}`);
