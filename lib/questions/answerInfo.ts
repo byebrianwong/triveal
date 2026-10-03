@@ -65,6 +65,7 @@ export const ANSWER_PAGE_TITLES: Record<string, string | null> = {
   mercury: "Mercury (planet)",
   cell: "Cell (biology)",
   appendix: "Appendix (anatomy)",
+  goosebumps: "Goose bumps", // the bare name is R. L. Stine's book series
   // Mythology — the bare name is a disambiguation page led by the Arizona city
   phoenix: "Phoenix (mythology)",
   // Technology — the plain names belong to a fruit, a river and an inventor
@@ -93,6 +94,16 @@ export const ANSWER_PAGE_TITLES: Record<string, string | null> = {
   alcatraz: "Alcatraz Island",
   gps: "Global Positioning System",
   rickroll: "Rickrolling",
+  // Nature — the bare names are disambiguation pages
+  lotus: "Nelumbo nucifera",
+  "corpse flower": "Amorphophallus titanum",
+  // Art — the bare name is the biblical meal, not Leonardo's mural
+  "last supper": "The Last Supper (Leonardo)",
+  // Literature — the bare name is a disambiguation page
+  "peter pan": "Peter Pan (character)",
+  // Internet — the bare names are a Venetian ruler and a disambiguation page
+  doge: "Doge (meme)",
+  spam: "Email spam",
 };
 
 type AnswerLike = Pick<Question, "answer" | "answerCanonical" | "answerAliases" | "category"> &
