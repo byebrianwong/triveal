@@ -12,7 +12,7 @@ Adding or editing questions in the bank? Read
 [`lib/questions/README.md`](lib/questions/README.md) first — all of it. The
 rules that matter are not guessable from the types: the no-leak rule matches
 substrings and strips leading articles, decoys are matched before the answer
-so a near-miss decoy makes the *right* answer fail, and neither the app nor
-CI syncs new questions to the live database. Getting them live (sync, then
-daily schedule) is part of adding them; the README's "After the merge"
-section has the commands.
+so a near-miss decoy makes the *right* answer fail, and new questions reach
+players only through the production deploy of the merge, which syncs them
+into Supabase and schedules them for daily mode. If that deploy fails, they
+are not live. The README's "After the merge" section covers both.

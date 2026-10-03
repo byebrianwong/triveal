@@ -8,6 +8,9 @@
  * Idempotent: it dedupes by answer_canonical and, by default, inserts only
  * the questions the database doesn't already have. Safe to re-run.
  *
+ * Every production deploy runs it with --update (pipeline/sync-on-deploy.ts),
+ * so a merged question is live once that deploy finishes.
+ *
  *   NEXT_PUBLIC_SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... pnpm sync-bank
  *   # or: pnpm pipeline pipeline/sync-bank-to-supabase.ts
  *
