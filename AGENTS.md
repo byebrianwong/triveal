@@ -13,4 +13,6 @@ Adding or editing questions in the bank? Read
 rules that matter are not guessable from the types: the no-leak rule matches
 substrings and strips leading articles, decoys are matched before the answer
 so a near-miss decoy makes the *right* answer fail, and neither the app nor
-CI syncs new questions to the live database.
+CI syncs new questions to the live database. Getting them live (sync, then
+daily schedule) is part of adding them; the README's "After the merge"
+section has the commands.
