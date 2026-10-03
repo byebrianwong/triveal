@@ -8,6 +8,7 @@ import "server-only";
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import type { Question } from "@/lib/game/types";
 import { pickAvoidingCategories } from "@/lib/questions/select";
+import { readAllRows } from "@/lib/supabase/readAllRows";
 
 export function supabaseConfigured(): boolean {
   return Boolean(
@@ -81,13 +82,17 @@ export async function fetchRandomVerifiedQuestionFromSupabase(
   avoidCategories: string[] = [],
 ): Promise<Question | null> {
   const sb = getServerSupabase();
-  const { data, error } = await sb
-    .from("triveal_questions")
-    .select("id, category")
-    .eq("status", "verified")
-    .limit(1000);
-  if (error || !data?.length) return null;
-  const rows = data as { id: string; category: string | null }[];
+  // Every verified question's id and category, read in pages so the pick
+  // covers the whole bank, not just the first 1,000 rows Supabase returns.
+  const rows = await readAllRows<{ id: string; category: string | null }>((from, to) =>
+    sb
+      .from("triveal_questions")
+      .select("id, category", { count: "exact" })
+      .eq("status", "verified")
+      .order("id")
+      .range(from, to),
+  );
+  if (!rows?.length) return null;
   const pool = rows.filter((r) => !exclude.includes(r.id));
   const from = pool.length ? pool : rows;
   const pick = pickAvoidingCategories(from, avoidCategories, (r) => r.category ?? "General");
