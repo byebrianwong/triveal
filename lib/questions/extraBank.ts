@@ -8,15 +8,12 @@
  * literature, internet, pop culture, and technology) while keeping a
  * pop-culture share, since the practice
  * picker steers away from repeating a category and a lopsided bank makes that
- * harder. Same shape and rules as the seed samples
- * (spec §2.2):
- * every clue true of the answer; clues 1–2 also plausibly fit a decoy; each
- * later clue eliminates a decoy or adds recognizability; clue 4 is a fair
- * giveaway; no clue contains the answer or an obvious derivative.
+ * harder.
  *
- * Style note: clue 1 is written crossword-terse — one oblique, surprising
- * fact rather than a descriptive paragraph — so a fast solver can leap on it
- * but a casual solver still needs the ladder. Clues 2–4 open up from there.
+ * Most of these were written to the older spec §2.2 rules, which put
+ * misdirection first, so many are easier than we now want. The current rules
+ * for writing and rewriting clues are in lib/questions/README.md, under "What
+ * makes a good question". Follow those, not the style of the entries below.
  *
  * These merge into the local bank after SEED_QUESTIONS and (when present) the
  * gitignored private bank. They are validated by the same integrity suite.

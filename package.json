@@ -11,6 +11,7 @@
     "test": "vitest run",
     "pipeline": "tsx",
     "sync-bank": "tsx pipeline/sync-bank-to-supabase.ts",
+    "eval-clues": "tsx pipeline/eval-clues.ts",
     "cleanup-rooms": "tsx pipeline/cleanup-party-rooms.ts",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
