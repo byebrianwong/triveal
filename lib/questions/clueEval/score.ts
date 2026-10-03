@@ -4,6 +4,7 @@
  * reports. No API calls and no file access, so all of it is unit tested.
  */
 
+import { matchGuess } from "@/lib/game/answerMatch";
 import type { Difficulty, Question } from "@/lib/game/types";
 
 export type Alone = "few" | "some" | "most";
@@ -39,6 +40,67 @@ export interface PlayerRun {
   solvedOn: number | null;
   /** One guess per clue revealed, in order. */
   guesses: string[];
+}
+
+/**
+ * Problems with a judgement that didn't come through the API's schema check,
+ * such as one a Claude Code subagent wrote. Empty means it is usable.
+ */
+export function validateJudgement(x: unknown): string[] {
+  const problems: string[] = [];
+  if (typeof x !== "object" || x === null) return ["not an object"];
+  const j = x as Record<string, unknown>;
+  const oneOf = (field: string, value: unknown, allowed: readonly unknown[]) => {
+    if (!allowed.includes(value)) problems.push(`${field} is ${JSON.stringify(value)}, expected one of ${allowed.join("/")}`);
+  };
+  for (const p of [1, 2, 3, 4]) {
+    const c = j[`clue${p}`] as Record<string, unknown> | undefined;
+    if (typeof c !== "object" || c === null) {
+      problems.push(`clue${p} is missing`);
+      continue;
+    }
+    oneOf(`clue${p}.interest`, c.interest, [1, 2, 3, 4, 5]);
+    oneOf(`clue${p}.alone`, c.alone, ["few", "some", "most"]);
+    oneOf(`clue${p}.wording`, c.wording, [1, 2, 3]);
+    oneOf(`clue${p}.repeats`, c.repeats, [0, 1, 2, 3, 4]);
+    oneOf(`clue${p}.fact`, c.fact, ["ok", "doubtful", "wrong"]);
+    if (typeof c.note !== "string") problems.push(`clue${p}.note is not text`);
+  }
+  oneOf("distinct_facts", j.distinct_facts, [1, 2, 3, 4]);
+  oneOf("order_ok", j.order_ok, [true, false]);
+  oneOf("expected_solve", j.expected_solve, ["1", "2", "3", "4", "never"]);
+  oneOf("clue4_unique", j.clue4_unique, [true, false]);
+  oneOf("difficulty", j.difficulty, ["easy", "medium", "hard"]);
+  oneOf("verdict", j.verdict, ["good", "needs_work", "bad"]);
+  if (typeof j.summary !== "string") problems.push("summary is not text");
+  return problems;
+}
+
+/**
+ * Score a player's guesses, one per clue revealed, with the game's own
+ * matcher. Guesses after the first right one are dropped.
+ */
+export function playerRunFromGuesses(q: Question, guesses: string[]): PlayerRun {
+  for (let i = 0; i < guesses.length; i++) {
+    if (matchGuess(q, guesses[i]).correct) return { solvedOn: i + 1, guesses: guesses.slice(0, i + 1) };
+  }
+  return { solvedOn: null, guesses };
+}
+
+/**
+ * Split questions into player batches of at most `size`, keeping a graded
+ * rewrite ("wizard-of-oz~silver-shoes") out of the batch that holds its
+ * original. In one batch, the player could use one version to answer the other.
+ */
+export function batchApart<T extends { id: string }>(items: T[], size: number): T[][] {
+  const base = (id: string) => id.split("~")[0];
+  const batches: T[][] = [];
+  for (const item of items) {
+    const fit = batches.find((b) => b.length < size && !b.some((o) => base(o.id) === base(item.id)));
+    if (fit) fit.push(item);
+    else batches.push([item]);
+  }
+  return batches;
 }
 
 export function clueOf(j: Judgement, position: number): ClueJudgement {
@@ -107,8 +169,14 @@ export interface EvalEntry {
   labelled: Difficulty;
   /** Hash of the judge prompt, model and question text this result came from. */
   judgeKey: string;
+  /**
+   * Who judged it: an API model id such as "claude-opus-5-5", or
+   * "claude-code-subagent:opus" for a run inside a Claude Code session.
+   */
+  judgeModel: string;
   /** Hash of the player prompt, model and question this run came from. */
   playerKey?: string;
+  playerModel?: string;
   judge: Judgement;
   player?: PlayerRun;
   flags: Flag[];

@@ -4,13 +4,23 @@ import type { Question } from "@/lib/game/types";
 import { EXTRA_QUESTIONS } from "../extraBank";
 import { SEED_QUESTIONS } from "../seed";
 import { GRADED_CASES } from "./graded";
-import { JUDGE_SCHEMA, judgeUserMessage, playerUserMessage, readHouseRules } from "./rubric";
+import {
+  JUDGE_SCHEMA,
+  judgeTaskPrompt,
+  judgeUserMessage,
+  playerTaskPrompt,
+  playerUserMessage,
+  readHouseRules,
+} from "./rubric";
 import {
   applyCase,
   caseKey,
+  batchApart,
   flagsFor,
+  playerRunFromGuesses,
   renderBankReport,
   runCheck,
+  validateJudgement,
   type Check,
   type ClueJudgement,
   type EvalEntry,
@@ -95,6 +105,81 @@ describe("prompts", () => {
 
   it("asks the judge for exactly the fields the code reads", () => {
     expect([...JUDGE_SCHEMA.required].sort()).toEqual(Object.keys(clean()).sort());
+  });
+});
+
+describe("subagent prompts", () => {
+  const boxing = byId.get("boxing")!;
+  const tea = byId.get("tea")!;
+
+  it("give the judge the full instructions, the schema, and no tools", () => {
+    const prompt = judgeTaskPrompt([boxing], readHouseRules());
+    expect(prompt).toContain("Don't research this");
+    expect(prompt).toContain("Most questions should be medium or hard");
+    expect(prompt).toContain('<question id="boxing">');
+    expect(prompt).toContain(JSON.stringify(JUDGE_SCHEMA));
+  });
+
+  it("hide the answer from the player behind opaque ids", () => {
+    const prompt = playerTaskPrompt(
+      [
+        { opaqueId: "q1", q: boxing },
+        { opaqueId: "q2", q: tea },
+      ],
+      1,
+    );
+    expect(prompt).toContain("[q1]");
+    expect(prompt).toContain("[q2]");
+    expect(prompt).toContain("Clue 1:");
+    expect(prompt).not.toContain("Clue 2:");
+    for (const word of ["boxing", "tea"]) expect(prompt.toLowerCase()).not.toMatch(new RegExp(`\\b${word}\\b`));
+  });
+});
+
+describe("validateJudgement", () => {
+  it("accepts a well-formed judgement", () => {
+    expect(validateJudgement(clean())).toEqual([]);
+  });
+
+  it("names each bad or missing field", () => {
+    const bad = { ...clean(), clue2: { ...goodClue, interest: 7 }, verdict: "great" } as unknown;
+    const missing: Record<string, unknown> = { ...clean() };
+    delete missing.clue3;
+    expect(validateJudgement(bad)).toEqual([
+      expect.stringContaining("clue2.interest"),
+      expect.stringContaining("verdict"),
+    ]);
+    expect(validateJudgement(missing)).toEqual(["clue3 is missing"]);
+    expect(validateJudgement("{}")).toEqual(["not an object"]);
+  });
+});
+
+describe("playerRunFromGuesses", () => {
+  const boxing = byId.get("boxing")!;
+
+  it("solves on the first right guess, using the game's matcher", () => {
+    // "Wrestling" is a decoy; "boxng" is a typo the matcher accepts.
+    expect(playerRunFromGuesses(boxing, ["Wrestling", "boxng", "Boxing", "Boxing"])).toEqual({
+      solvedOn: 2,
+      guesses: ["Wrestling", "boxng"],
+    });
+  });
+
+  it("reports never solved", () => {
+    expect(playerRunFromGuesses(boxing, ["Fencing", "Judo", "Karate", "Wrestling"]).solvedOn).toBeNull();
+  });
+});
+
+describe("batchApart", () => {
+  it("keeps a rewrite out of its original's batch", () => {
+    const ids = ["a", "b", "a~v1", "c", "b~v1", "a~v2"].map((id) => ({ id }));
+    const batches = batchApart(ids, 10).map((b) => b.map((x) => x.id));
+    expect(batches).toEqual([["a", "b", "c"], ["a~v1", "b~v1"], ["a~v2"]]);
+  });
+
+  it("respects the batch size", () => {
+    const batches = batchApart(["a", "b", "c", "d", "e"].map((id) => ({ id })), 2);
+    expect(batches.map((b) => b.length)).toEqual([2, 2, 1]);
   });
 });
 
@@ -205,6 +290,7 @@ describe("renderBankReport", () => {
     category: "Test | Pipes",
     labelled: "easy",
     judgeKey: "k",
+    judgeModel: "test",
     judge,
     flags: flagsFor(judge),
   });

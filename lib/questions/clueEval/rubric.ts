@@ -155,3 +155,52 @@ export function playerUserMessage(q: Question, revealed: number): string {
     .join("\n");
   return `Category: ${q.category}\n${clues}`;
 }
+
+// ---------------------------------------------------------------------------
+// Prompts for running the eval inside a Claude Code session, where subagents
+// play the judge and the player instead of API calls. They wrap the same text
+// the API path sends. A subagent can't be held to a schema, so the runner's
+// --ingest step validates everything that comes back.
+
+const NO_TOOLS =
+  "Don't research this: don't search, browse, run commands, or open any file other than the one you were told to. Work only from the text below.";
+
+/** One subagent judges the questions given, each on its own. */
+export function judgeTaskPrompt(questions: Question[], houseRules: string): string {
+  const blocks = questions
+    .map((q) => `<question id="${q.id}">\n${judgeUserMessage(q)}\n</question>`)
+    .join("\n\n");
+  return `${NO_TOOLS}
+
+You are the judge in an evaluation of trivia clues. Your instructions:
+
+<instructions>
+${judgeSystemPrompt(houseRules)}
+</instructions>
+
+Judge each question below on its own, without comparing it to the others.
+
+${blocks}
+
+Reply with only a JSON object, with no other text and no code fence. Its keys are the question ids, and each value is that question's judgement, matching this JSON schema exactly:
+
+${JSON.stringify(JUDGE_SCHEMA)}`;
+}
+
+/**
+ * One subagent plays one round: every question with its first `revealed`
+ * clues. Questions carry opaque ids (q1, q2, ...) because a bank id such as
+ * "star-wars" would give the answer away.
+ */
+export function playerTaskPrompt(items: { opaqueId: string; q: Question }[], revealed: number): string {
+  const blocks = items.map(({ opaqueId, q }) => `[${opaqueId}]\n${playerUserMessage(q, revealed)}`).join("\n\n");
+  return `${NO_TOOLS}
+
+${PLAYER_SYSTEM}
+
+Below are ${items.length} separate questions, each with its own id. Guess each one on its own.
+
+${blocks}
+
+Reply with only a JSON object, with no other text and no code fence, mapping each id to your guess, like {"q1": "your guess"}.`;
+}

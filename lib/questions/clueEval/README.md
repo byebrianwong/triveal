@@ -10,8 +10,69 @@ before you ship it.
 
 ## Run it
 
-It calls the Anthropic API, so it needs a key: `export ANTHROPIC_API_KEY=…`,
-or log in once with the `ant` CLI (`ant auth login`).
+There are two ways to run it. Both write the same result files.
+
+- **Inside a Claude Code session**, with no API key. Subagents do the judging
+  and playing, and the session's Claude plan pays. See the next section.
+- **Through the API**, which needs a key: `export ANTHROPIC_API_KEY=…`, or
+  log in once with the `ant` CLI (`ant auth login`). This is the more
+  controlled route. Every call uses a fixed model and effort, and the API
+  forces the answer to match the schema.
+
+A script started from a Claude Code session can't use the session's own
+login. That's why the API route needs a key even when you run it from
+Claude Code.
+
+### Running it inside a Claude Code session
+
+1. Export the tasks. Use the same selection flags you'd use for an API run:
+
+   ```bash
+   pnpm eval-clues --graded --export pipeline/data/clue-tasks
+   ```
+
+   This writes one prompt file per subagent into that folder:
+   `judge-NNN.txt` for the judge and `player-NN-round-N.txt` for the player.
+   For a big run, add `--judge-batch 10` so each judge subagent takes 10
+   questions. Every subagent starts with a lot of Claude Code's own context,
+   so one question per subagent is expensive at scale.
+
+2. Start one fresh subagent per prompt file. Use model `opus` for
+   `judge-*.txt` and `haiku` for `player-*.txt`. They can all run at once.
+   Give each one this instruction, with its own two paths:
+
+   > Read the file `<folder>/<name>.txt` and follow its instructions
+   > exactly. Then use the Write tool to save your answer (only the JSON
+   > object it asks for, nothing else) to `<folder>/<name>.answer.json`.
+   > Apart from reading that one file and writing that one file, use no
+   > tools and open no other files.
+
+   Never hand a subagent `tasks.json`. It maps the player's opaque ids
+   (`q1`, `q2`, …) to the answers.
+
+3. Ingest the answers, with the same selection flags:
+
+   ```bash
+   pnpm eval-clues --graded --ingest pipeline/data/clue-tasks
+   ```
+
+   It checks every judgement against the schema, scores the player's guesses
+   with `matchGuess`, and writes the results and reports. Missing or
+   malformed answers are listed. Re-run just those subagents, then ingest
+   again.
+
+How this differs from the API route:
+
+- There's no effort setting, and nothing forces the output to match the
+  schema. The ingest step rejects anything malformed.
+- Results are labelled `claude-code-subagent:opus` and
+  `claude-code-subagent:haiku`, so a later API run re-scores them instead of
+  mixing the two.
+- It uses plan usage, not API billing. The first graded run, 8 judge
+  subagents and 4 player subagents, used about 850,000 tokens. Most of that
+  was each subagent's starting context, not the questions.
+
+### API commands
 
 ```bash
 pnpm eval-clues --graded            # judge vs Brian's grades -> results/calibration.md
@@ -21,8 +82,8 @@ pnpm eval-clues --dry-run           # print the exact prompts; no API calls, no 
 ```
 
 Other flags (`--limit`, `--concurrency`, `--no-player`, `--force`, model and
-effort overrides) are listed at the top of `pipeline/eval-clues.ts`. Every run
-ends by printing the tokens it used and what they cost.
+effort overrides) are listed at the top of `pipeline/eval-clues.ts`. Every API
+run ends by printing the tokens it used and what they cost.
 
 ## What it measures
 
