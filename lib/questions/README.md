@@ -11,7 +11,7 @@ either fails an opaque assertion or, worse, ships broken.
 | Public samples | `seed.ts` | The 4 worked examples from the spec. Don't grow this. |
 | Committed bank | `extraBank.ts` | **Add new questions here.** |
 | Private bank | `private-bank.json` | Gitignored; also reaches Vercel as base64 `TRIVEAL_PRIVATE_BANK`. Overlaps the committed bank. |
-| Live database | Supabase `triveal_questions` | What production actually serves. Fed by `pnpm sync-bank`. |
+| Live database | Supabase `triveal_questions` | What production actually serves. Synced from the three above on every production deploy. |
 
 `source.ts` assembles the first three into one pool, deduped by
 `answerCanonical` (first occurrence wins), **but only when Supabase env vars
@@ -118,22 +118,28 @@ Then update the header comment in `extraBank.ts` with the new total.
 
 ## After the merge
 
-Adding questions is not finished at the merge. Production serves questions
-from Supabase, so players see nothing until both steps below have run. They
-are not automatic yet. Whoever adds the questions runs them, from the merged
-`main`, as part of the same task. Don't hand them off as follow-ups.
+Merging is all it takes. Production serves questions from Supabase, and the
+production deploy of every merge to `main` updates it in two steps
+(`pipeline/sync-on-deploy.ts`, run at the end of `pnpm build`):
+
+1. `sync-bank --update` copies new and edited questions into the live DB.
+   Practice serves them as soon as the deploy finishes.
+2. `schedule-daily.ts` gives new questions days in daily mode.
+
+Local builds, CI and preview deployments skip both steps, so only merged
+questions reach players. If either step fails, the deploy fails and the
+previous one keeps serving. Look at the Vercel build log, fix the cause, and
+redeploy. A failed sync never gets skipped quietly.
+
+To see what the next deploy would change, or to run a step by hand:
 
 ```bash
 set -a; . .env.local; set +a
 export TRIVEAL_PRIVATE_BANK="$(base64 -i lib/questions/private-bank.json)"  # so private questions sync too
+VERCEL_ENV=production pnpm pipeline pipeline/sync-on-deploy.ts --dry-run   # both steps, nothing written
 
-# 1. Copy new and edited questions into the live DB. Practice serves them at once.
-pnpm sync-bank --dry-run --update   # show the diff
-pnpm sync-bank --update             # write it
-
-# 2. Give new questions days in daily mode.
-pnpm pipeline pipeline/schedule-daily.ts --dry-run
-pnpm pipeline pipeline/schedule-daily.ts
+pnpm sync-bank --update                        # step 1 alone
+pnpm pipeline pipeline/schedule-daily.ts       # step 2 alone
 ```
 
 `sync-bank` without `--update` only inserts. It never touches rows that
