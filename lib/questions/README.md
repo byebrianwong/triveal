@@ -111,29 +111,41 @@ question, so don't leave stale ones behind.
 pnpm install          # a fresh worktree has no node_modules
 pnpm test             # +1 test per question added
 pnpm lint
-npx tsc --noEmit      # one pre-existing error in components/PartyRound.test.tsx
+npx tsc --noEmit
 ```
 
 Then update the header comment in `extraBank.ts` with the new total.
 
 ## After the merge
 
-Neither of these is automatic, and skipping them means the questions exist
-only in the repo:
+Adding questions is not finished at the merge. Production serves questions
+from Supabase, so players see nothing until both steps below have run. They
+are not automatic yet. Whoever adds the questions runs them, from the merged
+`main`, as part of the same task. Don't hand them off as follow-ups.
 
 ```bash
-# insert the new questions into the live DB (idempotent; inserts only what's missing)
-set -a; . .env.local; set +a; pnpm sync-bank --dry-run --update   # show the diff
-set -a; . .env.local; set +a; pnpm sync-bank                      # insert
+set -a; . .env.local; set +a
+export TRIVEAL_PRIVATE_BANK="$(base64 -i lib/questions/private-bank.json)"  # so private questions sync too
+
+# 1. Copy new and edited questions into the live DB. Practice serves them at once.
+pnpm sync-bank --dry-run --update   # show the diff
+pnpm sync-bank --update             # write it
+
+# 2. Give new questions days in daily mode.
+pnpm pipeline pipeline/schedule-daily.ts --dry-run
+pnpm pipeline pipeline/schedule-daily.ts
 ```
 
-`sync-bank` never touches rows that already exist — edits to clue text on an
-existing question need `--update`. Note it syncs whatever bank is loadable
-where you run it: without `private-bank.json` or `TRIVEAL_PRIVATE_BANK`
-present, private questions are simply skipped (nothing is deleted).
+`sync-bank` without `--update` only inserts. It never touches rows that
+already exist, so edits to an existing question need `--update`. It syncs
+whatever bank it can load where you run it. Without `private-bank.json` or
+`TRIVEAL_PRIVATE_BANK`, private questions are skipped (nothing is deleted).
 
-**Daily mode is on an explicit schedule.** `triveal_daily_questions` is
-populated with a fixed 365-day permutation, and an explicit row wins over
-the app's `hash(date) % bankSize` fallback. New questions appear in practice
-as soon as they are synced, but **not in daily** until that schedule is
-regenerated or extended.
+**Daily mode runs on an explicit schedule.** Each row in
+`triveal_daily_questions` assigns a question to a date, and a row wins over
+the app's `hash(date) % bankSize` fallback. So a new question never plays in
+daily until it has a row. `schedule-daily.ts` adds the rows. It deals every
+question that has not played yet this round into the upcoming days, and
+extends the schedule before it runs out. It never changes today or the next
+two days. If the schedule already covers every question, it does nothing.
+The rules are in `dailySchedule.ts`.
