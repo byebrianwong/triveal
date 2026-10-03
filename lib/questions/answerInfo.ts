@@ -61,9 +61,12 @@ export const SUMMARY_MAX_LENGTH = 320;
  * short list of known collisions rather than a parallel copy of the bank.
  */
 export const ANSWER_PAGE_TITLES: Record<string, string | null> = {
-  // Space / science
+  // Space, science and the body
   mercury: "Mercury (planet)",
   cell: "Cell (biology)",
+  appendix: "Appendix (anatomy)",
+  // Mythology — the bare name is a disambiguation page led by the Arizona city
+  phoenix: "Phoenix (mythology)",
   // Technology — the plain names belong to a fruit, a river and an inventor
   apple: "Apple Inc.",
   amazon: "Amazon (company)",
@@ -80,6 +83,9 @@ export const ANSWER_PAGE_TITLES: Record<string, string | null> = {
   "wizard of oz": "The Wizard of Oz (1939 film)",
   casablanca: "Casablanca (film)", // the bare name is the Moroccan city
   dune: "Dune (novel)", // the bare name is the sand formation
+  psycho: "Psycho (1960 film)", // the bare name is a disambiguation page
+  // Video games — the bare name is the franchise, not the 1981 arcade game
+  "donkey kong": "Donkey Kong (1981 video game)",
   // Television — bare names that are disambiguation pages
   bear: "The Bear (TV series)",
   survivor: "Survivor (American TV series)",
