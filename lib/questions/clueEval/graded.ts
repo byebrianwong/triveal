@@ -95,31 +95,52 @@ export const GRADED_CASES: GradedCase[] = [
     expect: [{ kind: "verdict-not-good" }, { kind: "repetitive" }],
   },
 
-  // Session 2: the grading page.
-  ...[
-    "hubble-space-telescope",
-    "hagia-sophia",
-    "stapes",
-  ].map(
-    (id): GradedCase => ({
-      id,
-      said: "Ship as is. Tagged every clue good.",
-      expect: [
-        { kind: "verdict-good" },
-        { kind: "clue-good", clue: 1 },
-        { kind: "clue-good", clue: 2 },
-        { kind: "clue-good", clue: 3 },
-      ],
-    }),
-  ),
+  // Session 2: the grading page. He first marked these four "ship as is",
+  // then decided style problems (a bare "It" opener, a fragment clue 4) mean
+  // needs work, and agreed with the judge's catches noted below.
   {
-    id: "corpse-flower",
-    said: "Ship as is. Tagged every clue good. 'The 3rd clue should maybe be the first clue? It's less direct than the first clue.'",
+    id: "hubble-space-telescope",
+    said: "Tagged every clue good. Later: style problems mean needs work, and agreed clues 1 and 2 both tell the mirror story.",
     expect: [
-      { kind: "verdict-good" },
+      { kind: "verdict-not-good" },
       { kind: "clue-good", clue: 1 },
       { kind: "clue-good", clue: 2 },
       { kind: "clue-good", clue: 3 },
+      { kind: "repeat-pair", clues: [1, 2] },
+    ],
+  },
+  {
+    id: "hagia-sophia",
+    // He also agreed clue 1's "no building enclosed more space" claim needs
+    // fixing (usually stated as "largest cathedral"). Unverified, so no check.
+    said: "Tagged every clue good. Later: style problems mean needs work, and agreed clue 1's claim needs fixing.",
+    expect: [
+      { kind: "verdict-not-good" },
+      { kind: "clue-good", clue: 1 },
+      { kind: "clue-good", clue: 2 },
+      { kind: "clue-good", clue: 3 },
+    ],
+  },
+  {
+    id: "stapes",
+    said: "Tagged every clue good. Later: style problems mean needs work, and agreed clue 4 repeats clue 1's 'smallest bone'.",
+    expect: [
+      { kind: "verdict-not-good" },
+      { kind: "clue-good", clue: 1 },
+      { kind: "clue-good", clue: 2 },
+      { kind: "clue-good", clue: 3 },
+      { kind: "repeat-pair", clues: [1, 4] },
+    ],
+  },
+  {
+    id: "corpse-flower",
+    said: "Tagged every clue good; 'the 3rd clue should maybe be the first'. Later: style problems mean needs work, and agreed clue 4 repeats the smell from clue 1.",
+    expect: [
+      { kind: "verdict-not-good" },
+      { kind: "clue-good", clue: 1 },
+      { kind: "clue-good", clue: 2 },
+      { kind: "clue-good", clue: 3 },
+      { kind: "repeat-pair", clues: [1, 4] },
     ],
   },
   {
