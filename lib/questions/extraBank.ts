@@ -534,7 +534,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Chess",
     answerCanonical: "chess",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "medium",
     clues: [
       { position: 1, text: "The number of possible games it allows outstrips the count of atoms in the observable universe." },
@@ -4998,7 +4998,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Minecraft",
     answerCanonical: "minecraft",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "easy",
     clues: [
       { position: 1, text: "It began as one Swedish developer's side project and became the best-selling video game of all time." },
@@ -5016,7 +5016,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Pac-Man",
     answerCanonical: "pac man",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "easy",
     clues: [
       { position: 1, text: "Its round yellow hero was reportedly inspired by a pizza with one slice missing." },
@@ -5034,7 +5034,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Tetris",
     answerCanonical: "tetris",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "medium",
     clues: [
       { position: 1, text: "A Soviet computer engineer designed it in 1984, and its profits were tangled in Cold War red tape." },
@@ -5052,7 +5052,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Pokémon",
     answerCanonical: "pokemon",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "easy",
     clues: [
       { position: 1, text: "Its franchise, spanning games, cards, and cartoons, is the highest-grossing media property ever." },
@@ -5070,7 +5070,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "The Legend of Zelda",
     answerCanonical: "legend of zelda",
     answerAliases: ["Zelda"],
-    category: "Video Games",
+    category: "Games",
     difficulty: "medium",
     clues: [
       { position: 1, text: "Confusingly, the princess it is named for is not the character you actually control." },
@@ -5088,7 +5088,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Fortnite",
     answerCanonical: "fortnite",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "easy",
     clues: [
       { position: 1, text: "Its in-game concerts have drawn tens of millions of players to watch stars perform live." },
@@ -5106,7 +5106,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Sonic the Hedgehog",
     answerCanonical: "sonic the hedgehog",
     answerAliases: ["Sonic"],
-    category: "Video Games",
+    category: "Games",
     difficulty: "easy",
     clues: [
       { position: 1, text: "This video game hero's red-and-white shoes were inspired by Santa Claus and by Michael Jackson's boots on the cover of 'Bad.'" },
@@ -5124,7 +5124,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Among Us",
     answerCanonical: "among us",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "medium",
     clues: [
       { position: 1, text: "This game drew on the party game Mafia and the horror film The Thing, and began as a phone-only game for players in the same room." },
@@ -5142,7 +5142,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Grand Theft Auto",
     answerCanonical: "grand theft auto",
     answerAliases: ["GTA"],
-    category: "Video Games",
+    category: "Games",
     difficulty: "medium",
     clues: [
       { position: 1, text: "One entry in this series earned more from its online mode than almost any movie in history." },
@@ -5160,7 +5160,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Super Mario Bros.",
     answerCanonical: "super mario bros",
     answerAliases: ["Mario", "Super Mario"],
-    category: "Video Games",
+    category: "Games",
     difficulty: "easy",
     clues: [
       { position: 1, text: "This game's 'Minus World', an endless underwater level reached by slipping through a wall, was a playground rumor that turned out to be real." },
@@ -6618,7 +6618,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Roblox",
     answerCanonical: "roblox",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "easy",
     clues: [
       { position: 1, text: "Almost everything you can play on it was built by other players, some of them children earning real money." },
@@ -6636,7 +6636,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Elden Ring",
     answerCanonical: "elden ring",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "hard",
     clues: [
       { position: 1, text: "This game from a famously punishing studio had its world's ancient mythology written by the author of A Song of Ice and Fire." },
@@ -6654,7 +6654,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "The Sims",
     answerCanonical: "sims",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "easy",
     clues: [
       { position: 1, text: "Its characters speak an invented gibberish, so players end up projecting their own dialogue onto them." },
@@ -6672,7 +6672,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Animal Crossing",
     answerCanonical: "animal crossing",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "medium",
     clues: [
       { position: 1, text: "It runs on your console's real clock, so if it is three in the morning where you are, the shops are shut." },
@@ -6690,7 +6690,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Candy Crush",
     answerCanonical: "candy crush",
     answerAliases: ["Candy Crush Saga"],
-    category: "Video Games",
+    category: "Games",
     difficulty: "easy",
     clues: [
       { position: 1, text: "Its whole mechanic is swapping two adjacent sweets to line up three of a kind, repeated a few billion times." },
@@ -6708,7 +6708,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Wordle",
     answerCanonical: "wordle",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "easy",
     clues: [
       { position: 1, text: "A software engineer built it for his partner, then gave everyone exactly one puzzle a day and no way to binge." },
@@ -6726,7 +6726,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Halo",
     answerCanonical: "halo",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "medium",
     clues: [
       { position: 1, text: "Its green-armoured supersoldier and blue artificial intelligence gave a new console its entire identity." },
@@ -6744,7 +6744,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "League of Legends",
     answerCanonical: "league of legends",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "medium",
     clues: [
       { position: 1, text: "In it, two teams of five push down three lanes toward each other's base, and one match can outlast a football game." },
@@ -7770,7 +7770,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Call of Duty",
     answerCanonical: "call of duty",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "easy",
     clues: [
       { position: 1, text: "One instalment took more than half a billion dollars in five days — in 2009." },
@@ -7788,7 +7788,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Stardew Valley",
     answerCanonical: "stardew valley",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "medium",
     clues: [
       { position: 1, text: "One person wrote all of it — code, pixel art, music — over four and a half years, ushering at a cinema to pay the rent." },
@@ -7806,7 +7806,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Street Fighter",
     answerCanonical: "street fighter",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "medium",
     clues: [
       { position: 1, text: "It invented the combo by accident, from a bug a developer found while testing the car-smashing bonus stage." },
@@ -8940,7 +8940,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Donkey Kong",
     answerCanonical: "donkey kong",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "medium",
     clues: [
       { position: 1, text: "Its hero was called Jumpman until he was renamed after the landlord of a Nintendo warehouse." },
@@ -8958,7 +8958,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Space Invaders",
     answerCanonical: "space invaders",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "medium",
     clues: [
       { position: 1, text: "A popular legend claims it caused a shortage of 100-yen coins in Japan." },
@@ -9858,7 +9858,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Pong",
     answerCanonical: "pong",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "medium",
     clues: [
       { position: 1, text: "Its first test machine, in a California bar, stopped working because its coin box had overflowed with quarters." },
@@ -9876,7 +9876,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Angry Birds",
     answerCanonical: "angry birds",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "easy",
     clues: [
       { position: 1, text: "It was its Finnish studio's 52nd game, after years of modest results." },
