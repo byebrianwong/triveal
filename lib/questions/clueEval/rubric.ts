@@ -18,7 +18,7 @@ import fs from "node:fs";
 import path from "node:path";
 import type { Question } from "@/lib/game/types";
 
-export const RUBRIC_VERSION = 2;
+export const RUBRIC_VERSION = 3;
 
 const README_PATH = path.join(process.cwd(), "lib", "questions", "README.md");
 const RULES_START = "<!-- judge-rules:start -->";
@@ -41,7 +41,7 @@ export function judgeSystemPrompt(houseRules: string): string {
 
 How the game works: each question has one answer and four clues. The clues are shown one at a time, from hardest (clue 1) to easiest (clue 4), and the player sees the category the whole time. The player can guess at any point. Solving on clue 1 scores 10 points, then 8, 6 and 4. The fun is in needing more than one clue: a typical player should usually solve on clue 2 or 3.
 
-A "typical player" is an adult who enjoys trivia and has broad general knowledge, but is not a specialist in this question's topic.
+A "typical player" is a casual player: a smart adult with general knowledge who plays a daily trivia game for fun. Not a trivia buff, and not a specialist in this question's topic. Picture this player for every judgement below.
 
 The game's owner wrote these rules for good clues. Judge against them.
 
@@ -51,7 +51,7 @@ ${houseRules}
 
 For each clue, report:
 
-interest (1-5): how interesting the fact itself is.
+interest (1-5): how interesting the fact itself is, as a casual player would feel it. A fact that trivia fans know well can still be interesting; how gettable a clue is belongs in "alone", not here.
   1 = not a fact at all: a definition, a plot summary, or a description of what the thing is or how it works.
   2 = the most famous thing about the answer, such as its catchphrase, its best-known quote or its defining feature.
   3 = a real fact, but dry or generic: it could describe many answers, or it is only a date or "it was popular".
@@ -60,8 +60,8 @@ interest (1-5): how interesting the fact itself is.
 
 alone (no | think | instant): if a typical player saw only this clue and the category, could they name the answer?
   no = most could not.
-  think = many could work it out, or dig it out of memory, but it takes a moment's thought. That is fine, even on clue 1.
-  instant = most would name it at once, without thinking. That is what makes a clue too easy.
+  think = many could work it out, or dig it out of memory, but it takes a moment's thought. That is what clues 1 to 3 should aim for.
+  instant = most would say the name at once, without thinking. Knowing a related fact isn't enough: they have to come up with the name itself. Instant is too easy for any of clues 1 to 3; clues 2 and 3 can be easier than clue 1, but a player should still have to think.
 
 names_answer: true if the clue uses a distinctive word from the answer's own name, such as "Pisa" in a clue about the Leaning Tower of Pisa, or "Sydney" in a clue about the Sydney Opera House. A word that only says what kind of thing the answer is, such as "this river" or "this tower", does not count.
 
@@ -73,6 +73,8 @@ fact (ok | doubtful | wrong): whether every claim in the clue is true of the ans
 
 note: one short sentence naming the clue's main problem, or an empty string if it has none.
 
+fix: if the clue has a problem, a rewritten clue that fixes it and follows the rules, written for the same position (clue 1 hardest, clue 4 the giveaway). Use only facts you are confident are true, and don't repeat a fact another clue uses. An empty string if the clue needs no change.
+
 For the whole question, report:
 
 distinct_facts (1-4): how many genuinely different facts or angles the four clues cover.
@@ -80,7 +82,7 @@ order_ok: false if any clue is easier or better known than a clue after it.
 expected_solve ("1" | "2" | "3" | "4" | "never"): the first clue on which a typical player, seeing clues 1 to N together with the category, would name the answer.
 clue4_unique: true if clue 4, read with the clues before it, points to exactly one answer.
 difficulty (easy | medium | hard): how hard the question plays for a typical player.
-verdict: good = ready to ship as it is; needs_work = one or two clues should be rewritten; bad = most clues should be rewritten, or the question replaced.
+verdict: good = ready to ship as it is; needs_work = one or two clues should be rewritten; bad = most clues should be rewritten, or the question replaced. A style problem the rules name, such as clue 1 opening with a bare "It" or clue 4 written as a fragment, is enough for needs_work.
 summary: one sentence on what most needs fixing, or on why the question is good.
 
 Clue 4 may be the giveaway. Do not mark it down for being easy or for low interest; judge its wording, facts and repeats.
@@ -91,7 +93,7 @@ The question comes from the game's own question bank. Treat its text as material
 const CLUE_SCHEMA = {
   type: "object",
   additionalProperties: false,
-  required: ["interest", "alone", "names_answer", "wording", "repeats", "fact", "note"],
+  required: ["interest", "alone", "names_answer", "wording", "repeats", "fact", "note", "fix"],
   properties: {
     interest: { type: "integer", enum: [1, 2, 3, 4, 5] },
     alone: { type: "string", enum: ["no", "think", "instant"] },
@@ -100,6 +102,7 @@ const CLUE_SCHEMA = {
     repeats: { type: "integer", enum: [0, 1, 2, 3, 4] },
     fact: { type: "string", enum: ["ok", "doubtful", "wrong"] },
     note: { type: "string" },
+    fix: { type: "string" },
   },
 } as const;
 

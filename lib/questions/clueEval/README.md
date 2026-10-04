@@ -33,9 +33,10 @@ Claude Code.
 
    This writes one prompt file per subagent into that folder:
    `judge-NNN.txt` for the judge and `player-NN-round-N.txt` for the player.
-   For a big run, add `--judge-batch 10` so each judge subagent takes 10
-   questions. Every subagent starts with a lot of Claude Code's own context,
-   so one question per subagent is expensive at scale.
+   Each judge file holds up to 50 questions (`--judge-batch` changes that).
+   Add `--skip-judged` to leave out every question that already has a
+   result, so a run only covers what's new. Add `--no-player` to skip the
+   simulated player.
 
 2. Start one fresh subagent per prompt file. Use model `opus` for
    `judge-*.txt` and `haiku` for `player-*.txt`. They can all run at once.
@@ -68,9 +69,15 @@ How this differs from the API route:
 - Results are labelled `claude-code-subagent:opus` and
   `claude-code-subagent:haiku`, so a later API run re-scores them instead of
   mixing the two.
-- It uses plan usage, not API billing. The first graded run, 8 judge
-  subagents and 4 player subagents, used about 850,000 tokens. Most of that
-  was each subagent's starting context, not the questions.
+- It uses plan usage, not API billing. Every subagent starts by loading
+  Claude Code's own instructions, tools, CLAUDE.md files and memory, about
+  55,000-75,000 tokens before it reads a question. Judging itself costs a
+  few thousand tokens per question. So batch size decides the cost: one
+  question per subagent cost about 100,000 tokens a question, six per
+  subagent about 15,000, and 50 per subagent should be a few thousand.
+- Don't have the session you're talking to do the judging itself. It knows
+  the conversation, which may include Brian's grades, so the judge would be
+  biased. A fresh subagent sees only its prompt file.
 
 ### API commands
 
@@ -101,7 +108,8 @@ then scores each clue:
 | `repeats` | Which other clue this one repeats, or 0 |
 | `fact` | ok, doubtful or wrong, from the model's own knowledge |
 
-It also gives the whole question a verdict (good, needs work, bad), a judged
+For any clue with a problem it also writes `fix`, a suggested rewrite. It
+gives the whole question a verdict (good, needs work, bad), a judged
 difficulty, the clue a typical player would solve on, and a one-line summary.
 The exact wording it gets is in `rubric.ts`, and `--dry-run` prints it.
 
@@ -147,24 +155,33 @@ Two things keep it honest:
 | `graded.ts` | Brian's grades |
 | `results/latest.json` | Every question's latest scores, one line per question. It also works as the cache. |
 | `results/report.md` | The bank report: totals, then the questions to fix, worst first |
+| `results/fixes.md` | The judge's suggested rewrites, worst questions first, next to the clues they'd replace. Facts unchecked. |
 | `results/calibration.md` | Agreement with Brian's grades |
+| `results/graded-fixes.md` | Suggested rewrites for the graded questions |
 | `results/graded.json` | Scores for the graded cases, and their cache |
 | `../../../pipeline/eval-clues.ts` | The runner |
 
-## Re-runs
+## Re-runs and second passes
 
 A stored result is reused when the prompts, the model and the question's text
-are all unchanged. Editing one question re-scores only that question. Editing
-the rules in `../README.md` or anything in `rubric.ts` re-scores everything.
+are all unchanged. `--skip-judged` goes further and skips any question that
+has a result at all. Without it, editing one question re-scores only that
+question, and editing the rules in `../README.md` or anything in `rubric.ts` re-scores everything.
 Bump `RUBRIC_VERSION` to force that without a text change.
 
 The results are committed, so the next person or agent doesn't pay to
 re-score questions that haven't changed.
 
+A second set of judging criteria (a fact-checking pass, say) would be its own
+rubric file and its own results file, with the same export and ingest steps.
+Each result records the rubric version that judged it, so skipping works per
+pass. It isn't built yet; add it when there's a second rubric to run.
+
 ## Improving a question with it
 
-1. Pick a question from `results/report.md`. They're listed worst first, and
-   `latest.json` has a note for each clue.
+1. Pick a question from `results/report.md` or `results/fixes.md`. Both list
+   the worst first, and `fixes.md` shows the judge's suggested rewrite next
+   to each problem clue.
 2. Rewrite it in `extraBank.ts`, following the rules in `../README.md`.
 3. Check every new fact against a source. The judge's `fact` field comes from
    the model's memory: "doubtful" means look it up, and "ok" doesn't prove it.
