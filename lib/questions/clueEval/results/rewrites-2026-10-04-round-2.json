@@ -1,0 +1,1440 @@
+[
+ {
+  "id": "hydrogen",
+  "answer": "Hydrogen",
+  "category": "Science",
+  "before": [
+   "It fueled the Hindenburg airship, whose fiery 1937 crash ended the age of passenger zeppelins.",
+   "The lightest and most abundant element in the universe, it makes up most of the mass of stars.",
+   "Two of its atoms bond with one of oxygen to form every molecule of water.",
+   "First on the periodic table with the symbol H, this gas fuses in the Sun to make helium."
+  ],
+  "after": [
+   "This element was first recognized as a distinct substance in 1766 by Henry Cavendish, who called it 'inflammable air.'",
+   "A heavy form of this element, deuterium, makes the 'heavy water' that slows neutrons in some nuclear reactors.",
+   "This gas lifted the Hindenburg airship, whose fiery 1937 crash ended the age of passenger zeppelins.",
+   "First on the periodic table with the symbol H, this gas fuses in the Sun to make helium."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Hydrogen",
+   "2": "https://en.wikipedia.org/wiki/Heavy_water",
+   "3": "https://en.wikipedia.org/wiki/Hindenburg_disaster"
+  },
+  "summary": "Replaced the two instant textbook clues with Cavendish's 'inflammable air' and deuterium in heavy water, and fixed the Hindenburg clue to say the gas lifted the airship rather than fueled it, moving it to clue 3 as the best-known of the three."
+ },
+ {
+  "id": "the-godfather",
+  "answer": "The Godfather",
+  "category": "Movies",
+  "before": [
+   "Its director wanted an unknown, but a mumbling Marlon Brando won the lead with cotton in his cheeks.",
+   "This 1972 crime epic follows the Corleones, a Sicilian-American Mafia dynasty in New York.",
+   "Its famous line offers a deal 'he can't refuse,' and a horse's head ends up in a bed.",
+   "Al Pacino's Michael inherits the family from Vito in this Francis Ford Coppola masterpiece."
+  ],
+  "after": [
+   "This film's score was struck from the Oscar nominations when it emerged that Nino Rota had already used its love theme in the 1958 Italian comedy Fortunella.",
+   "The cat in this film's opening scene wasn't in the script: the director spotted it roaming the studio lot, and its purring muffled the star's lines.",
+   "The studio fought casting Marlon Brando in this film until it saw his screen test, shot at his home with cotton balls stuffed in his cheeks.",
+   "Al Pacino's Michael inherits the family from Vito in this Francis Ford Coppola masterpiece."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/The_Godfather_(soundtrack)",
+   "2": "https://collider.com/the-godfather-scene-marlon-brando-cat/",
+   "3": "https://en.wikipedia.org/wiki/The_Godfather"
+  },
+  "summary": "Corrected the Brando story (the studio, not the director, resisted him) and moved it to clue 3, and replaced the instant Corleone, horse's-head and 'offer' clues with the disqualified Rota score and the unscripted cat."
+ },
+ {
+  "id": "king-arthur",
+  "answer": "King Arthur",
+  "category": "Mythology",
+  "before": [
+   "There is no solid evidence he existed, and the wizard, the sword in the stone and the round table were each bolted on centuries apart.",
+   "A 12th-century cleric, Geoffrey of Monmouth, turned a shadowy Welsh war leader into a British king, and French poets then invented the knight who runs off with his queen.",
+   "Merlin, Guinevere, Camelot and Excalibur all orbit him, and his half-sister Morgan le Fay works against him.",
+   "The once and future king of Britain, carried off to Avalon after his last battle at Camlann."
+  ],
+  "after": [
+   "This legendary ruler's grave and a lead cross naming him were 'found' by Glastonbury Abbey's monks in 1191, in what most historians call a fundraising stunt.",
+   "A 12th-century cleric, Geoffrey of Monmouth, made this war leader an empire-building ruler of Britain, and a French poet later wrote of his queen's affair with a knight.",
+   "In Malory's telling, this ruler's half-sister Morgan le Fay steals the magic scabbard that kept him from bleeding and throws it into a lake.",
+   "This ruler held court at Camelot with the Knights of the Round Table and was carried off to Avalon after his last battle, at Camlann."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Glastonbury_Abbey",
+   "2": "https://en.wikipedia.org/wiki/King_Arthur",
+   "3": "https://en.wikipedia.org/wiki/Excalibur",
+   "4": "https://en.wikipedia.org/wiki/King_Arthur"
+  },
+  "summary": "Replaced the giveaway clue 1 with the 1191 Glastonbury grave claim, removed the word 'king' and the loose 'runs off with his queen' from clue 2, swapped the list of famous names in clue 3 for Morgan le Fay and the scabbard, and rewrote clue 4 as a full sentence."
+ },
+ {
+  "id": "frida-kahlo",
+  "answer": "Frida Kahlo",
+  "category": "Art",
+  "before": [
+   "A bus crash at eighteen left her painting flat on her back, with a mirror fixed to the canopy above the bed.",
+   "About a third of her 143 paintings are her own face, in Tehuana dress under a single joined brow.",
+   "She married the muralist Diego Rivera twice, joined the Mexican Communist Party and put up Trotsky in her blue house in Coyoacán.",
+   "The Mexican painter whose self-portraits with monkeys and thorn necklaces hang in the Casa Azul."
+  ],
+  "after": [
+   "This painter's 'The Dream (The Bed)' sold for $54.7 million in 2025, then the most ever paid at auction for a work by a woman.",
+   "This painter gave Leon Trotsky a self-portrait for his birthday in 1937, after their brief affair while he lived in exile at her family home.",
+   "This painter was eighteen when a bus crash left her bedridden, and she painted in bed using a special easel with a mirror above it.",
+   "This Mexican painter, wife of the muralist Diego Rivera, painted herself with bold brows, a thorn necklace and a pet monkey."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Frida_Kahlo",
+   "2": "https://en.wikipedia.org/wiki/Self-Portrait_Dedicated_to_Leon_Trotsky",
+   "3": "https://en.wikipedia.org/wiki/Frida_Kahlo",
+   "4": "https://en.wikipedia.org/wiki/Self-Portrait_with_Thorn_Necklace_and_Hummingbird"
+  },
+  "summary": "Moved the joined brow and Diego Rivera to clue 4, which is now a full sentence without the false Casa Azul claim, and added the 2025 auction record and the Trotsky birthday self-portrait as harder clues, with the bus crash at clue 3."
+ },
+ {
+  "id": "photosynthesis",
+  "answer": "Photosynthesis",
+  "category": "Science",
+  "before": [
+   "It is the process that ultimately puts almost all the oxygen you breathe into the air.",
+   "Powered by sunlight caught in green chlorophyll, it turns water and carbon dioxide into sugar.",
+   "Plants, algae, and some bacteria all use it to make their own food from little more than light.",
+   "This is the process by which green plants convert sunlight into energy, releasing oxygen as they go."
+  ],
+  "after": [
+   "This process was glimpsed in 1771, when Joseph Priestley found that a sprig of mint could 'restore' air in which a candle had burned out.",
+   "About 2.4 billion years ago, microbes using this process first filled Earth's air with oxygen, in what scientists call the Great Oxidation Event.",
+   "This process happens in chloroplasts, tiny green structures in plant cells that are thought to descend from free-living bacteria.",
+   "This is the process by which green plants convert sunlight into energy, releasing oxygen as they go."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.ebsco.com/research-starters/history/ingenhousz-discovers-photosynthesis",
+   "2": "https://en.wikipedia.org/wiki/Great_Oxidation_Event",
+   "3": "https://en.wikipedia.org/wiki/Chloroplast"
+  },
+  "summary": "Replaced the three clues that only described what the process is with its history (Priestley's mint), its deep past (the Great Oxidation Event) and an odd detail (chloroplasts were once bacteria), keeping the definition as clue 4."
+ },
+ {
+  "id": "harry-potter",
+  "answer": "Harry Potter",
+  "category": "Literature",
+  "before": [
+   "A lightning-bolt scar on his forehead marks where a curse once failed to kill him as a baby.",
+   "Raised in a cupboard under the stairs by cruel relatives, he learns on his eleventh birthday that he is a wizard.",
+   "At Hogwarts School he is sorted into Gryffindor and befriends Ron Weasley and Hermione Granger.",
+   "J.K. Rowling's bespectacled boy wizard battles the dark Lord Voldemort across seven best-selling novels."
+  ],
+  "after": [
+   "This character shares his July 31 birthday with his author, who as a girl lived near a family with his surname.",
+   "Twelve publishers turned down the first book about this character before Bloomsbury published it in 1997.",
+   "This character's wand and his archenemy's both hold feathers from the same phoenix.",
+   "J.K. Rowling's bespectacled boy wizard battles the dark Lord Voldemort across seven best-selling novels."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/J._K._Rowling",
+   "2": "https://en.wikipedia.org/wiki/J._K._Rowling",
+   "3": "https://en.wikipedia.org/wiki/Harry_Potter_(character)"
+  },
+  "summary": "Replaced the scar, cupboard and Hogwarts plot points with a birthday-and-surname fact, the twelve rejections, and the shared phoenix wand core, dropping the giveaway word 'Hogwarts'."
+ },
+ {
+  "id": "the-lord-of-the-rings",
+  "answer": "The Lord of the Rings",
+  "category": "Movies",
+  "before": [
+   "In this movie, a hobbit must carry a cursed golden band to a volcano to destroy it.",
+   "Based on Tolkien's novels, its fellowship crosses Middle-earth to defeat the dark Sauron.",
+   "In it, the creature Gollum hisses about 'my precious,' hungering for the ring Frodo carries.",
+   "Peter Jackson's trilogy, capped by 'The Return of the King,' swept 11 Oscars in 2004."
+  ],
+  "after": [
+   "This film trilogy was shot all at once in New Zealand, with filming running from October 1999 to December 2000.",
+   "Viggo Mortensen broke two toes kicking a helmet in a shot from this film series that made the final cut.",
+   "This trilogy's final film won all 11 Oscars it was nominated for, tying 'Ben-Hur' and 'Titanic' for the most wins.",
+   "Peter Jackson's trilogy follows the hobbit Frodo on a quest across Middle-earth to defeat Sauron."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Return_of_the_King",
+   "2": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Two_Towers",
+   "3": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Return_of_the_King",
+   "4": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(film_series)"
+  },
+  "summary": "Replaced the plot-summary clues and the clue that used 'ring' with facts about the back-to-back shoot, Viggo Mortensen's broken toes and the 11-Oscar sweep, and moved the plot to clue 4 since the Oscars now sit in clue 3."
+ },
+ {
+  "id": "taco",
+  "answer": "Taco",
+  "category": "Food & Drink",
+  "before": [
+   "A cheeky weekly 'holiday' pairs it with Tuesday for cheap deals.",
+   "This Mexican staple wraps fillings like beef, beans, or fish in a folded corn or flour tortilla.",
+   "It comes with a soft or crunchy shell, topped with salsa, cheese, and guacamole.",
+   "Held in one hand and eaten in a few bites, this street food has a hard-shelled version too."
+  ],
+  "after": [
+   "This dish's name may come from 18th-century Mexican silver mines, where miners used the word for paper-wrapped charges of gunpowder.",
+   "Al pastor, a version of this dish with pork grilled on a vertical spit, grew out of the shawarma that Lebanese immigrants brought to Mexico.",
+   "A phrase pairing this food with a weekday was trademarked for decades by a Wyoming chain, which gave it up in 2023.",
+   "This Mexican staple wraps fillings like beef, beans, or fish in a folded corn or flour tortilla."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/",
+   "2": "https://en.wikipedia.org/wiki/Al_pastor",
+   "3": "https://en.wikipedia.org/wiki/Taco_Tuesday"
+  },
+  "summary": "Replaced the instant weekday clue and the two shell clues with the mining origin of the name, al pastor's Lebanese roots and the trademark fight, and moved the original tortilla definition to clue 4."
+ },
+ {
+  "id": "jurassic-park",
+  "answer": "Jurassic Park",
+  "category": "Movies",
+  "before": [
+   "In this movie, scientists extract ancient DNA from mosquitoes trapped in amber to work their resurrection.",
+   "In it, a billionaire builds an island theme park stocked with cloned creatures extinct for millions of years.",
+   "In this 1993 Steven Spielberg blockbuster, a T. rex and clever raptors break loose during a storm.",
+   "The dinosaurs of this film series roar back to life on Isla Nublar, its name promising a prehistoric attraction."
+  ],
+  "after": [
+   "This film's most famous roar mixed a low tiger sound with its key ingredient: a high-pitched scream from a baby elephant.",
+   "This film's studio, Universal, bought the rights to Michael Crichton's novel six months before the book was even published.",
+   "This 1993 Steven Spielberg film beat his own 'E.T.' to become the highest-grossing film ever, a record it held until 'Titanic.'",
+   "In this film, dinosaurs brought back by industrialist John Hammond's scientists break loose on the fictional island of Isla Nublar."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.tpr.org/2013-04-13/jurassic-bark-how-sound-design-changed-our-imaginations",
+   "2": "https://en.wikipedia.org/wiki/Jurassic_Park_(film)",
+   "3": "https://en.wikipedia.org/wiki/Jurassic_Park_(film)",
+   "4": "https://en.wikipedia.org/wiki/Jurassic_Park_(film)"
+  },
+  "summary": "Replaced the plot-summary clues with facts about the roar, the early film-rights deal and the box-office record, and rewrote clue 4 about the 1993 film without the word 'park'; the judge's alligator detail was dropped because the source found names only the elephant and tiger."
+ },
+ {
+  "id": "the-lion-king",
+  "answer": "The Lion King",
+  "category": "Movies",
+  "before": [
+   "Its opening song, 'Circle of Life,' plays as animals gather at a towering rock.",
+   "In it, a young cub named Simba flees home after his father Mufasa is killed by the scheming Scar.",
+   "The meerkat Timon and warthog Pumbaa teach him the carefree motto 'Hakuna Matata.'",
+   "This 1994 Disney film about a cub reclaiming his throne at Pride Rock got a photoreal 2019 remake."
+  ],
+  "after": [
+   "This film earned Hans Zimmer his first Oscar, for Best Original Score; his second came 27 years later for 'Dune.'",
+   "This animated film's plot echoes 'Hamlet': a young prince's uncle murders his father and seizes the throne.",
+   "Elton John and Tim Rice wrote this film's love song, 'Can You Feel the Love Tonight.'",
+   "This 1994 Disney film about a cub reclaiming his throne at Pride Rock got a photoreal 2019 remake."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Hans_Zimmer",
+   "2": "https://en.wikipedia.org/wiki/The_Lion_King",
+   "3": "https://en.wikipedia.org/wiki/Can_You_Feel_the_Love_Tonight"
+  },
+  "summary": "Replaced the famous song, character names and 'Hakuna Matata' with Zimmer's first Oscar, the Hamlet parallel and the songwriters, leaving the Oscar out of clue 3 so two clues don't rest on the same idea."
+ },
+ {
+  "id": "baseball",
+  "answer": "Baseball",
+  "category": "Sports",
+  "before": [
+   "In it, a 'perfect game' means one team's pitcher retires all 27 opposing batters in a row.",
+   "Called America's 'national pastime,' it is played on a diamond with nine players a side.",
+   "Its batter swings a wooden bat, then runs a circuit of four bases to score a run.",
+   "Home runs, strikeouts, and the World Series belong to this sport of the New York Yankees."
+  ],
+  "after": [
+   "This sport's new balls are rubbed before every major-league game with mud from a secret spot near the Delaware River in New Jersey.",
+   "This sport's longest professional game, played in 1981, ran 33 innings and was finished only two months later.",
+   "This sport's Hall of Fame opened in 1939 in Cooperstown, New York, a village picked largely because of a myth that the game was invented there.",
+   "Home runs, strikeouts, and the World Series belong to this sport of the New York Yankees."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Baseball_rubbing_mud",
+   "2": "https://en.wikipedia.org/wiki/Longest_professional_baseball_game",
+   "3": "https://en.wikipedia.org/wiki/National_Baseball_Hall_of_Fame_and_Museum"
+  },
+  "summary": "Replaced the three instant clues (perfect game, national pastime, how the game is played) with the rubbing mud, the 33-inning game and the Cooperstown myth, each opening with 'This sport'."
+ },
+ {
+  "id": "heart",
+  "answer": "Heart",
+  "category": "Human Body",
+  "before": [
+   "It beats about 100,000 times a day and can keep pumping briefly even outside the body.",
+   "A muscular fist-sized organ, it pushes blood through the body in a network of vessels.",
+   "Its four chambers — two atria and two ventricles — thump in the classic 'lub-dub' rhythm.",
+   "Doctors listen with a stethoscope to this organ, drawn as a red symbol of love."
+  ],
+  "after": [
+   "This organ is almost never where cancer starts, partly because its muscle cells rarely divide.",
+   "In 1929 a 24-year-old German doctor threaded a catheter from a vein in his own arm into this organ and took an X-ray to prove it.",
+   "Surgeon Christiaan Barnard performed the first human-to-human transplant of this organ in Cape Town in 1967.",
+   "Doctors listen with a stethoscope to this organ, drawn as a red symbol of love."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.nm.org/healthbeat/healthy-tips/Can-You-Get-Heart-Cancer",
+   "2": "https://en.wikipedia.org/wiki/Werner_Forssmann",
+   "3": "https://sahistory.org.za/dated-event/dr-chris-barnard-performs-worlds-first-human-heart-transplant"
+  },
+  "summary": "Replaced the beating, pumping and four-chamber clues with the rarity of cancer, Forssmann's self-catheterization and Barnard's first transplant, and dropped the judge's four-chamber rewrite because it was still instant."
+ },
+ {
+  "id": "pac-man",
+  "answer": "Pac-Man",
+  "category": "Video Games",
+  "before": [
+   "Its round yellow hero was reportedly inspired by a pizza with one slice missing.",
+   "Its player guides a chomping circle through a maze, gobbling dots while fleeing four ghosts.",
+   "Eating a large flashing pellet lets it briefly turn the tables and chase the ghosts.",
+   "Blinky, Pinky, Inky, and Clyde hound this 1980 arcade icon around its maze."
+  ],
+  "after": [
+   "This arcade game has a 'kill screen': on level 256 a bug fills half the screen with garbled symbols, so the level can't be finished.",
+   "This game's four enemies each hunt differently: one gives direct chase, two try to get in front of you, and one keeps switching between chasing and fleeing.",
+   "This game's designer, Toru Iwatani, said its hero's shape came partly from a pizza with one slice missing.",
+   "Blinky, Pinky, Inky, and Clyde hound this 1980 arcade icon around its maze."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Billy_Mitchell_(gamer)",
+   "2": "https://en.wikipedia.org/wiki/Pac-Man",
+   "3": "https://en.wikipedia.org/wiki/Pac-Man"
+  },
+  "summary": "Led with the level-256 kill screen, replaced the gameplay descriptions with the enemies' distinct hunting styles (without the word 'ghosts'), and moved the pizza story to clue 3 with 'partly' because Iwatani also cited the kanji for 'mouth'."
+ },
+ {
+  "id": "superman",
+  "answer": "Superman",
+  "category": "Pop Culture",
+  "before": [
+   "He is weakened by glowing green shards of his shattered home planet.",
+   "Rocketed as a baby from the doomed world Krypton, he was raised on a Kansas farm.",
+   "By day he is mild-mannered reporter Clark Kent at the Daily Planet in Metropolis.",
+   "Faster than a speeding bullet, this caped hero wears a red 'S' and can leap tall buildings."
+  ],
+  "after": [
+   "This comic-book hero's creators, two friends from a Cleveland high school, sold all rights to him in 1938 for $130.",
+   "This comic-book hero's best-known weakness first appeared on his radio show in 1943, six years before it reached the comics.",
+   "This comic-book hero could only leap at first; he took to the air in the 1940s, partly because animators thought his leaps looked silly.",
+   "Faster than a speeding bullet, this caped hero wears a red 'S' and can leap tall buildings."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Jerry_Siegel",
+   "2": "https://en.wikipedia.org/wiki/Kryptonite",
+   "3": "https://en.wikipedia.org/wiki/Superman_(1940s_animated_film_series)"
+  },
+  "summary": "Replaced kryptonite, Krypton and Clark Kent with the $130 sale, the radio origin of his weakness (without describing the green rock) and his switch from leaping to flying, and used 'comic-book hero' to avoid 'super'."
+ },
+ {
+  "id": "spider-man",
+  "answer": "Spider-Man",
+  "category": "Pop Culture",
+  "before": [
+   "A bite from a radioactive arachnid gave this shy teenager his powers.",
+   "Peter Parker learns that 'with great power comes great responsibility' after his Uncle Ben dies.",
+   "This web-slinging Marvel hero swings between New York skyscrapers and battles the Green Goblin.",
+   "Nicknamed your 'friendly neighborhood' hero, he shoots webs from his wrists in a red-and-blue suit."
+  ],
+  "after": [
+   "This superhero debuted in 1962 in the last issue of 'Amazing Fantasy,' a comic already due to be cancelled.",
+   "This superhero's 2011 Broadway musical, with songs by Bono and the Edge, cost a record $75 million.",
+   "This superhero learns that 'with great power comes great responsibility' after a burglar he let escape kills his uncle.",
+   "Nicknamed your 'friendly neighborhood' hero, he shoots webs from his wrists in a red-and-blue suit."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Amazing_Fantasy",
+   "2": "https://en.wikipedia.org/wiki/Spider-Man:_Turn_Off_the_Dark",
+   "3": "https://en.wikipedia.org/wiki/Uncle_Ben"
+  },
+  "summary": "Replaced the spider bite, Peter Parker and 'web-slinging' with his debut in a cancelled comic, the record-cost Broadway musical and the burglar who killed his uncle."
+ },
+ {
+  "id": "the-hulk",
+  "answer": "The Hulk",
+  "category": "Pop Culture",
+  "before": [
+   "The angrier he gets, the stronger and bigger he becomes.",
+   "A dose of gamma radiation transformed a mild scientist into this raging green giant.",
+   "Dr. Bruce Banner warns, 'Don't make me angry — you wouldn't like me when I'm angry.'",
+   "This Marvel behemoth, whose catchphrase is 'smash,' bursts out of his shirt but never his purple pants."
+  ],
+  "after": [
+   "This superhero was gray in his first 1962 comic, but printing problems led Marvel to change his color.",
+   "This superhero was born when a scientist pushed a teenager, dared onto a bomb test site, into a trench and took the blast himself.",
+   "This superhero was played on TV from 1977 to 1982 by bodybuilder Lou Ferrigno, covered in green makeup.",
+   "This Marvel behemoth, whose catchphrase is 'smash,' bursts out of his shirt but never his purple pants."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Hulk",
+   "2": "https://en.wikipedia.org/wiki/Hulk",
+   "3": "https://www.pbs.org/wnet/pioneers-of-television/pioneering-people/lou-ferrigno/"
+  },
+  "summary": "Replaced the anger, gamma and misattributed Banner-quote clues with his original gray color, the test-site rescue (without 'gamma') and Lou Ferrigno's TV role."
+ },
+ {
+  "id": "iphone",
+  "answer": "iPhone",
+  "category": "Technology",
+  "before": [
+   "Steve Jobs unveiled it in 2007, mocking rival gadgets that still had plastic keyboards.",
+   "It combined a music player, a phone, and an internet device into one glass touchscreen slab.",
+   "Apple releases a new numbered model of it each year, and fans line up to buy them.",
+   "Running iOS and the App Store, this smartphone is its company's best-selling product."
+  ],
+  "after": [
+   "This device was developed in a locked-down building, guarded by badge readers and cameras, under the code name 'Project Purple.'",
+   "The first model of this device had no copy-and-paste; the feature arrived only with a software update in June 2009.",
+   "A day after this device was unveiled in January 2007, Cisco sued its maker over the name, which Cisco already owned as a trademark.",
+   "Running iOS and the App Store, this smartphone is its company's best-selling product."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://allthingsd.com/20120803/apples-scott-forstall-on-how-project-purple-turned-into-the-iphone/",
+   "2": "https://www.cultofmac.com/apple-history/iphone-os-3-launch",
+   "3": "https://www.cbsnews.com/news/cisco-sues-apple-over-use-of-iphone-name/"
+  },
+  "summary": "Replaced the Steve Jobs, product-description and yearly-model clues with the secret Project Purple building, the missing copy-and-paste and Cisco's trademark lawsuit."
+ },
+ {
+  "id": "hamburger",
+  "answer": "Hamburger",
+  "category": "Food & Drink",
+  "before": [
+   "Despite its name, it contains no pork; the 'ham' part points to a German city, not the meat.",
+   "Its grilled patty of ground beef is served inside a round, often sesame-seeded, bun.",
+   "Fast-food chains like McDonald's sell billions of them, dressed with lettuce, cheese, and pickles.",
+   "Add bacon or swap in a veggie patty, but this bun-and-patty sandwich is a cookout classic."
+  ],
+  "after": [
+   "This sandwich was first sold in the U.S. in 1900 at New Haven's Louis' Lunch, says the Library of Congress, though rival towns dispute it.",
+   "Popeye's freeloading friend Wimpy kept promising to pay on Tuesday for one of these sandwiches today.",
+   "White Castle, founded in Wichita, Kansas, in 1921 and often called the first fast-food chain, was built around this sandwich.",
+   "Add bacon or swap in a veggie patty, but this bun-and-patty sandwich is a cookout classic."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Louis'_Lunch",
+   "2": "https://en.wikipedia.org/wiki/J._Wellington_Wimpy",
+   "3": "https://en.wikipedia.org/wiki/White_Castle_(restaurant)"
+  },
+  "summary": "Removed the 'ham' wordplay and the instant bun-and-patty and McDonald's clues, using the Louis' Lunch claim, Wimpy's Tuesday promise and White Castle instead; dropped the judge's German-port-city clue because it leans on the answer's own name."
+ },
+ {
+  "id": "greece",
+  "answer": "Greece",
+  "category": "Geography",
+  "before": [
+   "It gave the world the Olympic Games, launched in 776 BC in honor of Zeus.",
+   "A Mediterranean land of some 6,000 islands, it is hailed as the birthplace of democracy and philosophy.",
+   "Ancient thinkers like Socrates and Plato taught here, and its myths tell of gods on Mount Olympus.",
+   "With Athens as its capital and whitewashed Santorini for tourists, this is the home of the Parthenon."
+  ],
+  "after": [
+   "This country's national anthem comes from a poem 158 stanzas long, though only its first two stanzas are official.",
+   "Shipowners from this country control the world's largest merchant fleet by carrying capacity.",
+   "Counting every islet, this country has up to 6,000 islands, but fewer than 230 are inhabited; the largest is Crete.",
+   "With Athens as its capital and whitewashed Santorini for tourists, this is the home of the Parthenon."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Hymn_to_Liberty",
+   "2": "https://en.wikipedia.org/wiki/Greek_Merchant_Marine",
+   "3": "https://en.wikipedia.org/wiki/List_of_islands_of_Greece"
+  },
+  "summary": "Replaced the instant Olympics, democracy and Socrates clues with the 158-stanza anthem, the shipping fleet and the island count, dropping the unconfirmed 'longest anthem' claim and opening clue 1 with 'This country'."
+ },
+ {
+  "id": "berlin",
+  "answer": "Berlin",
+  "category": "Cities",
+  "before": [
+   "A wall split it in two for 28 years, and chunks of that barrier are now sold as souvenirs.",
+   "The capital of Germany, it is home to the Brandenburg Gate and the glass-domed Reichstag.",
+   "Once divided into East and West during the Cold War, it reunited when its famous wall fell in 1989.",
+   "This German capital on the river Spree is known for techno clubs and a currywurst snack."
+  ],
+  "after": [
+   "This city's TV tower reflects a cross of sunlight on its steel sphere, nicknamed 'the Pope's revenge' on the atheist regime that built it.",
+   "This city's zoo set off worldwide 'Knutmania' in 2007 with a polar bear cub hand-raised by his keeper after his mother rejected him.",
+   "This city's Tempelhof airport, a lifeline during the 1948–49 airlift, closed in 2008 and is now a public park.",
+   "This German capital on the river Spree is known for techno clubs and a currywurst snack."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Fernsehturm_Berlin",
+   "2": "https://en.wikipedia.org/wiki/Knut_(polar_bear)",
+   "3": "https://en.wikipedia.org/wiki/Tempelhof_Airport"
+  },
+  "summary": "Removed the wall (twice) and 'capital of Germany', using the TV tower's cross, Knut the polar bear and Tempelhof instead; dropped the judge's 'more bridges than Venice' because Hamburg and others make the same claim."
+ },
+ {
+  "id": "tea",
+  "answer": "Tea",
+  "category": "Food & Drink",
+  "before": [
+   "Colonists dumped 342 chests of it into Boston Harbor to protest a British tax in 1773.",
+   "The world's most popular drink after water, it is brewed by steeping dried leaves in hot water.",
+   "Grown mostly in China and India, it comes in green, black, and oolong types from one plant, Camellia sinensis.",
+   "The British love a cup of this leafy brew, often with milk, at four in the afternoon."
+  ],
+  "after": [
+   "This drink, in the form of hard pressed bricks, once served as money in Tibet, Mongolia and Siberia.",
+   "People in Turkey consume more of this drink per person than anywhere else, over 3 kilograms a year each.",
+   "Starting in 1848, botanist Robert Fortune took this drink's plants out of China to India for the East India Company, though China reportedly forbade it.",
+   "The British love a cup of this leafy brew, often with milk, at four in the afternoon."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Tea_brick",
+   "2": "https://en.wikipedia.org/wiki/Tea_in_Turkey",
+   "3": "https://en.wikipedia.org/wiki/Robert_Fortune"
+  },
+  "summary": "Replaced the Boston Tea Party, the how-it's-made description and the green/black/oolong list with tea-brick money, Turkey's per-person record and Robert Fortune's plant collecting."
+ },
+ {
+  "id": "facebook",
+  "answer": "Facebook",
+  "category": "Internet",
+  "before": [
+   "It was born in a Harvard dorm in 2004 and first limited to college students.",
+   "Mark Zuckerberg's social network lets users 'friend' others and post status updates.",
+   "It bought Instagram and WhatsApp, then renamed its parent company Meta.",
+   "The 'like' button and a blue thumbs-up are hallmarks of this social media giant."
+  ],
+  "after": [
+   "This website is mostly blue because its founder is red–green colorblind, and blue is the color he sees best.",
+   "This website, launched in 2004, took its original name from the photo directories of students at some U.S. colleges.",
+   "In 2012 this site's company agreed to pay about $1 billion for a photo-sharing app that had only 13 employees.",
+   "Mark Zuckerberg started this social network, home of the 'like' button and the friend request."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.cbsnews.com/news/five-facts-about-mark-zuckerberg-on-his-30th-birthday/",
+   "2": "https://en.wikipedia.org/wiki/History_of_Facebook",
+   "3": "https://assets.publishing.service.gov.uk/media/555de2e5ed915d7ae200003b/facebook.pdf",
+   "4": "https://en.wikipedia.org/wiki/History_of_Facebook"
+  },
+  "summary": "Replaced the Harvard dorm, Zuckerberg-and-friending and Instagram/WhatsApp/Meta clues with the colorblind blue, the photo-directory name and the 13-person Instagram deal, and rewrote clue 4 so it no longer repeats itself."
+ },
+ {
+  "id": "barcelona",
+  "answer": "Barcelona",
+  "category": "Cities",
+  "before": [
+   "Its unfinished Gaudi church has been under construction for over 140 years.",
+   "The capital of Spain's Catalonia region, it hugs the Mediterranean coast and hosted the 1992 Olympics.",
+   "Fans pack its Camp Nou stadium to watch one of football's most storied clubs.",
+   "Home to Gaudi's Sagrada Familia and Park Guell, this is Spain's second-largest city after Madrid."
+  ],
+  "after": [
+   "This city's 1929 International Exposition on Montjuïc featured a German pavilion by Mies van der Rohe, torn down in 1930 and rebuilt in 1986.",
+   "This city's Eixample district, planned by Ildefons Cerdà, is a grid of octagonal blocks whose cut-off corners widen every intersection.",
+   "To host the 1992 Olympics, this city tore down factories along its seafront and created about 3 kilometers of new beach.",
+   "Home to Gaudí's Sagrada Família and Park Güell, this is Spain's second-largest city after Madrid."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Barcelona_Pavilion",
+   "2": "https://en.wikipedia.org/wiki/Eixample",
+   "3": "https://en.wikipedia.org/wiki/Barcelona",
+   "4": "https://en.wikipedia.org/wiki/Barcelona"
+  },
+  "summary": "Replaced the instant Gaudí church, Catalonia capital and Camp Nou clues with the Mies pavilion, Cerdà's octagonal grid and the Olympic beach rebuild, and fixed the diacritics in clue 4."
+ },
+ {
+  "id": "titanic-ship",
+  "answer": "Titanic",
+  "category": "History",
+  "before": [
+   "Its builders never officially called it 'unsinkable,' but the press did — right up until it sank.",
+   "On its very first voyage in 1912, this British ocean liner struck an iceberg in the North Atlantic.",
+   "More than 1,500 people died, partly because it carried too few lifeboats for all aboard.",
+   "A 1997 James Cameron film about this doomed ship became one of the highest-grossing movies ever."
+  ],
+  "after": [
+   "This ship's lookouts asked for binoculars but had none, and one later told an inquiry that with them the disaster would not have happened.",
+   "This ship's sinking prompted the first Safety of Life at Sea convention, a 1914 treaty requiring lifeboats for everyone aboard.",
+   "A French–American team co-led by Robert Ballard found this ship's wreck in 1985, about 12,500 feet down in the North Atlantic.",
+   "A 1997 James Cameron film about this doomed ship became one of the highest-grossing movies ever."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Frederick_Fleet",
+   "2": "https://www.nationalarchives.gov.uk/explore-the-collection/stories/the-convention-for-the-safety-of-life-at-sea/",
+   "3": "https://en.wikipedia.org/wiki/Wreck_of_the_Titanic"
+  },
+  "summary": "Replaced the 'unsinkable', maiden-voyage and 1,500-dead clues with the missing binoculars, the SOLAS treaty and the 1985 wreck discovery, dropping the judge's disputed locker-key detail."
+ },
+ {
+  "id": "the-moon",
+  "answer": "The Moon",
+  "category": "Space",
+  "before": [
+   "It drifts about 3.8 centimeters farther from us each year, and its pull raises the ocean tides.",
+   "Always showing us the same face, it is scarred with craters and dusty, waterless 'seas.'",
+   "In 1969 Neil Armstrong left the first human footprint on this world during the Apollo 11 mission.",
+   "Earth's only natural satellite, it glows by reflected light and cycles from new to full."
+  ],
+  "after": [
+   "This world is drifting about 3.8 centimeters farther from Earth every year.",
+   "The leading theory says this world formed from debris thrown out when a Mars-sized body slammed into the young Earth.",
+   "The far side of this world was first photographed in 1959, by a Soviet probe.",
+   "Earth's only natural satellite, this world glows by reflected light and cycles from new to full."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.jpl.nasa.gov/news/apollo-11-experiment-continues-to-return-valuable-data/",
+   "2": "https://en.wikipedia.org/wiki/Giant-impact_hypothesis",
+   "3": "https://en.wikipedia.org/wiki/Luna_3",
+   "4": "https://science.nasa.gov/moon/facts/"
+  },
+  "summary": "Removed the tides, craters and Neil Armstrong giveaways in favor of the yearly drift, the giant-impact origin and the 1959 far-side photos, and gave every clue the same 'this world' voice."
+ },
+ {
+  "id": "google",
+  "answer": "Google",
+  "category": "Technology",
+  "before": [
+   "Its name is a play on 'googol,' the number one followed by a hundred zeros.",
+   "Founded by Larry Page and Sergey Brin in 1998, it began as a Stanford research project.",
+   "The world's most-used search engine, its name became a verb for looking things up online.",
+   "Owner of Android and a giant video site, this company reorganized under a parent called Alphabet."
+  ],
+  "after": [
+   "This company began as a 1996 research project that its founders nicknamed 'BackRub.'",
+   "In 1998 this company set up its first office in Susan Wojcicki's garage in Menlo Park, California.",
+   "This company's informal motto, 'Don't be evil,' was dropped from the opening of its code of conduct in 2018.",
+   "Owner of Android and a giant video site, this company reorganized under a parent called Alphabet."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/History_of_Google",
+   "2": "https://en.wikipedia.org/wiki/Susan_Wojcicki",
+   "3": "https://en.wikipedia.org/wiki/Don%27t_be_evil"
+  },
+  "summary": "Replaced the 'googol', Page-and-Brin and most-used-search-engine giveaways with BackRub, the Wojcicki garage and the 'Don't be evil' motto, and corrected the judge's suggestion that the 1998 company was where the research project began."
+ },
+ {
+  "id": "mozart",
+  "answer": "Wolfgang Amadeus Mozart",
+  "category": "Music",
+  "before": [
+   "A child prodigy, he composed his first pieces at five and toured European courts before he was ten.",
+   "This Austrian genius wrote more than 600 works before dying at just 35, buried in an unmarked grave.",
+   "His operas include 'The Magic Flute' and 'The Marriage of Figaro,' and a 1984 film 'Amadeus' dramatized his life.",
+   "A giant of the Classical era, this Salzburg-born composer shares his middle name with that film's title."
+  ],
+  "after": [
+   "As a 14-year-old visiting Rome, this composer reportedly wrote out Allegri's 'Miserere' from memory on the day he first heard it.",
+   "This composer died at 35 with his Requiem unfinished, a work commissioned anonymously by a count who passed off others' music as his own.",
+   "A 1984 Best Picture winner built its plot on a bitter, greatly exaggerated rivalry between this composer and Antonio Salieri.",
+   "A giant of the Classical era, this Salzburg-born composer wrote 'The Magic Flute' and 'Eine kleine Nachtmusik.'"
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Miserere_(Allegri)",
+   "2": "https://en.wikipedia.org/wiki/Requiem_(Mozart)",
+   "3": "https://en.wikipedia.org/wiki/Amadeus_(film)",
+   "4": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+  },
+  "summary": "Swapped the instant child-prodigy and 600-works clues for the Miserere and the secret Requiem commission, removed the film title 'Amadeus', and made clue 4 stand on its own."
+ },
+ {
+  "id": "the-mandalorian",
+  "answer": "The Mandalorian",
+  "category": "Television",
+  "before": [
+   "It turned a big-eared green infant into an instant internet sensation.",
+   "Set in the Star Wars galaxy, it follows a helmeted bounty hunter who never shows his face.",
+   "He becomes the reluctant protector of a Force-sensitive child fans dubbed 'Baby Yoda.'",
+   "This Disney+ series is named for the armored warrior culture its hero belongs to."
+  ],
+  "after": [
+   "This show was shot in 'The Volume', a stage surrounded by giant LED screens that Industrial Light & Magic designed for it to replace green screens.",
+   "This Star Wars series follows a bounty hunter whose creed forbids him to remove his helmet in front of others.",
+   "This show's hero, played by Pedro Pascal, protects a Force-sensitive child named Grogu, whom fans nicknamed 'Baby Yoda'.",
+   "This Disney+ series is named for the armored warrior culture its hero belongs to."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/StageCraft",
+   "2": "https://en.wikipedia.org/wiki/Din_Djarin",
+   "3": "https://en.wikipedia.org/wiki/Grogu"
+  },
+  "summary": "Replaced the Baby Yoda opener with the LED-wall ‘Volume’ fact, fixed the false ‘never shows his face’ claim by citing his helmet creed, and kept Baby Yoda to clue 3 only."
+ },
+ {
+  "id": "spirited-away",
+  "answer": "Spirited Away",
+  "category": "Movies",
+  "before": [
+   "In this movie, a girl's parents eat food that was not meant for them and are turned into pigs.",
+   "It remains the only hand-drawn Japanese film to win the Academy Award for Best Animated Feature.",
+   "Hayao Miyazaki wrote and directed it for Studio Ghibli, setting it in a bathhouse where the witch Yubaba employs the gods.",
+   "In it, Chihiro is renamed Sen and must work in a spirit bathhouse to rescue her parents and find the way home."
+  ],
+  "after": [
+   "This film held Japan's all-time box-office record for 19 years, until a 'Demon Slayer' movie passed it in 2020.",
+   "This film was the first hand-drawn winner of the Oscar for Best Animated Feature, and it stayed the only one for 21 years.",
+   "Hayao Miyazaki based this Studio Ghibli film's 10-year-old heroine on the daughter of a friend who visited him every summer.",
+   "In this film, Chihiro is renamed Sen and must work in a bathhouse for Japanese gods to save her parents, who have been turned into pigs."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Spirited_Away",
+   "2": "https://www.cartoonbrew.com/awards/boy-and-the-heron-is-the-first-hand-drawn-animated-feature-to-win-oscar-in-21-years-238916.html",
+   "3": "https://en.wikipedia.org/wiki/Spirited_Away",
+   "4": "https://en.wikipedia.org/wiki/Spirited_Away"
+  },
+  "summary": "Swapped the plot-summary opener for the box-office record, corrected the outdated Oscar claim, gave clue 3 the real-life origin of the heroine, and removed ‘spirit’ from clue 4."
+ },
+ {
+  "id": "butterfly",
+  "answer": "Butterfly",
+  "category": "Animals",
+  "before": [
+   "It tastes with its feet, standing on a leaf to tell whether it's the right one for its eggs.",
+   "It began life as a crawling caterpillar, then dissolved almost entirely inside a cocoon before rebuilding itself.",
+   "Some kinds migrate thousands of miles, and their scale-covered wings shimmer with colors, a few invisible to us.",
+   "This delicate, bright-winged insect flits between flowers, sipping nectar through a coiled tube."
+  ],
+  "after": [
+   "This insect tastes with its feet, drumming on a leaf to check whether it is the right plant for its eggs.",
+   "Some kinds of this insect migrate thousands of miles, and the tiny scales on its wings reflect ultraviolet patterns that human eyes cannot see.",
+   "This insect starts life as a caterpillar, and most of that body breaks down inside a chrysalis before being rebuilt as an adult.",
+   "This delicate, bright-winged insect flits between flowers, sipping nectar through a coiled tube."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://carleton.ca/biology/description/do-butterflies-really-taste-through-their-feet/",
+   "2": "https://en.wikipedia.org/wiki/Butterfly",
+   "3": "https://en.wikipedia.org/wiki/Butterfly"
+  },
+  "summary": "Gave clue 1 a proper opener, swapped clues 2 and 3 so the caterpillar comes later, and replaced ‘cocoon’ with ‘chrysalis’."
+ },
+ {
+  "id": "street-fighter",
+  "answer": "Street Fighter",
+  "category": "Games",
+  "before": [
+   "It invented the combo by accident, from a bug a developer found while testing the car-smashing bonus stage.",
+   "Its 1991 sequel filled every arcade, chip shop and laundrette with cabinets and started the one-on-one fighting boom.",
+   "Ryu, Chun-Li and Blanka each represent a country on the world map, and Capcom has been reissuing that roster for thirty years.",
+   "Hadouken and Shoryuken are quarter-circle inputs in this Capcom fighting series."
+  ],
+  "after": [
+   "This series found the combo by accident, when its producer noticed extra hits were possible while bug-testing a car-smashing bonus stage.",
+   "Raúl Juliá played the villain in this series' 1994 film, opposite Jean-Claude Van Damme, and died two months before it opened.",
+   "This series' 1991 second game, 'The World Warrior', had eight characters from around the globe and is credited with popularizing one-on-one combat games in the 1990s.",
+   "Ryu hurls his Hadouken fireball with a quarter-circle and a punch in this long-running Capcom series."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Combo_(video_games)",
+   "2": "https://en.wikipedia.org/wiki/Street_Fighter_(1994_film)",
+   "3": "https://en.wikipedia.org/wiki/Street_Fighter_II",
+   "4": "https://en.wikipedia.org/wiki/Hadouken"
+  },
+  "summary": "Fixed clue 1’s opener, replaced the ‘it was popular’ clue with the Raúl Juliá film fact, dropped the instant character names from clue 3, and corrected the Shoryuken input error in clue 4."
+ },
+ {
+  "id": "neuschwanstein-castle",
+  "answer": "Neuschwanstein Castle",
+  "category": "Landmarks",
+  "before": [
+   "A reclusive 'mad' king bankrupted himself building it and drowned mysteriously weeks after being deposed.",
+   "Perched on a Bavarian crag, this fairy-tale fortress was raised in the 1800s for romantic fantasy, not defense.",
+   "King Ludwig II of Germany built it as a private tribute to the operas of Richard Wagner.",
+   "Its turrets and towers inspired the Sleeping Beauty castle at Disneyland."
+  ],
+  "after": [
+   "This castle's builder lived in it for only 172 days before he was declared insane, deposed and found dead in a lake in 1886.",
+   "This castle was dedicated to the work of composer Richard Wagner, who died in 1883 without ever setting foot in it.",
+   "Perched on a Bavarian crag, this fairy-tale fortress was raised in the 1800s for romantic fantasy, not defense.",
+   "Its turrets and towers inspired the Sleeping Beauty castle at Disneyland."
+  ],
+  "changed": [
+   1,
+   2
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Neuschwanstein_Castle",
+   "2": "https://en.wikipedia.org/wiki/Neuschwanstein_Castle"
+  },
+  "summary": "Removed the wrong ‘weeks’ timing and the ‘King of Germany’ error, stopped repeating the king in clue 3 by using the Wagner dedication instead, and moved the easier Bavarian fairy-tale clue to third."
+ },
+ {
+  "id": "bluetooth",
+  "answer": "Bluetooth",
+  "category": "Technology",
+  "before": [
+   "Its logo is two Nordic runes laid on top of each other — the initials of a 10th-century king.",
+   "Ericsson engineers named it for Harald, the Danish king who united warring tribes, as a placeholder that nobody ever got round to replacing.",
+   "It hops between 79 narrow channels some 1,600 times a second in the crowded 2.4 GHz band, dodging the interference from microwaves and wi-fi.",
+   "The short-range wireless standard that pairs your earbuds and your car stereo to your phone."
+  ],
+  "after": [
+   "This technology's logo is two Nordic runes merged into one: the initials of a 10th-century Danish king.",
+   "This standard hops between 79 radio channels 1,600 times a second, a trick film star Hedy Lamarr co-patented in 1942 to keep radio-guided torpedoes from being jammed.",
+   "Dutch engineer Jaap Haartsen developed this technology at Ericsson in Sweden in the 1990s, to cut the cord between a mobile phone and its headset.",
+   "This short-range wireless standard pairs your earbuds and your car stereo with your phone."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Bluetooth",
+   "2": "https://en.wikipedia.org/wiki/Hedy_Lamarr",
+   "3": "https://en.wikipedia.org/wiki/Bluetooth",
+   "4": "https://en.wikipedia.org/wiki/Bluetooth"
+  },
+  "summary": "Dropped the clue that wrongly credited Ericsson with the name and repeated the king, turned the frequency-hopping description into the Hedy Lamarr fact, added the Ericsson headset origin, and fixed the openers of clues 1 and 4."
+ },
+ {
+  "id": "super-bowl",
+  "answer": "Super Bowl",
+  "category": "Sports",
+  "before": [
+   "Its commercials cost millions of dollars for just 30 seconds and are watched as eagerly as the game.",
+   "This annual February showdown crowns the champion of American football's top league.",
+   "A star-studded halftime concert splits its two halves.",
+   "Counted in Roman numerals, this NFL title game is the most-watched U.S. television broadcast each year."
+  ],
+  "after": [
+   "This game's name came from Kansas City Chiefs founder Lamar Hunt, who said he likely thought of it because his children played with a bouncy toy ball.",
+   "This game's first edition, played in Los Angeles in 1967, is the only one that failed to sell out, with about 33,000 seats unsold.",
+   "The National Chicken Council expects Americans to eat about 1.5 billion chicken wings over this game's weekend.",
+   "Counted in Roman numerals, this NFL title game is the most-watched U.S. television broadcast each year."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Lamar_Hunt",
+   "2": "https://en.wikipedia.org/wiki/Super_Bowl_I",
+   "3": "https://www.nationalchickencouncil.org/americans-to-eat-1-48-billion-chicken-wings-for-super-bowl-lx/"
+  },
+  "summary": "Replaced the instant commercials, definition and halftime clues with the name’s origin, the unsold first game and the chicken-wing figure."
+ },
+ {
+  "id": "moby-dick",
+  "answer": "Moby-Dick",
+  "category": "Literature",
+  "before": [
+   "Its famous opening line invites the reader, 'Call me Ishmael.'",
+   "In it, a one-legged captain named Ahab hunts the creature that maimed him, consumed by revenge.",
+   "Herman Melville's 1851 novel follows the whaling ship Pequod across the oceans.",
+   "This American classic is named for the great white whale at the heart of its story."
+  ],
+  "after": [
+   "This novel was a commercial flop and out of print when its author died in 1891; its fame came only after the 1919 centennial of his birth.",
+   "This novel is dedicated to Nathaniel Hawthorne, 'in token of my admiration for his genius'.",
+   "This novel drew on the real sinking of the whaleship Essex, rammed by a sperm whale in the Pacific in 1820.",
+   "This American classic is named for the great white whale at the heart of its story."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Moby-Dick",
+   "2": "https://en.wikipedia.org/wiki/Moby-Dick",
+   "3": "https://en.wikipedia.org/wiki/Moby-Dick"
+  },
+  "summary": "Removed the giveaway opening line, Ahab, Melville and the Pequod, and used the book’s failed launch, its Hawthorne dedication and the Essex sinking instead."
+ },
+ {
+  "id": "medusa",
+  "answer": "Medusa",
+  "category": "Mythology",
+  "before": [
+   "A single glance from her turned any onlooker instantly to stone.",
+   "Once a beautiful maiden, she was cursed so that writhing snakes replaced her hair.",
+   "In Greek myth the hero Perseus beheaded her using a polished shield as a mirror to avoid her gaze.",
+   "One of three monstrous Gorgon sisters, this snake-haired woman was the only mortal among them."
+  ],
+  "after": [
+   "When this monster was beheaded, the winged horse Pegasus sprang from her body.",
+   "This monster was the only mortal one of three sisters; the other two, Stheno and Euryale, were immortal.",
+   "The Italian fashion house Versace uses this monster's face as its logo.",
+   "This snake-haired Gorgon turned anyone who met her gaze to stone, until Perseus cut off her head."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Medusa",
+   "2": "https://en.wikipedia.org/wiki/Medusa",
+   "3": "https://en.wikipedia.org/wiki/Medusa",
+   "4": "https://en.wikipedia.org/wiki/Medusa"
+  },
+  "summary": "Moved the famous stone gaze, snake hair and Perseus into clue 4 and led with lesser-known facts (Pegasus, her immortal sisters, the Versace logo) so the clues no longer repeat each other."
+ },
+ {
+  "id": "world-war-two",
+  "answer": "World War II",
+  "category": "History",
+  "before": [
+   "It ended in 1945 after two atomic bombs fell on Japanese cities.",
+   "The deadliest conflict in history, it pitted the Allied powers against the Axis of Germany, Italy, and Japan.",
+   "Sparked by Hitler's 1939 invasion of Poland, it saw the D-Day landings and the horrors of the Holocaust.",
+   "Following an earlier global conflict a generation before, this six-year struggle was the second of its kind."
+  ],
+  "after": [
+   "This war's Japanese holdout Hiroo Onoda kept fighting on a Philippine island until 1974, dismissing news of its end as enemy propaganda.",
+   "This war's first eight months saw so little fighting on the Western Front that the lull was nicknamed the 'Phoney War.'",
+   "This war's Battle of Stalingrad was the largest and deadliest urban battle in military history.",
+   "D-Day, the Holocaust and the atomic bombings of Hiroshima and Nagasaki all belong to this global conflict, which ended in 1945."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Hiroo_Onoda",
+   "2": "https://en.wikipedia.org/wiki/Phoney_War",
+   "3": "https://en.wikipedia.org/wiki/Battle_of_Stalingrad",
+   "4": "https://en.wikipedia.org/wiki/World_War_II"
+  },
+  "summary": "Replaced the instant clues and the coy name restatement with Onoda, the Phoney War and Stalingrad, saving D-Day, the Holocaust and the atomic bombs for clue 4."
+ },
+ {
+  "id": "tennis",
+  "answer": "Tennis",
+  "category": "Sports",
+  "before": [
+   "In its curious scoring, 'love' means zero, and the count climbs 15, 30, 40 before game point.",
+   "Its oldest and grandest tournament, Wimbledon, is still played on grass, where competitors must dress in white.",
+   "In it, two or four players wield strung rackets to bat a fuzzy yellow ball back and forth over a net.",
+   "In this racket sport, stars like Serena Williams and Roger Federer chase four annual 'Grand Slam' titles."
+  ],
+  "after": [
+   "This sport's early lawn version was patented in 1874 by a British Army major, who sold it in boxed sets as 'Sphairistikè.'",
+   "In 2010 a single match in this sport lasted 11 hours and 5 minutes over three days, with the final set ending 70–68.",
+   "This sport's balls switched from white to 'optic yellow' in 1972, after research showed they were easier to see on television.",
+   "In this racket sport, stars like Serena Williams and Roger Federer chase four annual 'Grand Slam' titles."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Walter_Clopton_Wingfield",
+   "2": "https://en.wikipedia.org/wiki/Isner%E2%80%93Mahut_match_at_the_2010_Wimbledon_Championships",
+   "3": "https://en.wikipedia.org/wiki/Tennis_ball",
+   "4": "https://en.wikipedia.org/wiki/Grand_Slam_(tennis)"
+  },
+  "summary": "Dropped the instant love-15-30-40 scoring, the Wimbledon name and the plain description of play, and used Wingfield’s ‘Sphairistikè,’ the 70–68 marathon match and the switch to yellow balls instead; clue 4 only gets curly quotes."
+ },
+ {
+  "id": "brazil",
+  "answer": "Brazil",
+  "category": "Geography",
+  "before": [
+   "It is the only country in the Americas whose main language is Portuguese, not Spanish or English.",
+   "The largest nation in South America, it holds most of the Amazon rainforest within its borders.",
+   "Famous for Carnival and a record five World Cup football titles, it dances to samba.",
+   "Home to Rio de Janeiro and its Christ the Redeemer statue, this is South America's biggest country."
+  ],
+  "after": [
+   "This country's purpose-built capital rose on its central highlands in just 41 months and was inaugurated in 1960.",
+   "This country takes its name from a tree whose wood yields a historically important red dye.",
+   "This country has the largest Portuguese-speaking population in the world and is the only Portuguese-speaking nation in the Americas.",
+   "Home to Rio de Janeiro and its Christ the Redeemer statue, this is South America's biggest country."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+   "2": "https://en.wikipedia.org/wiki/Paubrasilia",
+   "3": "https://en.wikipedia.org/wiki/Brazil",
+   "4": "https://en.wikipedia.org/wiki/Brazil"
+  },
+  "summary": "Led with the capital built in 41 months and the tree behind the country’s name, moved the Portuguese fact to clue 3, and removed the instant Carnival, samba and World Cup clue and the clue that repeated ‘largest in South America’; clue 4 only gets a curly apostrophe."
+ },
+ {
+  "id": "the-office",
+  "answer": "The Office",
+  "category": "Television",
+  "before": [
+   "In this show, a documentary crew films a Scranton paper company, and the branch manager cannot stop mugging for the camera.",
+   "Its Michael Scott, played by Steve Carell, was adapted from a character Ricky Gervais created and played for the BBC.",
+   "Its American run lasted nine seasons on NBC, following Jim and Pam's slow-burn romance.",
+   "Dunder Mifflin's Scranton branch is the mockumentary workplace of this series, where Dwight Schrute farms beets."
+  ],
+  "after": [
+   "This sitcom left Netflix at the start of 2021 after NBCUniversal paid a reported $500 million for five years of its streaming rights.",
+   "This sitcom survived weak first-season ratings, and its second season was boosted by its star's hit 2005 film 'The 40-Year-Old Virgin.'",
+   "This sitcom was adapted for NBC from a BBC series created by Ricky Gervais and Stephen Merchant.",
+   "Dunder Mifflin's Scranton branch is the mockumentary workplace of this series, where Dwight Schrute farms beets."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.slashfilm.com/567325/the-office-streaming-rights-deal/",
+   "2": "https://en.wikipedia.org/wiki/The_Office_(American_TV_series)_season_2",
+   "3": "https://en.wikipedia.org/wiki/The_Office_(American_TV_series)",
+   "4": "https://en.wikipedia.org/wiki/Dwight_Schrute"
+  },
+  "summary": "Replaced the premise summary and the instant Michael Scott and Jim-and-Pam clues with the $500 million streaming deal, the 40-Year-Old Virgin ratings boost and the BBC origin; clue 4 only gets a curly apostrophe."
+ },
+ {
+  "id": "wimbledon",
+  "answer": "Wimbledon",
+  "category": "Sports",
+  "before": [
+   "Its competitors must dress almost entirely in white, a rule enforced down to the soles of their shoes.",
+   "It is the only one of tennis's four majors still contested on grass.",
+   "Staged in a south-west London suburb since 1877, it is the oldest tennis tournament in the world.",
+   "The All England Club's grass-court major, famous for strawberries and cream and for Federer's eight singles titles."
+  ],
+  "after": [
+   "This tournament has employed a Harris hawk named Rufus to patrol the skies at dawn and scare away pigeons.",
+   "This tournament kept its middle Sunday as a rest day, with play on it only four times in 30 years, until it scrapped the tradition in 2022.",
+   "Martina Navratilova won a record nine women's singles titles at this tournament.",
+   "This grass-court major at London's All England Club is famous for strawberries and cream and its all-white dress code."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.aljazeera.com/sports/2015/7/2/rufus-the-hawk-ruling-wimbledon-skies",
+   "2": "https://www.tennis365.com/news/wimbledon-to-scrap-the-tournaments-middle-sunday-rest-day-from-2022",
+   "3": "https://en.wikipedia.org/wiki/Wimbledon_Championships",
+   "4": "https://en.wikipedia.org/wiki/Wimbledon_Championships"
+  },
+  "summary": "Replaced the near-instant white dress code, grass and oldest-tournament clues with Rufus the hawk, the end of the middle-Sunday rest day and Navratilova’s nine titles, and made clue 4 a full sentence."
+ },
+ {
+  "id": "beethoven",
+  "answer": "Ludwig van Beethoven",
+  "category": "Music",
+  "before": [
+   "He wrote some of his greatest music, including his final symphony, while almost completely deaf.",
+   "This German composer sawed the legs off his piano so he could feel its vibrations through the floor as his hearing failed.",
+   "A bridge from the Classical to the Romantic era, his Fifth Symphony opens with four of the most famous notes in music: da-da-da-DUM.",
+   "This wild-haired composer's Ninth Symphony gave the world the 'Ode to Joy.'"
+  ],
+  "after": [
+   "This composer originally dedicated his Third Symphony to Napoleon, then reportedly tore the title page in half when Napoleon declared himself emperor.",
+   "This composer was born in Bonn and moved to Vienna at 21 to study with Joseph Haydn.",
+   "This composer's piano piece 'Für Elise' was not published until 1867, 40 years after his death.",
+   "This wild-haired composer's Ninth Symphony gave the world the 'Ode to Joy.'"
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Symphony_No._3_(Beethoven)",
+   "2": "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven",
+   "3": "https://en.wikipedia.org/wiki/F%C3%BCr_Elise",
+   "4": "https://en.wikipedia.org/wiki/Symphony_No._9_(Beethoven)"
+  },
+  "summary": "Removed the instant deafness clue, the poorly sourced piano-legs story and the da-da-da-DUM giveaway, and used the Napoleon dedication, his move from Bonn to study with Haydn, and the late publication of ‘Für Elise’; clue 4 only gets curly quotes."
+ },
+ {
+  "id": "magnet",
+  "answer": "Magnet",
+  "category": "Science",
+  "before": [
+   "Cut one of these in half and you don't get a separate 'north' and 'south' — each piece instantly has both ends again.",
+   "Every one has two opposite ends; like ends shove apart while opposite ends snap together.",
+   "The Earth itself behaves like a giant one, which is why a compass needle always swings to point north.",
+   "This piece of iron or steel invisibly tugs other metal toward it and pins notes to your fridge."
+  ],
+  "after": [
+   "The strongest permanent kind of this everyday object is made with the rare-earth metal neodymium, and two can strike each other hard enough to shatter.",
+   "This object loses its pull above the 'Curie temperature,' named for Pierre Curie, which for iron is about 770 °C.",
+   "The Earth behaves like a giant version of this object, thanks to molten iron churning in its outer core.",
+   "This object pulls iron and steel toward it without touching them, and pins notes to your fridge."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Neodymium_magnet",
+   "2": "https://en.wikipedia.org/wiki/Curie_temperature",
+   "3": "https://en.wikipedia.org/wiki/Earth%27s_magnetic_field",
+   "4": "https://en.wikipedia.org/wiki/Magnet"
+  },
+  "summary": "Replaced the two overlapping north-and-south-pole clues and the compass giveaway with neodymium, the Curie temperature and Earth’s molten core, so each clue covers a separate fact and none uses a word containing the answer."
+ },
+ {
+  "id": "nelson-mandela",
+  "answer": "Nelson Mandela",
+  "category": "History",
+  "before": [
+   "He spent 27 years behind bars, much of it breaking rocks on a prison island, before walking free to lead his country.",
+   "He fought to bring down apartheid, the brutal system of racial segregation in South Africa.",
+   "In 1994 he became South Africa's first Black president, chosen in its first fully democratic election.",
+   "This Nobel Peace laureate became a worldwide symbol of reconciliation and forgiveness."
+  ],
+  "after": [
+   "This leader stayed on a U.S. terrorism watch list until 2008, nine years after he stepped down as his country's president.",
+   "A keen amateur boxer in his youth, he went on to open a Johannesburg law firm with Oliver Tambo in the early 1950s.",
+   "Freed in 1990, he shared the 1993 Nobel Peace Prize with F. W. de Klerk, the president who released him.",
+   "This anti-apartheid hero spent 27 years in prison and became South Africa's first Black president in 1994."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.cnn.com/2008/WORLD/africa/07/01/mandela.watch/",
+   "2": "https://en.wikipedia.org/wiki/Nelson_Mandela",
+   "3": "https://en.wikipedia.org/wiki/Nelson_Mandela",
+   "4": "https://en.wikipedia.org/wiki/Nelson_Mandela"
+  },
+  "summary": "Replaced the three most famous facts with the watch list, boxing and law firm, and the shared Nobel, and moved prison and the presidency into a sharper clue 4; dropped the judge’s “first Black-run law firm” because the Nelson Mandela Foundation says earlier Black-owned firms existed and sources disagree on 1952 versus 1953."
+ },
+ {
+  "id": "michael-jackson",
+  "answer": "Michael Jackson",
+  "category": "Music",
+  "before": [
+   "He debuted a backward-gliding dance called the moonwalk on a 1983 TV special.",
+   "A child star with his brothers' group, he grew into a solo superstar with a single sequined glove.",
+   "His 1982 album 'Thriller' remains the best-selling album of all time.",
+   "This 'Pop' royalty sang 'Billie Jean' and 'Beat It' and moonwalked into music history."
+  ],
+  "after": [
+   "This singer's hair caught fire in 1984 when fireworks went off too early while he was filming a Pepsi commercial.",
+   "In 1985 he paid $47.5 million for a music catalogue that held the rights to about 250 Beatles songs, to Paul McCartney's dismay.",
+   "While still singing lead in his brothers' Motown group, he reached his first solo No. 1 in 1972 with the title song of the killer-rat film 'Ben'.",
+   "This moonwalking singer recorded 'Billie Jean' and 'Beat It' for 'Thriller', the best-selling album of all time."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://bestclassicbands.com/michael-jackson-pepsi-commercial-1-27-17/",
+   "2": "https://www.mentalfloss.com/article/85007/how-michael-jackson-bought-publishing-rights-beatles-catalogue",
+   "3": "https://en.wikipedia.org/wiki/Ben_(song)",
+   "4": "https://www.guinnessworldrecords.com/world-records/70133-best-selling-album"
+  },
+  "summary": "Moved the moonwalk, glove and ‘Thriller’ out of the early clues in favor of the Pepsi fire, the Beatles catalogue and his first solo No. 1, and rewrote clue 4 without the banned “King of Pop” the judge suggested."
+ },
+ {
+  "id": "twitter",
+  "answer": "Twitter",
+  "category": "Internet",
+  "before": [
+   "Its co-founder's first post, in March 2006, read 'just setting up my twttr.'",
+   "Posts were capped at 140 characters, a limit borrowed from text messages, until it doubled in 2017.",
+   "Elon Musk bought it for $44 billion in 2022.",
+   "The blue-bird social network where posts were called tweets, renamed X in 2023."
+  ],
+  "after": [
+   "This site grew out of Odeo, a podcasting start-up whose plans fell apart after Apple built podcasts into iTunes in 2005.",
+   "Its co-founder Jack Dorsey's first post, from 2006, sold as an NFT in 2021 for about $2.9 million.",
+   "Its logo bird was named Larry, after the Boston Celtics star Larry Bird.",
+   "This social network, where posts were called tweets, was bought by Elon Musk in 2022 and renamed X in 2023."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.nbcnews.com/id/wbna42577600",
+   "2": "https://www.cnbc.com/2021/03/22/twitter-ceo-jack-dorseys-first-tweet-nft-sells-for-2point9-million.html",
+   "3": "https://www.nbcsports.com/nba/news/twitters-iconic-bird-logo-is-named-larry-after-you-know-who",
+   "4": "https://en.wikipedia.org/wiki/X_(social_network)"
+  },
+  "summary": "Replaced the instant ‘twttr’, 140-character and Musk clues with the Odeo origin, the $2.9 million NFT and Larry the Bird, and made clue 4 a full sentence."
+ },
+ {
+  "id": "zebra",
+  "answer": "Zebra",
+  "category": "Animals",
+  "before": [
+   "It is black-skinned with white stripes — not the reverse — and every individual's pattern is unique.",
+   "Those stripes may double as bug spray, baffling biting flies that try to land on it.",
+   "A wild African cousin of the horse, it has foiled every attempt to tame and ride it.",
+   "This striped, horse-like grazer roams the African plains in herds, often mixed in with wildebeest."
+  ],
+  "after": [
+   "A group of these African grazers is called a 'dazzle', and no two of them carry exactly the same markings.",
+   "In a 2019 study, biting horseflies struggled to land on this animal, failing to slow down as they neared its patterned coat.",
+   "This wild cousin of the horse has never been truly domesticated, though the zoologist Walter Rothschild drove a carriage pulled by them to Buckingham Palace.",
+   "This striped, horse-like grazer roams the African plains in herds, often mixed in with wildebeest."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.dictionary.com/e/strange-animal-groups-listicle/",
+   "2": "https://www.sciencedaily.com/releases/2019/02/190220145032.htm",
+   "3": "https://en.wikipedia.org/wiki/Zebra"
+  },
+  "summary": "Took the stripes out of clues 1 and 2 and the “African cousin of the horse” out of clue 3, replacing them with the ‘dazzle’ group name, the 2019 horsefly study and Rothschild’s carriage, and softened “every attempt to tame” to “never truly domesticated”."
+ },
+ {
+  "id": "drums",
+  "answer": "Drums",
+  "category": "Music",
+  "before": [
+   "Its player keeps time by clicking sticks and counting off before the band comes in.",
+   "Struck with sticks, brushes, or the hands, its stretched skins and metal cymbals set a song's rhythm.",
+   "A rock kit of these pairs a foot-pedal bass, a snare, and hanging toms with crash and hi-hat cymbals.",
+   "The backbone of a band's rhythm section, this percussion instrument is what Ringo Starr famously played."
+  ],
+  "after": [
+   "This instrument is what Def Leppard's Rick Allen kept playing after he lost his left arm in a 1984 car crash.",
+   "Some West African versions of this instrument can 'talk' by copying the rise and fall of spoken language.",
+   "Phil Collins and Dave Grohl both played this instrument in famous bands before becoming lead singers.",
+   "The backbone of a band's rhythm section, this percussion instrument is what Ringo Starr famously played."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Rick_Allen_(drummer)",
+   "2": "https://en.wikipedia.org/wiki/Talking_drum",
+   "3": "https://en.wikipedia.org/wiki/Phil_Collins"
+  },
+  "summary": "Replaced three descriptions of how the instrument is played with facts about Rick Allen, West African talking versions and drummers who became singers, opening clue 1 with “This instrument”."
+ },
+ {
+  "id": "guitar",
+  "answer": "Guitar",
+  "category": "Music",
+  "before": [
+   "Pressing a string against the metal ridges along its neck shortens it, raising the note it sounds.",
+   "It usually carries six strings, plucked or strummed over a hollow wooden body or a solid electric one.",
+   "Amplified and electrified, it became the driving engine of rock and roll.",
+   "This six-stringed instrument, played by flamenco masters and rock stars alike, is among the world's most popular."
+  ],
+  "after": [
+   "This instrument's first commercially successful electric version, a cast-aluminum model from the early 1930s, was nicknamed the 'Frying Pan'.",
+   "The one Kurt Cobain played on 'MTV Unplugged' sold at auction in 2020 for just over $6 million, then a record for this instrument.",
+   "Around 1940 the musician Les Paul built 'the Log', an early solid-body electric version of this instrument made from a block of pine.",
+   "This six-stringed instrument, played by flamenco masters and rock stars alike, is among the world's most popular."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Frying_Pan_(guitar)",
+   "2": "https://newatlas.com/kurt-cobain-mtv-unplugged-martin-guitar-sale-auction-6-million/",
+   "3": "https://guitar.com/features/opinion-analysis/how-les-pauls-log-guitar-changed-everything/"
+  },
+  "summary": "Replaced the descriptions of frets, strings and rock’s sound with the ‘Frying Pan’, Cobain’s record auction and Les Paul’s ‘Log’, softening “first sold to the public” to “first commercially successful” to match the source."
+ },
+ {
+  "id": "friends",
+  "answer": "Friends",
+  "category": "Television",
+  "before": [
+   "Its theme song urges you to clap along: 'I'll Be There for You.'",
+   "Set mostly in a purple apartment and a coffee house called Central Perk, it followed six young New Yorkers.",
+   "In it, Ross, Rachel, Monica, Chandler, Joey, and Phoebe navigated dating and careers over ten seasons in the 1990s.",
+   "This hugely popular NBC sitcom about a tight-knit group of pals defined must-see TV."
+  ],
+  "after": [
+   "This sitcom was developed under the working title 'Insomnia Cafe' and later called 'Six of One' before it got its final name.",
+   "Its 2004 finale drew 52.5 million U.S. viewers, the biggest audience for an entertainment show since the 'Seinfeld' finale.",
+   "Its six stars bargained for their pay as a group, and in the last two seasons each earned $1 million an episode.",
+   "This hugely popular NBC sitcom about a tight-knit group of pals defined must-see TV."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Friends",
+   "2": "https://en.wikipedia.org/wiki/Friends",
+   "3": "https://en.wikipedia.org/wiki/Friends"
+  },
+  "summary": "Dropped the theme song, Central Perk and the six character names for the working titles, the finale ratings and the $1 million group pay deal, and left out the judge’s fountain and Central Perk clues as too instant for clue 2 or 3."
+ }
+]
