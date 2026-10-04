@@ -177,6 +177,26 @@ rubric file and its own results file, with the same export and ingest steps.
 Each result records the rubric version that judged it, so skipping works per
 pass. It isn't built yet; add it when there's a second rubric to run.
 
+## Rewriting clues in bulk
+
+`pipeline/fix-clues.ts` turns the judge's notes into rewritten clues, in the
+same export and ingest pattern:
+
+1. Judge the questions first (`pnpm eval-clues --ids …`, or a session run).
+2. `pnpm pipeline pipeline/fix-clues.ts --export pipeline/data/fix-tasks --ids a,b --notes notes.json`
+   writes one `fixer-NNN.txt` per 10 questions. `--notes` is optional: a JSON
+   object of Brian's notes keyed by question id, which outrank the judge.
+3. Give each file to a fresh subagent that can search the web. It must
+   confirm every new fact with a search and cite a source for each changed
+   clue. It writes `fixer-NNN.answer.json`.
+4. `pnpm pipeline pipeline/fix-clues.ts --apply pipeline/data/fix-tasks`
+   checks each rewrite and writes the good ones into `extraBank.ts`. It
+   checks for four clues, the leak rule, a source for every changed clue,
+   and that nothing was edited since export. What changed is listed in
+   `changes.json`, and what it refused in `rejected.json`.
+5. Re-judge the edited questions, run the tests, and show Brian the before
+   and after. Nothing reaches players until the change merges.
+
 ## Improving a question with it
 
 1. Pick a question from `results/report.md` or `results/fixes.md`. Both list

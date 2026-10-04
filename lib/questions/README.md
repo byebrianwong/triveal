@@ -70,9 +70,9 @@ reason, examples inside the list must not come from a question in
   facts, for example a person, a number, a piece of history and an odd
   detail. Don't spread one idea, such as "it became a hit", over two clues.
 - **Be specific to the answer.** If a fact could fit many answers, add the
-  detail that ties it back. "Its director took a smaller fee in exchange
-  for the merchandising rights" could describe several films. Saying what
-  those rights went on to earn ties it to one.
+  detail that ties it back. "This album sold millions of copies" could
+  describe hundreds of albums. A detail only one album has, such as where or
+  how it was recorded, ties it to that one.
 - **No giveaway words before clue 4.** Words like "Hogwarts",
   "web-slinger" or "the Big Apple" settle the question on their own.
 - **None of the first three clues should be instant.** Clues 2 and 3 can be
