@@ -196,6 +196,76 @@ Reply with only a JSON object, with no other text and no code fence. Its keys ar
 ${JSON.stringify(JUDGE_SCHEMA)}`;
 }
 
+/** What a rewriter gets for one question: its judgement and any notes from Brian. */
+export interface FixItem {
+  q: Question;
+  judge: {
+    summary: string;
+    verdict: string;
+    clues: { note: string; fix: string }[];
+  };
+  ownerNotes?: string;
+}
+
+/**
+ * One subagent rewrites the clues of the questions given. Unlike the judge,
+ * it must research: every new claim needs a source.
+ */
+export function fixerTaskPrompt(items: FixItem[], houseRules: string): string {
+  const blocks = items
+    .map(({ q, judge, ownerNotes }) => {
+      const names = [q.answer, ...q.answerAliases].map((n) => `"${n}"`).join(", ");
+      const clues = [...q.clues]
+        .sort((a, b) => a.position - b.position)
+        .map((c, i) => {
+          const j = judge.clues[i];
+          return [
+            `Clue ${c.position}: ${c.text}`,
+            j?.note ? `  Judge's note: ${j.note}` : "  Judge's note: (none)",
+            j?.fix ? `  Judge's suggested rewrite (facts unchecked): ${j.fix}` : "",
+          ]
+            .filter(Boolean)
+            .join("\n");
+        })
+        .join("\n");
+      return `<question id="${q.id}">
+Answer: ${q.answer}
+Names that must not appear in any clue, even inside a longer word: ${names}
+Category: ${q.category}
+
+${clues}
+
+Judge's verdict: ${judge.verdict}. ${judge.summary}${ownerNotes ? `\nThe owner's notes (these outrank the judge): ${ownerNotes}` : ""}
+</question>`;
+    })
+    .join("\n\n");
+
+  return `You rewrite clues for Triveal, a daily trivia game. A judge has reviewed each question below against the game owner's rules, and your job is to give each one a better set of four clues.
+
+How the game works: each question has one answer and four clues, shown one at a time from hardest (clue 1) to easiest (clue 4), with the category visible. Solving on clue 1 scores 10 points, then 8, 6 and 4. A typical player is a casual one: a smart adult with general knowledge, not a trivia buff. They should usually solve on clue 2 or 3.
+
+The owner's rules:
+
+<rules>
+${houseRules}
+</rules>
+
+For each question:
+- Fix every problem the judge or the owner raised. The judge's suggested rewrites are a starting point; write better ones if you can.
+- Keep a clue word for word if nothing is wrong with it. You may move clues around so the hardest comes first.
+- Keep exactly four clues, each one sentence (or two short ones) and under 180 characters. Use the same voice in all four.
+- No clue may contain the answer or any of the listed names, even inside a longer word, and no distinctive word from the answer's name.
+- Every claim in a clue you change or add must be true. Check each one with a web search before you use it, including claims in the judge's suggestions. If you can't confirm a claim from a reliable source, don't use it.
+- Use real typography: em dashes and proper diacritics, like the existing clues.
+- Don't change the answer, the category or anything else about the question.
+
+${blocks}
+
+When you're done, write only a JSON object, with no other text and no code fence. Its keys are the question ids. Each value is:
+{"clues": ["clue 1", "clue 2", "clue 3", "clue 4"], "sources": {"1": "https://..."}, "summary": "one sentence on what you changed and why"}
+"sources" maps the position of every clue you changed or added to the URL that confirms it. A clue kept word for word needs no source.`;
+}
+
 /**
  * One subagent plays one round: every question with its first `revealed`
  * clues. Questions carry opaque ids (q1, q2, ...) because a bank id such as

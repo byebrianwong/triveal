@@ -11,7 +11,10 @@
  * harder.
  *
  * Most of these were written to the older spec §2.2 rules, which put
- * misdirection first, so many are easier than we now want. The current rules
+ * misdirection first, so many are easier than we now want. On 2026-10-04, 50
+ * of them were rewritten to the current rules with pipeline/fix-clues.ts;
+ * the before and after, with a source for each new fact, are in
+ * clueEval/results/rewrites-2026-10-04.json. The current rules
  * for writing and rewriting clues are in lib/questions/README.md, under "What
  * makes a good question". Follow those, not the style of the entries below.
  *
@@ -354,9 +357,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Landmarks",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "It seems to shift color through the day — blushing pink at dawn, white at noon, and golden by moonlight." },
-      { position: 2, text: "A grieving emperor built it as a tomb for his beloved wife; some 20,000 workers labored on it for about two decades." },
-      { position: 3, text: "Perfectly symmetrical and clad in white marble inlaid with gemstones, it rests beside the Yamuna River in Agra, India." },
+      { position: 1, text: "This building seems to shift color through the day — pink at dawn, white at noon and golden by moonlight." },
+      { position: 2, text: "This building's four minarets tilt slightly outward, so that if one ever collapsed it would fall away from the tomb." },
+      { position: 3, text: "During World War II, and again in the 1965 and 1971 wars with Pakistan, this building was disguised with scaffolding to fool bomber pilots." },
       { position: 4, text: "This 17th-century mausoleum is India's most famous building and a jewel of Mughal architecture." },
     ],
     decoys: [
@@ -480,9 +483,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Food & Drink",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "The ancient Maya and Aztecs drank it bitter and spiced, and even used its beans as money." },
+      { position: 1, text: "This treat was drunk bitter and spiced by the Maya and Aztecs, who also used the beans it is made from as money." },
       { position: 2, text: "Pressed from the fermented, roasted seeds of a tropical tree, it melts at just below human body temperature." },
-      { position: 3, text: "Poisonous to dogs thanks to a compound called theobromine, it is sold in dark, milk, and white forms." },
+      { position: 3, text: "Theobromine, the compound that makes it poisonous to dogs, takes its name from the Greek for 'food of the gods'." },
       { position: 4, text: "This sweet treat, made from cacao, fills Easter eggs and Valentine's boxes." },
     ],
     decoys: [
@@ -498,9 +501,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Music",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "A record label turned them down in 1962, declaring that guitar groups were 'on the way out.'" },
-      { position: 2, text: "This four-piece from a northern English port city still holds the record for the most number-one hits on the U.S. charts." },
-      { position: 3, text: "Made up of John, Paul, George, and Ringo, they quit touring in 1966 to pour themselves into studio albums like 'Sgt. Pepper.'" },
+      { position: 1, text: "This band was turned down by Decca Records in 1962, reportedly told that 'guitar groups are on the way out.'" },
+      { position: 2, text: "This band still holds the record for the most number-one hits on the U.S. Billboard Hot 100, with 20." },
+      { position: 3, text: "This band's last public performance was an unannounced 1969 concert on the roof of its London headquarters, cut short by police." },
       { position: 4, text: "This Liverpool rock band of the 1960s recorded 'Hey Jude' and 'Let It Be.'" },
     ],
     decoys: [
@@ -642,7 +645,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Landmarks",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its finest stones are cut and fitted so tightly, without any mortar, that a knife blade cannot slip between them." },
+      { position: 1, text: "This site's sacred Intihuatana stone was chipped in 2000 when a crane fell on it during the filming of a beer commercial." },
       { position: 2, text: "Built around 1450 and abandoned barely a century later, it slipped past the Spanish conquistadors entirely." },
       { position: 3, text: "Perched on a ridge high in the Peruvian Andes, it was brought to the world's attention by explorer Hiram Bingham in 1911." },
       { position: 4, text: "This mist-wrapped stone citadel is the most famous ruin of the Inca Empire." },
@@ -1092,9 +1095,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "In liquid form it is a pale sky-blue and, oddly, is drawn toward a magnet." },
-      { position: 2, text: "It makes up about a fifth of the air you breathe and roughly half of the Earth's crust by weight." },
-      { position: 3, text: "With the chemical symbol O and atomic number 8, it is released by plants and required for any fire to burn." },
+      { position: 1, text: "This element is pale sky-blue as a liquid and, oddly, is drawn toward a magnet." },
+      { position: 2, text: "It makes up roughly half of the Earth's crust by weight, locked inside rocks and minerals." },
+      { position: 3, text: "Ozone, which screens out much of the sun's ultraviolet light, is a three-atom form of this element, whose atomic number is 8." },
       { position: 4, text: "This colorless gas, essential to breathing, joins with hydrogen to form water." },
     ],
     decoys: [
@@ -1866,9 +1869,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its fingerprints are so like a human's that even under a microscope they are nearly impossible to tell apart." },
-      { position: 2, text: "It sleeps up to 20 hours a day, drowsy on a diet of toxic leaves almost nothing else can stomach." },
-      { position: 3, text: "A tree-dwelling Australian marsupial, it raises its young in a pouch and is often wrongly called a 'bear.'" },
+      { position: 1, text: "This animal's fingerprints are so like a human's that even under a microscope they are nearly impossible to tell apart." },
+      { position: 2, text: "Its babies eat a special form of their mother's droppings, called pap, to pick up the gut microbes they need to digest leaves." },
+      { position: 3, text: "It sleeps up to 20 hours a day, drowsy on a diet of toxic leaves almost nothing else can stomach." },
       { position: 4, text: "This fuzzy, big-nosed eucalyptus-muncher clings to gum trees in the Australian bush." },
     ],
     decoys: [
@@ -2478,9 +2481,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Cities",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its subway stations are so grand, with chandeliers and marble, that they're called 'palaces of the people.'" },
-      { position: 2, text: "At its center stands a fortress called the Kremlin, beside a famous square paved in red brick." },
-      { position: 3, text: "The largest city in Europe, this frigid capital is watched over by the swirling onion domes of St. Basil's Cathedral." },
+      { position: 1, text: "This city's subway stations are so grand, with chandeliers and marble, that they're called 'palaces of the people.'" },
+      { position: 2, text: "This city's seven Stalin-era skyscrapers, built after World War II, are nicknamed the 'Seven Sisters.'" },
+      { position: 3, text: "Napoleon captured this city in 1812, only to find it nearly empty and soon in flames." },
       { position: 4, text: "This is the capital of Russia, seat of the Kremlin and Red Square." },
     ],
     decoys: [
@@ -2550,9 +2553,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "History",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "One of America's most important founders, he never became president — yet his face is on its largest common bill." },
-      { position: 2, text: "He flew a kite in a thunderstorm to study electricity, then invented the lightning rod and bifocal glasses." },
-      { position: 3, text: "A printer, writer, and diplomat, he helped draft the Declaration of Independence and won France's aid in the Revolution." },
+      { position: 1, text: "This founder was the only person to sign all four of these: the Declaration of Independence, the alliance with France, the peace treaty with Britain and the Constitution." },
+      { position: 2, text: "At 11 he invented swim fins worn on the hands, and in 1968 he was inducted into the International Swimming Hall of Fame." },
+      { position: 3, text: "Under the pen name Richard Saunders, he put out a yearly almanac that popularized sayings like 'Early to bed and early to rise.'" },
       { position: 4, text: "This bespectacled polymath grins from the U.S. hundred-dollar bill, though he never held the presidency." },
     ],
     decoys: [
@@ -2856,9 +2859,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Literature",
     difficulty: "hard",
     clues: [
-      { position: 1, text: "Its hero blinds a one-eyed giant, then foolishly shouts his own name and earns a sea god's wrath." },
-      { position: 2, text: "Its long voyage home features a witch named Circe, the deadly Sirens, and the whirlpool Charybdis." },
-      { position: 3, text: "Attributed to the Greek poet Homer, this epic follows Odysseus's ten-year journey back from the Trojan War." },
+      { position: 1, text: "This epic's character Mentor, whose form the goddess Athena takes to guide the hero's son, gave his name to the word 'mentor'." },
+      { position: 2, text: "Its hero blinds a one-eyed giant, then foolishly shouts his own name and earns a sea god's wrath." },
+      { position: 3, text: "Like the Iliad, this epic is attributed to the Greek poet Homer, and it follows its hero's ten-year journey home from the Trojan War." },
       { position: 4, text: "Its title, drawn from the hero's name, has become a word for any long, wandering adventure." },
     ],
     decoys: [
@@ -2964,9 +2967,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its opening words scroll up the screen and into the distance: 'A long time ago in a galaxy far, far away.'" },
-      { position: 2, text: "In it, a farm boy, a smuggler, and a princess battle an evil Empire wielding glowing laser swords." },
-      { position: 3, text: "George Lucas created this space saga, whose villain breathes heavily behind a black mask: Darth Vader." },
+      { position: 1, text: "This 1977 film's director took a smaller fee to keep the merchandising rights, and the toys and other goods sold under them have since topped $20 billion." },
+      { position: 2, text: "Harrison Ford was working as a carpenter when he was asked to read lines with actors auditioning for this film, and he ended up cast as its smuggler." },
+      { position: 3, text: "James Earl Jones voiced this saga's masked villain but asked to go uncredited in the 1977 original, saying he was 'just special effects.'" },
       { position: 4, text: "In this franchise, Luke Skywalker learns to use 'the Force,' aided by Yoda and the droids R2-D2 and C-3PO." },
     ],
     decoys: [
@@ -2982,9 +2985,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "In this movie, a twister carries a Kansas farm girl and her dog Toto over the rainbow to a Technicolor land." },
-      { position: 2, text: "In it, Dorothy follows a yellow brick road, gaining a scarecrow, a tin man, and a cowardly lion along the way." },
-      { position: 3, text: "She seeks a humbug 'great and powerful' ruler hiding behind a curtain in an Emerald City." },
+      { position: 1, text: "This film changed the color of its magic shoes, which were silver in the book, to show off the Technicolor process." },
+      { position: 2, text: "This film's best-known song was nearly cut because the studio felt a slow ballad so early stalled the story; it then won the Oscar for Best Original Song." },
+      { position: 3, text: "Buddy Ebsen was hospitalized and had to quit this film when the aluminum dust in his metallic makeup coated his lungs." },
       { position: 4, text: "In this 1939 musical, ruby slippers and the chant 'There's no place like home' send Dorothy back to Kansas." },
     ],
     decoys: [
@@ -3216,9 +3219,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "hard",
     clues: [
-      { position: 1, text: "Einstein built his theory of relativity on the rule that nothing can exceed it." },
-      { position: 2, text: "It is the universe's ultimate limit, roughly 300,000 kilometers every second in a vacuum." },
-      { position: 3, text: "Because it is finite, distant stars we see may have died long ago; their glow is only now arriving." },
+      { position: 1, text: "This physical constant was first shown to have a measurable value in 1676, when Danish astronomer Ole Rømer timed the eclipses of Jupiter's moon Io." },
+      { position: 2, text: "Since 1983 its value has been fixed exactly by definition, and the meter itself is now defined by it." },
+      { position: 3, text: "Because it is finite, we see distant stars as they were long ago, and a few may have burned out since." },
       { position: 4, text: "Physicists label this cosmic top speed with the letter c." },
     ],
     decoys: [
@@ -3558,9 +3561,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "It strips leaves from a twig to 'fish' termites out of their mounds, one of many tools it uses." },
-      { position: 2, text: "Sharing about 98% of our DNA, it is our closest living relative and wages organized warfare between troops." },
-      { position: 3, text: "Jane Goodall spent decades studying these apes in Tanzania's Gombe forest." },
+      { position: 1, text: "This ape has been seen waging war: in 1970s Tanzania, one community spent four years killing off all the males of a breakaway group." },
+      { position: 2, text: "This ape strips leaves from a twig to 'fish' termites out of their mounds, one of many tools it uses." },
+      { position: 3, text: "In 1961, one of these apes, named Ham, became the first ape ever launched into space." },
       { position: 4, text: "This tailless African ape, smaller than a gorilla, is famous for its intelligence and expressive face." },
     ],
     decoys: [
@@ -3702,9 +3705,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Geography",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "It is the only continent that is also a single country, and one nation governs it entirely." },
-      { position: 2, text: "The smallest, flattest, and driest inhabited continent, its vast red interior is called the Outback." },
-      { position: 3, text: "Cut off for ages, it evolved unique animals like kangaroos, koalas, and the platypus." },
+      { position: 1, text: "This country built its capital from scratch because its two largest cities were rivals and neither would accept the other." },
+      { position: 2, text: "This country's fence for keeping wild dogs away from sheep runs about 5,600 kilometers, one of the longest structures on Earth." },
+      { position: 3, text: "In 1932 this country sent soldiers with machine guns to cull a large flightless bird, and the so-called war failed." },
       { position: 4, text: "Home to Sydney and the Great Barrier Reef, this 'Land Down Under' sits between the Indian and Pacific oceans." },
     ],
     decoys: [
@@ -3720,9 +3723,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Geography",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Scientists trace all of humankind's roots back to it, making it the cradle of our species." },
-      { position: 2, text: "The second-largest continent, it straddles the equator and holds the world's longest river and biggest hot desert." },
-      { position: 3, text: "It contains 54 countries, more than any other continent, from Egypt in the north to South Sudan and beyond." },
+      { position: 1, text: "This is the only continent crossed by both the equator and the prime meridian." },
+      { position: 2, text: "This continent has the world's youngest population, with a median age under 20." },
+      { position: 3, text: "This continent has 54 countries, more than any other." },
       { position: 4, text: "Home to the Serengeti's lions and elephants, this continent lies south of Europe across the Mediterranean." },
     ],
     decoys: [
@@ -4080,8 +4083,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "History",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "At its height a citizen could travel from Britain to the Persian Gulf without ever leaving its borders." },
-      { position: 2, text: "Ruled from a city on seven hills, it built roads, aqueducts, and the Colosseum across three continents." },
+      { position: 1, text: "At this empire's height, a traveller could go from Britain to the Persian Gulf without ever leaving its borders." },
+      { position: 2, text: "One of this empire's rulers was said to have planned to make his favourite horse, Incitatus, a consul." },
       { position: 3, text: "It began when Augustus became its first emperor and split in two before its western half fell in 476 AD." },
       { position: 4, text: "Spanning the Mediterranean it called 'our sea,' this ancient superpower spread Latin and its legions across Europe." },
     ],
@@ -4242,9 +4245,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "History",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its crew left behind a plaque reading 'We came in peace for all mankind.'" },
-      { position: 2, text: "In July 1969 this mission carried three astronauts toward a target a quarter-million miles away." },
-      { position: 3, text: "Its lunar module, the Eagle, touched down as Houston heard 'the Eagle has landed.'" },
+      { position: 1, text: "This mission's crew left behind a plaque reading 'We came in peace for all mankind.'" },
+      { position: 2, text: "President Nixon congratulated this mission's crew through the window of a sealed quarantine trailer aboard the USS Hornet." },
+      { position: 3, text: "This mission's third astronaut, Michael Collins, orbited alone in the command module while his two crewmates walked on the lunar surface." },
       { position: 4, text: "On this NASA flight Neil Armstrong took 'one small step,' becoming the first human on the Moon." },
     ],
     decoys: [
@@ -4278,9 +4281,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Food & Drink",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Ancient Egyptians were among the first to let its dough rise with wild yeast." },
-      { position: 2, text: "A staple food for thousands of years, it is baked from flour, water, and usually a leavening agent." },
-      { position: 3, text: "It comes as fluffy white loaves, dense rye, flat pita, or a long French baguette." },
+      { position: 1, text: "This food is at the root of the English word 'lord,' which began as an Old English term for its keeper." },
+      { position: 2, text: "The workers who built Egypt's pyramids were paid partly in rations of this food, along with beer." },
+      { position: 3, text: "The line 'let them eat cake,' pinned on Marie Antoinette without evidence, was supposedly a reply to news that peasants had none of this food." },
       { position: 4, text: "Sliced for sandwiches or toasted at breakfast, this baked 'staff of life' rises thanks to yeast." },
     ],
     decoys: [
@@ -4404,9 +4407,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Sports",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Sweden banned its professional form in 1970, and Norway kept a similar ban in place until 2014." },
-      { position: 2, text: "In it, two fighters in padded gloves trade punches inside a roped-off square, confusingly called a ring." },
-      { position: 3, text: "Its bouts are split into timed rounds, won on points or by a knockout that ends things early." },
+      { position: 1, text: "Sweden banned this sport's professional form in 1970, and Norway kept a similar ban in place until 2014." },
+      { position: 2, text: "The Marquess of Queensberry, who lent his name to this sport's 1867 rules, also set off the legal fight that sent Oscar Wilde to prison." },
+      { position: 3, text: "In a 1997 world-title rematch in this sport, one fighter was disqualified for biting both of his opponent's ears, tearing a piece off one." },
       { position: 4, text: "Weight classes from flyweight to heavyweight define this combat sport of the jab and uppercut." },
     ],
     decoys: [
@@ -4764,9 +4767,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "hard",
     clues: [
-      { position: 1, text: "It was the first film not in English to win the Academy Award for Best Picture." },
-      { position: 2, text: "In it, a poor family cons its way into working for a wealthy household, one job at a time." },
-      { position: 3, text: "This South Korean thriller hides a shocking secret in the rich family's basement." },
+      { position: 1, text: "This film's wealthy family lives in a sleek modernist house that was not a real home but a set built for the shoot." },
+      { position: 2, text: "It won the Palme d'Or at Cannes in 2019, the first South Korean film ever to take the festival's top prize." },
+      { position: 3, text: "It was the first film not in English to win the Academy Award for Best Picture." },
       { position: 4, text: "Bong Joon-ho's 2019 class satire takes its name from an organism that feeds off a host." },
     ],
     decoys: [
@@ -4890,10 +4893,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Television",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its creator was a marine biology teacher before he became an animator." },
-      { position: 2, text: "This cartoon takes place in an undersea town called Bikini Bottom." },
-      { position: 3, text: "In it, a cheerful yellow sea sponge flips Krabby Patties at a restaurant called the Krusty Krab." },
-      { position: 4, text: "He lives in a pineapple under the sea with a pet snail named Gary, alongside Patrick the starfish." },
+      { position: 1, text: "This cartoon inspired a Broadway musical that earned 12 Tony nominations in 2018, tying for the most that year." },
+      { position: 2, text: "This cartoon's creator taught marine biology, and many of its characters began in a comic he drew for his students called 'The Intertidal Zone.'" },
+      { position: 3, text: "In this cartoon, a penny-pinching crab runs a burger restaurant, and his teenage daughter, Pearl, is a whale." },
+      { position: 4, text: "This cartoon's hero lives in a pineapple under the sea with his pet snail, Gary, next door to his best friend, Patrick the starfish." },
     ],
     decoys: [
       { text: "Rugrats", eliminatedByClue: 2 },
@@ -5106,9 +5109,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Video Games",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "A live-action film redesigned its hero after fans revolted over his too-human teeth." },
-      { position: 2, text: "In it, a blue creature races at super speed through loop-the-loops, collecting golden rings." },
-      { position: 3, text: "Losing all his rings when hit, he must scramble to grab them back before enemies close in." },
+      { position: 1, text: "This video game hero's red-and-white shoes were inspired by Santa Claus and by Michael Jackson's boots on the cover of 'Bad.'" },
+      { position: 2, text: "This character's shade of blue was chosen to match the logo of the company that created him." },
+      { position: 3, text: "This character was redesigned for his 2020 live-action film after fans mocked the first trailer's version for its human-like teeth." },
       { position: 4, text: "Sega created this spiky blue speedster to rival Nintendo's plumber, pitting him against Dr. Robotnik." },
     ],
     decoys: [
@@ -5124,10 +5127,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Video Games",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "It languished for two years after release, then exploded in 2020 as a pandemic hit." },
-      { position: 2, text: "In it, crewmates aboard a cartoon spaceship complete tasks while secret impostors pick them off." },
-      { position: 3, text: "Its players call emergency meetings to argue over who is the 'sus' saboteur and vote them out." },
-      { position: 4, text: "Its bean-shaped little astronauts made this social-deduction game a streaming phenomenon." },
+      { position: 1, text: "This game drew on the party game Mafia and the horror film The Thing, and began as a phone-only game for players in the same room." },
+      { position: 2, text: "It came out in 2018 and sat almost unnoticed for two years, then exploded in popularity in 2020 during the pandemic." },
+      { position: 3, text: "Alexandria Ocasio-Cortez streamed herself playing it on Twitch in 2020 to encourage people to vote, drawing over 400,000 viewers." },
+      { position: 4, text: "In this social-deduction game, armless cartoon astronauts do chores aboard a spaceship and vote out crewmates they suspect of being impostors." },
     ],
     decoys: [
       { text: "Mafia", eliminatedByClue: 2 },
@@ -5160,10 +5163,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Video Games",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its hero was originally called 'Jumpman' and worked as a carpenter, not his later trade." },
-      { position: 2, text: "In it, a mustachioed Italian plumber stomps on turtle-like Goombas and Koopas to save a princess." },
-      { position: 3, text: "In it, eating a mushroom makes him grow, and a fire flower lets him hurl fireballs at enemies." },
-      { position: 4, text: "He and his brother Luigi rescue Princess Peach from the spiky-shelled Bowser in this Nintendo classic." },
+      { position: 1, text: "This game's 'Minus World', an endless underwater level reached by slipping through a wall, was a playground rumor that turned out to be real." },
+      { position: 2, text: "Its main theme, by Koji Kondo, was the first video game music added to the U.S. National Recording Registry." },
+      { position: 3, text: "Released in 1985 and later bundled with the NES, it was the best-selling video game of all time for over 20 years." },
+      { position: 4, text: "In this Nintendo classic, a plumber and his sibling Luigi set out to rescue Princess Peach from the spiky-shelled Bowser." },
     ],
     decoys: [
       { text: "Sonic the Hedgehog", eliminatedByClue: 2 },
@@ -5322,9 +5325,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Music",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "She re-recorded her early albums to reclaim ownership after a dispute over the master recordings." },
-      { position: 2, text: "This American singer-songwriter began in country music before conquering pop, with fiercely devoted fans." },
-      { position: 3, text: "Her record-shattering 'Eras Tour' and albums like '1989' and 'Folklore' broke streaming records." },
+      { position: 1, text: "This singer was 14 when she became the youngest songwriter ever signed by the music publisher Sony/ATV." },
+      { position: 2, text: "This singer pulled her entire catalog from Spotify in 2014, arguing that music should not be free." },
+      { position: 3, text: "This singer was the first artist to win the Grammy for Album of the Year four times." },
       { position: 4, text: "Songs like 'Shake It Off' and 'Love Story' made this megastar, whose exes inspire many lyrics, a household name." },
     ],
     decoys: [
@@ -5826,8 +5829,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Internet",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its mascot is a white cartoon ghost on a bright yellow background." },
-      { position: 2, text: "This app made photos and messages disappear a few seconds after being viewed." },
+      { position: 1, text: "This app launched in 2011 under the name Picaboo, and was renamed just two months later." },
+      { position: 2, text: "In 2013, this app's 23-year-old co-founder turned down a $3 billion cash offer from Facebook." },
       { position: 3, text: "It popularized playful face filters that add dog ears or swap facial features." },
       { position: 4, text: "Teens keep 'streaks' going by sending a daily photo on this ghost-logo app." },
     ],
@@ -5952,9 +5955,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Sports",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "He often clowned around at the starting line, then still shattered records seconds later." },
-      { position: 2, text: "This Jamaican sprinter holds the world records in both the 100 and 200 meters." },
-      { position: 3, text: "He won eight Olympic gold medals across three Games, an unmatched sprinting haul." },
+      { position: 1, text: "This sprinter has scoliosis, a curved spine that leaves his right leg about half an inch shorter than his left." },
+      { position: 2, text: "This sprinter said he ate around 1,000 Chicken McNuggets during his ten days at the 2008 Beijing Olympics." },
+      { position: 3, text: "He is the only sprinter to win both the 100 and 200 meters at three straight Olympics, in 2008, 2012 and 2016." },
       { position: 4, text: "Nicknamed 'Lightning,' this fittingly-named runner strikes a signature archer's pose after winning." },
     ],
     decoys: [
@@ -6258,8 +6261,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Landmarks",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its spire is so tall that people on its lower floors break their Ramadan fast minutes before those on top." },
-      { position: 2, text: "Opened in 2010, it has been the tallest building in the world ever since, topping 2,700 feet." },
+      { position: 1, text: "This skyscraper is so tall that residents of its upper floors are told to wait two or three extra minutes to break their Ramadan fast." },
+      { position: 2, text: "Its chief architect, Adrian Smith of the firm SOM, based its three-petal shape on a desert flower, the spider lily." },
       { position: 3, text: "It pierces the skyline of Dubai and featured in a Tom Cruise 'Mission: Impossible' stunt." },
       { position: 4, text: "This needle-like skyscraper in the United Arab Emirates has more than 160 floors." },
     ],
@@ -6636,10 +6639,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Video Games",
     difficulty: "hard",
     clues: [
-      { position: 1, text: "A famously punishing studio handed its world-building to the author of A Song of Ice and Fire." },
+      { position: 1, text: "This game from a famously punishing studio had its world's ancient mythology written by the author of A Song of Ice and Fire." },
       { position: 2, text: "Its open world is called the Lands Between, and dying over and over is the intended way to learn it." },
       { position: 3, text: "FromSoftware released it in 2022 under director Hidetaka Miyazaki, and it took Game of the Year." },
-      { position: 4, text: "Tarnished warriors seek to mend a shattered relic and become Elden Lord in FromSoftware's open-world epic." },
+      { position: 4, text: "Alex Garland wrote and directed A24's live-action film adaptation of this FromSoftware open-world epic." },
     ],
     decoys: [
       { text: "Skyrim", eliminatedByClue: 1 },
@@ -7140,10 +7143,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Sports",
     difficulty: "hard",
     clues: [
-      { position: 1, text: "Three bored fathers on a Washington island invented it in 1965 out of table-tennis paddles and a perforated plastic ball." },
+      { position: 1, text: "This sport's name is often credited to a family dog, but its founding family says the dog came years later and was named after the game." },
       { position: 2, text: "It has been the fastest-growing sport in the United States for several years running, especially among older players." },
       { position: 3, text: "It is played on a badminton-sized court with a lowered net, and the no-volley zone at the net is called the kitchen." },
-      { position: 4, text: "The paddle sport played with a wiffle ball, whose name is often credited to a family dog." },
+      { position: 4, text: "This sport was invented in 1965 by three fathers on Washington's Bainbridge Island, using table-tennis paddles and a perforated plastic ball." },
     ],
     decoys: [
       { text: "Table tennis", eliminatedByClue: 3 },
@@ -7302,9 +7305,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "You breathe it in and out all day without using a single molecule of it." },
-      { position: 2, text: "It makes up about 78 percent of the air, more than three times as much as the gas that keeps you alive." },
-      { position: 3, text: "Element number 7, it is inert enough to flush food packaging and, as a liquid at 196 degrees below zero, cold enough to shatter a rose." },
+      { position: 1, text: "This element was named 'azote', from the Greek for 'lifeless', by Antoine Lavoisier, and the French still call it that." },
+      { position: 2, text: "Breathed deep underwater, this gas can make divers feel drunk; one rule of thumb likens every extra 10 metres of depth to another martini." },
+      { position: 3, text: "You breathe this gas in and out all day without your body using a single molecule of it." },
       { position: 4, text: "Bacteria in the roots of beans and peas 'fix' this gas into the fertiliser that feeds the world; its symbol is N." },
     ],
     decoys: [
@@ -7374,8 +7377,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Space",
     difficulty: "hard",
     clues: [
-      { position: 1, text: "Its main mirror was ground wrong by about one-fiftieth the width of a human hair, and the first pictures came back blurred." },
-      { position: 2, text: "Spacewalking astronauts fitted it with corrective optics in 1993 — the equivalent of handing it glasses — and went back to service it four more times." },
+      { position: 1, text: "This telescope's main mirror was ground wrong by about one-fiftieth the width of a human hair, so its first pictures came back blurred." },
+      { position: 2, text: "Its launch was put off for years after the Challenger disaster, and it finally rode into orbit in the shuttle Discovery's cargo bay." },
       { position: 3, text: "Pointed at an apparently empty speck of sky for ten days, it found thousands of galaxies in the Deep Field image." },
       { position: 4, text: "Orbiting 540 km up since 1990, this observatory is named for the astronomer who showed the universe is expanding." },
     ],
@@ -7446,10 +7449,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Cities",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its streets are a rolling museum of 1950s American cars, kept alive because newer ones could not be imported for decades." },
-      { position: 2, text: "Ernest Hemingway wrote here for twenty years, and the seafront Malecón takes the brunt of every storm." },
-      { position: 3, text: "Founded by the Spanish in 1519, its old town and harbour-mouth fortresses are a UNESCO World Heritage Site." },
-      { position: 4, text: "The capital of Cuba, ninety miles from Florida and synonymous with cigars." },
+      { position: 1, text: "This city was captured by Britain in 1762 and handed back to Spain a year later in exchange for Florida." },
+      { position: 2, text: "Ernest Hemingway lived on the outskirts of this city for about twenty years and wrote 'The Old Man and the Sea' there." },
+      { position: 3, text: "This city's streets are a rolling museum of 1950s American cars, kept running for decades after the US embargo cut off new ones and spare parts." },
+      { position: 4, text: "This capital of Cuba lends its name to the island's world-famous cigars." },
     ],
     decoys: [
       { text: "San Juan", eliminatedByClue: 1 },
@@ -7482,10 +7485,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Landmarks",
     difficulty: "hard",
     clues: [
-      { position: 1, text: "For close to a thousand years no building on Earth enclosed more space under one roof." },
-      { position: 2, text: "Finished in 537 after only five years' work, its dome appears to float on a ring of forty windows; a bored Viking guard scratched runes into a gallery railing." },
+      { position: 1, text: "This domed building was the world's largest cathedral for nearly a thousand years, until Seville Cathedral overtook it in the early 1500s." },
+      { position: 2, text: "Runes on a marble parapet in its upper gallery, probably carved by a Viking in the emperor's guard, seem to spell the name Halfdan." },
       { position: 3, text: "Christian mosaics share the walls with vast Arabic calligraphy roundels, because it has been a cathedral, then a mosque, then a museum, and since 2020 a mosque again." },
-      { position: 4, text: "Justinian's great domed church in Istanbul, whose Greek name means 'Holy Wisdom'." },
+      { position: 4, text: "This Istanbul landmark was built as a church by the emperor Justinian, and its Greek name means 'Holy Wisdom'." },
     ],
     decoys: [
       { text: "St Peter's Basilica", eliminatedByClue: 2 },
@@ -7626,10 +7629,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Nobody in it ever says the line everybody quotes from it: 'Play it again, Sam'." },
-      { position: 2, text: "Shot in 1942 as an ordinary studio assignment, with pages handed to the cast as they filmed and the ending undecided into the final week, it won Best Picture anyway." },
-      { position: 3, text: "Humphrey Bogart runs a gin joint in Vichy-controlled Morocco; Ingrid Bergman walks in, and 'As Time Goes By' starts up." },
-      { position: 4, text: "The wartime romance that ends with letters of transit, a foggy airfield and the beginning of a beautiful friendship." },
+      { position: 1, text: "Only three of this film's credited actors were born in the US, and many of its extras were real refugees from wartime Europe." },
+      { position: 2, text: "When cameras rolled in 1942, only the first half of this film's script was ready, so it was shot in story order — and still won Best Picture." },
+      { position: 3, text: "Nobody in this film ever says the line everybody quotes from it: 'Play it again, Sam.'" },
+      { position: 4, text: "This wartime romance starring Humphrey Bogart ends on a foggy airfield with letters of transit and 'the beginning of a beautiful friendship.'" },
     ],
     decoys: [
       { text: "Gone with the Wind", eliminatedByClue: 2 },
@@ -7680,10 +7683,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Television",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its very first champion went to prison for failing to pay tax on the million dollars he won." },
-      { position: 2, text: "Jeff Probst has hosted more than forty seasons of it, snuffing torches with the words 'the tribe has spoken'." },
-      { position: 3, text: "Contestants marooned on a tropical island fight for immunity and vote each other off one at a time." },
-      { position: 4, text: "The CBS reality show whose 2000 finale drew 51 million viewers and gave television 'outwit, outplay, outlast'." },
+      { position: 1, text: "This reality show's format first aired in Sweden in 1997, under the title 'Expedition Robinson.'" },
+      { position: 2, text: "This show's host, who has led every season, won the first four Emmys ever given for hosting a reality show." },
+      { position: 3, text: "This show's very first champion went to prison for failing to pay tax on his million-dollar prize." },
+      { position: 4, text: "This CBS reality show, with its motto 'outwit, outplay, outlast,' drew more than 51 million viewers to its first finale in 2000." },
     ],
     decoys: [
       { text: "The Amazing Race", eliminatedByClue: 2 },
@@ -7860,10 +7863,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Internet",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "It began on 4chan as a bait-and-switch about a duck, before the duck was swapped for a 1987 pop video." },
-      { position: 2, text: "In 2007 thousands clicked a link promising the first Grand Theft Auto IV trailer and got a red-haired singer in a trench coat instead." },
-      { position: 3, text: "The Macy's Thanksgiving parade pulled it live in 2008, the White House did it on Twitter, and the video crossed a billion views in 2021." },
-      { position: 4, text: "The internet's oldest bait: a link that turns out to be Rick Astley's 'Never Gonna Give You Up'." },
+      { position: 1, text: "This prank began on 4chan as a bait-and-switch about a duck, before the duck was swapped for a 1987 pop video." },
+      { position: 2, text: "The singer behind it pulled it himself on millions of TV viewers in 2008, popping up on a cartoon float at the Macy's Thanksgiving Day Parade." },
+      { position: 3, text: "In 2007 thousands clicked a link promising the first Grand Theft Auto IV trailer and got a red-haired singer in a trench coat instead." },
+      { position: 4, text: "This internet prank is a link that secretly leads to the music video for 'Never Gonna Give You Up'." },
     ],
     decoys: [
       { text: "The Harlem Shake", eliminatedByClue: 2 },
@@ -7950,10 +7953,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Sports",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "A competitor loses the instant anything but the soles of his feet touches the clay — a fingertip will do it." },
-      { position: 2, text: "Bouts are often over in seconds, after minutes of salt-throwing and stamping to purify the ring." },
-      { position: 3, text: "The top division is ranked on a printed banzuke, and its highest rank can never be demoted, only retired." },
-      { position: 4, text: "Japan's national sport, in which two very large men in mawashi belts try to shove each other out of a straw circle." },
+      { position: 1, text: "This sport's highest rank is the only one whose holders can never be demoted; one who keeps losing is expected to retire instead." },
+      { position: 2, text: "In this sport, a wrestler loses the instant anything but the soles of his feet touches the clay — even a fingertip will do it." },
+      { position: 3, text: "Bouts are often over in seconds, after minutes of salt-throwing and stamping to purify the ring." },
+      { position: 4, text: "This is Japan's national sport, in which two heavyweight wrestlers in mawashi belts try to force each other out of a straw-edged ring." },
     ],
     decoys: [
       { text: "Kabaddi", eliminatedByClue: 2 },
@@ -8022,10 +8025,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Mythology",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "He was once lord of the dead outright, then handed the job to Osiris and kept the scales." },
+      { position: 1, text: "This deity was the chief god of the dead in Egypt's Old Kingdom, until Osiris took over that role in the Middle Kingdom." },
       { position: 2, text: "Embalmers wore his mask, so that for the length of the ritual the priest simply was him." },
       { position: 3, text: "He weighs the heart of the dead against the feather of Ma'at, and a heart heavier than truth is fed to the monster Ammit." },
-      { position: 4, text: "The jackal-headed Egyptian god of mummification and the journey to the afterlife." },
+      { position: 4, text: "This jackal-headed Egyptian god watched over mummification and guided the dead into the afterlife." },
     ],
     decoys: [
       { text: "Osiris", eliminatedByClue: 1 },
@@ -8112,10 +8115,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Human Body",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "It is the largest organ you have, and you are shedding several hundred million of its cells a day." },
-      { position: 2, text: "Its outer layer is dead by design, a shed-and-replace surface that renews itself roughly every month." },
+      { position: 1, text: "This organ is home to microscopic Demodex mites, which live in the hair follicles of nearly every adult." },
+      { position: 2, text: "Garry Turner holds a world record, unbroken since 1999, for stretching this organ on his stomach out to 15.8 cm." },
       { position: 3, text: "Melanin in it darkens under ultraviolet light, and it manufactures vitamin D whenever the sun reaches it." },
-      { position: 4, text: "Some two square metres of waterproof organ, holding you in and keeping microbes out." },
+      { position: 4, text: "This is your largest organ, about two square metres of waterproof covering that keeps microbes out." },
     ],
     decoys: [
       { text: "Liver", eliminatedByClue: 1 },
@@ -8292,10 +8295,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Human Body",
     difficulty: "hard",
     clues: [
-      { position: 1, text: "It is roughly the size of a grain of rice, and no bone in your body is smaller." },
-      { position: 2, text: "Its name is Latin for the footrest a horse rider slips a boot into, which its arched shape resembles." },
-      { position: 3, text: "It passes vibrations from its neighbor, the incus, into the fluid-filled cochlea through the oval window." },
-      { position: 4, text: "The last and tiniest of the three ossicles of the middle ear, after the hammer and the anvil." },
+      { position: 1, text: "This bone can be replaced with a tiny artificial piston when a disease called otosclerosis locks it in place and causes hearing loss." },
+      { position: 2, text: "The body's smallest skeletal muscle, just over a millimeter long, pulls on this bone to damp its vibrations when sounds get too loud." },
+      { position: 3, text: "Its name is Latin for the footrest a horse rider slips a boot into, which its arched shape resembles." },
+      { position: 4, text: "This bone is the last and tiniest of the three ossicles in the middle ear, after the hammer and the anvil." },
     ],
     decoys: [
       { text: "Malleus", eliminatedByClue: 2 },
@@ -8418,10 +8421,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Mythology",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "His mother hid him among a king's daughters, dressed as a girl, to keep him out of a war." },
-      { position: 2, text: "He sulked in his tent for much of the Trojan War after Agamemnon took his prize, Briseis." },
+      { position: 1, text: "This hero's mother hid him among a king's daughters, dressed as a girl, to keep him out of a war." },
+      { position: 2, text: "In the Iliad, he refuses to fight and sulks in his tent after Agamemnon takes his prize, the captive Briseis." },
       { position: 3, text: "Grief for his friend Patroclus drove him back into battle, where he killed Hector and dragged the body behind his chariot." },
-      { position: 4, text: "The Greek hero killed by an arrow from Paris to the one weak spot on his body — his heel." },
+      { position: 4, text: "This Greek hero died when an arrow from Paris struck the one weak spot on his body, his heel." },
     ],
     decoys: [
       { text: "Odysseus", eliminatedByClue: 2 },
@@ -8616,10 +8619,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Pop Culture",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "It can be scrambled into more than 43 quintillion arrangements, yet any of them can be solved in 20 moves or fewer." },
+      { position: 1, text: "This puzzle can be scrambled into more than 43 quintillion arrangements, yet any of them can be solved in 20 moves or fewer." },
       { position: 2, text: "A Hungarian architecture professor built the first one from wooden blocks in 1974, then needed about a month to solve it himself." },
-      { position: 3, text: "Speedcubers now solve the standard version in under four seconds." },
-      { position: 4, text: "The twisty puzzle of six colored faces, named after its inventor, Ernő Rubik." },
+      { position: 3, text: "In 2026 a Polish boy solved one in 2.76 seconds, setting the first official world record under three seconds." },
+      { position: 4, text: "This twisty puzzle with six colored faces became a worldwide craze in the early 1980s." },
     ],
     decoys: [
       { text: "Sudoku", eliminatedByClue: 2 },
@@ -9102,10 +9105,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Nature",
     difficulty: "hard",
     clues: [
-      { position: 1, text: "When it opens, it heats itself up to help its smell of rotting meat travel farther." },
-      { position: 2, text: "It can take seven years or more to bloom, and the bloom lasts only a day or two, so botanical gardens announce it and crowds line up." },
-      { position: 3, text: "Native to the rainforests of Sumatra, it sends up the world's largest unbranched flower spike, which can stand taller than a person." },
-      { position: 4, text: "The giant Sumatran bloom nicknamed for the dead-body stench it gives off to lure carrion beetles and flies." },
+      { position: 1, text: "When this plant blooms, its towering central spike heats itself to about human body temperature." },
+      { position: 2, text: "Native to the rainforests of Sumatra, it sends up the world's largest unbranched flower spike, which can stand taller than a person." },
+      { position: 3, text: "It can take seven years or more to bloom, and the bloom lasts only a day or two, so botanical gardens announce it and crowds line up." },
+      { position: 4, text: "This giant plant is nicknamed for the dead-body stench it gives off to lure carrion beetles and flies." },
     ],
     decoys: [
       { text: "Venus flytrap", eliminatedByClue: 2 },
@@ -9174,10 +9177,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Nature",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Every part of it is edible, from the bitter leaves to the root, which can be roasted as a coffee substitute." },
-      { position: 2, text: "Its seeds drift away on tiny parachutes that can ride the wind for miles." },
-      { position: 3, text: "Its name comes from the French 'dent de lion,' or lion's tooth, for its jagged leaves." },
-      { position: 4, text: "The yellow lawn weed whose fluffy white seed head children blow on to make a wish." },
+      { position: 1, text: "In French this plant is called 'pissenlit', roughly 'wet the bed', a nod to its long use as a diuretic." },
+      { position: 2, text: "Every part of it is edible, from the bitter leaves to the root, which can be roasted as a coffee substitute." },
+      { position: 3, text: "Its seeds slow their fall by holding a ring of swirling air just above them, a kind of flight scientists first described in 2018." },
+      { position: 4, text: "This yellow lawn weed grows a fluffy white seed head that children blow on to make a wish." },
     ],
     decoys: [
       { text: "Buttercup", eliminatedByClue: 2 },
@@ -9282,10 +9285,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Art",
     difficulty: "hard",
     clues: [
-      { position: 1, text: "Its striking blue came from Prussian blue, a synthetic pigment newly imported to Japan from Europe." },
+      { position: 1, text: "This print's striking blue came from Prussian blue, a synthetic pigment newly imported to Japan from Europe." },
       { position: 2, text: "As a woodblock print it was pressed thousands of times, so dozens of museums around the world own an original." },
       { position: 3, text: "It opens Hokusai's series 'Thirty-six Views of Mount Fuji,' with the snowy peak tiny in the distance." },
-      { position: 4, text: "The Japanese print of a towering, claw-tipped breaker about to crash down on three fishing boats." },
+      { position: 4, text: "This Japanese print shows a towering, claw-tipped breaker about to crash down on three boats full of rowers." },
     ],
     decoys: [
       { text: "The Starry Night", eliminatedByClue: 2 },
@@ -9624,10 +9627,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Literature",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its author, a pilot, vanished on a reconnaissance flight over the Mediterranean in 1944." },
-      { position: 2, text: "It has been translated into more than 500 languages and dialects, more than almost any other book." },
-      { position: 3, text: "A pilot stranded in the Sahara meets a boy from a tiny asteroid who looks after a single rose." },
-      { position: 4, text: "Antoine de Saint-Exupéry's 1943 novella about a young prince, which says 'What is essential is invisible to the eye.'" },
+      { position: 1, text: "This book's author, a pilot, vanished on a reconnaissance flight over the Mediterranean in 1944." },
+      { position: 2, text: "Apart from the Bible, this is the most translated book in the world, available in some 600 languages and dialects." },
+      { position: 3, text: "Its title character comes from asteroid B-612, so small that he can watch sunset after sunset in one day just by moving his chair." },
+      { position: 4, text: "Antoine de Saint-Exupéry wrote this 1943 novella, in which a fox explains that 'what is essential is invisible to the eye.'" },
     ],
     decoys: [
       { text: "Winnie-the-Pooh", eliminatedByClue: 3 },
@@ -9696,10 +9699,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Pop Culture",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Some schools banned it because pupils kept checking on it in class." },
+      { position: 1, text: "This 1990s toy was banned by some schools because pupils kept checking on it in class." },
       { position: 2, text: "Its name blends the Japanese word for 'egg' with the English word 'watch.'" },
       { position: 3, text: "Bandai launched it in 1996, and its pixel creature could die if you forgot to feed it or clean up after it." },
-      { position: 4, text: "The egg-shaped keychain toy that held a digital pet you had to raise." },
+      { position: 4, text: "This egg-shaped keychain toy held a digital pet that you had to raise." },
     ],
     decoys: [
       { text: "Game Boy", eliminatedByClue: 2 },
@@ -9768,10 +9771,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Technology",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its inventor got the idea on a beach in Miami, drawing Morse code dots and dashes in the sand and dragging them downward into lines." },
+      { position: 1, text: "This invention came to its creator on Miami Beach, as he thought of Morse dots and dashes and dragged his fingers through the sand into lines." },
       { position: 2, text: "The first store scan of one, in Ohio in 1974, rang up a pack of Wrigley's chewing gum." },
-      { position: 3, text: "The version used at checkouts, the Universal Product Code, encodes a 12-digit number." },
-      { position: 4, text: "The pattern of black stripes and white gaps scanned at the supermarket checkout." },
+      { position: 3, text: "The version found on most store goods, known as the UPC, carries a 12-digit number." },
+      { position: 4, text: "This is the pattern of black stripes and white gaps that is scanned at the supermarket checkout." },
     ],
     decoys: [
       { text: "QR code", eliminatedByClue: 2 },
@@ -9804,10 +9807,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "After it came out, demand for clownfish as pets jumped, even though the story argues against keeping them." },
-      { position: 2, text: "Part of it is set in a Sydney dentist's fish tank, whose residents plot an escape." },
-      { position: 3, text: "A forgetful blue tang named Dory helps a worried father search the ocean for his son." },
-      { position: 4, text: "Pixar's 2003 film about Marlin, a clownfish who crosses the sea to find his lost son." },
+      { position: 1, text: "This film holds the record for the best-selling DVD of all time, with more than 40 million copies sold." },
+      { position: 2, text: "This film introduced Crush, a surfer-dude sea turtle voiced by the film's own director, Andrew Stanton." },
+      { position: 3, text: "This film's director cast Ellen DeGeneres after watching her change the subject five times before finishing one sentence on her sitcom." },
+      { position: 4, text: "This 2003 Pixar film follows Marlin, a clownfish who crosses the ocean to rescue his son." },
     ],
     decoys: [
       { text: "The Little Mermaid", eliminatedByClue: 2 },

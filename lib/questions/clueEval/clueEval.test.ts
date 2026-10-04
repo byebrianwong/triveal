@@ -223,13 +223,25 @@ describe("graded cases", () => {
     }
   });
 
+  it("judge the clues Brian graded, not the bank's rewritten ones", () => {
+    const c = GRADED_CASES.find((g) => g.id === "star-wars" && !g.variant)!;
+    const q = applyCase(byId.get(c.id)!, c);
+    expect(q.clues[0].text).toMatch(/^Its opening words scroll up the screen/);
+    expect(q.clues[0].text).not.toBe(byId.get(c.id)!.clues[0].text);
+  });
+
+  it("each record four graded clue texts", () => {
+    for (const c of GRADED_CASES) expect(c.clues, caseKey(c)).toHaveLength(4);
+  });
+
   it("swap in only the replaced clues", () => {
     const c = GRADED_CASES.find((g) => g.variant === "silver-shoes")!;
     const original = byId.get(c.id)!;
     const swapped: Question = applyCase(original, c);
     expect(swapped.id).toBe("wizard-of-oz~silver-shoes");
     expect(swapped.clues[0].text).toBe(c.replaceClues![1]);
-    expect(swapped.clues.slice(1)).toEqual(original.clues.slice(1));
+    expect(swapped.clues.slice(1).map((x) => x.text)).toEqual(c.clues!.slice(1));
+    expect(swapped.clues.map((x) => x.position)).toEqual(original.clues.map((x) => x.position));
   });
 });
 
