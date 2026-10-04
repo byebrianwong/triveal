@@ -225,7 +225,13 @@ export interface GradedCase {
   id: string;
   /** Set when the case is a rewrite of the bank question rather than the question itself. */
   variant?: string;
-  /** Clue texts that replace the bank's for this case, by position. */
+  /**
+   * The four clue texts as Brian graded them. The bank question may have been
+   * rewritten since, and a grade only means something for the text it was
+   * given on. Leave it out only for a question whose clues haven't changed.
+   */
+  clues?: string[];
+  /** Clue texts that replace the graded ones for this case, by position. */
   replaceClues?: Record<number, string>;
   /** What Brian said, close to his words. */
   said: string;
@@ -236,17 +242,19 @@ export function caseKey(c: GradedCase): string {
   return c.variant ? `${c.id}~${c.variant}` : c.id;
 }
 
-/** The question a graded case runs on: the bank question with any clue replacements. */
+/**
+ * The question a graded case runs on: the bank question with the clues as
+ * Brian graded them, then any clue replacements.
+ */
 export function applyCase(q: Question, c: GradedCase): Question {
-  if (!c.replaceClues) return q;
+  if (!c.clues && !c.replaceClues) return q;
   return {
     ...q,
     id: caseKey(c),
-    clues: q.clues.map((clue) =>
-      c.replaceClues?.[clue.position] !== undefined
-        ? { ...clue, text: c.replaceClues[clue.position] }
-        : clue,
-    ),
+    clues: q.clues.map((clue, i) => {
+      const graded = c.clues?.[i] ?? clue.text;
+      return { ...clue, text: c.replaceClues?.[clue.position] ?? graded };
+    }),
   };
 }
 
