@@ -19,6 +19,7 @@ import {
   flagsFor,
   playerRunFromGuesses,
   renderBankReport,
+  renderFixes,
   runCheck,
   validateJudgement,
   type Check,
@@ -38,6 +39,7 @@ const goodClue: ClueJudgement = {
   repeats: 0,
   fact: "ok",
   note: "",
+  fix: "",
 };
 
 /** A judgement with nothing wrong in it; tests change one thing at a time. */
@@ -237,8 +239,12 @@ describe("flagsFor", () => {
   });
 
   it("flags early giveaways", () => {
-    const j = clean({ clue1: { ...goodClue, alone: "instant" }, clue2: { ...goodClue, alone: "instant" } });
-    expect(flagsFor(j)).toEqual(expect.arrayContaining(["clue1-too-easy", "clue2-too-easy"]));
+    const j = clean({
+      clue1: { ...goodClue, alone: "instant" },
+      clue2: { ...goodClue, alone: "instant" },
+      clue3: { ...goodClue, alone: "instant" },
+    });
+    expect(flagsFor(j)).toEqual(expect.arrayContaining(["clue1-too-easy", "clue2-too-easy", "clue3-too-easy"]));
   });
 
   it("lets players work clue 1 out", () => {
@@ -331,5 +337,27 @@ describe("renderBankReport", () => {
     expect(report.indexOf("`awful`")).toBeLessThan(report.indexOf("`meh`"));
     expect(report).not.toContain("`fine`");
     expect(report).toContain("Test \\| Pipes");
+  });
+});
+
+describe("renderFixes", () => {
+  it("shows each suggestion next to the clue it replaces, and skips questions with none", () => {
+    const boxing = byId.get("boxing")!;
+    const fixed: EvalEntry = {
+      id: "boxing",
+      answer: "Boxing",
+      category: "Sports",
+      labelled: "easy",
+      judgeKey: "k",
+      judgeModel: "test",
+      judge: clean({ verdict: "needs_work", clue2: { ...goodClue, interest: 1, note: "A summary.", fix: "A new clue." } }),
+      flags: [],
+    };
+    const untouched: EvalEntry = { ...fixed, id: "tea", answer: "Tea", judge: clean() };
+    const md = renderFixes([fixed, untouched], new Map([["boxing", boxing]]), { date: "2026-10-04" });
+    expect(md).toContain("1 questions have at least one suggestion");
+    expect(md).toContain(`- Now: ${boxing.clues[1].text}`);
+    expect(md).toContain("- Suggested: A new clue.");
+    expect(md).not.toContain("`tea`");
   });
 });

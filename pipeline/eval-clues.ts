@@ -23,10 +23,12 @@
  *   --concurrency N      API calls: questions in flight at once (default 6)
  *   --no-player          skip the simulated player
  *   --force              re-score even when a stored result matches
+ *   --skip-judged        skip every question that already has a result, even
+ *                        one from older prompts; only new questions get judged
  *   --judge-model ID     API judge, default claude-opus-5-5
  *   --player-model ID    API player, default claude-haiku-4-5 (see below)
  *   --effort LEVEL       API judge effort, default high
- *   --judge-batch N      export: questions per judge subagent (default 1)
+ *   --judge-batch N      export: questions per judge subagent (default 50)
  *   --player-batch N     export: questions per player subagent (default 25)
  *
  * A stored result is reused when the prompts, model and question text it came
@@ -74,6 +76,7 @@ import {
   playerRunFromGuesses,
   renderBankReport,
   renderCalibrationReport,
+  renderFixes,
   runCheck,
   validateJudgement,
   type EvalEntry,
@@ -100,7 +103,10 @@ const LIMIT = option("limit") ? Number(option("limit")) : undefined;
 const CONCURRENCY = Number(option("concurrency") ?? 6);
 const EXPORT = option("export");
 const INGEST = option("ingest");
-const JUDGE_BATCH = Number(option("judge-batch") ?? 1);
+// Each subagent starts with tens of thousands of tokens of Claude Code's own
+// context, so big batches keep that cost small per question.
+const JUDGE_BATCH = Number(option("judge-batch") ?? 50);
+const SKIP_JUDGED = flag("skip-judged");
 const PLAYER_BATCH = Number(option("player-batch") ?? 25);
 const IN_SESSION = Boolean(EXPORT || INGEST);
 
@@ -220,7 +226,9 @@ const playerKey = (q: Question) =>
 function needsScoring(store: Store, questions: Question[]): Question[] {
   return questions.filter((q) => {
     const prev = store.questions[q.id];
-    return FORCE || !prev || prev.judgeKey !== judgeKey(q) || (WITH_PLAYER && prev.playerKey !== playerKey(q));
+    if (FORCE || !prev) return true;
+    if (SKIP_JUDGED) return false;
+    return prev.judgeKey !== judgeKey(q) || (WITH_PLAYER && prev.playerKey !== playerKey(q));
   });
 }
 
@@ -514,8 +522,9 @@ function ingestAnswers(store: Store, questions: Question[], dir: string, order: 
 // ---------------------------------------------------------------------------
 // Main
 
-function writeReports(store: Store): void {
+function writeReports(store: Store, questions: Question[]): void {
   const date = today();
+  const byQuestion = new Map(questions.map((q) => [q.id, q]));
   const models = (values: (string | undefined)[]) => [...new Set(values.filter(Boolean))].join(", ") || "none";
   if (GRADED) {
     const rows = GRADED_CASES.filter((c) => store.questions[caseKey(c)]).map((c) => {
@@ -531,7 +540,9 @@ function writeReports(store: Store): void {
         console.error(`  disagrees: ${caseKey(r.c)}: expected ${JSON.stringify(res.check)}, judge said ${res.got}`);
       }
     }
-    console.error("Wrote lib/questions/clueEval/results/calibration.md");
+    const gradedEntries = GRADED_CASES.map((c) => store.questions[caseKey(c)]).filter((e): e is EvalEntry => Boolean(e));
+    fs.writeFileSync(path.join(RESULTS_DIR, "graded-fixes.md"), renderFixes(gradedEntries, byQuestion, { date }));
+    console.error("Wrote lib/questions/clueEval/results/calibration.md and graded-fixes.md");
   } else {
     const entries = bank.map((q) => store.questions[q.id]).filter((e): e is EvalEntry => Boolean(e));
     const meta = {
@@ -544,7 +555,8 @@ function writeReports(store: Store): void {
       renderBankReport(entries, meta) +
         (entries.length < bank.length ? `\n_${entries.length} of ${bank.length} bank questions scored so far._\n` : ""),
     );
-    console.error(`\nWrote lib/questions/clueEval/results/report.md (${entries.length} of ${bank.length} questions).`);
+    fs.writeFileSync(path.join(RESULTS_DIR, "fixes.md"), renderFixes(entries, byId, { date }));
+    console.error(`\nWrote lib/questions/clueEval/results/report.md and fixes.md (${entries.length} of ${bank.length} questions).`);
   }
 }
 
@@ -585,7 +597,7 @@ async function main(): Promise<void> {
 
   if (Object.keys(store.questions).length) {
     saveStore(store, order);
-    writeReports(store);
+    writeReports(store, questions);
   } else {
     console.error("Nothing scored, so no report written.");
   }

@@ -59,7 +59,8 @@ reason, examples inside the list must not come from a question in
 - **Most questions should be medium or hard.** The fun is in needing more
   than one clue. A typical player should solve on clue 2 or 3. If people get
   it on clue 1 without thinking, the question is too easy. Working the answer
-  out from clue 1 is fine; that's part of the fun.
+  out from clue 1 is fine; that's part of the fun. A typical player is a
+  casual one: a smart adult with general knowledge, not a trivia buff.
 - **Every clue is an interesting fact, not only clue 1.** A plot summary, or
   a description of how the thing works, is not an interesting fact. "A
   tree-dwelling Australian marsupial that carries its young in a pouch"
@@ -74,6 +75,9 @@ reason, examples inside the list must not come from a question in
   those rights went on to earn ties it to one.
 - **No giveaway words before clue 4.** Words like "Hogwarts",
   "web-slinger" or "the Big Apple" settle the question on their own.
+- **None of the first three clues should be instant.** Clues 2 and 3 can be
+  easier than clue 1, but a player should still have to think. They don't
+  have to be hard.
 - **Don't use a word from the answer's own name**, in any clue, clue 4
   included. A clue about the Leaning Tower of Pisa shouldn't say "Pisa".
   A word that only says what kind of thing the answer is, such as "this
@@ -83,7 +87,8 @@ reason, examples inside the list must not come from a question in
   yet know what "it" is. That's how trivia clues usually read. Write all
   four clues as sentences about the answer, in the same voice. Don't switch
   clue 4 to a dictionary-style fragment such as "The microscopic
-  eight-legged survivor nicknamed…".
+  eight-legged survivor nicknamed…". A style problem like these is enough to
+  hold a question back until it's fixed.
 - **Order the clues from hardest to easiest.** A clue that is better known
   than the one after it is in the wrong place. If a later clue holds a
   lesser-known or less direct fact than an earlier one, swap them.
