@@ -11,10 +11,11 @@
  * harder.
  *
  * Most of these were written to the older spec §2.2 rules, which put
- * misdirection first, so many are easier than we now want. On 2026-10-04, 50
- * of them were rewritten to the current rules with pipeline/fix-clues.ts;
- * the before and after, with a source for each new fact, are in
- * clueEval/results/rewrites-2026-10-04.json. The current rules
+ * misdirection first, so many are easier than we now want. On 2026-10-04, 100
+ * of them were rewritten to the current rules with pipeline/fix-clues.ts, in
+ * two rounds of 50. The before and after, with a source for each new fact, are
+ * in clueEval/results/rewrites-2026-10-04.json (round 1) and
+ * rewrites-2026-10-04-round-2.json (round 2). The current rules
  * for writing and rewriting clues are in lib/questions/README.md, under "What
  * makes a good question". Follow those, not the style of the entries below.
  *
@@ -519,9 +520,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Music",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "He wrote some of his greatest music, including his final symphony, while almost completely deaf." },
-      { position: 2, text: "This German composer sawed the legs off his piano so he could feel its vibrations through the floor as his hearing failed." },
-      { position: 3, text: "A bridge from the Classical to the Romantic era, his Fifth Symphony opens with four of the most famous notes in music: da-da-da-DUM." },
+      { position: 1, text: "This composer originally dedicated his Third Symphony to Napoleon, then reportedly tore the title page in half when Napoleon declared himself emperor." },
+      { position: 2, text: "This composer was born in Bonn and moved to Vienna at 21 to study with Joseph Haydn." },
+      { position: 3, text: "This composer's piano piece 'Für Elise' was not published until 1867, 40 years after his death." },
       { position: 4, text: "This wild-haired composer's Ninth Symphony gave the world the 'Ode to Joy.'" },
     ],
     decoys: [
@@ -534,7 +535,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Chess",
     answerCanonical: "chess",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "medium",
     clues: [
       { position: 1, text: "The number of possible games it allows outstrips the count of atoms in the observable universe." },
@@ -1851,9 +1852,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "It is black-skinned with white stripes — not the reverse — and every individual's pattern is unique." },
-      { position: 2, text: "Those stripes may double as bug spray, baffling biting flies that try to land on it." },
-      { position: 3, text: "A wild African cousin of the horse, it has foiled every attempt to tame and ride it." },
+      { position: 1, text: "A group of these African grazers is called a 'dazzle', and no two of them carry exactly the same markings." },
+      { position: 2, text: "In a 2019 study, biting horseflies struggled to land on this animal, failing to slow down as they neared its patterned coat." },
+      { position: 3, text: "This wild cousin of the horse has never been truly domesticated, though the zoologist Walter Rothschild drove a carriage pulled by them to Buckingham Palace." },
       { position: 4, text: "This striped, horse-like grazer roams the African plains in herds, often mixed in with wildebeest." },
     ],
     decoys: [
@@ -1977,9 +1978,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "It tastes with its feet, standing on a leaf to tell whether it's the right one for its eggs." },
-      { position: 2, text: "It began life as a crawling caterpillar, then dissolved almost entirely inside a cocoon before rebuilding itself." },
-      { position: 3, text: "Some kinds migrate thousands of miles, and their scale-covered wings shimmer with colors, a few invisible to us." },
+      { position: 1, text: "This insect tastes with its feet, drumming on a leaf to check whether it is the right plant for its eggs." },
+      { position: 2, text: "Some kinds of this insect migrate thousands of miles, and the tiny scales on its wings reflect ultraviolet patterns that human eyes cannot see." },
+      { position: 3, text: "This insect starts life as a caterpillar, and most of that body breaks down inside a chrysalis before being rebuilt as an adult." },
       { position: 4, text: "This delicate, bright-winged insect flits between flowers, sipping nectar through a coiled tube." },
     ],
     decoys: [
@@ -2139,9 +2140,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "It is the process that ultimately puts almost all the oxygen you breathe into the air." },
-      { position: 2, text: "Powered by sunlight caught in green chlorophyll, it turns water and carbon dioxide into sugar." },
-      { position: 3, text: "Plants, algae, and some bacteria all use it to make their own food from little more than light." },
+      { position: 1, text: "This process was glimpsed in 1771, when Joseph Priestley found that a sprig of mint could 'restore' air in which a candle had burned out." },
+      { position: 2, text: "About 2.4 billion years ago, microbes using this process first filled Earth's air with oxygen, in what scientists call the Great Oxidation Event." },
+      { position: 3, text: "This process happens in chloroplasts, tiny green structures in plant cells that are thought to descend from free-living bacteria." },
       { position: 4, text: "This is the process by which green plants convert sunlight into energy, releasing oxygen as they go." },
     ],
     decoys: [
@@ -2247,10 +2248,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Cut one of these in half and you don't get a separate 'north' and 'south' — each piece instantly has both ends again." },
-      { position: 2, text: "Every one has two opposite ends; like ends shove apart while opposite ends snap together." },
-      { position: 3, text: "The Earth itself behaves like a giant one, which is why a compass needle always swings to point north." },
-      { position: 4, text: "This piece of iron or steel invisibly tugs other metal toward it and pins notes to your fridge." },
+      { position: 1, text: "The strongest permanent kind of this everyday object is made with the rare-earth metal neodymium, and two can strike each other hard enough to shatter." },
+      { position: 2, text: "This object loses its pull above the 'Curie temperature,' named for Pierre Curie, which for iron is about 770 °C." },
+      { position: 3, text: "The Earth behaves like a giant version of this object, thanks to molten iron churning in its outer core." },
+      { position: 4, text: "This object pulls iron and steel toward it without touching them, and pins notes to your fridge." },
     ],
     decoys: [
       { text: "Gravity", eliminatedByClue: 1 },
@@ -2625,10 +2626,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "History",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "He spent 27 years behind bars, much of it breaking rocks on a prison island, before walking free to lead his country." },
-      { position: 2, text: "He fought to bring down apartheid, the brutal system of racial segregation in South Africa." },
-      { position: 3, text: "In 1994 he became South Africa's first Black president, chosen in its first fully democratic election." },
-      { position: 4, text: "This Nobel Peace laureate became a worldwide symbol of reconciliation and forgiveness." },
+      { position: 1, text: "This leader stayed on a U.S. terrorism watch list until 2008, nine years after he stepped down as his country's president." },
+      { position: 2, text: "A keen amateur boxer in his youth, he went on to open a Johannesburg law firm with Oliver Tambo in the early 1950s." },
+      { position: 3, text: "Freed in 1990, he shared the 1993 Nobel Peace Prize with F. W. de Klerk, the president who released him." },
+      { position: 4, text: "This anti-apartheid hero spent 27 years in prison and became South Africa's first Black president in 1994." },
     ],
     decoys: [
       { text: "Martin Luther King Jr.", eliminatedByClue: 1 },
@@ -2643,9 +2644,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Music",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Pressing a string against the metal ridges along its neck shortens it, raising the note it sounds." },
-      { position: 2, text: "It usually carries six strings, plucked or strummed over a hollow wooden body or a solid electric one." },
-      { position: 3, text: "Amplified and electrified, it became the driving engine of rock and roll." },
+      { position: 1, text: "This instrument's first commercially successful electric version, a cast-aluminum model from the early 1930s, was nicknamed the 'Frying Pan'." },
+      { position: 2, text: "The one Kurt Cobain played on 'MTV Unplugged' sold at auction in 2020 for just over $6 million, then a record for this instrument." },
+      { position: 3, text: "Around 1940 the musician Les Paul built 'the Log', an early solid-body electric version of this instrument made from a block of pine." },
       { position: 4, text: "This six-stringed instrument, played by flamenco masters and rock stars alike, is among the world's most popular." },
     ],
     decoys: [
@@ -2715,9 +2716,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Sports",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "In its curious scoring, 'love' means zero, and the count climbs 15, 30, 40 before game point." },
-      { position: 2, text: "Its oldest and grandest tournament, Wimbledon, is still played on grass, where competitors must dress in white." },
-      { position: 3, text: "In it, two or four players wield strung rackets to bat a fuzzy yellow ball back and forth over a net." },
+      { position: 1, text: "This sport's early lawn version was patented in 1874 by a British Army major, who sold it in boxed sets as 'Sphairistikè.'" },
+      { position: 2, text: "In 2010 a single match in this sport lasted 11 hours and 5 minutes over three days, with the final set ending 70–68." },
+      { position: 3, text: "This sport's balls switched from white to 'optic yellow' in 1972, after research showed they were easier to see on television." },
       { position: 4, text: "In this racket sport, stars like Serena Williams and Roger Federer chase four annual 'Grand Slam' titles." },
     ],
     decoys: [
@@ -2769,9 +2770,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Literature",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "A lightning-bolt scar on his forehead marks where a curse once failed to kill him as a baby." },
-      { position: 2, text: "Raised in a cupboard under the stairs by cruel relatives, he learns on his eleventh birthday that he is a wizard." },
-      { position: 3, text: "At Hogwarts School he is sorted into Gryffindor and befriends Ron Weasley and Hermione Granger." },
+      { position: 1, text: "This character shares his July 31 birthday with his author, who as a girl lived near a family with his surname." },
+      { position: 2, text: "Twelve publishers turned down the first book about this character before Bloomsbury published it in 1997." },
+      { position: 3, text: "This character's wand and his archenemy's both hold feathers from the same phoenix." },
       { position: 4, text: "J.K. Rowling's bespectacled boy wizard battles the dark Lord Voldemort across seven best-selling novels." },
     ],
     decoys: [
@@ -2787,9 +2788,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Literature",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its famous opening line invites the reader, 'Call me Ishmael.'" },
-      { position: 2, text: "In it, a one-legged captain named Ahab hunts the creature that maimed him, consumed by revenge." },
-      { position: 3, text: "Herman Melville's 1851 novel follows the whaling ship Pequod across the oceans." },
+      { position: 1, text: "This novel was a commercial flop and out of print when its author died in 1891; its fame came only after the 1919 centennial of his birth." },
+      { position: 2, text: "This novel is dedicated to Nathaniel Hawthorne, 'in token of my admiration for his genius'." },
+      { position: 3, text: "This novel drew on the real sinking of the whaleship Essex, rammed by a sperm whale in the Pacific in 1820." },
       { position: 4, text: "This American classic is named for the great white whale at the heart of its story." },
     ],
     decoys: [
@@ -2895,10 +2896,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Mythology",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "A single glance from her turned any onlooker instantly to stone." },
-      { position: 2, text: "Once a beautiful maiden, she was cursed so that writhing snakes replaced her hair." },
-      { position: 3, text: "In Greek myth the hero Perseus beheaded her using a polished shield as a mirror to avoid her gaze." },
-      { position: 4, text: "One of three monstrous Gorgon sisters, this snake-haired woman was the only mortal among them." },
+      { position: 1, text: "When this monster was beheaded, the winged horse Pegasus sprang from her body." },
+      { position: 2, text: "This monster was the only mortal one of three sisters; the other two, Stheno and Euryale, were immortal." },
+      { position: 3, text: "The Italian fashion house Versace uses this monster's face as its logo." },
+      { position: 4, text: "This snake-haired Gorgon turned anyone who met her gaze to stone, until Perseus cut off her head." },
     ],
     decoys: [
       { text: "Hydra", eliminatedByClue: 2 },
@@ -3003,10 +3004,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "In this movie, scientists extract ancient DNA from mosquitoes trapped in amber to work their resurrection." },
-      { position: 2, text: "In it, a billionaire builds an island theme park stocked with cloned creatures extinct for millions of years." },
-      { position: 3, text: "In this 1993 Steven Spielberg blockbuster, a T. rex and clever raptors break loose during a storm." },
-      { position: 4, text: "The dinosaurs of this film series roar back to life on Isla Nublar, its name promising a prehistoric attraction." },
+      { position: 1, text: "This film's most famous roar mixed a low tiger sound with its key ingredient: a high-pitched scream from a baby elephant." },
+      { position: 2, text: "This film's studio, Universal, bought the rights to Michael Crichton's novel six months before the book was even published." },
+      { position: 3, text: "This 1993 Steven Spielberg film beat his own 'E.T.' to become the highest-grossing film ever, a record it held until 'Titanic.'" },
+      { position: 4, text: "In this film, dinosaurs brought back by industrialist John Hammond's scientists break loose on the fictional island of Isla Nublar." },
     ],
     decoys: [
       { text: "King Kong", eliminatedByClue: 2 },
@@ -3057,10 +3058,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Music",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "A child prodigy, he composed his first pieces at five and toured European courts before he was ten." },
-      { position: 2, text: "This Austrian genius wrote more than 600 works before dying at just 35, buried in an unmarked grave." },
-      { position: 3, text: "His operas include 'The Magic Flute' and 'The Marriage of Figaro,' and a 1984 film 'Amadeus' dramatized his life." },
-      { position: 4, text: "A giant of the Classical era, this Salzburg-born composer shares his middle name with that film's title." },
+      { position: 1, text: "As a 14-year-old visiting Rome, this composer reportedly wrote out Allegri's 'Miserere' from memory on the day he first heard it." },
+      { position: 2, text: "This composer died at 35 with his Requiem unfinished, a work commissioned anonymously by a count who passed off others' music as his own." },
+      { position: 3, text: "A 1984 Best Picture winner built its plot on a bitter, greatly exaggerated rivalry between this composer and Antonio Salieri." },
+      { position: 4, text: "A giant of the Classical era, this Salzburg-born composer wrote 'The Magic Flute' and 'Eine kleine Nachtmusik.'" },
     ],
     decoys: [
       { text: "Joseph Haydn", eliminatedByClue: 2 },
@@ -3093,10 +3094,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Music",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "He debuted a backward-gliding dance called the moonwalk on a 1983 TV special." },
-      { position: 2, text: "A child star with his brothers' group, he grew into a solo superstar with a single sequined glove." },
-      { position: 3, text: "His 1982 album 'Thriller' remains the best-selling album of all time." },
-      { position: 4, text: "This 'Pop' royalty sang 'Billie Jean' and 'Beat It' and moonwalked into music history." },
+      { position: 1, text: "This singer's hair caught fire in 1984 when fireworks went off too early while he was filming a Pepsi commercial." },
+      { position: 2, text: "In 1985 he paid $47.5 million for a music catalogue that held the rights to about 250 Beatles songs, to Paul McCartney's dismay." },
+      { position: 3, text: "While still singing lead in his brothers' Motown group, he reached his first solo No. 1 in 1972 with the title song of the killer-rat film 'Ben'." },
+      { position: 4, text: "This moonwalking singer recorded 'Billie Jean' and 'Beat It' for 'Thriller', the best-selling album of all time." },
     ],
     decoys: [
       { text: "Prince", eliminatedByClue: 2 },
@@ -3129,9 +3130,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Music",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its player keeps time by clicking sticks and counting off before the band comes in." },
-      { position: 2, text: "Struck with sticks, brushes, or the hands, its stretched skins and metal cymbals set a song's rhythm." },
-      { position: 3, text: "A rock kit of these pairs a foot-pedal bass, a snare, and hanging toms with crash and hi-hat cymbals." },
+      { position: 1, text: "This instrument is what Def Leppard's Rick Allen kept playing after he lost his left arm in a 1984 car crash." },
+      { position: 2, text: "Some West African versions of this instrument can 'talk' by copying the rise and fall of spoken language." },
+      { position: 3, text: "Phil Collins and Dave Grohl both played this instrument in famous bands before becoming lead singers." },
       { position: 4, text: "The backbone of a band's rhythm section, this percussion instrument is what Ringo Starr famously played." },
     ],
     decoys: [
@@ -3309,9 +3310,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "It fueled the Hindenburg airship, whose fiery 1937 crash ended the age of passenger zeppelins." },
-      { position: 2, text: "The lightest and most abundant element in the universe, it makes up most of the mass of stars." },
-      { position: 3, text: "Two of its atoms bond with one of oxygen to form every molecule of water." },
+      { position: 1, text: "This element was first recognized as a distinct substance in 1766 by Henry Cavendish, who called it 'inflammable air.'" },
+      { position: 2, text: "A heavy form of this element, deuterium, makes the 'heavy water' that slows neutrons in some nuclear reactors." },
+      { position: 3, text: "This gas lifted the Hindenburg airship, whose fiery 1937 crash ended the age of passenger zeppelins." },
       { position: 4, text: "First on the periodic table with the symbol H, this gas fuses in the Sun to make helium." },
     ],
     decoys: [
@@ -3399,10 +3400,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Space",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "It drifts about 3.8 centimeters farther from us each year, and its pull raises the ocean tides." },
-      { position: 2, text: "Always showing us the same face, it is scarred with craters and dusty, waterless 'seas.'" },
-      { position: 3, text: "In 1969 Neil Armstrong left the first human footprint on this world during the Apollo 11 mission." },
-      { position: 4, text: "Earth's only natural satellite, it glows by reflected light and cycles from new to full." },
+      { position: 1, text: "This world is drifting about 3.8 centimeters farther from Earth every year." },
+      { position: 2, text: "The leading theory says this world formed from debris thrown out when a Mars-sized body slammed into the young Earth." },
+      { position: 3, text: "The far side of this world was first photographed in 1959, by a Soviet probe." },
+      { position: 4, text: "Earth's only natural satellite, this world glows by reflected light and cycles from new to full." },
     ],
     decoys: [
       { text: "Titan", eliminatedByClue: 2 },
@@ -3777,9 +3778,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Geography",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "It is the only country in the Americas whose main language is Portuguese, not Spanish or English." },
-      { position: 2, text: "The largest nation in South America, it holds most of the Amazon rainforest within its borders." },
-      { position: 3, text: "Famous for Carnival and a record five World Cup football titles, it dances to samba." },
+      { position: 1, text: "This country's purpose-built capital rose on its central highlands in just 41 months and was inaugurated in 1960." },
+      { position: 2, text: "This country takes its name from a tree whose wood yields a historically important red dye." },
+      { position: 3, text: "This country has the largest Portuguese-speaking population in the world and is the only Portuguese-speaking nation in the Americas." },
       { position: 4, text: "Home to Rio de Janeiro and its Christ the Redeemer statue, this is South America's biggest country." },
     ],
     decoys: [
@@ -3831,9 +3832,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Geography",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "It gave the world the Olympic Games, launched in 776 BC in honor of Zeus." },
-      { position: 2, text: "A Mediterranean land of some 6,000 islands, it is hailed as the birthplace of democracy and philosophy." },
-      { position: 3, text: "Ancient thinkers like Socrates and Plato taught here, and its myths tell of gods on Mount Olympus." },
+      { position: 1, text: "This country's national anthem comes from a poem 158 stanzas long, though only its first two stanzas are official." },
+      { position: 2, text: "Shipowners from this country control the world's largest merchant fleet by carrying capacity." },
+      { position: 3, text: "Counting every islet, this country has up to 6,000 islands, but fewer than 230 are inhabited; the largest is Crete." },
       { position: 4, text: "With Athens as its capital and whitewashed Santorini for tourists, this is the home of the Parthenon." },
     ],
     decoys: [
@@ -3921,9 +3922,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Landmarks",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "A reclusive 'mad' king bankrupted himself building it and drowned mysteriously weeks after being deposed." },
-      { position: 2, text: "Perched on a Bavarian crag, this fairy-tale fortress was raised in the 1800s for romantic fantasy, not defense." },
-      { position: 3, text: "King Ludwig II of Germany built it as a private tribute to the operas of Richard Wagner." },
+      { position: 1, text: "This castle's builder lived in it for only 172 days before he was declared insane, deposed and found dead in a lake in 1886." },
+      { position: 2, text: "This castle was dedicated to the work of composer Richard Wagner, who died in 1883 without ever setting foot in it." },
+      { position: 3, text: "Perched on a Bavarian crag, this fairy-tale fortress was raised in the 1800s for romantic fantasy, not defense." },
       { position: 4, text: "Its turrets and towers inspired the Sleeping Beauty castle at Disneyland." },
     ],
     decoys: [
@@ -3957,10 +3958,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Cities",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its unfinished Gaudi church has been under construction for over 140 years." },
-      { position: 2, text: "The capital of Spain's Catalonia region, it hugs the Mediterranean coast and hosted the 1992 Olympics." },
-      { position: 3, text: "Fans pack its Camp Nou stadium to watch one of football's most storied clubs." },
-      { position: 4, text: "Home to Gaudi's Sagrada Familia and Park Guell, this is Spain's second-largest city after Madrid." },
+      { position: 1, text: "This city's 1929 International Exposition on Montjuïc featured a German pavilion by Mies van der Rohe, torn down in 1930 and rebuilt in 1986." },
+      { position: 2, text: "This city's Eixample district, planned by Ildefons Cerdà, is a grid of octagonal blocks whose cut-off corners widen every intersection." },
+      { position: 3, text: "To host the 1992 Olympics, this city tore down factories along its seafront and created about 3 kilometers of new beach." },
+      { position: 4, text: "Home to Gaudí's Sagrada Família and Park Güell, this is Spain's second-largest city after Madrid." },
     ],
     decoys: [
       { text: "Madrid", eliminatedByClue: 2 },
@@ -4011,9 +4012,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Cities",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "A wall split it in two for 28 years, and chunks of that barrier are now sold as souvenirs." },
-      { position: 2, text: "The capital of Germany, it is home to the Brandenburg Gate and the glass-domed Reichstag." },
-      { position: 3, text: "Once divided into East and West during the Cold War, it reunited when its famous wall fell in 1989." },
+      { position: 1, text: "This city's TV tower reflects a cross of sunlight on its steel sphere, nicknamed 'the Pope's revenge' on the atheist regime that built it." },
+      { position: 2, text: "This city's zoo set off worldwide 'Knutmania' in 2007 with a polar bear cub hand-raised by his keeper after his mother rejected him." },
+      { position: 3, text: "This city's Tempelhof airport, a lifeline during the 1948–49 airlift, closed in 2008 and is now a public park." },
       { position: 4, text: "This German capital on the river Spree is known for techno clubs and a currywurst snack." },
     ],
     decoys: [
@@ -4101,10 +4102,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "History",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "It ended in 1945 after two atomic bombs fell on Japanese cities." },
-      { position: 2, text: "The deadliest conflict in history, it pitted the Allied powers against the Axis of Germany, Italy, and Japan." },
-      { position: 3, text: "Sparked by Hitler's 1939 invasion of Poland, it saw the D-Day landings and the horrors of the Holocaust." },
-      { position: 4, text: "Following an earlier global conflict a generation before, this six-year struggle was the second of its kind." },
+      { position: 1, text: "This war's Japanese holdout Hiroo Onoda kept fighting on a Philippine island until 1974, dismissing news of its end as enemy propaganda." },
+      { position: 2, text: "This war's first eight months saw so little fighting on the Western Front that the lull was nicknamed the 'Phoney War.'" },
+      { position: 3, text: "This war's Battle of Stalingrad was the largest and deadliest urban battle in military history." },
+      { position: 4, text: "D-Day, the Holocaust and the atomic bombings of Hiroshima and Nagasaki all belong to this global conflict, which ended in 1945." },
     ],
     decoys: [
       { text: "The Cold War", eliminatedByClue: 2 },
@@ -4137,9 +4138,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "History",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its builders never officially called it 'unsinkable,' but the press did — right up until it sank." },
-      { position: 2, text: "On its very first voyage in 1912, this British ocean liner struck an iceberg in the North Atlantic." },
-      { position: 3, text: "More than 1,500 people died, partly because it carried too few lifeboats for all aboard." },
+      { position: 1, text: "This ship's lookouts asked for binoculars but had none, and one later told an inquiry that with them the disaster would not have happened." },
+      { position: 2, text: "This ship's sinking prompted the first Safety of Life at Sea convention, a 1914 treaty requiring lifeboats for everyone aboard." },
+      { position: 3, text: "A French–American team co-led by Robert Ballard found this ship's wreck in 1985, about 12,500 feet down in the North Atlantic." },
       { position: 4, text: "A 1997 James Cameron film about this doomed ship became one of the highest-grossing movies ever." },
     ],
     decoys: [
@@ -4263,9 +4264,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Food & Drink",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Colonists dumped 342 chests of it into Boston Harbor to protest a British tax in 1773." },
-      { position: 2, text: "The world's most popular drink after water, it is brewed by steeping dried leaves in hot water." },
-      { position: 3, text: "Grown mostly in China and India, it comes in green, black, and oolong types from one plant, Camellia sinensis." },
+      { position: 1, text: "This drink, in the form of hard pressed bricks, once served as money in Tibet, Mongolia and Siberia." },
+      { position: 2, text: "People in Turkey consume more of this drink per person than anywhere else, over 3 kilograms a year each." },
+      { position: 3, text: "Starting in 1848, botanist Robert Fortune took this drink's plants out of China to India for the East India Company, though China reportedly forbade it." },
       { position: 4, text: "The British love a cup of this leafy brew, often with milk, at four in the afternoon." },
     ],
     decoys: [
@@ -4389,9 +4390,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Sports",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "In it, a 'perfect game' means one team's pitcher retires all 27 opposing batters in a row." },
-      { position: 2, text: "Called America's 'national pastime,' it is played on a diamond with nine players a side." },
-      { position: 3, text: "Its batter swings a wooden bat, then runs a circuit of four bases to score a run." },
+      { position: 1, text: "This sport's new balls are rubbed before every major-league game with mud from a secret spot near the Delaware River in New Jersey." },
+      { position: 2, text: "This sport's longest professional game, played in 1981, ran 33 innings and was finished only two months later." },
+      { position: 3, text: "This sport's Hall of Fame opened in 1939 in Cooperstown, New York, a village picked largely because of a myth that the game was invented there." },
       { position: 4, text: "Home runs, strikeouts, and the World Series belong to this sport of the New York Yankees." },
     ],
     decoys: [
@@ -4461,9 +4462,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Human Body",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "It beats about 100,000 times a day and can keep pumping briefly even outside the body." },
-      { position: 2, text: "A muscular fist-sized organ, it pushes blood through the body in a network of vessels." },
-      { position: 3, text: "Its four chambers — two atria and two ventricles — thump in the classic 'lub-dub' rhythm." },
+      { position: 1, text: "This organ is almost never where cancer starts, partly because its muscle cells rarely divide." },
+      { position: 2, text: "In 1929 a 24-year-old German doctor threaded a catheter from a vein in his own arm into this organ and took an X-ray to prove it." },
+      { position: 3, text: "Surgeon Christiaan Barnard performed the first human-to-human transplant of this organ in Cape Town in 1967." },
       { position: 4, text: "Doctors listen with a stethoscope to this organ, drawn as a red symbol of love." },
     ],
     decoys: [
@@ -4533,9 +4534,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its opening song, 'Circle of Life,' plays as animals gather at a towering rock." },
-      { position: 2, text: "In it, a young cub named Simba flees home after his father Mufasa is killed by the scheming Scar." },
-      { position: 3, text: "The meerkat Timon and warthog Pumbaa teach him the carefree motto 'Hakuna Matata.'" },
+      { position: 1, text: "This film earned Hans Zimmer his first Oscar, for Best Original Score; his second came 27 years later for 'Dune.'" },
+      { position: 2, text: "This animated film's plot echoes 'Hamlet': a young prince's uncle murders his father and seizes the throne." },
+      { position: 3, text: "Elton John and Tim Rice wrote this film's love song, 'Can You Feel the Love Tonight.'" },
       { position: 4, text: "This 1994 Disney film about a cub reclaiming his throne at Pride Rock got a photoreal 2019 remake." },
     ],
     decoys: [
@@ -4551,10 +4552,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "In this movie, a hobbit must carry a cursed golden band to a volcano to destroy it." },
-      { position: 2, text: "Based on Tolkien's novels, its fellowship crosses Middle-earth to defeat the dark Sauron." },
-      { position: 3, text: "In it, the creature Gollum hisses about 'my precious,' hungering for the ring Frodo carries." },
-      { position: 4, text: "Peter Jackson's trilogy, capped by 'The Return of the King,' swept 11 Oscars in 2004." },
+      { position: 1, text: "This film trilogy was shot all at once in New Zealand, with filming running from October 1999 to December 2000." },
+      { position: 2, text: "Viggo Mortensen broke two toes kicking a helmet in a shot from this film series that made the final cut." },
+      { position: 3, text: "This trilogy's final film won all 11 Oscars it was nominated for, tying 'Ben-Hur' and 'Titanic' for the most wins." },
+      { position: 4, text: "Peter Jackson's trilogy follows the hobbit Frodo on a quest across Middle-earth to defeat Sauron." },
     ],
     decoys: [
       { text: "The Hobbit", eliminatedByClue: 4 },
@@ -4623,9 +4624,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its director wanted an unknown, but a mumbling Marlon Brando won the lead with cotton in his cheeks." },
-      { position: 2, text: "This 1972 crime epic follows the Corleones, a Sicilian-American Mafia dynasty in New York." },
-      { position: 3, text: "Its famous line offers a deal 'he can't refuse,' and a horse's head ends up in a bed." },
+      { position: 1, text: "This film's score was struck from the Oscar nominations when it emerged that Nino Rota had already used its love theme in the 1958 Italian comedy Fortunella." },
+      { position: 2, text: "The cat in this film's opening scene wasn't in the script: the director spotted it roaming the studio lot, and its purring muffled the star's lines." },
+      { position: 3, text: "The studio fought casting Marlon Brando in this film until it saw his screen test, shot at his home with cotton balls stuffed in his cheeks." },
       { position: 4, text: "Al Pacino's Michael inherits the family from Vito in this Francis Ford Coppola masterpiece." },
     ],
     decoys: [
@@ -4803,9 +4804,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Television",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its theme song urges you to clap along: 'I'll Be There for You.'" },
-      { position: 2, text: "Set mostly in a purple apartment and a coffee house called Central Perk, it followed six young New Yorkers." },
-      { position: 3, text: "In it, Ross, Rachel, Monica, Chandler, Joey, and Phoebe navigated dating and careers over ten seasons in the 1990s." },
+      { position: 1, text: "This sitcom was developed under the working title 'Insomnia Cafe' and later called 'Six of One' before it got its final name." },
+      { position: 2, text: "Its 2004 finale drew 52.5 million U.S. viewers, the biggest audience for an entertainment show since the 'Seinfeld' finale." },
+      { position: 3, text: "Its six stars bargained for their pay as a group, and in the last two seasons each earned $1 million an episode." },
       { position: 4, text: "This hugely popular NBC sitcom about a tight-knit group of pals defined must-see TV." },
     ],
     decoys: [
@@ -4875,9 +4876,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Television",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "It turned a big-eared green infant into an instant internet sensation." },
-      { position: 2, text: "Set in the Star Wars galaxy, it follows a helmeted bounty hunter who never shows his face." },
-      { position: 3, text: "He becomes the reluctant protector of a Force-sensitive child fans dubbed 'Baby Yoda.'" },
+      { position: 1, text: "This show was shot in 'The Volume', a stage surrounded by giant LED screens that Industrial Light & Magic designed for it to replace green screens." },
+      { position: 2, text: "This Star Wars series follows a bounty hunter whose creed forbids him to remove his helmet in front of others." },
+      { position: 3, text: "This show's hero, played by Pedro Pascal, protects a Force-sensitive child named Grogu, whom fans nicknamed 'Baby Yoda'." },
       { position: 4, text: "This Disney+ series is named for the armored warrior culture its hero belongs to." },
     ],
     decoys: [
@@ -4998,7 +4999,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Minecraft",
     answerCanonical: "minecraft",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "easy",
     clues: [
       { position: 1, text: "It began as one Swedish developer's side project and became the best-selling video game of all time." },
@@ -5016,12 +5017,12 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Pac-Man",
     answerCanonical: "pac man",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its round yellow hero was reportedly inspired by a pizza with one slice missing." },
-      { position: 2, text: "Its player guides a chomping circle through a maze, gobbling dots while fleeing four ghosts." },
-      { position: 3, text: "Eating a large flashing pellet lets it briefly turn the tables and chase the ghosts." },
+      { position: 1, text: "This arcade game has a 'kill screen': on level 256 a bug fills half the screen with garbled symbols, so the level can't be finished." },
+      { position: 2, text: "This game's four enemies each hunt differently: one gives direct chase, two try to get in front of you, and one keeps switching between chasing and fleeing." },
+      { position: 3, text: "This game's designer, Toru Iwatani, said its hero's shape came partly from a pizza with one slice missing." },
       { position: 4, text: "Blinky, Pinky, Inky, and Clyde hound this 1980 arcade icon around its maze." },
     ],
     decoys: [
@@ -5034,7 +5035,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Tetris",
     answerCanonical: "tetris",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "medium",
     clues: [
       { position: 1, text: "A Soviet computer engineer designed it in 1984, and its profits were tangled in Cold War red tape." },
@@ -5052,7 +5053,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Pokémon",
     answerCanonical: "pokemon",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "easy",
     clues: [
       { position: 1, text: "Its franchise, spanning games, cards, and cartoons, is the highest-grossing media property ever." },
@@ -5070,7 +5071,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "The Legend of Zelda",
     answerCanonical: "legend of zelda",
     answerAliases: ["Zelda"],
-    category: "Video Games",
+    category: "Games",
     difficulty: "medium",
     clues: [
       { position: 1, text: "Confusingly, the princess it is named for is not the character you actually control." },
@@ -5088,7 +5089,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Fortnite",
     answerCanonical: "fortnite",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "easy",
     clues: [
       { position: 1, text: "Its in-game concerts have drawn tens of millions of players to watch stars perform live." },
@@ -5106,7 +5107,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Sonic the Hedgehog",
     answerCanonical: "sonic the hedgehog",
     answerAliases: ["Sonic"],
-    category: "Video Games",
+    category: "Games",
     difficulty: "easy",
     clues: [
       { position: 1, text: "This video game hero's red-and-white shoes were inspired by Santa Claus and by Michael Jackson's boots on the cover of 'Bad.'" },
@@ -5124,7 +5125,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Among Us",
     answerCanonical: "among us",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "medium",
     clues: [
       { position: 1, text: "This game drew on the party game Mafia and the horror film The Thing, and began as a phone-only game for players in the same room." },
@@ -5142,7 +5143,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Grand Theft Auto",
     answerCanonical: "grand theft auto",
     answerAliases: ["GTA"],
-    category: "Video Games",
+    category: "Games",
     difficulty: "medium",
     clues: [
       { position: 1, text: "One entry in this series earned more from its online mode than almost any movie in history." },
@@ -5160,7 +5161,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Super Mario Bros.",
     answerCanonical: "super mario bros",
     answerAliases: ["Mario", "Super Mario"],
-    category: "Video Games",
+    category: "Games",
     difficulty: "easy",
     clues: [
       { position: 1, text: "This game's 'Minus World', an endless underwater level reached by slipping through a wall, was a playground rumor that turned out to be real." },
@@ -5181,9 +5182,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Pop Culture",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "He is weakened by glowing green shards of his shattered home planet." },
-      { position: 2, text: "Rocketed as a baby from the doomed world Krypton, he was raised on a Kansas farm." },
-      { position: 3, text: "By day he is mild-mannered reporter Clark Kent at the Daily Planet in Metropolis." },
+      { position: 1, text: "This comic-book hero's creators, two friends from a Cleveland high school, sold all rights to him in 1938 for $130." },
+      { position: 2, text: "This comic-book hero's best-known weakness first appeared on his radio show in 1943, six years before it reached the comics." },
+      { position: 3, text: "This comic-book hero could only leap at first; he took to the air in the 1940s, partly because animators thought his leaps looked silly." },
       { position: 4, text: "Faster than a speeding bullet, this caped hero wears a red 'S' and can leap tall buildings." },
     ],
     decoys: [
@@ -5217,9 +5218,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Pop Culture",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "A bite from a radioactive arachnid gave this shy teenager his powers." },
-      { position: 2, text: "Peter Parker learns that 'with great power comes great responsibility' after his Uncle Ben dies." },
-      { position: 3, text: "This web-slinging Marvel hero swings between New York skyscrapers and battles the Green Goblin." },
+      { position: 1, text: "This superhero debuted in 1962 in the last issue of 'Amazing Fantasy,' a comic already due to be cancelled." },
+      { position: 2, text: "This superhero's 2011 Broadway musical, with songs by Bono and the Edge, cost a record $75 million." },
+      { position: 3, text: "This superhero learns that 'with great power comes great responsibility' after a burglar he let escape kills his uncle." },
       { position: 4, text: "Nicknamed your 'friendly neighborhood' hero, he shoots webs from his wrists in a red-and-blue suit." },
     ],
     decoys: [
@@ -5271,9 +5272,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Pop Culture",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "The angrier he gets, the stronger and bigger he becomes." },
-      { position: 2, text: "A dose of gamma radiation transformed a mild scientist into this raging green giant." },
-      { position: 3, text: "Dr. Bruce Banner warns, 'Don't make me angry — you wouldn't like me when I'm angry.'" },
+      { position: 1, text: "This superhero was gray in his first 1962 comic, but printing problems led Marvel to change his color." },
+      { position: 2, text: "This superhero was born when a scientist pushed a teenager, dared onto a bomb test site, into a trench and took the blast himself." },
+      { position: 3, text: "This superhero was played on TV from 1977 to 1982 by bodybuilder Lou Ferrigno, covered in green makeup." },
       { position: 4, text: "This Marvel behemoth, whose catchphrase is 'smash,' bursts out of his shirt but never his purple pants." },
     ],
     decoys: [
@@ -5595,9 +5596,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Technology",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its name is a play on 'googol,' the number one followed by a hundred zeros." },
-      { position: 2, text: "Founded by Larry Page and Sergey Brin in 1998, it began as a Stanford research project." },
-      { position: 3, text: "The world's most-used search engine, its name became a verb for looking things up online." },
+      { position: 1, text: "This company began as a 1996 research project that its founders nicknamed 'BackRub.'" },
+      { position: 2, text: "In 1998 this company set up its first office in Susan Wojcicki's garage in Menlo Park, California." },
+      { position: 3, text: "This company's informal motto, 'Don't be evil,' was dropped from the opening of its code of conduct in 2018." },
       { position: 4, text: "Owner of Android and a giant video site, this company reorganized under a parent called Alphabet." },
     ],
     decoys: [
@@ -5703,9 +5704,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Technology",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Steve Jobs unveiled it in 2007, mocking rival gadgets that still had plastic keyboards." },
-      { position: 2, text: "It combined a music player, a phone, and an internet device into one glass touchscreen slab." },
-      { position: 3, text: "Apple releases a new numbered model of it each year, and fans line up to buy them." },
+      { position: 1, text: "This device was developed in a locked-down building, guarded by badge readers and cameras, under the code name 'Project Purple.'" },
+      { position: 2, text: "The first model of this device had no copy-and-paste; the feature arrived only with a software update in June 2009." },
+      { position: 3, text: "A day after this device was unveiled in January 2007, Cisco sued its maker over the name, which Cisco already owned as a trademark." },
       { position: 4, text: "Running iOS and the App Store, this smartphone is its company's best-selling product." },
     ],
     decoys: [
@@ -5811,10 +5812,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Internet",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "It was born in a Harvard dorm in 2004 and first limited to college students." },
-      { position: 2, text: "Mark Zuckerberg's social network lets users 'friend' others and post status updates." },
-      { position: 3, text: "It bought Instagram and WhatsApp, then renamed its parent company Meta." },
-      { position: 4, text: "The 'like' button and a blue thumbs-up are hallmarks of this social media giant." },
+      { position: 1, text: "This website is mostly blue because its founder is red–green colorblind, and blue is the color he sees best." },
+      { position: 2, text: "This website, launched in 2004, took its original name from the photo directories of students at some U.S. colleges." },
+      { position: 3, text: "In 2012 this site's company agreed to pay about $1 billion for a photo-sharing app that had only 13 employees." },
+      { position: 4, text: "Mark Zuckerberg started this social network, home of the 'like' button and the friend request." },
     ],
     decoys: [
       { text: "MySpace", eliminatedByClue: 2 },
@@ -5991,9 +5992,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Sports",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its commercials cost millions of dollars for just 30 seconds and are watched as eagerly as the game." },
-      { position: 2, text: "This annual February showdown crowns the champion of American football's top league." },
-      { position: 3, text: "A star-studded halftime concert splits its two halves." },
+      { position: 1, text: "This game's name came from Kansas City Chiefs founder Lamar Hunt, who said he likely thought of it because his children played with a bouncy toy ball." },
+      { position: 2, text: "This game's first edition, played in Los Angeles in 1967, is the only one that failed to sell out, with about 33,000 seats unsold." },
+      { position: 3, text: "The National Chicken Council expects Americans to eat about 1.5 billion chicken wings over this game's weekend." },
       { position: 4, text: "Counted in Roman numerals, this NFL title game is the most-watched U.S. television broadcast each year." },
     ],
     decoys: [
@@ -6207,10 +6208,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Food & Drink",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "A cheeky weekly 'holiday' pairs it with Tuesday for cheap deals." },
-      { position: 2, text: "This Mexican staple wraps fillings like beef, beans, or fish in a folded corn or flour tortilla." },
-      { position: 3, text: "It comes with a soft or crunchy shell, topped with salsa, cheese, and guacamole." },
-      { position: 4, text: "Held in one hand and eaten in a few bites, this street food has a hard-shelled version too." },
+      { position: 1, text: "This dish's name may come from 18th-century Mexican silver mines, where miners used the word for paper-wrapped charges of gunpowder." },
+      { position: 2, text: "Al pastor, a version of this dish with pork grilled on a vertical spit, grew out of the shawarma that Lebanese immigrants brought to Mexico." },
+      { position: 3, text: "A phrase pairing this food with a weekday was trademarked for decades by a Wyoming chain, which gave it up in 2023." },
+      { position: 4, text: "This Mexican staple wraps fillings like beef, beans, or fish in a folded corn or flour tortilla." },
     ],
     decoys: [
       { text: "Burrito", eliminatedByClue: 2 },
@@ -6225,9 +6226,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Food & Drink",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Despite its name, it contains no pork; the 'ham' part points to a German city, not the meat." },
-      { position: 2, text: "Its grilled patty of ground beef is served inside a round, often sesame-seeded, bun." },
-      { position: 3, text: "Fast-food chains like McDonald's sell billions of them, dressed with lettuce, cheese, and pickles." },
+      { position: 1, text: "This sandwich was first sold in the U.S. in 1900 at New Haven's Louis' Lunch, says the Library of Congress, though rival towns dispute it." },
+      { position: 2, text: "Popeye's freeloading friend Wimpy kept promising to pay on Tuesday for one of these sandwiches today." },
+      { position: 3, text: "White Castle, founded in Wichita, Kansas, in 1921 and often called the first fast-food chain, was built around this sandwich." },
       { position: 4, text: "Add bacon or swap in a veggie patty, but this bun-and-patty sandwich is a cookout classic." },
     ],
     decoys: [
@@ -6387,10 +6388,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "In this movie, a girl's parents eat food that was not meant for them and are turned into pigs." },
-      { position: 2, text: "It remains the only hand-drawn Japanese film to win the Academy Award for Best Animated Feature." },
-      { position: 3, text: "Hayao Miyazaki wrote and directed it for Studio Ghibli, setting it in a bathhouse where the witch Yubaba employs the gods." },
-      { position: 4, text: "In it, Chihiro is renamed Sen and must work in a spirit bathhouse to rescue her parents and find the way home." },
+      { position: 1, text: "This film held Japan's all-time box-office record for 19 years, until a 'Demon Slayer' movie passed it in 2020." },
+      { position: 2, text: "This film was the first hand-drawn winner of the Oscar for Best Animated Feature, and it stayed the only one for 21 years." },
+      { position: 3, text: "Hayao Miyazaki based this Studio Ghibli film's 10-year-old heroine on the daughter of a friend who visited him every summer." },
+      { position: 4, text: "In this film, Chihiro is renamed Sen and must work in a bathhouse for Japanese gods to save her parents, who have been turned into pigs." },
     ],
     decoys: [
       { text: "Princess Mononoke", eliminatedByClue: 2 },
@@ -6477,9 +6478,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Television",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "In this show, a documentary crew films a Scranton paper company, and the branch manager cannot stop mugging for the camera." },
-      { position: 2, text: "Its Michael Scott, played by Steve Carell, was adapted from a character Ricky Gervais created and played for the BBC." },
-      { position: 3, text: "Its American run lasted nine seasons on NBC, following Jim and Pam's slow-burn romance." },
+      { position: 1, text: "This sitcom left Netflix at the start of 2021 after NBCUniversal paid a reported $500 million for five years of its streaming rights." },
+      { position: 2, text: "This sitcom survived weak first-season ratings, and its second season was boosted by its star's hit 2005 film 'The 40-Year-Old Virgin.'" },
+      { position: 3, text: "This sitcom was adapted for NBC from a BBC series created by Ricky Gervais and Stephen Merchant." },
       { position: 4, text: "Dunder Mifflin's Scranton branch is the mockumentary workplace of this series, where Dwight Schrute farms beets." },
     ],
     decoys: [
@@ -6618,7 +6619,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Roblox",
     answerCanonical: "roblox",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "easy",
     clues: [
       { position: 1, text: "Almost everything you can play on it was built by other players, some of them children earning real money." },
@@ -6636,7 +6637,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Elden Ring",
     answerCanonical: "elden ring",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "hard",
     clues: [
       { position: 1, text: "This game from a famously punishing studio had its world's ancient mythology written by the author of A Song of Ice and Fire." },
@@ -6654,7 +6655,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "The Sims",
     answerCanonical: "sims",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "easy",
     clues: [
       { position: 1, text: "Its characters speak an invented gibberish, so players end up projecting their own dialogue onto them." },
@@ -6672,7 +6673,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Animal Crossing",
     answerCanonical: "animal crossing",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "medium",
     clues: [
       { position: 1, text: "It runs on your console's real clock, so if it is three in the morning where you are, the shops are shut." },
@@ -6690,7 +6691,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Candy Crush",
     answerCanonical: "candy crush",
     answerAliases: ["Candy Crush Saga"],
-    category: "Video Games",
+    category: "Games",
     difficulty: "easy",
     clues: [
       { position: 1, text: "Its whole mechanic is swapping two adjacent sweets to line up three of a kind, repeated a few billion times." },
@@ -6708,7 +6709,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Wordle",
     answerCanonical: "wordle",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "easy",
     clues: [
       { position: 1, text: "A software engineer built it for his partner, then gave everyone exactly one puzzle a day and no way to binge." },
@@ -6726,7 +6727,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Halo",
     answerCanonical: "halo",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "medium",
     clues: [
       { position: 1, text: "Its green-armoured supersoldier and blue artificial intelligence gave a new console its entire identity." },
@@ -6744,7 +6745,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "League of Legends",
     answerCanonical: "league of legends",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "medium",
     clues: [
       { position: 1, text: "In it, two teams of five push down three lanes toward each other's base, and one match can outlast a football game." },
@@ -7089,10 +7090,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Sports",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its competitors must dress almost entirely in white, a rule enforced down to the soles of their shoes." },
-      { position: 2, text: "It is the only one of tennis's four majors still contested on grass." },
-      { position: 3, text: "Staged in a south-west London suburb since 1877, it is the oldest tennis tournament in the world." },
-      { position: 4, text: "The All England Club's grass-court major, famous for strawberries and cream and for Federer's eight singles titles." },
+      { position: 1, text: "This tournament has employed a Harris hawk named Rufus to patrol the skies at dawn and scare away pigeons." },
+      { position: 2, text: "This tournament kept its middle Sunday as a rest day, with play on it only four times in 30 years, until it scrapped the tradition in 2022." },
+      { position: 3, text: "Martina Navratilova won a record nine women's singles titles at this tournament." },
+      { position: 4, text: "This grass-court major at London's All England Club is famous for strawberries and cream and its all-white dress code." },
     ],
     decoys: [
       { text: "The US Open", eliminatedByClue: 2 },
@@ -7770,7 +7771,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Call of Duty",
     answerCanonical: "call of duty",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "easy",
     clues: [
       { position: 1, text: "One instalment took more than half a billion dollars in five days — in 2009." },
@@ -7788,7 +7789,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Stardew Valley",
     answerCanonical: "stardew valley",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "medium",
     clues: [
       { position: 1, text: "One person wrote all of it — code, pixel art, music — over four and a half years, ushering at a cinema to pay the rent." },
@@ -7806,13 +7807,13 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Street Fighter",
     answerCanonical: "street fighter",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "It invented the combo by accident, from a bug a developer found while testing the car-smashing bonus stage." },
-      { position: 2, text: "Its 1991 sequel filled every arcade, chip shop and laundrette with cabinets and started the one-on-one fighting boom." },
-      { position: 3, text: "Ryu, Chun-Li and Blanka each represent a country on the world map, and Capcom has been reissuing that roster for thirty years." },
-      { position: 4, text: "Hadouken and Shoryuken are quarter-circle inputs in this Capcom fighting series." },
+      { position: 1, text: "This series found the combo by accident, when its producer noticed extra hits were possible while bug-testing a car-smashing bonus stage." },
+      { position: 2, text: "Raúl Juliá played the villain in this series' 1994 film, opposite Jean-Claude Van Damme, and died two months before it opened." },
+      { position: 3, text: "This series' 1991 second game, 'The World Warrior', had eight characters from around the globe and is credited with popularizing one-on-one combat games in the 1990s." },
+      { position: 4, text: "Ryu hurls his Hadouken fireball with a quarter-circle and a punch in this long-running Capcom series." },
     ],
     decoys: [
       { text: "Tekken", eliminatedByClue: 2 },
@@ -7827,10 +7828,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Technology",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its logo is two Nordic runes laid on top of each other — the initials of a 10th-century king." },
-      { position: 2, text: "Ericsson engineers named it for Harald, the Danish king who united warring tribes, as a placeholder that nobody ever got round to replacing." },
-      { position: 3, text: "It hops between 79 narrow channels some 1,600 times a second in the crowded 2.4 GHz band, dodging the interference from microwaves and wi-fi." },
-      { position: 4, text: "The short-range wireless standard that pairs your earbuds and your car stereo to your phone." },
+      { position: 1, text: "This technology's logo is two Nordic runes merged into one: the initials of a 10th-century Danish king." },
+      { position: 2, text: "This standard hops between 79 radio channels 1,600 times a second, a trick film star Hedy Lamarr co-patented in 1942 to keep radio-guided torpedoes from being jammed." },
+      { position: 3, text: "Dutch engineer Jaap Haartsen developed this technology at Ericsson in Sweden in the 1990s, to cut the cord between a mobile phone and its headset." },
+      { position: 4, text: "This short-range wireless standard pairs your earbuds and your car stereo with your phone." },
     ],
     decoys: [
       { text: "Wi-Fi", eliminatedByClue: 1 },
@@ -8043,10 +8044,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Mythology",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "There is no solid evidence he existed, and the wizard, the sword in the stone and the round table were each bolted on centuries apart." },
-      { position: 2, text: "A 12th-century cleric, Geoffrey of Monmouth, turned a shadowy Welsh war leader into a British king, and French poets then invented the knight who runs off with his queen." },
-      { position: 3, text: "Merlin, Guinevere, Camelot and Excalibur all orbit him, and his half-sister Morgan le Fay works against him." },
-      { position: 4, text: "The once and future king of Britain, carried off to Avalon after his last battle at Camlann." },
+      { position: 1, text: "This legendary ruler's grave and a lead cross naming him were 'found' by Glastonbury Abbey's monks in 1191, in what most historians call a fundraising stunt." },
+      { position: 2, text: "A 12th-century cleric, Geoffrey of Monmouth, made this war leader an empire-building ruler of Britain, and a French poet later wrote of his queen's affair with a knight." },
+      { position: 3, text: "In Malory's telling, this ruler's half-sister Morgan le Fay steals the magic scabbard that kept him from bleeding and throws it into a lake." },
+      { position: 4, text: "This ruler held court at Camelot with the Knights of the Round Table and was carried off to Avalon after his last battle, at Camlann." },
     ],
     decoys: [
       { text: "Charlemagne", eliminatedByClue: 2 },
@@ -8061,10 +8062,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Art",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "A bus crash at eighteen left her painting flat on her back, with a mirror fixed to the canopy above the bed." },
-      { position: 2, text: "About a third of her 143 paintings are her own face, in Tehuana dress under a single joined brow." },
-      { position: 3, text: "She married the muralist Diego Rivera twice, joined the Mexican Communist Party and put up Trotsky in her blue house in Coyoacán." },
-      { position: 4, text: "The Mexican painter whose self-portraits with monkeys and thorn necklaces hang in the Casa Azul." },
+      { position: 1, text: "This painter's 'The Dream (The Bed)' sold for $54.7 million in 2025, then the most ever paid at auction for a work by a woman." },
+      { position: 2, text: "This painter gave Leon Trotsky a self-portrait for his birthday in 1937, after their brief affair while he lived in exile at her family home." },
+      { position: 3, text: "This painter was eighteen when a bus crash left her bedridden, and she painted in bed using a special easel with a mirror above it." },
+      { position: 4, text: "This Mexican painter, wife of the muralist Diego Rivera, painted herself with bold brows, a thorn necklace and a pet monkey." },
     ],
     decoys: [
       { text: "Georgia O'Keeffe", eliminatedByClue: 2 },
@@ -8940,7 +8941,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Donkey Kong",
     answerCanonical: "donkey kong",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "medium",
     clues: [
       { position: 1, text: "Its hero was called Jumpman until he was renamed after the landlord of a Nintendo warehouse." },
@@ -8958,7 +8959,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Space Invaders",
     answerCanonical: "space invaders",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "medium",
     clues: [
       { position: 1, text: "A popular legend claims it caused a shortage of 100-yen coins in Japan." },
@@ -9519,10 +9520,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Internet",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its co-founder's first post, in March 2006, read 'just setting up my twttr.'" },
-      { position: 2, text: "Posts were capped at 140 characters, a limit borrowed from text messages, until it doubled in 2017." },
-      { position: 3, text: "Elon Musk bought it for $44 billion in 2022." },
-      { position: 4, text: "The blue-bird social network where posts were called tweets, renamed X in 2023." },
+      { position: 1, text: "This site grew out of Odeo, a podcasting start-up whose plans fell apart after Apple built podcasts into iTunes in 2005." },
+      { position: 2, text: "Its co-founder Jack Dorsey's first post, from 2006, sold as an NFT in 2021 for about $2.9 million." },
+      { position: 3, text: "Its logo bird was named Larry, after the Boston Celtics star Larry Bird." },
+      { position: 4, text: "This social network, where posts were called tweets, was bought by Elon Musk in 2022 and renamed X in 2023." },
     ],
     decoys: [
       { text: "Tumblr", eliminatedByClue: 2 },
@@ -9858,7 +9859,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Pong",
     answerCanonical: "pong",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "medium",
     clues: [
       { position: 1, text: "Its first test machine, in a California bar, stopped working because its coin box had overflowed with quarters." },
@@ -9876,7 +9877,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     answer: "Angry Birds",
     answerCanonical: "angry birds",
     answerAliases: [],
-    category: "Video Games",
+    category: "Games",
     difficulty: "easy",
     clues: [
       { position: 1, text: "It was its Finnish studio's 52nd game, after years of modest results." },
