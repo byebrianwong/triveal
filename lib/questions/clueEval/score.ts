@@ -7,12 +7,15 @@
 import { matchGuess } from "@/lib/game/answerMatch";
 import type { Difficulty, Question } from "@/lib/game/types";
 
-export type Alone = "few" | "some" | "most";
+/** Could a typical player name the answer from this clue alone? Only "instant" is too easy. */
+export type Alone = "no" | "think" | "instant";
 
 /** The judge's verdict on one clue. Field meanings are defined in rubric.ts. */
 export interface ClueJudgement {
   interest: 1 | 2 | 3 | 4 | 5;
   alone: Alone;
+  /** Uses a distinctive word from the answer's own name ("Pisa"). */
+  names_answer: boolean;
   wording: 1 | 2 | 3;
   /** Position of another clue this one repeats, or 0. */
   repeats: 0 | 1 | 2 | 3 | 4;
@@ -60,7 +63,8 @@ export function validateJudgement(x: unknown): string[] {
       continue;
     }
     oneOf(`clue${p}.interest`, c.interest, [1, 2, 3, 4, 5]);
-    oneOf(`clue${p}.alone`, c.alone, ["few", "some", "most"]);
+    oneOf(`clue${p}.alone`, c.alone, ["no", "think", "instant"]);
+    oneOf(`clue${p}.names_answer`, c.names_answer, [true, false]);
     oneOf(`clue${p}.wording`, c.wording, [1, 2, 3]);
     oneOf(`clue${p}.repeats`, c.repeats, [0, 1, 2, 3, 4]);
     oneOf(`clue${p}.fact`, c.fact, ["ok", "doubtful", "wrong"]);
@@ -88,9 +92,10 @@ export function playerRunFromGuesses(q: Question, guesses: string[]): PlayerRun 
 }
 
 /**
- * Split questions into player batches of at most `size`, keeping a graded
+ * Split questions into subagent batches of at most `size`, keeping a graded
  * rewrite ("wizard-of-oz~silver-shoes") out of the batch that holds its
- * original. In one batch, the player could use one version to answer the other.
+ * original. In one batch, a player could use one version to answer the
+ * other, and a judge could grade one against the other.
  */
 export function batchApart<T extends { id: string }>(items: T[], size: number): T[][] {
   const base = (id: string) => id.split("~")[0];
@@ -117,10 +122,10 @@ const POSITIONS = [1, 2, 3, 4] as const;
  * judge's numbers say, the verdict is its overall call.
  */
 export const FLAG_LABELS = {
-  "clue1-too-easy": "Clue 1 alone gives it away",
-  "clue2-too-easy": "Clue 2 alone gives it away",
-  "solves-on-clue-1": "A typical player solves on clue 1",
-  "player-solved-clue-1": "The simulated player solved on clue 1",
+  "clue1-too-easy": "Clue 1 gives it away without thinking",
+  "clue2-too-easy": "Clue 2 gives it away without thinking",
+  "plays-easy": "Plays easy",
+  "names-answer": "A clue uses a word from the answer's name",
   "dull-clue": "A clue before clue 4 is a summary or the most famous fact",
   repeats: "Two clues repeat each other",
   "few-distinct-facts": "Four clues cover two ideas or fewer",
@@ -138,10 +143,11 @@ export function flagsFor(j: Judgement, player?: PlayerRun): Flag[] {
   const flags: Flag[] = [];
   const clues = POSITIONS.map((p) => clueOf(j, p));
 
-  if (j.clue1.alone === "most") flags.push("clue1-too-easy");
-  if (j.clue2.alone === "most") flags.push("clue2-too-easy");
-  if (j.expected_solve === "1") flags.push("solves-on-clue-1");
-  if (player?.solvedOn === 1) flags.push("player-solved-clue-1");
+  // Working the answer out from clue 1 is fine; getting it without thinking is not.
+  if (j.clue1.alone === "instant") flags.push("clue1-too-easy");
+  if (j.clue2.alone === "instant") flags.push("clue2-too-easy");
+  if (j.difficulty === "easy") flags.push("plays-easy");
+  if (clues.some((c) => c.names_answer)) flags.push("names-answer");
   // Clue 4 is allowed to be the plain giveaway, so it can't be "dull".
   if (clues.slice(0, 3).some((c) => c.interest <= 2)) flags.push("dull-clue");
   if (clues.some((c) => c.repeats !== 0)) flags.push("repeats");
@@ -186,14 +192,20 @@ export interface EvalEntry {
 // Checks against Brian's grades (graded.ts)
 
 export type Check =
+  /** The judge must call the question ready to ship. */
+  | { kind: "verdict-good" }
   /** The judge must not call the question ready to ship. */
   | { kind: "verdict-not-good" }
-  /** An interesting clue that doesn't give the answer away on its own. */
+  /** An interesting clue that doesn't give the answer away without thinking. */
   | { kind: "clue-good"; clue: number }
   /** Not interesting: a summary, the famous fact, or something generic. */
   | { kind: "clue-weak"; clue: number }
-  /** Most typical players would name the answer from this clue alone. */
+  /** A summary or the most famous fact (the grading page's "Dull"). */
+  | { kind: "clue-dull"; clue: number }
+  /** Most typical players would name the answer from this clue at once, without thinking. */
   | { kind: "clue-too-easy"; clue: number }
+  /** The clue uses a distinctive word from the answer's own name. */
+  | { kind: "clue-names-answer"; clue: number }
   /** The judge must not flag a fact we have checked. */
   | { kind: "clue-fact-ok"; clue: number }
   /** The judge must see these two clues as repeating each other. */
@@ -235,14 +247,20 @@ export function applyCase(q: Question, c: GradedCase): Question {
 
 export function describeCheck(c: Check): string {
   switch (c.kind) {
+    case "verdict-good":
+      return "ready to ship";
     case "verdict-not-good":
       return "not ready to ship";
     case "clue-good":
       return `clue ${c.clue} is good`;
     case "clue-weak":
       return `clue ${c.clue} is not interesting`;
+    case "clue-dull":
+      return `clue ${c.clue} is dull`;
     case "clue-too-easy":
       return `clue ${c.clue} gives it away`;
+    case "clue-names-answer":
+      return `clue ${c.clue} uses the answer's name`;
     case "clue-fact-ok":
       return `clue ${c.clue}'s fact is right`;
     case "repeat-pair":
@@ -267,13 +285,15 @@ function pairRepeats(j: Judgement, [a, b]: [number, number]): boolean {
 
 export function runCheck(j: Judgement, check: Check): CheckResult {
   switch (check.kind) {
+    case "verdict-good":
+      return { check, pass: j.verdict === "good", got: `verdict ${j.verdict}` };
     case "verdict-not-good":
       return { check, pass: j.verdict !== "good", got: `verdict ${j.verdict}` };
     case "clue-good": {
       const c = clueOf(j, check.clue);
       return {
         check,
-        pass: c.interest >= 4 && c.alone !== "most",
+        pass: c.interest >= 4 && c.alone !== "instant",
         got: `interest ${c.interest}, alone ${c.alone}`,
       };
     }
@@ -281,9 +301,17 @@ export function runCheck(j: Judgement, check: Check): CheckResult {
       const c = clueOf(j, check.clue);
       return { check, pass: c.interest <= 3, got: `interest ${c.interest}` };
     }
+    case "clue-dull": {
+      const c = clueOf(j, check.clue);
+      return { check, pass: c.interest <= 2, got: `interest ${c.interest}` };
+    }
     case "clue-too-easy": {
       const c = clueOf(j, check.clue);
-      return { check, pass: c.alone === "most", got: `alone ${c.alone}` };
+      return { check, pass: c.alone === "instant", got: `alone ${c.alone}` };
+    }
+    case "clue-names-answer": {
+      const c = clueOf(j, check.clue);
+      return { check, pass: c.names_answer, got: c.names_answer ? "names it" : "doesn't name it" };
     }
     case "clue-fact-ok": {
       const c = clueOf(j, check.clue);

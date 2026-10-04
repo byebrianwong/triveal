@@ -95,7 +95,8 @@ then scores each clue:
 | Field | Meaning |
 | --- | --- |
 | `interest` 1-5 | 1 = a summary or description, 2 = the most famous fact, 3 = dry or generic, 4 = specific and lesser-known, 5 = a fact you'd repeat to a friend |
-| `alone` | How many typical players would name the answer from this clue alone: few, some or most |
+| `alone` | Could a typical player name the answer from this clue alone: no, think (they can work it out) or instant (without thinking). Only instant is too easy. |
+| `names_answer` | Uses a distinctive word from the answer's own name, like "Pisa" for the Leaning Tower of Pisa |
 | `wording` 1-3 | Awkward, clear, or tight and vivid |
 | `repeats` | Which other clue this one repeats, or 0 |
 | `fact` | ok, doubtful or wrong, from the model's own knowledge |
@@ -112,9 +113,11 @@ model that knows less trivia is closer to a typical player. It still knows
 more than most people, so read its solve point as "at the latest".
 
 From those numbers the eval sets **flags**, each tied to one rule: clue 1 or
-clue 2 gives the answer away, a dull clue before clue 4, clues that repeat each
+clue 2 gives the answer away without thinking, the question plays easy, a clue
+uses the answer's name, a dull clue before clue 4, clues that repeat each
 other, clues in the wrong order, a doubtful fact, and so on. The full list is
-`FLAG_LABELS` in `score.ts`.
+`FLAG_LABELS` in `score.ts`. Solving on clue 1 is not a flag by itself: Brian
+decided that working the answer out from clue 1 is fine.
 
 ## Can the judge be trusted?
 
@@ -132,9 +135,8 @@ Two things keep it honest:
   graded question or quote its clues. `clueEval.test.ts` fails if they do.
 - **Grades are Brian's words, not guesses at his taste.** Add a case to
   `graded.ts` only for something he said or clearly agreed with. The set is
-  small so far, and no whole question in it has been graded "good" yet. Grading
-  a few questions he likes as they are would make the verdict checks much
-  stronger.
+  18 cases from two sessions, four of them whole questions he'd ship as they
+  are. More of those would make the verdict checks stronger.
 
 ## Files
 
@@ -175,6 +177,6 @@ re-score questions that haven't changed.
 - The fact check has no sources. It catches some errors, not all.
 - Models know more trivia than people do, so "typical player" numbers are
   estimates. The simulated player gives a real measurement, but of a model.
-- The calibration set is small (8 cases from one grading session).
+- The calibration set is small: 18 cases from two grading sessions.
 - The private bank is not scored. The results are committed to a public repo,
   and private questions must not end up in it.

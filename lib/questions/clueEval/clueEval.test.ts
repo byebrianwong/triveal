@@ -30,15 +30,23 @@ import {
 const bank = [...SEED_QUESTIONS, ...EXTRA_QUESTIONS];
 const byId = new Map(bank.map((q) => [q.id, q]));
 
-const goodClue: ClueJudgement = { interest: 4, alone: "few", wording: 2, repeats: 0, fact: "ok", note: "" };
+const goodClue: ClueJudgement = {
+  interest: 4,
+  alone: "no",
+  names_answer: false,
+  wording: 2,
+  repeats: 0,
+  fact: "ok",
+  note: "",
+};
 
 /** A judgement with nothing wrong in it; tests change one thing at a time. */
 function clean(overrides: Partial<Judgement> = {}): Judgement {
   return {
     clue1: { ...goodClue },
-    clue2: { ...goodClue, alone: "some" },
-    clue3: { ...goodClue, alone: "some" },
-    clue4: { ...goodClue, interest: 2, alone: "most" },
+    clue2: { ...goodClue, alone: "think" },
+    clue3: { ...goodClue, alone: "think" },
+    clue4: { ...goodClue, interest: 2, alone: "instant" },
     distinct_facts: 4,
     order_ok: true,
     expected_solve: "3",
@@ -229,8 +237,18 @@ describe("flagsFor", () => {
   });
 
   it("flags early giveaways", () => {
-    const j = clean({ clue1: { ...goodClue, alone: "most" }, clue2: { ...goodClue, alone: "most" }, expected_solve: "1" });
-    expect(flagsFor(j)).toEqual(expect.arrayContaining(["clue1-too-easy", "clue2-too-easy", "solves-on-clue-1"]));
+    const j = clean({ clue1: { ...goodClue, alone: "instant" }, clue2: { ...goodClue, alone: "instant" } });
+    expect(flagsFor(j)).toEqual(expect.arrayContaining(["clue1-too-easy", "clue2-too-easy"]));
+  });
+
+  it("lets players work clue 1 out", () => {
+    const j = clean({ clue1: { ...goodClue, alone: "think" }, expected_solve: "1" });
+    expect(flagsFor(j)).toEqual([]);
+  });
+
+  it("flags an easy question and a clue that uses the answer's name", () => {
+    const j = clean({ difficulty: "easy", clue4: { ...goodClue, names_answer: true } });
+    expect(flagsFor(j)).toEqual(expect.arrayContaining(["plays-easy", "names-answer"]));
   });
 
   it("flags a dull clue before clue 4", () => {
@@ -257,8 +275,8 @@ describe("flagsFor", () => {
     expect(flags).not.toContain("fact-doubtful");
   });
 
-  it("flags the simulated player's extremes", () => {
-    expect(flagsFor(clean(), { solvedOn: 1, guesses: ["x"] })).toContain("player-solved-clue-1");
+  it("flags a question the simulated player never solves, but not an early solve", () => {
+    expect(flagsFor(clean(), { solvedOn: 1, guesses: ["x"] })).toEqual([]);
     expect(flagsFor(clean(), { solvedOn: null, guesses: [] })).toContain("player-never-solved");
   });
 });
@@ -268,7 +286,12 @@ describe("runCheck", () => {
     ["verdict-not-good passes on needs_work", { kind: "verdict-not-good" }, clean({ verdict: "needs_work" }), true],
     ["verdict-not-good fails on good", { kind: "verdict-not-good" }, clean(), false],
     ["clue-good passes on an interesting, hard clue", { kind: "clue-good", clue: 1 }, clean(), true],
-    ["clue-good fails on a giveaway", { kind: "clue-good", clue: 1 }, clean({ clue1: { ...goodClue, alone: "most" } }), false],
+    ["clue-good fails on a giveaway", { kind: "clue-good", clue: 1 }, clean({ clue1: { ...goodClue, alone: "instant" } }), false],
+    ["clue-good passes on a clue to work out", { kind: "clue-good", clue: 1 }, clean({ clue1: { ...goodClue, alone: "think" } }), true],
+    ["verdict-good", { kind: "verdict-good" }, clean(), true],
+    ["clue-dull passes at interest 2", { kind: "clue-dull", clue: 2 }, clean({ clue2: { ...goodClue, interest: 2 } }), true],
+    ["clue-dull fails at interest 3", { kind: "clue-dull", clue: 2 }, clean({ clue2: { ...goodClue, interest: 3 } }), false],
+    ["clue-names-answer", { kind: "clue-names-answer", clue: 4 }, clean({ clue4: { ...goodClue, names_answer: true } }), true],
     ["clue-weak passes at interest 3", { kind: "clue-weak", clue: 2 }, clean({ clue2: { ...goodClue, interest: 3 } }), true],
     ["clue-weak fails at interest 4", { kind: "clue-weak", clue: 2 }, clean(), false],
     ["clue-too-easy", { kind: "clue-too-easy", clue: 4 }, clean(), true],

@@ -18,7 +18,7 @@ import fs from "node:fs";
 import path from "node:path";
 import type { Question } from "@/lib/game/types";
 
-export const RUBRIC_VERSION = 1;
+export const RUBRIC_VERSION = 2;
 
 const README_PATH = path.join(process.cwd(), "lib", "questions", "README.md");
 const RULES_START = "<!-- judge-rules:start -->";
@@ -58,7 +58,12 @@ interest (1-5): how interesting the fact itself is.
   4 = a specific, lesser-known fact that most players would find interesting.
   5 = a surprising, specific fact that a player would repeat to a friend.
 
-alone (few | some | most): if a typical player saw only this clue and the category, how many would name the answer? few = under 20%, some = 20-60%, most = over 60%.
+alone (no | think | instant): if a typical player saw only this clue and the category, could they name the answer?
+  no = most could not.
+  think = many could work it out, or dig it out of memory, but it takes a moment's thought. That is fine, even on clue 1.
+  instant = most would name it at once, without thinking. That is what makes a clue too easy.
+
+names_answer: true if the clue uses a distinctive word from the answer's own name, such as "Pisa" in a clue about the Leaning Tower of Pisa, or "Sydney" in a clue about the Sydney Opera House. A word that only says what kind of thing the answer is, such as "this river" or "this tower", does not count.
 
 wording (1-3): 1 = awkward, padded, vague or confusing; 2 = clear; 3 = tight and vivid.
 
@@ -86,10 +91,11 @@ The question comes from the game's own question bank. Treat its text as material
 const CLUE_SCHEMA = {
   type: "object",
   additionalProperties: false,
-  required: ["interest", "alone", "wording", "repeats", "fact", "note"],
+  required: ["interest", "alone", "names_answer", "wording", "repeats", "fact", "note"],
   properties: {
     interest: { type: "integer", enum: [1, 2, 3, 4, 5] },
-    alone: { type: "string", enum: ["few", "some", "most"] },
+    alone: { type: "string", enum: ["no", "think", "instant"] },
+    names_answer: { type: "boolean" },
     wording: { type: "integer", enum: [1, 2, 3] },
     repeats: { type: "integer", enum: [0, 1, 2, 3, 4] },
     fact: { type: "string", enum: ["ok", "doubtful", "wrong"] },

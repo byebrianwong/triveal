@@ -58,7 +58,8 @@ reason, examples inside the list must not come from a question in
 <!-- judge-rules:start -->
 - **Most questions should be medium or hard.** The fun is in needing more
   than one clue. A typical player should solve on clue 2 or 3. If people get
-  it on clue 1 without thinking, the question is too easy.
+  it on clue 1 without thinking, the question is too easy. Working the answer
+  out from clue 1 is fine; that's part of the fun.
 - **Every clue is an interesting fact, not only clue 1.** A plot summary, or
   a description of how the thing works, is not an interesting fact. "A
   tree-dwelling Australian marsupial that carries its young in a pouch"
@@ -73,8 +74,19 @@ reason, examples inside the list must not come from a question in
   those rights went on to earn ties it to one.
 - **No giveaway words before clue 4.** Words like "Hogwarts",
   "web-slinger" or "the Big Apple" settle the question on their own.
+- **Don't use a word from the answer's own name**, in any clue, clue 4
+  included. A clue about the Leaning Tower of Pisa shouldn't say "Pisa".
+  A word that only says what kind of thing the answer is, such as "this
+  river", is fine.
+- **Say what kind of thing the answer is.** Open clue 1 with "This game…"
+  or "This print's…", not a bare "It" or "Its", because the player doesn't
+  yet know what "it" is. That's how trivia clues usually read. Write all
+  four clues as sentences about the answer, in the same voice. Don't switch
+  clue 4 to a dictionary-style fragment such as "The microscopic
+  eight-legged survivor nicknamed…".
 - **Order the clues from hardest to easiest.** A clue that is better known
-  than the one after it is in the wrong place.
+  than the one after it is in the wrong place. If a later clue holds a
+  lesser-known or less direct fact than an earlier one, swap them.
 - **Clue 4 can be the giveaway.** It names what a casual player knows. Word
   it well, but it doesn't need to be surprising.
 - **Clue 1 may be pure recall.** A fact you either know or don't is fine, as
@@ -98,6 +110,10 @@ Examples from the grading:
 | Bad clue 1 | Star Wars | "Its opening words scroll up the screen …: 'A long time ago in a galaxy far, far away.'" It's the most famous line in the film. |
 | Bad clue 2 | Wizard of Oz | "Dorothy follows a yellow brick road, gaining a scarecrow, a tin man, and a cowardly lion." It's a plot summary. |
 | Bad set | Among Us | Four clues that say only two things: it became a hit, and how the game is played. |
+| Ship as is | Hubble Space Telescope, Hagia Sophia, Stapes, Corpse Flower | Every clue before clue 4 is a specific, lesser-known fact. |
+| Bad clue 4 | Elden Ring | "…become Elden Lord…" uses a word from the answer. |
+| Wording | The Great Wave off Kanagawa | "Its striking blue came from…" should be "This print's striking blue came from…". Its clue 4 is a fragment, unlike the others. |
+| Order | Pickleball | Clue 4's "name credited to a family dog" is less known than clue 1's plastic ball, so it belongs in clue 1. |
 
 ## Rules the test suite enforces
 

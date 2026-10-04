@@ -400,12 +400,6 @@ interface TaskFile {
   playerTasks: { ids: Record<string, string>; rounds: { prompt: string; answer: string }[] }[];
 }
 
-function chunk<T>(items: T[], size: number): T[][] {
-  const out: T[][] = [];
-  for (let i = 0; i < items.length; i += size) out.push(items.slice(i, i + size));
-  return out;
-}
-
 const pad = (n: number, width = 3) => String(n).padStart(width, "0");
 
 function exportTasks(todo: Question[], dir: string): void {
@@ -414,7 +408,7 @@ function exportTasks(todo: Question[], dir: string): void {
   const write = (name: string, text: string) => fs.writeFileSync(path.join(dir, name), text);
   const rounds = Math.max(...todo.map((q) => q.clues.length));
 
-  const judgeTasks = chunk(todo, JUDGE_BATCH).map((qs, i) => {
+  const judgeTasks = batchApart(todo, JUDGE_BATCH).map((qs, i) => {
     const prompt = `judge-${pad(i + 1)}.txt`;
     write(prompt, judgeTaskPrompt(qs, houseRules));
     return { ids: qs.map((q) => q.id), prompt, answer: `judge-${pad(i + 1)}.answer.json` };

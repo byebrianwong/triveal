@@ -9,11 +9,15 @@
  * Only record what Brian actually said or clearly agreed with. A check that
  * guesses at his taste tests the guess, not the judge.
  *
- * Grading session 1 (2026-10-03): six bank questions plus two rewritten
- * first clues he approved. All six questions fell short of the standard, so
- * there is no whole question here yet that he graded as good. Positive
- * examples are single clues. Grading a few questions he likes as they are
- * would make the "verdict" agreement mean much more.
+ * Grading session 1 (2026-10-03, in chat): six bank questions plus two
+ * rewritten first clues he approved. All six fell short of the standard.
+ *
+ * Grading session 2 (2026-10-03, on a grading page): ten more questions. He
+ * gave each clue a tag (good, too easy, dull, fact?) and most questions a
+ * verdict. Four are "ship as is", the first whole questions graded good.
+ * Clue 4 tags of "good" aren't checked: clue 4 is allowed to give the
+ * answer away, so "good" there doesn't map onto the judge's scores. Where
+ * he left the verdict blank, there's no verdict check.
  */
 
 import type { GradedCase } from "./score";
@@ -89,5 +93,88 @@ export const GRADED_CASES: GradedCase[] = [
     id: "among-us",
     said: "These clues say the same thing too much: that it became a phenomenon, and how the game works, spread over four clues. There should be some other interesting clue in there.",
     expect: [{ kind: "verdict-not-good" }, { kind: "repetitive" }],
+  },
+
+  // Session 2: the grading page.
+  ...[
+    "hubble-space-telescope",
+    "hagia-sophia",
+    "stapes",
+  ].map(
+    (id): GradedCase => ({
+      id,
+      said: "Ship as is. Tagged every clue good.",
+      expect: [
+        { kind: "verdict-good" },
+        { kind: "clue-good", clue: 1 },
+        { kind: "clue-good", clue: 2 },
+        { kind: "clue-good", clue: 3 },
+      ],
+    }),
+  ),
+  {
+    id: "corpse-flower",
+    said: "Ship as is. Tagged every clue good. 'The 3rd clue should maybe be the first clue? It's less direct than the first clue.'",
+    expect: [
+      { kind: "verdict-good" },
+      { kind: "clue-good", clue: 1 },
+      { kind: "clue-good", clue: 2 },
+      { kind: "clue-good", clue: 3 },
+    ],
+  },
+  {
+    id: "parasite-film",
+    said: "Needs work. Clue 1 good, clues 2 and 3 dull.",
+    expect: [
+      { kind: "verdict-not-good" },
+      { kind: "clue-good", clue: 1 },
+      { kind: "clue-dull", clue: 2 },
+      { kind: "clue-dull", clue: 3 },
+    ],
+  },
+  {
+    id: "speed-of-light",
+    said: "Needs work. Clues 1 and 2 too easy, clue 3 good. 'Third clue is a little weirdly worded.'",
+    expect: [
+      { kind: "verdict-not-good" },
+      { kind: "clue-too-easy", clue: 1 },
+      { kind: "clue-too-easy", clue: 2 },
+      { kind: "clue-good", clue: 3 },
+    ],
+  },
+  {
+    id: "elden-ring",
+    said: "Clues 1-3 good, clue 4 dull. Clue 1 should say 'this game', not 'it'. 'The last clue says Elden in the clue.'",
+    expect: [
+      { kind: "clue-good", clue: 1 },
+      { kind: "clue-good", clue: 2 },
+      { kind: "clue-good", clue: 3 },
+      { kind: "clue-names-answer", clue: 4 },
+    ],
+  },
+  {
+    id: "pickleball",
+    said: "Every clue good. The family-dog fact in clue 4 is less known than clue 1's plastic ball; swap them.",
+    expect: [
+      { kind: "clue-good", clue: 1 },
+      { kind: "clue-good", clue: 2 },
+      { kind: "clue-good", clue: 3 },
+    ],
+  },
+  {
+    id: "the-great-wave-off-kanagawa",
+    said: "Every clue good. Clue 1's 'Its' isn't descriptive enough ('This print's striking blue…'). Clue 4 is worded differently from the rest.",
+    expect: [
+      { kind: "clue-good", clue: 1 },
+      { kind: "clue-good", clue: 2 },
+      { kind: "clue-good", clue: 3 },
+    ],
+  },
+  {
+    id: "the-odyssey",
+    // He tagged clues 1 and 2 good but also called them "more just facts /
+    // summary", so only clue 3 is checked.
+    said: "Every clue tagged good, but 'the 4th might actually be less direct than the first? (first and second clues are more just facts / summary?)'",
+    expect: [{ kind: "clue-good", clue: 3 }],
   },
 ];
