@@ -1,0 +1,1509 @@
+[
+ {
+  "id": "seinfeld",
+  "answer": "Seinfeld",
+  "category": "Television",
+  "before": [
+   "Its creators pitched it as 'a show about nothing.'",
+   "This 1990s sitcom followed a stand-up comedian and his eccentric New York circle.",
+   "In it, neurotic George, quirky Elaine, and the wild-haired Kramer bursting through the door were staples.",
+   "'No soup for you!' and 'yada yada yada' entered the language from this NBC comedy."
+  ],
+  "after": [
+   "After this sitcom's pilot tested poorly, NBC canceled a Bob Hope special to pay for just four more episodes, the smallest sitcom order in TV history.",
+   "This sitcom's 1998 finale, in which its four friends go to jail for failing to help a stranger, drew about 76 million viewers.",
+   "This sitcom turned a writer's made-up family holiday into a December 23 celebration, with a bare aluminum pole and an 'airing of grievances.'",
+   "'No soup for you!' and 'yada yada yada' entered the language from this NBC comedy."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Seinfeld",
+   "2": "https://en.wikipedia.org/wiki/Seinfeld",
+   "3": "https://en.wikipedia.org/wiki/Festivus"
+  },
+  "summary": "Replaced the famous 'show about nothing' line, the premise summary and the character names with three checked facts (the four-episode order, the jailed-friends finale, and Festivus described without naming it) and kept the catchphrase clue 4."
+ },
+ {
+  "id": "squid-game",
+  "answer": "Squid Game",
+  "category": "Television",
+  "before": [
+   "Its guards wear pink jumpsuits and masks marked with circles, triangles, and squares.",
+   "In it, hundreds of desperate, indebted contestants play deadly versions of children's games for a cash prize.",
+   "In it, a giant robot doll turns during 'Red Light, Green Light,' gunning down anyone who moves.",
+   "This 2021 Korean survival series became Netflix's most-watched show ever."
+  ],
+  "after": [
+   "This show's creator has said the stress of making its first season cost him at least six of his teeth.",
+   "This show's star, Lee Jung-jae, became the first Asian actor to win the Emmy for lead actor in a drama.",
+   "This show sent sales of plain white Vans slip-ons up about 7,800% as fans copied its contestants' look for Halloween.",
+   "This 2021 Korean survival series became Netflix's most-watched show ever."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://variety.com/2024/tv/global/squid-game-creator-lost-nine-teeth-season-2-money-1236206385/",
+   "2": "https://www.aljazeera.com/news/2022/9/13/squid-game-star-lee-jung-jae-first-asian-to-win-best-actor-emmy",
+   "3": "https://variety.com/shop/squid-game-halloween-costume-white-slip-on-vans-1235082287/"
+  },
+  "summary": "Dropped the guards' masks, the plot summary and the robot-doll game, which all gave it away, for the creator's pulled teeth, Lee Jung-jae's Emmy and the white Vans sales jump, and kept clue 4.",
+  "handEdited": [
+   1
+  ]
+ },
+ {
+  "id": "electron",
+  "answer": "Electron",
+  "category": "Science",
+  "before": [
+   "J.J. Thomson discovered it in 1897, proving the atom was not the smallest thing after all.",
+   "This tiny particle carries a negative charge and swarms around the nucleus of an atom.",
+   "Its flow through a wire is what we call an electric current.",
+   "Sharing or trading these particles forms chemical bonds; its charge is the opposite of a proton's."
+  ],
+  "after": [
+   "This particle's discoverer won a Nobel Prize in 1906, and his son won one in 1937 for showing it also behaves like a wave.",
+   "This particle's name traces back to the Greek word for amber, which the ancient Greeks saw attract small objects when rubbed with fur.",
+   "This particle is so light that it would take about 1,836 of them to match the mass of one proton.",
+   "This negatively charged particle surrounds an atom's nucleus, and atoms share or swap it to form chemical bonds."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/George_Paget_Thomson",
+   "2": "https://en.wikipedia.org/wiki/Electron",
+   "3": "https://en.wikipedia.org/wiki/Electron",
+   "4": "https://en.wikipedia.org/wiki/Electron"
+  },
+  "summary": "Replaced the textbook definitions with the father-and-son Thomson Nobels, the amber origin of the name and the 1/1836 mass ratio, opened every clue with 'This particle', and rewrote clue 4 so it no longer repeats another clue or mixes 'these' and 'its'."
+ },
+ {
+  "id": "the-matrix",
+  "answer": "The Matrix",
+  "category": "Movies",
+  "before": [
+   "Its hero is offered a red pill or a blue pill and chooses to see the truth.",
+   "Humanity, it reveals, is trapped inside a computer simulation while machines harvest their bodies.",
+   "In it, Keanu Reeves plays Neo, 'the One,' who learns to dodge bullets in slow motion.",
+   "The Wachowskis' 1999 sci-fi film features cascading green code and long black coats."
+  ],
+  "after": [
+   "This film's designer likes to tell people that its best-known graphic is made out of Japanese sushi recipes.",
+   "Will Smith turned down this film's lead role to make 'Wild Wild West' instead.",
+   "This film froze its action shots by firing 120 still cameras, set in an arc around the actor, one after another.",
+   "The Wachowskis' 1999 sci-fi film stars Keanu Reeves as Neo, a hacker offered a red pill or a blue pill."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/The_Matrix",
+   "2": "https://en.wikipedia.org/wiki/The_Matrix",
+   "3": "https://collider.com/the-matrix-bullet-time-scene/",
+   "4": "https://en.wikipedia.org/wiki/The_Matrix"
+  },
+  "summary": "Moved the red-pill scene and Keanu Reeves to clue 4 and replaced the instant plot clues with the sushi-recipe code, Will Smith's turned-down role and the 120-camera rig (described without the term 'bullet time'), so clue 4 no longer repeats the code from clue 1."
+ },
+ {
+  "id": "doctor-who",
+  "answer": "Doctor Who",
+  "category": "Television",
+  "before": [
+   "Its hero regenerates into a new face whenever the lead actor changes, keeping the show going for decades.",
+   "In it, a time-traveling alien explores the universe in a ship disguised as a blue British police box.",
+   "In it, the TARDIS is 'bigger on the inside,' and its pilot battles pepper-pot robots called Daleks.",
+   "This long-running BBC sci-fi series stars a two-hearted Time Lord known only by a questioning title."
+  ],
+  "after": [
+   "This show's first episode aired on 23 November 1963, starting 80 seconds late because of announcements about President Kennedy's assassination.",
+   "When this show's composer heard Delia Derbyshire's electronic take on his theme tune, he asked, 'Did I write that?' She replied, 'Most of it.'",
+   "In 2017, this show cast Jodie Whittaker as the first woman to play its hero.",
+   "This long-running BBC sci-fi series follows a two-hearted Time Lord who travels in a police box called the TARDIS."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Doctor_Who",
+   "2": "https://en.wikipedia.org/wiki/Doctor_Who_theme_music",
+   "3": "https://www.cnn.com/2017/07/16/entertainment/doctor-who-jodie-whittaker",
+   "4": "https://en.wikipedia.org/wiki/TARDIS"
+  },
+  "summary": "Replaced the regeneration, police-box and TARDIS/Dalek clues, which all gave it away, with the Kennedy-day premiere, the theme-tune exchange and the first female lead, and kept clue 4.",
+  "handEdited": [
+   4
+  ]
+ },
+ {
+  "id": "tetris",
+  "answer": "Tetris",
+  "category": "Games",
+  "before": [
+   "A Soviet computer engineer designed it in 1984, and its profits were tangled in Cold War red tape.",
+   "In it, seven shapes, each made of four squares, fall one by one to be fitted together.",
+   "In it, completing a solid horizontal line makes that line vanish, and the blocks drop faster as you go.",
+   "This addictive falling-block puzzle helped sell millions of Nintendo Game Boys."
+  ],
+  "after": [
+   "This game's name blends the Greek prefix for 'four' with tennis, its creator's favorite sport.",
+   "In late 2023 a 13-year-old became the first person known to beat this game's NES version, by playing until it crashed.",
+   "In 1993 a cosmonaut carried this game to the Mir space station, and Guinness World Records calls it the first video game in space.",
+   "This addictive falling-block puzzle helped sell millions of Nintendo Game Boys."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Tetris",
+   "2": "https://www.popsci.com/technology/tetris-beat-kill-screen/",
+   "3": "https://www.guinnessworldrecords.com/world-records/109302-first-videogame-in-space"
+  },
+  "summary": "Replaced the Soviet-origin opener and the two gameplay descriptions with the name's tennis origin, the 2023 NES crash, and the first game in space, so no clue before 4 is instant."
+ },
+ {
+  "id": "shrek",
+  "answer": "Shrek",
+  "category": "Movies",
+  "before": [
+   "Its green hero compares himself to an onion, insisting both have 'layers.'",
+   "In it, a grumpy swamp-dwelling ogre sets out to rescue a princess to win back his home.",
+   "In it, a motor-mouthed Donkey, voiced by Eddie Murphy, becomes his unwanted sidekick.",
+   "This 2001 DreamWorks film about an ogre and Princess Fiona won the first Best Animated Feature Oscar."
+  ],
+  "after": [
+   "In 2001 this film became one of the few animated features ever to compete for the Palme d'Or at the Cannes Film Festival.",
+   "This film's hero first appeared in a 1990 picture book by William Steig, and his name comes from the Yiddish word for 'fear.'",
+   "Chris Farley had recorded most of this film's lead role before he died in 1997, and the part was then recast.",
+   "This 2001 DreamWorks film about an ogre and Princess Fiona won the first Best Animated Feature Oscar."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Shrek",
+   "2": "https://en.wikipedia.org/wiki/Shrek!",
+   "3": "https://www.cnn.com/2015/08/06/entertainment/chris-farley-shrek-voice-feat/index.html"
+  },
+  "summary": "Dropped the onion quote, plot summary and Donkey giveaway in favor of the Cannes competition, the Steig book and Yiddish name, and Chris Farley's lost performance, ordered hardest to easiest."
+ },
+ {
+  "id": "oppenheimer",
+  "answer": "Oppenheimer",
+  "category": "Movies",
+  "before": [
+   "Its title figure quotes Hindu scripture: 'Now I am become Death, the destroyer of worlds.'",
+   "It dramatizes the Manhattan Project and the first test of an atomic bomb in the New Mexico desert.",
+   "In it, Cillian Murphy plays the tormented physicist who fathered the weapon, then feared it.",
+   "Christopher Nolan's 2023 biopic swept the Oscars, paired in cinemas with 'Barbie.'"
+  ],
+  "after": [
+   "Kodak created black-and-white IMAX film especially for this movie, making it the first film to shoot scenes in black-and-white IMAX.",
+   "This film was adapted from 'American Prometheus,' Kai Bird and Martin J. Sherwin's Pulitzer Prize-winning biography.",
+   "Robert Downey Jr. won an Oscar for this film, playing Lewis Strauss, the official who worked to undermine its title figure.",
+   "Christopher Nolan's 2023 biopic swept the Oscars, paired in cinemas with 'Barbie.'"
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Oppenheimer_(film)",
+   "2": "https://en.wikipedia.org/wiki/American_Prometheus",
+   "3": "https://en.wikipedia.org/wiki/Oppenheimer_(film)"
+  },
+  "summary": "Replaced the 'destroyer of worlds' quote, the Manhattan Project summary and the Cillian Murphy giveaway with the Kodak film stock, the source biography and Downey's Oscar-winning role."
+ },
+ {
+  "id": "wine",
+  "answer": "Wine",
+  "category": "Food & Drink",
+  "before": [
+   "Experts can sometimes name the exact hillside and year a glass of it came from just by taste.",
+   "Made by fermenting crushed grapes, it is aged in oak barrels and sealed under a cork.",
+   "It comes in red, white, and rose, plus a sparkling version from France's Champagne region.",
+   "Sommeliers swirl and sniff this fermented grape drink before pairing it with dinner."
+  ],
+  "after": [
+   "The oldest known unopened bottle of this drink, sealed with olive oil and wax, was found in a 4th-century Roman tomb in Germany.",
+   "In the late 1800s a tiny insect from America, phylloxera, destroyed much of France's output of this drink until growers grafted on American roots.",
+   "The streaks this drink leaves running down a glass, called 'tears' or 'legs,' form because its alcohol evaporates faster than its water.",
+   "Sommeliers swirl and sniff this fermented grape drink before pairing it with dinner."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Speyer_wine_bottle",
+   "2": "https://en.wikipedia.org/wiki/Great_French_Wine_Blight",
+   "3": "https://en.wikipedia.org/wiki/Tears_of_wine"
+  },
+  "summary": "Replaced the vague tasting claim and two how-it's-made giveaways with the Speyer bottle, the phylloxera blight and the science of 'legs,' each a separate angle that still takes thought."
+ },
+ {
+  "id": "legend-of-zelda",
+  "answer": "The Legend of Zelda",
+  "category": "Games",
+  "before": [
+   "Confusingly, the princess it is named for is not the character you actually control.",
+   "Its players guide the green-clad, elf-like Link across the fantasy kingdom of Hyrule on a rescue quest.",
+   "In it, collecting pieces of a sacred golden triangle, the Triforce, he battles the villain Ganon.",
+   "This Nintendo adventure series' hero draws a Master Sword and solves dungeon puzzles."
+  ],
+  "after": [
+   "Shigeru Miyamoto based this series on his boyhood explorations of the forests, lakes and caves around his hometown near Kyoto.",
+   "In North America, this series' first game came on a gold cartridge with a battery inside that let players save their progress.",
+   "This series' princess was named after the wife of novelist F. Scott Fitzgerald.",
+   "This Nintendo adventure series' hero draws a Master Sword and solves dungeon puzzles."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "http://www.todayifoundout.com/index.php/2013/10/origin-legend-zelda/",
+   "2": "https://www.thepopverse.com/gaming-made-in-87-the-legend-of-zelda-battery-save-file-nintendo-nes",
+   "3": "https://en.wikipedia.org/wiki/Princess_Zelda"
+  },
+  "summary": "Removed the playable-princess quirk and the Link, Hyrule, Triforce and Ganon giveaways, using Miyamoto's childhood inspiration, the gold battery-save cartridge and the Fitzgerald naming instead."
+ },
+ {
+  "id": "aurora",
+  "answer": "Aurora",
+  "category": "Space",
+  "before": [
+   "It glows when particles hurled from the Sun crash into gases high in the sky near the poles.",
+   "Oxygen far overhead lends it greens and reds, while nitrogen adds blues and purples.",
+   "Seen best in the far north and far south, it ripples and curtains across the night sky.",
+   "These shimmering polar light shows are known as the northern and southern 'lights.'"
+  ],
+  "after": [
+   "In 1859 this sky display shone so brightly over the Rocky Mountains that gold miners woke up and began making breakfast, thinking it was morning.",
+   "This sky display also lights up Jupiter's poles, where NASA says it is hundreds of times more energetic than on Earth.",
+   "Galileo is credited with the first use of this display's name, in 1619, taking it from the Roman goddess of the dawn.",
+   "This shimmering polar light show is called the northern or southern 'lights,' depending on the hemisphere."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Carrington_Event",
+   "2": "https://esahubble.org/news/heic1613/",
+   "3": "https://en.wikipedia.org/wiki/Aurora",
+   "4": "https://en.wikipedia.org/wiki/Aurora"
+  },
+  "summary": "Replaced the how-it-works clue 1 with the 1859 gold miners story, swapped the descriptive polar clue for the Galileo and dawn-goddess name origin (placed second as the harder fact), kept the color clue as clue 3, and made clue 4 singular to match the other clues.",
+  "handEdited": [
+   2,
+   3
+  ]
+ },
+ {
+  "id": "violin",
+  "answer": "Violin",
+  "category": "Music",
+  "before": [
+   "Its priciest examples, made by Stradivari three centuries ago, sell for millions.",
+   "Its four strings are usually played with a horsehair bow, though they can be plucked.",
+   "The smallest and highest-pitched member of its bowed-string family, it is tucked under the player's chin.",
+   "Drawn with a bow, it carries the melody in an orchestra's string section; folk players call it by a homelier name."
+  ],
+  "after": [
+   "This instrument earned a world-famous soloist only about $32 when he played it incognito for 45 minutes in a Washington, D.C., subway station in 2007.",
+   "Albert Einstein played this instrument from childhood and gave each one he owned the nickname 'Lina.'",
+   "An orchestra's concertmaster plays this instrument, whose players form the biggest section on the stage.",
+   "Antonio Stradivari made the most prized examples of this chin-held instrument; one, the 'Lady Blunt,' sold for $15.9 million in 2011."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.classicfm.com/artists/joshua-bell/violin-busking-washington-subway/",
+   "2": "https://www.nationalgeographic.com/adventure/article/einstein-genius-violin-music-physics-science",
+   "3": "https://theconversation.com/why-are-the-violins-the-biggest-section-in-the-orchestra-236596",
+   "4": "https://en.wikipedia.org/wiki/Stradivarius"
+  },
+  "summary": "Moved the instant Stradivari fact to clue 4 and replaced the descriptions of how the instrument is played with four facts: the 2007 subway experiment, Einstein's 'Lina', the concertmaster and section size, and the Lady Blunt sale.",
+  "handEdited": [
+   2
+  ]
+ },
+ {
+  "id": "minecraft",
+  "answer": "Minecraft",
+  "category": "Games",
+  "before": [
+   "It began as one Swedish developer's side project and became the best-selling video game of all time.",
+   "Its players mine blocks and craft tools in an endless world of cubes, from dirt to diamond.",
+   "In it, hissing green 'creepers' explode by night and skeletons attack anyone who hasn't built shelter.",
+   "This blocky sandbox game, now owned by Microsoft, has a 'Creative' mode with unlimited resources."
+  ],
+  "after": [
+   "This game's best-known monster began as a coding mistake: its creator was building a pig and swapped the model's height and length.",
+   "This game began as a Swedish programmer's side project and became the best-selling video game of all time.",
+   "Players have built working computers inside this game, wiring them from a circuit material called redstone.",
+   "This blocky sandbox game, now owned by Microsoft, has a 'Creative' mode with unlimited resources."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Creeper_(Minecraft)",
+   "2": "https://en.wikipedia.org/wiki/Minecraft",
+   "3": "https://en.wikipedia.org/wiki/Minecraft"
+  },
+  "summary": "Removed the gameplay description that used 'mine' and 'craft' and the creeper giveaway, led with the pig coding-error origin, fixed the bare 'It' opening on the best-selling clue, and added the redstone computers fact."
+ },
+ {
+  "id": "soccer",
+  "answer": "Soccer",
+  "category": "Sports",
+  "before": [
+   "Its championship final draws a television audience of billions — more than any other single sporting event on Earth.",
+   "Apart from the goalkeeper, its players may not touch the ball with their hands, moving it by foot, head, and chest.",
+   "Played by two sides of eleven on a grass pitch, its World Cup is contested every four years.",
+   "In this global game, fans roar as the ball is kicked into a net; Pelé and Messi are among its legends."
+  ],
+  "after": [
+   "This sport's modern rules were first agreed in 1863 over six meetings at a London pub, the Freemasons' Tavern.",
+   "The name Americans use for this sport began as English student slang in the 1880s, a clipped form of 'association.'",
+   "This sport's color-coded penalty cards were inspired by traffic lights an English referee saw while driving through London, and debuted in 1970.",
+   "In this global game, fans roar as the ball is kicked into a net; Pelé and Messi are among its legends."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/The_Football_Association",
+   "2": "https://en.wikipedia.org/wiki/Names_for_association_football",
+   "3": "https://en.wikipedia.org/wiki/Ken_Aston"
+  },
+  "summary": "Dropped the overstated TV audience claim and the two rule descriptions, and replaced them with the 1863 Freemasons' Tavern rules, the name's origin as 1880s student slang, and the traffic-light origin of the penalty cards, worded so clue 3 still needs a step of thought."
+ },
+ {
+  "id": "fossil",
+  "answer": "Fossil",
+  "category": "Science",
+  "before": [
+   "The science of studying them, paleontology, comes from Greek for 'ancient beings.'",
+   "Formed when minerals slowly replace the buried remains of a once-living thing, it can take millions of years.",
+   "Dinosaurs are known mostly from these stony impressions of bones dug from sedimentary rock.",
+   "A dragonfly trapped in amber or a footprint hardened in mudstone is this preserved trace of ancient life."
+  ],
+  "after": [
+   "This kind of find includes 'tongue stones', which Pliny the Elder said fell from the sky; in 1667 Nicolas Steno showed they were sharks' teeth.",
+   "The name for this kind of find comes from Latin for 'dug up', and in the 1600s it could mean anything taken from the ground, even coal or salt.",
+   "In the early 1800s Mary Anning, a poor cabinetmaker's daughter, made her name finding and selling these on the cliffs at Lyme Regis.",
+   "A dragonfly trapped in amber or a footprint hardened in mudstone is this preserved trace of ancient life."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Glossopetrae",
+   "2": "https://www.etymonline.com/word/fossil",
+   "3": "https://en.wikipedia.org/wiki/Mary_Anning"
+  },
+  "summary": "Replaced the paleontology clue, the formation description and the loose dinosaur clue with three facts (Steno's tongue stones, the Latin 'dug up' origin, Mary Anning at Lyme Regis), using Lyme Regis instead of 'Jurassic Coast' so clue 3 is not instant."
+ },
+ {
+  "id": "earthquake",
+  "answer": "Earthquake",
+  "category": "Science",
+  "before": [
+   "The 'Ring of Fire' around the Pacific is where most of them strike.",
+   "It happens when slabs of the planet's crust suddenly slip along a fault line.",
+   "Its strength is rated on the Richter or moment-magnitude scale, and it can trigger a tsunami.",
+   "This violent shaking of the ground toppled much of San Francisco in 1906."
+  ],
+  "after": [
+   "This kind of natural disaster wrecked Lisbon on All Saints' Day in 1755 and helped inspire Voltaire's 'Candide'.",
+   "In 2011 one of these off Japan sped up the planet's spin, shortening the day by about 1.8 microseconds.",
+   "The most powerful one ever recorded struck near Valdivia, Chile, in 1960 and left about 2 million people homeless.",
+   "This violent shaking of the ground toppled much of San Francisco in 1906."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake",
+   "2": "https://www.sciencedaily.com/releases/2011/03/110314210442.htm",
+   "3": "https://geology.com/records/largest-earthquake/"
+  },
+  "summary": "Replaced the vague Ring of Fire opener and the two textbook descriptions with three specific events (Lisbon 1755 and Candide, Japan 2011 shortening the day, Chile 1960 as the strongest recorded), avoiding the word 'Earth', and kept the San Francisco clue 4."
+ },
+ {
+  "id": "amelia-earhart",
+  "answer": "Amelia Earhart",
+  "category": "History",
+  "before": [
+   "She vanished without a trace over the Pacific in 1937, and her fate is still argued about today.",
+   "Five years earlier, in 1932, she became the first woman to fly solo across the Atlantic Ocean.",
+   "She disappeared while trying to circle the globe, her plane lost somewhere near tiny Howland Island.",
+   "This pioneering American aviator remains one of history's most famous missing persons."
+  ],
+  "after": [
+   "In 1933 this American woman launched her own clothing line, with some designs made from parachute silk.",
+   "This flier was the first president of the Ninety-Nines, an organization of women pilots founded in 1929.",
+   "After flying across the Atlantic as a passenger in 1928, she said she had been 'just baggage, like a sack of potatoes.'",
+   "This pioneering American aviator remains one of history's most famous missing persons."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://airandspace.si.edu/stories/editorial/amelia-earhart-using-fashion-inspire-flight",
+   "2": "https://ninety-nines.org/history/",
+   "3": "https://en.wikipedia.org/wiki/Amelia_Earhart"
+  },
+  "summary": "Removed the two disappearance clues that repeated clue 4 and solved it at once, replacing them with her 1933 clothing line, the Ninety-Nines presidency and her 'sack of potatoes' 1928 passenger flight, so only clue 4 rests on the disappearance."
+ },
+ {
+  "id": "milky-way",
+  "answer": "The Milky Way",
+  "category": "Space",
+  "before": [
+   "It is that faint band of light arching across a truly dark night sky — our own galaxy, seen edge-on.",
+   "It holds a few hundred billion stars, and a giant black hole lurks at its very center.",
+   "Our Sun is just one modest star out near the edge of one of its spiral arms.",
+   "This is the name of the galaxy that contains Earth, the Sun, and every star you can see by eye."
+  ],
+  "after": [
+   "This feature of the night sky gave English the word 'galaxy', which comes from its ancient Greek name.",
+   "In 2022 astronomers released the first picture of the giant black hole at the heart of this galaxy, an object called Sagittarius A*.",
+   "A 2016 atlas found light pollution hides this band of stars from more than a third of humanity, including nearly 80% of North Americans.",
+   "This is the name of the galaxy that contains Earth, the Sun, and every star you can see by eye."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.etymonline.com/word/galaxy",
+   "2": "https://en.wikipedia.org/wiki/Sagittarius_A*",
+   "3": "https://cires.colorado.edu/news/milky-way-now-hidden-one-third-humanity"
+  },
+  "summary": "Replaced clues 1 and 3, which both said it is our own galaxy, with the origin of the word 'galaxy' and the 2016 light-pollution atlas, so only clue 4 says it contains Earth and the Sun.",
+  "handEdited": [
+   2,
+   3
+  ]
+ },
+ {
+  "id": "eminem",
+  "answer": "Eminem",
+  "category": "Music",
+  "before": [
+   "His stage name is a play on his initials, M and M.",
+   "This white rapper from Detroit shocked the charts with rapid-fire, controversial lyrics.",
+   "His shocking blond-haired alter ego and his mentor Dr. Dre helped make him a hip-hop phenomenon.",
+   "The semi-autobiographical film '8 Mile' and the song 'Lose Yourself' belong to this Detroit lyricist."
+  ],
+  "after": [
+   "This rapper's 2000 song about an obsessive fan gave English the word 'stan', which Merriam-Webster added to its dictionary in 2019.",
+   "This rapper holds a Guinness world record for the most words in a hit single: 1,560 in just over six minutes.",
+   "This rapper slept at home through the 2003 ceremony where he won the first Oscar ever given to a hip-hop song.",
+   "The semi-autobiographical film '8 Mile' and the song 'Lose Yourself' belong to this Detroit lyricist."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.cnn.com/2019/04/23/us/merriam-webster-dictionary-words-trnd/index.html",
+   "2": "https://en.wikipedia.org/wiki/Rap_God",
+   "3": "https://www.xxlmag.com/today-in-hip-hop-history-eminem-wins-academy-award/"
+  },
+  "summary": "Dropped the initials clue that spelled the name, the instant 'white rapper from Detroit' clue and the alter-ego clue, using the 'stan' coinage (OED 2017, not 2019), the 'Rap God' word-count record and his slept-through Oscar win instead.",
+  "handEdited": [
+   1
+  ]
+ },
+ {
+  "id": "apple-company",
+  "answer": "Apple",
+  "category": "Technology",
+  "before": [
+   "Its logo is a fruit with a single bite taken out of it.",
+   "Founded in a California garage in 1976, this company sold its first computers to hobbyists.",
+   "Under Steve Jobs it launched the Macintosh, the iPod, and the iPad.",
+   "The maker of the iPhone, it became the first company worth a trillion dollars."
+  ],
+  "after": [
+   "This company's third co-founder, Ronald Wayne, sold back his 10% stake after just 12 days for $800.",
+   "This company's first computer went on sale in 1976 for $666.66, because one of its co-founders liked repeating digits.",
+   "When this company was close to bankruptcy in 1997, rival Microsoft invested $150 million in it.",
+   "The maker of the iPhone, this company became the first U.S. public company worth $1 trillion, in 2018."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.cultofmac.com/apple-history/ron-wayne-quits-apple",
+   "2": "https://en.wikipedia.org/wiki/Apple_I",
+   "3": "https://www.cnbc.com/2017/08/29/steve-jobs-and-bill-gates-what-happened-when-microsoft-saved-apple.html",
+   "4": "https://www.upi.com/Top_News/US/2018/08/02/Apple-becomes-first-public-US-company-worth-1-trillion/2461533227643/"
+  },
+  "summary": "Replaced the bitten-fruit logo and the Steve Jobs product list with Ronald Wayne's $800 sale and Microsoft's 1997 $150 million rescue, and narrowed the trillion-dollar claim to the first U.S. public company.",
+  "handEdited": [
+   2
+  ]
+ },
+ {
+  "id": "popcorn",
+  "answer": "Popcorn",
+  "category": "Food & Drink",
+  "before": [
+   "It forms when trapped water inside a kernel flashes to steam and bursts the grain inside out with a pop.",
+   "Native Americans were popping this snack thousands of years ago over open fires.",
+   "Only one special variety of maize makes it; sweet corn just scorches.",
+   "Buttered and salted, this puffy movie-theater snack bursts from heated corn kernels."
+  ],
+  "after": [
+   "This snack's oldest known remains, found on Peru's northern coast, are up to 6,700 years old.",
+   "When World War II sugar rationing made candy scarce, Americans ate about three times as much of this snack as usual.",
+   "Percy Spencer, who invented the microwave oven, tested his discovery on this snack after a candy bar melted in his pocket.",
+   "Buttered and salted, this fluffy snack is the classic treat at the movies."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.si.edu/newsdesk/releases/ancient-popcorn-discovered-peru",
+   "2": "https://www.nal.usda.gov/exhibits/speccoll/exhibits/show/popcorn/popcorn-explosion",
+   "3": "https://en.wikipedia.org/wiki/Percy_Spencer",
+   "4": "https://www.nal.usda.gov/exhibits/speccoll/exhibits/show/popcorn/popcorn-explosion"
+  },
+  "summary": "Replaced the how-it-works and Native American clues with four separate facts (Peru remains, WWII rationing, the microwave's inventor, the movies) and removed every 'pop' and 'corn' from the clues."
+ },
+ {
+  "id": "instagram",
+  "answer": "Instagram",
+  "category": "Internet",
+  "before": [
+   "Its logo evolved from a realistic old camera into a simple rainbow-gradient outline.",
+   "Launched in 2010 for square photos with filters, it was bought by Facebook two years later.",
+   "Its users share pictures and short 'Stories' that vanish after 24 hours.",
+   "Influencers chase likes and followers on this photo-sharing app, often shortened to 'Insta.'"
+  ],
+  "after": [
+   "This app began as Burbn, a location check-in app, before its two founders stripped it back to just photos.",
+   "In 2019 a plain stock photo of a brown egg broke the record for the most-liked post on this app.",
+   "This app had only 13 employees when Facebook agreed to buy it in 2012 for $1 billion.",
+   "Influencers chase likes and followers on this photo-sharing app, first known for its square pictures and filters."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Kevin_Systrom",
+   "2": "https://en.wikipedia.org/wiki/Instagram_egg",
+   "3": "https://en.wikipedia.org/wiki/Kevin_Systrom",
+   "4": "https://en.wikipedia.org/wiki/Instagram"
+  },
+  "summary": "Opened with the Burbn origin instead of a bare 'Its', swapped the feature description and instant launch clue for the record egg and the 13-employee Facebook sale, and dropped 'Insta' from clue 4."
+ },
+ {
+  "id": "batman",
+  "answer": "Batman",
+  "category": "Pop Culture",
+  "before": [
+   "He has no superpowers, relying on gadgets, martial arts, and a vast fortune.",
+   "As a child he watched his wealthy parents gunned down in an alley, and swore revenge on crime.",
+   "By day the billionaire Bruce Wayne, he prowls Gotham City in a caped, cowled costume.",
+   "This 'Dark Knight' drives an armored car and battles the cackling Joker."
+  ],
+  "after": [
+   "This superhero's co-creator Bill Finger, who wrote his first story, was left off the creator credit until DC added his name in 2015.",
+   "This superhero first appeared in 1939 in 'Detective Comics' #27, the series that gave DC its name.",
+   "This superhero's campy 1960s TV show flashed words like 'POW!' and 'ZONK!' across the screen during fistfights.",
+   "This 'Dark Knight' drives an armored car and battles the cackling Joker."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.fox5ny.com/news/bill-finger-finally-gets-credit-for-role-in-creating-batman",
+   "2": "https://en.wikipedia.org/wiki/Detective_Comics",
+   "3": "https://en.wikipedia.org/wiki/Batman_(TV_series)"
+  },
+  "summary": "Replaced the instant origin story and Bruce Wayne/Gotham clue with Bill Finger's credit, the 'Detective Comics' debut and the 1960s TV show, skipped the judge's Alfred clue because it is just as instant, and kept clue 4."
+ },
+ {
+  "id": "discord",
+  "answer": "Discord",
+  "category": "Internet",
+  "before": [
+   "Built first for gamers who needed to talk mid-match, it became the default clubhouse for study groups and hobbyists alike.",
+   "Its communities are split into text and voice channels, policed by volunteers wearing coloured roles.",
+   "Launched in 2015, it reportedly walked away from a multibillion-dollar approach from Microsoft in 2021.",
+   "The chat platform whose blue mascot is called Wumpus and whose 'servers' are really just group chats."
+  ],
+  "after": [
+   "This chat app grew out of a game studio whose tablet battle-arena game, Fates Forever, failed to catch on.",
+   "In 2021 this chat app reportedly walked away from takeover talks with Microsoft worth more than $10 billion.",
+   "In 2023 a US Air National Guardsman was caught leaking secret Pentagon documents to a gaming chat group on this platform.",
+   "Gamers gather in 'servers' with text and voice channels on this chat app, whose mascot is a creature called Wumpus."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Discord",
+   "2": "https://www.cnbc.com/2021/04/21/messaging-platform-discord-reportedly-ends-sale-talks-with-microsoft.html",
+   "3": "https://en.wikipedia.org/wiki/Jack_Teixeira",
+   "4": "https://en.wikipedia.org/wiki/Discord"
+  },
+  "summary": "Swapped the two descriptive clues for real facts (the Fates Forever origin, the 2023 Pentagon leak), moved the Microsoft talks up to clue 2, and rewrote the fragment clue 4 as a full sentence."
+ },
+ {
+  "id": "mount-vesuvius",
+  "answer": "Mount Vesuvius",
+  "category": "Geography",
+  "before": [
+   "In 79 AD it buried two Roman towns under ash so fast that it preserved their people where they fell.",
+   "Looming over the Bay of Naples, it is the only active volcano on the European mainland and among the most dangerous on Earth.",
+   "The city of Pompeii vanished beneath its eruption and lay hidden for some 1,700 years.",
+   "This Italian volcano near Naples is infamous for the catastrophe that entombed Pompeii."
+  ],
+  "after": [
+   "This volcano's most recent eruption, in March 1944, wrecked an estimated 78 to 88 American B-25 bombers at a nearby airfield.",
+   "The Roman fleet commander Pliny the Elder died after sailing toward this volcano's eruption to rescue friends, and his nephew wrote the only surviving eyewitness account.",
+   "This is the only volcano on Europe's mainland to have erupted in the last hundred years; Etna and Stromboli sit on islands.",
+   "This Italian volcano near Naples is infamous for the catastrophe that entombed Pompeii."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Mount_Vesuvius",
+   "2": "https://www.history.com/articles/pliny-the-elder-death-vesuvius",
+   "3": "https://en.wikipedia.org/wiki/Mount_Vesuvius"
+  },
+  "summary": "Removed the two extra Pompeii burial clues and replaced them with the 1944 bomber losses and Pliny the Elder's death, reworded the mainland-volcano clue to drop the Bay of Naples giveaway, and kept the Pompeii clue for clue 4."
+ },
+ {
+  "id": "los-angeles",
+  "answer": "Los Angeles",
+  "category": "Cities",
+  "before": [
+   "Nine giant letters spelled out in white on one of its hillsides began as an ad for a housing development.",
+   "The second-most-populous U.S. city, it sprawls across Southern California in endless traffic and sunshine.",
+   "Its Hollywood district is the heart of the American movie industry, and stars line its Walk of Fame.",
+   "Nicknamed the 'City of Angels,' this coastal metropolis hosts the Dodgers and the 2028 Summer Olympics."
+  ],
+  "after": [
+   "This city's Watts Towers were built single-handedly by an Italian immigrant over 33 years from steel, concrete, broken tile, glass and seashells.",
+   "This city's La Brea Tar Pits have yielded the fossils of more than 4,000 dire wolves and 2,000 saber-toothed cats from the last Ice Age.",
+   "This city hosted the Summer Olympics in 1932 and 1984, and in 2028 it will join London and Paris as a three-time host.",
+   "A hillside sign above this city went up in 1923 reading 'HOLLYWOODLAND' to advertise a housing development, and lost its last four letters in 1949."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.tclf.org/pioneer/sabato-simon-rodia",
+   "2": "http://www.laalmanac.com/history/hi736.php",
+   "3": "https://en.wikipedia.org/wiki/2028_Summer_Olympics",
+   "4": "https://en.wikipedia.org/wiki/Hollywood_Sign"
+  },
+  "summary": "Replaced all four clues: a hard Watts Towers opener, the La Brea fossils, and the three Olympics, with the Hollywood sign moved to clue 4 as the only Hollywood clue and the 'City of Angels' translation dropped."
+ },
+ {
+  "id": "liver",
+  "answer": "Liver",
+  "category": "Human Body",
+  "before": [
+   "Cut most of it away and it grows back — no other major organ of yours will.",
+   "A Greek myth punished a thief with an eagle that ate his afresh every day, which suggests the ancients had noticed.",
+   "It runs hundreds of jobs at once: breaking down alcohol and drugs, storing sugar as glycogen, making bile and the proteins that clot your blood.",
+   "The heavy reddish-brown organ under your right ribs, sitting just above the gallbladder."
+  ],
+  "after": [
+   "This organ, taken from sacrificed sheep, was read by Babylonian priests to foretell the future, and clay models of it inscribed with omens survive from about 1900–1600 BC.",
+   "Eating a polar bear's version of this organ can kill a person, because it stores vitamin A at levels toxic to humans.",
+   "In Greek myth, Zeus chained the fire thief Prometheus to a rock and sent an eagle to eat this organ, which grew back every night.",
+   "This organ, the heaviest one inside your body, sits under your right ribs with the gallbladder tucked beneath it."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.worldhistory.org/image/18716/the-liver-tablet/",
+   "2": "https://www.mcgill.ca/oss/article/nutrition-you-asked/it-true-you-cannot-eat-polar-bear-liver",
+   "3": "https://www.newworldencyclopedia.org/entry/Prometheus",
+   "4": "https://en.wikipedia.org/wiki/Liver"
+  },
+  "summary": "Dropped the instant regrowth opener and the list of functions, led with Babylonian liver divination and the polar bear vitamin A fact, kept regrowth only inside the Prometheus myth at clue 3, and rewrote clue 4 as a full sentence."
+ },
+ {
+  "id": "vincent-van-gogh",
+  "answer": "Vincent van Gogh",
+  "category": "Art",
+  "before": [
+   "He sold almost nothing while alive, yet poured out some 2,000 works in barely a decade.",
+   "Tormented by mental illness, this Dutch painter famously cut off part of his own ear.",
+   "His thick, swirling brushstrokes and blazing yellows fill canvases like 'Sunflowers' and a whirling night sky over a village.",
+   "This red-haired Post-Impressionist, who painted 'The Starry Night,' died largely unknown and is now among the most beloved artists ever."
+  ],
+  "after": [
+   "This painter worked as an art dealer, a teacher in England and a lay preacher among Belgian coal miners before taking up art at 27.",
+   "This painter's younger brother Theo, an art dealer, paid his bills for years, and more than 650 of his letters to Theo survive.",
+   "This painter made about 2,100 artworks in just over a decade, most of them in his last two years, yet sold almost nothing while alive.",
+   "This Dutch Post-Impressionist painted 'The Starry Night' and 'Sunflowers' and cut off part of his own ear."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Vincent_van_Gogh",
+   "2": "https://en.wikipedia.org/wiki/The_Letters_of_Vincent_van_Gogh",
+   "3": "https://en.wikipedia.org/wiki/Vincent_van_Gogh",
+   "4": "https://en.wikipedia.org/wiki/Vincent_van_Gogh"
+  },
+  "summary": "Moved the ear and 'Sunflowers' to clue 4 only, opened with his earlier careers, added Theo and the letters, and moved the sold-nothing fact to clue 3 with the checked count of about 2,100 works in just over a decade (not 'barely a decade')."
+ },
+ {
+  "id": "asteroid",
+  "answer": "Asteroid",
+  "category": "Space",
+  "before": [
+   "One of these about 10 km wide is blamed for wiping out the dinosaurs 66 million years ago.",
+   "Most of them orbit the Sun in a vast belt between Mars and Jupiter, leftover rubble from the Solar System's birth.",
+   "Ranging from pebbles to hundreds of miles across, these rocky bodies are sometimes called 'minor planets.'",
+   "This chunk of space rock circling the Sun becomes a 'meteor' if it streaks into Earth's atmosphere."
+  ],
+  "after": [
+   "The biggest of these space rocks ever found, Ceres, was reclassified as a dwarf planet in the same 2006 vote that demoted Pluto.",
+   "In 2022 NASA deliberately crashed a spacecraft into one of these, called Dimorphos, and shortened its orbit by 32 minutes.",
+   "In Antoine de Saint-Exupéry's 1943 children's book, the young prince's tiny home world, where he tends a single rose, is one of these, catalogued B-612.",
+   "Most of these rocky bodies circle the Sun in a belt between Mars and Jupiter, and one that hit Mexico is blamed for wiping out the dinosaurs."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://lowell.edu/deep-space-spotlight-the-dwarf-planets-of-our-solar-system/",
+   "2": "https://www.nasa.gov/news-release/nasa-confirms-dart-mission-impact-changed-asteroids-motion-in-space",
+   "3": "https://en.wikipedia.org/wiki/The_Little_Prince",
+   "4": "https://science.nasa.gov/solar-system/asteroids/facts/"
+  },
+  "summary": "Moved the two instant facts (the dinosaur killer and the belt between Mars and Jupiter) into clue 4, led with Ceres and the DART crash, used 'Armageddon' as a clue 3 that still needs recall, and dropped the inaccurate pebble-size and meteor wording.",
+  "handEdited": [
+   3
+  ]
+ },
+ {
+  "id": "japan",
+  "answer": "Japan",
+  "category": "Geography",
+  "before": [
+   "Its name in its own language means 'origin of the sun,' hence the nickname 'Land of the Rising Sun.'",
+   "An island nation of some 6,800 islands, it sits on the Ring of Fire and endures frequent earthquakes.",
+   "Ruled by an emperor and once by samurai, it gave the world sushi, anime, and the bullet train.",
+   "With its capital at Tokyo and snow-capped Mount Fuji, this archipelago flies a white flag with a red circle."
+  ],
+  "after": [
+   "This country's 2023 recount of its islands found 14,125, more than double the 6,852 it had used since 1987.",
+   "This country's imperial house is the world's oldest continuing hereditary monarchy, by tradition founded in 660 BC.",
+   "Nearly a fifth of the world's earthquakes of magnitude 6 or greater strike this country, though it has under 0.3% of Earth's land.",
+   "With its capital at Tokyo and snow-capped Mount Fuji, this archipelago flies a white flag with a red circle."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.nippon.com/en/japan-data/h01615/",
+   "2": "https://en.wikipedia.org/wiki/Imperial_House_of_Japan",
+   "3": "https://www.nippon.com/en/japan-data/h00549/nearly-20-of-large-earthquakes-happen-in-japan.html"
+  },
+  "summary": "Removed the 'Land of the Rising Sun' nickname and the instant samurai and sushi clue, corrected the island count to the 2023 figure, and added the imperial line and Japan's share of strong earthquakes, keeping clue 4 as written."
+ },
+ {
+  "id": "russia",
+  "answer": "Russia",
+  "category": "Geography",
+  "before": [
+   "So vast it spans eleven time zones, a traveler crossing it can change the hour nearly a dozen times.",
+   "The largest country on Earth by area, it stretches across two continents from Europe into Asia.",
+   "Its history runs from the tsars through the Soviet Union; Siberia forms its cold, enormous eastern half.",
+   "With Moscow as its capital and the Kremlin at its heart, this nation's flag is white, blue, and red."
+  ],
+  "after": [
+   "This country and China tie for the most land neighbors in the world, each sharing a border with 14 sovereign states.",
+   "This country's Lake Baikal, the world's deepest lake, holds about a fifth of Earth's unfrozen fresh surface water.",
+   "This country stretches across 11 time zones, so when it is 8 a.m. at its western edge it is already 6 p.m. at its eastern tip.",
+   "This country, ruled from the Kremlin in its capital, Moscow, flies a flag of white, blue and red horizontal stripes."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.worldatlas.com/articles/countries-bordering-the-highest-number-of-other-countries.html",
+   "2": "https://whc.unesco.org/en/list/754/",
+   "3": "https://en.wikipedia.org/wiki/Time_in_Russia"
+  },
+  "summary": "Replaced the two size clues and the instant tsars/Soviet/Siberia clue with three separate facts (14 land neighbors, Lake Baikal, the Alaska sale), ordered hardest to easiest, and kept clue 4.",
+  "handEdited": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "french-revolution",
+  "answer": "French Revolution",
+  "category": "History",
+  "before": [
+   "Its most notorious execution device was nicknamed the 'National Razor.'",
+   "It began in 1789 when a Paris mob stormed the Bastille prison and toppled a monarchy.",
+   "Its rallying cry was 'Liberty, Equality, Fraternity,' and it sent King Louis XVI to the guillotine.",
+   "This upheaval in France ushered in a Reign of Terror and the rise of Napoleon."
+  ],
+  "after": [
+   "This upheaval brought in a calendar with ten-day weeks and months named for nature, such as Brumaire ('fog') and Thermidor ('heat').",
+   "This upheaval gave the world the metric system, defining the meter as one ten-millionth of the distance from the North Pole to the equator.",
+   "This upheaval's executions used a device nicknamed the 'National Razor,' named after a doctor who did not invent it.",
+   "Famous for the storming of the Bastille in 1789, this upheaval led to the Reign of Terror and the rise of Napoleon."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/French_Republican_calendar",
+   "2": "https://www.ebsco.com/research-starters/politics-and-government/france-adopts-metric-system",
+   "3": "https://en.wikipedia.org/wiki/Guillotine",
+   "4": "https://en.wikipedia.org/wiki/French_Revolution"
+  },
+  "summary": "Removed the bare 'Its' opening, the duplicate guillotine, the instant Bastille and motto clues and the word 'France', adding the ten-day calendar and the metric system and saving the Bastille for clue 4."
+ },
+ {
+  "id": "adele",
+  "answer": "Adele",
+  "category": "Music",
+  "before": [
+   "She names each of her albums after her age when she made it: 19, 21, 25, 30.",
+   "This British singer is known for powerful ballads about heartbreak and a soulful voice.",
+   "Her song 'Hello' and the album '21' broke sales records around the world.",
+   "Belting 'Rolling in the Deep' and 'Someone Like You,' this soul singer has swept the Grammys."
+  ],
+  "after": [
+   "This singer was signed by XL Recordings in 2006 after a friend posted her three-song demo on Myspace.",
+   "This singer's third album sold 3.38 million copies in its first US week in 2015, breaking a sales record NSYNC had held since 2000.",
+   "This singer co-wrote and sang the first James Bond theme ever to win the Oscar for Best Original Song.",
+   "Belting 'Rolling in the Deep' and 'Someone Like You,' this soul singer has swept the Grammys."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Adele",
+   "2": "https://www.newsweek.com/hello-its-new-record-adeles-25-hits-338-million-first-week-sales-399302",
+   "3": "https://en.wikipedia.org/wiki/Skyfall_(song)"
+  },
+  "summary": "Dropped the instant age-named albums, the generic description and the 'Hello'/'21' repeat for the Myspace signing, the first-week sales record and the first Oscar-winning Bond theme (unnamed so it takes a step), keeping clue 4."
+ },
+ {
+  "id": "airbnb",
+  "answer": "Airbnb",
+  "category": "Technology",
+  "before": [
+   "It began when two broke roommates put inflatable mattresses on their floor during a sold-out design conference.",
+   "Founded in San Francisco in 2008, it let ordinary people rent spare rooms to complete strangers.",
+   "Its growth triggered housing-shortage fights and short-term-let crackdowns from Barcelona to New York.",
+   "The home-rental marketplace whose name is a contraction of 'air bed and breakfast'."
+  ],
+  "after": [
+   "To keep this company afloat in 2008, its founders sold election-themed cereals called Obama O's and Cap'n McCain's, raising about $30,000.",
+   "This company went public in December 2020, while the pandemic had crushed travel, and its shares more than doubled on their first day of trading.",
+   "The idea for this company came in 2007, when two broke roommates rented inflatable mattresses on their floor to guests of a San Francisco design conference.",
+   "This home-rental marketplace lets travelers book stays in strangers' spare rooms, apartments and whole houses around the world."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://finance.yahoo.com/news/airbnb-sold-30-000-obama-204034867.html",
+   "2": "https://en.wikipedia.org/wiki/Airbnb",
+   "3": "https://en.wikipedia.org/wiki/Airbnb",
+   "4": "https://en.wikipedia.org/wiki/Airbnb"
+  },
+  "summary": "Opened with the cereal-box fundraiser, moved the crackdowns clue up unchanged, fixed the mattress origin story's bare 'It' and dates, and replaced the plain-description clue 2 and the name-spelling fragment in clue 4.",
+  "handEdited": [
+   2
+  ]
+ },
+ {
+  "id": "the-cold-war",
+  "answer": "The Cold War",
+  "category": "History",
+  "before": [
+   "Schoolchildren practiced hiding under their desks in case of the nuclear attack it threatened.",
+   "This decades-long standoff pitted the United States against the Soviet Union without direct battle.",
+   "It fueled a nuclear arms race, a race to the Moon, and proxy conflicts from Korea to Vietnam.",
+   "Symbolized by the Berlin Wall, this frosty rivalry finally thawed when the USSR collapsed in 1991."
+  ],
+  "after": [
+   "This standoff takes its name from a phrase George Orwell used in a 1945 essay about the atomic bomb.",
+   "The 1963 hotline between Washington and Moscow, set up during this standoff, was never a red telephone but a pair of teletype machines.",
+   "During this standoff, the two superpowers took turns boycotting each other's Summer Olympics, in 1980 and 1984.",
+   "Symbolized by the Berlin Wall, this frosty rivalry finally thawed when the USSR collapsed in 1991."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://blog.oup.com/2015/10/george-orwell-cold-war/",
+   "2": "https://en.wikipedia.org/wiki/Moscow%E2%80%93Washington_hotline",
+   "3": "https://en.wikipedia.org/wiki/1984_Summer_Olympics_boycott"
+  },
+  "summary": "Replaced the bare-'it' opening and the two instant definitions with the Orwell name origin, the teletype hotline and the duck-and-cover drills, keeping clue 4.",
+  "handEdited": [
+   3
+  ]
+ },
+ {
+  "id": "chatgpt",
+  "answer": "ChatGPT",
+  "category": "Technology",
+  "before": [
+   "It reached an estimated 100 million users in roughly two months, the fastest uptake any consumer application had managed.",
+   "OpenAI released it in November 2022, and within a year its name was being used as a verb.",
+   "It answers in conversational turns, is built on a family of large language models, and will occasionally invent a citation.",
+   "OpenAI's assistant, whose name joins a word for casual talk to the initials of the model beneath it."
+  ],
+  "after": [
+   "In March 2023, Italy's data-protection regulator made Italy the first Western country to block this app.",
+   "Within weeks of this app's launch, Google's management reportedly declared a 'code red' over the threat it posed to search.",
+   "This app reached an estimated 100 million users in about two months, then the fastest uptake of any consumer app.",
+   "This OpenAI assistant's name joins a word for casual talk to the initials of the model beneath it."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://cacmb4.acm.org/news/271919-italy-became-the-first-western-country-to-ban-chatgpt-heres-what-other-countries-are-doing",
+   "2": "https://en.wikipedia.org/wiki/ChatGPT",
+   "3": "https://time.com/6253615/chatgpt-fastest-growing/",
+   "4": "https://en.wikipedia.org/wiki/ChatGPT"
+  },
+  "summary": "Moved the Italy ban to clue 1 and added Google's 'code red' as clue 2 so OpenAI and the launch date no longer give it away early, dropped the how-it-works clue, and made every clue open with 'this app' and read as a full sentence."
+ },
+ {
+  "id": "appendix",
+  "answer": "Appendix",
+  "category": "Human Body",
+  "before": [
+   "Darwin thought it was a useless leftover; it may in fact be a safe house for friendly gut bacteria.",
+   "It is a dead-end pouch about the length of your little finger, dangling where the small intestine meets the large.",
+   "When it becomes inflamed, the pain often starts around the navel and moves to the lower right of the belly.",
+   "The small worm-shaped organ surgeons take out in an appendectomy, the usual cure when it threatens to burst."
+  ],
+  "after": [
+   "An abscess on this organ forced King Edward VII to postpone his coronation in 1902, just two days before the ceremony.",
+   "In 1961 a Soviet doctor, the only physician at an Antarctic base, removed this organ from his own body, partly guided by a mirror.",
+   "Darwin thought this organ was a useless leftover of evolution, but it may in fact be a safe house for friendly gut bacteria.",
+   "This small, worm-shaped pouch off the large intestine causes sharp pain low on the right side of the belly when it becomes inflamed."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://hekint.org/2021/02/03/sir-frederick-treves-who-operated-on-king-edward-vii/",
+   "2": "https://en.wikipedia.org/wiki/Leonid_Rogozov",
+   "3": "https://www.mentalfloss.com/science/body/what-purpose-did-appendix-once-serve",
+   "4": "https://en.wikipedia.org/wiki/Appendix_(anatomy)"
+  },
+  "summary": "Replaced the description and the instant inflammation clue with Edward VII's postponed coronation and Rogozov's self-surgery, moved Darwin to clue 3 with a proper opening, and rewrote clue 4 as a full sentence without 'appendectomy'."
+ },
+ {
+  "id": "cristiano-ronaldo",
+  "answer": "Cristiano Ronaldo",
+  "category": "Sports",
+  "before": [
+   "His signature leaping 'Siuuu' celebration is copied on playgrounds worldwide.",
+   "This Portuguese forward has starred for Manchester United, Real Madrid, Juventus, and a Saudi club.",
+   "Famed for his athleticism and heading ability, he is one of the top scorers in football history.",
+   "Known by the initials CR7, this superstar long dueled Lionel Messi for the title of world's best."
+  ],
+  "after": [
+   "This footballer got one of his names from an actor his father admired, who was the U.S. president when the boy was born.",
+   "In 2022 this forward became the first man to score at five different World Cups.",
+   "In 2009 this winger left Manchester United for Real Madrid for a then world-record fee of £80 million.",
+   "Known by the initials CR7, this superstar long dueled Lionel Messi for the title of world's best."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.washingtonpost.com/news/early-lead/wp/2016/01/19/cristiano-ronaldo-was-named-after-ronald-reagan-no-really/",
+   "2": "https://www.france24.com/en/sport/20221124-ronaldo-becomes-first-male-player-to-score-in-five-world-cups-as-portugal-edge-ghana",
+   "3": "https://uefa.com/news-media/news/01da-0e724ecc82ec-05f7b7b5fb93-1000--ronaldo-completes-record-madrid-switch"
+  },
+  "summary": "Dropped the 'Siuuu' celebration, the list of clubs and the generic praise, and used the Reagan naming puzzle, the five-World-Cups record and the record 2009 transfer, ordered hardest to easiest, keeping the CR7 clue 4."
+ },
+ {
+  "id": "poseidon",
+  "answer": "Poseidon",
+  "category": "Mythology",
+  "before": [
+   "Sailors credited his moods with calm seas or sudden, ship-wrecking storms.",
+   "He struck the ground with his three-pronged spear to make horses and springs burst forth.",
+   "Brother of Zeus in Greek myth, he rules the oceans and shakes the earth in his anger.",
+   "God of the sea who carries a trident, he matches the Roman god Neptune."
+  ],
+  "after": [
+   "The Greeks called this god the 'Earth-Shaker' and blamed him when earthquakes struck.",
+   "This god fathered the Cyclops Polyphemus, then hounded Odysseus for years after the hero blinded him.",
+   "This god lost the contest to be patron of Athens when Athena's olive tree was judged a better gift than the salt-water spring he struck from the Acropolis.",
+   "This trident-carrying god of the sea is the Greek counterpart of the Roman Neptune."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.britannica.com/topic/Poseidon",
+   "2": "https://en.wikipedia.org/wiki/Polyphemus",
+   "3": "https://www.worldhistory.org/poseidon/"
+  },
+  "summary": "Replaced the three clues that all said 'sea god with a trident' with the earthquake epithet, Polyphemus and the contest for Athens, and left out 'brother of Zeus and Hades' because it settles the answer at once.",
+  "handEdited": [
+   4
+  ]
+ },
+ {
+  "id": "peacock",
+  "answer": "Peacock",
+  "category": "Animals",
+  "before": [
+   "This showy male bird fans a shimmering train studded with dozens of eye-like spots to woo a mate.",
+   "Strictly, only the male is so called; the drab brown female is the peahen.",
+   "Native to India, it is that country's national bird and roosts in trees despite its size.",
+   "This iridescent blue-green bird spreads a dazzling tail and gave a Hollywood network its logo."
+  ],
+  "after": [
+   "Darwin wrote in 1860 that the sight of a feather in this bird's tail made him sick, because his theory struggled to explain it.",
+   "Greek myth says Hera set the hundred eyes of her slain watchman Argus into this bird's tail.",
+   "In 1963 this bird was named India's national bird, and it is fully protected there under wildlife law.",
+   "This iridescent blue-green bird fans out a dazzling tail and is the emblem in NBC's logo."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.darwinproject.ac.uk/letter/DCP-LETT-2743.xml",
+   "2": "https://www.greekmyths-greekmythology.com/peacock-and-hera/",
+   "3": "https://testbook.com/question-answer/when-was-the-peacock-declared-as-the-national-bird--5e69de3df60d5d10879b6e0f",
+   "4": "https://en.wikipedia.org/wiki/NBC_logo"
+  },
+  "summary": "Replaced the eye-spotted train and the 'peahen' clue with Darwin's 1860 letter and the Hera and Argus myth, rewrote the India clue in the same voice, and named NBC in clue 4 instead of the loose 'Hollywood network'."
+ },
+ {
+  "id": "marathon",
+  "answer": "Marathon",
+  "category": "Sports",
+  "before": [
+   "Legend says a Greek messenger ran the first one to announce a victory, then dropped dead.",
+   "This grueling race covers exactly 26.2 miles, or about 42 kilometers, on open roads.",
+   "Its major annual versions crowd the streets of Boston, London, and New York.",
+   "Named for a Greek battle site, this long-distance foot race caps the Olympic track program."
+  ],
+  "after": [
+   "This race's official length, adopted in 1921, comes from the 1908 London Olympic course, which started on the grounds of Windsor Castle.",
+   "At the 1904 Olympics, the first man across this race's finish line was disqualified for riding about 11 miles in a car.",
+   "Ethiopia's Abebe Bikila won this Olympic race barefoot in Rome in 1960, finishing after dark on a torch-lit course.",
+   "This 26.2-mile road race is named after a Greek battle site, from which a legendary messenger ran to Athens with news of victory."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Athletics_at_the_1908_Summer_Olympics_%E2%80%93_Men%27s_marathon",
+   "2": "https://en.wikipedia.org/wiki/Frederick_Lorz",
+   "3": "https://worldathletics.org/news/feature/abebe-bikila-1960-olympic-marathon-victory",
+   "4": "https://en.wikipedia.org/wiki/Marathon"
+  },
+  "summary": "Replaced the instant 26.2-mile clue and the Boston/London/New York clue with the 1921 Windsor Castle distance, the 1904 car-ride disqualification and Bikila's barefoot win, and put the distance and the Greek legend together in clue 4 so the origin is told only once."
+ },
+ {
+  "id": "honey",
+  "answer": "Honey",
+  "category": "Food & Drink",
+  "before": [
+   "Archaeologists have found pots of it in Egyptian tombs still perfectly edible after 3,000 years.",
+   "Bees make it from flower nectar, fanning it with their wings and storing it in wax cells.",
+   "It never truly spoils, thanks to low moisture and natural acidity that stop microbes.",
+   "Golden and sticky, this natural sweetener is what Winnie-the-Pooh craves from the hive."
+  ],
+  "after": [
+   "An 8,000-year-old rock painting in Spain's Araña Caves shows a person climbing ropes to collect this food from the wild.",
+   "Ancient Egyptian doctors spread this food on wounds, and it turns up in many of the remedies in their surviving medical papyri.",
+   "Doctors warn against giving this food to babies under one year old because it can carry botulism spores.",
+   "Golden and sticky, this natural sweetener is what Winnie-the-Pooh craves from the hive."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Cuevas_de_la_Ara%C3%B1a",
+   "2": "https://en.wikipedia.org/wiki/Ebers_Papyrus",
+   "3": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/foods-and-drinks-to-avoid-or-limit.html"
+  },
+  "summary": "Dropped the how-bees-make-it description and the repeated never-spoils idea, and used four separate facts: the Araña Caves painting, the Egyptian tomb pots, the infant botulism warning and Winnie-the-Pooh.",
+  "handEdited": [
+   2
+  ]
+ },
+ {
+  "id": "hiccups",
+  "answer": "Hiccups",
+  "category": "Human Body",
+  "before": [
+   "An Iowa man had a bout of these that lasted 68 years.",
+   "Each one begins with a sudden spasm of your diaphragm, and a split second later your vocal cords snap shut.",
+   "Folk cures include holding your breath, sipping water from the far side of a glass, or a sudden fright.",
+   "The jerky, involuntary 'hic!' that can strike after eating too fast or gulping something fizzy."
+  ],
+  "after": [
+   "Some scientists think these involuntary spasms are a leftover of the motion tadpoles use to pump water over their gills.",
+   "An Iowa farmer's record bout of these began in 1922 after an accident with a 350-pound hog, and lasted 68 years.",
+   "Babies get these even before birth, and pregnant women can often feel them as small rhythmic jerks.",
+   "These sudden, jerky gulps often strike after you eat too fast or drink something fizzy, and holding your breath is a common home remedy."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://onlinelibrary.wiley.com/doi/abs/10.1002/bies.10224",
+   "2": "https://en.wikipedia.org/wiki/Charles_Osborne_(farmer)",
+   "3": "https://utswmed.org/medblog/fetal-hiccups-pregnancy/",
+   "4": "https://my.clevelandclinic.org/health/diseases/17672-hiccups"
+  },
+  "summary": "Replaced the how-it-works diaphragm clue and the instant folk-cure clue with the tadpole-gill theory and fetal hiccups, moved the less-known tadpole fact to clue 1, gave the Iowa record a type word and its hog detail, and rewrote clue 4 as a full sentence without 'hic'."
+ },
+ {
+  "id": "great-wall-of-china",
+  "answer": "Great Wall of China",
+  "category": "Landmarks",
+  "before": [
+   "The myth that it is the only human structure visible from the Moon is simply false.",
+   "Stretching over 13,000 miles, this barrier was built and rebuilt across centuries by successive dynasties.",
+   "Emperors raised it of stone, brick, and packed earth to keep out Mongol horsemen from the north.",
+   "Winding along ridgelines, this colossal fortification is the most famous monument in China."
+  ],
+  "after": [
+   "In a famous folk legend, Lady Meng Jiang wept so bitterly for her husband, a laborer who died building this structure, that part of it collapsed.",
+   "Ming dynasty builders mixed sticky rice into this structure's lime mortar, which helped some sections survive for centuries.",
+   "A line in a 1935 poem by Mao Zedong says that no one who has failed to reach this structure is a true hero.",
+   "A 2012 survey found that this fortification, built over centuries to keep out raiders from the north, runs about 13,000 miles in total."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Lady_Meng_Jiang",
+   "2": "https://www.researchgate.net/publication/397314765_Modification_Study_of_the_Restorative_Sticky_Rice-Lime_Mortar_for_the_Dazhuangke_Section_of_the_Ming_Dynasty_Great_Wall",
+   "3": "https://www.marxists.org/reference/archive/mao/selected-works/poems/poems17.htm",
+   "4": "https://www.china.org.cn/china/2012-06/06/content_25574964.htm"
+  },
+  "summary": "Moved the near-instant visible-from-space myth down to clue 3 through Yang Liwei's 2003 flight, added the Meng Jiang legend and the sticky-rice mortar as harder clues, merged the two repeated barrier clues into one clue 4, and removed 'China' from every clue.",
+  "handEdited": [
+   3
+  ]
+ },
+ {
+  "id": "amsterdam",
+  "answer": "Amsterdam",
+  "category": "Cities",
+  "before": [
+   "Much of it sits below sea level, its soggy ground held up by millions of wooden piles.",
+   "Laced with 17th-century canals, this city has more bikes than people and narrow, gabled merchant houses.",
+   "The capital of the Netherlands, it drew crowds to the house where Anne Frank hid and to Van Gogh's museum.",
+   "Famed for tulips, clogs, and canal cruises, this Dutch capital rings with bicycle bells."
+  ],
+  "after": [
+   "This city's Royal Palace, built in the 1600s as its town hall, rests on 13,659 wooden piles sunk into former swampland.",
+   "Some of this city's narrow canal houses were built leaning slightly forward, so goods hoisted from a beam at the top won't scrape the front.",
+   "Although it is the national capital, this city does not host its country's government or parliament, which sit in The Hague.",
+   "The Anne Frank House and the Van Gogh Museum draw crowds to this Dutch city, famed for its canals and bicycles."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Royal_Palace_of_Amsterdam",
+   "2": "https://thedutchdaily.nl/amsterdams-hoisting-hooks-a-history-of-practical-ingenuity/",
+   "3": "https://en.wikipedia.org/wiki/Amsterdam",
+   "4": "https://en.wikipedia.org/wiki/Amsterdam"
+  },
+  "summary": "Replaced the instant canals-and-bikes and 'capital of the Netherlands' clues with the Royal Palace's 13,659 piles, the forward-leaning hoist houses and the capital-without-government fact, and kept canals, bikes and the museums for clue 4 only."
+ },
+ {
+  "id": "hello-kitty",
+  "answer": "Hello Kitty",
+  "category": "Pop Culture",
+  "before": [
+   "Her owners insist she is not a cat at all, but a little girl who lives just outside London.",
+   "Sanrio designed her in 1974, and she first went on sale the next year on a small vinyl coin purse.",
+   "She is drawn with no mouth, so that people can read their own mood into her, and wears a red bow over one ear.",
+   "The white, whiskered Sanrio character stamped on countless lunchboxes and one of the most lucrative in the world."
+  ],
+  "after": [
+   "This character was designed in 1974 by Yuko Shimizu and first went on sale the next year, printed on a small vinyl coin purse.",
+   "This character's official profile says she stands five apples tall and weighs as much as three apples.",
+   "In 2014 this character's owners told a researcher she was not a cat but a little girl, and her official backstory has her living in the suburbs of London.",
+   "This white, whiskered Sanrio character, with a red bow and no mouth, is stamped on countless lunchboxes."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Hello_Kitty",
+   "2": "https://en.wikipedia.org/wiki/Hello_Kitty",
+   "3": "https://en.wikipedia.org/wiki/Hello_Kitty",
+   "4": "https://en.wikipedia.org/wiki/Hello_Kitty"
+  },
+  "summary": "Removed Sanrio and the missing mouth from the early clues, moved the coin-purse fact to clue 1 and added the five-apples profile as clue 2, put the 'not a cat' clue at 3 with a proper opening, and made clue 4 a full sentence.",
+  "handEdited": [
+   3
+  ]
+ },
+ {
+  "id": "frankenstein",
+  "answer": "Frankenstein",
+  "category": "Literature",
+  "before": [
+   "It was written for a ghost-story contest during a summer with no sun, after a volcano on the other side of the world cooled the whole planet.",
+   "She was eighteen that summer on Lake Geneva, in company with Byron and her future husband, and the book came out anonymously in 1818.",
+   "Its subtitle, 'The Modern Prometheus', warns you about the student who assembles a body from parts and then runs from what he has made.",
+   "Mary Shelley's novel, whose nameless creature is almost always called by its maker's surname instead."
+  ],
+  "after": [
+   "This novel began as an entry in a ghost-story contest during 1816's 'Year Without a Summer', when a volcanic eruption in Indonesia had cooled the planet.",
+   "This novel's author was the daughter of the feminist writer Mary Wollstonecraft, who died eleven days after giving birth to her.",
+   "This novel's subtitle, 'The Modern Prometheus', casts its young scientist as the Titan who stole fire from the gods.",
+   "This Mary Shelley novel's creature has no name, yet it is almost always called by its maker's surname."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Frankenstein",
+   "2": "https://en.wikipedia.org/wiki/Mary_Wollstonecraft",
+   "3": "https://en.wikipedia.org/wiki/Frankenstein",
+   "4": "https://en.wikipedia.org/wiki/Frankenstein"
+  },
+  "summary": "Gave clue 1 a 'This novel' opening and dropped the 'summer with no sun' overstatement, replaced the repeated Lake Geneva clue with the author's mother, swapped the plot summary in clue 3 for the Prometheus meaning of the subtitle, and made clue 4 a full sentence."
+ },
+ {
+  "id": "great-gatsby",
+  "answer": "The Great Gatsby",
+  "category": "Literature",
+  "before": [
+   "It sold so poorly that its author died believing himself a failure; then the army printed 150,000 copies for soldiers and it came back.",
+   "F. Scott Fitzgerald wanted to call it 'Trimalchio in West Egg' and disliked the title he was talked into.",
+   "Narrated by Nick Carraway, it watches a bootlegger throw enormous Long Island parties in the hope that Daisy Buchanan will wander in.",
+   "The 1925 Jazz Age novel that ends with boats against the current and a green light across the bay."
+  ],
+  "after": [
+   "This novel sold so poorly that its author died believing himself a failure; then 155,000 copies printed for American troops in World War II brought it back.",
+   "This novel's author wanted to name it after Trimalchio, the vulgar freed slave who throws a lavish banquet in the ancient Roman 'Satyricon'.",
+   "This novel's famous cover, a flapper's disembodied face with celestial eyes, was designed before the book was finished, and its author said he wrote it into the story.",
+   "This 1925 F. Scott Fitzgerald novel's hero stares across the bay at the green light on the dock of the woman he loves."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/The_Great_Gatsby",
+   "2": "https://en.wikipedia.org/wiki/Trimalchio",
+   "3": "https://en.wikipedia.org/wiki/The_Great_Gatsby",
+   "4": "https://en.wikipedia.org/wiki/The_Great_Gatsby"
+  },
+  "summary": "Removed Fitzgerald, West Egg, Nick and Daisy from clues 2 and 3 by using the Trimalchio title and the cover-art story instead, gave clue 1 a 'This novel' opening with the checked 155,000 figure, and rewrote clue 4 as a full sentence about the novel."
+ },
+ {
+  "id": "tower-bridge",
+  "answer": "Tower Bridge",
+  "category": "Landmarks",
+  "before": [
+   "Tourists often mix it up with a plainer neighbor whose name they wrongly give it.",
+   "Its roadway splits and lifts in the middle to let tall ships pass beneath.",
+   "Its two Victorian Gothic towers, linked by high walkways, span the River Thames in London.",
+   "Painted blue and white, this drawbridge beside the Tower of London is a symbol of the city."
+  ],
+  "after": [
+   "This London crossing's high walkways were closed in 1910, having become a haunt of pickpockets and prostitutes, and did not reopen until 1982.",
+   "This crossing's steel frame was clad in Cornish granite and Portland stone so that it would blend in with the medieval fortress beside it.",
+   "Tourists often wrongly call this landmark by the name of the plainer crossing about half a mile upstream.",
+   "In 1952 a double-decker bus had to leap the gap when this Victorian Thames crossing, now painted blue and white, began to lift beneath it."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Tower_Bridge",
+   "2": "https://en.wikipedia.org/wiki/Tower_Bridge",
+   "3": "https://en.wikipedia.org/wiki/Tower_Bridge",
+   "4": "https://en.wikipedia.org/wiki/Tower_Bridge"
+  },
+  "summary": "Removed every use of 'tower' and 'bridge', replaced the vague clue 1 with the closed walkways, added the granite cladding as clue 2, made the London Bridge mix-up a clear clue 3, and moved the lifting roadway (the old clue 2, which gave it away too early) into the bus story at clue 4."
+ },
+ {
+  "id": "lego",
+  "answer": "LEGO",
+  "category": "Pop Culture",
+  "before": [
+   "Its name is a contraction of two Danish words meaning 'play well', and by coincidence also reads as 'I assemble' in Latin.",
+   "The company came close to bankruptcy in 2003 before licensed sets and, later, a hit film turned it around.",
+   "Its interlocking plastic bricks have been moulded to the same clutch tolerance since 1958, so one from then still grips one made today.",
+   "The Danish toy firm whose studded bricks and yellow minifigures are the best-selling toy on Earth."
+  ],
+  "after": [
+   "This company's founder, Ole Kirk Christiansen, was a carpenter who began making wooden toys in 1932.",
+   "This company makes more tires than any other manufacturer in the world: hundreds of millions a year, every one of them tiny.",
+   "This company's name is a contraction of two Danish words meaning 'play well'.",
+   "This Danish company's studded plastic bricks and little yellow minifigures fill toy boxes around the world."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Lego",
+   "2": "https://www.jalopnik.com/lego-is-actually-the-world-s-biggest-tire-manufacturer-1849396247/",
+   "3": "https://en.wikipedia.org/wiki/Lego",
+   "4": "https://en.wikipedia.org/wiki/Lego"
+  },
+  "summary": "Moved the founder to clue 1 and added the tire fact as clue 2, dropped the shaky Latin reading and moved 'play well' to clue 3, removed the old clue 2 because licensed sets came before the 2003 crisis rather than after, and made clue 4 a full sentence without the unchecked 'best-selling toy' claim.",
+  "handEdited": [
+   2
+  ]
+ }
+]

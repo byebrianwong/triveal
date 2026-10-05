@@ -11,11 +11,12 @@
  * harder.
  *
  * Most of these were written to the older spec §2.2 rules, which put
- * misdirection first, so many are easier than we now want. On 2026-10-04, 100
- * of them were rewritten to the current rules with pipeline/fix-clues.ts, in
- * two rounds of 50. The before and after, with a source for each new fact, are
- * in clueEval/results/rewrites-2026-10-04.json (round 1) and
- * rewrites-2026-10-04-round-2.json (round 2). The current rules
+ * misdirection first, so many are easier than we now want. On 2026-10-04 and
+ * 2026-10-05, 150 of them were rewritten to the current rules with
+ * pipeline/fix-clues.ts, in three rounds of 50. The before and after, with a
+ * source for each new fact, are in clueEval/results/rewrites-2026-10-04.json
+ * (round 1), rewrites-2026-10-04-round-2.json (round 2) and
+ * rewrites-2026-10-05.json (round 3). The current rules
  * for writing and rewriting clues are in lib/questions/README.md, under "What
  * makes a good question". Follow those, not the style of the entries below.
  *
@@ -124,10 +125,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Art",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "He sold almost nothing while alive, yet poured out some 2,000 works in barely a decade." },
-      { position: 2, text: "Tormented by mental illness, this Dutch painter famously cut off part of his own ear." },
-      { position: 3, text: "His thick, swirling brushstrokes and blazing yellows fill canvases like 'Sunflowers' and a whirling night sky over a village." },
-      { position: 4, text: "This red-haired Post-Impressionist, who painted 'The Starry Night,' died largely unknown and is now among the most beloved artists ever." },
+      { position: 1, text: "This painter worked as an art dealer, a teacher in England and a lay preacher among Belgian coal miners before taking up art at 27." },
+      { position: 2, text: "This painter's younger brother Theo, an art dealer, paid his bills for years, and more than 650 of his letters to Theo survive." },
+      { position: 3, text: "This painter made about 2,100 artworks in just over a decade, most of them in his last two years, yet sold almost nothing while alive." },
+      { position: 4, text: "This Dutch Post-Impressionist painted 'The Starry Night' and 'Sunflowers' and cut off part of his own ear." },
     ],
     decoys: [
       { text: "Claude Monet", eliminatedByClue: 2 },
@@ -700,9 +701,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "History",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "She vanished without a trace over the Pacific in 1937, and her fate is still argued about today." },
-      { position: 2, text: "Five years earlier, in 1932, she became the first woman to fly solo across the Atlantic Ocean." },
-      { position: 3, text: "She disappeared while trying to circle the globe, her plane lost somewhere near tiny Howland Island." },
+      { position: 1, text: "In 1933 this American woman launched her own clothing line, with some designs made from parachute silk." },
+      { position: 2, text: "This flier was the first president of the Ninety-Nines, an organization of women pilots founded in 1929." },
+      { position: 3, text: "After flying across the Atlantic as a passenger in 1928, she said she had been 'just baggage, like a sack of potatoes.'" },
       { position: 4, text: "This pioneering American aviator remains one of history's most famous missing persons." },
     ],
     decoys: [
@@ -1816,9 +1817,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Sports",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its championship final draws a television audience of billions — more than any other single sporting event on Earth." },
-      { position: 2, text: "Apart from the goalkeeper, its players may not touch the ball with their hands, moving it by foot, head, and chest." },
-      { position: 3, text: "Played by two sides of eleven on a grass pitch, its World Cup is contested every four years." },
+      { position: 1, text: "This sport's modern rules were first agreed in 1863 over six meetings at a London pub, the Freemasons' Tavern." },
+      { position: 2, text: "The name Americans use for this sport began as English student slang in the 1880s, a clipped form of 'association.'" },
+      { position: 3, text: "This sport's color-coded penalty cards were inspired by traffic lights an English referee saw while driving through London, and debuted in 1970." },
       { position: 4, text: "In this global game, fans roar as the ball is kicked into a net; Pelé and Messi are among its legends." },
     ],
     decoys: [
@@ -2068,9 +2069,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Space",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "It is that faint band of light arching across a truly dark night sky — our own galaxy, seen edge-on." },
-      { position: 2, text: "It holds a few hundred billion stars, and a giant black hole lurks at its very center." },
-      { position: 3, text: "Our Sun is just one modest star out near the edge of one of its spiral arms." },
+      { position: 1, text: "This feature of the night sky gave English the word 'galaxy', which comes from its ancient Greek name." },
+      { position: 2, text: "In 2022 astronomers released the first picture of the giant black hole at the heart of this galaxy, an object called Sagittarius A*." },
+      { position: 3, text: "A 2016 atlas found light pollution hides this band of stars from more than a third of humanity, including nearly 80% of North Americans." },
       { position: 4, text: "This is the name of the galaxy that contains Earth, the Sun, and every star you can see by eye." },
     ],
     decoys: [
@@ -2104,10 +2105,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Space",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "It glows when particles hurled from the Sun crash into gases high in the sky near the poles." },
-      { position: 2, text: "Oxygen far overhead lends it greens and reds, while nitrogen adds blues and purples." },
-      { position: 3, text: "Seen best in the far north and far south, it ripples and curtains across the night sky." },
-      { position: 4, text: "These shimmering polar light shows are known as the northern and southern 'lights.'" },
+      { position: 1, text: "In 1859 this sky display shone so brightly over the Rocky Mountains that gold miners woke up and began making breakfast, thinking it was morning." },
+      { position: 2, text: "This sky display also lights up Jupiter's poles, where NASA says it is hundreds of times more energetic than on Earth." },
+      { position: 3, text: "Galileo is credited with the first use of this display's name, in 1619, taking it from the Roman goddess of the dawn." },
+      { position: 4, text: "This shimmering polar light show is called the northern or southern 'lights,' depending on the hemisphere." },
     ],
     decoys: [
       { text: "Rainbow", eliminatedByClue: 1 },
@@ -2122,10 +2123,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Space",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "One of these about 10 km wide is blamed for wiping out the dinosaurs 66 million years ago." },
-      { position: 2, text: "Most of them orbit the Sun in a vast belt between Mars and Jupiter, leftover rubble from the Solar System's birth." },
-      { position: 3, text: "Ranging from pebbles to hundreds of miles across, these rocky bodies are sometimes called 'minor planets.'" },
-      { position: 4, text: "This chunk of space rock circling the Sun becomes a 'meteor' if it streaks into Earth's atmosphere." },
+      { position: 1, text: "The biggest of these space rocks ever found, Ceres, was reclassified as a dwarf planet in the same 2006 vote that demoted Pluto." },
+      { position: 2, text: "In 2022 NASA deliberately crashed a spacecraft into one of these, called Dimorphos, and shortened its orbit by 32 minutes." },
+      { position: 3, text: "In Antoine de Saint-Exupéry's 1943 children's book, the young prince's tiny home world, where he tends a single rose, is one of these, catalogued B-612." },
+      { position: 4, text: "Most of these rocky bodies circle the Sun in a belt between Mars and Jupiter, and one that hit Mexico is blamed for wiping out the dinosaurs." },
     ],
     decoys: [
       { text: "Comet", eliminatedByClue: 2 },
@@ -2356,9 +2357,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Geography",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "In 79 AD it buried two Roman towns under ash so fast that it preserved their people where they fell." },
-      { position: 2, text: "Looming over the Bay of Naples, it is the only active volcano on the European mainland and among the most dangerous on Earth." },
-      { position: 3, text: "The city of Pompeii vanished beneath its eruption and lay hidden for some 1,700 years." },
+      { position: 1, text: "This volcano's most recent eruption, in March 1944, wrecked an estimated 78 to 88 American B-25 bombers at a nearby airfield." },
+      { position: 2, text: "The Roman fleet commander Pliny the Elder died after sailing toward this volcano's eruption to rescue friends, and his nephew wrote the only surviving eyewitness account." },
+      { position: 3, text: "This is the only volcano on Europe's mainland to have erupted in the last hundred years; Etna and Stromboli sit on islands." },
       { position: 4, text: "This Italian volcano near Naples is infamous for the catastrophe that entombed Pompeii." },
     ],
     decoys: [
@@ -2950,10 +2951,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Mythology",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Sailors credited his moods with calm seas or sudden, ship-wrecking storms." },
-      { position: 2, text: "He struck the ground with his three-pronged spear to make horses and springs burst forth." },
-      { position: 3, text: "Brother of Zeus in Greek myth, he rules the oceans and shakes the earth in his anger." },
-      { position: 4, text: "God of the sea who carries a trident, he matches the Roman god Neptune." },
+      { position: 1, text: "The Greeks called this god the 'Earth-Shaker' and blamed him when earthquakes struck." },
+      { position: 2, text: "This god fathered the Cyclops Polyphemus, then hounded Odysseus for years after the hero blinded him." },
+      { position: 3, text: "This god lost the contest to be patron of Athens when Athena's olive tree was judged a better gift than the salt-water spring he struck from the Acropolis." },
+      { position: 4, text: "This trident-carrying god of the sea is the Greek counterpart of the Roman Neptune." },
     ],
     decoys: [
       { text: "Triton", eliminatedByClue: 2 },
@@ -3112,10 +3113,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Music",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its priciest examples, made by Stradivari three centuries ago, sell for millions." },
-      { position: 2, text: "Its four strings are usually played with a horsehair bow, though they can be plucked." },
-      { position: 3, text: "The smallest and highest-pitched member of its bowed-string family, it is tucked under the player's chin." },
-      { position: 4, text: "Drawn with a bow, it carries the melody in an orchestra's string section; folk players call it by a homelier name." },
+      { position: 1, text: "This instrument earned a world-famous soloist only about $32 when he played it incognito for 45 minutes in a Washington, D.C., subway station in 2007." },
+      { position: 2, text: "Albert Einstein played this instrument from childhood and gave each one he owned the nickname 'Lina.'" },
+      { position: 3, text: "An orchestra's concertmaster plays this instrument, whose players form the biggest section on the stage." },
+      { position: 4, text: "Antonio Stradivari made the most prized examples of this chin-held instrument; one, the 'Lady Blunt,' sold for $15.9 million in 2011." },
     ],
     decoys: [
       { text: "Cello", eliminatedByClue: 3 },
@@ -3346,9 +3347,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "The 'Ring of Fire' around the Pacific is where most of them strike." },
-      { position: 2, text: "It happens when slabs of the planet's crust suddenly slip along a fault line." },
-      { position: 3, text: "Its strength is rated on the Richter or moment-magnitude scale, and it can trigger a tsunami." },
+      { position: 1, text: "This kind of natural disaster wrecked Lisbon on All Saints' Day in 1755 and helped inspire Voltaire's 'Candide'." },
+      { position: 2, text: "In 2011 one of these off Japan sped up the planet's spin, shortening the day by about 1.8 microseconds." },
+      { position: 3, text: "The most powerful one ever recorded struck near Valdivia, Chile, in 1960 and left about 2 million people homeless." },
       { position: 4, text: "This violent shaking of the ground toppled much of San Francisco in 1906." },
     ],
     decoys: [
@@ -3616,10 +3617,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "This showy male bird fans a shimmering train studded with dozens of eye-like spots to woo a mate." },
-      { position: 2, text: "Strictly, only the male is so called; the drab brown female is the peahen." },
-      { position: 3, text: "Native to India, it is that country's national bird and roosts in trees despite its size." },
-      { position: 4, text: "This iridescent blue-green bird spreads a dazzling tail and gave a Hollywood network its logo." },
+      { position: 1, text: "Darwin wrote in 1860 that the sight of a feather in this bird's tail made him sick, because his theory struggled to explain it." },
+      { position: 2, text: "Greek myth says Hera set the hundred eyes of her slain watchman Argus into this bird's tail." },
+      { position: 3, text: "In 1963 this bird was named India's national bird, and it is fully protected there under wildlife law." },
+      { position: 4, text: "This iridescent blue-green bird fans out a dazzling tail and is the emblem in NBC's logo." },
     ],
     decoys: [
       { text: "Turkey", eliminatedByClue: 2 },
@@ -3742,9 +3743,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Geography",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its name in its own language means 'origin of the sun,' hence the nickname 'Land of the Rising Sun.'" },
-      { position: 2, text: "An island nation of some 6,800 islands, it sits on the Ring of Fire and endures frequent earthquakes." },
-      { position: 3, text: "Ruled by an emperor and once by samurai, it gave the world sushi, anime, and the bullet train." },
+      { position: 1, text: "This country's 2023 recount of its islands found 14,125, more than double the 6,852 it had used since 1987." },
+      { position: 2, text: "This country's imperial house is the world's oldest continuing hereditary monarchy, by tradition founded in 660 BC." },
+      { position: 3, text: "Nearly a fifth of the world's earthquakes of magnitude 6 or greater strike this country, though it has under 0.3% of Earth's land." },
       { position: 4, text: "With its capital at Tokyo and snow-capped Mount Fuji, this archipelago flies a white flag with a red circle." },
     ],
     decoys: [
@@ -3814,10 +3815,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Geography",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "So vast it spans eleven time zones, a traveler crossing it can change the hour nearly a dozen times." },
-      { position: 2, text: "The largest country on Earth by area, it stretches across two continents from Europe into Asia." },
-      { position: 3, text: "Its history runs from the tsars through the Soviet Union; Siberia forms its cold, enormous eastern half." },
-      { position: 4, text: "With Moscow as its capital and the Kremlin at its heart, this nation's flag is white, blue, and red." },
+      { position: 1, text: "This country and China tie for the most land neighbors in the world, each sharing a border with 14 sovereign states." },
+      { position: 2, text: "This country's Lake Baikal, the world's deepest lake, holds about a fifth of Earth's unfrozen fresh surface water." },
+      { position: 3, text: "This country stretches across 11 time zones, so when it is 8 a.m. at its western edge it is already 6 p.m. at its eastern tip." },
+      { position: 4, text: "This country, ruled from the Kremlin in its capital, Moscow, flies a flag of white, blue and red horizontal stripes." },
     ],
     decoys: [
       { text: "Kazakhstan", eliminatedByClue: 2 },
@@ -3850,10 +3851,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Landmarks",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "The myth that it is the only human structure visible from the Moon is simply false." },
-      { position: 2, text: "Stretching over 13,000 miles, this barrier was built and rebuilt across centuries by successive dynasties." },
-      { position: 3, text: "Emperors raised it of stone, brick, and packed earth to keep out Mongol horsemen from the north." },
-      { position: 4, text: "Winding along ridgelines, this colossal fortification is the most famous monument in China." },
+      { position: 1, text: "In a famous folk legend, Lady Meng Jiang wept so bitterly for her husband, a laborer who died building this structure, that part of it collapsed." },
+      { position: 2, text: "Ming dynasty builders mixed sticky rice into this structure's lime mortar, which helped some sections survive for centuries." },
+      { position: 3, text: "A line in a 1935 poem by Mao Zedong says that no one who has failed to reach this structure is a true hero." },
+      { position: 4, text: "A 2012 survey found that this fortification, built over centuries to keep out raiders from the north, runs about 13,000 miles in total." },
     ],
     decoys: [
       { text: "Hadrian's Wall", eliminatedByClue: 2 },
@@ -3976,10 +3977,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Cities",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Much of it sits below sea level, its soggy ground held up by millions of wooden piles." },
-      { position: 2, text: "Laced with 17th-century canals, this city has more bikes than people and narrow, gabled merchant houses." },
-      { position: 3, text: "The capital of the Netherlands, it drew crowds to the house where Anne Frank hid and to Van Gogh's museum." },
-      { position: 4, text: "Famed for tulips, clogs, and canal cruises, this Dutch capital rings with bicycle bells." },
+      { position: 1, text: "This city's Royal Palace, built in the 1600s as its town hall, rests on 13,659 wooden piles sunk into former swampland." },
+      { position: 2, text: "Some of this city's narrow canal houses were built leaning slightly forward, so goods hoisted from a beam at the top won't scrape the front." },
+      { position: 3, text: "Although it is the national capital, this city does not host its country's government or parliament, which sit in The Hague." },
+      { position: 4, text: "The Anne Frank House and the Van Gogh Museum draw crowds to this Dutch city, famed for its canals and bicycles." },
     ],
     decoys: [
       { text: "Rotterdam", eliminatedByClue: 3 },
@@ -4048,10 +4049,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Cities",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Nine giant letters spelled out in white on one of its hillsides began as an ad for a housing development." },
-      { position: 2, text: "The second-most-populous U.S. city, it sprawls across Southern California in endless traffic and sunshine." },
-      { position: 3, text: "Its Hollywood district is the heart of the American movie industry, and stars line its Walk of Fame." },
-      { position: 4, text: "Nicknamed the 'City of Angels,' this coastal metropolis hosts the Dodgers and the 2028 Summer Olympics." },
+      { position: 1, text: "This city's Watts Towers were built single-handedly by an Italian immigrant over 33 years from steel, concrete, broken tile, glass and seashells." },
+      { position: 2, text: "This city's La Brea Tar Pits have yielded the fossils of more than 4,000 dire wolves and 2,000 saber-toothed cats from the last Ice Age." },
+      { position: 3, text: "This city hosted the Summer Olympics in 1932 and 1984, and in 2028 it will join London and Paris as a three-time host." },
+      { position: 4, text: "A hillside sign above this city went up in 1923 reading 'HOLLYWOODLAND' to advertise a housing development, and lost its last four letters in 1949." },
     ],
     decoys: [
       { text: "San Diego", eliminatedByClue: 2 },
@@ -4156,10 +4157,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "History",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its most notorious execution device was nicknamed the 'National Razor.'" },
-      { position: 2, text: "It began in 1789 when a Paris mob stormed the Bastille prison and toppled a monarchy." },
-      { position: 3, text: "Its rallying cry was 'Liberty, Equality, Fraternity,' and it sent King Louis XVI to the guillotine." },
-      { position: 4, text: "This upheaval in France ushered in a Reign of Terror and the rise of Napoleon." },
+      { position: 1, text: "This upheaval brought in a calendar with ten-day weeks and months named for nature, such as Brumaire ('fog') and Thermidor ('heat')." },
+      { position: 2, text: "This upheaval gave the world the metric system, defining the meter as one ten-millionth of the distance from the North Pole to the equator." },
+      { position: 3, text: "This upheaval's executions used a device nicknamed the 'National Razor,' named after a doctor who did not invent it." },
+      { position: 4, text: "Famous for the storming of the Bastille in 1789, this upheaval led to the Reign of Terror and the rise of Napoleon." },
     ],
     decoys: [
       { text: "American Revolution", eliminatedByClue: 2 },
@@ -4300,9 +4301,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Food & Drink",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Archaeologists have found pots of it in Egyptian tombs still perfectly edible after 3,000 years." },
-      { position: 2, text: "Bees make it from flower nectar, fanning it with their wings and storing it in wax cells." },
-      { position: 3, text: "It never truly spoils, thanks to low moisture and natural acidity that stop microbes." },
+      { position: 1, text: "An 8,000-year-old rock painting in Spain's Araña Caves shows a person climbing ropes to collect this food from the wild." },
+      { position: 2, text: "Ancient Egyptian doctors spread this food on wounds, and it turns up in many of the remedies in their surviving medical papyri." },
+      { position: 3, text: "Doctors warn against giving this food to babies under one year old because it can carry botulism spores." },
       { position: 4, text: "Golden and sticky, this natural sweetener is what Winnie-the-Pooh craves from the hive." },
     ],
     decoys: [
@@ -4318,10 +4319,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Food & Drink",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "It forms when trapped water inside a kernel flashes to steam and bursts the grain inside out with a pop." },
-      { position: 2, text: "Native Americans were popping this snack thousands of years ago over open fires." },
-      { position: 3, text: "Only one special variety of maize makes it; sweet corn just scorches." },
-      { position: 4, text: "Buttered and salted, this puffy movie-theater snack bursts from heated corn kernels." },
+      { position: 1, text: "This snack's oldest known remains, found on Peru's northern coast, are up to 6,700 years old." },
+      { position: 2, text: "When World War II sugar rationing made candy scarce, Americans ate about three times as much of this snack as usual." },
+      { position: 3, text: "Percy Spencer, who invented the microwave oven, tested his discovery on this snack after a candy bar melted in his pocket." },
+      { position: 4, text: "Buttered and salted, this fluffy snack is the classic treat at the movies." },
     ],
     decoys: [
       { text: "Pretzel", eliminatedByClue: 2 },
@@ -4354,9 +4355,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Food & Drink",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Experts can sometimes name the exact hillside and year a glass of it came from just by taste." },
-      { position: 2, text: "Made by fermenting crushed grapes, it is aged in oak barrels and sealed under a cork." },
-      { position: 3, text: "It comes in red, white, and rose, plus a sparkling version from France's Champagne region." },
+      { position: 1, text: "The oldest known unopened bottle of this drink, sealed with olive oil and wax, was found in a 4th-century Roman tomb in Germany." },
+      { position: 2, text: "In the late 1800s a tiny insect from America, phylloxera, destroyed much of France's output of this drink until growers grafted on American roots." },
+      { position: 3, text: "The streaks this drink leaves running down a glass, called 'tears' or 'legs,' form because its alcohol evaporates faster than its water." },
       { position: 4, text: "Sommeliers swirl and sniff this fermented grape drink before pairing it with dinner." },
     ],
     decoys: [
@@ -4426,10 +4427,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Sports",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Legend says a Greek messenger ran the first one to announce a victory, then dropped dead." },
-      { position: 2, text: "This grueling race covers exactly 26.2 miles, or about 42 kilometers, on open roads." },
-      { position: 3, text: "Its major annual versions crowd the streets of Boston, London, and New York." },
-      { position: 4, text: "Named for a Greek battle site, this long-distance foot race caps the Olympic track program." },
+      { position: 1, text: "This race's official length, adopted in 1921, comes from the 1908 London Olympic course, which started on the grounds of Windsor Castle." },
+      { position: 2, text: "At the 1904 Olympics, the first man across this race's finish line was disqualified for riding about 11 miles in a car." },
+      { position: 3, text: "Ethiopia's Abebe Bikila won this Olympic race barefoot in Rome in 1960, finishing after dark on a torch-lit course." },
+      { position: 4, text: "This 26.2-mile road race is named after a Greek battle site, from which a legendary messenger ran to Athens with news of victory." },
     ],
     decoys: [
       { text: "Triathlon", eliminatedByClue: 2 },
@@ -4588,10 +4589,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its hero is offered a red pill or a blue pill and chooses to see the truth." },
-      { position: 2, text: "Humanity, it reveals, is trapped inside a computer simulation while machines harvest their bodies." },
-      { position: 3, text: "In it, Keanu Reeves plays Neo, 'the One,' who learns to dodge bullets in slow motion." },
-      { position: 4, text: "The Wachowskis' 1999 sci-fi film features cascading green code and long black coats." },
+      { position: 1, text: "This film's designer likes to tell people that its best-known graphic is made out of Japanese sushi recipes." },
+      { position: 2, text: "Will Smith turned down this film's lead role to make 'Wild Wild West' instead." },
+      { position: 3, text: "This film froze its action shots by firing 120 still cameras, set in an arc around the actor, one after another." },
+      { position: 4, text: "The Wachowskis' 1999 sci-fi film stars Keanu Reeves as Neo, a hacker offered a red pill or a blue pill." },
     ],
     decoys: [
       { text: "Inception", eliminatedByClue: 2 },
@@ -4714,9 +4715,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its green hero compares himself to an onion, insisting both have 'layers.'" },
-      { position: 2, text: "In it, a grumpy swamp-dwelling ogre sets out to rescue a princess to win back his home." },
-      { position: 3, text: "In it, a motor-mouthed Donkey, voiced by Eddie Murphy, becomes his unwanted sidekick." },
+      { position: 1, text: "In 2001 this film became one of the few animated features ever to compete for the Palme d'Or at the Cannes Film Festival." },
+      { position: 2, text: "This film's hero first appeared in a 1990 picture book by William Steig, and his name comes from the Yiddish word for 'fear.'" },
+      { position: 3, text: "Chris Farley had recorded most of this film's lead role before he died in 1997, and the part was then recast." },
       { position: 4, text: "This 2001 DreamWorks film about an ogre and Princess Fiona won the first Best Animated Feature Oscar." },
     ],
     decoys: [
@@ -4750,9 +4751,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its title figure quotes Hindu scripture: 'Now I am become Death, the destroyer of worlds.'" },
-      { position: 2, text: "It dramatizes the Manhattan Project and the first test of an atomic bomb in the New Mexico desert." },
-      { position: 3, text: "In it, Cillian Murphy plays the tormented physicist who fathered the weapon, then feared it." },
+      { position: 1, text: "Kodak created black-and-white IMAX film especially for this movie, making it the first film to shoot scenes in black-and-white IMAX." },
+      { position: 2, text: "This film was adapted from 'American Prometheus,' Kai Bird and Martin J. Sherwin's Pulitzer Prize-winning biography." },
+      { position: 3, text: "Robert Downey Jr. won an Oscar for this film, playing Lewis Strauss, the official who worked to undermine its title figure." },
       { position: 4, text: "Christopher Nolan's 2023 biopic swept the Oscars, paired in cinemas with 'Barbie.'" },
     ],
     decoys: [
@@ -4912,9 +4913,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Television",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its creators pitched it as 'a show about nothing.'" },
-      { position: 2, text: "This 1990s sitcom followed a stand-up comedian and his eccentric New York circle." },
-      { position: 3, text: "In it, neurotic George, quirky Elaine, and the wild-haired Kramer bursting through the door were staples." },
+      { position: 1, text: "After this sitcom's pilot tested poorly, NBC canceled a Bob Hope special to pay for just four more episodes, the smallest sitcom order in TV history." },
+      { position: 2, text: "This sitcom's 1998 finale, in which its four friends go to jail for failing to help a stranger, drew about 76 million viewers." },
+      { position: 3, text: "This sitcom turned a writer's made-up family holiday into a December 23 celebration, with a bare aluminum pole and an 'airing of grievances.'" },
       { position: 4, text: "'No soup for you!' and 'yada yada yada' entered the language from this NBC comedy." },
     ],
     decoys: [
@@ -4930,9 +4931,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Television",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its guards wear pink jumpsuits and masks marked with circles, triangles, and squares." },
-      { position: 2, text: "In it, hundreds of desperate, indebted contestants play deadly versions of children's games for a cash prize." },
-      { position: 3, text: "In it, a giant robot doll turns during 'Red Light, Green Light,' gunning down anyone who moves." },
+      { position: 1, text: "This show's creator has said the stress of making its first season cost him at least six of his teeth." },
+      { position: 2, text: "This show's star, Lee Jung-jae, became the first Asian actor to win the Emmy for lead actor in a drama." },
+      { position: 3, text: "This show sent sales of plain white Vans slip-ons up about 7,800% as fans copied its contestants' look for Halloween." },
       { position: 4, text: "This 2021 Korean survival series became Netflix's most-watched show ever." },
     ],
     decoys: [
@@ -4948,10 +4949,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Television",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its hero regenerates into a new face whenever the lead actor changes, keeping the show going for decades." },
-      { position: 2, text: "In it, a time-traveling alien explores the universe in a ship disguised as a blue British police box." },
-      { position: 3, text: "In it, the TARDIS is 'bigger on the inside,' and its pilot battles pepper-pot robots called Daleks." },
-      { position: 4, text: "This long-running BBC sci-fi series stars a two-hearted Time Lord known only by a questioning title." },
+      { position: 1, text: "This show's first episode aired on 23 November 1963, starting 80 seconds late because of announcements about President Kennedy's assassination." },
+      { position: 2, text: "When this show's composer heard Delia Derbyshire's electronic take on his theme tune, he asked, 'Did I write that?' She replied, 'Most of it.'" },
+      { position: 3, text: "In 2017, this show cast Jodie Whittaker as the first woman to play its hero." },
+      { position: 4, text: "This long-running BBC sci-fi series follows a two-hearted Time Lord who travels in a police box called the TARDIS." },
     ],
     decoys: [
       { text: "Star Trek", eliminatedByClue: 2 },
@@ -5002,9 +5003,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Games",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "It began as one Swedish developer's side project and became the best-selling video game of all time." },
-      { position: 2, text: "Its players mine blocks and craft tools in an endless world of cubes, from dirt to diamond." },
-      { position: 3, text: "In it, hissing green 'creepers' explode by night and skeletons attack anyone who hasn't built shelter." },
+      { position: 1, text: "This game's best-known monster began as a coding mistake: its creator was building a pig and swapped the model's height and length." },
+      { position: 2, text: "This game began as a Swedish programmer's side project and became the best-selling video game of all time." },
+      { position: 3, text: "Players have built working computers inside this game, wiring them from a circuit material called redstone." },
       { position: 4, text: "This blocky sandbox game, now owned by Microsoft, has a 'Creative' mode with unlimited resources." },
     ],
     decoys: [
@@ -5038,9 +5039,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Games",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "A Soviet computer engineer designed it in 1984, and its profits were tangled in Cold War red tape." },
-      { position: 2, text: "In it, seven shapes, each made of four squares, fall one by one to be fitted together." },
-      { position: 3, text: "In it, completing a solid horizontal line makes that line vanish, and the blocks drop faster as you go." },
+      { position: 1, text: "This game's name blends the Greek prefix for 'four' with tennis, its creator's favorite sport." },
+      { position: 2, text: "In late 2023 a 13-year-old became the first person known to beat this game's NES version, by playing until it crashed." },
+      { position: 3, text: "In 1993 a cosmonaut carried this game to the Mir space station, and Guinness World Records calls it the first video game in space." },
       { position: 4, text: "This addictive falling-block puzzle helped sell millions of Nintendo Game Boys." },
     ],
     decoys: [
@@ -5074,9 +5075,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Games",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Confusingly, the princess it is named for is not the character you actually control." },
-      { position: 2, text: "Its players guide the green-clad, elf-like Link across the fantasy kingdom of Hyrule on a rescue quest." },
-      { position: 3, text: "In it, collecting pieces of a sacred golden triangle, the Triforce, he battles the villain Ganon." },
+      { position: 1, text: "Shigeru Miyamoto based this series on his boyhood explorations of the forests, lakes and caves around his hometown near Kyoto." },
+      { position: 2, text: "In North America, this series' first game came on a gold cartridge with a battery inside that let players save their progress." },
+      { position: 3, text: "This series' princess was named after the wife of novelist F. Scott Fitzgerald." },
       { position: 4, text: "This Nintendo adventure series' hero draws a Master Sword and solves dungeon puzzles." },
     ],
     decoys: [
@@ -5200,9 +5201,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Pop Culture",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "He has no superpowers, relying on gadgets, martial arts, and a vast fortune." },
-      { position: 2, text: "As a child he watched his wealthy parents gunned down in an alley, and swore revenge on crime." },
-      { position: 3, text: "By day the billionaire Bruce Wayne, he prowls Gotham City in a caped, cowled costume." },
+      { position: 1, text: "This superhero's co-creator Bill Finger, who wrote his first story, was left off the creator credit until DC added his name in 2015." },
+      { position: 2, text: "This superhero first appeared in 1939 in 'Detective Comics' #27, the series that gave DC its name." },
+      { position: 3, text: "This superhero's campy 1960s TV show flashed words like 'POW!' and 'ZONK!' across the screen during fistfights." },
       { position: 4, text: "This 'Dark Knight' drives an armored car and battles the cackling Joker." },
     ],
     decoys: [
@@ -5380,9 +5381,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Music",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "She names each of her albums after her age when she made it: 19, 21, 25, 30." },
-      { position: 2, text: "This British singer is known for powerful ballads about heartbreak and a soulful voice." },
-      { position: 3, text: "Her song 'Hello' and the album '21' broke sales records around the world." },
+      { position: 1, text: "This singer was signed by XL Recordings in 2006 after a friend posted her three-song demo on Myspace." },
+      { position: 2, text: "This singer's third album sold 3.38 million copies in its first US week in 2015, breaking a sales record NSYNC had held since 2000." },
+      { position: 3, text: "This singer co-wrote and sang the first James Bond theme ever to win the Oscar for Best Original Song." },
       { position: 4, text: "Belting 'Rolling in the Deep' and 'Someone Like You,' this soul singer has swept the Grammys." },
     ],
     decoys: [
@@ -5470,9 +5471,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Music",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "His stage name is a play on his initials, M and M." },
-      { position: 2, text: "This white rapper from Detroit shocked the charts with rapid-fire, controversial lyrics." },
-      { position: 3, text: "His shocking blond-haired alter ego and his mentor Dr. Dre helped make him a hip-hop phenomenon." },
+      { position: 1, text: "This rapper's 2000 song about an obsessive fan gave English the word 'stan', which Merriam-Webster added to its dictionary in 2019." },
+      { position: 2, text: "This rapper holds a Guinness world record for the most words in a hit single: 1,560 in just over six minutes." },
+      { position: 3, text: "This rapper slept at home through the 2003 ceremony where he won the first Oscar ever given to a hip-hop song." },
       { position: 4, text: "The semi-autobiographical film '8 Mile' and the song 'Lose Yourself' belong to this Detroit lyricist." },
     ],
     decoys: [
@@ -5614,10 +5615,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Technology",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its logo is a fruit with a single bite taken out of it." },
-      { position: 2, text: "Founded in a California garage in 1976, this company sold its first computers to hobbyists." },
-      { position: 3, text: "Under Steve Jobs it launched the Macintosh, the iPod, and the iPad." },
-      { position: 4, text: "The maker of the iPhone, it became the first company worth a trillion dollars." },
+      { position: 1, text: "This company's third co-founder, Ronald Wayne, sold back his 10% stake after just 12 days for $800." },
+      { position: 2, text: "This company's first computer went on sale in 1976 for $666.66, because one of its co-founders liked repeating digits." },
+      { position: 3, text: "When this company was close to bankruptcy in 1997, rival Microsoft invested $150 million in it." },
+      { position: 4, text: "The maker of the iPhone, this company became the first U.S. public company worth $1 trillion, in 2018." },
     ],
     decoys: [
       { text: "IBM", eliminatedByClue: 2 },
@@ -5794,10 +5795,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Internet",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its logo evolved from a realistic old camera into a simple rainbow-gradient outline." },
-      { position: 2, text: "Launched in 2010 for square photos with filters, it was bought by Facebook two years later." },
-      { position: 3, text: "Its users share pictures and short 'Stories' that vanish after 24 hours." },
-      { position: 4, text: "Influencers chase likes and followers on this photo-sharing app, often shortened to 'Insta.'" },
+      { position: 1, text: "This app began as Burbn, a location check-in app, before its two founders stripped it back to just photos." },
+      { position: 2, text: "In 2019 a plain stock photo of a brown egg broke the record for the most-liked post on this app." },
+      { position: 3, text: "This app had only 13 employees when Facebook agreed to buy it in 2012 for $1 billion." },
+      { position: 4, text: "Influencers chase likes and followers on this photo-sharing app, first known for its square pictures and filters." },
     ],
     decoys: [
       { text: "Snapchat", eliminatedByClue: 3 },
@@ -5938,9 +5939,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Sports",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "His signature leaping 'Siuuu' celebration is copied on playgrounds worldwide." },
-      { position: 2, text: "This Portuguese forward has starred for Manchester United, Real Madrid, Juventus, and a Saudi club." },
-      { position: 3, text: "Famed for his athleticism and heading ability, he is one of the top scorers in football history." },
+      { position: 1, text: "This footballer got one of his names from an actor his father admired, who was the U.S. president when the boy was born." },
+      { position: 2, text: "In 2022 this forward became the first man to score at five different World Cups." },
+      { position: 3, text: "In 2009 this winger left Manchester United for Real Madrid for a then world-record fee of £80 million." },
       { position: 4, text: "Known by the initials CR7, this superstar long dueled Lionel Messi for the title of world's best." },
     ],
     decoys: [
@@ -6010,10 +6011,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "J.J. Thomson discovered it in 1897, proving the atom was not the smallest thing after all." },
-      { position: 2, text: "This tiny particle carries a negative charge and swarms around the nucleus of an atom." },
-      { position: 3, text: "Its flow through a wire is what we call an electric current." },
-      { position: 4, text: "Sharing or trading these particles forms chemical bonds; its charge is the opposite of a proton's." },
+      { position: 1, text: "This particle's discoverer won a Nobel Prize in 1906, and his son won one in 1937 for showing it also behaves like a wave." },
+      { position: 2, text: "This particle's name traces back to the Greek word for amber, which the ancient Greeks saw attract small objects when rubbed with fur." },
+      { position: 3, text: "This particle is so light that it would take about 1,836 of them to match the mass of one proton." },
+      { position: 4, text: "This negatively charged particle surrounds an atom's nucleus, and atoms share or swap it to form chemical bonds." },
     ],
     decoys: [
       { text: "Proton", eliminatedByClue: 2 },
@@ -6028,9 +6029,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "The science of studying them, paleontology, comes from Greek for 'ancient beings.'" },
-      { position: 2, text: "Formed when minerals slowly replace the buried remains of a once-living thing, it can take millions of years." },
-      { position: 3, text: "Dinosaurs are known mostly from these stony impressions of bones dug from sedimentary rock." },
+      { position: 1, text: "This kind of find includes 'tongue stones', which Pliny the Elder said fell from the sky; in 1667 Nicolas Steno showed they were sharks' teeth." },
+      { position: 2, text: "The name for this kind of find comes from Latin for 'dug up', and in the 1600s it could mean anything taken from the ground, even coal or salt." },
+      { position: 3, text: "In the early 1800s Mary Anning, a poor cabinetmaker's daughter, made her name finding and selling these on the cliffs at Lyme Regis." },
       { position: 4, text: "A dragonfly trapped in amber or a footprint hardened in mudstone is this preserved trace of ancient life." },
     ],
     decoys: [
@@ -6280,10 +6281,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Landmarks",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Tourists often mix it up with a plainer neighbor whose name they wrongly give it." },
-      { position: 2, text: "Its roadway splits and lifts in the middle to let tall ships pass beneath." },
-      { position: 3, text: "Its two Victorian Gothic towers, linked by high walkways, span the River Thames in London." },
-      { position: 4, text: "Painted blue and white, this drawbridge beside the Tower of London is a symbol of the city." },
+      { position: 1, text: "This London crossing's high walkways were closed in 1910, having become a haunt of pickpockets and prostitutes, and did not reopen until 1982." },
+      { position: 2, text: "This crossing's steel frame was clad in Cornish granite and Portland stone so that it would blend in with the medieval fortress beside it." },
+      { position: 3, text: "Tourists often wrongly call this landmark by the name of the plainer crossing about half a mile upstream." },
+      { position: 4, text: "In 1952 a double-decker bus had to leap the gap when this Victorian Thames crossing, now painted blue and white, began to lift beneath it." },
     ],
     decoys: [
       { text: "London Bridge", eliminatedByClue: 2 },
@@ -6316,9 +6317,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "History",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Schoolchildren practiced hiding under their desks in case of the nuclear attack it threatened." },
-      { position: 2, text: "This decades-long standoff pitted the United States against the Soviet Union without direct battle." },
-      { position: 3, text: "It fueled a nuclear arms race, a race to the Moon, and proxy conflicts from Korea to Vietnam." },
+      { position: 1, text: "This standoff takes its name from a phrase George Orwell used in a 1945 essay about the atomic bomb." },
+      { position: 2, text: "The 1963 hotline between Washington and Moscow, set up during this standoff, was never a red telephone but a pair of teletype machines." },
+      { position: 3, text: "During this standoff, the two superpowers took turns boycotting each other's Summer Olympics, in 1980 and 1984." },
       { position: 4, text: "Symbolized by the Berlin Wall, this frosty rivalry finally thawed when the USSR collapsed in 1991." },
     ],
     decoys: [
@@ -6910,10 +6911,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Technology",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "It reached an estimated 100 million users in roughly two months, the fastest uptake any consumer application had managed." },
-      { position: 2, text: "OpenAI released it in November 2022, and within a year its name was being used as a verb." },
-      { position: 3, text: "It answers in conversational turns, is built on a family of large language models, and will occasionally invent a citation." },
-      { position: 4, text: "OpenAI's assistant, whose name joins a word for casual talk to the initials of the model beneath it." },
+      { position: 1, text: "In March 2023, Italy's data-protection regulator made Italy the first Western country to block this app." },
+      { position: 2, text: "Within weeks of this app's launch, Google's management reportedly declared a 'code red' over the threat it posed to search." },
+      { position: 3, text: "This app reached an estimated 100 million users in about two months, then the fastest uptake of any consumer app." },
+      { position: 4, text: "This OpenAI assistant's name joins a word for casual talk to the initials of the model beneath it." },
     ],
     decoys: [
       { text: "Alexa", eliminatedByClue: 2 },
@@ -6964,10 +6965,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Technology",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "It began when two broke roommates put inflatable mattresses on their floor during a sold-out design conference." },
-      { position: 2, text: "Founded in San Francisco in 2008, it let ordinary people rent spare rooms to complete strangers." },
-      { position: 3, text: "Its growth triggered housing-shortage fights and short-term-let crackdowns from Barcelona to New York." },
-      { position: 4, text: "The home-rental marketplace whose name is a contraction of 'air bed and breakfast'." },
+      { position: 1, text: "To keep this company afloat in 2008, its founders sold election-themed cereals called Obama O's and Cap'n McCain's, raising about $30,000." },
+      { position: 2, text: "This company went public in December 2020, while the pandemic had crushed travel, and its shares more than doubled on their first day of trading." },
+      { position: 3, text: "The idea for this company came in 2007, when two broke roommates rented inflatable mattresses on their floor to guests of a San Francisco design conference." },
+      { position: 4, text: "This home-rental marketplace lets travelers book stays in strangers' spare rooms, apartments and whole houses around the world." },
     ],
     decoys: [
       { text: "Couchsurfing", eliminatedByClue: 2 },
@@ -7036,10 +7037,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Internet",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Built first for gamers who needed to talk mid-match, it became the default clubhouse for study groups and hobbyists alike." },
-      { position: 2, text: "Its communities are split into text and voice channels, policed by volunteers wearing coloured roles." },
-      { position: 3, text: "Launched in 2015, it reportedly walked away from a multibillion-dollar approach from Microsoft in 2021." },
-      { position: 4, text: "The chat platform whose blue mascot is called Wumpus and whose 'servers' are really just group chats." },
+      { position: 1, text: "This chat app grew out of a game studio whose tablet battle-arena game, Fates Forever, failed to catch on." },
+      { position: 2, text: "In 2021 this chat app reportedly walked away from takeover talks with Microsoft worth more than $10 billion." },
+      { position: 3, text: "In 2023 a US Air National Guardsman was caught leaking secret Pentagon documents to a gaming chat group on this platform." },
+      { position: 4, text: "Gamers gather in 'servers' with text and voice channels on this chat app, whose mascot is a creature called Wumpus." },
     ],
     decoys: [
       { text: "Slack", eliminatedByClue: 1 },
@@ -7162,10 +7163,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Pop Culture",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its name is a contraction of two Danish words meaning 'play well', and by coincidence also reads as 'I assemble' in Latin." },
-      { position: 2, text: "The company came close to bankruptcy in 2003 before licensed sets and, later, a hit film turned it around." },
-      { position: 3, text: "Its interlocking plastic bricks have been moulded to the same clutch tolerance since 1958, so one from then still grips one made today." },
-      { position: 4, text: "The Danish toy firm whose studded bricks and yellow minifigures are the best-selling toy on Earth." },
+      { position: 1, text: "This company's founder, Ole Kirk Christiansen, was a carpenter who began making wooden toys in 1932." },
+      { position: 2, text: "This company makes more tires than any other manufacturer in the world: hundreds of millions a year, every one of them tiny." },
+      { position: 3, text: "This company's name is a contraction of two Danish words meaning 'play well'." },
+      { position: 4, text: "This Danish company's studded plastic bricks and little yellow minifigures fill toy boxes around the world." },
     ],
     decoys: [
       { text: "Meccano", eliminatedByClue: 1 },
@@ -7180,10 +7181,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Pop Culture",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Her owners insist she is not a cat at all, but a little girl who lives just outside London." },
-      { position: 2, text: "Sanrio designed her in 1974, and she first went on sale the next year on a small vinyl coin purse." },
-      { position: 3, text: "She is drawn with no mouth, so that people can read their own mood into her, and wears a red bow over one ear." },
-      { position: 4, text: "The white, whiskered Sanrio character stamped on countless lunchboxes and one of the most lucrative in the world." },
+      { position: 1, text: "This character was designed in 1974 by Yuko Shimizu and first went on sale the next year, printed on a small vinyl coin purse." },
+      { position: 2, text: "This character's official profile says she stands five apples tall and weighs as much as three apples." },
+      { position: 3, text: "In 2014 this character's owners told a researcher she was not a cat but a little girl, and her official backstory has her living in the suburbs of London." },
+      { position: 4, text: "This white, whiskered Sanrio character, with a red bow and no mouth, is stamped on countless lunchboxes." },
     ],
     decoys: [
       { text: "My Melody", eliminatedByClue: 2 },
@@ -7972,10 +7973,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Literature",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "It was written for a ghost-story contest during a summer with no sun, after a volcano on the other side of the world cooled the whole planet." },
-      { position: 2, text: "She was eighteen that summer on Lake Geneva, in company with Byron and her future husband, and the book came out anonymously in 1818." },
-      { position: 3, text: "Its subtitle, 'The Modern Prometheus', warns you about the student who assembles a body from parts and then runs from what he has made." },
-      { position: 4, text: "Mary Shelley's novel, whose nameless creature is almost always called by its maker's surname instead." },
+      { position: 1, text: "This novel began as an entry in a ghost-story contest during 1816's 'Year Without a Summer', when a volcanic eruption in Indonesia had cooled the planet." },
+      { position: 2, text: "This novel's author was the daughter of the feminist writer Mary Wollstonecraft, who died eleven days after giving birth to her." },
+      { position: 3, text: "This novel's subtitle, 'The Modern Prometheus', casts its young scientist as the Titan who stole fire from the gods." },
+      { position: 4, text: "This Mary Shelley novel's creature has no name, yet it is almost always called by its maker's surname." },
     ],
     decoys: [
       { text: "Dracula", eliminatedByClue: 2 },
@@ -7990,10 +7991,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Literature",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "It sold so poorly that its author died believing himself a failure; then the army printed 150,000 copies for soldiers and it came back." },
-      { position: 2, text: "F. Scott Fitzgerald wanted to call it 'Trimalchio in West Egg' and disliked the title he was talked into." },
-      { position: 3, text: "Narrated by Nick Carraway, it watches a bootlegger throw enormous Long Island parties in the hope that Daisy Buchanan will wander in." },
-      { position: 4, text: "The 1925 Jazz Age novel that ends with boats against the current and a green light across the bay." },
+      { position: 1, text: "This novel sold so poorly that its author died believing himself a failure; then 155,000 copies printed for American troops in World War II brought it back." },
+      { position: 2, text: "This novel's author wanted to name it after Trimalchio, the vulgar freed slave who throws a lavish banquet in the ancient Roman 'Satyricon'." },
+      { position: 3, text: "This novel's famous cover, a flapper's disembodied face with celestial eyes, was designed before the book was finished, and its author said he wrote it into the story." },
+      { position: 4, text: "This 1925 F. Scott Fitzgerald novel's hero stares across the bay at the green light on the dock of the woman he loves." },
     ],
     decoys: [
       { text: "The Sun Also Rises", eliminatedByClue: 2 },
@@ -8098,10 +8099,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Human Body",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Cut most of it away and it grows back — no other major organ of yours will." },
-      { position: 2, text: "A Greek myth punished a thief with an eagle that ate his afresh every day, which suggests the ancients had noticed." },
-      { position: 3, text: "It runs hundreds of jobs at once: breaking down alcohol and drugs, storing sugar as glycogen, making bile and the proteins that clot your blood." },
-      { position: 4, text: "The heavy reddish-brown organ under your right ribs, sitting just above the gallbladder." },
+      { position: 1, text: "This organ, taken from sacrificed sheep, was read by Babylonian priests to foretell the future, and clay models of it inscribed with omens survive from about 1900–1600 BC." },
+      { position: 2, text: "Eating a polar bear's version of this organ can kill a person, because it stores vitamin A at levels toxic to humans." },
+      { position: 3, text: "In Greek myth, Zeus chained the fire thief Prometheus to a rock and sent an eagle to eat this organ, which grew back every night." },
+      { position: 4, text: "This organ, the heaviest one inside your body, sits under your right ribs with the gallbladder tucked beneath it." },
     ],
     decoys: [
       { text: "Kidney", eliminatedByClue: 1 },
@@ -8278,10 +8279,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Human Body",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Darwin thought it was a useless leftover; it may in fact be a safe house for friendly gut bacteria." },
-      { position: 2, text: "It is a dead-end pouch about the length of your little finger, dangling where the small intestine meets the large." },
-      { position: 3, text: "When it becomes inflamed, the pain often starts around the navel and moves to the lower right of the belly." },
-      { position: 4, text: "The small worm-shaped organ surgeons take out in an appendectomy, the usual cure when it threatens to burst." },
+      { position: 1, text: "An abscess on this organ forced King Edward VII to postpone his coronation in 1902, just two days before the ceremony." },
+      { position: 2, text: "In 1961 a Soviet doctor, the only physician at an Antarctic base, removed this organ from his own body, partly guided by a mirror." },
+      { position: 3, text: "Darwin thought this organ was a useless leftover of evolution, but it may in fact be a safe house for friendly gut bacteria." },
+      { position: 4, text: "This small, worm-shaped pouch off the large intestine causes sharp pain low on the right side of the belly when it becomes inflamed." },
     ],
     decoys: [
       { text: "Tonsils", eliminatedByClue: 2 },
@@ -8314,10 +8315,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Human Body",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "An Iowa man had a bout of these that lasted 68 years." },
-      { position: 2, text: "Each one begins with a sudden spasm of your diaphragm, and a split second later your vocal cords snap shut." },
-      { position: 3, text: "Folk cures include holding your breath, sipping water from the far side of a glass, or a sudden fright." },
-      { position: 4, text: "The jerky, involuntary 'hic!' that can strike after eating too fast or gulping something fizzy." },
+      { position: 1, text: "Some scientists think these involuntary spasms are a leftover of the motion tadpoles use to pump water over their gills." },
+      { position: 2, text: "An Iowa farmer's record bout of these began in 1922 after an accident with a 350-pound hog, and lasted 68 years." },
+      { position: 3, text: "Babies get these even before birth, and pregnant women can often feel them as small rhythmic jerks." },
+      { position: 4, text: "These sudden, jerky gulps often strike after you eat too fast or drink something fizzy, and holding your breath is a common home remedy." },
     ],
     decoys: [
       { text: "Sneezing", eliminatedByClue: 2 },
