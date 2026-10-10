@@ -109,7 +109,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This painting's sitter is widely identified as the wife of a Florentine cloth and silk merchant, whom she married at about 15." },
-      { position: 2, text: "Jacqueline Kennedy helped bring this painting to the US in 1963, and some 1.5 million people saw it in Washington and New York." },
+      { position: 2, text: "Jacqueline Kennedy helped bring this painting to the US in 1963, and more than a million people saw it in Washington and New York." },
       { position: 3, text: "In 1911 a former museum handyman carried this painting out beneath his apron, and thousands came to stare at the empty wall." },
       { position: 4, text: "Leonardo da Vinci's most celebrated portrait, it is the star attraction of the Louvre in Paris." },
     ],
@@ -288,7 +288,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Geography",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Mules carry mail six days a week on a 16-mile round trip down a side canyon of this landmark to Supai, the last U.S. post office that gets its mail by mule." },
+      { position: 1, text: "Mules carry mail on a 16-mile round trip down a side canyon of this landmark to Supai, the last U.S. post office that gets its mail by mule." },
       { position: 2, text: "This landmark's walls show a largely undisturbed cross section of Earth's crust reaching back some two billion years." },
       { position: 3, text: "On his first visit in 1903, Theodore Roosevelt urged 'Leave it as it is,' and in 1908 he made this landmark a national monument." },
       { position: 4, text: "This vast Arizona gorge, carved by the Colorado River, is one of the Seven Natural Wonders of the World." },

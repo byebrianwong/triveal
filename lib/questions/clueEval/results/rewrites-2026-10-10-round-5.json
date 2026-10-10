@@ -1429,7 +1429,7 @@
    "This vast Arizona gorge, one of the Seven Natural Wonders of the World, is famed for its sheer size and layered walls."
   ],
   "after": [
-   "Mules carry mail six days a week on a 16-mile round trip down a side canyon of this landmark to Supai, the last U.S. post office that gets its mail by mule.",
+   "Mules carry mail on a 16-mile round trip down a side canyon of this landmark to Supai, the last U.S. post office that gets its mail by mule.",
    "This landmark's walls show a largely undisturbed cross section of Earth's crust reaching back some two billion years.",
    "On his first visit in 1903, Theodore Roosevelt urged 'Leave it as it is,' and in 1908 he made this landmark a national monument.",
    "This vast Arizona gorge, carved by the Colorado River, is one of the Seven Natural Wonders of the World."
@@ -1440,7 +1440,9 @@
    3,
    4
   ],
-  "sources": {},
+  "sources": {
+   "1": "https://uspsblog.com/mule-mail/"
+  },
   "summary": "Clue 1 now names the kind of thing and follows the Park Service's wording without the disputed carving date, clue 2 swaps the Colorado River giveaway for the Supai mule mail route, and clue 3 replaces generic scenery with Roosevelt's 1903 visit and 1908 monument. Second pass: Swapped clues 1 and 2 so the lesser-known Supai mule mail leads; both clues kept word for word, as the owner confirmed the mule details.",
   "handEdited": [
    1,
@@ -2624,7 +2626,7 @@
   ],
   "after": [
    "This painting's sitter is widely identified as the wife of a Florentine cloth and silk merchant, whom she married at about 15.",
-   "Jacqueline Kennedy helped bring this painting to the US in 1963, and some 1.5 million people saw it in Washington and New York.",
+   "Jacqueline Kennedy helped bring this painting to the US in 1963, and more than a million people saw it in Washington and New York.",
    "In 1911 a former museum handyman carried this painting out beneath his apron, and thousands came to stare at the empty wall.",
    "Leonardo da Vinci's most celebrated portrait, it is the star attraction of the Louvre in Paris."
   ],
@@ -2638,7 +2640,10 @@
    "2": "https://www.history.com/this-day-in-history/january-8/mona-lisa-exhibited-in-washington",
    "3": "https://www.history.com/articles/the-heist-that-made-the-mona-lisa-famous"
   },
-  "summary": "Replaced the instant tiny-portrait and half-smile clues with the 1963 US loan and the sitter's identity, and reworded the 1911 theft clue to match the source (apron, thousands at the empty wall). Second pass: Swapped clues 1 and 2 so the harder sitter fact comes first, keeping the owner-verified 1.5 million figure word for word."
+  "summary": "Replaced the instant tiny-portrait and half-smile clues with the 1963 US loan and the sitter's identity, and reworded the 1911 theft clue to match the source (apron, thousands at the empty wall). Second pass: Swapped clues 1 and 2 so the harder sitter fact comes first, keeping the owner-verified 1.5 million figure word for word.",
+  "handEdited": [
+   2
+  ]
  },
  {
   "id": "golden-gate-bridge",
