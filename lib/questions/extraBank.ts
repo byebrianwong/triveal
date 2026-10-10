@@ -11,12 +11,13 @@
  * harder.
  *
  * Most of these were written to the older spec §2.2 rules, which put
- * misdirection first, so many are easier than we now want. On 2026-10-04 and
- * 2026-10-05, 150 of them were rewritten to the current rules with
- * pipeline/fix-clues.ts, in three rounds of 50. The before and after, with a
+ * misdirection first, so many are easier than we now want. Between 2026-10-04
+ * and 2026-10-10, 200 of them were rewritten to the current rules with
+ * pipeline/fix-clues.ts, in four rounds of 50. The before and after, with a
  * source for each new fact, are in clueEval/results/rewrites-2026-10-04.json
- * (round 1), rewrites-2026-10-04-round-2.json (round 2) and
- * rewrites-2026-10-05.json (round 3). The current rules
+ * (round 1), rewrites-2026-10-04-round-2.json (round 2),
+ * rewrites-2026-10-05.json (round 3) and rewrites-2026-10-10.json (round 4).
+ * The current rules
  * for writing and rewriting clues are in lib/questions/README.md, under "What
  * makes a good question". Follow those, not the style of the entries below.
  *
@@ -449,9 +450,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "It is the only land mammal that cannot jump, yet it can 'hear' distant rumbles through the soles of its feet." },
-      { position: 2, text: "Talking in calls too deep for us to hear, it can recognize itself in a mirror and seems to grieve over its dead." },
-      { position: 3, text: "The largest land animal alive, it breathes, drinks, and grabs food with a long trunk packed with tens of thousands of muscles." },
+      { position: 1, text: "This animal is thought to 'hear' distant rumbles through the soles of its feet, picking up ground vibrations from miles away." },
+      { position: 2, text: "This animal grows six sets of molars in its life, and when the last set wears out it can starve." },
+      { position: 3, text: "This animal can recognize itself in a mirror, and it seems to mourn its dead, returning to touch their bones." },
       { position: 4, text: "This gray giant, with big flapping ears and ivory tusks, comes in African and Asian kinds." },
     ],
     decoys: [
@@ -1187,10 +1188,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Landmarks",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "It began tilting before it was even finished, because it was set on soft, marshy ground." },
-      { position: 2, text: "Construction dragged on for nearly 200 years, and engineers only halted its slow topple in the 1990s." },
-      { position: 3, text: "A freestanding white marble bell tower beside a cathedral in Italy, it draws crowds posing to 'hold it up.'" },
-      { position: 4, text: "This famously tilted Italian bell tower gives the city of Pisa its worldwide fame." },
+      { position: 1, text: "This bell tower holds seven bells, one for each note of the musical scale." },
+      { position: 2, text: "This tower took nearly 200 years to build, and engineers only halted its slow topple in the 1990s." },
+      { position: 3, text: "Legend says Galileo dropped two balls of different weights from its top to show they fall at the same speed." },
+      { position: 4, text: "This famously tilted white marble bell tower stands beside a cathedral in Tuscany's Piazza dei Miracoli, the Square of Miracles." },
     ],
     decoys: [
       { text: "Eiffel Tower", eliminatedByClue: 3 },
@@ -1241,9 +1242,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Cities",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its subway, the world's first, opened in 1863 — locals just call it 'the Tube.'" },
-      { position: 2, text: "A great fire gutted it in 1666, and legend holds the kingdom will fall if the ravens ever abandon its ancient riverside fortress." },
-      { position: 3, text: "Straddling the River Thames, it is dotted with red double-decker buses, black cabs, and a giant Ferris wheel called the Eye." },
+      { position: 1, text: "This city's underground railway, opened in 1863, was the world's first, and its first trains were pulled by steam engines." },
+      { position: 2, text: "Legend says the kingdom will fall if the ravens ever leave this city's ancient riverside fortress, so at least six are kept there." },
+      { position: 3, text: "This city's black-cab drivers must pass 'the Knowledge', a test on about 25,000 streets that takes years to learn." },
       { position: 4, text: "This capital on the Thames is home to Buckingham Palace and the clock tower that houses Big Ben." },
     ],
     decoys: [
@@ -1745,10 +1746,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "History",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "A calendar he introduced still orders our year, and the month of July is named in his honor." },
-      { position: 2, text: "He famously led his army across a river called the Rubicon — a point of no return that touched off a civil war." },
-      { position: 3, text: "This Roman general turned dictator was stabbed to death by senators on the Ides of March, 44 BC." },
-      { position: 4, text: "Betrayed by his friend Brutus, this Roman ruler's dying words are remembered as 'Et tu, Brute?'" },
+      { position: 1, text: "This Roman was kidnapped by pirates as a young man; once his ransom was paid, he hunted them down and had them crucified." },
+      { position: 2, text: "This Roman wrote his own account of conquering Gaul, referring to himself in the third person throughout." },
+      { position: 3, text: "This Roman's calendar reform gave Europe a 365-day year with a leap day every fourth year, used for more than 1,600 years." },
+      { position: 4, text: "Betrayed by his friend Brutus, this Roman ruler is remembered for the dying words 'Et tu, Brute?'" },
     ],
     decoys: [
       { text: "Augustus", eliminatedByClue: 1 },
@@ -1799,10 +1800,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Food & Drink",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Legend says it was discovered by accident, when milk carried in a pouch made from an animal's stomach curdled on a journey." },
-      { position: 2, text: "Some prized kinds are laced on purpose with blue mold or left to age for years in cool caves." },
-      { position: 3, text: "Made by curdling milk and draining off the watery whey, it comes in hundreds of styles from cheddar to brie." },
-      { position: 4, text: "This dairy food, melted over pizza and paired with wine, is made from milk." },
+      { position: 1, text: "Legend says this food was discovered by accident, when milk carried in a pouch made from an animal's stomach curdled on a journey." },
+      { position: 2, text: "One Italian bank keeps hundreds of thousands of aging wheels of this food in its vaults as security for loans." },
+      { position: 3, text: "French law says one blue-veined variety of this food may be aged only in the caves of a single mountain, Mont Combalou." },
+      { position: 4, text: "This dairy food, from cheddar to brie, is melted over pizza and often paired with wine." },
     ],
     decoys: [
       { text: "Yogurt", eliminatedByClue: 2 },
@@ -2285,9 +2286,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Geography",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This range, holding the world's highest mountains, is still growing, shoved upward as India crashes into the rest of Asia." },
-      { position: 2, text: "Their snowmelt feeds rivers serving billions of people, from the Ganges to the Yangtze." },
-      { position: 3, text: "Nicknamed the 'roof of the world,' this range holds every one of Earth's peaks above 8,000 meters." },
+      { position: 1, text: "Fossils of ancient sea creatures such as trilobites turn up near the summit of this range's highest peak, which was once seabed." },
+      { position: 2, text: "This range is still rising today, pushed upward as India keeps grinding north into the rest of Asia." },
+      { position: 3, text: "This range's name comes from Sanskrit for 'abode of snow,' and one of its glaciers, the Gangotri, is the source of the Ganges." },
       { position: 4, text: "This colossal Asian mountain range is crowned by Mount Everest, the highest point on the planet." },
     ],
     decoys: [
@@ -2375,9 +2376,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Landmarks",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Begun as a medieval fortress and later a royal palace, it became a public museum only after the French Revolution." },
-      { position: 2, text: "A modern glass pyramid marks its entrance, clashing gloriously with the old palace around it." },
-      { position: 3, text: "The most visited museum in the world, it draws crowds above all to a small portrait of a smiling woman." },
+      { position: 1, text: "This building began as a medieval fortress, then became a royal palace, and opened as a public museum only after the French Revolution." },
+      { position: 2, text: "In 1939, as war loomed, this museum's staff trucked thousands of artworks to châteaux in the French countryside." },
+      { position: 3, text: "In 1911 an Italian handyman who had once worked in this building walked out with its most famous painting, which stayed missing for over two years." },
       { position: 4, text: "This grand Paris museum on the Seine is home to the Mona Lisa and the Venus de Milo." },
     ],
     decoys: [
@@ -2501,10 +2502,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Cities",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Democracy was born here some 2,500 years ago, and the city takes its name from a goddess of wisdom." },
-      { position: 2, text: "The marble Parthenon still crowns the rocky hilltop, the Acropolis, at its center." },
-      { position: 3, text: "One of the oldest cities on Earth and among Europe's oldest capitals, it hosted the first modern Olympics in 1896." },
-      { position: 4, text: "This is the historic capital of Greece, cradle of Western philosophy." },
+      { position: 1, text: "This city's citizens could vote to exile a politician for ten years by scratching his name on pieces of broken pottery." },
+      { position: 2, text: "In ancient times this city was joined to its port of Piraeus by the Long Walls, which kept supplies flowing during sieges." },
+      { position: 3, text: "Legend says this city chose its patron goddess's gift, an olive tree, over the sea god's salt-water spring." },
+      { position: 4, text: "This capital of Greece, crowned by the Acropolis and the Parthenon, is called the cradle of Western philosophy." },
     ],
     decoys: [
       { text: "Sparta", eliminatedByClue: 2 },
@@ -2843,10 +2844,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Literature",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Many of his novels first appeared as monthly cliff-hanger installments, leaving readers desperate for more." },
-      { position: 2, text: "This Victorian Englishman filled his books with orphans, misers, and vivid names like Uriah Heep." },
-      { position: 3, text: "His works include 'Oliver Twist,' 'Great Expectations,' and 'David Copperfield.'" },
-      { position: 4, text: "He opened one novel 'It was the best of times' and gave Scrooge the ghosts of 'A Christmas Carol.'" },
+      { position: 1, text: "This novelist survived an 1865 train crash in Kent and climbed back into the wrecked carriage to rescue the manuscript of the novel he was writing." },
+      { position: 2, text: "This novelist toured the United States in 1842 and mocked much of what he saw in his travel book 'American Notes.'" },
+      { position: 3, text: "At twelve, this novelist was sent to paste labels on pots of boot blacking while his father sat in a debtors' prison." },
+      { position: 4, text: "This author opened one novel with 'It was the best of times' and sent three ghosts to Scrooge in 'A Christmas Carol.'" },
     ],
     decoys: [
       { text: "Mark Twain", eliminatedByClue: 2 },
@@ -3185,9 +3186,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Living things are said to be 'based on' it, and dating objects by its decay reveals their age." },
-      { position: 2, text: "The sixth element, it can arrange itself into soft pencil lead or the hardest natural gem." },
-      { position: 3, text: "It forms the backbone of every organic molecule and bonds readily into long chains." },
+      { position: 1, text: "This element's soccer-ball-shaped 'buckyball' molecule, made of 60 atoms, won its discoverers the 1996 Nobel Prize in Chemistry." },
+      { position: 2, text: "This element makes up about 18 percent of the human body by mass, second only to oxygen." },
+      { position: 3, text: "Scientists define the atomic mass unit as exactly one-twelfth the mass of one atom of this element's most common isotope." },
       { position: 4, text: "With the symbol C, this element makes up diamond, graphite, and the soot in a chimney." },
     ],
     decoys: [
@@ -3455,10 +3456,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Space",
     difficulty: "hard",
     clues: [
-      { position: 1, text: "A faint hiss picked up by a radio antenna in 1965 turned out to be its leftover glow." },
-      { position: 2, text: "It marks the beginning of space and time, about 13.8 billion years ago." },
-      { position: 3, text: "This theory holds that everything expanded from an unimaginably hot, dense point and is still spreading apart." },
-      { position: 4, text: "Fittingly, this cosmic origin event shares its name with a hit TV sitcom about physicists." },
+      { position: 1, text: "A Belgian priest first proposed this theory, and its name was coined on BBC radio by Fred Hoyle, who never accepted it." },
+      { position: 2, text: "A faint hiss picked up by a radio antenna in 1965 turned out to be the leftover glow of this event." },
+      { position: 3, text: "Most of the helium in the universe was made in the first few minutes after this event." },
+      { position: 4, text: "This cosmic origin event shares its name with a hit TV sitcom about physicists." },
     ],
     decoys: [
       { text: "Solar Eclipse", eliminatedByClue: 2 },
@@ -3689,10 +3690,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its wide-set eyes give it a nearly 360-degree view, and sensors on its flat head detect prey buried in sand." },
-      { position: 2, text: "This shark's bizarrely T-shaped head acts like a wing and a metal detector for hidden stingrays." },
-      { position: 3, text: "Great, scalloped, and bonnethead are among its species, often seen schooling by the hundreds." },
-      { position: 4, text: "Named for the tool its mallet-shaped head resembles, this predatory fish swings its blades side to side." },
+      { position: 1, text: "A female of this fish at a Nebraska zoo gave birth in 2001 without ever mating with a male." },
+      { position: 2, text: "Great, scalloped and bonnethead are all species of this fish, and scalloped ones gather in schools of hundreds." },
+      { position: 3, text: "This fish's eyes sit so far apart that it judges distance straight ahead better than its pointy-snouted relatives do." },
+      { position: 4, text: "Named for the tool its wide, flattened skull resembles, this predatory fish sweeps it side to side to find stingrays buried in sand." },
     ],
     decoys: [
       { text: "Sawfish", eliminatedByClue: 2 },
@@ -3761,9 +3762,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Geography",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "A ten-year project in the 1960s moved entire ancient temples inside its borders uphill to save them from a rising reservoir." },
-      { position: 2, text: "This North African country depends on one great river whose yearly floods once fed its farms." },
-      { position: 3, text: "Ruled long ago by pharaohs, it built the pyramids at Giza and the Sphinx." },
+      { position: 1, text: "In the 1960s, two giant rock-cut temples in this country were sawn into blocks and moved uphill, away from a new dam's reservoir." },
+      { position: 2, text: "Napoleon invaded this country in 1798, bringing along more than 150 scientists and scholars to study it." },
+      { position: 3, text: "This country's last ruling queen came from a Greek-speaking dynasty founded by one of Alexander the Great's generals." },
       { position: 4, text: "With its capital at Cairo, this land of the Nile links Africa to the Middle East via the Suez Canal." },
     ],
     decoys: [
@@ -3941,9 +3942,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Landmarks",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Every December 31 a glittering ball drops here as a million people count down to midnight." },
-      { position: 2, text: "Nicknamed 'the Crossroads of the World,' this junction blazes with giant electronic billboards day and night." },
-      { position: 3, text: "It sits in the heart of Manhattan's Theater District, ringed by Broadway stages." },
+      { position: 1, text: "Until 1904 this plaza bore the name of Long Acre, a London street at the center of the horse-and-carriage trade." },
+      { position: 2, text: "Alfred Eisenstaedt's famous photo of a sailor kissing a woman in white on V-J Day, 1945, was taken in this plaza." },
+      { position: 3, text: "This plaza's stretch of Broadway was closed to cars in 2009 and turned into a pedestrian zone." },
       { position: 4, text: "Named for a newspaper that once headquartered there, this New York City plaza is a neon tourist magnet." },
     ],
     decoys: [
@@ -4175,10 +4176,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "History",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "He won the 1953 Nobel Prize in Literature, largely for his sweeping histories and speeches." },
-      { position: 2, text: "A cigar-chomping statesman, he rallied his nation by radio, vowing to 'never surrender.'" },
-      { position: 3, text: "As Britain's prime minister he led the country to victory in the Second World War against Hitler." },
-      { position: 4, text: "This bulldog-faced leader, known for his V-for-victory sign, coined the phrase 'Iron Curtain.'" },
+      { position: 1, text: "This statesman won the 1953 Nobel Prize in Literature, largely for his histories and speeches." },
+      { position: 2, text: "This statesman was born at Blenheim Palace and painted more than 500 pictures in his spare time." },
+      { position: 3, text: "In 1963 this prime minister became the first person made an honorary citizen of the United States." },
+      { position: 4, text: "This cigar-chomping British wartime leader, famed for his V-for-victory sign, made the phrase 'Iron Curtain' famous in a 1946 speech." },
     ],
     decoys: [
       { text: "Franklin D. Roosevelt", eliminatedByClue: 3 },
@@ -4481,9 +4482,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Human Body",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "It uses about a fifth of the body's energy despite weighing only around three pounds." },
-      { position: 2, text: "Wrinkled and grayish, it floats in fluid inside the skull and runs on electrical signals." },
-      { position: 3, text: "Divided into two hemispheres, it controls thought, memory, movement, and the senses." },
+      { position: 1, text: "This organ uses about a fifth of the body's energy while making up only about 2 percent of its weight." },
+      { position: 2, text: "Nearly 60 percent of this organ's dry weight is fat." },
+      { position: 3, text: "This organ has no pain receptors of its own, so surgeons can operate on it while the patient is awake." },
       { position: 4, text: "Neurons fire by the billions in this control center of the nervous system, the seat of the mind." },
     ],
     decoys: [
@@ -4517,9 +4518,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Human Body",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "It makes up about 8% of body weight, and a single drop holds millions of cells." },
-      { position: 2, text: "Pumped by the heart, it is sorted into types A, B, AB, and O for safe transfusions." },
-      { position: 3, text: "Its red cells ferry oxygen while white cells fight infection and platelets seal cuts." },
+      { position: 1, text: "Karl Landsteiner won the 1930 Nobel Prize in Medicine for discovering that this fluid comes in different groups." },
+      { position: 2, text: "Horseshoe crabs have a blue version of this fluid, harvested to test medicines and vaccines for contamination." },
+      { position: 3, text: "An adult's body holds about five liters of this fluid, and at rest the heart pumps all of it around in about a minute." },
       { position: 4, text: "Iron makes this red fluid red, and it courses through the arteries and veins." },
     ],
     decoys: [
@@ -4643,9 +4644,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its breakout song, 'Let It Go,' became so inescapable that some parents begged for a break from it." },
-      { position: 2, text: "This 2013 Disney film follows two royal sisters, Anna and the ice-powered Elsa, in the kingdom of Arendelle." },
-      { position: 3, text: "In it, a comic-relief snowman named Olaf dreams of summer, and a reindeer called Sven tags along." },
+      { position: 1, text: "This film's queen began as a villain, until a power ballad written for her led the director to rewrite the whole first act." },
+      { position: 2, text: "This was the first film from Walt Disney Animation Studios to win the Oscar for Best Animated Feature." },
+      { position: 3, text: "This film's kingdom sits on a fjord because its art director chose Norway as the model, borrowing its rosemaling folk art too." },
       { position: 4, text: "Loosely based on 'The Snow Queen,' this animated blockbuster turns everything Elsa touches to ice." },
     ],
     decoys: [
@@ -4679,9 +4680,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "It ends on a spinning top, leaving audiences arguing whether the hero is still dreaming." },
-      { position: 2, text: "In it, a team of thieves steals secrets by entering targets' dreams, sometimes dreams within dreams." },
-      { position: 3, text: "In it, Leonardo DiCaprio leads a heist to plant an idea rather than steal one." },
+      { position: 1, text: "This film's score is built on a slowed-down version of Édith Piaf's 'Non, je ne regrette rien.'" },
+      { position: 2, text: "This film's dream architect, a student played by Elliot Page, is named Ariadne, like the Greek princess who led Theseus out of the labyrinth." },
+      { position: 3, text: "This film's rotating hallway fight was shot in a real spinning corridor, built inside an old airship hangar in England." },
       { position: 4, text: "Christopher Nolan's 2010 mind-bender folds cities in half and slows time the deeper you sleep." },
     ],
     decoys: [
@@ -4697,10 +4698,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its time machine is powered first by plutonium, then by a well-timed bolt of lightning." },
-      { position: 2, text: "In it, a teenager is flung to 1955, where he must make sure his own parents fall in love." },
-      { position: 3, text: "In it, Marty McFly and Doc Brown turn a DeLorean into a time machine that needs 88 miles per hour." },
-      { position: 4, text: "This 1985 film about traveling through time spawned two sequels and the bully Biff." },
+      { position: 1, text: "This film's first lead actor, Eric Stoltz, was replaced after about five weeks of shooting." },
+      { position: 2, text: "This film's time machine was almost a refrigerator, until the filmmakers worried children might climb into fridges and get trapped." },
+      { position: 3, text: "Huey Lewis, who sang this film's hit 'The Power of Love,' has a cameo as a judge who rejects the hero's band for being 'just too darn loud.'" },
+      { position: 4, text: "This 1985 film stars Michael J. Fox as Marty McFly, a teenager who accidentally drives a DeLorean to 1955." },
     ],
     decoys: [
       { text: "The Terminator", eliminatedByClue: 2 },
@@ -4823,9 +4824,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Television",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "It is the longest-running scripted primetime series in American TV history." },
-      { position: 2, text: "This animated sitcom follows a yellow-skinned family in the town of Springfield." },
-      { position: 3, text: "In it, Homer works at a nuclear plant, strangles his son Bart, and grunts 'D'oh!'" },
+      { position: 1, text: "This show's creator named most of its central family after his own parents and sisters." },
+      { position: 2, text: "This show began in 1987 as a set of short cartoons on 'The Tracey Ullman Show.'" },
+      { position: 3, text: "This show joked about a future President Donald Trump in an episode that aired in 2000." },
       { position: 4, text: "Created by Matt Groening, this cartoon has aired more than 750 episodes since 1989." },
     ],
     decoys: [
@@ -4859,9 +4860,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Television",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its 1980s setting fills every scene with vintage bikes, arcades, and Dungeons & Dragons." },
-      { position: 2, text: "In it, a girl with a shaved head and telekinetic powers, known only as Eleven, escapes a secret lab." },
-      { position: 3, text: "In it, kids in the town of Hawkins battle monsters from a shadow dimension called the Upside Down." },
+      { position: 1, text: "This show's working title was 'Montauk,' after the Long Island town where it was first meant to be set." },
+      { position: 2, text: "This show sent Kate Bush's 1985 song 'Running Up That Hill' to No. 1 in the UK in 2022." },
+      { position: 3, text: "This show's telekinetic heroine, raised in a secret lab, is named after the number tattooed on her arm." },
       { position: 4, text: "This Netflix hit revived the career of Winona Ryder and unleashed a demon called the Demogorgon." },
     ],
     decoys: [
@@ -4967,9 +4968,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Television",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "It was designed with child psychologists to teach preschoolers through television." },
-      { position: 2, text: "A giant yellow bird and a grouch living in a trash can inhabit its friendly urban block." },
-      { position: 3, text: "Jim Henson's Muppets Elmo, Cookie Monster, and Bert and Ernie teach letters and numbers here." },
+      { position: 1, text: "This children's show grew out of a 1966 dinner party where a guest asked whether television could teach young children." },
+      { position: 2, text: "Before airing, this show's segments were tested on preschoolers beside a 'distractor' slide projector, to see when the children looked away." },
+      { position: 3, text: "This show's grumpy trash-can dweller was orange in its first season, 1969, before turning green." },
       { position: 4, text: "Brought to you by a letter and a number, this children's show is set on a make-believe city block." },
     ],
     decoys: [
@@ -5057,10 +5058,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Games",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its franchise, spanning games, cards, and cartoons, is the highest-grossing media property ever." },
-      { position: 2, text: "Its players catch and train pocket monsters, storing them in red-and-white balls to battle." },
-      { position: 3, text: "Its slogan urges you to 'catch 'em all,' starting with creatures like Charmander and Squirtle." },
-      { position: 4, text: "A yellow electric mouse, Pikachu, is the mascot of this Nintendo series about a trainer named Ash." },
+      { position: 1, text: "This franchise's creator, Satoshi Tajiri, drew on his childhood hobby of collecting insects." },
+      { position: 2, text: "This franchise, spanning games, cards and cartoons, is the highest-grossing media property of all time." },
+      { position: 3, text: "A 1997 episode of this franchise's cartoon sent hundreds of Japanese children to hospital after flashing lights triggered seizures." },
+      { position: 4, text: "Pikachu, a yellow electric mouse, is the mascot of this franchise, whose long-running cartoon followed a young trainer named Ash." },
     ],
     decoys: [
       { text: "Digimon", eliminatedByClue: 2 },
@@ -5093,9 +5094,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Games",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its in-game concerts have drawn tens of millions of players to watch stars perform live." },
-      { position: 2, text: "In it, up to 100 players parachute onto a shrinking island and fight until one is left standing." },
-      { position: 3, text: "Between gunfights, its players harvest materials to build walls and ramps for cover." },
+      { position: 1, text: "This game began in 2017 as a paid co-op mode called Save the World, in which players build defenses against zombie-like monsters called husks." },
+      { position: 2, text: "This game's 2020 concert starring a giant animated Travis Scott drew 12.3 million players at once, a record for the game at the time." },
+      { position: 3, text: "A 2020 fight over in-app payments got this game pulled from Apple's and Google's app stores and led to antitrust lawsuits against both companies." },
       { position: 4, text: "Famous for its flossing dances and 'Battle Pass,' this free Epic Games title is a battle-royale craze." },
     ],
     decoys: [
@@ -5147,9 +5148,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Games",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "One entry in this series earned more from its online mode than almost any movie in history." },
-      { position: 2, text: "This open-world crime series lets players roam sprawling cities, carjacking and fleeing the police." },
-      { position: 3, text: "Set in parody versions of Los Angeles and Miami, it stirred controversy for its violence." },
+      { position: 1, text: "This series began at DMA Design, the Dundee studio behind Lemmings, as a top-down game first called 'Race'n'Chase'." },
+      { position: 2, text: "One entry in this series earned $1 billion in its first three days, faster than any film, book or game before it." },
+      { position: 3, text: "A hidden sex mini-game found in one entry of this series, nicknamed 'Hot Coffee', got that game re-rated Adults Only in 2005." },
       { position: 4, text: "Rockstar's blockbuster franchise, abbreviated to three letters, follows career criminals." },
     ],
     decoys: [
@@ -5255,9 +5256,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Pop Culture",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "A shrapnel wound near his heart forces him to wear a glowing chest device to stay alive." },
-      { position: 2, text: "Kidnapped in a cave, this genius billionaire builds a suit of armor to escape his captors." },
-      { position: 3, text: "Tony Stark, a wisecracking weapons tycoon, becomes a flying, repulsor-blasting hero." },
+      { position: 1, text: "Stan Lee said he modeled this superhero's alter ego on Howard Hughes, the playboy industrialist and inventor." },
+      { position: 2, text: "This superhero's alter ego battled alcoholism in a 1979 comic storyline called 'Demon in a Bottle.'" },
+      { position: 3, text: "This superhero's armor was gray in his 1963 debut, then turned gold, and later red and gold." },
       { position: 4, text: "Robert Downey Jr. launched the Marvel Cinematic Universe playing this armored Avenger." },
     ],
     decoys: [
@@ -5399,10 +5400,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Music",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "He performs live by looping his own guitar and voice on a pedal, one man filling a stadium." },
-      { position: 2, text: "This ginger-haired English singer-songwriter titles his albums with mathematical symbols." },
-      { position: 3, text: "His songs 'Shape of You' and 'Perfect' dominated charts for weeks on end." },
-      { position: 4, text: "Often playing a small acoustic guitar, this freckled Brit is one of the best-selling artists of his era." },
+      { position: 1, text: "This singer plays live alone, looping his own guitar and voice on a pedal to fill whole stadiums." },
+      { position: 2, text: "This singer titles his albums with math symbols, such as '+', '×' and '÷'." },
+      { position: 3, text: "This singer made a cameo as a singing Lannister soldier in a 2017 episode of 'Game of Thrones'." },
+      { position: 4, text: "This red-haired English singer had huge hits with 'Shape of You' and 'Perfect'." },
     ],
     decoys: [
       { text: "Shawn Mendes", eliminatedByClue: 2 },
@@ -5417,10 +5418,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Music",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "She paused music to build a billion-dollar cosmetics and lingerie empire." },
-      { position: 2, text: "This Barbadian singer scored hit after hit, from 'Umbrella' to 'Diamonds.'" },
-      { position: 3, text: "Her Fenty Beauty brand and a show-stopping Super Bowl halftime cemented her mogul status." },
-      { position: 4, text: "Fans begged this island-born superstar for a new album for years; they call themselves the 'Navy.'" },
+      { position: 1, text: "This singer was 15 when American producer Evan Rogers discovered her while he was visiting her home island in 2003." },
+      { position: 2, text: "This singer was named a National Hero of her home country on November 30, 2021, the day it became a republic." },
+      { position: 3, text: "This singer's first name is actually Robyn; she performs under her middle name." },
+      { position: 4, text: "This Barbadian superstar's hits include 'Umbrella' and 'Diamonds.'" },
     ],
     decoys: [
       { text: "Beyoncé", eliminatedByClue: 2 },
@@ -5633,10 +5634,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Technology",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "A college dropout co-founded it in 1975 and was the world's richest person for years." },
-      { position: 2, text: "Bill Gates and Paul Allen built it into a software empire, first from Albuquerque, then Seattle." },
-      { position: 3, text: "Its Windows operating system runs on most of the world's personal computers." },
-      { position: 4, text: "Maker of Office, the Xbox, and Word, this company's logo is a four-color window." },
+      { position: 1, text: "This company's first product was a version of the BASIC programming language for the Altair 8800 computer." },
+      { position: 2, text: "This company was founded in 1975 in Albuquerque, New Mexico, and moved to the Seattle area in 1979." },
+      { position: 3, text: "This company's co-founder was ranked the world's richest person by Forbes in most years between 1995 and 2017." },
+      { position: 4, text: "Maker of Windows, Office and the Xbox, this tech giant uses a logo of four colored squares." },
     ],
     decoys: [
       { text: "Apple", eliminatedByClue: 3 },
@@ -5651,9 +5652,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Technology",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "It takes its name from the world's largest river, chosen to suggest enormous scale." },
-      { position: 2, text: "Founded by Jeff Bezos in 1994, it started as an online bookstore run out of a garage." },
-      { position: 3, text: "Its smiling logo hides an arrow pointing from A to Z; its Prime service promises fast delivery." },
+      { position: 1, text: "This company's founder considered calling it 'Relentless', and that web address still leads to its site." },
+      { position: 2, text: "This company's founder quit a New York hedge-fund job and drafted its business plan on a cross-country drive to Seattle." },
+      { position: 3, text: "This company's smiling logo is an arrow from A to Z, hinting that it sells everything." },
       { position: 4, text: "This e-commerce giant sells nearly everything online and runs the voice assistant Alexa." },
     ],
     decoys: [
@@ -5867,9 +5868,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Sports",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "He was famously cut from his high school varsity team, using the snub as lifelong motivation." },
-      { position: 2, text: "This basketball legend won six NBA titles with the Chicago Bulls in the 1990s." },
-      { position: 3, text: "Wearing number 23, his sneaker brand and leaping silhouette became a global logo." },
+      { position: 1, text: "This athlete was left off his high school's varsity team as a sophomore and used the snub as motivation for the rest of his career." },
+      { position: 2, text: "The Miami Heat retired this player's number 23 in his honor, even though he never played for them." },
+      { position: 3, text: "This player quit his sport in 1993 at the height of his fame and spent 1994 playing minor-league baseball for the Birmingham Barons." },
       { position: 4, text: "Nicknamed 'His Airness,' this player teamed with cartoons in the film 'Space Jam.'" },
     ],
     decoys: [
@@ -5903,9 +5904,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Sports",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "She won a Grand Slam tournament while pregnant, then returned after nearly dying in childbirth." },
-      { position: 2, text: "This American won 23 Grand Slam singles titles, the most in the Open Era." },
-      { position: 3, text: "She and her older sister often faced each other across the net in major finals." },
+      { position: 1, text: "This tennis player completed a career Golden Slam in singles by winning Olympic gold at London 2012." },
+      { position: 2, text: "This player won the 2017 Australian Open while about two months pregnant, then nearly died after giving birth." },
+      { position: 3, text: "This player's 2018 US Open final loss to Naomi Osaka is remembered for her heated argument with the umpire." },
       { position: 4, text: "A powerful server from Compton, California, this tennis champion dominated her sport for two decades." },
     ],
     decoys: [
@@ -6047,9 +6048,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its name is an acronym: 'light amplification by stimulated emission of radiation.'" },
-      { position: 2, text: "First built in 1960, it produces a narrow, intense beam of a single color of light." },
-      { position: 3, text: "It reads the pits on a CD, guides missiles, and performs delicate eye surgery." },
+      { position: 1, text: "This invention first worked on May 16, 1960, when Theodore Maiman flashed a lamp around a synthetic ruby rod in a Malibu, California, lab." },
+      { position: 2, text: "This device's name was coined in 1957 by Gordon Gould, who then fought patent battles for about 30 years before winning royalties." },
+      { position: 3, text: "Scientists still fire this device at mirrors Apollo astronauts left on the Moon, timing the echo to measure the distance to within millimeters." },
       { position: 4, text: "A cat will chase the red dot from this focused beam of light, used in pointers and barcode scanners." },
     ],
     decoys: [
@@ -6065,9 +6066,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Sailors once died of scurvy for lack of its 'C' variety, cured by eating citrus fruit." },
-      { position: 2, text: "These essential nutrients, needed only in tiny amounts, keep the body running properly." },
-      { position: 3, text: "Its 'D' kind is made by the skin in sunlight; its 'A' kind helps you see in dim light." },
+      { position: 1, text: "This kind of nutrient is so concentrated in polar bear liver that Arctic explorers who ate the liver fell ill." },
+      { position: 2, text: "Christiaan Eijkman shared a 1929 Nobel Prize for showing that a diet of polished rice, which lacks one of these nutrients, caused beriberi." },
+      { position: 3, text: "This word was coined in 1912 by biochemist Casimir Funk, who thought these substances were all 'vital amines'." },
       { position: 4, text: "Labeled with letters, this class of nutrients is sold as daily supplement pills." },
     ],
     decoys: [
@@ -6173,9 +6174,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Geography",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its name comes from Latin for 'middle of the earth,' as ancients thought it lay at the world's center." },
-      { position: 2, text: "This nearly landlocked sea connects to the Atlantic through the narrow Strait of Gibraltar." },
-      { position: 3, text: "Ringed by Spain, Italy, Greece, Egypt, and more, it cradled the ancient Roman and Greek worlds." },
+      { position: 1, text: "About 5.3 million years ago, after it had partly dried up, this sea was refilled by an Atlantic flood that may have done 90% of the job within two years." },
+      { position: 2, text: "This sea's name comes from the Latin for 'in the middle of the land'." },
+      { position: 3, text: "The Romans called this sea 'Mare Nostrum', meaning 'our sea'." },
       { position: 4, text: "Warm and blue, this sea between southern Europe and North Africa gives its name to a healthy diet." },
     ],
     decoys: [
@@ -6245,10 +6246,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Food & Drink",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "A famous 1957 BBC hoax showed Swiss farmers 'harvesting' it from trees, fooling viewers." },
-      { position: 2, text: "Made from wheat flour and water, this Italian staple is boiled and served with sauce." },
-      { position: 3, text: "It takes hundreds of shapes, from long spaghetti to tube-shaped penne and bow-tie farfalle." },
-      { position: 4, text: "Often topped with tomato sauce and parmesan, this Italian dish is a carb-lover's comfort food." },
+      { position: 1, text: "This food was the subject of a 1957 BBC April Fools' report that showed a Swiss family harvesting it from trees." },
+      { position: 2, text: "A popular legend says Marco Polo brought this food back from China, but a Genoese soldier's will listed a basket of it in 1279." },
+      { position: 3, text: "Italian law requires the dried version of this food to be made only from durum wheat semolina and water." },
+      { position: 4, text: "Spaghetti, penne and macaroni are all shapes of this Italian staple, usually boiled and served with sauce." },
     ],
     decoys: [
       { text: "Risotto", eliminatedByClue: 2 },
@@ -6803,10 +6804,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Music",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Their name is nothing more than the first letters of four first names." },
-      { position: 2, text: "They won Eurovision in 1974 with a song named after a Napoleonic defeat." },
-      { position: 3, text: "The Swedish quartet, then two married couples, later saw their catalogue become the musical Mamma Mia!" },
-      { position: 4, text: "'Dancing Queen' and 'Waterloo' belong to this Swedish group, who returned in the 2020s as digital stage avatars." },
+      { position: 1, text: "Two members of this group later wrote the musical Chess with lyricist Tim Rice." },
+      { position: 2, text: "This band won a 1974 song contest in Brighton, where its conductor took the stage dressed as Napoleon." },
+      { position: 3, text: "This group's name is nothing more than the first letters of its four members' first names." },
+      { position: 4, text: "'Dancing Queen' and 'The Winner Takes It All' belong to this Swedish group, who returned in the 2020s as digital stage avatars." },
     ],
     decoys: [
       { text: "Roxette", eliminatedByClue: 2 },
@@ -6947,10 +6948,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Technology",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its founders were reportedly inspired by failing to find a cab in Paris on a snowy night." },
-      { position: 2, text: "Launched in San Francisco in 2010, it let strangers summon strangers' cars and helped coin the phrase 'gig economy'." },
-      { position: 3, text: "Surge pricing and two-way star ratings made it as contentious as it was convenient; it bought Postmates in 2020." },
-      { position: 4, text: "The ride-hailing app named with a German word meaning 'above', now also a food-delivery giant." },
+      { position: 1, text: "This company's founders were reportedly inspired by failing to find a cab in Paris on a winter night in 2008." },
+      { position: 2, text: "This company launched in San Francisco in 2010 under a longer name and dropped the word 'Cab' after regulators sent it cease-and-desist orders." },
+      { position: 3, text: "This company's co-founder and chief executive, Travis Kalanick, resigned under investor pressure in 2017 after a string of scandals." },
+      { position: 4, text: "This ride-hailing app's name is a German word meaning 'above,' and it is now also a food-delivery giant." },
     ],
     decoys: [
       { text: "Airbnb", eliminatedByClue: 1 },
@@ -6983,9 +6984,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Internet",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "One of its forums organised a share-buying campaign in early 2021 that cost hedge funds billions." },
-      { position: 2, text: "Its content sits in thousands of topic communities, each written with an r and a slash, and is voted up or down." },
-      { position: 3, text: "Steve Huffman and Alexis Ohanian founded it in 2005; its mascot is an alien called Snoo." },
+      { position: 1, text: "In 2023 thousands of this site's communities went dark in protest at new charges for access to its data." },
+      { position: 2, text: "One of this site's forums organized a share-buying campaign in early 2021 that cost hedge funds billions." },
+      { position: 3, text: "This site was founded in 2005 by Steve Huffman and Alexis Ohanian, and its alien mascot is called Snoo." },
       { position: 4, text: "Self-described as the front page of the internet, this home of AMAs went public in 2024." },
     ],
     decoys: [
@@ -7073,10 +7074,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Sports",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its drivers endure close to five times their body weight through corners and can shed several kilos of water in an afternoon." },
-      { position: 2, text: "Two of its championships are settled each season, one for drivers and one for the teams that build the cars." },
-      { position: 3, text: "Michael Schumacher and Lewis Hamilton share its record of seven world titles." },
-      { position: 4, text: "Motorsport's premier open-wheel class, run under the FIA, with Monaco as its crown jewel." },
+      { position: 1, text: "This sport's drivers endure about five times their body weight in cornering forces and can sweat off two to three kilos in a race." },
+      { position: 2, text: "This series' first world championship race was held at Silverstone in 1950." },
+      { position: 3, text: "This series' cars make so much downforce that, in theory, they could drive upside down on a tunnel ceiling." },
+      { position: 4, text: "This is motorsport's premier open-wheel series, run by the FIA, and its crown jewel is the Monaco Grand Prix." },
     ],
     decoys: [
       { text: "IndyCar", eliminatedByClue: 3 },
@@ -7199,9 +7200,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Pop Culture",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "His creator lifted the name from an American ornithologist whose field guide to Caribbean birds sat on his desk in Jamaica." },
-      { position: 2, text: "Ian Fleming wrote fourteen books about him, starting with Casino Royale in 1953." },
-      { position: 3, text: "Sean Connery, Roger Moore and Daniel Craig are three of the six actors to have played the British agent in the main film series." },
+      { position: 1, text: "This character's name was borrowed by his creator, a keen birdwatcher in Jamaica, from the American author of 'Birds of the West Indies.'" },
+      { position: 2, text: "This character was first played on screen by an American, Barry Nelson, in a live 1954 TV adaptation that called him 'Jimmy.'" },
+      { position: 3, text: "George Lazenby played this British agent only once, in 1969, then turned down a seven-film contract." },
       { position: 4, text: "MI6's most famous operative takes his martinis shaken rather than stirred and introduces himself surname first." },
     ],
     decoys: [
@@ -7289,10 +7290,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its glow is almost perfectly efficient — nearly no heat at all, which is why it is called cold light." },
-      { position: 2, text: "It is not a fly but a beetle, and along some Southeast Asian rivers whole trees of them flash in unison." },
-      { position: 3, text: "The light comes from luciferin reacting with oxygen in its abdomen, and females of some species mimic another species' code to lure and eat the males." },
-      { position: 4, text: "The summer-evening beetle whose blinking tail children chase into jam jars." },
+      { position: 1, text: "Some species of this insect are so toxic to lizards that a pet bearded dragon can die from eating just one." },
+      { position: 2, text: "Females of some species of this insect copy another species' flash code to lure its males in and eat them." },
+      { position: 3, text: "Along some Southeast Asian rivers, whole mangrove trees full of this insect flash on and off in unison." },
+      { position: 4, text: "Children chase this summer-evening beetle into jam jars to watch its tail blink." },
     ],
     decoys: [
       { text: "Moth", eliminatedByClue: 2 },
@@ -7523,10 +7524,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "History",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "She was nineteen when she was burned, and the same church that condemned her declared her innocent 25 years later and a saint five centuries after that." },
-      { position: 2, text: "A teenage farm girl, she talked her way into an audience with an uncrowned king by describing voices she said came from saints." },
-      { position: 3, text: "She broke the siege of Orléans in nine days and saw Charles VII crowned at Reims, before the Burgundians captured her and sold her to the English." },
-      { position: 4, text: "The peasant girl in armour, burned at the stake in Rouen in 1431 and now the patron saint of France." },
+      { position: 1, text: "Mark Twain called his novel about this young woman the best of all his books." },
+      { position: 2, text: "A church court condemned this teenager to death, and a church retrial declared her innocent 25 years later." },
+      { position: 3, text: "This teenage farm girl talked her way into an audience with an uncrowned king by describing voices she said came from saints." },
+      { position: 4, text: "This peasant girl in armor, burned at the stake in Rouen in 1431, is now a patron saint of France." },
     ],
     decoys: [
       { text: "Catherine of Aragon", eliminatedByClue: 2 },
@@ -8009,10 +8010,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Literature",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its author lost the use of a hand at the battle of Lepanto and spent five years enslaved in Algiers before he wrote a word of it." },
-      { position: 2, text: "An impostor published a fake sequel in 1614, so Cervantes wrote his own the next year and had his hero read the forgery and denounce it." },
-      { position: 3, text: "Often called the first modern novel, it follows an old gentleman who has read too many tales of chivalry and rides out with a farmer named Sancho Panza." },
-      { position: 4, text: "The self-appointed Spanish knight-errant who charges a row of windmills on his bony nag Rocinante." },
+      { position: 1, text: "This novel's author lost the use of a hand at the Battle of Lepanto and spent five years enslaved in Algiers before he wrote a word of it." },
+      { position: 2, text: "After an impostor published a fake sequel in 1614, this novel's author wrote his own, sending his hero to Barcelona instead of Zaragoza just to prove the fake wrong." },
+      { position: 3, text: "This novel inspired a 1965 Broadway musical whose song 'The Impossible Dream' became a standard." },
+      { position: 4, text: "In this Spanish novel, a self-appointed knight charges a row of windmills he takes for giants, riding his bony horse Rocinante." },
     ],
     decoys: [
       { text: "The Canterbury Tales", eliminatedByClue: 2 },
@@ -8135,10 +8136,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Art",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "He carved his most famous statue from a huge block of marble that two other sculptors had given up on." },
-      { position: 2, text: "Protesting that he was a sculptor, not a painter, he still spent four years on scaffolding covering a papal chapel's ceiling with more than 300 figures." },
-      { position: 3, text: "His 17-foot marble David stands in Florence, and his Pietà in St. Peter's is the only work he ever signed." },
-      { position: 4, text: "The Renaissance master of the Sistine Chapel ceiling — and namesake of the nunchuck-wielding Ninja Turtle." },
+      { position: 1, text: "As a young man, this artist carved a sleeping Cupid that was sold to a cardinal as an ancient Roman piece; the cardinal saw through it and invited him to Rome." },
+      { position: 2, text: "Two earlier sculptors started and then abandoned the towering marble block from which this artist carved his most famous statue." },
+      { position: 3, text: "The only work this artist ever signed is a marble of Mary cradling the dead Jesus; he is said to have carved his name after hearing visitors credit it to someone else." },
+      { position: 4, text: "This Renaissance artist painted the Sistine Chapel ceiling and lent his name to the nunchuck-wielding Ninja Turtle." },
     ],
     decoys: [
       { text: "Raphael", eliminatedByClue: 2 },
@@ -9089,10 +9090,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Nature",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "The kind best known from cowboy films is not American at all: it reached South Dakota from Russia in a shipment of flax seed in the 1870s." },
-      { position: 2, text: "Once its seeds are ripe, the plant dries out and snaps off at the base." },
-      { position: 3, text: "It then rolls along in the wind, shedding seeds as it goes and sometimes piling up against fences and houses in drifts." },
-      { position: 4, text: "The dried-out bush that bounces across the street in a Western's ghost-town scene." },
+      { position: 1, text: "The West's most familiar kind of this plant is not American at all: it reached South Dakota from Russia in a shipment of flax seed in the 1870s." },
+      { position: 2, text: "Chandler, Arizona, has built a Christmas tree out of this plant every year since 1957." },
+      { position: 3, text: "A single one of these plants can scatter some 200,000 seeds as the wind bounces it across open country." },
+      { position: 4, text: "This dried-out plant rolls down the street in the ghost-town scene of many a Western." },
     ],
     decoys: [
       { text: "Sagebrush", eliminatedByClue: 2 },
@@ -9305,10 +9306,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Human Body",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Forensic scientists can estimate a person's height from its length alone — it is roughly a quarter of it." },
-      { position: 2, text: "Its rounded head fits into a socket in the pelvis to form the hip joint." },
-      { position: 3, text: "It is the longest and strongest bone in the human body." },
-      { position: 4, text: "The bone of the upper leg, running from the hip to the knee." },
+      { position: 1, text: "Forensic scientists can estimate a person's height from the length of this bone alone, since it is roughly a quarter of their height." },
+      { position: 2, text: "A closed break in this bone's shaft can cost an adult a liter or more of blood, lost into the surrounding leg muscles." },
+      { position: 3, text: "What most people call a broken hip is usually a break near the top of this bone, not in the pelvis." },
+      { position: 4, text: "This is the longest and strongest bone in the human body, running from the hip to the knee." },
     ],
     decoys: [
       { text: "Humerus", eliminatedByClue: 2 },
@@ -9575,10 +9576,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Literature",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "It is the longest play its author wrote." },
-      { position: 2, text: "Its hero's murdered father returns as a ghost on the castle walls at Elsinore." },
-      { position: 3, text: "Its hero holds up a dead jester's skull and says, 'Alas, poor Yorick! I knew him, Horatio.'" },
-      { position: 4, text: "Shakespeare's tragedy of the Prince of Denmark, who asks, 'To be, or not to be.'" },
+      { position: 1, text: "This play is the longest its author wrote, and Kenneth Branagh's 1996 film of the full text runs about four hours." },
+      { position: 2, text: "This play's title role has often been played by women, including Sarah Bernhardt in 1899." },
+      { position: 3, text: "This play gave English the phrases 'to thine own self be true' and 'the lady doth protest too much.'" },
+      { position: 4, text: "This Shakespeare tragedy follows the Prince of Denmark, who asks, 'To be, or not to be.'" },
     ],
     decoys: [
       { text: "Macbeth", eliminatedByClue: 2 },
@@ -9719,10 +9720,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Pop Culture",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "A German toy company and a Brooklyn shopkeeper both started making it around 1902, each unaware of the other." },
-      { position: 2, text: "It owes its name to a 1902 hunting trip on which a U.S. president refused to shoot a bear tied to a tree." },
-      { position: 3, text: "The president was Theodore Roosevelt, and the shopkeeper asked his permission to name the new toy after him." },
-      { position: 4, text: "The cuddly stuffed bear that children take to bed." },
+      { position: 1, text: "A German toy company and a Brooklyn shopkeeper both started making this toy around 1902, apparently independently of each other." },
+      { position: 2, text: "This toy got its name after a 1902 hunting trip on which a U.S. president refused to shoot a captured animal tied to a tree." },
+      { position: 3, text: "Winnie-the-Pooh began as a real one of these toys, bought at Harrods in 1921 for Christopher Robin Milne's first birthday." },
+      { position: 4, text: "This cuddly stuffed toy, often brown and button-eyed, has been a bedtime companion for generations of children." },
     ],
     decoys: [
       { text: "Rag doll", eliminatedByClue: 2 },
