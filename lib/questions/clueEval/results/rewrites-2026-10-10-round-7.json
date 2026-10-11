@@ -1,0 +1,2796 @@
+[
+ {
+  "id": "electricity",
+  "answer": "Electricity",
+  "category": "Science",
+  "before": [
+   "It races through a wire at nearly the speed of light, even though the particles that carry it barely crawl.",
+   "The same force that snaps as a spark from your finger on a doorknob also splits the sky in a storm.",
+   "Made by spinning magnets in power plants, it flows as a current of tiny charged particles called electrons.",
+   "This form of energy lights our bulbs and runs our devices, measured in volts and amps."
+  ],
+  "after": [
+   "This phenomenon's signal races along a wire at a large fraction of the speed of light, even though the particles carrying it barely crawl.",
+   "In the 1780s Luigi Galvani made the legs of dead frogs twitch with this, which fed popular talk of bringing the dead back to life.",
+   "In September 1882, Pearl Street Station began selling this to paying customers in lower Manhattan.",
+   "This form of energy lights our bulbs and runs our devices, measured in volts and amps."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://wtamu.edu/~cbaird/sq/2014/02/19/what-is-the-speed-of-electricity/",
+   "2": "https://en.wikipedia.org/wiki/Luigi_Galvani",
+   "3": "https://ethw.org/Milestones:Pearl_Street_Station"
+  },
+  "summary": "Gave clue 1 a type word and softened 'nearly the speed of light' to what sources support (50-99% of c), replaced the how-it-works clue 3 with Franklin's coined terms, and moved the doorknob/lightning clue to 3 since it is easier than Franklin. Second pass: Replaced the generic spark-and-lightning clue 3 with Edison's Pearl Street Station, dropping the judge's 'paying customers for the first time' wording because the station did not bill until early 1883."
+ },
+ {
+  "id": "vaccine",
+  "answer": "Vaccine",
+  "category": "Science",
+  "before": [
+   "This word traces to the Latin for 'cow,' because the first one used a mild cattle disease.",
+   "Edward Jenner pioneered it in 1796 using cowpox to guard against deadly smallpox.",
+   "It trains the immune system by exposing it to a harmless piece or weakened form of a germ.",
+   "A jab of this preventive medicine gave the world protection against polio and measles."
+  ],
+  "after": [
+   "This word traces to the Latin for 'cow,' because the first one used a mild cattle disease.",
+   "Smallpox, declared eradicated in 1980, is the only human disease this kind of medicine has wiped out.",
+   "Asked on TV in 1955 who owned the patent on his version, Jonas Salk replied, 'Could you patent the sun?'",
+   "A jab of this preventive medicine gave the world protection against polio and measles."
+  ],
+  "changed": [
+   2,
+   3
+  ],
+  "sources": {
+   "2": "https://www.who.int/emergencies/situations/smallpox",
+   "3": "https://thetyee.ca/Opinion/2013/04/18/Jonas-Salk/"
+  },
+  "summary": "Replaced the Jenner clue, which repeated clue 1's cowpox story, with the smallpox eradication fact, and replaced the how-it-works clue 3 with Salk's 1955 patent quote."
+ },
+ {
+  "id": "bacteria",
+  "answer": "Bacteria",
+  "category": "Science",
+  "before": [
+   "There are more of them living in and on your body than you have human cells.",
+   "Single-celled and lacking a nucleus, some are helpful in yogurt while others cause disease.",
+   "Antibiotics like penicillin are designed to kill them, though many are evolving resistance.",
+   "These tiny organisms, shaped as rods, spheres, or spirals, cause strep throat and turn milk sour."
+  ],
+  "after": [
+   "One of these organisms, found in a Yellowstone hot spring, supplied the heat-proof enzyme that made PCR testing practical.",
+   "About 38 trillion of these live in and on a typical body, slightly outnumbering its roughly 30 trillion human cells.",
+   "Alexander Fleming discovered penicillin in 1928 after a mold killed a dish of these he had left out while on holiday.",
+   "These tiny organisms, shaped as rods, spheres, or spirals, cause strep throat and turn milk sour."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://wyohistory.org/encyclopedia/yellowstone-microbe-changed-world",
+   "2": "https://pmc.ncbi.nlm.nih.gov/articles/4991899",
+   "3": "https://en.wikipedia.org/wiki/Discovery_of_penicillin"
+  },
+  "summary": "Replaced the bare-'them' opener with the Thermus aquaticus/Taq fact, turned the description clue into the 2016 Sender-Milo cell count, and swapped the instant antibiotics clue for Fleming's contaminated dish, avoiding the banned word 'microbe'."
+ },
+ {
+  "id": "rainbow",
+  "answer": "Rainbow",
+  "category": "Science",
+  "before": [
+   "It is really a full circle of light — from the ground you only ever glimpse the top arc.",
+   "No two people see exactly the same one, since it depends on where the light happens to meet your own eyes.",
+   "It appears when sunlight is bent and split inside countless tiny droplets, fanning white light into its bands.",
+   "This arc of red-through-violet colors stretches across the sky when the sun shines during or after rain."
+  ],
+  "after": [
+   "This optical sight is different for every viewer: no two people see exactly the same one, since it depends on where the light meets each person's eyes.",
+   "It is really a full circle of light, but from the ground you only ever see the top arc.",
+   "Sometimes a fainter second one appears just outside it, with its colors in reverse order.",
+   "This arc of red-through-violet colors stretches across the sky when the sun shines during or after rain."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://water.usgs.gov/edu/gallery/watercyclekids/rainbows-nordvik.html",
+   "2": "https://www.sciencefocus.com/science/why-are-rainbows-circular-when-viewed-from-an-aeroplane",
+   "3": "https://glossary.ametsoc.org/wiki/secondary-rainbow/"
+  },
+  "summary": "Swapped clues 1 and 2 so the harder fact comes first and gave clue 1 a type word, and replaced the how-it-forms clue 3 with the reversed-color secondary bow."
+ },
+ {
+  "id": "atom",
+  "answer": "Atom",
+  "category": "Science",
+  "before": [
+   "It is almost entirely empty space — if its dense core were a marble, the whole thing would be a stadium.",
+   "Far too small for any ordinary microscope, trillions of them would fit on this printed full stop.",
+   "A tiny central core circled by even tinier electrons, splitting a single one can unleash enormous energy.",
+   "This basic building block of all matter joins with others to form molecules like water and salt."
+  ],
+  "after": [
+   "Lined up side by side, roughly a million of these tiny things would only just span the width of a human hair.",
+   "This tiny thing is almost entirely empty space: if its center were a marble, its outer edge would be nearly a football field away.",
+   "Its name comes from a Greek word meaning 'uncuttable' — a name that turned out to be wrong.",
+   "This basic building block of all matter joins with others to form molecules — two of hydrogen and one of oxygen make water."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://ccnmtl.columbia.edu/projects/mmt/frontiers/web/chapter_1/9741.html",
+   "2": "https://www.pbs.org/newshour/science/just-ask-what-would-a-baseball-sized-atom-look-like",
+   "3": "https://hellenisteukontos.opoudjis.net/2016-06-27-if-atom-is-ancient-greek-for-uncuttable-what-is-ancient-greek-for-divisible/",
+   "4": "https://en.wikipedia.org/wiki/Molecule"
+  },
+  "summary": "Gave clue 1 a type word and matched its scale analogy to the PBS source, replaced the 'full stop' clue with the hair-width count, replaced the awkward splitting clue with the 'uncuttable' etymology, and replaced salt (an ionic lattice, not a molecule) with water's two-hydrogen, one-oxygen makeup in clue 4. Second pass: Swapped clues 2 and 3 so the hair-width fact comes before the better-known Greek etymology; wording unchanged."
+ },
+ {
+  "id": "helium",
+  "answer": "Helium",
+  "category": "Science",
+  "before": [
+   "It was discovered on the Sun before it was ever found here on Earth.",
+   "Breathe a little and your voice squeaks comically high; it is also light enough to carry balloons up and away.",
+   "The second-lightest and second-most-common element in the universe, it flatly refuses to burn or react.",
+   "This inert gas fills party balloons and, chilled to extremes, cools the magnets in MRI machines."
+  ],
+  "after": [
+   "This element was first spotted in the Sun's light during an 1868 eclipse, decades before anyone isolated it on Earth.",
+   "Once released, it drifts up through the atmosphere and escapes into space for good, which is why the world worries about running short of it.",
+   "The second-lightest and second-most-common element in the universe, it flatly refuses to burn or react.",
+   "This inert gas fills party balloons and, chilled to extremes, cools the magnets in MRI machines."
+  ],
+  "changed": [
+   1,
+   2
+  ],
+  "sources": {
+   "1": "https://www.chem.purdue.edu/history/helium.html",
+   "2": "https://www.npr.org/2019/11/01/775554343/the-world-is-constantly-running-out-of-helium-heres-why-it-matters"
+  },
+  "summary": "Gave clue 1 a 'This element' opener with the checked 1868/1895 dates, and replaced the squeaky-voice-and-balloons clue 2 with the fact that it escapes into space."
+ },
+ {
+  "id": "billie-eilish",
+  "answer": "Billie Eilish",
+  "category": "Music",
+  "before": [
+   "She recorded her breakout songs in her brother's bedroom, whispering to avoid waking the neighbors.",
+   "This American teen rose to fame with a haunting, hushed vocal style and baggy clothes.",
+   "Known early for neon-green roots in her hair, she swept the top four Grammys at just 18.",
+   "'Bad Guy' and the James Bond theme 'No Time to Die' are hits for this young singer."
+  ],
+  "after": [
+   "This singer's debut single went viral after she posted it on SoundCloud so her dance teacher could choreograph a routine to it.",
+   "This singer made her debut album with her brother in his small bedroom studio at the family home in Los Angeles.",
+   "Known early for neon-green roots in her hair, she swept the top four Grammys at just 18.",
+   "'Bad Guy' and the James Bond theme 'No Time to Die' are hits for this young singer."
+  ],
+  "changed": [
+   1,
+   2
+  ],
+  "sources": {
+   "1": "https://www.songfacts.com/facts/billie-eilish/ocean-eyes",
+   "2": "https://en.wikipedia.org/wiki/When_We_All_Fall_Asleep,_Where_Do_We_Go%3F"
+  },
+  "summary": "Dropped the doubtful whispering detail and the bare 'She', replaced the style description with the SoundCloud dance-teacher story (song title left out to keep it hard), and put the checked bedroom-album fact second."
+ },
+ {
+  "id": "albert-einstein",
+  "answer": "Albert Einstein",
+  "category": "Science",
+  "before": [
+   "His most famous theory never won him a Nobel Prize — the award instead cited his work on the photoelectric effect.",
+   "This German-born physicist was offered the presidency of Israel in 1952 and politely declined.",
+   "His theories of relativity overturned how we picture space, time, and gravity in the early 20th century.",
+   "Known for the equation E=mc² and a mane of wild white hair, his surname is now shorthand for 'genius.'"
+  ],
+  "after": [
+   "This physicist was offered the presidency of Israel in 1952 and declined, saying he lacked the aptitude and experience to deal properly with people.",
+   "After this physicist died in 1955, the pathologist who did the autopsy removed his brain without permission and kept it for decades.",
+   "This physicist's most famous theory never won him a Nobel Prize — the award instead cited his work on the photoelectric effect.",
+   "This physicist, known for E=mc² and a mane of wild white hair, has a surname that is now shorthand for 'genius.'"
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.jewishvirtuallibrary.org/offering-the-presidency-of-israel-to-albert-einstein",
+   "2": "https://en.wikipedia.org/wiki/Thomas_Stoltz_Harvey",
+   "3": "https://www.nobelprize.org/prizes/physics/1921/summary/",
+   "4": "reworded from clue 4"
+  },
+  "summary": "Gave clue 1 a 'This physicist's' opener and replaced the instant relativity clue 3 with the checked 1905 patent-clerk papers. Second pass: Swapped clues 1 and 2 so the lesser-known Israel offer leads, and reworded clue 4 to fix the dangling modifier without adding facts."
+ },
+ {
+  "id": "isaac-newton",
+  "answer": "Isaac Newton",
+  "category": "Science",
+  "before": [
+   "He poured as many years into alchemy and biblical prophecy as into physics, and once ran a nation's mint, hanging counterfeiters.",
+   "A prickly Englishman, he devised calculus around the same time as Leibniz, igniting a bitter priority feud.",
+   "His three laws describe how objects move, and legend says a falling apple set off his thinking about gravity.",
+   "This 17th-century scientist's masterwork, the 'Principia,' laid out universal gravitation; the SI unit of force carries his name."
+  ],
+  "after": [
+   "This scientist left vast unpublished writings on alchemy and theology, and while working at England's Royal Mint he sent counterfeiters to the gallows.",
+   "A prickly Englishman, he devised calculus around the same time as Leibniz, igniting a bitter priority feud.",
+   "He split white light into a spectrum of colors with prisms and built the first working reflecting telescope.",
+   "This 17th-century scientist's masterwork, the 'Principia,' laid out universal gravitation; the SI unit of force carries his name."
+  ],
+  "changed": [
+   1,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/William_Chaloner",
+   "3": "https://en.wikipedia.org/wiki/Newton%27s_reflector"
+  },
+  "summary": "Gave clue 1 a 'This scientist' opener and softened the unverified 'as many years' claim, and replaced the instant laws-and-apple clue 3 with the prism and reflecting-telescope facts."
+ },
+ {
+  "id": "tokyo",
+  "answer": "Tokyo",
+  "category": "Cities",
+  "before": [
+   "As many as 3,000 people flood across its busiest pedestrian scramble every time the light turns.",
+   "Once a fishing village called Edo, it grew into one of the world's biggest cities by the 1700s; its modern name means 'eastern capital.'",
+   "The most populous metropolitan area on the planet, it hosted the Summer Olympics in 1964 and again in 2021.",
+   "This bustling Japanese capital is home to the Shibuya crossing and the Emperor's Imperial Palace."
+  ],
+  "after": [
+   "This city is home to the world's busiest railway station, which Guinness says averaged over 2.7 million passengers a day in 2022.",
+   "Once a fishing village called Edo, it grew into one of the world's biggest cities by the 1700s; its modern name means 'eastern capital.'",
+   "Long ranked the world's most populous city, it fell to third behind Jakarta and Dhaka in a 2025 UN report that changed how cities are measured.",
+   "This bustling Japanese capital is home to the Shibuya crossing and the Emperor's Imperial Palace."
+  ],
+  "changed": [
+   1,
+   3
+  ],
+  "sources": {
+   "1": "https://www.guinnessworldrecords.com/world-records/busiest-station",
+   "3": "https://www.un.org/sustainabledevelopment/blog/2025/11/press-release-wup2025/"
+  },
+  "summary": "Replaced the scramble clue that repeated clue 4 with the busiest-station record (station name left out so it stays hard), and replaced the Olympics clue with the 2025 UN ranking, since the old 'most populous metro area' claim is no longer true under the UN's new method. Second pass: Kept all four clues unchanged because the owner confirmed the Guinness figure (2,704,703 a day in 2022), which outranks the judge's request to drop it."
+ },
+ {
+  "id": "great-white-shark",
+  "answer": "Great White Shark",
+  "category": "Animals",
+  "before": [
+   "Jelly-filled pores on its snout let it sense the faint electric fields of a heartbeat, sniffing out prey hidden in the sand.",
+   "Warmer-bodied than most fish, it can rocket its whole body clear out of the water to ambush a seal from below.",
+   "It grows and sheds thousands of serrated teeth over its life, set in replaceable rows, yet has never survived long in a tank.",
+   "The huge predatory fish behind the movie 'Jaws,' it is named for its pale underside."
+  ],
+  "after": [
+   "A tagged female of this fish, nicknamed Nicole, swam from South Africa to Australia and back in under nine months.",
+   "Warmer-bodied than most fish, it can rocket its whole body clear out of the water to ambush a seal from below.",
+   "It grows and sheds thousands of serrated teeth over its life, set in replaceable rows, yet has never survived long in a tank.",
+   "The huge predatory fish behind the movie 'Jaws,' it is named for its pale underside."
+  ],
+  "changed": [
+   1
+  ],
+  "sources": {
+   "1": "https://www.nationalgeographic.com/animals/article/great-white-breaks-distance-speed-records-for-sharks"
+  },
+  "summary": "Replaced clue 1's electric-sense fact, which fits all sharks, with Nicole's verified 2003-04 round trip from South Africa to Australia, opening with 'this fish'."
+ },
+ {
+  "id": "owl",
+  "answer": "Owl",
+  "category": "Animals",
+  "before": [
+   "Its eyes are locked in their sockets, so it swivels its head as much as three-quarters of the way around to look about.",
+   "Fringed feathers let it fly in near silence, and its hearing is sharp enough to seize prey in total darkness.",
+   "A night hunter with a flat, disc-shaped face that funnels sound to its ears, it gulps small prey whole and coughs up the bones as pellets.",
+   "This wide-eyed bird of prey, an age-old symbol of wisdom, is known for its haunting hoot."
+  ],
+  "after": [
+   "This bird has a burrowing species whose hiss mimics a rattlesnake's rattle, which helps keep predators out of its underground nest.",
+   "In many species of this bird one ear sits higher on the head than the other, which lets it pinpoint how high a sound is as well as its direction.",
+   "This bird swallows small prey whole, then coughs up the bones and fur as a compact pellet.",
+   "This wide-eyed bird of prey, an age-old symbol of wisdom, is known for its haunting hoot."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.audubon.org/magazine/listen-burrowing-owls-hiss-rattlesnakes",
+   "2": "https://en.wikipedia.org/wiki/Owl#Hearing",
+   "3": "https://en.wikipedia.org/wiki/Owl_pellet"
+  },
+  "summary": "Clue 1 now opens with 'This bird's'; clue 3 drops the instant pellet fact and the repeated hearing angle for the 'parliament' name and the burrowing species' rattlesnake mimicry. Second pass: Moved the burrowing owl's rattlesnake-mimic hiss to clue 1, moved the giveaway head-swivel clue (unchanged) to clue 3, and dropped the 'parliament' fact."
+ },
+ {
+  "id": "stonehenge",
+  "answer": "Stonehenge",
+  "category": "Landmarks",
+  "before": [
+   "Some of its stones were dragged roughly 150 miles from the hills of Wales, though no one is certain how.",
+   "Put up around 5,000 years ago, its great stones line up with the sunrise on the longest day of the year.",
+   "Standing on Salisbury Plain in southern England, this ring of towering rocks left behind no written records to explain it.",
+   "This prehistoric circle of massive standing stones is one of the world's most famous ancient monuments."
+  ],
+  "after": [
+   "This monument was sold at auction in 1915 for £6,600 to a local man, who gave it to the nation three years later.",
+   "Some of this monument's stones were hauled about 140 miles from the hills of Wales, though no one is certain how.",
+   "Put up around 5,000 years ago, its great stones line up with the sunrise on the longest day of the year.",
+   "This prehistoric circle of massive standing stones is one of the world's most famous ancient monuments."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Cecil_Chubb",
+   "2": "https://www.ucl.ac.uk/news/news-articles/1215/071215-stonehenge-bluestone-quarries",
+   "3": "moved from clue 2"
+  },
+  "summary": "Dropped the instant Salisbury Plain clue for the 1915 auction (moved to clue 1 as the least known fact), gave the Wales clue a 'this monument's' opener and the researchers' 140-mile figure, and moved the solstice clue to third."
+ },
+ {
+  "id": "wright-brothers",
+  "answer": "The Wright Brothers",
+  "category": "History",
+  "before": [
+   "They ran a modest bicycle shop before cracking a problem that had defeated inventors for centuries.",
+   "Their breakthrough was less the engine than a way to twist a wing's shape to steer and hold balance in the air.",
+   "On a windy North Carolina beach in 1903, their first powered flight lasted about 12 seconds and covered 120 feet.",
+   "These two American brothers, Wilbur and Orville, built and flew the world's first successful airplane."
+  ],
+  "after": [
+   "These inventors' key insight was 'wing warping', twisting the wingtips in opposite directions to keep balance and turn in the air.",
+   "Neither of them ever married, and they tossed a coin to decide which would make the first attempt at powered flight.",
+   "They ran a bicycle shop in Dayton, Ohio, and paid for their flying experiments with its profits.",
+   "These two American brothers, Wilbur and Orville, built and flew the world's first successful airplane."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Wing_warping",
+   "2": "https://home.nps.gov/wrbr/learn/frequently-asked-questions.htm",
+   "3": "https://en.wikipedia.org/wiki/Wright_Cycle_Company"
+  },
+  "summary": "Put the wing-warping fact first with a 'These inventors'' opener and dropped its unverified engine comparison, replaced the instant 1903 North Carolina clue with the bachelor and coin-toss facts, and moved the Dayton bicycle shop to clue 3 as the better-known fact."
+ },
+ {
+  "id": "rome",
+  "answer": "Rome",
+  "category": "Cities",
+  "before": [
+   "It completely surrounds another country — the smallest in the world — inside its own city limits.",
+   "Legend says twin brothers raised by a wolf founded it, and it was built across seven hills.",
+   "Visitors toss around three thousand euros a day into its Trevi Fountain, and its ancient arena once staged gladiator fights.",
+   "Nicknamed the 'Eternal City,' this Italian capital straddles the Tiber River."
+  ],
+  "after": [
+   "This city completely surrounds another country — the smallest in the world — inside its own city limits.",
+   "Visitors toss about 3,000 euros a day into one of its fountains, and the money goes to a charity that feeds people in need.",
+   "Legend says twin brothers raised by a wolf founded it, and it was built across seven hills.",
+   "Nicknamed the 'Eternal City,' this Italian capital straddles the Tiber River."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://simple.wikipedia.com/wiki/Vatican",
+   "2": "https://euronews.com/travel/2024/03/29/tourists-throw-over-1-million-into-italys-trevi-fountain-each-year-heres-what-happens-to-i",
+   "3": "moved from clue 2"
+  },
+  "summary": "Clue 1 now opens with 'This city'; the fountain clue no longer names the Trevi Fountain or the arena and now notes the Caritas charity, and it swaps places with the better-known twins-and-wolf legend."
+ },
+ {
+  "id": "crocodile",
+  "answer": "Crocodile",
+  "category": "Animals",
+  "before": [
+   "It has changed so little in 200 million years that it watched the dinosaurs come and go.",
+   "Its bite is among the most powerful ever measured, yet the muscles that open its jaws are so weak a rubber band can hold them shut.",
+   "A cold-blooded ambush hunter, it can go months without eating and lurks with only its eyes and nostrils above the water.",
+   "This armored, long-snouted reptile is often mixed up with its close cousin the alligator."
+  ],
+  "after": [
+   "This reptile has glands on its tongue that pump out excess salt, which lets some of its species live in seawater.",
+   "Its bite is among the most powerful ever measured, yet the muscles that open its jaws are so weak a rubber band can hold them shut.",
+   "Ancient Egyptians worshipped Sobek, a god with this reptile's head, and offered mummies of these animals at his temples.",
+   "This armored, long-snouted reptile is often mixed up with its close cousin the alligator."
+  ],
+  "changed": [
+   1,
+   3
+  ],
+  "sources": {
+   "1": "https://link.springer.com/doi/10.1007/BF00735713",
+   "3": "https://en.wikipedia.org/wiki/Sobek"
+  },
+  "summary": "Replaced the shaky 200-million-year clue 1 with the salt-secreting tongue glands of true crocodiles, opening with 'This reptile'. Second pass: Replaced the generic ambush-hunter clue 3 with the Sobek fact; dropped the unconfirmed 'thousands' of mummies and said only that they were offered at his temples."
+ },
+ {
+  "id": "mount-kilimanjaro",
+  "answer": "Mount Kilimanjaro",
+  "category": "Geography",
+  "before": [
+   "It is the tallest mountain on Earth that stands alone rather than in a range — a lone giant rising straight off the plains.",
+   "Though it sits close to the equator, its summit wears glaciers and snow that are steadily melting away.",
+   "Africa's highest peak, this dormant volcano in Tanzania can be walked to the top without ropes or climbing gear.",
+   "This snow-capped Tanzanian volcano is the highest point on the whole African continent."
+  ],
+  "after": [
+   "This mountain is the tallest on Earth that stands alone rather than as part of a range.",
+   "Though it sits close to the equator, its summit wears glaciers and snow that are steadily melting away.",
+   "Hikers can reach its summit without ropes, passing through rainforest, moorland and alpine desert on the way up.",
+   "This snow-capped Tanzanian volcano is the highest point on the whole African continent."
+  ],
+  "changed": [
+   1,
+   3
+  ],
+  "sources": {
+   "1": "https://www.guinnessworldrecords.com/world-records/112977-highest-free-standing-mountain",
+   "3": "https://en.wikipedia.org/wiki/Mount_Kilimanjaro"
+  },
+  "summary": "Clue 1 now opens with 'This mountain', and clue 3 drops the instant 'Africa's highest peak' in favor of the rope-free climb through its climate zones."
+ },
+ {
+  "id": "rhinoceros",
+  "answer": "Rhinoceros",
+  "category": "Animals",
+  "before": [
+   "Its fearsome horn is made of the same stuff as your hair and fingernails — no bone at all.",
+   "Badly near-sighted, this huge, thick-skinned grazer leans on sharp hearing and smell to sense trouble.",
+   "Hunted to the brink of extinction for that horn, it lumbers across parts of Africa and Asia.",
+   "This massive horned herbivore, second only to the elephant in land-animal size, wallows in mud to keep cool."
+  ],
+  "after": [
+   "A group of these animals is called a 'crash,' and they use shared dung heaps called middens to leave scent messages for each other.",
+   "Badly near-sighted, this huge, thick-skinned grazer leans on sharp hearing and smell to sense trouble.",
+   "Its horn, the reason poachers hunt it, has no bone in it at all; it is keratin, the same stuff as your fingernails.",
+   "This massive horned herbivore, second only to the elephant in land-animal size, wallows in mud to keep cool."
+  ],
+  "changed": [
+   1,
+   3
+  ],
+  "sources": {
+   "1": "https://www.up.ac.za/news/white-rhinos-communicate-through-their-ablution-habits",
+   "3": "https://sandiegozoowildlifealliance.org/story-hub/2015/05/08/24-rhino-facts-you-should-know/"
+  },
+  "summary": "Opened with the 'crash' name and dung-midden messaging instead of the horn, and merged the horn and poaching facts into one clue 3."
+ },
+ {
+  "id": "seahorse",
+  "answer": "Seahorse",
+  "category": "Animals",
+  "before": [
+   "It is the male, not the female, that becomes pregnant and gives birth to the young.",
+   "Among the slowest of all fish, it anchors to seaweed with a curling tail and slurps food through a tube-like snout.",
+   "Many kinds pair for life, and a courting couple may greet each other with a daily dance.",
+   "This tiny upright fish with a horse-shaped head and coiled tail drifts through coral shallows."
+  ],
+  "after": [
+   "Bonded pairs of this fish meet in the early morning for a short greeting dance, brightening in color as they swim side by side.",
+   "This fish has no stomach, so food passes through it quickly and it must graze almost constantly.",
+   "This fish's eyes move independently, like a chameleon's, so it can watch for food and danger at the same time.",
+   "This small fish swims upright, has a head shaped like a chess knight's, and is famous because the male gives birth."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Dwarf_seahorse",
+   "2": "https://earthsky.org/earth/seahorses-lifeform-of-the-week/",
+   "3": "https://en.wikipedia.org/wiki/Seahorse",
+   "4": "https://theconversation.edu.au/nine-things-you-dont-know-about-seahorses-165650"
+  },
+  "summary": "Moved the famous male-pregnancy fact to clue 3, opened with the morning greeting dance without the doubtful 'pair for life', and removed 'horse' from clue 4. Second pass: Moved the famous male-pregnancy fact into clue 4 and replaced clue 3 with the no-stomach fact."
+ },
+ {
+  "id": "jellyfish",
+  "answer": "Jellyfish",
+  "category": "Animals",
+  "before": [
+   "With no brain, no heart, and no bones, it is roughly 95% water — and one kind may be biologically immortal.",
+   "Drifting the oceans since long before the dinosaurs, it snares prey with trailing tentacles that can sting.",
+   "A boneless, gelatinous drifter, a whole group of them is fittingly called a 'smack' or a 'bloom.'",
+   "This translucent, umbrella-shaped sea creature pulses through the water and can leave a painful sting."
+  ],
+  "after": [
+   "This sea animal's fossils from Canada's Burgess Shale show it was already swimming about 505 million years ago.",
+   "It has no brain, heart or bones, and one tiny species can turn back into its young form, so it may never die of old age.",
+   "A large group of these drifting creatures is called a 'smack' or a 'bloom,' and blooms have shut down nuclear reactors by clogging their cooling-water intakes.",
+   "This translucent, umbrella-shaped sea creature pulses through the water and can leave a painful sting."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.rom.on.ca/news-releases/royal-ontario-museum-researchers-identify-oldest-known-species-swimming-jellyfish",
+   "2": "https://www.amnh.org/explore/news-blogs/immortal-jellyfish",
+   "3": "https://www.nbcnews.com/sciencemain/wave-jellyfish-clogs-swedish-nuclear-reactor-shuts-it-down-8c11311141"
+  },
+  "summary": "Replaced the stinging-tentacle and 'gelatinous' giveaways with the Burgess Shale fossils, the brainless and immortal-species fact, and reactor shutdowns caused by blooms."
+ },
+ {
+  "id": "spider",
+  "answer": "Spider",
+  "category": "Animals",
+  "before": [
+   "Its silk is, weight for weight, stronger than steel — yet it spins the thread from its own body.",
+   "Unable to chew, it floods its prey with juices and then drinks the liquefied remains.",
+   "With eight legs and often eight eyes, it is no insect at all, and most kinds carry venom.",
+   "This web-spinning creepy-crawly snares flies in silk and stars in many a Halloween decoration."
+  ],
+  "after": [
+   "This creature can't chew, so it coats or fills its prey with digestive juices and then sucks up the liquefied remains.",
+   "In 1832, thousands of these tiny creatures drifted on the wind onto Darwin's ship, HMS Beagle, about 60 miles off the coast of Argentina.",
+   "One kind of this creature, the bolas, swings a line tipped with a sticky glob at moths it has lured in by copying a female moth's scent.",
+   "This web-spinning creepy-crawly snares flies in silk and stars in many a Halloween decoration."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://sedl.org/scimath/pasopartners/spiders/lesson3a1.html",
+   "2": "https://www.naturalista.mx/projects/denton-wild/journal/27817-ed-yong-spiders-can-fly-hundreds-of-miles-using-electricity-the-atlantic-july-5-2018",
+   "3": "https://www.uky.edu/Ag/Entomology/entdept/faculty/khaynes/haynesr3.htm"
+  },
+  "summary": "Led with the no-chewing digestion fact, added Darwin's ballooning visitors on the Beagle, moved silk strength to clue 3 and dropped the instant eight-legs clue. Second pass: Replaced the instantly recognized stronger-than-steel silk clue 3 with the bolas hunter's sticky line and fake moth scent."
+ },
+ {
+  "id": "bald-eagle",
+  "answer": "Bald Eagle",
+  "category": "Animals",
+  "before": [
+   "It isn't actually bald — the word once meant 'white-headed,' which describes its snowy crown.",
+   "It builds some of the biggest nests of any bird, reused and enlarged year after year until they can weigh a ton.",
+   "Once endangered, this powerful fish-snatching raptor has staged a strong comeback across North America.",
+   "This white-headed bird of prey is the national symbol of the United States."
+  ],
+  "after": [
+   "In a 1784 letter to his daughter, Benjamin Franklin called this bird 'of bad moral character' for stealing fish caught by ospreys.",
+   "It builds some of the biggest nests of any bird, reused and enlarged year after year until they can weigh a ton.",
+   "The pesticide DDT thinned this bird's eggshells and nearly wiped it out, but it recovered and came off the US endangered and threatened species list in 2007.",
+   "This white-headed bird of prey is the national symbol of the United States."
+  ],
+  "changed": [
+   1,
+   3
+  ],
+  "sources": {
+   "1": "https://annotation.blogs.archives.gov/2020/11/25/talking-turkey",
+   "3": "https://history.com/this-day-in-history/bald-eagle-removed-from-list-of-threatened-species"
+  },
+  "summary": "Replaced clue 1, which used the word 'bald', with Franklin's 1784 complaint about the bird's character; kept the other clues. Second pass: Made clue 3 specific with DDT and the 2007 delisting, worded as the endangered and threatened list since the bird had already been downgraded to threatened, and removed the 'fish-snatching' echo of clue 1."
+ },
+ {
+  "id": "piano",
+  "answer": "Piano",
+  "category": "Music",
+  "before": [
+   "Press a key and a small felt hammer swings up to strike a taut string — making it, oddly, a percussion instrument.",
+   "Its Italian name means 'soft-loud,' because it could finally play both, unlike the pluck-only harpsichord before it.",
+   "It spans 88 black and white keys, from the deepest bass to the highest treble.",
+   "This large keyboard instrument, a fixture of concert halls and living rooms, comes in grand and upright forms."
+  ],
+  "after": [
+   "Bartolomeo Cristofori built the first of these instruments in Florence around 1700, and three of his originals still survive.",
+   "The strings inside the largest models of this instrument pull on its cast-iron frame with a combined force of more than 20 tons.",
+   "In 1853 a German immigrant named Heinrich Steinweg founded a New York firm that became this instrument's most famous maker.",
+   "This large keyboard instrument, a fixture of concert halls and living rooms, comes in grand and upright forms."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.metmuseum.org/essays/the-piano-the-pianofortes-of-bartolomeo-cristofori-1655-1731",
+   "2": "https://www.speech.kth.se/music/5_lectures/conklin/thecastiron.html",
+   "3": "https://en.wikipedia.org/wiki/Steinway_%26_Sons"
+  },
+  "summary": "Opened with Cristofori and his three surviving instruments, moved the hammer-and-string percussion fact to clue 3 and dropped the instant 88 keys. Second pass: Replaced the name-translation clue 2 with total string tension (sources give about 21 to 30 tons, so 'more than 20') and the hammer-mechanism clue 3 with Steinway's founding, named by its founder's original German name so it is not instant."
+ },
+ {
+  "id": "ice-cream",
+  "answer": "Ice Cream",
+  "category": "Food & Drink",
+  "before": [
+   "Eat it too fast and the roof of your mouth throbs with a sudden headache nicknamed a 'brain freeze.'",
+   "Air whipped into it is why a tub feels lighter than the same volume of the liquid it started as.",
+   "Roman emperors are said to have eaten flavored snow, an early ancestor of this frozen treat.",
+   "This sweet frozen dessert, scooped into cones and sundaes, comes in flavors from vanilla to mint chip."
+  ],
+  "after": [
+   "Makers call the air whipped into this product 'overrun,' and in the cheapest brands it can make up half the volume.",
+   "In 1843 Nancy Johnson of Philadelphia patented a hand-cranked freezer that let people make this treat at home.",
+   "Legend says the Roman emperor Nero sent runners to the mountains for snow, then had it flavored with fruit and honey — an early ancestor of this treat.",
+   "This sweet frozen dessert, scooped into cones and sundaes, comes in flavors from vanilla to mint chip."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.thekitchn.com/the-one-ice-cream-metric-that-matters-to-grocers-hint-its-not-butterfat-231918",
+   "2": "https://en.wikipedia.org/wiki/Nancy_M._Johnson",
+   "3": "https://csmonitor.com/1980/0228/022809.html"
+  },
+  "summary": "Reordered so the air-overrun fact leads, the Nero legend comes second and brain freeze (with its medical name) comes third, and gave clue 1 a type word. Second pass: Rewrote clue 1 to drop 'frozen treat' and 'tub', keeping the overrun fact and the checked point that 100% overrun in cheap brands means half the volume is air."
+ },
+ {
+  "id": "thor-norse",
+  "answer": "Thor",
+  "category": "Mythology",
+  "before": [
+   "He owns a belt that doubles his already immense strength and iron gloves to grip his weapon.",
+   "A red-bearded, hot-tempered god of storms, he rides a chariot pulled by two goats across the sky.",
+   "In Norse myth this son of Odin swings a short-handled hammer, Mjolnir, that always returns to his hand.",
+   "God of thunder and namesake of Thursday, he became a Marvel superhero played by Chris Hemsworth."
+  ],
+  "after": [
+   "This god owns a belt that doubles his already immense strength and iron gloves he needs to grip his weapon.",
+   "This red-bearded god could kill and eat his two chariot goats for supper, then bring them back to life the next morning.",
+   "In Norse myth this god is fated to kill the world serpent at Ragnarök, then fall dead nine steps later from its venom.",
+   "God of thunder and namesake of Thursday, he became a Marvel superhero played by Chris Hemsworth."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/J%C3%A1rngreipr",
+   "2": "https://en.wikipedia.org/wiki/Tanngrisnir_and_Tanngnj%C3%B3str",
+   "3": "https://en.wikipedia.org/wiki/Thor"
+  },
+  "summary": "Gave clue 1 a type word and replaced the instant Mjolnir clue with Thor's fated death fighting the world serpent at Ragnarök. Second pass: Replaced the descriptive storm-god clue with the goats he eats and revives, and removed the instant 'son of Odin' from clue 3."
+ },
+ {
+  "id": "petra",
+  "answer": "Petra",
+  "category": "Landmarks",
+  "before": [
+   "A Swiss explorer in disguise 'rediscovered' this lost city for the West in 1812.",
+   "Carved straight into rose-red sandstone cliffs, it was the capital of the ancient Nabataean traders.",
+   "Visitors reach it through a narrow winding gorge that suddenly opens onto an ornate temple facade.",
+   "This Jordanian wonder, whose Treasury appeared in an Indiana Jones film, is nicknamed the 'Rose City.'"
+  ],
+  "after": [
+   "A Swiss explorer in disguise 'rediscovered' this lost city for the West in 1812.",
+   "Carved into sandstone cliffs, this city was the capital of the Nabataeans, desert traders who grew rich from the incense trade.",
+   "Visitors reach this city through the Siq, a narrow gorge over a kilometer long that opens onto a towering carved facade.",
+   "This Jordanian wonder, whose Treasury appeared in an Indiana Jones film, is nicknamed the 'Rose City.'"
+  ],
+  "changed": [
+   2,
+   3
+  ],
+  "sources": {
+   "2": "https://courses.lumenlearning.com/suny-arthistory1/chapter/petra-an-introduction/",
+   "3": "https://famous-historic-buildings.org.uk/petra.html"
+  },
+  "summary": "Removed 'rose-red' from clue 2 so it no longer overlaps the 'Rose City' nickname, and replaced the 'temple facade' in clue 3 (the Treasury was most likely a tomb) with a neutral 'carved facade' and the Siq's length."
+ },
+ {
+  "id": "tom-brady",
+  "answer": "Tom Brady",
+  "category": "Sports",
+  "before": [
+   "He was the 199th selection in his draft, taken after six other players at his position.",
+   "He finished with seven championship rings, more than any single franchise in his league has won.",
+   "The quarterback took New England to six titles under Bill Belichick before winning a seventh with Tampa Bay.",
+   "American football's most decorated quarterback, who erased a 28-3 deficit in Super Bowl LI."
+  ],
+  "after": [
+   "This player was the 199th pick in his draft, taken after six other players at his position.",
+   "At 43 this player won a title in his first season with a new team, which became the first to win the Super Bowl in its home stadium.",
+   "He finished with seven championship rings, more than any single franchise in his league has won.",
+   "This is American football's most decorated quarterback, who led New England back from 28-3 down in Super Bowl LI."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://profootballtalk.nbcsports.com/2020/04/16/tom-brady-still-remembers-the-six-qbs-drafted-before-him-20-years-later/",
+   "2": "https://en.wikipedia.org/wiki/Super_Bowl_LV",
+   "3": "moved from clue 2",
+   "4": "https://www.fox5atlanta.com/sports/historic-comeback-gives-new-england-34-28-victory-over-atlanta-in-super-bowl-li"
+  },
+  "summary": "Opened clue 1 with 'This player', replaced clue 3's repeat of the seven titles with his retirement at 45 and his Raiders stake (approved October 2024), and made clue 4 a full sentence. Second pass: Replaced the instant retirement clue with the Tampa Bay home-stadium title at 43, and put it before the better-known seven-rings clue."
+ },
+ {
+  "id": "seoul",
+  "answer": "Seoul",
+  "category": "Cities",
+  "before": [
+   "Its name is borrowed from nothing and means nothing else — it is simply the old word for 'capital'.",
+   "Roughly half of the country's people live in its metropolitan area, well within artillery range of a fortified border.",
+   "The Han River splits it, Gangnam sits on the south bank, and it hosted the Summer Games in 1988.",
+   "The South Korean capital, home to Gyeongbokgung Palace and the headquarters of Samsung."
+  ],
+  "after": [
+   "This city's name, unlike most place names in its country, has no Chinese-character form; it comes from an old native word for 'capital'.",
+   "Roughly half of the country's people live in its metropolitan area, well within artillery range of a fortified border.",
+   "This city hosted the 1988 Summer Olympics, the second Asian city to do so after Tokyo.",
+   "This is the South Korean capital, home to Gyeongbokgung Palace and the Gangnam district."
+  ],
+  "changed": [
+   1,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Names_of_Seoul",
+   "3": "https://en.wikipedia.org/wiki/1988_Summer_Olympics",
+   "4": "https://en.wikipedia.org/wiki/Seoul"
+  },
+  "summary": "Rewrote clue 1 to say plainly that the name is a native word with no Chinese-character form, removed the Gangnam giveaway from clue 3 in favor of the Olympics-after-Tokyo fact, and made clue 4 a full sentence."
+ },
+ {
+  "id": "rosetta-stone",
+  "answer": "Rosetta Stone",
+  "category": "History",
+  "before": [
+   "The text on it is a dull tax decree; its whole value lies in being repeated.",
+   "Napoleon's soldiers pulled it out of a fort wall in Egypt in 1799, the British carried it off two years later, and it has sat in the British Museum ever since.",
+   "The same decree appears three times on it: in hieroglyphs, in everyday demotic script, and in ancient Greek.",
+   "The dark slab that let Jean-François Champollion finally crack Egyptian hieroglyphs in 1822."
+  ],
+  "after": [
+   "The text on this slab is a decree issued by priests at Memphis in 196 BC to affirm the royal cult of Ptolemy V.",
+   "In 2022 former Egyptian antiquities minister Zahi Hawass led a petition demanding this slab's return from London to Egypt.",
+   "Napoleon's soldiers pulled it out of a fort wall in Egypt in 1799, the British carried it off two years later, and it has sat in the British Museum ever since.",
+   "This dark slab let Jean-François Champollion finally crack Egyptian hieroglyphs in 1822."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Rosetta_Stone",
+   "2": "https://www.thenationalnews.com/world/2022/11/21/petition-to-return-rosetta-stone-to-egypt-seeks-a-million-signatures",
+   "3": "moved from clue 2",
+   "4": "https://en.wikipedia.org/wiki/Rosetta_Stone"
+  },
+  "summary": "Dropped the three-scripts idea from clues 1 and 3: clue 1 now names the decree's date and purpose, the old clue 3 is replaced by the 2022 return petition (placed before the more revealing Napoleon clue), and clue 4 is a full sentence."
+ },
+ {
+  "id": "pink-floyd",
+  "answer": "Pink Floyd",
+  "category": "Music",
+  "before": [
+   "Its founder left in 1968 with his mind in pieces, and the band spent the next thirty years writing about him.",
+   "The Dark Side of the Moon — a prism on a black sleeve, the band's name nowhere on it — stayed on the Billboard chart for more than 900 weeks.",
+   "A giant inflatable pig broke its moorings over Battersea Power Station during a cover shoot and drifted into Heathrow's flight paths.",
+   "The English band behind The Wall and 'Comfortably Numb', named for two obscure Carolina bluesmen."
+  ],
+  "after": [
+   "This band's original frontman and chief songwriter was eased out in 1968 as his mental health declined, and years later the others wrote a long tribute to him.",
+   "During this band's 1976 album-cover shoot, a giant inflatable pig broke free over Battersea Power Station and drifted into Heathrow's flight paths.",
+   "This band's 1973 album, whose black sleeve shows only a prism with no band name or title, has spent more than 900 weeks on the Billboard 200.",
+   "This English band made The Wall and 'Comfortably Numb', and took its name from two obscure Carolina bluesmen."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Shine_On_You_Crazy_Diamond",
+   "2": "https://en.wikipedia.org/wiki/Pink_Floyd_pigs",
+   "3": "https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon",
+   "4": "https://en.wikipedia.org/wiki/Pink_Floyd"
+  },
+  "summary": "Gave clue 1 a type word and dropped the overstated 'thirty years', took the album title out and moved the prism clue after the harder pig clue, and made clue 4 a full sentence."
+ },
+ {
+  "id": "call-of-duty",
+  "answer": "Call of Duty",
+  "category": "Games",
+  "before": [
+   "One instalment took more than half a billion dollars in five days — in 2009.",
+   "It began in 2003 as a World War II shooter made by developers who had walked out on Medal of Honor, then marched forward into modern and future wars.",
+   "Its yearly release rotates between studios, and a free battle-royale spin-off, Warzone, arrived in 2020.",
+   "The Activision military shooter whose Captain Price and 'No Russian' mission are franchise landmarks."
+  ],
+  "after": [
+   "One instalment of this series took more than half a billion dollars in its first five days, back in 2009.",
+   "In 2023 Microsoft bought this series' publisher for about $69 billion, after nearly two years of fights with regulators.",
+   "This series began in 2003 as a World War II shooter made by developers who had walked out on Medal of Honor, then marched forward into modern and future wars.",
+   "This Activision military shooter series is known for Captain Price and the notorious 'No Russian' airport mission."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.engadget.com/2009-11-18-activision-modern-warfare-2-earned-550-million-in-first-five-days.html",
+   "2": "https://en.wikipedia.org/wiki/Acquisition_of_Activision_Blizzard_by_Microsoft",
+   "3": "https://en.wikipedia.org/wiki/Call_of_Duty",
+   "4": "https://www.techradar.com/news/modern-warfare-2-remastered-no-russian-should-the-controversial-mission-have-been-included"
+  },
+  "summary": "Clue 1 now says it is a series, and clue 4 is a full sentence; the other clues are unchanged. Second pass: Dropped the Warzone giveaway for the Microsoft purchase of its publisher, placed that less direct fact second, and moved the 2003 origin clue to third with 'This series' in place of a bare 'It'."
+ },
+ {
+  "id": "magna-carta",
+  "answer": "Magna Carta",
+  "category": "History",
+  "before": [
+   "The Pope annulled it barely ten weeks after it was agreed.",
+   "It was sealed, not signed, in a meadow at Runnymede beside the Thames.",
+   "In 1215, rebel barons forced King John to accept it, putting limits on the power of the crown.",
+   "The medieval English charter whose Latin name means 'Great Charter,' a cornerstone of the rule of law."
+  ],
+  "after": [
+   "The Pope annulled this document barely ten weeks after it was agreed.",
+   "Four original copies of its 1215 text survive, two of them in the British Library.",
+   "Only three of this document's clauses are still law in England and Wales, including the promise that no free man be imprisoned without lawful judgment.",
+   "King John was forced to accept this medieval English charter, whose Latin name means 'Great Charter.'"
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.bl.uk/stories/blogs/posts/shameful-and-demeaning-the-annulment-of-magna-carta",
+   "2": "https://www.medievalists.net/2013/07/original-copies-of-the-magna-carta-to-be-reunited-in-2015/",
+   "3": "https://www.history.com/articles/6-things-you-might-not-know-about-the-magna-carta",
+   "4": "https://www.newworldencyclopedia.org/entry/Magna_Carta"
+  },
+  "summary": "Gave clue 1 a 'this document' opener, replaced the instant King John clue with the four surviving copies and moved it to clue 2, and made clue 4 a sentence that carries the King John fact. Second pass: Replaced the Runnymede giveaway with the checked fact that only three of its clauses, including the 'no free man' clause, remain law in England and Wales."
+ },
+ {
+  "id": "pele",
+  "answer": "Pelé",
+  "category": "Sports",
+  "before": [
+   "His famous nickname, which he hated as a boy, has no agreed meaning even in Portuguese.",
+   "He was 17 when he scored twice in a World Cup final, in Sweden in 1958.",
+   "He won three World Cups with Brazil, more than any other player.",
+   "The Brazilian soccer icon born Edson Arantes do Nascimento, who starred for Santos and later the New York Cosmos."
+  ],
+  "after": [
+   "This sports star hated his famous nickname as a boy, and even he never knew what the word meant.",
+   "He was 17 when he scored twice in a World Cup final, in Sweden in 1958.",
+   "He scored his 1,000th career goal from a penalty at Rio's Maracanã stadium in 1969.",
+   "This Brazilian soccer icon, born Edson Arantes do Nascimento, starred for Santos and later the New York Cosmos."
+  ],
+  "changed": [
+   1,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://dlab.epfl.ch/wikispeedia/wpcd/wp/p/Pel%25C3%25A9.htm",
+   "3": "https://www.history.com/this-day-in-history/pele-scores-1000th-goal",
+   "4": "https://dlab.epfl.ch/wikispeedia/wpcd/wp/p/Pel%25C3%25A9.htm"
+  },
+  "summary": "Added a 'This sports star' opener and softened the nickname claim to what his autobiography says, replaced the instant three-World-Cups clue with his 1,000th goal, and made clue 4 a sentence."
+ },
+ {
+  "id": "poison-ivy",
+  "answer": "Poison Ivy",
+  "category": "Nature",
+  "before": [
+   "Most people react to it, yet deer graze its leaves and birds eat its berries without any trouble.",
+   "The culprit is an oil called urushiol, which can stay active on gloves and tools for years.",
+   "Hikers learn the rhyme 'Leaves of three, let it be' to steer clear of it.",
+   "The itchy-rash vine of North American woods, which shares its name with a plant-loving Batman villain."
+  ],
+  "after": [
+   "Most people react badly to this plant, yet deer graze its leaves and birds eat its berries without any trouble.",
+   "The culprit is an oil called urushiol, which can stay active on gloves and tools for years.",
+   "Burning it is especially dangerous, because the smoke can carry its rash-causing oil into the lungs.",
+   "This itchy-rash vine of North American woods shares its name with a plant-loving Batman villain."
+  ],
+  "changed": [
+   1,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://extension.illinois.edu/blogs/ilriverhort/2025-09-08-poison-ivy-friend-deer-and-bird-foe-many-humans",
+   "3": "https://www.cdc.gov/niosh/outdoor-workers/about/poisonous-plants.html",
+   "4": "https://www.thedigitalfix.com/dcu/poison-ivy-explained"
+  },
+  "summary": "Clue 1 now says it is a plant, the instant 'Leaves of three' rhyme is replaced with the danger of burning it, and clue 4 is a full sentence."
+ },
+ {
+  "id": "tornado",
+  "answer": "Tornado",
+  "category": "Nature",
+  "before": [
+   "Scientists rate its strength by the damage it leaves behind, because its winds are so hard to measure directly.",
+   "The United States gets more of them than any other country — well over a thousand a year.",
+   "It usually drops from a rotating supercell thunderstorm, and its fiercest winds can top 300 miles per hour.",
+   "The spinning funnel of wind that carries Dorothy's house from Kansas to Oz."
+  ],
+  "after": [
+   "Scientists rate this storm's strength by the damage it leaves behind, because its winds are so hard to measure directly.",
+   "The deadliest one in US history tore across Missouri, Illinois and Indiana in March 1925, killing at least 695 people.",
+   "The United States gets more of them than any other country — well over a thousand a year.",
+   "This spinning funnel of wind carries Dorothy's house from Kansas to Oz."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.weather.gov/oun/efscale",
+   "2": "https://en.wikipedia.org/wiki/1925_Tri-State_tornado",
+   "3": "moved from clue 2",
+   "4": "https://www.imdb.com/title/tt0032138/plotsummary"
+  },
+  "summary": "Clue 1 now says it is a storm, and clue 4 is a full sentence; clues 2 and 3 are unchanged. Second pass: Replaced the supercell description with the 1925 Tri-State storm (695 confirmed deaths) and put it second, ahead of the more direct US-count clue."
+ },
+ {
+  "id": "prometheus",
+  "answer": "Prometheus",
+  "category": "Mythology",
+  "before": [
+   "His name is usually read as 'forethought,' and his brother's as 'afterthought.'",
+   "Mary Shelley's 'Frankenstein' carries his name in its subtitle, casting Victor as a modern version of him.",
+   "As punishment, Zeus chained him to a rock where an eagle ate his liver every day, only for it to grow back each night.",
+   "The Titan who stole fire from the gods and gave it to humankind."
+  ],
+  "after": [
+   "This mythical figure's name is usually read as 'forethought,' and his brother's as 'afterthought.'",
+   "Mary Shelley's 'Frankenstein' carries his name in its subtitle, casting Victor as a modern version of him.",
+   "As punishment, Zeus chained him to a rock where an eagle ate his liver every day, only for it to grow back each night.",
+   "This Titan stole fire from the gods and gave it to humankind."
+  ],
+  "changed": [
+   1,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Prometheus",
+   "4": "https://en.wikipedia.org/wiki/Prometheus"
+  },
+  "summary": "Clue 1 now says what kind of figure this is, and clue 4 is a full sentence instead of a fragment."
+ },
+ {
+  "id": "spam",
+  "answer": "Spam",
+  "category": "Internet",
+  "before": [
+   "Its name comes from a Monty Python sketch in which a café chorus of Vikings drowns out everything else.",
+   "The first known example, sent in 1978 to a few hundred ARPANET users, advertised new DEC computers.",
+   "Filters catch most of it now, but it still makes up nearly half of all email sent.",
+   "Unwanted bulk messages flooding your inbox, named after a canned meat."
+  ],
+  "after": [
+   "This nuisance's first known example, sent in 1978 to a few hundred ARPANET users, advertised new DEC computers.",
+   "In 2004 Bill Gates told the World Economic Forum in Davos that this problem would be solved within two years.",
+   "Its name comes from a Monty Python sketch in which a café chorus of Vikings drowns out everything else.",
+   "This is the unsolicited bulk email that clogs inboxes, often pushing cheap drugs, diet products and get-rich-quick jobs."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "reworded from clue 2",
+   "2": "https://www.govtech.com/question-of-the-day/Question-of-the-Day-for-042213.html",
+   "3": "moved from clue 1",
+   "4": "https://en.wikipedia.org/wiki/Email_spam"
+  },
+  "summary": "Clue 1 now says what kind of thing this is, and clue 4 is a full sentence that no longer repeats the canned-meat name origin (and avoids the banned phrase in the judge's suggestion). Second pass: Moved the 1978 ARPANET message to clue 1, added Gates's 2004 Davos prediction as clue 2, and moved the better-known Monty Python origin to clue 3 in place of the instant 'half of all email' clue."
+ },
+ {
+  "id": "vanilla",
+  "answer": "Vanilla",
+  "category": "Food & Drink",
+  "before": [
+   "A 12-year-old enslaved boy on the island of Réunion worked out how to pollinate it by hand in 1841.",
+   "After saffron, it is usually the world's second most expensive spice.",
+   "It comes from the cured seed pods of a climbing orchid native to Mexico.",
+   "The flavor of America's best-selling ice cream, so standard its name has come to mean 'plain.'"
+  ],
+  "after": [
+   "This spice's crop was transformed in 1841, when a 12-year-old enslaved boy on Réunion worked out how to pollinate its flowers by hand.",
+   "After saffron, it is usually the world's second most expensive spice.",
+   "Less than 1% of the flavoring sold under this spice's name comes from the real plant; most is made in labs from wood pulp or petrochemicals.",
+   "This is the flavor of America's best-selling ice cream, so standard that its name has come to mean 'plain.'"
+  ],
+  "changed": [
+   1,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Edmond_Albius",
+   "3": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10818928/",
+   "4": "https://www.dairyreporter.com/Article/2017/07/07/Vanilla-ranks-as-the-top-selling-ice-cream-flavor-in-US"
+  },
+  "summary": "Clue 1 now names the spice, clue 3's definition is replaced by the fact that nearly all of the flavor is synthetic, and clue 4 is a full sentence."
+ },
+ {
+  "id": "niagara-falls",
+  "answer": "Niagara Falls",
+  "category": "Geography",
+  "before": [
+   "In 1901 a 63-year-old schoolteacher rode over it sealed inside a wooden barrel — and lived.",
+   "It briefly ran nearly dry in 1969 when engineers dammed its river to study the eroding rock face.",
+   "Sitting on the border between the United States and Canada, it lures honeymooners and daredevils in equal measure.",
+   "This trio of waterfalls, including Horseshoe Falls, straddles New York and Ontario and is among the most famous on Earth."
+  ],
+  "after": [
+   "In 1969 engineers dammed off the smaller American section of this landmark for several months, leaving that cliff dry so they could study erosion.",
+   "Under a 1950 US–Canada treaty, the minimum flow over this landmark at night is half the tourist-season daytime minimum, freeing water for power plants.",
+   "In 1859 the tightrope walker Charles Blondin crossed the gorge below this landmark on a rope, and on later crossings did it blindfolded and with his manager on his back.",
+   "This trio of waterfalls, including Horseshoe Falls, straddles New York and Ontario and is among the most famous on Earth."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.history.com/articles/niagara-falls-dewatering-1969",
+   "2": "https://internationalwaterlaw.org/documents/regionaldocs/niagra1950.html",
+   "3": "https://en.wikipedia.org/wiki/Charles_Blondin"
+  },
+  "summary": "Fixed the 1969 clue to say only the American section ran dry, replaced the instant honeymooner clue with the river and erosion fact, named the kind of thing in every clue, and moved the well-known barrel ride to clue 3. Second pass: Replaced the instant Erie-to-Ontario clue with the 1950 treaty's flow rules (100,000 cfs on tourist-season days, 50,000 at night), stating only what the treaty says."
+ },
+ {
+  "id": "coffee",
+  "answer": "Coffee",
+  "category": "Food & Drink",
+  "before": [
+   "Legend credits its discovery to an Ethiopian goatherd who saw his flock dancing after nibbling certain red berries.",
+   "One of the most heavily traded commodities on Earth, its 'beans' are really the roasted seeds of a fruit.",
+   "Once banned in several places for its stimulating kick, it is pulled into espresso, cappuccino, and latte.",
+   "This caffeinated morning brew, made from roasted ground beans, comes in Arabica and Robusta types."
+  ],
+  "after": [
+   "Mecca banned this drink in 1511, and an Ottoman sultan later shut the houses that served it, fearing they bred dissent.",
+   "One of the most heavily traded commodities on Earth, its 'beans' are really the roasted seeds of a fruit.",
+   "Legend credits its discovery to an Ethiopian goatherd who saw his flock dancing after nibbling certain red berries.",
+   "This caffeinated morning brew, made from roasted ground beans, comes in Arabica and Robusta types."
+  ],
+  "changed": [
+   1,
+   3
+  ],
+  "sources": {
+   "1": "https://www.popsci.com/health/coffee-ban-history/",
+   "3": "moved from clue 1"
+  },
+  "summary": "Clue 1 now says 'this drink's', and clue 3's espresso giveaway is replaced by the 1511 Mecca ban and Murad IV's closure of coffeehouses. Second pass: Swapped clues 1 and 3 so the obscure Mecca ban leads and the well-known goatherd legend comes later; no new facts."
+ },
+ {
+  "id": "pizza",
+  "answer": "Pizza",
+  "category": "Food & Drink",
+  "before": [
+   "Its classic Margherita version was supposedly dreamed up to honor an Italian queen, its red, white, and green echoing the flag.",
+   "Born among the poor of Naples, it was long a humble street food before it conquered the world.",
+   "Its 'Hawaiian' style, crowned with pineapple, was actually invented in Canada in 1962.",
+   "This round, oven-baked Italian dish of dough, tomato sauce, and cheese is served in wedges."
+  ],
+  "after": [
+   "One of this dish's most argued-over styles is credited to a Greek-born cook in Chatham, Ontario, who said he first made it in 1962.",
+   "In 2001 a restaurant chain sent one of these, topped with salami, to cosmonaut Yuri Usachov aboard the International Space Station.",
+   "In 2017 UNESCO added the craft of this dish's Neapolitan makers to its list of the world's intangible cultural heritage.",
+   "This round, oven-baked Italian dish of dough, tomato sauce, and cheese is served in wedges."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Sam_Panopoulos",
+   "2": "https://www.mentalfloss.com/article/55506/brief-history-pizza-space",
+   "3": "https://ich.unesco.org/en/RL/art-of-neapolitan-pizzaiuolo-00722"
+  },
+  "summary": "Replaced the Margherita and Hawaiian giveaways with the Canadian origin of the pineapple style (no pineapple named) and the 2017 UNESCO listing, and ordered the clues hardest first. Second pass: Replaced the vague Naples origin clue with the 2001 space-station delivery, placed before the UNESCO clue, which names Naples and is easier; skipped the judge's Lombardi's suggestion because its 1905 'first' claim is disputed."
+ },
+ {
+  "id": "genghis-khan",
+  "answer": "Genghis Khan",
+  "category": "History",
+  "before": [
+   "A genetics study suggests roughly one in 200 men alive today may descend from him.",
+   "Born with the name Temüjin, he welded the warring nomadic tribes of the steppe into a single force.",
+   "He built the largest contiguous land empire in history, reaching from the Pacific coast toward Europe.",
+   "This feared 13th-century Mongol conqueror was laid to rest in a secret grave that has never been found."
+  ],
+  "after": [
+   "A 2003 genetics study suggested that about 1 in 200 men alive today may descend from this ruler's male line.",
+   "Born with the name Temüjin, he welded the warring nomadic tribes of the steppe into a single force.",
+   "He founded an empire that, under his sons and grandsons, grew into the largest connected land empire in history.",
+   "This feared 13th-century Mongol conqueror was laid to rest in a secret grave that has never been found."
+  ],
+  "changed": [
+   1,
+   3
+  ],
+  "sources": {
+   "1": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1180246/",
+   "3": "https://en.wikipedia.org/wiki/Mongol_invasions_and_conquests"
+  },
+  "summary": "Clue 1 now says who 'him' is and dates the study; clue 3 credits the empire's peak size to his sons and grandsons, not to him."
+ },
+ {
+  "id": "neptune",
+  "answer": "Neptune",
+  "category": "Space",
+  "before": [
+   "It was found not by looking but by arithmetic — its place predicted from odd wobbles in another planet's orbit.",
+   "The windiest world in the Solar System, its storms shriek at over a thousand miles per hour.",
+   "A deep-blue ice giant, it orbits so far out that a single one of its years lasts about 165 Earth years.",
+   "The eighth and most distant planet from the Sun, it is named for the Roman god of the sea."
+  ],
+  "after": [
+   "This planet was found by mathematics before anyone saw it, its position predicted from unexplained quirks in another planet's orbit.",
+   "The windiest world in the Solar System, its storms shriek at over a thousand miles per hour.",
+   "A deep-blue ice giant, it orbits so far out that a single one of its years lasts about 165 Earth years.",
+   "The eighth and most distant planet from the Sun, it is named for the Roman god of the sea."
+  ],
+  "changed": [
+   1
+  ],
+  "sources": {
+   "1": "https://www.nasa.gov/history/175-years-ago-astronomers-discover-neptune-the-eighth-planet"
+  },
+  "summary": "Clue 1 now opens by saying the answer is a planet instead of a bare 'It'."
+ },
+ {
+  "id": "uranus",
+  "answer": "Uranus",
+  "category": "Space",
+  "before": [
+   "It rolls around the Sun tipped over on its side, so its poles take turns facing the Sun for decades at a stretch.",
+   "The coldest planet in the Solar System, its blue-green tint comes from methane in its air.",
+   "An ice giant found in 1781, it was the first planet ever discovered with a telescope rather than the naked eye.",
+   "The seventh planet from the Sun, this tilted world is named for the Greek god of the sky."
+  ],
+  "after": [
+   "This planet was the first ever found with a telescope, by William Herschel in 1781, who proposed naming it for King George III.",
+   "The coldest planet in the Solar System, it owes its pale blue-green tint to methane in its atmosphere.",
+   "This planet rolls around the Sun tipped on its side, so each pole gets about 42 years of sunlight followed by 42 years of darkness.",
+   "The seventh planet from the Sun, this tilted world is named for the Greek god of the sky."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.skyatnightmagazine.com/space-science/how-was-uranus-discovered",
+   "2": "https://www.nhm.ac.uk/discover/factfile-uranus.html",
+   "3": "https://www.nhm.ac.uk/discover/factfile-uranus.html"
+  },
+  "summary": "Moved the lesser-known Herschel discovery to clue 1 and the famous sideways tilt to clue 3, fixed the bare 'It', and fixed clue 2's dangling opening."
+ },
+ {
+  "id": "victoria-falls",
+  "answer": "Victoria Falls",
+  "category": "Geography",
+  "before": [
+   "Locals call it 'the smoke that thunders,' for the spray it throws hundreds of meters into the air, visible for miles.",
+   "Neither the tallest nor the widest, it is often called the largest single sheet of falling water on Earth.",
+   "On the Zambezi River between Zambia and Zimbabwe, it was named by a Scottish explorer for a British queen.",
+   "This immense African waterfall shares its royal name with a lake, an Australian state, and a Canadian city."
+  ],
+  "after": [
+   "Locals call this waterfall 'the smoke that thunders,' for the spray it throws hundreds of meters into the air.",
+   "Neither the tallest nor the widest, it is often called the largest single sheet of falling water on Earth.",
+   "Just downstream of this waterfall, a railway bridge finished in 1905 now hosts one of the world's best-known bungee jumps.",
+   "This immense African waterfall shares its royal name with a lake, an Australian state, and a Canadian city."
+  ],
+  "changed": [
+   1,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Victoria_Falls",
+   "3": "https://en.wikipedia.org/wiki/Victoria_Falls_Bridge"
+  },
+  "summary": "Clue 1 now says the answer is a waterfall instead of opening with a bare 'it'. Second pass: Replaced clue 3's 'named for a British queen' giveaway, which overlapped clue 4, with the checked fact about the 1905 bridge and its bungee jump."
+ },
+ {
+  "id": "empire-state-building",
+  "answer": "Empire State Building",
+  "category": "Landmarks",
+  "before": [
+   "It is so big it has its very own ZIP code, and lightning strikes its spire around 25 times a year.",
+   "Thrown up in just over a year during the Great Depression, it was the world's tallest building for nearly four decades.",
+   "A giant ape famously clung to its summit, swatting at biplanes, in a classic 1933 film.",
+   "This Art Deco skyscraper is one of New York City's most iconic towers."
+  ],
+  "after": [
+   "This skyscraper is so big it has its own ZIP code, and lightning strikes it around 25 times a year.",
+   "Its spire was first meant as a docking mast for airships, an idea dropped because the winds up there were too strong.",
+   "Thrown up in just over a year during the Great Depression, it was the world's tallest building for nearly four decades.",
+   "This Art Deco skyscraper is one of New York City's most iconic towers."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Empire_State_Building",
+   "2": "https://www.metmuseum.org/art/collection/search/294832",
+   "3": "moved from clue 2"
+  },
+  "summary": "Gave clue 1 a type word, replaced the instant King Kong clue with the airship mooring mast, and moved that harder fact ahead of the tallest-building clue."
+ },
+ {
+  "id": "angkor-wat",
+  "answer": "Angkor Wat",
+  "category": "Landmarks",
+  "before": [
+   "The largest religious monument in the world, it is the only building to appear on a country's flag.",
+   "Raised in the 12th century as a Hindu temple, it was later embraced by Buddhists who still worship there.",
+   "Its five lotus-shaped towers rise from the jungles of Cambodia, ringed by an enormous moat.",
+   "This sprawling ancient temple complex is Cambodia's national symbol and its greatest treasure."
+  ],
+  "after": [
+   "Unlike most temples of its region, this temple faces west, which some scholars link to a funerary role for its builder, King Suryavarman II.",
+   "Raised in the 12th century as a Hindu temple, it was later embraced by Buddhists who still worship there.",
+   "The largest religious structure ever built, this temple appears on its country's national flag.",
+   "This vast temple complex just north of Siem Reap is the most famous monument of Cambodia's ancient Khmer Empire."
+  ],
+  "changed": [
+   1,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.newworldencyclopedia.org/entry/Angkor_Wat",
+   "3": "https://www.guinnessworldrecords.com/world-records/largest-religious-structure",
+   "4": "https://www.newworldencyclopedia.org/entry/Angkor_Wat"
+  },
+  "summary": "Clue 1 now says it is a temple, uses Guinness's 'largest religious structure' wording, and drops the doubtful 'only building on a flag' claim (the flag itself is confirmed by the CIA World Factbook). Second pass: Replaced the descriptive Cambodia clue with the west-facing funerary fact (moved to clue 1 as the hardest), moved the flag clue to clue 3, and rewrote clue 4 so it no longer repeats the national-symbol idea."
+ },
+ {
+  "id": "hollywood-sign",
+  "answer": "Hollywood Sign",
+  "category": "Landmarks",
+  "before": [
+   "It went up in 1923 as an advertisement for a housing development and once spelled out a longer word ending in 'LAND.'",
+   "Each of its towering white letters stands about 45 feet tall on a dusty hillside.",
+   "You can't legally walk right up to it — cameras and fences guard the ridge it sits on above Los Angeles.",
+   "These giant white letters spell out the name of the famous movie-making district in the Los Angeles hills."
+  ],
+  "after": [
+   "This landmark went up in 1923 to advertise a housing development, and four of its letters were taken down in 1949.",
+   "You can't legally walk right up to it — cameras and fences guard the ridge it sits on above Los Angeles.",
+   "When it was rebuilt in 1978, nine donors each paid for one of its letters, with rock star Alice Cooper sponsoring an O.",
+   "These giant white letters spell out the name of the famous movie-making district in the Los Angeles hills."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Hollywood_Sign",
+   "2": "moved from clue 3",
+   "3": "https://www.hollywoodsign.org/history/a-sign-is-reborn-1978"
+  },
+  "summary": "Gave clue 1 a type word and dropped the 'LAND' hint, removed the giant-letters clue that repeated clue 4, moved the fences clue up, and added the 1978 rebuild with Alice Cooper's O as clue 3."
+ },
+ {
+  "id": "walt-disney",
+  "answer": "Walt Disney",
+  "category": "Movies",
+  "before": [
+   "He was told early on that he 'lacked imagination and had no good ideas,' and was fired from a newspaper job.",
+   "This animation pioneer voiced a certain cheerful mouse himself in the character's early cartoons.",
+   "He built a California theme park in 1955 and holds the record for most Academy Awards won by one person.",
+   "Creator of Mickey Mouse, this studio founder lent his name to the 'happiest place on Earth.'"
+  ],
+  "after": [
+   "This film producer's Kansas City animation studio, Laugh-O-Gram, went bankrupt in 1923 before he moved to Hollywood.",
+   "This animator lost his first hit character, Oswald the Lucky Rabbit, in a 1928 contract dispute, because Universal held the copyright.",
+   "He holds the record for most Academy Awards won by one person, with 22 competitive Oscars from 59 nominations.",
+   "Creator of Mickey Mouse, this studio founder lent his name to the 'happiest place on Earth.'"
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Laugh-O-Gram_Studio",
+   "2": "https://www.inverse.com/article/12582-walt-disney-s-weird-buddy-what-happened-to-oswald-the-lucky-rabbit",
+   "3": "https://www.emmys.com/bios/walt-disney"
+  },
+  "summary": "Replaced the poorly documented newspaper-firing story with the well-documented 1923 Laugh-O-Gram bankruptcy, opened with a type word. Second pass: Replaced the Mickey voice clue and the Disneyland clue, which both overlapped clue 4, with the Oswald contract loss and the 22-from-59 Oscar record."
+ },
+ {
+  "id": "the-sun",
+  "answer": "The Sun",
+  "category": "Space",
+  "before": [
+   "It converts four million tons of itself into pure energy every second, yet has burned steadily for billions of years.",
+   "A middling yellow star, it holds 99.8% of the Solar System's mass and could fit a million Earths inside.",
+   "Its glowing surface flings out flares and dark, cooler patches called spots.",
+   "Earth orbits this blazing ball of hydrogen and helium at the center of our Solar System."
+  ],
+  "after": [
+   "This star turns about four million tons of itself into energy every second, yet will keep shining for billions of years.",
+   "This star's thin outer atmosphere reaches about 2 million °F, far hotter than its 10,000 °F surface, and scientists still debate why.",
+   "A new gas was spotted in this star's light during an 1868 eclipse, years before anyone found it on Earth, and was named after it.",
+   "Earth orbits this blazing ball of hydrogen and helium at the center of our Solar System."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.universetoday.com/articles/sun-and-earth",
+   "2": "https://www.nasa.gov/science-research/heliophysics/nasas-parker-solar-probe-and-the-curious-case-of-the-hot-corona",
+   "3": "https://en.wikipedia.org/wiki/Helium"
+  },
+  "summary": "Gave clue 1 a type word, replaced the instant yellow-star/99.8%-mass clue and the flares-and-spots clue with the hot-corona puzzle and the 1868 discovery of helium in its light."
+ },
+ {
+  "id": "chichen-itza",
+  "answer": "Chichen Itza",
+  "category": "Landmarks",
+  "before": [
+   "Twice a year, sunlight slithers down a staircase edge here, making a serpent of shadow appear to descend.",
+   "Its main step-pyramid, El Castillo, encodes the days of the year in its 365 steps.",
+   "Built by the Maya on Mexico's Yucatan Peninsula, it was a great city of temples and ball courts.",
+   "This pre-Columbian ruin, topped by the pyramid of Kukulcan, is one of the New Seven Wonders."
+  ],
+  "after": [
+   "This ancient site's Sacred Cenote, a natural sinkhole, has been dredged for thousands of offerings, including gold, jade and human bones.",
+   "At this site, the setting sun near each equinox casts a shadow serpent that seems to slither down a pyramid's staircase.",
+   "Its main step-pyramid, El Castillo, encodes the days of the year in its 365 steps.",
+   "This ruined city was voted one of the New Seven Wonders of the World in 2007, alongside Machu Picchu and the Taj Mahal."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Cult_of_the_Cenote",
+   "2": "https://multiverse.ssl.berkeley.edu/Calendar-in-the-Sky/Articles/The-Descent-of-Kukulkan",
+   "3": "moved from clue 2",
+   "4": "https://en.wikipedia.org/wiki/New_7_Wonders_of_the_World"
+  },
+  "summary": "Clue 1 now says the answer is an ancient site, and clue 4 swaps the repeated pyramid for the 2007 New Seven Wonders vote. Second pass: Replaced the generic Maya-city description with the Sacred Cenote offerings fact (without the disputed sacrifice claim) and placed it before the better-known El Castillo clue."
+ },
+ {
+  "id": "queen-band",
+  "answer": "Queen",
+  "category": "Music",
+  "before": [
+   "Its four members were each accomplished songwriters, a rarity for a rock band.",
+   "Fronted by the flamboyant Freddie Mercury, this British group stole the show at 1985's Live Aid.",
+   "Its guitarist Brian May built his own instrument and holds a PhD in astrophysics.",
+   "This band stomped and clapped through 'We Will Rock You' and layered the operatic 'Bohemian Rhapsody.'"
+  ],
+  "after": [
+   "All four members of this rock band were inducted into the Songwriters Hall of Fame in 2003, because each had written hit singles.",
+   "This band's guitarist built his own guitar with his father as a teenager and finished a PhD in astrophysics in 2007.",
+   "This British band's 21-minute set at Live Aid in 1985 was voted the best rock gig of all time in a 2005 poll.",
+   "This band stomped and clapped through 'We Will Rock You' and layered the operatic 'Bohemian Rhapsody.'"
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Queen_(band)",
+   "2": "https://en.wikipedia.org/wiki/Brian_May",
+   "3": "https://en.wikipedia.org/wiki/Queen%27s_performance_at_Live_Aid"
+  },
+  "summary": "Clue 1 drops the bare 'Its' and adds the verified Songwriters Hall of Fame fact, Freddie Mercury's name is gone, and the harder guitarist clue now comes before Live Aid."
+ },
+ {
+  "id": "death-valley",
+  "answer": "Death Valley",
+  "category": "Geography",
+  "before": [
+   "It holds the record for the hottest air temperature ever reliably measured on Earth, 134°F.",
+   "This desert basin in California sinks to the lowest, driest point in North America.",
+   "Rocks mysteriously slide across its cracked mudflat, leaving trails with no obvious cause.",
+   "Its grim name warns of the brutal heat in this below-sea-level national park near the Nevada border."
+  ],
+  "after": [
+   "This park's dry lake bed is known for rocks, some weighing hundreds of pounds, that slide across it, pushed by thin sheets of ice and light wind.",
+   "This place holds the official record for Earth's hottest air temperature, 134°F in 1913, though some experts doubt that reading.",
+   "This California desert basin holds the lowest point in North America, about 282 feet below sea level.",
+   "This national park near the Nevada border got its grim name from gold seekers who were trapped there in the winter of 1849."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Sailing_stones",
+   "2": "https://www.skepticalscience.com/death-valley-hottest-temperature-record.html",
+   "3": "https://www.nps.gov/places/badwater-basin.htm",
+   "4": "https://www.nationalgeographic.com/history/article/death-valley-name-extreme-desert-topography"
+  },
+  "summary": "Moved the sliding rocks to clue 1 with the 2014 ice-and-wind explanation, flagged the disputed 1913 record, added the 282-foot low point, and gave clue 4 the 1849 naming story so it no longer repeats 'below sea level'."
+ },
+ {
+  "id": "ghostbusters",
+  "answer": "Ghostbusters",
+  "category": "Movies",
+  "before": [
+   "Standard issue for this crew is an unlicensed nuclear accelerator worn on the back.",
+   "Its 1984 theme song by Ray Parker Jr. poses a question and then answers it by shouting a name.",
+   "Dan Aykroyd and Harold Ramis wrote it, and a giant marshmallow mascot flattens much of Manhattan in the finale.",
+   "In it, Bill Murray leads a team of parapsychologists who trap spirits around New York for a fee."
+  ],
+  "after": [
+   "In this film, the heroes wear what one of them calls an 'unlicensed nuclear accelerator' on their backs.",
+   "Huey Lewis sued over this film's theme song, saying it copied his hit 'I Want a New Drug', and the case was settled out of court.",
+   "Dan Aykroyd first wrote this film with a lead role for his friend John Belushi, who died in 1982 before it was made.",
+   "In it, Bill Murray leads a team of parapsychologists who trap spirits around New York for a fee."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Proton_pack",
+   "2": "https://en.wikipedia.org/wiki/Ghostbusters_(song)",
+   "3": "https://en.wikipedia.org/wiki/Peter_Venkman"
+  },
+  "summary": "Clue 1 now names the film rather than the crew, and the instant theme-song and marshmallow-man clues are replaced with the Huey Lewis lawsuit and the John Belushi casting story. Second pass: Dropped the shaky '1983 hit' year from clue 2 and added the checked out-of-court settlement."
+ },
+ {
+  "id": "the-sims",
+  "answer": "The Sims",
+  "category": "Games",
+  "before": [
+   "Its characters speak an invented gibberish, so players end up projecting their own dialogue onto them.",
+   "Will Wright pitched it after losing his house in a wildfire, and executives were sure a game about doing laundry would flop.",
+   "Maxis and EA turned it into the best-selling PC franchise of its era, notorious for players removing the pool ladder.",
+   "Simlish-speaking virtual people live in player-built houses in this Maxis life-simulation series."
+  ],
+  "after": [
+   "This game's characters speak an invented gibberish, so players end up imagining their own dialogue for them.",
+   "In 2002 this game passed Myst to become the best-selling PC game in history up to that time, with over 6.3 million copies sold.",
+   "Will Wright pitched it after losing his house in a wildfire, and executives were sure a game about doing laundry would flop.",
+   "In this Maxis life-simulation game, players build houses and guide the daily lives of virtual people."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://store.epicgames.com/news/the-sims-history-of-conversations-simlish",
+   "2": "https://en.wikipedia.org/wiki/The_Sims",
+   "3": "moved from clue 2",
+   "4": "https://en.wikipedia.org/wiki/The_Sims"
+  },
+  "summary": "Clue 1 opens with 'This game', clue 3 swaps the pool-ladder joke for the verified 2002 Myst sales milestone, and clue 4 drops 'Simlish' and the repeated language fact. Second pass: Swapped clues 2 and 3 word for word so the less direct sales record comes before the easier Will Wright story."
+ },
+ {
+  "id": "drake-rapper",
+  "answer": "Drake",
+  "category": "Music",
+  "before": [
+   "Before he ever charted, he played a wheelchair-using high schooler on a Canadian teen soap.",
+   "He has placed more songs on the Billboard Hot 100 than any other artist in the chart's history.",
+   "The Toronto rapper blurred singing and rapping on Views, and stamps his releases with an owl.",
+   "'Hotline Bling' and 'God's Plan' belong to this Toronto star, born Aubrey Graham."
+  ],
+  "after": [
+   "This rapper first found fame on a Canadian teen drama, playing a basketball star who is shot by a classmate and left using a wheelchair.",
+   "He has placed more songs on the Billboard Hot 100 than any other artist in the chart's history.",
+   "This rapper's streetwear brand OVO, short for October's Very Own, uses an owl as its best-known logo.",
+   "'Hotline Bling' and 'God's Plan' belong to this Toronto star, born Aubrey Graham."
+  ],
+  "changed": [
+   1,
+   3
+  ],
+  "sources": {
+   "1": "https://nylon.com/entertainment/drake-on-degrassi-jimmys-wheelchair",
+   "3": "https://www.complex.com/style/a/gregory-babcock/history-of-ovo-clothing-ovo-timeline"
+  },
+  "summary": "Clue 1 now says 'This rapper' and names the Degrassi storyline more exactly; clue 3 drops 'the Toronto rapper' and centres on the OVO owl logo."
+ },
+ {
+  "id": "bad-bunny",
+  "answer": "Bad Bunny",
+  "category": "Music",
+  "before": [
+   "He was bagging groceries in a Puerto Rican supermarket while uploading tracks to SoundCloud.",
+   "He was the most-streamed artist on Spotify worldwide three years running without recording mainly in English.",
+   "His Un Verano Sin Ti became the first all-Spanish album nominated for the Album of the Year Grammy.",
+   "Puerto Rico's biggest musical export of the 2020s, born Benito Martínez Ocasio, records under a name pairing an adjective with a rabbit."
+  ],
+  "after": [
+   "This singer was bagging groceries in a Puerto Rican supermarket while uploading tracks to SoundCloud.",
+   "This singer was Spotify's most-streamed artist worldwide from 2020 to 2022, the first to top it three years running, while recording almost entirely in Spanish.",
+   "His Un Verano Sin Ti became the first all-Spanish album nominated for the Album of the Year Grammy.",
+   "Puerto Rico's biggest musical export of the 2020s, born Benito Martínez Ocasio, records under a name pairing an adjective with a rabbit."
+  ],
+  "changed": [
+   1,
+   2
+  ],
+  "sources": {
+   "1": "https://www.britishspanishsociety.org/bad-bunny-from-supermarket-shelves-to-the-worlds-biggest-stage/",
+   "2": "https://www.musicbusinessworldwide.com/with-18bn-streams-in-2022-bad-bunny-is-spotifys-most-streamed-artist-globally-for-the-third-year"
+  },
+  "summary": "Clue 1 opens with 'This singer'; clue 2 is reworded to name the years and the Spanish-language point plainly."
+ },
+ {
+  "id": "david-bowie",
+  "answer": "David Bowie",
+  "category": "Music",
+  "before": [
+   "He invented an alien rock-star alter ego, then announced its retirement from the stage mid-show, stunning most of his own band.",
+   "His single about a stranded astronaut was released days before the first Moon landing.",
+   "The English singer's personas included the Thin White Duke, and he played both Nikola Tesla and a Goblin King on film.",
+   "'Heroes' and 'Let's Dance' belong to this chameleonic English artist, born David Jones."
+  ],
+  "after": [
+   "This singer invented an alien rock-star alter ego, then retired it from the stage before the last song of a London show, stunning most of his own band.",
+   "His single about a stranded astronaut was released days before the first Moon landing.",
+   "The English singer's personas included the Thin White Duke, and he played both Nikola Tesla and a Goblin King on film.",
+   "'Heroes' and 'Let's Dance' belong to this chameleonic English artist, whose final album, Blackstar, came out two days before his death."
+  ],
+  "changed": [
+   1,
+   4
+  ],
+  "sources": {
+   "1": "https://americansongwriter.com/on-this-day-in-1973-david-bowie-abruptly-retired-the-most-iconic-alter-ego-in-rock-history/",
+   "4": "https://en.wikipedia.org/wiki/Blackstar_(album)"
+  },
+  "summary": "Clue 1 opens with 'This singer' and places the Ziggy retirement accurately (before the closing song); clue 4 drops 'born David Jones' and uses Blackstar instead of the disputed knife story."
+ },
+ {
+  "id": "dolly-parton",
+  "answer": "Dolly Parton",
+  "category": "Music",
+  "before": [
+   "She has said she wrote a jealous-woman classic and an all-time farewell ballad on the very same day.",
+   "Her Imagination Library has posted more than 200 million free books to children.",
+   "The country singer from Sevier County, Tennessee, gave her name to a theme park in the Smoky Mountains.",
+   "'Jolene' and '9 to 5' belong to this rhinestoned country icon, who helped fund Moderna's vaccine research."
+  ],
+  "after": [
+   "This singer wrote a jealous-woman classic and an all-time farewell ballad so close together that she once said it was the same day.",
+   "Her Imagination Library has posted more than 300 million free books to children in five countries.",
+   "This country singer, the fourth of twelve children, was born in a one-room cabin in Tennessee's Smoky Mountains.",
+   "'9 to 5' and 'Islands in the Stream' belong to this rhinestoned country icon, who helped fund Moderna's vaccine research."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.snopes.com/fact-check/dolly-parton-2-songs-one-day/",
+   "2": "https://www.newschannel5.com/news/dolly-partons-imagination-library-has-gifted-more-than-332-million-books-to-children-around-the-world",
+   "3": "https://dollyparton.com/decades/1940s",
+   "4": "https://en.wikipedia.org/wiki/Islands_in_the_Stream_(song)"
+  },
+  "summary": "Clue 1 opens with 'This singer' and is softened because she later said the two songs may have been days apart; clue 3 replaces the Dollywood giveaway with her birth in a one-room cabin."
+ },
+ {
+  "id": "tiger-woods",
+  "answer": "Tiger Woods",
+  "category": "Sports",
+  "before": [
+   "At twenty-one he won his first major by twelve strokes, the widest margin that course had seen.",
+   "He held all four professional major titles at the same time, a run that took on his own nickname.",
+   "The golfer's 2019 Masters win, eleven years after his previous major, is rated among sport's great comebacks.",
+   "Golf's defining modern player, born Eldrick, has fifteen major championships."
+  ],
+  "after": [
+   "This golfer won his first major at twenty-one by twelve strokes, a record margin for that tournament.",
+   "He held all four professional major titles at the same time, a run that took on his own nickname.",
+   "The golfer's 2019 Masters win, eleven years after his previous major, is rated among sport's great comebacks.",
+   "Golf's defining modern player, born Eldrick, has fifteen major championships."
+  ],
+  "changed": [
+   1
+  ],
+  "sources": {
+   "1": "https://www.history.com/this-day-in-history/april-13/tiger-woods-wins-first-major"
+  },
+  "summary": "Clue 1 now opens with 'This golfer' and keeps the 12-stroke record without naming the Masters before clue 3."
+ },
+ {
+  "id": "voyager-1",
+  "answer": "Voyager 1",
+  "category": "Space",
+  "before": [
+   "It carries a gold-plated record of whale song, greetings in 55 languages and Chuck Berry, in case anyone out there finds it.",
+   "Launched in 1977, it slingshotted past Jupiter and Saturn, then turned around in 1990 to take the 'Pale Blue Dot' photograph of Earth.",
+   "In 2012 it became the first human-made object to cross into interstellar space, still calling home on a transmitter dimmer than a fridge bulb.",
+   "The more distant of NASA's twin probes of 1977, now over 24 billion km out — the farthest thing we have ever made."
+  ],
+  "after": [
+   "This spacecraft's close flyby of Saturn's moon Titan bent its path sharply northward, flinging it up out of the plane in which the planets orbit.",
+   "Launched in 1977, it slingshotted past Jupiter and Saturn, then turned around in 1990 to take the 'Pale Blue Dot' photograph of Earth.",
+   "In 2012 it became the first human-made object to cross into interstellar space, still calling home on a transmitter dimmer than a fridge bulb.",
+   "This is the more distant of NASA's twin 1977 probes, now more than 25 billion km away and the farthest object humans have ever made."
+  ],
+  "changed": [
+   1,
+   4
+  ],
+  "sources": {
+   "1": "https://www.nasa.gov/history/40-years-ago-voyager-1-explores-saturn",
+   "4": "https://earthsky.org/space/voyager-1-1-light-day-from-earth-november-17-18-2026/"
+  },
+  "summary": "Replaced the golden-record clue, which also fits Voyager 2, with the Titan flyby that threw this probe out of the planets' plane, and made clue 4 a full sentence with the current distance (over 25 billion km as of mid-2026)."
+ },
+ {
+  "id": "alcatraz",
+  "answer": "Alcatraz",
+  "category": "Landmarks",
+  "before": [
+   "Its most famous escapees left papier-mâché dummy heads in their beds and were never seen again.",
+   "Al Capone served more than four years here and reportedly played banjo in the inmate band.",
+   "The federal prison shut in 1963 because salt air had eaten the buildings and running it cost about three times any other; Native American activists then occupied the island for 19 months.",
+   "The island prison in San Francisco Bay, a cold mile and a quarter of current from the city."
+  ],
+  "after": [
+   "This prison's most famous escapees left papier-mâché dummy heads in their beds in 1962 and were never seen again.",
+   "Native American activists occupied this island for 19 months from 1969, after its federal prison had closed.",
+   "Al Capone served more than four years in this prison and reportedly played banjo in the inmate band.",
+   "This island prison sits in San Francisco Bay, about a mile and a quarter of cold water from the city."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/June_1962_Alcatraz_escape",
+   "2": "https://www.nps.gov/goga/learn/historyculture/alcatraz-occupation.htm",
+   "3": "https://history.com/news/10-things-you-may-not-know-about-alcatraz",
+   "4": "https://en.wikipedia.org/wiki/Alcatraz_Island"
+  },
+  "summary": "Gave clue 1 a proper opener and the 1962 date, cut the overloaded clue 3 down to the occupation and swapped it ahead of the better-known Capone clue, and made clue 4 a full sentence."
+ },
+ {
+  "id": "silk-road",
+  "answer": "Silk Road",
+  "category": "History",
+  "before": [
+   "It was never one road, and the name was invented by a German geographer in 1877, long after the traffic had died.",
+   "Almost nobody travelled its whole length; goods changed hands dozens of times between Chang'an and the Mediterranean.",
+   "Paper, gunpowder, Buddhism and — by most accounts — the Black Death all moved along it beside the spices and horses.",
+   "The network of caravan routes across Central Asia, named for the shimmering Chinese cargo that made it worth the journey."
+  ],
+  "after": [
+   "This trade network was never one route, and its name was popularized by a German geographer in 1877, long after the traffic had died.",
+   "Almost nobody travelled its whole length; goods changed hands dozens of times between Chang'an and the Mediterranean.",
+   "Paper, gunpowder, Buddhism and — by most accounts — the Black Death all moved along it beside the spices and horses.",
+   "This network of caravan routes across Central Asia is named for the shimmering Chinese cargo that made the journey worthwhile."
+  ],
+  "changed": [
+   1,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Ferdinand_von_Richthofen",
+   "4": "https://daily.jstor.org/inventing-silk-roads"
+  },
+  "summary": "Gave clue 1 a proper opener and softened 'invented' to 'popularized', since recent research finds the German term in print decades before Richthofen's 1877 use, and made clue 4 a full sentence."
+ },
+ {
+  "id": "pompeii",
+  "answer": "Pompeii",
+  "category": "History",
+  "before": [
+   "The bodies are long gone — the famous plaster figures are casts of the hollows the bodies left behind.",
+   "Its walls still carry graffiti about elections, gladiators and who loved whom, frozen as of a single afternoon.",
+   "Pliny the Younger watched from across the bay and wrote down the shape of the cloud: an umbrella pine.",
+   "The Roman town buried under ash by Vesuvius in AD 79 and dug back out, astonishingly intact, from 1748 onwards."
+  ],
+  "after": [
+   "This ancient town's walls still carry thousands of graffiti about elections, gladiators and who loved whom.",
+   "A mosaic of a chained dog at the entrance of one of this town's houses carries the warning 'Cave canem', 'Beware of the dog'.",
+   "Archaeologists found 81 loaves of bread, turned to charcoal, still inside one of this town's bakery ovens.",
+   "This Roman town was buried under ash by Vesuvius in AD 79 and dug back out, astonishingly intact, from 1748 onwards."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.smithsonianmag.com/history/pompeiis-graffiti-captures-every-joke-boast-and-argument-of-an-ancient-roman-city-frozen-in-time-180987831/",
+   "2": "https://ancientrome.ru/art/artworken/img.htm?id=8748",
+   "3": "https://www.nationalgeographic.com/magazine/article/re-creating-2000-year-old-bread-found-in-pompeii-post-vesuvius",
+   "4": "https://www.na4.cambridgescp.com/weblink/449"
+  },
+  "summary": "Swapped the graffiti and plaster-cast clues so the lesser-known fact comes first, gave clue 1 a proper opener, dropped the 'single afternoon' phrase because the burial took longer than that, and made clue 4 a full sentence. Second pass: Replaced the instantly recognisable plaster-casts clue 2 with the verified 'Cave canem' chained-dog mosaic from the House of the Tragic Poet."
+ },
+ {
+  "id": "gps",
+  "answer": "GPS",
+  "category": "Technology",
+  "before": [
+   "The clocks aboard its satellites are deliberately built to tick at the wrong rate, because relativity speeds them up once they are in orbit.",
+   "The US military blurred the civilian signal on purpose until 2000, when President Clinton ordered the fuzzing switched off.",
+   "A receiver needs four of the 31 satellites in view — three to place it, one to fix its own clock — and it only ever listens, never transmits.",
+   "The American satellite navigation system your phone's blue dot rides on, alongside Europe's Galileo."
+  ],
+  "after": [
+   "This system's civilian signal was blurred on purpose by the US military until 2000, when President Clinton ordered the fuzzing switched off.",
+   "This system's satellite clocks are set to tick slightly slow before launch, because relativity makes them gain about 38 microseconds a day in orbit.",
+   "This system's receivers only ever listen and never transmit, so the satellites cannot tell where anyone is, and any number of people can use it at once.",
+   "This American satellite navigation system puts the blue dot on your phone's map, often alongside Europe's Galileo."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.gps.gov/selective-availability",
+   "2": "https://courses.ems.psu.edu/geog862/node/1714",
+   "3": "https://gge.ext.unb.ca/Resources/HowDoesGPSWork.html",
+   "4": "https://www.euspa.europa.eu/gnss-and-your-phone"
+  },
+  "summary": "Gave clue 1 a proper opener with the checked 38-microsecond figure, cut clue 3 down to the receive-only fact and its consequences, and made clue 4 a full sentence. Second pass: Swapped clues 1 and 2 so the less direct Selective Availability fact leads, rewording it to open with 'This system's'."
+ },
+ {
+  "id": "ramen",
+  "answer": "Ramen",
+  "category": "Food & Drink",
+  "before": [
+   "A national poll once voted its instant version Japan's finest invention of the 20th century, ahead of karaoke.",
+   "Momofuku Ando flash-fried the noodles in 1958 so they would keep for months and cook in three minutes; the cup followed in 1971.",
+   "The restaurant version is fiercely regional — miso in Sapporo, milky pork-bone tonkotsu in Hakata — and the broth can simmer for a day.",
+   "The Japanese wheat-noodle soup topped with chashu pork, a jammy egg and a sheet of nori, Chinese in origin despite the reputation."
+  ],
+  "after": [
+   "This dish was sold in Japan for decades as 'shina soba', a name dropped after the Second World War because 'shina', an old word for China, had turned derogatory.",
+   "Momofuku Ando developed the instant version in 1958 in a shed behind his house, flash-frying the noodles so they would keep without spoiling; the cup followed in 1971.",
+   "The restaurant version is fiercely regional — miso in Sapporo, milky pork-bone tonkotsu in Hakata — and the broth can simmer for a day.",
+   "This Japanese noodle soup is usually topped with chashu pork, a soft-boiled egg and a sheet of nori."
+  ],
+  "changed": [
+   1,
+   2,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Ramen",
+   "2": "https://www.nissin.com/en_jp/about/founder/",
+   "4": "https://en.wikipedia.org/wiki/Ramen"
+  },
+  "summary": "Replaced the giveaway instant-noodle poll in clue 1 with the old 'shina soba' name, dropped the unconfirmed three-minute and 'months' claims from clue 2, and made clue 4 a full sentence."
+ },
+ {
+  "id": "george-orwell",
+  "answer": "George Orwell",
+  "category": "Literature",
+  "before": [
+   "He took his pen name from a river in Suffolk.",
+   "Born Eric Blair in India, he was shot through the throat fighting in the Spanish Civil War.",
+   "He coined 'Big Brother,' 'doublethink,' and 'thoughtcrime' in a novel named after a year.",
+   "The English author of Animal Farm and Nineteen Eighty-Four."
+  ],
+  "after": [
+   "This author took his pen name from a river in Suffolk.",
+   "Born Eric Blair in India, he was shot through the throat fighting in the Spanish Civil War.",
+   "He spent five years as a colonial police officer in Burma, which he later drew on for the essay 'Shooting an Elephant.'",
+   "He was the English author of Animal Farm and Nineteen Eighty-Four."
+  ],
+  "changed": [
+   1,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/River_Orwell",
+   "3": "https://en.wikipedia.org/wiki/Shooting_an_Elephant",
+   "4": "https://en.wikipedia.org/wiki/George_Orwell"
+  },
+  "summary": "Opened clue 1 with 'This author', replaced the Big Brother clue that repeated clue 4 with his Burma police years, and made clue 4 a full sentence."
+ },
+ {
+  "id": "hashtag",
+  "answer": "Hashtag",
+  "category": "Internet",
+  "before": [
+   "A designer first suggested it in a 2007 tweet, and the company's first reaction was that it was for nerds.",
+   "It borrows the symbol Americans call the pound sign and programmers sometimes call an octothorpe.",
+   "Movements like #MeToo and #BlackLivesMatter spread under one.",
+   "The pound-sign label, like #TBT, that groups posts on a topic so they can be searched."
+  ],
+  "after": [
+   "This internet label was named Word of the Year for 2012 by the American Dialect Society, ahead of YOLO and 'fiscal cliff'.",
+   "A designer first proposed it in a 2007 tweet as a way to group posts, and Twitter's first response was that it was for nerds.",
+   "One of these took off worldwide in October 2017 after actress Alyssa Milano asked anyone sexually harassed or assaulted to reply 'me too' to her tweet.",
+   "This pound-sign label, as in #TBT, groups posts on a topic so they can be searched."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://americandialect.org/?p=21407",
+   "2": "https://en.wikipedia.org/wiki/Chris_Messina_(inventor)",
+   "3": "https://fortune.com/2017/10/16/me-too-facebook-alyssa-milano",
+   "4": "https://en.wikipedia.org/wiki/Hashtag"
+  },
+  "summary": "Gave clue 1 a subject, replaced the pound-sign clue with the 2012 Word of the Year win, removed the # symbols from clue 3, and made clue 4 a full sentence. Second pass: Swapped clues 1 and 2 so the Word of the Year fact leads, and replaced the generic movements clue 3 with the specific, verified Alyssa Milano MeToo tweet of October 2017."
+ },
+ {
+  "id": "mickey-mouse",
+  "answer": "Mickey Mouse",
+  "category": "Pop Culture",
+  "before": [
+   "He exists because his creator lost the rights to a lucky rabbit.",
+   "His first released cartoon, Steamboat Willie in 1928, was one of the first with synchronized sound.",
+   "His creator voiced him for nearly two decades, and his earliest version entered the US public domain in 2024.",
+   "Disney's mascot mouse with round black ears, red shorts, and white gloves, sweetheart of Minnie."
+  ],
+  "after": [
+   "This cartoon character's creator received an honorary Academy Award in 1932 for creating him.",
+   "He exists because his creator lost the rights to an earlier star, a lucky rabbit.",
+   "His creator voiced him for nearly two decades, and his earliest version entered the US public domain in 2024.",
+   "He is Disney's mascot, with round black ears, red shorts, white gloves and a sweetheart named Minnie."
+  ],
+  "changed": [
+   1,
+   2,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/List_of_Academy_Awards_for_Walt_Disney",
+   "2": "reworded from clue 1",
+   "4": "https://en.wikipedia.org/wiki/Mickey_Mouse"
+  },
+  "summary": "Opened clue 1 with 'This cartoon character', swapped the Steamboat Willie giveaway for the 1932 honorary Oscar, and made clue 4 a full sentence without the word 'mouse'. Second pass: Swapped clues 1 and 2 so the lesser-known 1932 honorary Oscar leads, rewording it to open with 'This cartoon character's'."
+ },
+ {
+  "id": "johannes-gutenberg",
+  "answer": "Johannes Gutenberg",
+  "category": "History",
+  "before": [
+   "A lawsuit by his own investor cost him his workshop just as his greatest project was being finished.",
+   "A goldsmith from Mainz, he devised a hand mold for casting metal letters quickly and in bulk.",
+   "His famous 42-line Bible, printed around 1455, survives in fewer than 50 copies.",
+   "The German who brought movable-type printing to Europe in the 1450s."
+  ],
+  "after": [
+   "This craftsman's own investor sued him just as his greatest project was nearly finished, and the court case cost him much of his equipment.",
+   "A goldsmith from Mainz, he devised a hand mold for casting metal letters quickly and in bulk.",
+   "His famous 42-line Bible, printed around 1455, survives in fewer than 50 copies.",
+   "This German is credited with bringing movable-type printing to Europe in the mid-1400s."
+  ],
+  "changed": [
+   1,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Johann_Fust",
+   "4": "https://en.wikipedia.org/wiki/Johannes_Gutenberg"
+  },
+  "summary": "Clue 1 now says what kind of person he is and claims lost equipment rather than the whole workshop, since sources dispute whether he lost the press; clue 4 is now a full sentence."
+ },
+ {
+  "id": "jeopardy",
+  "answer": "Jeopardy!",
+  "category": "Television",
+  "before": [
+   "Its creator got the idea when his wife suggested giving contestants the answers first.",
+   "Its creator also wrote its 30-second 'Think!' music, which he said earned him tens of millions in royalties.",
+   "Ken Jennings won 74 games in a row on it in 2004 and later became its host.",
+   "The quiz show hosted for 37 seasons by Alex Trebek, where every response must be phrased as a question."
+  ],
+  "after": [
+   "This TV quiz show first aired on NBC in 1964, with Art Fleming as its host.",
+   "Its creator also wrote the 30-second tune that plays during its final round, which he said earned him tens of millions in royalties.",
+   "In 2011 two of its greatest champions lost a two-game match to an IBM computer called Watson.",
+   "This quiz show, hosted for 37 seasons by Alex Trebek, has contestants pick clues from a board of categories and dollar values."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Jeopardy!",
+   "2": "https://mentalfloss.com/article/24893/merv-griffin-80-million-lullaby-more-tales-music-royalties",
+   "3": "https://www.kurzweilai.net/human-vs-ai-contest-on-jeopardy-first-day-results-just-announced",
+   "4": "https://thetacomaledger.com/2020/11/23/rest-in-peace-alex-trebek/"
+  },
+  "summary": "Gave clue 1 a 'This TV show' opener, swapped the Ken Jennings giveaway for the 2011 Watson match, and made clue 4 a full sentence about the clue board instead of repeating the answers-first idea. Second pass: Moved the Watson clue up to clue 2 and reworded the music clue without the 'Think!' title so it no longer gives the show away."
+ },
+ {
+  "id": "psycho",
+  "answer": "Psycho",
+  "category": "Movies",
+  "before": [
+   "Its director bought up as many copies of the source novel as he could to keep the ending secret.",
+   "Theaters were told to let no one in once it had started.",
+   "Its heroine is killed off well before the halfway mark, in a shower scene built from dozens of rapid cuts.",
+   "Hitchcock's 1960 thriller set at the Bates Motel, run by the mother-obsessed Norman Bates."
+  ],
+  "after": [
+   "This film's director bought up as many copies of the source novel as he could to keep its ending secret.",
+   "Theaters were told to let no one in once it had started.",
+   "Shot in black and white, it used chocolate syrup for the blood in its most famous scene.",
+   "This 1960 Hitchcock thriller is set at the Bates Motel, run by the mother-obsessed Norman Bates."
+  ],
+  "changed": [
+   1,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://nowiknow.com/?p=10246",
+   "3": "https://en.wikipedia.org/wiki/Psycho_shower_scene",
+   "4": "https://en.wikipedia.org/wiki/Psycho_(1960_film)"
+  },
+  "summary": "Added a 'This film' opener to clue 1, replaced the shower-scene giveaway with the chocolate-syrup blood, and made clue 4 a full sentence."
+ },
+ {
+  "id": "space-invaders",
+  "answer": "Space Invaders",
+  "category": "Games",
+  "before": [
+   "A popular legend claims it caused a shortage of 100-yen coins in Japan.",
+   "Its enemies speed up as their numbers dwindle — originally a side effect of the hardware having fewer of them to draw.",
+   "Released by Taito in 1978, it sends rows of pixel aliens marching side to side and stepping down toward your laser cannon.",
+   "The classic arcade shooter in which you defend Earth from descending waves of aliens."
+  ],
+  "after": [
+   "A popular legend claims this arcade game caused a shortage of 100-yen coins in Japan.",
+   "Its enemies speed up as their numbers dwindle — originally a side effect of the hardware having fewer of them to draw.",
+   "This 1978 Taito game's designer tried soldiers as the targets, then switched to aliens because a game about shooting people was frowned upon.",
+   "This classic arcade shooter has you defend Earth from rows of aliens that march down the screen toward your laser cannon."
+  ],
+  "changed": [
+   1,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Space_Invaders",
+   "3": "https://www.timeextension.com/features/best-of-2025-tomohiro-nishikado-on-making-space-invaders-and-what-makes-games-fun",
+   "4": "https://en.wikipedia.org/wiki/Space_Invaders"
+  },
+  "summary": "Said what kind of thing it is in clue 1, replaced the gameplay description in clue 3 with the designer's switch from soldiers to aliens, and made clue 4 a full sentence."
+ },
+ {
+  "id": "sunflower",
+  "answer": "Sunflower",
+  "category": "Nature",
+  "before": [
+   "Young ones turn to follow the Sun across the sky, then settle facing east once they bloom.",
+   "Each big flower head is really a crowd of tiny florets, packed in spirals that follow the Fibonacci numbers.",
+   "It is a national symbol of Ukraine, one of the world's top producers of the oil pressed from its seeds.",
+   "The tall yellow bloom Van Gogh painted again and again in vases, whose striped seeds are a ballpark snack."
+  ],
+  "after": [
+   "Rafts of this plant were floated on a pond near Chernobyl after the 1986 disaster, and their roots drew radioactive cesium and strontium out of the water.",
+   "Each big flower head is really a crowd of tiny florets, packed in spirals that follow the Fibonacci numbers.",
+   "It is a national symbol of Ukraine, one of the world's top producers of the oil pressed from its seeds.",
+   "This tall yellow bloom fills Van Gogh's famous vase paintings, and its striped seeds are a ballpark snack."
+  ],
+  "changed": [
+   1,
+   4
+  ],
+  "sources": {
+   "1": "https://www.scienceabc.com/nature/why-were-sunflowers-planted-in-the-shadow-of-nuclear-disasters.html",
+   "4": "https://vggallery.com/painting/p_0454.htm"
+  },
+  "summary": "Removed 'Sun' from clue 1 and gave it a 'This plant' opener, and made clue 4 a full sentence. Second pass: Replaced the well-known sun-tracking clue 1 with the Chernobyl raft cleanup fact."
+ },
+ {
+  "id": "mangrove",
+  "answer": "Mangrove",
+  "category": "Nature",
+  "before": [
+   "In some species the seeds sprout while still hanging from the parent, then drop off as ready-made seedlings.",
+   "Its forests can store up to four times as much carbon per acre as a tropical rainforest, and they blunt storm surges along the shore.",
+   "It grows where few trees can, in salty tidal water, propped up on arching stilt roots and breathing through roots that poke up out of the mud.",
+   "The salt-tolerant tree whose tangled coastal swamps fringe the Florida Everglades and the Sundarbans, home of the Bengal tiger."
+  ],
+  "after": [
+   "In some species of this tree, the seeds sprout while still hanging from the parent, then drop off as ready-made seedlings.",
+   "Its forests can store up to four times as much carbon per acre as a tropical rainforest, and they blunt storm surges along the shore.",
+   "Mudskippers, fish that hop about on land, shelter and hunt among the tangle of its roots.",
+   "This salt-tolerant tree forms the coastal swamps of the Florida Everglades and the Sundarbans, home of the Bengal tiger."
+  ],
+  "changed": [
+   1,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1430782/pdf",
+   "3": "https://www.aquarium.co.za/animals/mudskipper",
+   "4": "https://whc.unesco.org/document/154300"
+  },
+  "summary": "Said it is a tree in clue 1, replaced the how-it-grows description in clue 3 with the mudskippers that live in its roots, and made clue 4 a full sentence."
+ },
+ {
+  "id": "cherry-blossom",
+  "answer": "Cherry Blossom",
+  "category": "Nature",
+  "before": [
+   "Japanese forecasters track its 'front' as it moves north up the country each spring.",
+   "Viewing parties called hanami gather beneath it to picnic and drink.",
+   "In 1912 the mayor of Tokyo gave Washington, D.C., about 3,000 of its trees, which now ring the Tidal Basin.",
+   "The pale pink spring flower of Japan's ornamental cherry trees."
+  ],
+  "after": [
+   "Every tree of one of this flower's most widely planted varieties is a clone, copied by grafting from a single hybrid tree.",
+   "During the Second World War, some kamikaze pilots had this flower painted on the sides of their planes.",
+   "In 1912 the mayor of Tokyo gave Washington, D.C., about 3,000 of its trees, which now ring the Tidal Basin.",
+   "This pale pink spring flower, a Japanese symbol of the fragility of life, stays in full bloom for only about a week."
+  ],
+  "changed": [
+   1,
+   2,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Prunus_%C3%97_yedoensis",
+   "2": "https://www.kamikazeimages.net/books/general/ohnuki-tierney/index.htm",
+   "4": "https://www.malaymail.com/news/life/2026/03/31/cherry-blossom-season-peaks-in-japan-as-locals-and-tourists-gather-for-spring-spectacle/214461"
+  },
+  "summary": "Clue 1 now names the answer as a flower, and clue 4 drops the word 'cherry' (and avoids 'sakura') for a full sentence about its short bloom and symbolism. Second pass: Replaced the instant 'blossom front' and hanami clues with the Somei-Yoshino clone fact and the kamikaze plane fact, leaving the fragility symbolism to clue 4 only."
+ },
+ {
+  "id": "the-thinker",
+  "answer": "The Thinker",
+  "category": "Art",
+  "before": [
+   "It began as a figure of the poet Dante, seated above a huge bronze doorway to Hell.",
+   "More than 20 full-size bronze casts of it exist, so you can see it in Paris, Philadelphia, Tokyo and beyond.",
+   "Auguste Rodin modeled it as a powerfully muscled nude man who seems to strain even while sitting still.",
+   "The sculpture of a man seated with his chin resting on his hand, lost in thought."
+  ],
+  "after": [
+   "A cast of this sculpture stands on the grave its creator shares with his wife at Meudon, outside Paris.",
+   "This sculpture began as a figure of the poet Dante, seated above a huge bronze doorway to Hell.",
+   "More than 20 full-size bronze casts of it exist, so you can see it in Paris, Philadelphia, Tokyo and beyond.",
+   "This bronze sculpture shows a nude man seated with his chin resting on his hand."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.musee-rodin.fr/en/collections/sculptures/thinker-0",
+   "2": "https://en.wikipedia.org/wiki/The_Thinker",
+   "3": "moved from clue 2",
+   "4": "https://en.wikipedia.org/wiki/The_Thinker"
+  },
+  "summary": "Clue 1 now opens with 'This sculpture' and clue 4 is a full sentence; the other clues are unchanged. Second pass: Replaced the clue naming Rodin with the Meudon grave fact, placed it before the casts clue as the harder of the two, and dropped 'lost in thought' from clue 4."
+ },
+ {
+  "id": "cornea",
+  "answer": "Cornea",
+  "category": "Human Body",
+  "before": [
+   "It has no blood vessels at all, so it takes its oxygen straight from the air.",
+   "It is among the most often transplanted tissues, partly because, with no blood supply, it is rarely rejected.",
+   "LASIK surgery reshapes it with a laser to correct nearsightedness.",
+   "The clear dome over the front of the eye, covering the iris and pupil."
+  ],
+  "after": [
+   "This part of the body has no blood vessels at all, so it takes its oxygen straight from the air.",
+   "It is the most densely nerve-packed tissue in the body, which is why a speck of grit in the eye hurts so much.",
+   "LASIK surgery reshapes it with a laser to correct nearsightedness.",
+   "This clear dome over the front of the eye covers the iris and pupil."
+  ],
+  "changed": [
+   1,
+   2,
+   4
+  ],
+  "sources": {
+   "1": "https://africacheck.org/fact-checks/meta-programme-fact-checks/yes-eyes-cornea-doesnt-have-blood-and-gets-its-oxygen-air",
+   "2": "https://www.frontiersin.org/articles/10.3389/fncel.2020.610342/full",
+   "4": "https://africacheck.org/fact-checks/meta-programme-fact-checks/yes-eyes-cornea-doesnt-have-blood-and-gets-its-oxygen-air"
+  },
+  "summary": "Clue 1 now says what kind of thing the answer is, clue 2 swaps the repeated no-blood-supply fact for its record nerve density, and clue 4 is a full sentence."
+ },
+ {
+  "id": "kraken",
+  "answer": "Kraken",
+  "category": "Mythology",
+  "before": [
+   "An 18th-century bishop wrote that it was so huge sailors could mistake its back for a cluster of small islands.",
+   "Tales of it may have been inspired by real sightings of the giant squid.",
+   "In Scandinavian folklore it lurks off the coasts of Norway and Greenland, dragging whole ships under with its arms.",
+   "The colossal sea monster Zeus orders unleashed in 'Clash of the Titans.'"
+  ],
+  "after": [
+   "An 18th-century bishop wrote that this sea creature was so huge sailors could mistake its back for a cluster of small islands.",
+   "Alfred Tennyson wrote a 15-line poem about this creature sleeping on the ocean floor until an end-times fire makes it rise and die.",
+   "Tales of it may have been inspired by real sightings of the giant squid.",
+   "This colossal sea monster is the one Zeus orders unleashed in 'Clash of the Titans.'"
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://jimclifford.ca/early_encyclopedia_britannica/articles/1797/eb_3rd_1797_012439.html",
+   "2": "https://victorianweb.org/authors/tennyson/kraken.html",
+   "3": "moved from clue 2",
+   "4": "https://en.wikipedia.org/wiki/Clash_of_the_Titans_(1981_film)"
+  },
+  "summary": "Clue 1 now names the answer as a sea creature and clue 4 is a full sentence; the facts and order are unchanged. Second pass: Replaced the descriptive folklore clue with Tennyson's poem and placed it before the better-known giant squid clue."
+ },
+ {
+  "id": "ice-bucket-challenge",
+  "answer": "Ice Bucket Challenge",
+  "category": "Internet",
+  "before": [
+   "Celebrities from Bill Gates to Oprah Winfrey filmed themselves doing it, then named friends to follow within 24 hours.",
+   "In the summer of 2014 it raised more than $100 million for one charity in about a month.",
+   "Research it paid for helped scientists link a gene, NEK1, to a disease of the nerves.",
+   "The viral stunt of dumping freezing water over your head to raise money for ALS research."
+  ],
+  "after": [
+   "Research paid for by this viral campaign helped scientists link a gene, NEK1, to a disease of the nerves.",
+   "Pete Frates, a former Boston College baseball captain with a nerve disease, helped turn it into a viral phenomenon.",
+   "In the summer of 2014 it raised more than $100 million for one charity in about a month.",
+   "This viral stunt had people dump freezing water over their heads to raise money for ALS research."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.cbsnews.com/news/ice-bucket-challenge-funds-als-gene-discovery/",
+   "2": "https://en.wikipedia.org/wiki/Pete_Frates",
+   "3": "moved from clue 2",
+   "4": "https://en.wikipedia.org/wiki/Pete_Frates"
+  },
+  "summary": "Moved the hard NEK1 gene fact to clue 1, replaced the easy celebrity chain with Pete Frates's role in clue 3, and made clue 4 a full sentence. Second pass: Swapped clues 2 and 3 so the less direct Pete Frates fact comes before the fundraising total; no wording or facts changed."
+ },
+ {
+  "id": "floppy-disk",
+  "answer": "Floppy Disk",
+  "category": "Technology",
+  "before": [
+   "Part of the U.S. nuclear command system relied on 8-inch versions of it until 2019.",
+   "IBM introduced it in 1971; the most common later size held just 1.44 megabytes.",
+   "Its 3½-inch version came in a hard plastic shell with a sliding metal shutter, despite the name.",
+   "The square storage disk that lives on as the 'Save' icon in many programs."
+  ],
+  "after": [
+   "Part of the U.S. nuclear command system relied on 8-inch versions of this storage medium until 2019.",
+   "IBM introduced it in 1971; the most common later size held just 1.44 megabytes.",
+   "Its 3½-inch version came in a hard plastic shell with a sliding metal shutter, despite the name.",
+   "This square storage medium lives on as the 'Save' icon in many programs."
+  ],
+  "changed": [
+   1,
+   4
+  ],
+  "sources": {
+   "1": "https://www.engadget.com/2019/10/18/us-military-nuclear-missiles-floppy-disks/",
+   "4": "https://uxmovement.com/buttons/why-the-floppy-disk-icon-for-save-must-die/"
+  },
+  "summary": "Clue 1 now says what kind of thing the answer is, and clue 4 drops the word 'disk' and reads as a full sentence."
+ },
+ {
+  "id": "computer-mouse",
+  "answer": "Computer Mouse",
+  "category": "Technology",
+  "before": [
+   "Its first version, built in 1964, was a wooden block with two metal wheels underneath.",
+   "Douglas Engelbart showed it off in 1968 in a demo later dubbed 'the Mother of All Demos.'",
+   "Apple's Macintosh made it mainstream in 1984; for years it rolled on a rubber ball before optical sensors took over.",
+   "The hand-held pointer you slide around a desk to click, named for its tail-like cord."
+  ],
+  "after": [
+   "This device's first version, built in 1964, was a wooden block with two metal wheels underneath.",
+   "Douglas Engelbart showed it off in 1968 in a demo later dubbed 'the Mother of All Demos.'",
+   "Apple's Macintosh made it mainstream in 1984; for years it rolled on a rubber ball before optical sensors took over.",
+   "This hand-held pointer, slid around a desk to click, is named for its tail-like cord."
+  ],
+  "changed": [
+   1,
+   4
+  ],
+  "sources": {
+   "1": "https://www.computinghistory.org.uk/det/5403/Douglas-Engelbart-invents-the-mouse/",
+   "4": "https://en.wikipedia.org/wiki/Computer_mouse"
+  },
+  "summary": "Clue 1 now opens with 'This device' instead of a bare 'Its', and clue 4 is rewritten as a full sentence."
+ },
+ {
+  "id": "mr-bean",
+  "answer": "Mr. Bean",
+  "category": "Television",
+  "before": [
+   "Its star, who co-created it, holds a master's degree in electrical engineering.",
+   "Its title character barely speaks, which helped it sell to broadcasters all over the world.",
+   "He drives a lime-green Mini and confides in a teddy bear called Teddy.",
+   "Rowan Atkinson's nearly silent British sitcom about a bumbling, childlike man in a tweed jacket."
+  ],
+  "after": [
+   "This TV show's star, who holds a master's degree in electrical engineering, co-created it; its first episode aired on New Year's Day 1990.",
+   "Its title character appeared at the London 2012 Olympics opening ceremony, playing one repeated note of 'Chariots of Fire.'",
+   "In one episode its title character drives home from a sale sitting in an armchair strapped to his car's roof.",
+   "This nearly silent British sitcom stars Rowan Atkinson as a bumbling, childlike man in a tweed jacket."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Mr._Bean",
+   "2": "https://www.classicfm.com/discover-music/humour/rattle-atkinson-olympics-chariots/",
+   "3": "https://en.wikipedia.org/wiki/Do-It-Yourself_Mr._Bean",
+   "4": "https://en.wikipedia.org/wiki/Mr._Bean"
+  },
+  "summary": "Clue 1 now names the kind of thing, clue 2 swaps the repeated near-silence fact for the 2012 Olympics sketch, and clue 4 is a full sentence. Second pass: Replaced clue 3, which gave the answer away through the green Mini and Teddy, with the armchair-on-the-roof scene from 'Do-It-Yourself Mr. Bean'."
+ },
+ {
+  "id": "sahara-desert",
+  "answer": "Sahara Desert",
+  "category": "Geography",
+  "before": [
+   "Dust lifted from it blows clear across the Atlantic to fertilize the Amazon rainforest thousands of miles away.",
+   "Roughly the size of the United States, it was dotted with lakes and grazing herds only a few thousand years ago.",
+   "Sprawling across North Africa, it can broil by day and freeze by night, and has even seen a dusting of snow.",
+   "This is the largest hot desert on Earth, its name meaning simply 'desert' in Arabic."
+  ],
+  "after": [
+   "This desert has seen snow dust the dunes around Aïn Séfra, a town on its northern edge, several times since 1979.",
+   "Dust lifted from it blows clear across the Atlantic to fertilize the Amazon rainforest thousands of miles away.",
+   "Roughly the size of the United States, it was dotted with lakes and grazing herds only a few thousand years ago.",
+   "This is the largest hot desert on Earth, its name meaning simply 'desert' in Arabic."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Ain_Sefra",
+   "2": "moved from clue 1",
+   "3": "moved from clue 2"
+  },
+  "summary": "Clue 1 now says 'this desert', and clue 3 replaces the instant 'across North Africa' with the dated snowfalls at Aïn Séfra. Second pass: Moved the snow fact to clue 1 and replaced its incomplete year list with 'several times since 1979', then moved the well-known Amazon dust fact to clue 2 so the size clue sits third."
+ },
+ {
+  "id": "eiffel-tower",
+  "answer": "Eiffel Tower",
+  "category": "Landmarks",
+  "before": [
+   "It stands more than 15 centimeters taller in summer, when the heat makes its iron expand.",
+   "Built as a temporary showpiece for an 1889 world's fair, it was nearly scrapped but survived because it made a superb radio antenna.",
+   "Its wrought-iron lattice is repainted every few years to hold back rust, and it towers over a European capital's skyline.",
+   "This latticed iron landmark, raised for the 1889 Exposition in Paris, is one of the most visited monuments on Earth and a symbol of France."
+  ],
+  "after": [
+   "On a sunny day, the top of this landmark can trace a loop about 15 centimeters across as the sun moves across the sky and heats its iron.",
+   "Its designer built himself a small private apartment near the top, where he once hosted Thomas Edison.",
+   "Built as a temporary showpiece for an 1889 world's fair, it was nearly scrapped but survived because it made a superb radio antenna.",
+   "This wrought-iron landmark on the Champ de Mars has become the best-known symbol of Paris."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.yahoo.com/news/fact-check-eiffel-tower-grows-120000751.html",
+   "2": "https://edisontinfoil.com/eiffel.htm",
+   "3": "moved from clue 2",
+   "4": "https://hmdb.org/m.asp?m=60918"
+  },
+  "summary": "Clue 1 replaces the disputed 15 cm height gain (the official site says only a few millimeters) with the 15 cm loop the top traces in the sun, the instant lattice clue becomes Eiffel's apartment and Edison's visit (moved to clue 2 as the harder fact), and clue 4 drops the repeated 1889 fair. Second pass: Kept all four clues unchanged, because the owner confirmed the 15 cm loop against the official Eiffel Tower site and the judge raised no other problem."
+ },
+ {
+  "id": "banana",
+  "answer": "Banana",
+  "category": "Food & Drink",
+  "before": [
+   "Botanically it counts as a berry, while a strawberry does not — and it's faintly radioactive from the potassium inside.",
+   "Nearly all of them sold worldwide are clones of a single variety, which leaves them dangerously prone to disease.",
+   "Growing in hanging bunches that curve upward toward the sun, it starts green and sweetens to yellow.",
+   "This long, curved yellow fruit, peeled from its skin, is the cartoon favorite of monkeys everywhere."
+  ],
+  "after": [
+   "The variety of this fruit sold in most Western shops is named after a British duke, whose gardener grew it in the hothouses of Chatsworth in the 1830s.",
+   "Nearly all of them sold worldwide are clones of a single variety, which leaves them dangerously prone to disease.",
+   "This fruit grows on a giant herb, not a tree — the plant's 'trunk' is just large leaves rolled tightly one over another.",
+   "This yellow fruit, peeled before eating, is the cartoon favorite of monkeys everywhere."
+  ],
+  "changed": [
+   1,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Cavendish_banana",
+   "3": "https://www.fao.org/4/t0308e/t0308e03.htm",
+   "4": "https://livescience.com/57477-why-are-bananas-considered-berries.html"
+  },
+  "summary": "Clue 1 now says what kind of thing the answer is, clue 3 swaps the ripening description for the giant-herb fact (checked with FAO), and clue 4 drops the awkward 'peeled from its skin' wording without adding any new claim. Second pass: Removed the potassium and radioactivity half of clue 1, since potassium gives the answer away, and kept only the existing berry fact."
+ },
+ {
+  "id": "bermuda-triangle",
+  "answer": "Bermuda Triangle",
+  "category": "Geography",
+  "before": [
+   "Insurers charge not a penny extra to sail a ship through it.",
+   "A 1964 magazine article coined its name and a 1974 bestseller made it famous; a librarian then checked the cases and found most had dull, documented explanations.",
+   "The legend grew out of Flight 19, five Navy bombers that vanished on a training run out of Florida in 1945.",
+   "The patch of Atlantic bounded roughly by Miami, Puerto Rico and a British island colony, blamed for swallowing ships and planes."
+  ],
+  "after": [
+   "The insurance market Lloyd's of London charges no higher rates for ships sailing through this stretch of sea.",
+   "A 1964 magazine article coined this area's name; a librarian who later checked its cases called the legend 'a manufactured mystery.'",
+   "The legend grew out of Flight 19, five Navy bombers that vanished on a training run out of Florida in 1945.",
+   "This patch of the Atlantic, bounded roughly by Miami, Puerto Rico and a British island territory, is blamed for swallowing ships and planes."
+  ],
+  "changed": [
+   1,
+   2,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Bermuda_Triangle",
+   "2": "https://en.wikipedia.org/wiki/Bermuda_Triangle",
+   "4": "https://en.wikipedia.org/wiki/Bermuda_Triangle"
+  },
+  "summary": "Clue 1 now names the answer's type and matches the source's wording (Lloyd's charges no higher rates), clue 2 drops the 1974 bestseller and uses Kusche's own conclusion instead of the unsupported 'dull explanations', and clue 4 is now a full sentence."
+ },
+ {
+  "id": "star-trek",
+  "answer": "Star Trek",
+  "category": "Television",
+  "before": [
+   "A prop from it — a little flip-open handset — is what the engineer behind the first mobile phone says he was trying to build.",
+   "NBC cancelled the original series after three seasons in 1969; a letter-writing campaign and endless reruns turned the corpse into a franchise.",
+   "It aired one of American television's first scripted interracial kisses, and Martin Luther King Jr talked Nichelle Nichols out of quitting the bridge crew.",
+   "The USS Enterprise, Vulcans and 'live long and prosper' all come from this Gene Roddenberry creation."
+  ],
+  "after": [
+   "NBC turned down this show's first pilot as 'too cerebral', but Lucille Ball, whose studio made it, talked the network into trying a second.",
+   "Fans' letter-writing saved this show after its second season, though NBC still cancelled it after the third, in 1969.",
+   "It aired one of American television's first scripted interracial kisses, and Martin Luther King Jr talked Nichelle Nichols out of quitting the bridge crew.",
+   "The USS Enterprise, Vulcans and 'live long and prosper' all come from this Gene Roddenberry creation."
+  ],
+  "changed": [
+   1,
+   2
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Where_No_Man_Has_Gone_Before",
+   "2": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series"
+  },
+  "summary": "Replaced clue 1 because Martin Cooper has since said the communicator story was a mistake (he credits Dick Tracy's wristwatch), using the rejected-pilot and Lucille Ball fact instead, and fixed clue 2 so the letter campaign wins the third season rather than reviving the show."
+ },
+ {
+  "id": "ketchup",
+  "answer": "Ketchup",
+  "category": "Food & Drink",
+  "before": [
+   "It began in Asia as a fermented fish sauce, with no tomato anywhere near it.",
+   "In the 1830s an American doctor sold it as a patent medicine, in pill form, for indigestion.",
+   "Henry Heinz put his in clear glass in 1876 to prove there was no rotten filler in it, and leaned on vinegar to keep it.",
+   "The thick tomato condiment that leaves the bottle at about 0.045 km/h and belongs on chips and burgers."
+  ],
+  "after": [
+   "In the 1830s an Ohio doctor published recipes for this condiment and claimed it cured indigestion, helping spark a short-lived craze for medicinal pills.",
+   "This condiment began in Asia as a fermented fish sauce, with no tomato anywhere near it.",
+   "In 1876 a Pittsburgh food maker began selling it in clear glass bottles, so shoppers could see how pure it was.",
+   "This thick tomato condiment belongs on chips and burgers, and Heinz says its version oozes from the glass bottle at about 0.045 km/h."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.mentalfloss.com/food/when-tomatoes-were-marketed-medicine",
+   "2": "https://www.smithsonianmag.com/smart-news/ketchup-fishy-origins-180963511/",
+   "3": "https://www.packagingeurope.com/iconic-packs-heinz-ketchup-bottle/",
+   "4": "https://www.futurity.org/ketchup-physics-rheology-1321922-2/"
+  },
+  "summary": "Moved the 1830s doctor to clue 1 without calling the pills the condiment itself, put the fish-sauce origin second, took Heinz's name out of clue 3 and softened its purity claim, and made clue 4 a sentence that credits the flow speed to Heinz."
+ },
+ {
+  "id": "captcha",
+  "answer": "CAPTCHA",
+  "category": "Internet",
+  "before": [
+   "It is a test a computer gives a human, rather than the other way round.",
+   "Its creators later put it to work so that every one people solved helped digitize old books and newspapers.",
+   "Its co-inventor, Luis von Ahn, went on to co-found the language app Duolingo.",
+   "The squiggly-text puzzle or 'click every square with a traffic light' grid that checks you are not a robot."
+  ],
+  "after": [
+   "This online test's co-inventor, Luis von Ahn, went on to co-found the language app Duolingo.",
+   "Its creators later put it to work so that every one people solved helped digitize old books and newspapers.",
+   "This test is sometimes called a 'reverse Turing test,' because a computer, not a human, does the judging.",
+   "This is the squiggly-text puzzle, or grid of traffic photos to click through, that checks you are not a robot."
+  ],
+  "changed": [
+   1,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://lemelson.mit.edu/resources/luis-von-ahn",
+   "3": "https://en.wikipedia.org/wiki/CAPTCHA",
+   "4": "https://en.wikipedia.org/wiki/CAPTCHA"
+  },
+  "summary": "Opened with the Duolingo co-inventor fact, turned the old definition into the reverse-Turing-test fact for clue 3 instead of spelling out the acronym (which would be instant), and made clue 4 a sentence."
+ },
+ {
+  "id": "grumpy-cat",
+  "answer": "Grumpy Cat",
+  "category": "Internet",
+  "before": [
+   "Her permanent scowl came from feline dwarfism and an underbite.",
+   "She won $710,001 in a lawsuit over iced coffee drinks sold with her face on them.",
+   "Her real name was Tardar Sauce, and she lived in Arizona until her death in 2019.",
+   "The frowning cat whose unimpressed face became the internet's favorite way to say 'No.'"
+  ],
+  "after": [
+   "This internet celebrity won $710,001 in a lawsuit over iced coffee drinks sold with her face on them.",
+   "Her real name was Tardar Sauce, and she lived in Arizona until her death in 2019.",
+   "She got her own animatronic wax figure at Madame Tussauds in San Francisco, and Aubrey Plaza voiced her in a 2014 Lifetime Christmas movie.",
+   "This frowning cat's unimpressed face became the internet's favorite way to say no."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "reworded from clue 2",
+   "2": "moved from clue 3",
+   "3": "https://ktar.com/arizona-news/arizonas-grumpy-cat-to-be-1st-feline-in-wax-at-madame-tussauds",
+   "4": "https://en.wikipedia.org/wiki/Grumpy_Cat"
+  },
+  "summary": "Swapped the scowl clue with the Tardar Sauce clue so the giveaway face is no longer first, opened clue 1 with 'This internet celebrity', and made clue 4 a full sentence. Second pass: Swapped the lawsuit and Tardar Sauce clues so the lesser-known fact comes first, and replaced the sour-expression clue, which restated the answer and clue 4, with the wax figure and Lifetime movie."
+ },
+ {
+  "id": "venus-flytrap",
+  "answer": "Venus Flytrap",
+  "category": "Nature",
+  "before": [
+   "In the wild it grows only within about 75 miles of Wilmington, North Carolina.",
+   "It counts: a trigger hair must be touched twice within about 20 seconds before it reacts.",
+   "Its hinged, bristle-fringed leaves snap shut in about a tenth of a second.",
+   "The carnivorous plant whose toothy, jaw-like traps close on unlucky insects."
+  ],
+  "after": [
+   "In the wild, this plant grows only within about 75 miles of Wilmington, North Carolina.",
+   "Charles Darwin called it one of the most wonderful plants in the world and studied it in his 1875 book on insect-eating plants.",
+   "It counts: a trigger hair must be touched twice within about 20 seconds before it reacts.",
+   "This carnivorous plant snaps its toothy, jaw-like leaves shut on unlucky insects."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://cnr.ncsu.edu/news/2021/01/five-things-about-venus-flytraps",
+   "2": "https://blog.biodiversitylibrary.org/2021/10/from-poetry-to-pulp-fiction-carnivorous-plants-in-popular-culture",
+   "3": "moved from clue 2",
+   "4": "https://homegrown.extension.ncsu.edu/2022/09/the-venus-flytrap-a-north-carolina-native/"
+  },
+  "summary": "Gave clue 1 a 'this plant' opener, replaced the snapping-leaf mechanics in clue 3 with Darwin's praise from his 1875 book, and rewrote clue 4 as a sentence without the word 'traps'. Second pass: Swapped clues 2 and 3 so the harder Darwin fact comes before the trigger-hair fact."
+ },
+ {
+  "id": "giant-sequoia",
+  "answer": "Giant Sequoia",
+  "category": "Nature",
+  "before": [
+   "Its spongy bark can be two feet thick, armor against the wildfires that help its seeds sprout.",
+   "It grows naturally only in scattered groves on the western slopes of California's Sierra Nevada.",
+   "It is not the tallest tree — its coastal cousin is — but the most massive single tree on Earth, General Sherman, is one.",
+   "The colossal cinnamon-barked conifer that gives a California national park its name."
+  ],
+  "after": [
+   "This tree's spongy bark can be two feet thick, armor against the wildfires that help its seeds sprout.",
+   "It grows naturally only in scattered groves on the western slopes of California's Sierra Nevada.",
+   "It is not the tallest tree — its coastal cousin is — but the most massive single tree on Earth, General Sherman, is one.",
+   "This colossal red-barked conifer gives a California national park its name."
+  ],
+  "changed": [
+   1,
+   4
+  ],
+  "sources": {
+   "1": "https://capitol.wa.gov/node/154",
+   "4": "https://www.nps.gov/parkhistory/online_books/nps/yard1/seki1.htm"
+  },
+  "summary": "Opened clue 1 with 'This tree's' and turned clue 4 into a sentence, changing 'cinnamon-barked' to 'red-barked' because sources describe the bark as reddish-brown."
+ },
+ {
+  "id": "bamboo",
+  "answer": "Bamboo",
+  "category": "Nature",
+  "before": [
+   "Some kinds of it can grow nearly three feet in a single day, faster than any other plant.",
+   "It can tower like a tree, but botanically it is a grass.",
+   "Its hollow, jointed stems are strong enough to serve as scaffolding on Hong Kong skyscrapers.",
+   "The giant woody grass that makes up almost all of a panda's diet."
+  ],
+  "after": [
+   "Some kinds of this plant flower only once every few decades or more, with plants of the same kind blooming together worldwide and then dying.",
+   "Thomas Edison's team found that carbonized strips of this plant from Japan made light-bulb filaments that could burn for over 1,200 hours.",
+   "Its hollow, jointed stems are strong enough to serve as scaffolding on Hong Kong skyscrapers.",
+   "It makes up almost all of a giant panda's diet."
+  ],
+  "changed": [
+   1,
+   2,
+   4
+  ],
+  "sources": {
+   "1": "https://caldwell.ces.ncsu.edu/2024/06/the-curious-case-of-flowering-bamboo-facts-and-insights/",
+   "2": "https://www.amusingplanet.com/2019/05/how-japanese-bamboo-helped-edison-make.html",
+   "4": "https://www.worldatlas.com/articles/what-do-giant-pandas-eat.html"
+  },
+  "summary": "Gave clue 1 a 'this plant' opener and rewrote clue 4 as a sentence about the panda's diet without repeating the grass fact from clue 2. Second pass: Replaced the two best-known facts (fastest-growing plant, giant grass) with mass flowering and Edison's filaments, softening the flowering interval because it varies by species."
+ },
+ {
+  "id": "kimchi",
+  "answer": "Kimchi",
+  "category": "Food & Drink",
+  "before": [
+   "In 2008 a specially sterilized version of it flew to the International Space Station.",
+   "It is made by fermenting salted vegetables with chili, garlic, and ginger, traditionally in clay pots buried in the ground.",
+   "Napa cabbage is the classic base, and many Korean homes keep a separate refrigerator just for it.",
+   "Korea's spicy, sour fermented cabbage, served on the side at nearly every meal."
+  ],
+  "after": [
+   "In 2008 a specially sterilized version of this dish flew to the International Space Station.",
+   "It was traditionally left to ferment through the winter in clay pots buried in the ground.",
+   "Many homes in its country keep a separate refrigerator just for it, and the autumn tradition of making it together is on UNESCO's heritage list.",
+   "This spicy, sour Korean side dish of fermented cabbage appears at nearly every meal."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://space.com/5247-south-korean-astronaut-shares-laughs-space-food-station-crew.html",
+   "2": "https://en.wikipedia.org/wiki/Kimchi",
+   "3": "https://reviewed.com/refrigerators/features/koreas-coolest-fridges-are-all-about-kimchi",
+   "4": "https://en.wikipedia.org/wiki/Kimchi"
+  },
+  "summary": "Gave clue 1 a 'this dish' opener, cut the recipe from clue 2 to keep only the buried winter clay pots, and made clue 4 a full sentence. Second pass: Rewrote clue 3 to drop the napa cabbage and Korean homes giveaways that clue 4 repeats, adding the kimjang UNESCO listing instead."
+ },
+ {
+  "id": "claude-monet",
+  "answer": "Claude Monet",
+  "category": "Art",
+  "before": [
+   "A critic sneered at one of his harbor scenes, and the insult gave a whole art movement its name.",
+   "He painted haystacks, poplars and Rouen Cathedral over and over to catch how the light changed through the day.",
+   "He spent his last decades at Giverny, painting the Japanese footbridge and the lily pond he had dug in his garden.",
+   "The French painter of 'Impression, Sunrise' and the 'Water Lilies,' founding father of Impressionism."
+  ],
+  "after": [
+   "Cataracts clouded this painter's color vision in his seventies; in 1914 he wrote that reds had begun to look muddy, and he had surgery in 1923.",
+   "A critic sneered at one of his harbor scenes, and his insult gave a whole art movement its name.",
+   "He painted haystacks, poplars and Rouen Cathedral over and over to catch how the light changed through the day.",
+   "This French founder of Impressionism is often mixed up with Édouard Manet; in 1865, Salon visitors even praised Manet for this painter's seascapes."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://med.stanford.edu/news/all-news/2007/04/eye-disease-gave-great-painters-a-different-vision-of-their-work-stanford-researcher-says.html",
+   "2": "reworded from clue 1",
+   "3": "moved from clue 2",
+   "4": "https://www.getty.edu/news/whats-the-difference-between-manet-and-monet/"
+  },
+  "summary": "Clue 1 now says this is a painter, and clue 4 became a full sentence about the 1865 Salon mix-up with Manet instead of repeating the Impression, Sunrise and water lily facts. Second pass: Replaced the instant Giverny lily pond clue with his cataracts and put that harder fact first, moving the critic and haystack clues down one place each."
+ },
+ {
+  "id": "rembrandt",
+  "answer": "Rembrandt",
+  "category": "Art",
+  "before": [
+   "He painted, drew and etched his own face nearly a hundred times, from cocky youth to wrinkled old age.",
+   "He went broke in 1656, and his house and art collection were sold off to pay his creditors.",
+   "His most famous group portrait, of an Amsterdam militia company, got its nickname from darkened varnish — the scene is actually set in daylight.",
+   "The Dutch Golden Age master of light and shadow who painted 'The Night Watch.'"
+  ],
+  "after": [
+   "This painter went broke in 1656, and his house and art collection were sold off to pay his creditors.",
+   "He painted, drew and etched his own face nearly a hundred times, from cocky youth to wrinkled old age.",
+   "His most famous group portrait, of an Amsterdam militia company, got its nickname from darkened varnish — the scene is actually set in daylight.",
+   "This 17th-century Dutch master of light and shadow, born in Leiden, is often called the greatest painter of the Dutch Golden Age."
+  ],
+  "changed": [
+   1,
+   2,
+   4
+  ],
+  "sources": {
+   "1": "https://assets.cambridge.org/052185/8259/excerpt/0521858259_excerpt.htm",
+   "2": "https://en.wikipedia.org/wiki/Self-portraits_by_Rembrandt",
+   "4": "https://www.newworldencyclopedia.org/entry/Rembrandt_van_Rijn"
+  },
+  "summary": "Swapped the bankruptcy and self-portrait clues so the lesser-known fact comes first with a 'This painter' opener, and rewrote clue 4 as a sentence that no longer repeats The Night Watch."
+ },
+ {
+  "id": "the-last-supper",
+  "answer": "The Last Supper",
+  "category": "Art",
+  "before": [
+   "Its painter tried an experimental technique on a dry wall, and the paint began flaking within his lifetime.",
+   "Napoleon's troops reportedly stabled horses in its room, and a 1943 bomb wrecked much of the hall around it.",
+   "It covers a wall of a monastery dining hall in Milan, and visitors get about 15 minutes with it.",
+   "Leonardo's mural of Jesus sharing a final meal with his twelve apostles."
+  ],
+  "after": [
+   "This mural's painter tried an experimental technique on a dry wall, and the paint began flaking within his lifetime.",
+   "Napoleon's troops reportedly stabled horses in its room, and a 1943 bomb wrecked much of the hall around it.",
+   "Its restoration by Pinin Brambilla Barcilon took more than 20 years, ending in 1999, and visitors now get only about 15 minutes with it.",
+   "This Leonardo da Vinci mural shows Jesus sharing a final meal with his twelve apostles."
+  ],
+  "changed": [
+   1,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://smarthistory.org/?p=1558",
+   "3": "https://ebsco.com/research-starters/history/restored-last-supper-goes-display",
+   "4": "https://smarthistory.org/?p=1558"
+  },
+  "summary": "Gave clue 1 a 'This mural' opener and turned clue 4 into a full sentence. Second pass: Replaced clue 3's Milan monastery dining hall, which gave the answer away, with the 1978-1999 restoration and the 15-minute visit limit (the 15 minutes is confirmed by https://www.lonelyplanet.com/pois/1215052)."
+ },
+ {
+  "id": "loki",
+  "answer": "Loki",
+  "category": "Mythology",
+  "before": [
+   "In one story he turns himself into a mare and later gives birth to an eight-legged horse.",
+   "He fathered the giant wolf Fenrir and the serpent that circles the world.",
+   "He tricks a blind god into killing Baldr with a mistletoe dart, and is bound beneath a dripping serpent as punishment.",
+   "The Norse trickster god, played in Marvel films by Tom Hiddleston as Thor's adoptive brother."
+  ],
+  "after": [
+   "In one story this god turns himself into a mare and later gives birth to an eight-legged horse.",
+   "He fathered the giant wolf Fenrir and the serpent that circles the world.",
+   "He tricks a blind god into killing Baldr with a mistletoe dart, and is bound beneath a dripping serpent as punishment.",
+   "This Norse trickster god is played in Marvel films by Tom Hiddleston as Thor's adoptive brother."
+  ],
+  "changed": [
+   1,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Sleipnir",
+   "4": "https://wikipedia.com/wiki/Loki_(MCU)"
+  },
+  "summary": "Clue 1 now says this is a god, and clue 4 is a full sentence."
+ },
+ {
+  "id": "mark-twain",
+  "answer": "Mark Twain",
+  "category": "Literature",
+  "before": [
+   "Born just after one visit of Halley's Comet, he predicted he would die when it returned — and did, in 1910.",
+   "He lost a fortune on a typesetting machine and paid off his debts with a lecture tour around the world.",
+   "His pen name is a riverboat call meaning the water is two fathoms deep, from his days as a Mississippi steamboat pilot.",
+   "The American author of 'The Adventures of Tom Sawyer' and 'Adventures of Huckleberry Finn.'"
+  ],
+  "after": [
+   "This writer lost a fortune on a typesetting machine and paid off his debts with a lecture tour around the world.",
+   "Born just after one visit of Halley's Comet, he predicted he would die when it returned — and did, in 1910.",
+   "His pen name is a riverboat call meaning the water is two fathoms deep, from his days as a Mississippi steamboat pilot.",
+   "This American author wrote 'The Adventures of Tom Sawyer' and 'Adventures of Huckleberry Finn.'"
+  ],
+  "changed": [
+   1,
+   2,
+   4
+  ],
+  "sources": {
+   "1": "https://www.americanheritage.com/twain-patent-poet",
+   "2": "moved from clue 1",
+   "4": "https://en.wikipedia.org/wiki/Mark_Twain"
+  },
+  "summary": "Swapped clues 1 and 2 so the less-known typesetter story leads with a 'This writer' opener, and turned clue 4 into a full sentence."
+ }
+]
