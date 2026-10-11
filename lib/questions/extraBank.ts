@@ -11,12 +11,15 @@
  * harder.
  *
  * Most of these were written to the older spec §2.2 rules, which put
- * misdirection first, so many are easier than we now want. Between 2026-10-04
- * and 2026-10-10, 200 of them were rewritten to the current rules with
- * pipeline/fix-clues.ts, in four rounds of 50. The before and after, with a
- * source for each new fact, are in clueEval/results/rewrites-2026-10-04.json
- * (round 1), rewrites-2026-10-04-round-2.json (round 2),
- * rewrites-2026-10-05.json (round 3) and rewrites-2026-10-10.json (round 4).
+ * misdirection first, so many were easier than we now want. Between
+ * 2026-10-04 and 2026-10-11, 547 of them were rewritten to the current rules
+ * with pipeline/fix-clues.ts, in eight rounds. The other 3 were already judged
+ * good. The before and after, with a source for each new fact, are in
+ * clueEval/results/rewrites-2026-10-04.json (round 1),
+ * rewrites-2026-10-04-round-2.json (round 2), rewrites-2026-10-05.json
+ * (round 3), rewrites-2026-10-10.json (round 4),
+ * rewrites-2026-10-10-round-5.json, -round-6.json, -round-7.json and
+ * rewrites-2026-10-11-round-8.json.
  * The current rules
  * for writing and rewriting clues are in lib/questions/README.md, under "What
  * makes a good question". Follow those, not the style of the entries below.
@@ -180,10 +183,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "She remains the only person ever to win Nobel Prizes in two different sciences." },
-      { position: 2, text: "Her century-old notebooks are still so radioactive that they are stored in lead-lined boxes and handled with protective gear." },
-      { position: 3, text: "Born in Poland and working in France, she discovered the elements polonium and radium." },
-      { position: 4, text: "A pioneer of radioactivity, she was the first woman to win a Nobel Prize; her daughter Irène later earned one too." },
+      { position: 1, text: "This scientist became the first woman entombed in Paris's Panthéon on her own merits when her remains were moved there in 1995." },
+      { position: 2, text: "During World War I she fitted out vans with X-ray machines to examine wounded soldiers near the front, and learned to drive so she could take one there herself." },
+      { position: 3, text: "She and her husband named the first element they discovered after her homeland, which was not an independent country at the time." },
+      { position: 4, text: "A pioneer of radioactivity, this scientist is the only person to win Nobel Prizes in two different sciences, physics and chemistry." },
     ],
     decoys: [
       { text: "Rosalind Franklin", eliminatedByClue: 3 },
@@ -378,10 +381,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "It physically cannot walk backward, and springy tendons let it bound faster while burning less energy." },
+      { position: 1, text: "This animal's energy use barely rises as it speeds up, because springy tendons in its legs store and return energy with every bound." },
       { position: 2, text: "A newborn is the size of a jellybean and hauls itself into its mother's pouch to keep developing." },
-      { position: 3, text: "This marsupial props itself on a thick muscular tail like a fifth limb and can throw a bruising kick." },
-      { position: 4, text: "Australia's famous hopping icon, the males are called boomers and the babies are joeys." },
+      { position: 3, text: "A group of them is called a mob, and when moving slowly they push off their thick tail as if it were a fifth leg." },
+      { position: 4, text: "This hopping Australian icon has males called boomers and babies called joeys." },
     ],
     decoys: [
       { text: "Koala", eliminatedByClue: 1 },
@@ -396,9 +399,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Though its gut is built like a meat-eater's, it spends up to 14 hours a day munching almost nothing but bamboo." },
-      { position: 2, text: "A newborn is pink, hairless, and about the size of a stick of butter — roughly a nine-hundredth of its mother's weight." },
-      { position: 3, text: "A 'thumb' formed from an enlarged wrist bone helps it grip stalks, and China lends these black-and-white bears to zoos abroad." },
+      { position: 1, text: "This animal's newborn is pink, hairless, and about the size of a stick of butter — roughly a nine-hundredth of its mother's weight." },
+      { position: 2, text: "For about a century, scientists argued whether it was a raccoon relative or a bear, until DNA studies in 1985 placed it with the bears." },
+      { position: 3, text: "A sixth 'finger' formed from an enlarged wrist bone helps this animal grip the stalks it eats." },
       { position: 4, text: "This bamboo-eating bear from China's misty highlands is the black-and-white emblem of the WWF." },
     ],
     decoys: [
@@ -414,10 +417,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its two eyes can swivel and aim in entirely different directions at the same instant." },
-      { position: 2, text: "It fires out a tongue longer than its own body to snatch an insect, striking in a fraction of a second." },
-      { position: 3, text: "Many species shift color less for camouflage than to broadcast mood and temperature, by rearranging tiny crystals in their skin." },
-      { position: 4, text: "This lizard, with many kinds native to Madagascar, is famous for changing color and clamping onto branches with pincer-like feet." },
+      { position: 1, text: "Some species of this reptile glow blue under ultraviolet light, because bony bumps on their skulls show through their thin skin." },
+      { position: 2, text: "Most species grip branches with a curling tail like an extra hand, and the tiniest known kind could sit on a fingertip." },
+      { position: 3, text: "It fires out a tongue longer than its own body to snatch an insect, striking in a fraction of a second." },
+      { position: 4, text: "This lizard, with many kinds native to Madagascar, is famous for changing color and for eyes that swivel in different directions at once." },
     ],
     decoys: [
       { text: "Gecko", eliminatedByClue: 3 },
@@ -576,10 +579,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its nursing newborn packs on roughly the weight of an adult human every single day." },
-      { position: 2, text: "Its heart alone is about the size of a small car, and its low moans are the loudest sounds made by any animal." },
+      { position: 1, text: "This animal's nursing calf packs on roughly the weight of an adult human every single day." },
+      { position: 2, text: "Its heart alone weighs about 440 pounds, and its low calls can travel hundreds of kilometers underwater." },
       { position: 3, text: "For all its bulk, it lives almost entirely on tiny shrimp-like krill, straining tons of them through fringed plates of baleen." },
-      { position: 4, text: "The largest animal ever known to have lived, this baleen whale is named for its bluish-gray color." },
+      { position: 4, text: "The largest animal ever known to have lived, this baleen whale can grow to about 30 meters long." },
     ],
     decoys: [
       { text: "Sperm Whale", eliminatedByClue: 3 },
@@ -756,10 +759,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "It sleeps with only half its brain at a time, keeping one eye open so it never forgets to surface for air." },
-      { position: 2, text: "It 'sees' with sound, firing rapid clicks and reading the echoes to map objects in murky water." },
-      { position: 3, text: "Highly social and playful, each individual has its own signature whistle that works much like a name." },
-      { position: 4, text: "This sleek, intelligent marine mammal, often seen leaping in a ship's wake, is a small toothed cousin of the whale." },
+      { position: 1, text: "This animal sometimes uses tools: in Shark Bay, Australia, some wear marine sponges on their snouts to shield them while probing the seafloor." },
+      { position: 2, text: "It sleeps with only half its brain at a time, keeping one eye open so it can still surface for air." },
+      { position: 3, text: "Each one has its own signature whistle that others use much like a name." },
+      { position: 4, text: "This sleek, intelligent toothed whale often rides the bow waves of boats, and one starred on TV as Flipper." },
     ],
     decoys: [
       { text: "Porpoise", eliminatedByClue: 3 },
@@ -792,7 +795,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "It moves so little that green algae grows in its fur, tinting it mossy — handy camouflage in the canopy." },
+      { position: 1, text: "A green alga not known to grow anywhere else lives in this mammal's fur, tinting its coat a mossy green." },
       { position: 2, text: "Its digestion is so slow that a single leafy meal can take weeks to break down." },
       { position: 3, text: "It climbs down from the treetops only about once a week — to relieve itself — and can hold its breath longer than a dolphin." },
       { position: 4, text: "This famously slow-moving Central and South American mammal dangles upside down from branches by long, curved claws." },
@@ -828,9 +831,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Nearly all of it ever mined would fit inside just a few Olympic swimming pools, and much of it was forged in colliding neutron stars." },
-      { position: 2, text: "So soft and unreactive that it never rusts or tarnishes, a single ounce can be beaten into a sheet covering a hundred square feet." },
-      { position: 3, text: "Treasured for thousands of years, it carries the chemical symbol Au and is measured in carats for purity." },
+      { position: 1, text: "Nearly all of this metal ever mined would fit inside about four and a half Olympic swimming pools, and much of it was forged in colliding neutron stars." },
+      { position: 2, text: "This metal is so soft that a single ounce can be beaten into a sheet covering a hundred square feet, and it never rusts or tarnishes." },
+      { position: 3, text: "Thin flakes of this metal are sprinkled on luxury desserts as an edible garnish, and they pass through the body undigested." },
       { position: 4, text: "This dense, shiny yellow precious metal fills central-bank vaults and hangs around the necks of Olympic champions." },
     ],
     decoys: [
@@ -846,9 +849,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "For a split second it heats the surrounding air to roughly five times the temperature of the Sun's surface." },
-      { position: 2, text: "The thunderclap you hear is simply the boom of air blasting outward from its superheated channel." },
-      { position: 3, text: "It hits the Earth millions of times a day, and the Empire State Building is struck dozens of times a year." },
+      { position: 1, text: "For a split second this natural phenomenon heats the air around it to roughly five times the temperature of the Sun's surface." },
+      { position: 2, text: "Erupting volcanoes can produce it too, as ash particles grinding together in the plume build up electric charge." },
+      { position: 3, text: "When it strikes sand, it can fuse the grains into hollow glass tubes called fulgurites." },
       { position: 4, text: "This sudden flash of electricity between cloud and ground rips across the sky during a thunderstorm." },
     ],
     decoys: [
@@ -1044,8 +1047,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "It is one of the only mammals that lays eggs, and the males carry venom in a spur on each hind leg." },
-      { position: 2, text: "It hunts with eyes, ears, and nose all sealed shut, sensing the faint electric fields of prey through its rubbery bill." },
+      { position: 1, text: "This mammal's drab brown fur glows blue-green under ultraviolet light, a trait scientists first reported in 2020." },
+      { position: 2, text: "It hunts with eyes, ears, and nose all sealed shut, sensing the faint electric fields of prey through its soft, leathery snout." },
       { position: 3, text: "Native to Australia, it has no stomach and no teeth, mashing food with bits of gravel it scoops up while feeding." },
       { position: 4, text: "This duck-billed, beaver-tailed, web-footed oddity so baffled naturalists that the first specimen was dismissed as a hoax." },
     ],
@@ -1062,9 +1065,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "For all that towering neck, it has exactly the same number of neck bones as you do — seven." },
+      { position: 1, text: "This animal may sleep as little as half an hour a day, and its heart can weigh about 11 kilograms." },
       { position: 2, text: "Its tongue is nearly half a meter long and a dark blue-purple, a color thought to guard against sunburn while it feeds." },
-      { position: 3, text: "The tallest animal on Earth, it survives on as little as 30 minutes of sleep a day and needs an outsized heart to pump blood up to its brain." },
+      { position: 3, text: "Its mother gives birth standing up, so a newborn starts life with a drop of up to two meters to the ground." },
       { position: 4, text: "This spotted African browser reaches leaves high in acacia trees that nothing else can touch." },
     ],
     decoys: [
@@ -1296,10 +1299,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Under its white-looking coat its skin is jet black, and each strand of fur is a hollow, see-through tube." },
-      { position: 2, text: "A tireless swimmer, it can paddle for days across open Arctic sea and smell a seal from over a kilometer away." },
-      { position: 3, text: "The largest land carnivore on Earth, it hunts seals from the sea ice and can fast for months between big meals." },
-      { position: 4, text: "This great white bear of the far north is increasingly at risk as the sea ice it hunts on melts away." },
+      { position: 1, text: "This animal's skin is jet black under its fur, and each hair is a hollow, see-through tube with no white pigment." },
+      { position: 2, text: "A tireless swimmer, one female was tracked swimming for nine days straight, covering 687 kilometers of open sea." },
+      { position: 3, text: "It is the largest meat-eating animal on land, and a big male can weigh more than half a tonne." },
+      { position: 4, text: "This great white hunter of the far north is increasingly at risk as the sea ice it hunts on melts away." },
     ],
     decoys: [
       { text: "Arctic Fox", eliminatedByClue: 3 },
@@ -1314,10 +1317,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "It is the only bird that can fly backward, and its heart can race past a thousand beats a minute." },
-      { position: 2, text: "Its wings blur in a figure-eight up to 80 times a second, making the very sound it's named for." },
-      { position: 3, text: "So hungry it must feed almost constantly, it laps nectar with a long tongue and drops into a deep, near-frozen sleep at night." },
-      { position: 4, text: "This tiniest of birds, some barely larger than a bee, hovers at flowers on wings too fast to see." },
+      { position: 1, text: "This bird can perch but cannot walk or hop; its legs are so short and weak that it can only shuffle sideways along a branch." },
+      { position: 2, text: "Its tiny cup-shaped nest is bound with spider silk, which stretches so the nest can grow along with the chicks." },
+      { position: 3, text: "Its heart can beat about 1,200 times a minute, yet on cold nights it drops into a torpor so deep that it can look dead." },
+      { position: 4, text: "This tiniest of birds, some barely larger than a bee, hovers at flowers and can even fly backward." },
     ],
     decoys: [
       { text: "Sunbird", eliminatedByClue: 2 },
@@ -1386,9 +1389,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "It glides on a single muscular foot, laying down slime that lets it crawl across a razor's edge unharmed." },
-      { position: 2, text: "It carries its home on its back and can seal itself inside to sleep for months, even years, in dry spells." },
-      { position: 3, text: "Its mouth holds thousands of microscopic teeth on a ribbon-like tongue, and many kinds are both male and female at once." },
+      { position: 1, text: "This animal can seal itself in and sleep through dry spells; one glued to a card at the British Museum in 1846 woke up about four years later." },
+      { position: 2, text: "Its tongue is a ribbon set with up to 25,000 tiny teeth, and most land-dwelling kinds are both male and female at once." },
+      { position: 3, text: "It glides on a single muscular foot, and its slime lets it crawl along a razor's edge unharmed." },
       { position: 4, text: "This slow, shell-carrying mollusc leaves a shimmering trail and is a close cousin of the slug." },
     ],
     decoys: [
@@ -1548,10 +1551,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Roman soldiers were sometimes paid in it — which is where the word 'salary' comes from." },
-      { position: 2, text: "Once so precious it traded ounce for ounce with gold, it was hauled across the Sahara in great caravans." },
-      { position: 3, text: "It is a crystal of two elements — a metal that bursts into flame in water and a poisonous green gas — yet together they are harmless and essential." },
-      { position: 4, text: "This white seasoning, shaken onto food the world over, is chemically sodium chloride." },
+      { position: 1, text: "This substance is dug by hand from an old lake bed at Taoudenni in Mali, cut into slabs and carried by camel to Timbuktu." },
+      { position: 2, text: "A Polish mine worked for it since the 13th century holds a chapel carved out of it, chandeliers included." },
+      { position: 3, text: "The Austrian city where Mozart was born takes its name from it, after the river barges that carried it there in the 8th century." },
+      { position: 4, text: "This white seasoning, shaken onto food the world over, is also spread on icy roads in winter." },
     ],
     decoys: [
       { text: "Sugar", eliminatedByClue: 3 },
@@ -1908,7 +1911,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "It oozes a reddish, oily 'blood sweat' that works as both sunscreen and antibiotic." },
+      { position: 1, text: "This animal oozes a reddish, oily 'blood sweat' that works as both sunscreen and antibiotic." },
       { position: 2, text: "For all its time in the river, it can't really swim — it walks and bounces along the bottom instead." },
       { position: 3, text: "One of Africa's most dangerous animals, this barrel-bodied grazer kills more people each year than lions do." },
       { position: 4, text: "This huge, semi-aquatic African mammal, whose name means 'river horse,' has enormous jaws and stubby legs." },
@@ -1962,10 +1965,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "It has no brain and no blood, and it can regrow a lost arm — sometimes a whole new body from just one." },
-      { position: 2, text: "To feed, it pushes its stomach out through its mouth and digests prey right outside its body." },
-      { position: 3, text: "Tiny eyes sit at the tip of each arm, and it inches along on hundreds of little tube feet." },
-      { position: 4, text: "This five-armed sea creature isn't really a fish at all, despite its common name." },
+      { position: 1, text: "This marine animal pushes its stomach out through its mouth and digests its prey outside its own body." },
+      { position: 2, text: "A simple eye sits at the tip of each of its arms, and it creeps along on hundreds of little tube feet." },
+      { position: 3, text: "It has no brain and no blood, and it can regrow a lost arm — a few kinds can even grow a whole new body from just one." },
+      { position: 4, text: "This five-armed creature, often found clinging to rocks in tide pools, is shaped like the ornament on top of many Christmas trees." },
     ],
     decoys: [
       { text: "Jellyfish", eliminatedByClue: 2 },
@@ -2034,9 +2037,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Whether its hatchlings turn out male or female is decided not by genes but by how warm the sand is." },
-      { position: 2, text: "It can read the Earth's magnetic field, using it to cross whole oceans and return to the very beach where it hatched." },
-      { position: 3, text: "Swimming the seas since the age of dinosaurs, it can hold its breath for hours and outlive a human." },
+      { position: 1, text: "In this reptile, whether a hatchling turns out male or female depends not on its genes but on how warm the sand around its egg is." },
+      { position: 2, text: "The salty 'tears' it sheds have nothing to do with sadness: glands beside its eyes push out the extra salt it takes in with ocean water." },
+      { position: 3, text: "It can read the Earth's magnetic field, using it to cross whole oceans and return to the very beach where it hatched." },
       { position: 4, text: "This flippered marine reptile hauls out onto tropical beaches to bury its eggs in the sand." },
     ],
     decoys: [
@@ -2160,9 +2163,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "It is by far the weakest of nature's basic forces, yet it shapes entire galaxies." },
-      { position: 2, text: "It bends not just falling apples but light itself, and it makes time tick slower the stronger it grows." },
-      { position: 3, text: "Newton described how it draws any two masses together; Einstein recast it as a warping of space and time." },
+      { position: 1, text: "This force is by far the weakest of nature's four basic forces, yet it holds entire galaxies together." },
+      { position: 2, text: "It makes time run slower the stronger it is, so the clocks on GPS satellites, where it is weaker, must be corrected for running fast." },
+      { position: 3, text: "Its waves, ripples in space-time from two colliding black holes, were first detected in 2015, a century after Einstein predicted them." },
       { position: 4, text: "This invisible force pulls objects toward the ground and holds the planets in orbit around the Sun." },
     ],
     decoys: [
@@ -3492,10 +3495,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its father balances a single egg on his feet through the coldest winter on Earth, eating nothing for two months." },
-      { position: 2, text: "The tallest of its flightless kind, it huddles in vast colonies on Antarctic sea ice." },
-      { position: 3, text: "It 'flies' underwater instead, diving deeper than any other bird to catch fish and squid." },
-      { position: 4, text: "Star of the film 'March of the Penguins,' this regal, orange-eared seabird is the largest of its kind." },
+      { position: 1, text: "This bird dives deeper than any other bird, past 500 meters, and can stay under for more than 20 minutes." },
+      { position: 2, text: "In winter storms these birds pack into tight huddles that keep shuffling in slow waves, so the ones on the cold outer edge gradually work their way inside." },
+      { position: 3, text: "The male balances a single egg on his feet through the Antarctic winter, eating nothing for over two months." },
+      { position: 4, text: "This Antarctic bird with yellow ear patches starred in an Oscar-winning 2005 documentary about its long march inland to breed." },
     ],
     decoys: [
       { text: "King Penguin", eliminatedByClue: 4 },
@@ -3510,9 +3513,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its eye is bigger than its brain, and the myth that it buries its head in sand is false." },
-      { position: 2, text: "The world's largest bird, it cannot fly but sprints faster than any other two-legged animal." },
-      { position: 3, text: "It lays the biggest egg of any living bird and delivers a kick powerful enough to kill a lion." },
+      { position: 1, text: "This bird's eye is bigger than its brain." },
+      { position: 2, text: "This bird has fewer toes than any other bird, just two on each foot, and the bigger toe ends in a hoof-like nail." },
+      { position: 3, text: "This bird's kick can kill a lion, and several hens lay their eggs in one shared nest that the male scrapes into the ground." },
       { position: 4, text: "This long-necked African runner, farmed for feathers and meat, hides its head in a hole only in cartoons." },
     ],
     decoys: [
@@ -3528,10 +3531,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its females can reproduce without a male, laying fertile eggs entirely on their own." },
-      { position: 2, text: "The largest lizard alive, it grows to ten feet and its bite delivers venom that stops blood from clotting." },
-      { position: 3, text: "It lives on just a handful of Indonesian islands, where it can smell carrion miles away with its forked tongue." },
-      { position: 4, text: "Named for the island it roams, this giant monitor is the closest living thing to a mythical fire-breather." },
+      { position: 1, text: "This reptile's females can produce young without a male, as two English zoos discovered in 2006." },
+      { position: 2, text: "Its venomous bite stops blood from clotting, which overturned the old idea that germs in its mouth killed its prey." },
+      { position: 3, text: "Its young spend their first years living up in trees, largely to avoid being eaten by adults of their own kind." },
+      { position: 4, text: "The largest lizard alive, this giant monitor is named for the island it roams." },
     ],
     decoys: [
       { text: "Gila Monster", eliminatedByClue: 2 },
@@ -3600,10 +3603,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Medieval traders sold its single tusk as the horn of a unicorn, worth its weight in gold." },
-      { position: 2, text: "That 'horn' is actually a spiral tooth, up to nine feet long, that pokes through its upper lip." },
-      { position: 3, text: "An Arctic whale, it dives beneath the sea ice to feed on fish, squid, and shrimp." },
-      { position: 4, text: "Nicknamed the 'unicorn of the sea,' this tusked toothed whale lives off Canada and Greenland." },
+      { position: 1, text: "This Arctic whale dives past 1,500 meters to feed on the seafloor beneath the winter pack ice of Baffin Bay." },
+      { position: 2, text: "This whale is dark blue-grey at birth and mottled as an adult, and the oldest males can turn almost entirely white." },
+      { position: 3, text: "This whale's only living relative in its family is the beluga, and a skull from West Greenland was confirmed by DNA in 2019 as a hybrid of the two." },
+      { position: 4, text: "Nicknamed the 'unicorn of the sea,' this Arctic whale has a spiral tusk that is really a canine tooth grown out through its upper lip." },
     ],
     decoys: [
       { text: "Beluga", eliminatedByClue: 2 },
@@ -3654,9 +3657,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Folk tales across the world cast it as a sly trickster outwitting bigger beasts." },
-      { position: 2, text: "It pounces on prey by leaping high and diving nose-first into snow to pin mice beneath." },
-      { position: 3, text: "The most widespread wild member of the dog family, it sports a white-tipped bushy tail called a brush." },
+      { position: 1, text: "Released by colonists in the 1800s for sport hunting, this predator now threatens native wildlife across Australia." },
+      { position: 2, text: "When this predator pounces on mice hidden under snow, it most often leaps toward the north-east, which suggests it may aim using Earth's magnetic field." },
+      { position: 3, text: "The most widespread wild member of the dog family, it gives a piercing scream in the winter mating season that people often mistake for someone in distress." },
       { position: 4, text: "Rusty-orange with black 'socks,' this cunning hunter is the one a pack of hounds famously chases." },
     ],
     decoys: [
@@ -4537,8 +4540,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This film earned Hans Zimmer his first Oscar, for Best Original Score; his second came 27 years later for 'Dune.'" },
-      { position: 2, text: "This animated film's plot echoes 'Hamlet': a young prince's uncle murders his father and seizes the throne." },
-      { position: 3, text: "Elton John and Tim Rice wrote this film's love song, 'Can You Feel the Love Tonight.'" },
+      { position: 2, text: "This film's stage version, directed by Julie Taymor with giant puppets and masks, is the highest-grossing show in Broadway history." },
+      { position: 3, text: "Elton John and Tim Rice wrote this animated film's songs, and three of them were nominated for the same Best Original Song Oscar." },
       { position: 4, text: "This 1994 Disney film about a cub reclaiming his throne at Pride Rock got a photoreal 2019 remake." },
     ],
     decoys: [
@@ -4879,8 +4882,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This show was shot in 'The Volume', a stage surrounded by giant LED screens that Industrial Light & Magic designed for it to replace green screens." },
-      { position: 2, text: "This Star Wars series follows a bounty hunter whose creed forbids him to remove his helmet in front of others." },
-      { position: 3, text: "This show's hero, played by Pedro Pascal, protects a Force-sensitive child named Grogu, whom fans nicknamed 'Baby Yoda'." },
+      { position: 2, text: "Famed German filmmaker Werner Herzog played the shadowy client who hires this show's hero in its first season." },
+      { position: 3, text: "John Wayne's grandson Brendan was one of the performers who wore this show's hero's armor, standing in for the star under the helmet." },
       { position: 4, text: "This Disney+ series is named for the armored warrior culture its hero belongs to." },
     ],
     decoys: [
@@ -6084,8 +6087,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "It can regrow lost limbs, and even parts of its heart and brain, without scarring." },
-      { position: 2, text: "This Mexican salamander never grows up, keeping its feathery gills and living underwater for life." },
+      { position: 1, text: "This amphibian's genome is more than ten times the size of a human's, and in 2018 it became the largest genome ever sequenced." },
+      { position: 2, text: "It can regrow lost limbs, and even parts of its heart and brain, without scarring." },
       { position: 3, text: "Nearly extinct in its only wild home, the canals of Mexico City, it thrives in labs and aquariums." },
       { position: 4, text: "Pink with a permanent 'smile,' this amphibian became a beloved character in the game Minecraft." },
     ],
@@ -6138,10 +6141,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Despite its fearsome nickname, no human has ever been killed by a wild one." },
-      { position: 2, text: "The largest member of the dolphin family, it is instantly known by its black-and-white markings." },
-      { position: 3, text: "Hunting in coordinated family pods, it preys on seals, fish, and even great white sharks." },
-      { position: 4, text: "This apex predator, its dorsal fin slicing the surface, has long been kept and shown at marine parks." },
+      { position: 1, text: "Despite this animal's fearsome nickname, there is no recorded case of a wild one killing a human." },
+      { position: 2, text: "Off South Africa, two males of this animal nicknamed Port and Starboard kill great white sharks and eat little more than their livers." },
+      { position: 3, text: "Since 2020, groups of these animals off Spain and Portugal have rammed sailing boats, breaking their rudders and even sinking some." },
+      { position: 4, text: "The largest member of the dolphin family, this black-and-white animal starred in SeaWorld's Shamu shows and in the film 'Free Willy'." },
     ],
     decoys: [
       { text: "Dolphin", eliminatedByClue: 2 },
@@ -6876,9 +6879,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Music",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "He is the only musician from outside classical and jazz to win the Pulitzer Prize for Music." },
-      { position: 2, text: "His To Pimp a Butterfly turned its track 'Alright' into a street protest chant." },
-      { position: 3, text: "The Compton rapper told his teenage years as a narrative concept album, good kid, m.A.A.d city." },
+      { position: 1, text: "This rapper's 2012 major-label debut tells the story of his teenage years, stitched together by voicemails from his mother and father." },
+      { position: 2, text: "This rapper opened the 2015 BET Awards by performing his protest anthem standing on the roof of a defaced police car." },
+      { position: 3, text: "This rapper was the first musician from outside classical music and jazz to win the Pulitzer Prize for Music." },
       { position: 4, text: "DAMN. and 'HUMBLE.' belong to this Compton MC, who headlined the 2025 Super Bowl halftime show." },
     ],
     decoys: [
@@ -7236,10 +7239,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "hard",
     clues: [
-      { position: 1, text: "Some have been exposed to the vacuum of open space, unprotected, and lived." },
-      { position: 2, text: "Barely half a millimetre long, it can dry into a lifeless husk called a tun and revive years later when wetted." },
-      { position: 3, text: "It shuffles through damp moss and lichen on eight stubby clawed legs, and has been found everywhere from Himalayan peaks to deep-sea trenches." },
-      { position: 4, text: "The microscopic eight-legged survivor nicknamed for its resemblance to a tiny, plodding, aquatic bear." },
+      { position: 1, text: "This animal was first described in 1773 by Johann Goeze, a pastor in the German town of Quedlinburg." },
+      { position: 2, text: "Barely half a millimetre long, this animal can dry out into a lifeless husk called a tun and revive years later when wetted." },
+      { position: 3, text: "This tiny animal survived unprotected exposure to the vacuum of open space on a 2007 satellite mission." },
+      { position: 4, text: "This microscopic eight-legged animal has two nicknames, one likening it to a little bear and the other to a little pig." },
     ],
     decoys: [
       { text: "Dust mite", eliminatedByClue: 2 },
@@ -7254,10 +7257,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Sailors squinting at it through the haze are blamed for the mermaid legend." },
-      { position: 2, text: "It grazes for hours on seagrass, and its worn molars are replaced from the back of the jaw throughout its life." },
+      { position: 1, text: "This animal grazes for hours on seagrass, and its worn molars are replaced from the back of the jaw throughout its life." },
+      { position: 2, text: "In January 1493, Christopher Columbus logged three 'mermaids' in the Caribbean that were most likely this animal." },
       { position: 3, text: "Slow and round, it drifts into Florida's warm springs each winter and too often carries propeller scars on its back." },
-      { position: 4, text: "The gentle aquatic herbivore whose closest living relatives are elephants, nicknamed for the cattle it seems to graze like." },
+      { position: 4, text: "This gentle aquatic herbivore, a distant cousin of the elephant, is nicknamed for the cattle it seems to graze like." },
     ],
     decoys: [
       { text: "Walrus", eliminatedByClue: 2 },
@@ -7272,10 +7275,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "It is the most trafficked wild mammal on Earth, and its armour is made of the same stuff as your fingernails." },
-      { position: 2, text: "Toothless, it laps up ants and termites with a sticky tongue that can be longer than its body and anchors near its pelvis." },
+      { position: 1, text: "This toothless mammal catches ants with a sticky tongue whose root is anchored deep in its body, near the pelvis and last pair of ribs." },
+      { position: 2, text: "This animal is thought to be the most trafficked wild mammal on Earth." },
       { position: 3, text: "Threatened, it curls into a ball of overlapping keratin scales so tight that even lions give up on it." },
-      { position: 4, text: "The scaly, ant-eating mammal of Africa and Asia whose name comes from a Malay word meaning 'roller'." },
+      { position: 4, text: "This scaly, ant-eating mammal of Africa and Asia takes its name from a Malay word meaning 'one who rolls up'." },
     ],
     decoys: [
       { text: "Armadillo", eliminatedByClue: 2 },
@@ -7326,9 +7329,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Out in open ocean it can pass under a ship unnoticed, barely a foot high." },
-      { position: 2, text: "The sea sometimes draws far back from the shore minutes before it lands, exposing the seabed like a sudden impossible low tide." },
-      { position: 3, text: "Wind has nothing to do with it: the seafloor itself lurches in a quake, a landslide or an eruption, and the pulse crosses the Pacific at jetliner speed." },
+      { position: 1, text: "Out in the open ocean this kind of wave can pass under a ship unnoticed, barely a foot high." },
+      { position: 2, text: "Minutes before this kind of wave arrives, the sea can draw far back from the shore, exposing the seabed like a sudden, impossible low tide." },
+      { position: 3, text: "After the great 1960 Chile earthquake, this kind of wave crossed the whole Pacific and killed about 140 people in Japan almost a day later." },
       { position: 4, text: "The Japanese word for 'harbour wave' names the surge that struck the Indian Ocean in 2004 and Tōhoku in 2011." },
     ],
     decoys: [
@@ -7362,10 +7365,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "The plants that make it are brewing an insecticide; your jolt is a side effect." },
-      { position: 2, text: "It blocks adenosine, the molecule that piles up in your brain all day telling you that you are tired — so it hides sleepiness rather than adding energy." },
-      { position: 3, text: "Half of a dose is still in you five hours later, which is why a late-afternoon cup quietly costs you an hour of sleep." },
-      { position: 4, text: "The world's most widely used stimulant, found in coffee beans, tea leaves, cacao and cola nuts." },
+      { position: 1, text: "The plants that make this compound use it as a natural pesticide: a 1984 study found the levels in their fresh leaves and seeds were enough to kill caterpillars." },
+      { position: 2, text: "In 1819 the poet Goethe handed the chemist Friedlieb Runge a box of beans that a Greek had sent him as a delicacy, and Runge soon isolated this compound from them." },
+      { position: 3, text: "Honeybees fed nectar laced with this compound were three times as likely to remember a flower's scent a day later." },
+      { position: 4, text: "This compound is the world's most widely used stimulant, found in coffee beans, tea leaves, cacao and kola nuts." },
     ],
     decoys: [
       { text: "Sugar", eliminatedByClue: 2 },
@@ -7758,10 +7761,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Music",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "The man who wrote her signature song heard her version and admitted the girl had just taken it away from him." },
-      { position: 2, text: "A Detroit preacher's daughter, she cut her breakthrough at Muscle Shoals in 1967 and turned a plea into a demand spelled out letter by letter." },
+      { position: 1, text: "The man who wrote this singer's signature song introduced it on stage in 1967 as a song that a girl had taken away from him." },
+      { position: 2, text: "This Detroit preacher's daughter cut her breakthrough single at FAME Studios in Muscle Shoals, Alabama, in January 1967." },
       { position: 3, text: "She sang at three presidential inaugurations, and the state of Michigan declared her voice a natural resource." },
-      { position: 4, text: "The Queen of Soul, the first woman inducted into the Rock and Roll Hall of Fame, who wanted a little R-E-S-P-E-C-T." },
+      { position: 4, text: "This Queen of Soul was the first woman inducted into the Rock and Roll Hall of Fame, and she wanted a little R-E-S-P-E-C-T." },
     ],
     decoys: [
       { text: "Whitney Houston", eliminatedByClue: 1 },
@@ -8082,10 +8085,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Art",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "The figure is not the one making the noise — the artist's diary has it clapping its hands over its ears against a shriek passing through nature." },
+      { position: 1, text: "This painting carries a faint pencil note in one corner, saying it could only have been painted by a madman; in 2021 experts confirmed the artist wrote it himself." },
       { position: 2, text: "The blood-red sky may be a memory of Krakatoa's ash drifting over Norway years earlier." },
       { position: 3, text: "Its maker produced four versions in paint and pastel; two were stolen, in 1994 and 2004, and both came back." },
-      { position: 4, text: "Edvard Munch's 1893 picture of a wavy skull-faced figure on a bridge, hands clamped to its head." },
+      { position: 4, text: "This 1893 painting by Edvard Munch shows a skull-faced figure on a bridge, hands pressed to the sides of its head." },
     ],
     decoys: [
       { text: "The Starry Night", eliminatedByClue: 3 },
@@ -8154,10 +8157,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Art",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "His baptismal name strung together more than a dozen saints and relatives, but he signed his work with just his mother's surname." },
-      { position: 2, text: "Early on he painted in a gloomy Blue Period, then brightened into a Rose Period of acrobats and harlequins." },
-      { position: 3, text: "With Georges Braque he invented Cubism, breaking faces and guitars into flat, overlapping planes." },
-      { position: 4, text: "The Spanish artist of Guernica, his vast black-and-white outcry against the 1937 bombing of a Basque town." },
+      { position: 1, text: "This painter's baptismal name strung together a long run of saints and relatives, but he signed his work with only his mother's surname." },
+      { position: 2, text: "In 1911 Paris police questioned this painter over the theft of the Mona Lisa from the Louvre, a crime he had nothing to do with." },
+      { position: 3, text: "In 1949 he named his newborn daughter Paloma, Spanish for 'dove', the same month his dove lithograph appeared on the poster for the Paris Peace Congress." },
+      { position: 4, text: "This Spanish artist painted Guernica, a vast black-and-white outcry against the 1937 bombing of a Basque town." },
     ],
     decoys: [
       { text: "Henri Matisse", eliminatedByClue: 2 },
@@ -8172,10 +8175,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Art",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its painter dismissed it in a letter as a failure; it is now one of the most reproduced pictures in the world." },
+      { position: 1, text: "This painting's artist called it a failure in a letter, yet its brightest point of light is probably Venus, then near its peak brightness in the dawn sky over Provence." },
       { position: 2, text: "It shows the view from an asylum window just before sunrise, worked up by day in a ground-floor studio, with an invented village added below." },
-      { position: 3, text: "A flame-like cypress towers in its foreground beneath a sky of swirling eddies, stars, and a crescent moon." },
-      { position: 4, text: "Vincent van Gogh's 1889 night sky churning over a sleeping village, a star attraction at MoMA in New York." },
+      { position: 3, text: "Don McLean's 1971 tribute song to its painter takes its opening words from this painting's title." },
+      { position: 4, text: "Vincent van Gogh painted it in 1889, and it now hangs at the Museum of Modern Art in New York." },
     ],
     decoys: [
       { text: "The Great Wave off Kanagawa", eliminatedByClue: 2 },
@@ -8190,10 +8193,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Art",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "It is not a portrait of anyone in particular but a tronie — a Dutch study of a face in exotic costume." },
-      { position: 2, text: "Its young subject glances back over her shoulder, lips parted, in a blue and yellow turban." },
-      { position: 3, text: "Painted around 1665 by Johannes Vermeer of Delft, it hangs in the Mauritshuis in The Hague." },
-      { position: 4, text: "Vermeer's turbaned girl with a large, glinting pearl at her ear, played by Scarlett Johansson in a 2003 film." },
+      { position: 1, text: "This painting is not a portrait of a real sitter but a tronie — a Dutch study of a face in exotic costume." },
+      { position: 2, text: "When scientists studied this painting in 2018, they found tiny eyelashes and a green curtain, long faded to black, in its seemingly empty background." },
+      { position: 3, text: "It hangs in the Mauritshuis in The Hague and is often nicknamed the Mona Lisa of the North." },
+      { position: 4, text: "Johannes Vermeer painted it around 1665, and Scarlett Johansson played its young model in a 2003 film." },
     ],
     decoys: [
       { text: "Mona Lisa", eliminatedByClue: 2 },
@@ -8208,10 +8211,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Art",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "He once gave a lecture in London wearing a deep-sea diving suit and nearly suffocated inside it." },
+      { position: 1, text: "This artist once gave a lecture in London wearing a deep-sea diving suit and nearly suffocated inside it." },
       { position: 2, text: "He called his canvases 'hand-painted dream photographs,' and he designed the Chupa Chups lollipop logo." },
-      { position: 3, text: "His 1931 painting The Persistence of Memory drapes limp, melting pocket watches across a barren shore." },
-      { position: 4, text: "The Spanish Surrealist famous for his flamboyant waxed, upturned mustache." },
+      { position: 3, text: "He designed the dream sequence for Alfred Hitchcock's 1945 film Spellbound." },
+      { position: 4, text: "He was the Spanish Surrealist who painted melting watches and wore a waxed, upturned mustache." },
     ],
     decoys: [
       { text: "René Magritte", eliminatedByClue: 3 },
@@ -8226,10 +8229,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Art",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "He called his studio the Factory and had its walls covered in silver foil." },
-      { position: 2, text: "He managed the rock band the Velvet Underground, and in 1968 he survived being shot by the writer Valerie Solanas." },
-      { position: 3, text: "He silkscreened rows of Marilyn Monroe's face and predicted that everyone would one day be world-famous for 15 minutes." },
-      { position: 4, text: "The Pop artist who painted 32 canvases of Campbell's soup cans." },
+      { position: 1, text: "This artist's New York studio, the Factory, had its walls covered in silver foil." },
+      { position: 2, text: "He was born in Pittsburgh, where a museum devoted to his work is the largest in North America dedicated to a single artist." },
+      { position: 3, text: "He managed the rock band the Velvet Underground, and in 1968 he survived being shot by the writer Valerie Solanas." },
+      { position: 4, text: "He painted 32 canvases of Campbell's soup cans, one for each variety the company then sold." },
     ],
     decoys: [
       { text: "Keith Haring", eliminatedByClue: 2 },
@@ -8496,10 +8499,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Literature",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "An NFL team takes its name from his most famous work." },
-      { position: 2, text: "He is often credited with inventing the detective story, with the sleuth C. Auguste Dupin in 1841." },
+      { position: 1, text: "This writer is often credited with inventing the detective story, with the sleuth C. Auguste Dupin in 1841." },
+      { position: 2, text: "An NFL team takes its name from his best-known piece of verse." },
       { position: 3, text: "He died at 40 after being found delirious at a Baltimore tavern, wearing clothes that were not his own." },
-      { position: 4, text: "The American master of the macabre who wrote 'The Tell-Tale Heart' and 'The Raven,' with its croaked refrain of 'Nevermore.'" },
+      { position: 4, text: "He was the American master of the macabre who wrote 'The Tell-Tale Heart' and 'The Fall of the House of Usher.'" },
     ],
     decoys: [
       { text: "H. P. Lovecraft", eliminatedByClue: 2 },
@@ -8730,10 +8733,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Nature",
     difficulty: "hard",
     clues: [
-      { position: 1, text: "Its swollen trunk can store thousands of gallons of water to see it through the dry season." },
+      { position: 1, text: "This tree's swollen trunk can store thousands of gallons of water to see it through the dry season." },
       { position: 2, text: "One in South Africa was so wide that a pub was built inside its hollow trunk." },
       { position: 3, text: "An African legend says it was planted upside down, which is why its bare branches look like roots." },
-      { position: 4, text: "The fat-trunked 'upside-down tree' of the African savanna that threatens the Little Prince's tiny planet." },
+      { position: 4, text: "This fat-trunked savanna tree's seedlings must be pulled up every morning, or its roots will split the Little Prince's tiny planet." },
     ],
     decoys: [
       { text: "Joshua Tree", eliminatedByClue: 2 },
@@ -8766,10 +8769,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Food & Drink",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "In one of history's stranger heists, thieves quietly siphoned off nearly $19 million worth of it." },
+      { position: 1, text: "In one of history's stranger heists, thieves quietly siphoned off nearly $19 million worth of this sweetener." },
       { position: 2, text: "It takes about 40 gallons of sap to boil down to a single gallon of it." },
       { position: 3, text: "Quebec produces about 70 percent of the world's supply and keeps a strategic reserve of it." },
-      { position: 4, text: "The sweet amber pancake topping boiled down from the sap of the tree whose leaf is on Canada's flag." },
+      { position: 4, text: "This sweet amber pancake topping comes from the sap of the tree whose leaf is on Canada's flag." },
     ],
     decoys: [
       { text: "Honey", eliminatedByClue: 2 },
@@ -8820,10 +8823,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "History",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "She led an armed raid during the Civil War that freed more than 700 enslaved people." },
-      { position: 2, text: "A blow to the head in her youth left her with sudden sleeping spells and vivid visions for the rest of her life." },
-      { position: 3, text: "After escaping slavery in Maryland in 1849, she went back again and again to guide some 70 others north." },
-      { position: 4, text: "The 'Moses' of the Underground Railroad, picked in 2016 to replace Andrew Jackson on the $20 bill." },
+      { position: 1, text: "A blow to this abolitionist's head in her youth left her with sudden sleeping spells and vivid visions for the rest of her life." },
+      { position: 2, text: "During the Civil War she led an armed raid that freed more than 700 enslaved people." },
+      { position: 3, text: "In 2016 the Treasury picked her to replace Andrew Jackson on the front of the $20 bill." },
+      { position: 4, text: "Called the 'Moses' of her people, she escaped slavery in Maryland in 1849 and made about 13 trips back to lead some 70 others to freedom on the Underground Railroad." },
     ],
     decoys: [
       { text: "Sojourner Truth", eliminatedByClue: 3 },
@@ -8982,10 +8985,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Technology",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Its name was dreamed up by a branding agency and does not stand for anything." },
-      { position: 2, text: "A key piece of its technology came from Australian radio astronomers hunting for exploding black holes." },
+      { position: 1, text: "A key piece of this technology came from Australian radio astronomers who were hunting for exploding black holes." },
+      { position: 2, text: "Its name was dreamed up by a branding agency and, despite a popular belief, does not stand for anything." },
       { position: 3, text: "It usually runs on the 2.4 and 5 gigahertz bands — the lower one shared with microwave ovens." },
-      { position: 4, text: "The wireless networking standard that links laptops and phones to your router." },
+      { position: 4, text: "This wireless networking standard links laptops and phones to your home router." },
     ],
     decoys: [
       { text: "Ethernet", eliminatedByClue: 3 },
@@ -9054,10 +9057,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Nature",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Its leaves repel water so well that droplets roll off and carry the dirt away — a self-cleaning trick engineers now copy." },
-      { position: 2, text: "A seed of it dug from a dry lakebed in China sprouted after roughly 1,300 years." },
+      { position: 1, text: "A seed of this plant, dug from a dry lakebed in China, sprouted after roughly 1,300 years." },
+      { position: 2, text: "Its leaves repel water so well that droplets roll off and carry the dirt away — a self-cleaning trick engineers now copy." },
       { position: 3, text: "It roots in pond mud but holds its pink or white flowers high above the water, which made it a Buddhist symbol of purity." },
-      { position: 4, text: "The national flower of India, which gives its name to the cross-legged yoga pose." },
+      { position: 4, text: "This plant is the national flower of India and gives its name to the cross-legged yoga pose." },
     ],
     decoys: [
       { text: "Water lily", eliminatedByClue: 3 },
@@ -9612,10 +9615,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Literature",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "In 1926 she vanished for eleven days, sparking a national manhunt, and turned up at a Harrogate hotel under an assumed name." },
+      { position: 1, text: "In 1926 this writer vanished for eleven days, sparking a national manhunt, and turned up at a Harrogate hotel under an assumed name." },
       { position: 2, text: "She worked in a hospital pharmacy during World War I, which is why so many of her victims die by poison." },
       { position: 3, text: "Her play 'The Mousetrap' has run in London's West End since 1952, longer than any other." },
-      { position: 4, text: "The best-selling 'Queen of Crime' who created Hercule Poirot and Miss Marple." },
+      { position: 4, text: "This best-selling 'Queen of Crime' created Hercule Poirot and Miss Marple." },
     ],
     decoys: [
       { text: "Dorothy L. Sayers", eliminatedByClue: 3 },
@@ -9684,10 +9687,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Pop Culture",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "NASA hands out an award in his name for work that keeps astronauts safe." },
-      { position: 2, text: "Apollo 10's lunar module was named after him." },
-      { position: 3, text: "He often lies on the roof of his doghouse, imagining he is a World War I flying ace battling the Red Baron." },
-      { position: 4, text: "Charlie Brown's beagle in the 'Peanuts' comic strip." },
+      { position: 1, text: "NASA hands out an award named after this cartoon character for work that keeps astronauts safe." },
+      { position: 2, text: "He was based on his creator's boyhood dog Spike, a black-and-white mixed breed." },
+      { position: 3, text: "He first appeared in the comic strip in 1950, just two days after it launched, and did not walk upright on his hind legs until 1956." },
+      { position: 4, text: "This beagle is Charlie Brown's dog in the 'Peanuts' comic strip." },
     ],
     decoys: [
       { text: "Garfield", eliminatedByClue: 2 },
@@ -9900,10 +9903,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Food & Drink",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "It is barely known in China." },
-      { position: 2, text: "It most likely began in Japan and reached America through Japanese bakers in California." },
-      { position: 3, text: "In 2005, 110 people won Powerball prizes by playing the lucky numbers printed inside it." },
-      { position: 4, text: "The folded, crisp treat with a slip of paper inside, handed out after a Chinese-American meal." },
+      { position: 1, text: "This snack most likely grew out of a Japanese cracker, and the man who ran San Francisco's Japanese Tea Garden is often credited with bringing it to America." },
+      { position: 2, text: "This snack is barely known in China, yet about three billion of them are made each year, mostly in the United States." },
+      { position: 3, text: "In a 2005 Powerball drawing, 110 people won second prizes with the same numbers, all printed on slips inside these snacks from one factory in Queens, New York." },
+      { position: 4, text: "This folded, crisp treat hides a slip of paper inside and is handed out after a Chinese-American meal." },
     ],
     decoys: [
       { text: "Chop suey", eliminatedByClue: 2 },
