@@ -6859,9 +6859,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This singer wrote a jealous-woman classic and an all-time farewell ballad so close together that she once said it was the same day." },
-      { position: 2, text: "Her Imagination Library has posted more than 200 million free books to children." },
+      { position: 2, text: "Her Imagination Library has posted more than 300 million free books to children in five countries." },
       { position: 3, text: "This country singer, the fourth of twelve children, was born in a one-room cabin in Tennessee's Smoky Mountains." },
-      { position: 4, text: "'Jolene' and '9 to 5' belong to this rhinestoned country icon, who helped fund Moderna's vaccine research." },
+      { position: 4, text: "'9 to 5' and 'Islands in the Stream' belong to this rhinestoned country icon, who helped fund Moderna's vaccine research." },
     ],
     decoys: [
       { text: "Tammy Wynette", eliminatedByClue: 2 },

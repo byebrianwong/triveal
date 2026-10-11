@@ -1619,17 +1619,21 @@
   ],
   "after": [
    "This singer wrote a jealous-woman classic and an all-time farewell ballad so close together that she once said it was the same day.",
-   "Her Imagination Library has posted more than 200 million free books to children.",
+   "Her Imagination Library has posted more than 300 million free books to children in five countries.",
    "This country singer, the fourth of twelve children, was born in a one-room cabin in Tennessee's Smoky Mountains.",
-   "'Jolene' and '9 to 5' belong to this rhinestoned country icon, who helped fund Moderna's vaccine research."
+   "'9 to 5' and 'Islands in the Stream' belong to this rhinestoned country icon, who helped fund Moderna's vaccine research."
   ],
   "changed": [
    1,
-   3
+   2,
+   3,
+   4
   ],
   "sources": {
    "1": "https://www.snopes.com/fact-check/dolly-parton-2-songs-one-day/",
-   "3": "https://dollyparton.com/decades/1940s"
+   "2": "https://www.newschannel5.com/news/dolly-partons-imagination-library-has-gifted-more-than-332-million-books-to-children-around-the-world",
+   "3": "https://dollyparton.com/decades/1940s",
+   "4": "https://en.wikipedia.org/wiki/Islands_in_the_Stream_(song)"
   },
   "summary": "Clue 1 opens with 'This singer' and is softened because she later said the two songs may have been days apart; clue 3 replaces the Dollywood giveaway with her birth in a one-room cabin."
  },
