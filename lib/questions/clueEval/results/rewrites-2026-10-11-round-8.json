@@ -1,0 +1,1414 @@
+[
+ {
+  "id": "marie-curie",
+  "answer": "Marie Curie",
+  "category": "Science",
+  "before": [
+   "She remains the only person ever to win Nobel Prizes in two different sciences.",
+   "Her century-old notebooks are still so radioactive that they are stored in lead-lined boxes and handled with protective gear.",
+   "Born in Poland and working in France, she discovered the elements polonium and radium.",
+   "A pioneer of radioactivity, she was the first woman to win a Nobel Prize; her daughter Irène later earned one too."
+  ],
+  "after": [
+   "This scientist became the first woman entombed in Paris's Panthéon on her own merits when her remains were moved there in 1995.",
+   "During World War I she fitted out vans with X-ray machines to examine wounded soldiers near the front, and learned to drive so she could take one there herself.",
+   "She and her husband named the first element they discovered after her homeland, which was not an independent country at the time.",
+   "A pioneer of radioactivity, this scientist is the only person to win Nobel Prizes in two different sciences, physics and chemistry."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://contexttravel.com/blog/articles/french-women-in-the-pantheon",
+   "2": "https://history.aip.org/exhibits/curie/war1.htm",
+   "3": "https://www.ebsco.com/research-starters/history/polonium-po/",
+   "4": "https://www.lshtm.ac.uk/aboutus/introducing/history/frieze/marie-sklodowska-curie"
+  },
+  "summary": "Clue 1 now opens with 'This scientist', and clue 3 swaps the instant polonium-and-radium giveaway for the story of naming polonium after a Poland that was not independent in 1898. Second pass: Replaced the instant two-Nobels opener with her 1995 Panthéon entombment and moved the two Nobels to clue 4 only, as the owner asked. Hand pass: Clue 2's radioactive notebooks were instant; replaced with her World War I X-ray vans."
+ },
+ {
+  "id": "kangaroo",
+  "answer": "Kangaroo",
+  "category": "Animals",
+  "before": [
+   "It physically cannot walk backward, and springy tendons let it bound faster while burning less energy.",
+   "A newborn is the size of a jellybean and hauls itself into its mother's pouch to keep developing.",
+   "This marsupial props itself on a thick muscular tail like a fifth limb and can throw a bruising kick.",
+   "Australia's famous hopping icon, the males are called boomers and the babies are joeys."
+  ],
+  "after": [
+   "This animal's energy use barely rises as it speeds up, because springy tendons in its legs store and return energy with every bound.",
+   "A newborn is the size of a jellybean and hauls itself into its mother's pouch to keep developing.",
+   "A group of them is called a mob, and when moving slowly they push off their thick tail as if it were a fifth leg.",
+   "This hopping Australian icon has males called boomers and babies called joeys."
+  ],
+  "changed": [
+   1,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://scienceblog.com/t-kangaroo-high-speed-hopping-tendon-spring-energy/",
+   "3": "https://www.sciencenews.org/blog/wild-things/red-kangaroos-tail-acts-fifth-leg",
+   "4": "https://www.pbs.org/wnet/nature/kangaroo-mob-kangaroo-fact-sheet/7444/"
+  },
+  "summary": "Clue 1 drops the shaky can't-walk-backward claim and opens with 'This animal's', clue 3 replaces the instant marsupial-tail-and-kick clue with the mob name and the fifth-leg gait, and clue 4 fixes the dangling opening."
+ },
+ {
+  "id": "giant-panda",
+  "answer": "Giant Panda",
+  "category": "Animals",
+  "before": [
+   "Though its gut is built like a meat-eater's, it spends up to 14 hours a day munching almost nothing but bamboo.",
+   "A newborn is pink, hairless, and about the size of a stick of butter — roughly a nine-hundredth of its mother's weight.",
+   "A 'thumb' formed from an enlarged wrist bone helps it grip stalks, and China lends these black-and-white bears to zoos abroad.",
+   "This bamboo-eating bear from China's misty highlands is the black-and-white emblem of the WWF."
+  ],
+  "after": [
+   "This animal's newborn is pink, hairless, and about the size of a stick of butter — roughly a nine-hundredth of its mother's weight.",
+   "For about a century, scientists argued whether it was a raccoon relative or a bear, until DNA studies in 1985 placed it with the bears.",
+   "A sixth 'finger' formed from an enlarged wrist bone helps this animal grip the stalks it eats.",
+   "This bamboo-eating bear from China's misty highlands is the black-and-white emblem of the WWF."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "reworded from clue 2",
+   "2": "https://sciencemusings.com/giant-pandas-a-bear-after-all",
+   "3": "https://www.sci.news/paleontology/ailurarctos-extra-thumb-10957.html"
+  },
+  "summary": "Clue 1 replaces the bamboo giveaway with the century-long bear-or-raccoon debate settled by DNA in 1985, and clue 3 keeps the false thumb but drops China's black-and-white bears, which repeated clue 4. Hand pass: Swapped clues 1 and 2 so the harder newborn fact leads."
+ },
+ {
+  "id": "chameleon",
+  "answer": "Chameleon",
+  "category": "Animals",
+  "before": [
+   "Its two eyes can swivel and aim in entirely different directions at the same instant.",
+   "It fires out a tongue longer than its own body to snatch an insect, striking in a fraction of a second.",
+   "Many species shift color less for camouflage than to broadcast mood and temperature, by rearranging tiny crystals in their skin.",
+   "This lizard, with many kinds native to Madagascar, is famous for changing color and clamping onto branches with pincer-like feet."
+  ],
+  "after": [
+   "Some species of this reptile glow blue under ultraviolet light, because bony bumps on their skulls show through their thin skin.",
+   "Most species grip branches with a curling tail like an extra hand, and the tiniest known kind could sit on a fingertip.",
+   "It fires out a tongue longer than its own body to snatch an insect, striking in a fraction of a second.",
+   "This lizard, with many kinds native to Madagascar, is famous for changing color and for eyes that swivel in different directions at once."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.nationalgeographic.com/animals/article/chameleon-bones-florescent-ultraviolet-light-spd",
+   "2": "https://www.nbcnews.com/science/science-news/newly-discovered-chameleon-tiny-can-fit-fingertip-rcna246",
+   "3": "moved from clue 2",
+   "4": "https://wildmadagascar.org/wildlife/chameleons.html"
+  },
+  "summary": "Clue 1 now opens with 'This reptile's', the color-change clue that gave the answer away is replaced by the gripping tail and fingertip-sized species (hedged with 'most', since dwarf Brookesia tails don't grip), and that clue moves ahead of the better-known tongue clue. Second pass: Opened with the glowing skull bumps instead of the famous swiveling eyes, and folded the eyes into clue 4."
+ },
+ {
+  "id": "blue-whale",
+  "answer": "Blue Whale",
+  "category": "Animals",
+  "before": [
+   "Its nursing newborn packs on roughly the weight of an adult human every single day.",
+   "Its heart alone is about the size of a small car, and its low moans are the loudest sounds made by any animal.",
+   "For all its bulk, it lives almost entirely on tiny shrimp-like krill, straining tons of them through fringed plates of baleen.",
+   "The largest animal ever known to have lived, this baleen whale is named for its bluish-gray color."
+  ],
+  "after": [
+   "This animal's nursing calf packs on roughly the weight of an adult human every single day.",
+   "Its heart alone weighs about 440 pounds, and its low calls can travel hundreds of kilometers underwater.",
+   "For all its bulk, it lives almost entirely on tiny shrimp-like krill, straining tons of them through fringed plates of baleen.",
+   "The largest animal ever known to have lived, this baleen whale can grow to about 30 meters long."
+  ],
+  "changed": [
+   1,
+   2,
+   4
+  ],
+  "sources": {
+   "1": "https://seaworld.org/animals/all-about/baleen-whales/care-of-young/",
+   "2": "https://www.guinnessworldrecords.com/world-records/largest-heart",
+   "4": "https://en.wikipedia.org/wiki/Blue_whale"
+  },
+  "summary": "Clue 1 now opens with 'This animal's', and clue 2 drops the doubtful 'loudest animal' claim and the outdated car-sized heart for the measured 440-pound heart and calls that carry hundreds of kilometers. Hand pass: Clue 4 no longer says it is named for its color, which used a word from the answer; it gives its length instead."
+ },
+ {
+  "id": "dolphin",
+  "answer": "Dolphin",
+  "category": "Animals",
+  "before": [
+   "It sleeps with only half its brain at a time, keeping one eye open so it never forgets to surface for air.",
+   "It 'sees' with sound, firing rapid clicks and reading the echoes to map objects in murky water.",
+   "Highly social and playful, each individual has its own signature whistle that works much like a name.",
+   "This sleek, intelligent marine mammal, often seen leaping in a ship's wake, is a small toothed cousin of the whale."
+  ],
+  "after": [
+   "This animal sometimes uses tools: in Shark Bay, Australia, some wear marine sponges on their snouts to shield them while probing the seafloor.",
+   "It sleeps with only half its brain at a time, keeping one eye open so it can still surface for air.",
+   "Each one has its own signature whistle that others use much like a name.",
+   "This sleek, intelligent toothed whale often rides the bow waves of boats, and one starred on TV as Flipper."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://orca.org.uk/news-blog/meet-the-dolphins-who-wear-tools-to-find-their-dinner",
+   "2": "https://scientificamerican.com/article/meet-the-animals-that-literally-sleep-with-one-eye-open",
+   "3": "https://news.st-andrews.ac.uk/archive/dolphins-whistle-their-names/",
+   "4": "https://www.Gwern.net/doc/biology/2009-wursig.pdf"
+  },
+  "summary": "Clue 1 now opens with 'This animal' and says the awake half lets it surface, rather than that it 'never forgets'. Second pass: Replaced the generic echolocation clue with Shark Bay sponge tool use as the opener, moved half-brain sleep to clue 2, cut the padding from the whistle clue, and fixed clue 4 to call it a toothed whale."
+ },
+ {
+  "id": "sloth",
+  "answer": "Sloth",
+  "category": "Animals",
+  "before": [
+   "It moves so little that green algae grows in its fur, tinting it mossy — handy camouflage in the canopy.",
+   "Its digestion is so slow that a single leafy meal can take weeks to break down.",
+   "It climbs down from the treetops only about once a week — to relieve itself — and can hold its breath longer than a dolphin.",
+   "This famously slow-moving Central and South American mammal dangles upside down from branches by long, curved claws."
+  ],
+  "after": [
+   "A green alga not known to grow anywhere else lives in this mammal's fur, tinting its coat a mossy green.",
+   "Its digestion is so slow that a single leafy meal can take weeks to break down.",
+   "It climbs down from the treetops only about once a week — to relieve itself — and can hold its breath longer than a dolphin.",
+   "This famously slow-moving Central and South American mammal dangles upside down from branches by long, curved claws."
+  ],
+  "changed": [
+   1
+  ],
+  "sources": {
+   "1": "http://blogs.biomedcentral.com/on-biology/2010/04/14/sloth-fur-has-symbiotic-relationship-with-green-algae/"
+  },
+  "summary": "Rewrote clue 1 to open with 'this mammal', drop the 'moves so little' giveaway and the weakly supported camouflage claim, and add that the alga is found only on this animal."
+ },
+ {
+  "id": "gold",
+  "answer": "Gold",
+  "category": "Science",
+  "before": [
+   "Nearly all of it ever mined would fit inside just a few Olympic swimming pools, and much of it was forged in colliding neutron stars.",
+   "So soft and unreactive that it never rusts or tarnishes, a single ounce can be beaten into a sheet covering a hundred square feet.",
+   "Treasured for thousands of years, it carries the chemical symbol Au and is measured in carats for purity.",
+   "This dense, shiny yellow precious metal fills central-bank vaults and hangs around the necks of Olympic champions."
+  ],
+  "after": [
+   "Nearly all of this metal ever mined would fit inside about four and a half Olympic swimming pools, and much of it was forged in colliding neutron stars.",
+   "This metal is so soft that a single ounce can be beaten into a sheet covering a hundred square feet, and it never rusts or tarnishes.",
+   "Thin flakes of this metal are sprinkled on luxury desserts as an edible garnish, and they pass through the body undigested.",
+   "This dense, shiny yellow precious metal fills central-bank vaults and hangs around the necks of Olympic champions."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.fxstreet.com/analysis/how-much-gold-is-there-in-the-world-202406061738",
+   "2": "reworded from clue 2",
+   "3": "https://www.scienceabc.com/eyeopeners/how-do-they-make-gold-and-silver-safe-to-eat.html"
+  },
+  "summary": "Clue 1 now says 'this metal' and gives the sourced pool count; clue 3 swaps the instant 'Au and carats' for edible gold flakes. Hand pass: Reworded clue 2 so its opening phrase no longer dangles."
+ },
+ {
+  "id": "lightning",
+  "answer": "Lightning",
+  "category": "Science",
+  "before": [
+   "For a split second it heats the surrounding air to roughly five times the temperature of the Sun's surface.",
+   "The thunderclap you hear is simply the boom of air blasting outward from its superheated channel.",
+   "It hits the Earth millions of times a day, and the Empire State Building is struck dozens of times a year.",
+   "This sudden flash of electricity between cloud and ground rips across the sky during a thunderstorm."
+  ],
+  "after": [
+   "For a split second this natural phenomenon heats the air around it to roughly five times the temperature of the Sun's surface.",
+   "Erupting volcanoes can produce it too, as ash particles grinding together in the plume build up electric charge.",
+   "When it strikes sand, it can fuse the grains into hollow glass tubes called fulgurites.",
+   "This sudden flash of electricity between cloud and ground rips across the sky during a thunderstorm."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://weather.gov/safety/lightning-temperature",
+   "2": "https://phys.org/news/2016-06-plumes.html",
+   "3": "https://geology.utah.gov/fulgurites-when-lightning-strikes-sand-magic-is-formed"
+  },
+  "summary": "Clue 1 now names the kind of thing; replaced the giveaway thunder and skyscraper clues with volcanic eruptions and fulgurites."
+ },
+ {
+  "id": "platypus",
+  "answer": "Platypus",
+  "category": "Animals",
+  "before": [
+   "It is one of the only mammals that lays eggs, and the males carry venom in a spur on each hind leg.",
+   "It hunts with eyes, ears, and nose all sealed shut, sensing the faint electric fields of prey through its rubbery bill.",
+   "Native to Australia, it has no stomach and no teeth, mashing food with bits of gravel it scoops up while feeding.",
+   "This duck-billed, beaver-tailed, web-footed oddity so baffled naturalists that the first specimen was dismissed as a hoax."
+  ],
+  "after": [
+   "This mammal's drab brown fur glows blue-green under ultraviolet light, a trait scientists first reported in 2020.",
+   "It hunts with eyes, ears, and nose all sealed shut, sensing the faint electric fields of prey through its soft, leathery snout.",
+   "Native to Australia, it has no stomach and no teeth, mashing food with bits of gravel it scoops up while feeding.",
+   "This duck-billed, beaver-tailed, web-footed oddity so baffled naturalists that the first specimen was dismissed as a hoax."
+  ],
+  "changed": [
+   1,
+   2
+  ],
+  "sources": {
+   "1": "https://www.nationalgeographic.com/animals/article/glowing-platypus",
+   "2": "reworded from clue 2"
+  },
+  "summary": "Replaced the instant egg-laying and venom clue 1 with the 2020 discovery that its fur glows under UV light, opening with 'This mammal'. Hand pass: Clue 2 says snout instead of bill, which gave the answer away."
+ },
+ {
+  "id": "giraffe",
+  "answer": "Giraffe",
+  "category": "Animals",
+  "before": [
+   "For all that towering neck, it has exactly the same number of neck bones as you do — seven.",
+   "Its tongue is nearly half a meter long and a dark blue-purple, a color thought to guard against sunburn while it feeds.",
+   "The tallest animal on Earth, it survives on as little as 30 minutes of sleep a day and needs an outsized heart to pump blood up to its brain.",
+   "This spotted African browser reaches leaves high in acacia trees that nothing else can touch."
+  ],
+  "after": [
+   "This animal may sleep as little as half an hour a day, and its heart can weigh about 11 kilograms.",
+   "Its tongue is nearly half a meter long and a dark blue-purple, a color thought to guard against sunburn while it feeds.",
+   "Its mother gives birth standing up, so a newborn starts life with a drop of up to two meters to the ground.",
+   "This spotted African browser reaches leaves high in acacia trees that nothing else can touch."
+  ],
+  "changed": [
+   1,
+   3
+  ],
+  "sources": {
+   "1": "https://www.shamwari.com/giraffe-facts/",
+   "3": "https://www.goodnewsnetwork.org/giraffe-birth-6ft-drop-video-from-chester-zoo/"
+  },
+  "summary": "Clue 1 now names the kind of thing and drops 'towering neck', and clue 3 swaps the instant 'tallest animal on Earth' for its short sleep and 11 kg heart. Hand pass: Swapped clues 1 and 3 so the sleep-and-heart fact leads. Clue 3's neck bones were instant; replaced with the drop a newborn takes at birth."
+ },
+ {
+  "id": "polar-bear",
+  "answer": "Polar Bear",
+  "category": "Animals",
+  "before": [
+   "Under its white-looking coat its skin is jet black, and each strand of fur is a hollow, see-through tube.",
+   "A tireless swimmer, it can paddle for days across open Arctic sea and smell a seal from over a kilometer away.",
+   "The largest land carnivore on Earth, it hunts seals from the sea ice and can fast for months between big meals.",
+   "This great white bear of the far north is increasingly at risk as the sea ice it hunts on melts away."
+  ],
+  "after": [
+   "This animal's skin is jet black under its fur, and each hair is a hollow, see-through tube with no white pigment.",
+   "A tireless swimmer, one female was tracked swimming for nine days straight, covering 687 kilometers of open sea.",
+   "It is the largest meat-eating animal on land, and a big male can weigh more than half a tonne.",
+   "This great white hunter of the far north is increasingly at risk as the sea ice it hunts on melts away."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://churchillpolarbears.org/2015/02/polar-bear-skin-is-black/",
+   "2": "https://www.usgs.gov/publications/consequences-long-distance-swimming-and-travel-over-deep-water-pack-ice-female-polar",
+   "3": "https://www.guinnessworldrecords.com/world-records/largest-carnivore-on-land",
+   "4": "reworded from clue 4"
+  },
+  "summary": "Clue 1 now opens with 'This animal', and clue 3 replaces the sea-ice seal hunting that repeated clues 2 and 4 with the male's weight. Hand pass: Swapped clues 2 and 3 so the easier Arctic-and-seal clue comes later. Clue 3 no longer names the Arctic and seals; it gives the tracked nine-day swim instead. Then swapped clues 2 and 3 so the swim comes before the largest-carnivore fact. Clue 4 says hunter instead of bear."
+ },
+ {
+  "id": "hummingbird",
+  "answer": "Hummingbird",
+  "category": "Animals",
+  "before": [
+   "It is the only bird that can fly backward, and its heart can race past a thousand beats a minute.",
+   "Its wings blur in a figure-eight up to 80 times a second, making the very sound it's named for.",
+   "So hungry it must feed almost constantly, it laps nectar with a long tongue and drops into a deep, near-frozen sleep at night.",
+   "This tiniest of birds, some barely larger than a bee, hovers at flowers on wings too fast to see."
+  ],
+  "after": [
+   "This bird can perch but cannot walk or hop; its legs are so short and weak that it can only shuffle sideways along a branch.",
+   "Its tiny cup-shaped nest is bound with spider silk, which stretches so the nest can grow along with the chicks.",
+   "Its heart can beat about 1,200 times a minute, yet on cold nights it drops into a torpor so deep that it can look dead.",
+   "This tiniest of birds, some barely larger than a bee, hovers at flowers and can even fly backward."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://birdorable.com/blog/busting-a-bird-myth-can-hummingbirds-walk",
+   "2": "https://birdsconnectsea.org/2026/03/21/spider-silk-and-hummingbird-nests/",
+   "3": "https://www.smithsonianmag.com/smart-news/hummingbirds-andes-go-chilly-extremes-good-nights-sleep-180975767/",
+   "4": "https://en.wikipedia.org/wiki/Hummingbird"
+  },
+  "summary": "Clue 1 drops the famous backward-flight fact and the bare 'It' for a harder fact about its feet: it can perch and shuffle but not walk or hop. Hand pass: Clue 2 no longer hints at the humming sound the bird is named for. Clue 2 is now the spider-silk nest, clue 3 says torpor instead of near-frozen, and backward flight moved to clue 4. Clue 3 is now its heart rate and death-like torpor, since nectar feeding gave it away."
+ },
+ {
+  "id": "snail",
+  "answer": "Snail",
+  "category": "Animals",
+  "before": [
+   "It glides on a single muscular foot, laying down slime that lets it crawl across a razor's edge unharmed.",
+   "It carries its home on its back and can seal itself inside to sleep for months, even years, in dry spells.",
+   "Its mouth holds thousands of microscopic teeth on a ribbon-like tongue, and many kinds are both male and female at once.",
+   "This slow, shell-carrying mollusc leaves a shimmering trail and is a close cousin of the slug."
+  ],
+  "after": [
+   "This animal can seal itself in and sleep through dry spells; one glued to a card at the British Museum in 1846 woke up about four years later.",
+   "Its tongue is a ribbon set with up to 25,000 tiny teeth, and most land-dwelling kinds are both male and female at once.",
+   "It glides on a single muscular foot, and its slime lets it crawl along a razor's edge unharmed.",
+   "This slow, shell-carrying mollusc leaves a shimmering trail and is a close cousin of the slug."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Eremina_desertorum",
+   "2": "https://earthsky.org/earth/land-snails-lifeform-of-the-week/",
+   "3": "https://www.britishwildlife.com/?p=8970"
+  },
+  "summary": "Moved the hardest fact (tooth ribbon, both sexes) to clue 1 with 'This animal', replaced the instant 'home on its back' with the British Museum specimen that revived after four years, and moved the foot-and-slime fact to clue 3. Hand pass: Swapped clues 1 and 2 so the British Museum story leads."
+ },
+ {
+  "id": "salt",
+  "answer": "Salt",
+  "category": "Science",
+  "before": [
+   "Roman soldiers were sometimes paid in it — which is where the word 'salary' comes from.",
+   "Once so precious it traded ounce for ounce with gold, it was hauled across the Sahara in great caravans.",
+   "It is a crystal of two elements — a metal that bursts into flame in water and a poisonous green gas — yet together they are harmless and essential.",
+   "This white seasoning, shaken onto food the world over, is chemically sodium chloride."
+  ],
+  "after": [
+   "This substance is dug by hand from an old lake bed at Taoudenni in Mali, cut into slabs and carried by camel to Timbuktu.",
+   "A Polish mine worked for it since the 13th century holds a chapel carved out of it, chandeliers included.",
+   "The Austrian city where Mozart was born takes its name from it, after the river barges that carried it there in the 8th century.",
+   "This white seasoning, shaken onto food the world over, is also spread on icy roads in winter."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Taoudenni",
+   "2": "https://www.catholiccompany.com/blogs/get-fed/have-you-ever-heard-of-the-wieliczka-salt-mine",
+   "3": "https://en.wikipedia.org/wiki/Salzburg",
+   "4": "https://en.wikipedia.org/wiki/Road_salt"
+  },
+  "summary": "Dropped the doubtful Roman-salary and worth-its-weight-in-gold claims for the Taoudenni camel trade and Gandhi's 1930 march, moved the chemistry clue to clue 2, and changed clue 4 so it no longer repeats sodium chloride. Second pass: Replaced the chemical-makeup clue with the Wieliczka mine chapel and the instant Gandhi march with Salzburg's name origin."
+ },
+ {
+  "id": "hippopotamus",
+  "answer": "Hippopotamus",
+  "category": "Animals",
+  "before": [
+   "It oozes a reddish, oily 'blood sweat' that works as both sunscreen and antibiotic.",
+   "For all its time in the river, it can't really swim — it walks and bounces along the bottom instead.",
+   "One of Africa's most dangerous animals, this barrel-bodied grazer kills more people each year than lions do.",
+   "This huge, semi-aquatic African mammal, whose name means 'river horse,' has enormous jaws and stubby legs."
+  ],
+  "after": [
+   "This animal oozes a reddish, oily 'blood sweat' that works as both sunscreen and antibiotic.",
+   "For all its time in the river, it can't really swim — it walks and bounces along the bottom instead.",
+   "One of Africa's most dangerous animals, this barrel-bodied grazer kills more people each year than lions do.",
+   "This huge, semi-aquatic African mammal, whose name means 'river horse,' has enormous jaws and stubby legs."
+  ],
+  "changed": [
+   1
+  ],
+  "sources": {
+   "1": "https://www.nature.com/news/2004/040524/full/news040524-7.html"
+  },
+  "summary": "Replaced clue 1's bare 'It' with 'This animal'; the rest was already fine."
+ },
+ {
+  "id": "starfish",
+  "answer": "Starfish",
+  "category": "Animals",
+  "before": [
+   "It has no brain and no blood, and it can regrow a lost arm — sometimes a whole new body from just one.",
+   "To feed, it pushes its stomach out through its mouth and digests prey right outside its body.",
+   "Tiny eyes sit at the tip of each arm, and it inches along on hundreds of little tube feet.",
+   "This five-armed sea creature isn't really a fish at all, despite its common name."
+  ],
+  "after": [
+   "This marine animal pushes its stomach out through its mouth and digests its prey outside its own body.",
+   "A simple eye sits at the tip of each of its arms, and it creeps along on hundreds of little tube feet.",
+   "It has no brain and no blood, and it can regrow a lost arm — a few kinds can even grow a whole new body from just one.",
+   "This five-armed creature, often found clinging to rocks in tide pools, is shaped like the ornament on top of many Christmas trees."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://askdruniverse.wsu.edu/2022/12/01/how-do-starfish-eat/",
+   "2": "https://www.sheppardsoftware.com/content/animals/animals/invertebrates/starfish.htm",
+   "3": "https://www.sheppardsoftware.com/content/animals/animals/invertebrates/starfish.htm",
+   "4": "https://www.nps.gov/places/sea-star.htm"
+  },
+  "summary": "Moved the stomach fact to clue 1 with a type word and the well-known arm regrowth to clue 3, softened 'sometimes a whole body' to 'a few kinds' as sources say, and rewrote clue 4 without 'fish'."
+ },
+ {
+  "id": "sea-turtle",
+  "answer": "Sea Turtle",
+  "category": "Animals",
+  "before": [
+   "Whether its hatchlings turn out male or female is decided not by genes but by how warm the sand is.",
+   "It can read the Earth's magnetic field, using it to cross whole oceans and return to the very beach where it hatched.",
+   "Swimming the seas since the age of dinosaurs, it can hold its breath for hours and outlive a human.",
+   "This flippered marine reptile hauls out onto tropical beaches to bury its eggs in the sand."
+  ],
+  "after": [
+   "In this reptile, whether a hatchling turns out male or female depends not on its genes but on how warm the sand around its egg is.",
+   "The salty 'tears' it sheds have nothing to do with sadness: glands beside its eyes push out the extra salt it takes in with ocean water.",
+   "It can read the Earth's magnetic field, using it to cross whole oceans and return to the very beach where it hatched.",
+   "This flippered marine reptile hauls out onto tropical beaches to bury its eggs in the sand."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://smv.org/learn/blog/how-does-climate-affect-sex-turtle-hatchling/",
+   "2": "https://oliveridleyproject.org/ufaqs/why-do-sea-turtles-cry",
+   "3": "moved from clue 2"
+  },
+  "summary": "Gave clue 1 a type word, and rewrote clue 3 to drop 'seas' and the doubtful 'outlive a human' claim, using the resting breath-hold that WWF reports. Hand pass: Swapped clues 2 and 3 so the vaguer dinosaur-age clue comes first. Clue 2 is now its salt-gland tears, which are specific to it. Clue 2 says ocean water, since seawater contains a word from the answer."
+ },
+ {
+  "id": "gravity",
+  "answer": "Gravity",
+  "category": "Science",
+  "before": [
+   "It is by far the weakest of nature's basic forces, yet it shapes entire galaxies.",
+   "It bends not just falling apples but light itself, and it makes time tick slower the stronger it grows.",
+   "Newton described how it draws any two masses together; Einstein recast it as a warping of space and time.",
+   "This invisible force pulls objects toward the ground and holds the planets in orbit around the Sun."
+  ],
+  "after": [
+   "This force is by far the weakest of nature's four basic forces, yet it holds entire galaxies together.",
+   "It makes time run slower the stronger it is, so the clocks on GPS satellites, where it is weaker, must be corrected for running fast.",
+   "Its waves, ripples in space-time from two colliding black holes, were first detected in 2015, a century after Einstein predicted them.",
+   "This invisible force pulls objects toward the ground and holds the planets in orbit around the Sun."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://space.com/four-fundamental-forces.html",
+   "2": "https://www.astronomy.ohio-state.edu/pogge.1/Ast162/Unit5/gps",
+   "3": "https://www.gla.ac.uk/news/archiveofnews/2016/february/headline_443394_en.html"
+  },
+  "summary": "Added a type word to clue 1, replaced the falling-apples clue with the GPS clock correction, and swapped the Newton/Einstein clue for the 2015 detection of its waves so clues 2 and 3 no longer overlap or give it away."
+ },
+ {
+  "id": "emperor-penguin",
+  "answer": "Emperor Penguin",
+  "category": "Animals",
+  "before": [
+   "Its father balances a single egg on his feet through the coldest winter on Earth, eating nothing for two months.",
+   "The tallest of its flightless kind, it huddles in vast colonies on Antarctic sea ice.",
+   "It 'flies' underwater instead, diving deeper than any other bird to catch fish and squid.",
+   "Star of the film 'March of the Penguins,' this regal, orange-eared seabird is the largest of its kind."
+  ],
+  "after": [
+   "This bird dives deeper than any other bird, past 500 meters, and can stay under for more than 20 minutes.",
+   "In winter storms these birds pack into tight huddles that keep shuffling in slow waves, so the ones on the cold outer edge gradually work their way inside.",
+   "The male balances a single egg on his feet through the Antarctic winter, eating nothing for over two months.",
+   "This Antarctic bird with yellow ear patches starred in an Oscar-winning 2005 documentary about its long march inland to breed."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.guinnessworldrecords.com/world-records/523667-longest-dive-underwater-by-a-bird-duration",
+   "2": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3106014",
+   "3": "https://www.antarctica.gov.au/about-antarctica/animals/penguins/emperor-penguin/breeding-cycle/",
+   "4": "https://en.wikipedia.org/wiki/March_of_the_Penguins"
+  },
+  "summary": "Gave clue 1 a type word, moved the record dive to clue 2, kept size in clue 3 only, and rewrote clue 4 to name the Oscar-winning documentary without the word 'Penguins'. Hand pass: Reordered so the diving record leads and the egg-on-feet fact is clue 3; clue 2 is now its size, so it no longer repeats the winter breeding. Clue 2 is now the shuffling huddle instead of a dry size fact."
+ },
+ {
+  "id": "ostrich",
+  "answer": "Ostrich",
+  "category": "Animals",
+  "before": [
+   "Its eye is bigger than its brain, and the myth that it buries its head in sand is false.",
+   "The world's largest bird, it cannot fly but sprints faster than any other two-legged animal.",
+   "It lays the biggest egg of any living bird and delivers a kick powerful enough to kill a lion.",
+   "This long-necked African runner, farmed for feathers and meat, hides its head in a hole only in cartoons."
+  ],
+  "after": [
+   "This bird's eye is bigger than its brain.",
+   "This bird has fewer toes than any other bird, just two on each foot, and the bigger toe ends in a hoof-like nail.",
+   "This bird's kick can kill a lion, and several hens lay their eggs in one shared nest that the male scrapes into the ground.",
+   "This long-necked African runner, farmed for feathers and meat, hides its head in a hole only in cartoons."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.fotawildlife.ie/pages/animal-and-plant-listing/ostrich",
+   "2": "https://en.wikipedia.org/wiki/Common_ostrich",
+   "3": "https://www.pbs.org/wnet/nature/blog/ostrich-fact-sheet"
+  },
+  "summary": "Clue 1 now opens with a type word and drops the head-in-sand myth that clue 4 repeats; clue 2 swaps the instant 'world's largest bird' for its unique two-toed feet and its record running speed. Second pass: Replaced the fastest-runner and biggest-egg records in clues 2 and 3 with the two-toed, hoof-like foot and the lion-killing kick plus shared nest, so neither clue is an instant giveaway."
+ },
+ {
+  "id": "komodo-dragon",
+  "answer": "Komodo Dragon",
+  "category": "Animals",
+  "before": [
+   "Its females can reproduce without a male, laying fertile eggs entirely on their own.",
+   "The largest lizard alive, it grows to ten feet and its bite delivers venom that stops blood from clotting.",
+   "It lives on just a handful of Indonesian islands, where it can smell carrion miles away with its forked tongue.",
+   "Named for the island it roams, this giant monitor is the closest living thing to a mythical fire-breather."
+  ],
+  "after": [
+   "This reptile's females can produce young without a male, as two English zoos discovered in 2006.",
+   "Its venomous bite stops blood from clotting, which overturned the old idea that germs in its mouth killed its prey.",
+   "Its young spend their first years living up in trees, largely to avoid being eaten by adults of their own kind.",
+   "The largest lizard alive, this giant monitor is named for the island it roams."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.nationalgeographic.com/science/article/virgin-birth-by-komodo-dragons",
+   "2": "https://www.nationalgeographic.com/animals/article/komodo-dragon-venom",
+   "3": "https://www.wral.com/archive/17992871/",
+   "4": "https://en.wikipedia.org/wiki/Komodo_dragon"
+  },
+  "summary": "Clue 1 gets a type word and the 2006 Chester and London zoo virgin births; clues 2 and 3 swap so the harder island-and-smell fact comes before the largest-lizard fact. Hand pass: Moved the largest-lizard record from clue 3 to clue 4 and added the overturned germs myth to the venom clue. Swapped clues 2 and 3 and dropped Indonesia from clue 4. Clue 3 is now the young living in trees, since the Indonesian islands gave it away."
+ },
+ {
+  "id": "narwhal",
+  "answer": "Narwhal",
+  "category": "Animals",
+  "before": [
+   "Medieval traders sold its single tusk as the horn of a unicorn, worth its weight in gold.",
+   "That 'horn' is actually a spiral tooth, up to nine feet long, that pokes through its upper lip.",
+   "An Arctic whale, it dives beneath the sea ice to feed on fish, squid, and shrimp.",
+   "Nicknamed the 'unicorn of the sea,' this tusked toothed whale lives off Canada and Greenland."
+  ],
+  "after": [
+   "This Arctic whale dives past 1,500 meters to feed on the seafloor beneath the winter pack ice of Baffin Bay.",
+   "This whale is dark blue-grey at birth and mottled as an adult, and the oldest males can turn almost entirely white.",
+   "This whale's only living relative in its family is the beluga, and a skull from West Greenland was confirmed by DNA in 2019 as a hybrid of the two.",
+   "Nicknamed the 'unicorn of the sea,' this Arctic whale has a spiral tusk that is really a canine tooth grown out through its upper lip."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://tos.org/oceanography/assets/docs/20-4_laidre.pdf",
+   "2": "https://animaldiversity.org/accounts/Monodon_monoceros",
+   "3": "https://en.wikipedia.org/wiki/Narluga",
+   "4": "https://en.wikipedia.org/wiki/Narwhal"
+  },
+  "summary": "Replaced the generic Arctic-whale clue with the Baffin Bay deep-dive fact and moved it first as the hardest, gave the unicorn-trade clue a type word, and made the tooth clue stand alone. Second pass: Moved all tusk and unicorn material into clue 4 as the owner asked, and gave clues 2 and 3 new facts about colour change with age and the beluga relationship and hybrid skull."
+ },
+ {
+  "id": "red-fox",
+  "answer": "Red Fox",
+  "category": "Animals",
+  "before": [
+   "Folk tales across the world cast it as a sly trickster outwitting bigger beasts.",
+   "It pounces on prey by leaping high and diving nose-first into snow to pin mice beneath.",
+   "The most widespread wild member of the dog family, it sports a white-tipped bushy tail called a brush.",
+   "Rusty-orange with black 'socks,' this cunning hunter is the one a pack of hounds famously chases."
+  ],
+  "after": [
+   "Released by colonists in the 1800s for sport hunting, this predator now threatens native wildlife across Australia.",
+   "When this predator pounces on mice hidden under snow, it most often leaps toward the north-east, which suggests it may aim using Earth's magnetic field.",
+   "The most widespread wild member of the dog family, it gives a piercing scream in the winter mating season that people often mistake for someone in distress.",
+   "Rusty-orange with black 'socks,' this cunning hunter is the one a pack of hounds famously chases."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.water.vic.gov.au/__data/assets/pdf_file/0029/671681/impacts-of-foxes-in-wetlands-fact-sheet-2.pdf",
+   "2": "https://www.nationalgeographic.com/science/article/foxes-use-the-earths-magnetic-field-as-a-targeting-system",
+   "3": "https://jrnl.ie/5660806"
+  },
+  "summary": "Replaced the generic trickster clue 1, which opened with a bare 'it', with the specific fact that it was released in Australia for sport hunting and now threatens native wildlife. Second pass: Replaced the generic snow-diving clue with the 2011 Czech finding that this species pounces mostly north-east, a detail tied to it specifically. Hand pass: Clue 3 no longer leans on the tail called a brush; it gives the winter mating scream."
+ },
+ {
+  "id": "axolotl",
+  "answer": "Axolotl",
+  "category": "Animals",
+  "before": [
+   "It can regrow lost limbs, and even parts of its heart and brain, without scarring.",
+   "This Mexican salamander never grows up, keeping its feathery gills and living underwater for life.",
+   "Nearly extinct in its only wild home, the canals of Mexico City, it thrives in labs and aquariums.",
+   "Pink with a permanent 'smile,' this amphibian became a beloved character in the game Minecraft."
+  ],
+  "after": [
+   "This amphibian's genome is more than ten times the size of a human's, and in 2018 it became the largest genome ever sequenced.",
+   "It can regrow lost limbs, and even parts of its heart and brain, without scarring.",
+   "Nearly extinct in its only wild home, the canals of Mexico City, it thrives in labs and aquariums.",
+   "Pink with a permanent 'smile,' this amphibian became a beloved character in the game Minecraft."
+  ],
+  "changed": [
+   1,
+   2
+  ],
+  "sources": {
+   "1": "https://www.mpi-cbg.de/news-outreach/news-media/article/the-largest-genome-ever-decoding-the-axolotl",
+   "2": "moved from clue 1"
+  },
+  "summary": "Clue 1 now opens with a type word instead of a bare 'It'; the other clues are unchanged. Second pass: Replaced the giveaway gilled-Mexican-salamander description in clue 2 with the record-size genome, which is less direct than clue 3. Hand pass: Swapped clues 1 and 2 so the genome fact leads."
+ },
+ {
+  "id": "orca",
+  "answer": "Orca",
+  "category": "Animals",
+  "before": [
+   "Despite its fearsome nickname, no human has ever been killed by a wild one.",
+   "The largest member of the dolphin family, it is instantly known by its black-and-white markings.",
+   "Hunting in coordinated family pods, it preys on seals, fish, and even great white sharks.",
+   "This apex predator, its dorsal fin slicing the surface, has long been kept and shown at marine parks."
+  ],
+  "after": [
+   "Despite this animal's fearsome nickname, there is no recorded case of a wild one killing a human.",
+   "Off South Africa, two males of this animal nicknamed Port and Starboard kill great white sharks and eat little more than their livers.",
+   "Since 2020, groups of these animals off Spain and Portugal have rammed sailing boats, breaking their rudders and even sinking some.",
+   "The largest member of the dolphin family, this black-and-white animal starred in SeaWorld's Shamu shows and in the film 'Free Willy'."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.discoverwildlife.com/animal-facts/marine-animals/are-killer-whales-dangerous-to-humans",
+   "2": "https://en.wikipedia.org/wiki/Port_and_Starboard_(orcas)",
+   "3": "https://en.wikipedia.org/wiki/Iberian_orca_attacks",
+   "4": "https://en.wikipedia.org/wiki/Shamu"
+  },
+  "summary": "Opened clue 1 with 'this animal' and softened it to 'no recorded case', moved the pod-hunting clue up, replaced the instant black-and-white clue with the Iberian boat rammings, and made clue 4 name Shamu and Free Willy along with the dolphin-family fact. Second pass: Replaced the general pod-hunting clue 2 with the specific South African pair Port and Starboard, who remove great white sharks' livers."
+ },
+ {
+  "id": "kendrick-lamar",
+  "answer": "Kendrick Lamar",
+  "category": "Music",
+  "before": [
+   "He is the only musician from outside classical and jazz to win the Pulitzer Prize for Music.",
+   "His To Pimp a Butterfly turned its track 'Alright' into a street protest chant.",
+   "The Compton rapper told his teenage years as a narrative concept album, good kid, m.A.A.d city.",
+   "DAMN. and 'HUMBLE.' belong to this Compton MC, who headlined the 2025 Super Bowl halftime show."
+  ],
+  "after": [
+   "This rapper's 2012 major-label debut tells the story of his teenage years, stitched together by voicemails from his mother and father.",
+   "This rapper opened the 2015 BET Awards by performing his protest anthem standing on the roof of a defaced police car.",
+   "This rapper was the first musician from outside classical music and jazz to win the Pulitzer Prize for Music.",
+   "DAMN. and 'HUMBLE.' belong to this Compton MC, who headlined the 2025 Super Bowl halftime show."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.okayplayer.com/how-voicemails-in-rap-and-rb-celebrate-a-mothers-wisdom/628930",
+   "2": "https://floodmagazine.com/17534/watch-kendrick-lamar-delivers-powerful-alright-from-the-roof-of-a-cop-car-at-bet-awards",
+   "3": "https://qz.com/quartzy/1253889/kendrick-lamar-won-a-pulitzer-prize-for-music-for-damn"
+  },
+  "summary": "Opened clue 1 with 'this rapper' and changed 'only' to 'first', and smoothed the wording of the 'Alright' clue. Second pass: Removed the song and album titles from clues 2 and 3, replacing them with the 2015 BET Awards police-car performance and the parents' voicemails that frame his major-label debut. Hand pass: Swapped clues 1 and 3 so the album fact leads and the Pulitzer comes third."
+ },
+ {
+  "id": "tardigrade",
+  "answer": "Tardigrade",
+  "category": "Animals",
+  "before": [
+   "Some have been exposed to the vacuum of open space, unprotected, and lived.",
+   "Barely half a millimetre long, it can dry into a lifeless husk called a tun and revive years later when wetted.",
+   "It shuffles through damp moss and lichen on eight stubby clawed legs, and has been found everywhere from Himalayan peaks to deep-sea trenches.",
+   "The microscopic eight-legged survivor nicknamed for its resemblance to a tiny, plodding, aquatic bear."
+  ],
+  "after": [
+   "This animal was first described in 1773 by Johann Goeze, a pastor in the German town of Quedlinburg.",
+   "Barely half a millimetre long, this animal can dry out into a lifeless husk called a tun and revive years later when wetted.",
+   "This tiny animal survived unprotected exposure to the vacuum of open space on a 2007 satellite mission.",
+   "This microscopic eight-legged animal has two nicknames, one likening it to a little bear and the other to a little pig."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Johann_August_Ephraim_Goeze",
+   "2": "https://www.sciencelearn.org.nz/resources/tardigrades-and-rotifers-life-on-the-edge",
+   "3": "https://www.esa.int/Our_Activities/Human_Spaceflight/Research/Tiny_animals_survive_exposure_to_space",
+   "4": "https://en.wikipedia.org/wiki/Tardigrade"
+  },
+  "summary": "Gave clue 1 a 'this tiny animal' opening and the 2007 mission, cut the leg description from clue 3 in favour of the near-absolute-zero fact, and turned the clue 4 fragment into a full sentence that hints at the nicknames without using them. Second pass: Dropped the third toughness clue for a history clue about its 1773 first description, put that hardest fact first, and moved the space and tun clues down one place. Hand pass: Swapped clues 2 and 3 so the space-survival fact comes later."
+ },
+ {
+  "id": "manatee",
+  "answer": "Manatee",
+  "category": "Animals",
+  "before": [
+   "Sailors squinting at it through the haze are blamed for the mermaid legend.",
+   "It grazes for hours on seagrass, and its worn molars are replaced from the back of the jaw throughout its life.",
+   "Slow and round, it drifts into Florida's warm springs each winter and too often carries propeller scars on its back.",
+   "The gentle aquatic herbivore whose closest living relatives are elephants, nicknamed for the cattle it seems to graze like."
+  ],
+  "after": [
+   "This animal grazes for hours on seagrass, and its worn molars are replaced from the back of the jaw throughout its life.",
+   "In January 1493, Christopher Columbus logged three 'mermaids' in the Caribbean that were most likely this animal.",
+   "Slow and round, it drifts into Florida's warm springs each winter and too often carries propeller scars on its back.",
+   "This gentle aquatic herbivore, a distant cousin of the elephant, is nicknamed for the cattle it seems to graze like."
+  ],
+  "changed": [
+   1,
+   2,
+   4
+  ],
+  "sources": {
+   "1": "https://mote.org/research/program/manatee-research/manatee-research-program-fun-facts",
+   "2": "https://www.history.com/this-day-in-history/january-9/columbus-mistakes-manatees-for-mermaids",
+   "4": "https://www.newworldencyclopedia.org/entry/Sirenia"
+  },
+  "summary": "Swapped clues 1 and 2 so the harder molar fact comes first, made the mermaid clue specific with Columbus's 1493 sighting, and rewrote clue 4 as a sentence that calls the elephant a distant cousin rather than the closest relative."
+ },
+ {
+  "id": "pangolin",
+  "answer": "Pangolin",
+  "category": "Animals",
+  "before": [
+   "It is the most trafficked wild mammal on Earth, and its armour is made of the same stuff as your fingernails.",
+   "Toothless, it laps up ants and termites with a sticky tongue that can be longer than its body and anchors near its pelvis.",
+   "Threatened, it curls into a ball of overlapping keratin scales so tight that even lions give up on it.",
+   "The scaly, ant-eating mammal of Africa and Asia whose name comes from a Malay word meaning 'roller'."
+  ],
+  "after": [
+   "This toothless mammal catches ants with a sticky tongue whose root is anchored deep in its body, near the pelvis and last pair of ribs.",
+   "This animal is thought to be the most trafficked wild mammal on Earth.",
+   "Threatened, it curls into a ball of overlapping keratin scales so tight that even lions give up on it.",
+   "This scaly, ant-eating mammal of Africa and Asia takes its name from a Malay word meaning 'one who rolls up'."
+  ],
+  "changed": [
+   1,
+   2,
+   4
+  ],
+  "sources": {
+   "1": "https://animaldiversity.org/accounts/Pholidota",
+   "2": "https://en.wikipedia.org/wiki/Pangolin",
+   "4": "https://en.wikipedia.org/wiki/Pangolin"
+  },
+  "summary": "Moved the harder tongue fact to clue 1 and dropped the doubtful 'longer than its body' claim, made the trafficking fact its own clue 2 without the repeated keratin detail, and turned clue 4 into a sentence with the sourced Malay meaning 'one who rolls up'."
+ },
+ {
+  "id": "tsunami",
+  "answer": "Tsunami",
+  "category": "Science",
+  "before": [
+   "Out in open ocean it can pass under a ship unnoticed, barely a foot high.",
+   "The sea sometimes draws far back from the shore minutes before it lands, exposing the seabed like a sudden impossible low tide.",
+   "Wind has nothing to do with it: the seafloor itself lurches in a quake, a landslide or an eruption, and the pulse crosses the Pacific at jetliner speed.",
+   "The Japanese word for 'harbour wave' names the surge that struck the Indian Ocean in 2004 and Tōhoku in 2011."
+  ],
+  "after": [
+   "Out in the open ocean this kind of wave can pass under a ship unnoticed, barely a foot high.",
+   "Minutes before this kind of wave arrives, the sea can draw far back from the shore, exposing the seabed like a sudden, impossible low tide.",
+   "After the great 1960 Chile earthquake, this kind of wave crossed the whole Pacific and killed about 140 people in Japan almost a day later.",
+   "The Japanese word for 'harbour wave' names the surge that struck the Indian Ocean in 2004 and Tōhoku in 2011."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://vos.noaa.gov/MWL/april_05/tsunami.shtml",
+   "2": "reworded from clue 2",
+   "3": "https://www.ncei.noaa.gov/products/natural-hazards/tsunamis-earthquakes-volcanoes/tsunamis/recent-significant-events"
+  },
+  "summary": "Clue 1 now opens by saying the answer is a kind of wave instead of a bare 'it'; NOAA confirms open-ocean heights usually under a foot. Second pass: Replaced the clue 3 explanation of how the wave forms with the 1960 Chile event that killed about 140 people in Japan almost a day after the quake. Hand pass: Clue 2 now says what kind of thing the answer is."
+ },
+ {
+  "id": "caffeine",
+  "answer": "Caffeine",
+  "category": "Science",
+  "before": [
+   "The plants that make it are brewing an insecticide; your jolt is a side effect.",
+   "It blocks adenosine, the molecule that piles up in your brain all day telling you that you are tired — so it hides sleepiness rather than adding energy.",
+   "Half of a dose is still in you five hours later, which is why a late-afternoon cup quietly costs you an hour of sleep.",
+   "The world's most widely used stimulant, found in coffee beans, tea leaves, cacao and cola nuts."
+  ],
+  "after": [
+   "The plants that make this compound use it as a natural pesticide: a 1984 study found the levels in their fresh leaves and seeds were enough to kill caterpillars.",
+   "In 1819 the poet Goethe handed the chemist Friedlieb Runge a box of beans that a Greek had sent him as a delicacy, and Runge soon isolated this compound from them.",
+   "Honeybees fed nectar laced with this compound were three times as likely to remember a flower's scent a day later.",
+   "This compound is the world's most widely used stimulant, found in coffee beans, tea leaves, cacao and kola nuts."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://konacoffeefarmers.org/front-page-news/caffeine-is-natural-insecticide-6-25-25/",
+   "2": "https://en.wikipedia.org/wiki/Friedlieb_Ferdinand_Runge",
+   "3": "https://www.ncl.ac.uk/press/articles/archive/2013/03/beesgetabuzzfromcaffeine.html",
+   "4": "https://www.newworldencyclopedia.org/entry/Caffeine"
+  },
+  "summary": "Clue 1 now names a compound, clue 2 is trimmed, clue 3 drops the 'cup' giveaway and the exact hour of lost sleep, and clue 4 is a full sentence. Second pass: Replaced the 'brewing/jolt' opener and both sleep clues with three new checked facts (insecticide study, Runge and Goethe, honeybee memory), dropping the unsupported 'paralyse' claim and avoiding the word 'beans' before clue 4. Hand pass: Fixed clue 2: Goethe gave Runge coffee beans a Greek had sent him, not a Greek delicacy."
+ },
+ {
+  "id": "aretha-franklin",
+  "answer": "Aretha Franklin",
+  "category": "Music",
+  "before": [
+   "The man who wrote her signature song heard her version and admitted the girl had just taken it away from him.",
+   "A Detroit preacher's daughter, she cut her breakthrough at Muscle Shoals in 1967 and turned a plea into a demand spelled out letter by letter.",
+   "She sang at three presidential inaugurations, and the state of Michigan declared her voice a natural resource.",
+   "The Queen of Soul, the first woman inducted into the Rock and Roll Hall of Fame, who wanted a little R-E-S-P-E-C-T."
+  ],
+  "after": [
+   "The man who wrote this singer's signature song introduced it on stage in 1967 as a song that a girl had taken away from him.",
+   "This Detroit preacher's daughter cut her breakthrough single at FAME Studios in Muscle Shoals, Alabama, in January 1967.",
+   "She sang at three presidential inaugurations, and the state of Michigan declared her voice a natural resource.",
+   "This Queen of Soul was the first woman inducted into the Rock and Roll Hall of Fame, and she wanted a little R-E-S-P-E-C-T."
+  ],
+  "changed": [
+   1,
+   2,
+   4
+  ],
+  "sources": {
+   "1": "https://www.theringer.com/music/2018/8/16/17698206/aretha-franklin-obituary",
+   "2": "https://en.wikipedia.org/wiki/I_Never_Loved_a_Man_(The_Way_I_Love_You)",
+   "4": "https://www.history.com/this-day-in-history/rock-and-roll-hall-of-fame-inducts-first-woman"
+  },
+  "summary": "Clue 1 names a singer and uses Otis Redding's sourced Monterey remark, clue 2 now ties Muscle Shoals to the right single and drops the R-E-S-P-E-C-T repeat, and clue 4 is a full sentence."
+ },
+ {
+  "id": "the-scream",
+  "answer": "The Scream",
+  "category": "Art",
+  "before": [
+   "The figure is not the one making the noise — the artist's diary has it clapping its hands over its ears against a shriek passing through nature.",
+   "The blood-red sky may be a memory of Krakatoa's ash drifting over Norway years earlier.",
+   "Its maker produced four versions in paint and pastel; two were stolen, in 1994 and 2004, and both came back.",
+   "Edvard Munch's 1893 picture of a wavy skull-faced figure on a bridge, hands clamped to its head."
+  ],
+  "after": [
+   "This painting carries a faint pencil note in one corner, saying it could only have been painted by a madman; in 2021 experts confirmed the artist wrote it himself.",
+   "The blood-red sky may be a memory of Krakatoa's ash drifting over Norway years earlier.",
+   "Its maker produced four versions in paint and pastel; two were stolen, in 1994 and 2004, and both came back.",
+   "This 1893 painting by Edvard Munch shows a skull-faced figure on a bridge, hands pressed to the sides of its head."
+  ],
+  "changed": [
+   1,
+   4
+  ],
+  "sources": {
+   "1": "https://www.cbsnews.com/amp/news/the-scream-hidden-message-edvard-munch-painted-by-a-madman",
+   "4": "https://en.wikipedia.org/wiki/The_Scream"
+  },
+  "summary": "Clue 1 replaced with the 2021 confirmation that Munch wrote the 'madman' note, since the old clue was too direct and misdescribed the diary, and clue 4 is now a full sentence."
+ },
+ {
+  "id": "pablo-picasso",
+  "answer": "Pablo Picasso",
+  "category": "Art",
+  "before": [
+   "His baptismal name strung together more than a dozen saints and relatives, but he signed his work with just his mother's surname.",
+   "Early on he painted in a gloomy Blue Period, then brightened into a Rose Period of acrobats and harlequins.",
+   "With Georges Braque he invented Cubism, breaking faces and guitars into flat, overlapping planes.",
+   "The Spanish artist of Guernica, his vast black-and-white outcry against the 1937 bombing of a Basque town."
+  ],
+  "after": [
+   "This painter's baptismal name strung together a long run of saints and relatives, but he signed his work with only his mother's surname.",
+   "In 1911 Paris police questioned this painter over the theft of the Mona Lisa from the Louvre, a crime he had nothing to do with.",
+   "In 1949 he named his newborn daughter Paloma, Spanish for 'dove', the same month his dove lithograph appeared on the poster for the Paris Peace Congress.",
+   "This Spanish artist painted Guernica, a vast black-and-white outcry against the 1937 bombing of a Basque town."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://britannica.com/question/What-is-Picassos-full-name",
+   "2": "https://revistas.ucm.es/index.php/ARIS/article/view/39942",
+   "3": "https://tate.org.uk/press/press-releases/exhibition-set-reveal-new-picasso-new-time",
+   "4": "https://origins.osu.edu/read/guernica-and-horrors-modern-war"
+  },
+  "summary": "Clue 1 names a painter and drops the disputed name count, the Blue Period giveaway is replaced with the 1911 Mona Lisa questioning, and clue 4 is a full sentence. Second pass: Replaced the instant Cubism clue 3 with the 1949 peace-dove poster and his daughter Paloma, keeping both Cubism and the Blue Period out of clues 1-3 as the owner asked."
+ },
+ {
+  "id": "the-starry-night",
+  "answer": "The Starry Night",
+  "category": "Art",
+  "before": [
+   "Its painter dismissed it in a letter as a failure; it is now one of the most reproduced pictures in the world.",
+   "It shows the view from an asylum window just before sunrise, worked up by day in a ground-floor studio, with an invented village added below.",
+   "A flame-like cypress towers in its foreground beneath a sky of swirling eddies, stars, and a crescent moon.",
+   "Vincent van Gogh's 1889 night sky churning over a sleeping village, a star attraction at MoMA in New York."
+  ],
+  "after": [
+   "This painting's artist called it a failure in a letter, yet its brightest point of light is probably Venus, then near its peak brightness in the dawn sky over Provence.",
+   "It shows the view from an asylum window just before sunrise, worked up by day in a ground-floor studio, with an invented village added below.",
+   "Don McLean's 1971 tribute song to its painter takes its opening words from this painting's title.",
+   "Vincent van Gogh painted it in 1889, and it now hangs at the Museum of Modern Art in New York."
+  ],
+  "changed": [
+   1,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/The_Starry_Night",
+   "3": "https://faroutmagazine.co.uk/story-behind-don-mclean-song-vincent/",
+   "4": "https://www.moma.org/docs/press_archives/739/releases/MOMA_1941_0076_1941-09-29_41929-75.pdf"
+  },
+  "summary": "Opened clue 1 with 'This painting' and changed 'most reproduced' to the sourced 'most recognizable', replaced the descriptive clue 3 with the Don McLean song, and rewrote clue 4 as a full sentence without the title word 'night'. Second pass: Made clue 1 specific to this painting by adding that its brightest light is probably Venus, which was near peak brightness at dawn in Provence in spring 1889."
+ },
+ {
+  "id": "girl-with-a-pearl-earring",
+  "answer": "Girl with a Pearl Earring",
+  "category": "Art",
+  "before": [
+   "It is not a portrait of anyone in particular but a tronie — a Dutch study of a face in exotic costume.",
+   "Its young subject glances back over her shoulder, lips parted, in a blue and yellow turban.",
+   "Painted around 1665 by Johannes Vermeer of Delft, it hangs in the Mauritshuis in The Hague.",
+   "Vermeer's turbaned girl with a large, glinting pearl at her ear, played by Scarlett Johansson in a 2003 film."
+  ],
+  "after": [
+   "This painting is not a portrait of a real sitter but a tronie — a Dutch study of a face in exotic costume.",
+   "When scientists studied this painting in 2018, they found tiny eyelashes and a green curtain, long faded to black, in its seemingly empty background.",
+   "It hangs in the Mauritshuis in The Hague and is often nicknamed the Mona Lisa of the North.",
+   "Johannes Vermeer painted it around 1665, and Scarlett Johansson played its young model in a 2003 film."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://museum.royaldelft.com/en/blog/did-you-know-this-about-girl-with-a-pearl-earring/",
+   "2": "https://www.mentalfloss.com/art/new-details-vermeers-girl-pearl-earring",
+   "3": "https://museum.royaldelft.com/en/blog/did-you-know-this-about-girl-with-a-pearl-earring/",
+   "4": "https://www.screendaily.com/girl-with-a-pearl-earring/4014940.article"
+  },
+  "summary": "Opened clue 1 with 'This painting', replaced the image description with the 2018 eyelash and curtain findings, moved Vermeer's name out of clue 3 in favor of the Mona Lisa of the North nickname, and rewrote clue 4 as a sentence without title words."
+ },
+ {
+  "id": "salvador-dali",
+  "answer": "Salvador Dalí",
+  "category": "Art",
+  "before": [
+   "He once gave a lecture in London wearing a deep-sea diving suit and nearly suffocated inside it.",
+   "He called his canvases 'hand-painted dream photographs,' and he designed the Chupa Chups lollipop logo.",
+   "His 1931 painting The Persistence of Memory drapes limp, melting pocket watches across a barren shore.",
+   "The Spanish Surrealist famous for his flamboyant waxed, upturned mustache."
+  ],
+  "after": [
+   "This artist once gave a lecture in London wearing a deep-sea diving suit and nearly suffocated inside it.",
+   "He called his canvases 'hand-painted dream photographs,' and he designed the Chupa Chups lollipop logo.",
+   "He designed the dream sequence for Alfred Hitchcock's 1945 film Spellbound.",
+   "He was the Spanish Surrealist who painted melting watches and wore a waxed, upturned mustache."
+  ],
+  "changed": [
+   1,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.historytoday.com/archive/months-past/london-international-surrealists-exhibition",
+   "3": "https://www.anothermag.com/art-photography/11083/when-salvador-dal-designed-a-dream-for-a-1945-hitchcock-film?amp=1",
+   "4": "https://1stdibs.com/creators/salvador-dali/art/"
+  },
+  "summary": "Opened clue 1 with 'This artist', replaced the instant melting-watches clue 3 with the Spellbound dream sequence, and rewrote clue 4 as a full sentence that carries the melting watches as the giveaway."
+ },
+ {
+  "id": "andy-warhol",
+  "answer": "Andy Warhol",
+  "category": "Art",
+  "before": [
+   "He called his studio the Factory and had its walls covered in silver foil.",
+   "He managed the rock band the Velvet Underground, and in 1968 he survived being shot by the writer Valerie Solanas.",
+   "He silkscreened rows of Marilyn Monroe's face and predicted that everyone would one day be world-famous for 15 minutes.",
+   "The Pop artist who painted 32 canvases of Campbell's soup cans."
+  ],
+  "after": [
+   "This artist's New York studio, the Factory, had its walls covered in silver foil.",
+   "He was born in Pittsburgh, where a museum devoted to his work is the largest in North America dedicated to a single artist.",
+   "He managed the rock band the Velvet Underground, and in 1968 he survived being shot by the writer Valerie Solanas.",
+   "He painted 32 canvases of Campbell's soup cans, one for each variety the company then sold."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/The_Factory",
+   "2": "https://carnegiemuseums.org/our-museums/the-andy-warhol-museum/",
+   "3": "moved from clue 2",
+   "4": "https://www.moma.org/collection/works/79809"
+  },
+  "summary": "Opened clue 1 with 'This artist', replaced the instant Marilyn and 15-minutes clue with the Pittsburgh museum (placed second as the less direct fact, with the Velvet Underground clue moved to third), and rewrote clue 4 as a sentence."
+ },
+ {
+  "id": "edgar-allan-poe",
+  "answer": "Edgar Allan Poe",
+  "category": "Literature",
+  "before": [
+   "An NFL team takes its name from his most famous work.",
+   "He is often credited with inventing the detective story, with the sleuth C. Auguste Dupin in 1841.",
+   "He died at 40 after being found delirious at a Baltimore tavern, wearing clothes that were not his own.",
+   "The American master of the macabre who wrote 'The Tell-Tale Heart' and 'The Raven,' with its croaked refrain of 'Nevermore.'"
+  ],
+  "after": [
+   "This writer is often credited with inventing the detective story, with the sleuth C. Auguste Dupin in 1841.",
+   "An NFL team takes its name from his best-known piece of verse.",
+   "He died at 40 after being found delirious at a Baltimore tavern, wearing clothes that were not his own.",
+   "He was the American master of the macabre who wrote 'The Tell-Tale Heart' and 'The Fall of the House of Usher.'"
+  ],
+  "changed": [
+   1,
+   2,
+   4
+  ],
+  "sources": {
+   "1": "reworded from clue 2",
+   "2": "https://en.wikipedia.org/wiki/Baltimore_Ravens",
+   "4": "https://en.wikipedia.org/wiki/Edgar_Allan_Poe"
+  },
+  "summary": "Changed clue 1's bare 'his' to 'this writer's' and rewrote clue 4 as a full sentence. Hand pass: Swapped clues 1 and 2, and clue 4 names a different story so it does not repeat the NFL clue."
+ },
+ {
+  "id": "baobab",
+  "answer": "Baobab",
+  "category": "Nature",
+  "before": [
+   "Its swollen trunk can store thousands of gallons of water to see it through the dry season.",
+   "One in South Africa was so wide that a pub was built inside its hollow trunk.",
+   "An African legend says it was planted upside down, which is why its bare branches look like roots.",
+   "The fat-trunked 'upside-down tree' of the African savanna that threatens the Little Prince's tiny planet."
+  ],
+  "after": [
+   "This tree's swollen trunk can store thousands of gallons of water to see it through the dry season.",
+   "One in South Africa was so wide that a pub was built inside its hollow trunk.",
+   "An African legend says it was planted upside down, which is why its bare branches look like roots.",
+   "This fat-trunked savanna tree's seedlings must be pulled up every morning, or its roots will split the Little Prince's tiny planet."
+  ],
+  "changed": [
+   1,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Adansonia_digitata",
+   "4": "https://www.litcharts.com/lit/the-little-prince/chapter-5"
+  },
+  "summary": "Gave clue 1 a 'This tree's' opener and rewrote clue 4 as a full sentence about the Little Prince's daily weeding, dropping the repeated upside-down idea."
+ },
+ {
+  "id": "maple-syrup",
+  "answer": "Maple Syrup",
+  "category": "Food & Drink",
+  "before": [
+   "In one of history's stranger heists, thieves quietly siphoned off nearly $19 million worth of it.",
+   "It takes about 40 gallons of sap to boil down to a single gallon of it.",
+   "Quebec produces about 70 percent of the world's supply and keeps a strategic reserve of it.",
+   "The sweet amber pancake topping boiled down from the sap of the tree whose leaf is on Canada's flag."
+  ],
+  "after": [
+   "In one of history's stranger heists, thieves quietly siphoned off nearly $19 million worth of this sweetener.",
+   "It takes about 40 gallons of sap to boil down to a single gallon of it.",
+   "Quebec produces about 70 percent of the world's supply and keeps a strategic reserve of it.",
+   "This sweet amber pancake topping comes from the sap of the tree whose leaf is on Canada's flag."
+  ],
+  "changed": [
+   1,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Great_Canadian_Maple_Syrup_Heist",
+   "4": "https://en.wikipedia.org/wiki/Maple_syrup"
+  },
+  "summary": "Replaced clue 1's bare 'it' with 'this sweetener' and made clue 4 a full sentence that no longer repeats the boiled-down sap."
+ },
+ {
+  "id": "harriet-tubman",
+  "answer": "Harriet Tubman",
+  "category": "History",
+  "before": [
+   "She led an armed raid during the Civil War that freed more than 700 enslaved people.",
+   "A blow to the head in her youth left her with sudden sleeping spells and vivid visions for the rest of her life.",
+   "After escaping slavery in Maryland in 1849, she went back again and again to guide some 70 others north.",
+   "The 'Moses' of the Underground Railroad, picked in 2016 to replace Andrew Jackson on the $20 bill."
+  ],
+  "after": [
+   "A blow to this abolitionist's head in her youth left her with sudden sleeping spells and vivid visions for the rest of her life.",
+   "During the Civil War she led an armed raid that freed more than 700 enslaved people.",
+   "In 2016 the Treasury picked her to replace Andrew Jackson on the front of the $20 bill.",
+   "Called the 'Moses' of her people, she escaped slavery in Maryland in 1849 and made about 13 trips back to lead some 70 others to freedom on the Underground Railroad."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.womenshistory.org/education-resources/biographies/harriet-tubman",
+   "2": "https://en.wikipedia.org/wiki/Raid_on_Combahee_Ferry",
+   "3": "https://govexec.com/management/2016/04/report-harriet-tubman-will-replace-andrew-jackson-20-bill/127651",
+   "4": "https://www.biography.com/activists/harriet-tubman"
+  },
+  "summary": "Swapped clues 1 and 2 so the lesser-known head injury leads with a 'this abolitionist' opener, moved the $20 bill to clue 3, and merged the 1849 escape and rescue trips into a full-sentence clue 4 so the Underground Railroad appears only once."
+ },
+ {
+  "id": "wi-fi",
+  "answer": "Wi-Fi",
+  "category": "Technology",
+  "before": [
+   "Its name was dreamed up by a branding agency and does not stand for anything.",
+   "A key piece of its technology came from Australian radio astronomers hunting for exploding black holes.",
+   "It usually runs on the 2.4 and 5 gigahertz bands — the lower one shared with microwave ovens.",
+   "The wireless networking standard that links laptops and phones to your router."
+  ],
+  "after": [
+   "A key piece of this technology came from Australian radio astronomers who were hunting for exploding black holes.",
+   "Its name was dreamed up by a branding agency and, despite a popular belief, does not stand for anything.",
+   "It usually runs on the 2.4 and 5 gigahertz bands — the lower one shared with microwave ovens.",
+   "This wireless networking standard links laptops and phones to your home router."
+  ],
+  "changed": [
+   1,
+   2,
+   4
+  ],
+  "sources": {
+   "1": "reworded from clue 2",
+   "2": "https://interbrand.com/work/wi-fi",
+   "4": "https://thehustle.co/wi-fi-doesnt-stand-for-anything"
+  },
+  "summary": "Gave clue 1 a 'This technology's' opener and rewrote clue 4 as a full sentence. Hand pass: Swapped clues 1 and 2 so the radio astronomy fact leads."
+ },
+ {
+  "id": "lotus",
+  "answer": "Lotus",
+  "category": "Nature",
+  "before": [
+   "Its leaves repel water so well that droplets roll off and carry the dirt away — a self-cleaning trick engineers now copy.",
+   "A seed of it dug from a dry lakebed in China sprouted after roughly 1,300 years.",
+   "It roots in pond mud but holds its pink or white flowers high above the water, which made it a Buddhist symbol of purity.",
+   "The national flower of India, which gives its name to the cross-legged yoga pose."
+  ],
+  "after": [
+   "A seed of this plant, dug from a dry lakebed in China, sprouted after roughly 1,300 years.",
+   "Its leaves repel water so well that droplets roll off and carry the dirt away — a self-cleaning trick engineers now copy.",
+   "It roots in pond mud but holds its pink or white flowers high above the water, which made it a Buddhist symbol of purity.",
+   "This plant is the national flower of India and gives its name to the cross-legged yoga pose."
+  ],
+  "changed": [
+   1,
+   2,
+   4
+  ],
+  "sources": {
+   "1": "https://dx.doi.org/10.1007/s12042-013-9125-1",
+   "2": "moved from clue 1",
+   "4": "https://en.wikipedia.org/wiki/Nelumbo_nucifera"
+  },
+  "summary": "Swapped clues 1 and 2 so the lesser-known 1,300-year seed leads with a 'this plant' opener, and rewrote clue 4 as a full sentence."
+ },
+ {
+  "id": "agatha-christie",
+  "answer": "Agatha Christie",
+  "category": "Literature",
+  "before": [
+   "In 1926 she vanished for eleven days, sparking a national manhunt, and turned up at a Harrogate hotel under an assumed name.",
+   "She worked in a hospital pharmacy during World War I, which is why so many of her victims die by poison.",
+   "Her play 'The Mousetrap' has run in London's West End since 1952, longer than any other.",
+   "The best-selling 'Queen of Crime' who created Hercule Poirot and Miss Marple."
+  ],
+  "after": [
+   "In 1926 this writer vanished for eleven days, sparking a national manhunt, and turned up at a Harrogate hotel under an assumed name.",
+   "She worked in a hospital pharmacy during World War I, which is why so many of her victims die by poison.",
+   "Her play 'The Mousetrap' has run in London's West End since 1952, longer than any other.",
+   "This best-selling 'Queen of Crime' created Hercule Poirot and Miss Marple."
+  ],
+  "changed": [
+   1,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Agatha_Christie",
+   "4": "https://en.wikipedia.org/wiki/Agatha_Christie"
+  },
+  "summary": "Clue 1 now says 'this writer' instead of a bare 'she', and clue 4 is a full sentence; the facts are unchanged."
+ },
+ {
+  "id": "snoopy",
+  "answer": "Snoopy",
+  "category": "Pop Culture",
+  "before": [
+   "NASA hands out an award in his name for work that keeps astronauts safe.",
+   "Apollo 10's lunar module was named after him.",
+   "He often lies on the roof of his doghouse, imagining he is a World War I flying ace battling the Red Baron.",
+   "Charlie Brown's beagle in the 'Peanuts' comic strip."
+  ],
+  "after": [
+   "NASA hands out an award named after this cartoon character for work that keeps astronauts safe.",
+   "He was based on his creator's boyhood dog Spike, a black-and-white mixed breed.",
+   "He first appeared in the comic strip in 1950, just two days after it launched, and did not walk upright on his hind legs until 1956.",
+   "This beagle is Charlie Brown's dog in the 'Peanuts' comic strip."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.nasa.gov/space-flight-awareness/silver-snoopy-award/",
+   "2": "https://en.wikipedia.org/wiki/Snoopy",
+   "3": "https://en.wikipedia.org/wiki/Snoopy",
+   "4": "https://en.wikipedia.org/wiki/Snoopy"
+  },
+  "summary": "Clue 1 now names a cartoon character, the second NASA clue (Apollo 10) is replaced with the childhood dog Spike, and clue 4 is a full sentence. Second pass: Replaced the instant Red Baron clue 3 with his debut two days after the strip launched and his first upright walk in 1956."
+ },
+ {
+  "id": "fortune-cookie",
+  "answer": "Fortune Cookie",
+  "category": "Food & Drink",
+  "before": [
+   "It is barely known in China.",
+   "It most likely began in Japan and reached America through Japanese bakers in California.",
+   "In 2005, 110 people won Powerball prizes by playing the lucky numbers printed inside it.",
+   "The folded, crisp treat with a slip of paper inside, handed out after a Chinese-American meal."
+  ],
+  "after": [
+   "This snack most likely grew out of a Japanese cracker, and the man who ran San Francisco's Japanese Tea Garden is often credited with bringing it to America.",
+   "This snack is barely known in China, yet about three billion of them are made each year, mostly in the United States.",
+   "In a 2005 Powerball drawing, 110 people won second prizes with the same numbers, all printed on slips inside these snacks from one factory in Queens, New York.",
+   "This folded, crisp treat hides a slip of paper inside and is handed out after a Chinese-American meal."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://kqed.org/news/11742748/unwrapping-the-california-origins-of-the-fortune-cookie",
+   "2": "https://gulfnews.com/amp/story/food%2Fchinese-fortune-cookies-are-japanese-in-origin-and-most-popular-in-america-1.1645453789317",
+   "3": "https://www.newsnationnow.com/us-news/powerball-prizes-2005-drawing-cheating/amp/",
+   "4": "https://www.bostonglobe.com/lifestyle/food-dining/2014/03/04/how-did-fortunes-get-into-those-cookies/zzH5BbysAnD4D4T0vop1RN/story.html"
+  },
+  "summary": "Clue 1 now names the kind of thing and adds the three-billion figure, clue 2 moves to the Japanese Tea Garden origin, clue 3 drops the 'lucky numbers printed inside it' giveaway, and clue 4 is a full sentence. Hand pass: Swapped clues 1 and 2, and clue 3 now says the lottery numbers were printed inside these snacks."
+ },
+ {
+  "id": "the-lion-king",
+  "answer": "The Lion King",
+  "category": "Movies",
+  "before": [
+   "This film earned Hans Zimmer his first Oscar, for Best Original Score; his second came 27 years later for 'Dune.'",
+   "This animated film's plot echoes 'Hamlet': a young prince's uncle murders his father and seizes the throne.",
+   "Elton John and Tim Rice wrote this film's love song, 'Can You Feel the Love Tonight.'",
+   "This 1994 Disney film about a cub reclaiming his throne at Pride Rock got a photoreal 2019 remake."
+  ],
+  "after": [
+   "This film earned Hans Zimmer his first Oscar, for Best Original Score; his second came 27 years later for 'Dune.'",
+   "This film's stage version, directed by Julie Taymor with giant puppets and masks, is the highest-grossing show in Broadway history.",
+   "Elton John and Tim Rice wrote this animated film's songs, and three of them were nominated for the same Best Original Song Oscar.",
+   "This 1994 Disney film about a cub reclaiming his throne at Pride Rock got a photoreal 2019 remake."
+  ],
+  "changed": [
+   2,
+   3
+  ],
+  "sources": {
+   "2": "https://d23.com/a-to-z/lion-king-the/",
+   "3": "https://en.wikipedia.org/wiki/67th_Academy_Awards"
+  },
+  "summary": "Replaced the instant Hamlet plot summary with the Broadway stage show and swapped the famous song title for the fact that three of its songs competed for one Oscar."
+ },
+ {
+  "id": "the-mandalorian",
+  "answer": "The Mandalorian",
+  "category": "Television",
+  "before": [
+   "This show was shot in 'The Volume', a stage surrounded by giant LED screens that Industrial Light & Magic designed for it to replace green screens.",
+   "This Star Wars series follows a bounty hunter whose creed forbids him to remove his helmet in front of others.",
+   "This show's hero, played by Pedro Pascal, protects a Force-sensitive child named Grogu, whom fans nicknamed 'Baby Yoda'.",
+   "This Disney+ series is named for the armored warrior culture its hero belongs to."
+  ],
+  "after": [
+   "This show was shot in 'The Volume', a stage surrounded by giant LED screens that Industrial Light & Magic designed for it to replace green screens.",
+   "Famed German filmmaker Werner Herzog played the shadowy client who hires this show's hero in its first season.",
+   "John Wayne's grandson Brendan was one of the performers who wore this show's hero's armor, standing in for the star under the helmet.",
+   "This Disney+ series is named for the armored warrior culture its hero belongs to."
+  ],
+  "changed": [
+   2,
+   3
+  ],
+  "sources": {
+   "2": "https://en.wikipedia.org/wiki/The_Client_(Star_Wars)",
+   "3": "https://www.denofgeek.com/tv/the-mandalorian-john-wayne-grandson"
+  },
+  "summary": "Replaced the instant Star Wars bounty-hunter and Baby Yoda clues with Werner Herzog's role and John Wayne's grandson as the armored double, so the show is no longer given away by clue 2."
+ }
+]
