@@ -1,0 +1,2928 @@
+[
+ {
+  "id": "star-wars",
+  "answer": "Star Wars",
+  "category": "Movies",
+  "before": [
+   "This 1977 film's director took a smaller fee to keep the merchandising rights, and the toys and other goods sold under them have since topped $20 billion.",
+   "Harrison Ford was working as a carpenter when he was asked to read lines with actors auditioning for this film, and he ended up cast as its smuggler.",
+   "James Earl Jones voiced this saga's masked villain but asked to go uncredited in the 1977 original, saying he was 'just special effects.'",
+   "In this franchise, Luke Skywalker learns to use 'the Force,' aided by Yoda and the droids R2-D2 and C-3PO."
+  ],
+  "after": [
+   "This film's sound designer made its signature weapon's hum by mixing the drone of an idling film projector with the buzz of a TV set.",
+   "This 1977 film opened in just 32 U.S. theaters, yet it went on to pass Jaws as the highest-grossing film of its time.",
+   "This film's desert planet takes its name from Tataouine, a town in southern Tunisia, the country where its desert scenes were shot.",
+   "In this space adventure, farm boy Luke Skywalker learns the ways of the Force and joins Han Solo and Princess Leia against Darth Vader."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.diyphotography.net/the-lightsaber-sound-was-inspired-by-a-video-projector-engine-and-a-tv-set/",
+   "2": "https://en.wikipedia.org/wiki/Star_Wars_(film)",
+   "3": "https://en.wikipedia.org/wiki/Tatooine",
+   "4": "https://en.wikipedia.org/wiki/Star_Wars_(film)"
+  },
+  "summary": "Replaced the three instant clues (toy fortune, Harrison Ford, James Earl Jones) with the lightsaber sound, the 32-theater opening and the Tataouine name, and rewrote clue 4 to fit the 1977 film instead of the franchise."
+ },
+ {
+  "id": "toy-story",
+  "answer": "Toy Story",
+  "category": "Movies",
+  "before": [
+   "It was the first feature film made entirely with computer animation.",
+   "In it, a pull-string cowboy grows jealous when a flashy new spaceman action figure arrives.",
+   "In it, Woody and Buzz Lightyear come to life whenever their owner Andy leaves the room.",
+   "Buzz's catchphrase 'To infinity and beyond!' comes from this 1995 Pixar hit about living playthings."
+  ],
+  "after": [
+   "Billy Crystal turned down a lead voice role in this film, later calling it the only part he ever passed on that he regrets.",
+   "A delivery truck from this film's 'Pizza Planet' has been hidden in nearly every film its studio has made since.",
+   "This film was the first feature made entirely with computer animation.",
+   "Buzz's catchphrase 'To infinity and beyond!' comes from this 1995 Pixar hit about living playthings."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://abcnews.com/Entertainment/story?id=101549",
+   "2": "https://www.thefilmagazine.com/famous-easter-eggs-pixars-pizza-planet-truck/",
+   "3": "https://en.wikipedia.org/wiki/Toy_Story"
+  },
+  "summary": "Dropped the two overlapping plot-summary clues, added Billy Crystal's turned-down role and the Pizza Planet truck, and moved the computer-animation first to clue 3 with a proper 'This film' opening."
+ },
+ {
+  "id": "avatar-film",
+  "answer": "Avatar",
+  "category": "Movies",
+  "before": [
+   "Its release drove some fans into depression that they could not visit its fictional world.",
+   "Set on the lush moon Pandora, it follows tall, blue-skinned aliens called the Na'vi.",
+   "In it, a paralyzed marine controls a remote alien body to infiltrate them, then switches sides.",
+   "James Cameron's 2009 3D epic became the highest-grossing film ever made."
+  ],
+  "after": [
+   "This film's alien language was created from scratch by Paul Frommer, a USC business-school professor with a doctorate in linguistics.",
+   "After this film's release, CNN reported that some fans felt depressed because they could never visit its fictional world.",
+   "James Cameron wrote this film's first treatment in 1994, then shelved it for over a decade because the effects technology he needed did not exist yet.",
+   "James Cameron's 2009 3D epic became the highest-grossing film ever made."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.chronicle.com/article/a-linguist-who-worked-on-avatar-knows-his-navi/",
+   "2": "https://ispr.info/2010/01/13/audiences-experience-avatar-blues/",
+   "3": "https://en.wikipedia.org/wiki/Avatar_(2009_film)"
+  },
+  "summary": "Gave clue 1 a 'This film's' opening, replaced the instant Pandora/Na'vi clue with the linguist who built the alien language, and swapped the plot summary for a casting clue that drops the giveaway names. Second pass: Swapped clues 1 and 2 so the harder Frommer fact leads, and replaced the plot-summary clue 3 with the checked 1994 treatment that waited for effects technology."
+ },
+ {
+  "id": "diamond",
+  "answer": "Diamond",
+  "category": "Science",
+  "before": [
+   "Forged deep underground under crushing pressure, most of them are far older than the dinosaurs.",
+   "The hardest known natural material, it can scratch any other and cut glass with ease.",
+   "Just pure carbon in a rigid lattice, it is prized as a brilliant, sparkling gemstone.",
+   "Measured in carats and often set in engagement rings, this April birthstone is 'a girl's best friend.'"
+  ],
+  "after": [
+   "Some of these gems formed as long as 3.5 billion years ago, and most grew about 90 to 125 miles below Earth's surface.",
+   "India supplied almost all of these gems until 1725, when a new source was found in Brazil.",
+   "These gems carry heat away faster than almost any other material, which is how a jeweler's handheld heat probe tells them from fakes.",
+   "Measured in carats and often set in engagement rings, this April birthstone is 'a girl's best friend.'"
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://archive.gia.edu/diamond-research",
+   "2": "https://www.sothebys.com/en/articles/the-golconda-treasure-that-enchanted-a-queen",
+   "3": "https://en.wikipedia.org/wiki/Diamond_tester"
+  },
+  "summary": "Gave clue 1 a type word and checked numbers, and replaced the instant hardness clue and the plain description with India's mining history and the Hope's boron color. Second pass: Corrected the Brazil date to 1725 per Sotheby's and softened 'only place' because Borneo was also an early source, and replaced the Hope clue with the graphite fact.",
+  "handEdited": [
+   3
+  ]
+ },
+ {
+  "id": "forrest-gump",
+  "answer": "Forrest Gump",
+  "category": "Movies",
+  "before": [
+   "Its hero unwittingly inspires the smiley face, the phrase 'have a nice day,' and a bumper sticker.",
+   "In it, Tom Hanks plays a slow-witted but kind-hearted man who keeps stumbling into history.",
+   "He becomes a ping-pong champ, a shrimp-boat captain, and a cross-country runner.",
+   "'Life is like a box of chocolates,' says this 1994 film's Alabama everyman on a bus-stop bench."
+  ],
+  "after": [
+   "This film's hero unwittingly creates the smiley-face T-shirt when he wipes his muddy face on a shirt a salesman offers him.",
+   "This film beat 'Pulp Fiction' and 'The Shawshank Redemption' for the Best Picture Oscar.",
+   "In this film Gary Sinise plays a lieutenant who loses both legs in Vietnam and later joins the hero's shrimping business.",
+   "'My mama always said life was like a box of chocolates,' says this 1994 film's Alabama everyman on a bus-stop bench."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.filmink.com.au/?p=70306",
+   "2": "https://en.wikipedia.org/wiki/67th_Academy_Awards",
+   "3": "https://en.wikipedia.org/wiki/Lieutenant_Dan",
+   "4": "https://en.wikipedia.org/wiki/Forrest_Gump"
+  },
+  "summary": "Gave clue 1 a 'This film's' opening and dropped the unconfirmed 'have a nice day' detail, replaced the Tom Hanks plot summary with the Best Picture win, and reworded clue 3 so it is about the film, not 'He'. Second pass: Replaced the plot-summary clue 3 with the checked fact about compositing Tom Hanks into Kennedy and Dick Cavett Show footage.",
+  "handEdited": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "penicillin",
+  "answer": "Penicillin",
+  "category": "Science",
+  "before": [
+   "It was discovered by accident in 1928, when mold drifted onto a forgotten dish and killed the bacteria around it.",
+   "Alexander Fleming's chance find became the world's first true antibiotic, saving countless soldiers in World War II.",
+   "Grown from a common blue-green mold, it works by bursting the walls of bacterial cells.",
+   "This landmark antibiotic, still prescribed today, launched the modern age of infection-fighting drugs."
+  ],
+  "after": [
+   "This drug's first patient, an Oxford policeman, began to recover in 1941 but died after the tiny supply ran out within days.",
+   "A moldy cantaloupe brought to a lab in Peoria, Illinois, in 1943 yielded the strain that made mass production of this drug possible.",
+   "Howard Florey and Ernst Chain won a share of the 1945 Nobel Prize in Medicine for turning this drug into a working cure.",
+   "Alexander Fleming discovered this antibiotic in 1928, when mold growing on a dish he left out during a vacation killed the bacteria around it."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Albert_Alexander_(police_officer)",
+   "2": "https://scientificdiscoveries.ars.usda.gov/tellus/stories/articles/enduring-mystery-moldy-mary",
+   "3": "https://www.nobelprize.org/prizes/medicine/1945/summary/",
+   "4": "https://www.sciencehistory.org/education/scientific-biographies/alexander-fleming/"
+  },
+  "summary": "Replaced the famous Fleming mold-on-a-dish story and the Fleming clue with the first patient, the Peoria cantaloupe strain and the D-Day dose count, and dropped the mold clue that overlapped the cantaloupe one. Second pass: Replaced the D-Day clue, which repeated clue 2's mass-production angle, with the Florey and Chain Nobel, and made clue 4 name Fleming's 1928 discovery."
+ },
+ {
+  "id": "candy-crush",
+  "answer": "Candy Crush",
+  "category": "Games",
+  "before": [
+   "Its whole mechanic is swapping two adjacent sweets to line up three of a kind, repeated a few billion times.",
+   "King released it in 2012, and its free-to-play lives system turned waiting itself into a thing you could pay to skip.",
+   "Microsoft inherited it when it bought Activision Blizzard for nearly $69 billion.",
+   "The match-three mobile puzzle game where you clear jelly and striped sweets across thousands of levels."
+  ],
+  "after": [
+   "In 2017 this game became a CBS game show, hosted by Mario Lopez, in which harnessed contestants played on giant touchscreen walls.",
+   "Microsoft inherited this game when it bought Activision Blizzard for nearly $69 billion.",
+   "King released this game in 2012, and its lives system turned waiting itself into something you could pay to skip.",
+   "This match-three mobile puzzle game has you clear jelly and striped sweets across thousands of levels."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Candy_Crush_(game_show)",
+   "2": "https://blogs.microsoft.com/blog/2023/10/13/welcoming-the-legendary-teams-at-activision-blizzard-king-to-team-xbox/",
+   "3": "https://en.wikipedia.org/wiki/Candy_Crush_Saga",
+   "4": "https://en.wikipedia.org/wiki/Candy_Crush_Saga"
+  },
+  "summary": "Replaced the match-three clue 1 with the CBS game show, swapped the Microsoft and King clues so the harder one comes first, and made clue 4 a full sentence."
+ },
+ {
+  "id": "charles-darwin",
+  "answer": "Charles Darwin",
+  "category": "Science",
+  "before": [
+   "He sat on his world-changing theory for some twenty years before he dared to publish it.",
+   "A five-year voyage aboard HMS Beagle — and especially the finches of the Galápagos Islands — reshaped his thinking.",
+   "This English naturalist argued that living things change over generations through a process he called 'natural selection.'",
+   "His 1859 book 'On the Origin of Species' laid out the theory of evolution."
+  ],
+  "after": [
+   "This naturalist spent eight years studying barnacles, enough to fill four volumes on the living and fossil kinds.",
+   "Before proposing to his cousin Emma Wedgwood, he listed marriage's pros and cons, deciding a wife would be 'better than a dog anyhow.'",
+   "He had his world-changing theory worked out some twenty years before he finally published it.",
+   "His 1859 book 'On the Origin of Species' laid out the theory of evolution."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://darwin-online.org.uk/EditorialIntroductions/Richmond_cirripedia.html",
+   "2": "https://www.themarginalian.org/index.php/2012/08/14/darwin-list-pros-and-cons-of-marriage/",
+   "3": "https://blogs.nature.com/blog/darwin_and_the_20year_publicat/"
+  },
+  "summary": "Dropped the instant Beagle and natural-selection clues for the barnacle years and the marriage list, and reworded the twenty-year clue without 'dared', since historians dispute that fear caused the delay."
+ },
+ {
+  "id": "dna",
+  "answer": "DNA",
+  "category": "Science",
+  "before": [
+   "Unwound, the strand of it inside just one of your cells would stretch about two meters, and all of yours together would reach the Sun and back many times over.",
+   "It coils into a twisting 'double helix' ladder, a shape revealed in 1953.",
+   "Spelled out in only four chemical letters — A, T, C, and G — it carries the instructions for building a living thing.",
+   "This molecule, found in nearly every cell, holds the genetic code passed from parents to their children."
+  ],
+  "after": [
+   "This molecule was first isolated in 1869 by a Swiss doctor, who extracted it from pus on used hospital bandages and named it 'nuclein.'",
+   "Unwound, the strand of it inside just one of your cells would stretch about two meters.",
+   "An X-ray image called 'Photo 51,' taken in Rosalind Franklin's lab in 1952, was key to working out its shape in 1953.",
+   "This molecule, found in nearly every cell, holds the genetic code passed from parents to their children."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.nationalgeographic.com/history/article/friedrich-miescher-nucleic-acid-nuclein-dna-helix",
+   "2": "https://archive.imascientist.org.uk/genetics21-zone/question/how-long-is-dna/index.html",
+   "3": "https://www.kcl.ac.uk/the-story-behind-photograph-51"
+  },
+  "summary": "Replaced the instant double-helix and A-T-C-G clues with Miescher's 1869 discovery and Photo 51, and shortened the two-meter clue."
+ },
+ {
+  "id": "glacier",
+  "answer": "Glacier",
+  "category": "Science",
+  "before": [
+   "Chunks breaking off their edges into the sea are said to 'calve,' forming icebergs.",
+   "A slow river of ice, it creeps downhill over centuries, grinding out valleys as it goes.",
+   "Built up from packed snow, many are now shrinking as the climate warms.",
+   "Fjords and the U-shaped valleys of the Alps were carved by these massive moving sheets of ice."
+  ],
+  "after": [
+   "Pakistan's Kutiah set the speed record for this kind of natural feature in 1953, surging more than 12 kilometers in three months.",
+   "Its deep ice looks vivid blue because pressure squeezes out the air bubbles, letting the dense ice absorb red light.",
+   "Antarctica's Lambert, more than 400 kilometers long, is often called the largest one of these in the world.",
+   "Fjords and the U-shaped valleys of the Alps were carved by these massive moving sheets of ice."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.guinnessworldrecords.com/world-records/fastest-glacier-surge",
+   "2": "https://www.usgs.gov/faqs/why-glacier-ice-blue",
+   "3": "https://en.wikipedia.org/wiki/Lambert_Glacier"
+  },
+  "summary": "Replaced the 'river of ice' description and the generic climate clue with the Kutiah surge record and the blue-ice fact, and moved the calving clue to third. Second pass: Removed 'ice mass' from clue 1 so the Kutiah speed record no longer names the answer outright.",
+  "handEdited": [
+   3
+  ]
+ },
+ {
+  "id": "iron-metal",
+  "answer": "Iron",
+  "category": "Science",
+  "before": [
+   "Its name gives a whole age of human history, when it replaced bronze for tools and weapons.",
+   "A magnet sticks to it, and left damp it flakes into reddish rust.",
+   "This metal forms much of Earth's core and gives blood its red color and ability to carry oxygen.",
+   "With the symbol Fe, this strong, cheap metal is mixed with carbon to make steel."
+  ],
+  "after": [
+   "This metal forms the blade of a dagger buried with Tutankhamun, and a 2016 study traced that blade to a meteorite.",
+   "The Eiffel Tower's framework used about 7,300 tonnes of this metal, joined by some 2.5 million rivets.",
+   "Dust rich in an oxide of this metal gives Mars its red color.",
+   "With the symbol Fe, this strong, cheap metal is mixed with carbon to make steel."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://eos.org/articles/pharaohs-iron-dagger-made-from-a-meteorite-study-confirms",
+   "2": "https://artsandculture.google.com/exhibit/AQIqOkVv",
+   "3": "https://en.wikipedia.org/wiki/Mars"
+  },
+  "summary": "Replaced the instant Iron Age and magnet-and-rust clues with the meteorite dagger of Tutankhamun and the Eiffel Tower's tonnage, so the order now runs hardest to easiest. Second pass: Dropped 'cast' from the Eiffel Tower clue (it is puddled wrought iron, 7,300 tonnes) and replaced the instant blood fact with Mars's rust-red dust.",
+  "handEdited": [
+   2,
+   3
+  ]
+ },
+ {
+  "id": "water",
+  "answer": "Water",
+  "category": "Science",
+  "before": [
+   "Almost uniquely, its solid form floats on its liquid — which is why ice forms on top of a pond, not the bottom.",
+   "It is the only everyday substance found naturally on Earth as a solid, a liquid, and a gas.",
+   "It blankets about 70% of the planet and most of your body; every molecule is two hydrogen atoms bound to one of oxygen.",
+   "This clear, tasteless liquid, vital to all known life, falls as rain and fills the oceans."
+  ],
+  "after": [
+   "Each molecule of this compound is bent, with its two outer atoms set about 104.5 degrees apart.",
+   "Henry Cavendish found in 1781 that burning hydrogen in air produces this substance, helping show it is a compound, not an element.",
+   "A heavy form of this substance, made with deuterium, was the target of Allied sabotage raids on a Norwegian plant during World War II.",
+   "This clear, tasteless liquid, vital to all known life, falls as rain and fills the oceans."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Properties_of_water",
+   "2": "https://en.wikipedia.org/wiki/Henry_Cavendish",
+   "3": "https://en.wikipedia.org/wiki/Norwegian_heavy_water_sabotage"
+  },
+  "summary": "Swapped the ice-on-a-pond clue for the 4°C density fact and removed the two-hydrogen-one-oxygen giveaway from clue 3, replacing it with the body-water share from USGS. Second pass: Replaced clue 3's textbook 71%/60% figures with the USGS split of salt and fresh water, using USGS's 'over 96%' rather than the judge's unchecked 97%.",
+  "handEdited": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "halo",
+  "answer": "Halo",
+  "category": "Games",
+  "before": [
+   "Its green-armoured supersoldier and blue artificial intelligence gave a new console its entire identity.",
+   "Bungie began building it as a Macintosh real-time strategy game before Microsoft bought the studio outright.",
+   "In it, Master Chief and Cortana fight the alien Covenant across enormous artificial rings.",
+   "Xbox's flagship first-person shooter, named for the ringworlds on which much of it takes place."
+  ],
+  "after": [
+   "This game was the filming set for Red vs. Blue, a comedy web series that ran from 2003 to 2024 with players acting out scenes as its armoured soldiers.",
+   "Bungie began building it as a Macintosh real-time strategy game before Microsoft bought the studio outright.",
+   "This game's hero is a supersoldier whose face its cutscenes were designed never to show, with an AI companion riding along in his armour.",
+   "This first-person shooter, the original Xbox's flagship 'killer app,' is named after the giant ring-shaped world where it is set."
+  ],
+  "changed": [
+   1,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.halopedia.org/Red_vs._Blue",
+   "3": "https://en.wikipedia.org/wiki/Master_Chief_(Halo) https://www.halopedia.org/John-117",
+   "4": "https://en.wikipedia.org/wiki/Halo_(franchise)"
+  },
+  "summary": "Gave clue 1 a 'This game' opening and a new fact (Red vs. Blue), replaced the plot summary that named Master Chief with the never-shown face and the AI in his armour, and rewrote clue 4 as a full sentence."
+ },
+ {
+  "id": "nirvana-band",
+  "answer": "Nirvana",
+  "category": "Music",
+  "before": [
+   "Its frontman's death in 1994 made him a member of the tragic '27 Club.'",
+   "This Seattle trio, led by Kurt Cobain, dragged grunge music into the mainstream.",
+   "Its 1991 album 'Nevermind,' with a baby swimming on the cover, knocked Michael Jackson off the top spot.",
+   "'Smells Like Teen Spirit' was the anthem of this flannel-clad band, whose name means blissful peace."
+  ],
+  "after": [
+   "This band's debut album was recorded for just $606.17, a bill paid by a guitarist who doesn't actually play on it.",
+   "This band's breakthrough album knocked Michael Jackson's 'Dangerous' off the top of the U.S. album chart in January 1992.",
+   "This band's frontman died in 1994 at age 27, and his death is what gave rise to the idea of the '27 Club.'",
+   "'Smells Like Teen Spirit' was the anthem of this flannel-clad band, whose name means blissful peace."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Bleach_(Nirvana_album)",
+   "2": "https://en.wikipedia.org/wiki/List_of_Billboard_200_number-one_albums_of_1992",
+   "3": "https://en.wikipedia.org/wiki/27_Club"
+  },
+  "summary": "Removed the Kurt Cobain giveaway, moved the 27 Club fact to clue 2 with a 'This band' opening, and added the Foo Fighters drummer fact as clue 1. Second pass: Swapped the well-known Foo Fighters clue for Bleach's $606.17 recording bill, removed the album name and baby cover from the chart clue, and moved the easier 27 Club clue to third."
+ },
+ {
+  "id": "the-bear",
+  "answer": "The Bear",
+  "category": "Television",
+  "before": [
+   "One episode crams Jamie Lee Curtis, Bob Odenkirk and John Mulaney into a single catastrophic Christmas dinner.",
+   "A fine-dining chef inherits his late brother's chaotic Chicago sandwich shop, where everyone answers 'Yes, chef'.",
+   "Shot with handheld urgency, its seventh first-season episode plays out in one unbroken twenty-minute take.",
+   "The FX kitchen drama starring Jeremy Allen White as Carmy, which the Emmys somehow class as a comedy."
+  ],
+  "after": [
+   "One episode of this show crams Jamie Lee Curtis, Bob Odenkirk and John Mulaney into a single catastrophic Christmas Eve dinner.",
+   "This show's seventh first-season episode plays out in one unbroken take of about twenty minutes.",
+   "In 2024 this show won 11 Emmys, the most ever won by a comedy series in a single year.",
+   "This FX kitchen series stars Jeremy Allen White as Carmy, a chef who comes home to run his late brother's Chicago sandwich shop."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://slashfilm.com/1319300/the-bear-season-2-brings-in-jamie-lee-curtis-bob-odenkirk",
+   "2": "https://en.wikipedia.org/wiki/Review_(The_Bear)",
+   "3": "https://m.imdb.com/news/ni64827611",
+   "4": "https://en.wikipedia.org/wiki/The_Bear_(TV_series)"
+  },
+  "summary": "Said what kind of answer clue 1 is about, dropped the plot-summary clue for the single-take episode and the 2024 Emmy record, and rewrote clue 4 as a full sentence."
+ },
+ {
+  "id": "the-renaissance",
+  "answer": "The Renaissance",
+  "category": "History",
+  "before": [
+   "Its name is French for 'rebirth,' marking a revival of ancient Greek and Roman ideas.",
+   "Beginning in 14th-century Florence, this era bridged the medieval world and the modern age.",
+   "Wealthy patrons like the Medici funded its explosion of art, science, and learning.",
+   "Leonardo da Vinci and Michelangelo were geniuses of this cultural 'rebirth' in Europe."
+  ],
+  "after": [
+   "This era's 'father' is often said to be the poet Petrarch, who is also credited with coming up with the idea of the 'Dark Ages.'",
+   "Many historians date this era's start to 1401, when Florence held a contest to design new bronze doors for its Baptistery.",
+   "Wealthy patrons like the Medici funded its explosion of art, science, and learning.",
+   "Leonardo da Vinci and Michelangelo were geniuses of this cultural 'rebirth' in Europe."
+  ],
+  "changed": [
+   1,
+   2
+  ],
+  "sources": {
+   "1": "https://courses.lumenlearning.com/suny-hccc-worldhistory/chapter/petrarch/",
+   "2": "https://www.finestresullarte.info/en/works-and-artists/the-1401-competition-that-changed-art-history-the-challenge-between-ghiberti-and-brunelleschi"
+  },
+  "summary": "Replaced the 'French for rebirth' giveaway with a Petrarch clue, and replaced the 14th-century start date with the 1401 Baptistery doors contest so the clues no longer give two different start dates."
+ },
+ {
+  "id": "tyrannosaurus-rex",
+  "answer": "Tyrannosaurus rex",
+  "category": "Science",
+  "before": [
+   "It had the strongest bite of any known land animal, strong enough to crush bone.",
+   "Its arms were comically short and ended in just two fingers each.",
+   "One of the most complete skeletons of it ever found, nicknamed Sue, stands in Chicago's Field Museum.",
+   "The 'tyrant lizard king' of the Late Cretaceous, the star predator of Jurassic Park."
+  ],
+  "after": [
+   "This dinosaur's thigh bone, dug up in Montana, held flexible soft tissue resembling blood vessels, scientists reported in 2005.",
+   "Its largest teeth were almost a foot long once you count the roots.",
+   "One of the most complete skeletons of it ever found, nicknamed Sue, stands in Chicago's Field Museum.",
+   "This 'tyrant lizard king' of the Late Cretaceous was the star predator of 'Jurassic Park.'"
+  ],
+  "changed": [
+   1,
+   2,
+   4
+  ],
+  "sources": {
+   "1": "https://www.nbcnews.com/id/7285683",
+   "2": "https://hoopermuseum.carleton.ca/rex/p6.htm",
+   "4": "https://en.wikipedia.org/wiki/Tyrannosaurus"
+  },
+  "summary": "Opened clue 1 with 'This predator', replaced the instant tiny-arms clue with a checked tooth-length fact, and made clue 4 a full sentence. Second pass: Replaced the too-easy strongest-bite clue 1 with the 2005 soft-tissue find in a Montana femur, leaving out the age because sources give both 68 and 70 million years."
+ },
+ {
+  "id": "donkey-kong",
+  "answer": "Donkey Kong",
+  "category": "Games",
+  "before": [
+   "Its hero was called Jumpman until he was renamed after the landlord of a Nintendo warehouse.",
+   "Designed by Shigeru Miyamoto, it was Nintendo's first big hit in American arcades, in 1981.",
+   "In it, a giant ape carries a woman to the top of a construction site and rolls barrels down the girders at you.",
+   "The arcade game named after its barrel-throwing gorilla, who later got a series of his own."
+  ],
+  "after": [
+   "This game's hero was called Jumpman until he was renamed after the landlord of a Nintendo warehouse.",
+   "Designed by Shigeru Miyamoto, it was Nintendo's first big hit in American arcades, in 1981.",
+   "Universal Studios sued Nintendo, claiming this game copied its famous movie ape, and lost; Nintendo's lawyer, John Kirby, later lent his name to a pink puffball hero.",
+   "This arcade game is named after its barrel-throwing gorilla, who later starred in a series of his own."
+  ],
+  "changed": [
+   1,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://technologizer.com/2010/04/25/mario/2/",
+   "3": "https://www.videogameschronicle.com/news/nintendo-john-kirby-dies",
+   "4": "https://en.wikipedia.org/wiki/Donkey_Kong_(character)"
+  },
+  "summary": "Gave clue 1 a 'This game' opening, replaced the gameplay description with the Universal lawsuit and John Kirby story, and made clue 4 a full sentence."
+ },
+ {
+  "id": "succession",
+  "answer": "Succession",
+  "category": "Television",
+  "before": [
+   "In this show, a media mogul's grown children circle his empire while he refuses to name an heir.",
+   "Its Nicholas Britell theme, all clattering piano and strings, became an unlikely earworm.",
+   "Brian Cox plays patriarch Logan Roy in an HBO drama widely read as a portrait of the Murdoch family.",
+   "In it, Kendall, Shiv and Roman Roy claw at each other over who will take over Waystar RoyCo."
+  ],
+  "after": [
+   "Nicholas Britell's theme for this show, all clattering piano and strings, became an unlikely earworm and won an Emmy.",
+   "This show's patriarch dies suddenly on a plane in the third episode of its final season, as his children say goodbye by phone.",
+   "This HBO drama about a feuding media dynasty followed its creator's unmade screenplay about the real Murdoch family.",
+   "In it, Kendall, Shiv and Roman Roy claw at each other over who will take over Waystar RoyCo."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Succession_(Main_Title_Theme)",
+   "2": "https://en.wikipedia.org/wiki/Connor%27s_Wedding",
+   "3": "https://www.theringer.com/2018/06/01/tv/hbo-succession-rupert-murdoch-influence"
+  },
+  "summary": "Moved the harder theme-music clue first and added its Emmy win, and replaced the premise clue with the patriarch's death on a plane so clue 4 no longer repeats it. Second pass: Removed Brian Cox and Logan Roy from clue 3 and tied the Murdoch link to a checked fact: creator Jesse Armstrong's earlier unproduced Murdoch screenplay."
+ },
+ {
+  "id": "honeybee",
+  "answer": "Honeybee",
+  "category": "Animals",
+  "before": [
+   "It tells its sisters exactly where to find food by performing a looping 'waggle dance.'",
+   "A female worker can strike only once, because her barbed stinger tears free and the wound kills her.",
+   "Living in colonies tens of thousands strong under a single queen, these insects build wax combs of six-sided cells.",
+   "This buzzing pollinator turns flower nectar into the golden syrup we drizzle on toast."
+  ],
+  "after": [
+   "This insect's workers spend the winter huddled in a tight ball, shivering their flight muscles to keep its core warm even in freezing weather.",
+   "In spring a queen of this insect can lay around 1,500 eggs a day, about one a minute around the clock.",
+   "A single worker of this insect makes only about a twelfth of a teaspoon of its sweet product in her whole life.",
+   "This buzzing pollinator turns flower nectar into the golden syrup we drizzle on toast."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Western_honey_bee",
+   "2": "https://www.biointeractive.org/classroom-resources/single-mother",
+   "3": "https://pollinatorpartners.ksdot.gov/BusyBee"
+  },
+  "summary": "Replaced the instant queen-and-wax-comb clue with a winter-cluster heating fact placed first, gave the waggle-dance clue a clearer subject, and limited the stinger clue to stinging people, where it is true. Second pass: Replaced the instant waggle-dance clue with the lesser-known fact that one worker makes about a twelfth of a teaspoon of honey in her life.",
+  "handEdited": [
+   1,
+   3
+  ]
+ },
+ {
+  "id": "league-of-legends",
+  "answer": "League of Legends",
+  "category": "Games",
+  "before": [
+   "In it, two teams of five push down three lanes toward each other's base, and one match can outlast a football game.",
+   "Riot Games launched it in 2009, free to play, as a spiritual successor to a Warcraft III custom map.",
+   "Its world championship fills stadiums, and its animated Netflix spin-off Arcane won an Emmy.",
+   "Summoner's Rift is the battlefield of the Riot MOBA whose champions include Jinx and Yasuo."
+  ],
+  "after": [
+   "This game's champions became K/DA, a virtual K-pop girl group whose 2018 debut 'Pop/Stars' hit No. 1 on a Billboard sales chart.",
+   "Launched free to play in 2009, this game was inspired by Defense of the Ancients, a fan-made custom map for Warcraft III.",
+   "This game's animated Netflix spin-off, Arcane, won the 2022 Emmy for outstanding animated program.",
+   "Summoner's Rift is the battlefield of the Riot MOBA whose champions include Jinx and Yasuo."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Pop/Stars",
+   "2": "https://en.wikipedia.org/wiki/League_of_Legends",
+   "3": "https://www.cartoonbrew.com/awards/arcane-emmy-animated-program-netflix-220954.html"
+  },
+  "summary": "Replaced the how-a-match-works clue 1 with the K/DA chart fact and trimmed clue 3 to the Arcane Emmy, dropping the generic stadium half. Second pass: Removed the studio name from clue 2 so it no longer settles the answer, keeping the 2009 free-to-play launch and the Warcraft III map origin."
+ },
+ {
+  "id": "saxophone",
+  "answer": "Saxophone",
+  "category": "Music",
+  "before": [
+   "Its inventor, a Belgian named Adolphe, lent his surname to the instrument.",
+   "Though made of brass, it is played with a single reed like a clarinet, blurring the instrument families.",
+   "A curved metal horn with a flared bell, it is central to jazz, from smoky clubs to big bands.",
+   "President Bill Clinton famously played this reed instrument, which comes in alto and tenor sizes."
+  ],
+  "after": [
+   "This instrument was patented in 1846 for orchestras and military bands, and French army bands took it up decades before jazz made it famous.",
+   "Though this instrument is made of brass, it is played with a single reed like a clarinet, so it counts as a woodwind.",
+   "Jazz giants Charlie Parker, nicknamed 'Bird', and John Coltrane both made their names on this instrument.",
+   "President Bill Clinton famously played this reed instrument, which comes in alto and tenor sizes."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Adolphe_Sax",
+   "2": "https://en.wikipedia.org/wiki/Saxophone",
+   "3": "https://en.wikipedia.org/wiki/Saxophone"
+  },
+  "summary": "Gave clue 1 a 'This instrument's' opening and replaced the descriptive clue 3 with the 1846 patent and military-band history. Second pass: Swapped clues 1 and 3 so the obscure patent and military-band fact leads and the inventor's name comes later, dropping the unchecked claim about Belgian bands.",
+  "handEdited": [
+   2,
+   3
+  ]
+ },
+ {
+  "id": "george-washington",
+  "answer": "George Washington",
+  "category": "History",
+  "before": [
+   "Offered the chance to rule almost like a king, he stepped down after two terms — a limit that then held for 150 years.",
+   "His famously bad teeth were made of ivory, gold, and other people's teeth — never actually wood.",
+   "He led the ragged colonial army to victory over Britain before becoming his new nation's first leader.",
+   "This first U.S. president appears on the one-dollar bill and lends his name to the nation's capital."
+  ],
+  "after": [
+   "This Founding Father's Virginia distillery made nearly 11,000 gallons of whiskey in 1799, the year he died, making it one of the largest in America.",
+   "He helped choose the site of the White House and oversaw its building but never lived in it; John Adams moved in first, in 1800.",
+   "He declined a third term, setting a two-term custom that no president broke until Franklin Roosevelt won in 1940.",
+   "This first U.S. president appears on the one-dollar bill and lends his name to the nation's capital."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/George_Washington%27s_Rye_Whiskey",
+   "2": "https://georgewbush-whitehouse.archives.gov/history/facts.html",
+   "3": "https://constitutioncenter.org/blog/fdrs-third-term-decision-and-the-22nd-amendment"
+  },
+  "summary": "Opened with the little-known distillery fact, fixed the two-term clue to name Roosevelt's 1940 break instead of '150 years', moved the dentures fact to clue 3 with accurate materials, and dropped the clue that repeated 'first president'. Second pass: Replaced the famous wooden-teeth denture clue with the less familiar fact that he chose the White House site but never lived there. Hand pass: reordered clues."
+ },
+ {
+  "id": "cheetah",
+  "answer": "Cheetah",
+  "category": "Animals",
+  "before": [
+   "It can out-accelerate most supercars from a standstill, yet it cannot roar — it chirps and purrs instead.",
+   "Unlike other big cats, its claws never fully retract, giving it running spikes for grip at full tilt.",
+   "The fastest land animal, it can hit around 70 mph in short bursts before it overheats and has to rest.",
+   "This spotted African cat, marked by black 'tear' lines running down from its eyes, is built entirely for the sprint."
+  ],
+  "after": [
+   "This cat was a prized hunting partner of the Mughal emperor Akbar, who is said to have kept about 1,000 of them at a time.",
+   "Unable to roar, it chirps like a bird and purrs like a house cat instead.",
+   "Unlike other big cats, its claws never fully retract, giving it running spikes for grip at full tilt.",
+   "This spotted African cat, marked by black 'tear' lines running down from its eyes, is built entirely for the sprint."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://scroll.in/article/1051042/the-story-of-indias-cheetahs-how-the-cheetah-went-from-being-hunter-to-hunted",
+   "2": "https://www.clevelandzoosociety.org/Z/2023/12/01/ask-the-expert-what-sounds-do-cheetahs-make"
+  },
+  "summary": "Removed both speed clues (the overstated supercar claim and the instant 'fastest land animal'), adding Akbar's hunting cheetahs as clue 1 and the chirp-and-purr fact as clue 2."
+ },
+ {
+  "id": "elvis-presley",
+  "answer": "Elvis Presley",
+  "category": "Music",
+  "before": [
+   "Fans still report spotting him alive decades after his 1977 death at Graceland.",
+   "His swiveling hips so scandalized 1950s TV that cameras were ordered to film him only from the waist up.",
+   "This Mississippi-born singer fused country and rhythm-and-blues into rock 'n' roll hits like 'Hound Dog.'",
+   "Crowned for his royal reign over rock music, he crooned 'Jailhouse Rock' and 'Love Me Tender.'"
+  ],
+  "after": [
+   "This singer's only concerts outside the United States were a handful of shows in Canada in 1957.",
+   "At 18, this Mississippi-born singer paid about $4 at a Memphis studio in 1953 to cut his first record, 'My Happiness.'",
+   "Drafted in 1958, this singer served in the U.S. Army in West Germany, where he met the 14-year-old girl he would later marry.",
+   "He lived at Graceland in Memphis and topped the charts with 'Jailhouse Rock' and 'Love Me Tender.'"
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.graceland.com/blog/elvis-presley-in-canada/",
+   "2": "https://americansongwriter.com/on-this-day-in-1953-elvis-presley-made-his-first-ever-recording-for-3-98/",
+   "3": "https://www.history.com/this-day-in-history/december-20/elvis-presley-is-drafted",
+   "4": "https://www.graceland.com/blog/elvis-presleys-1-hits-part-2/"
+  },
+  "summary": "Replaced the instant Graceland-sightings clue 1 with the Canada-only concerts fact, swapped 'Hound Dog' in clue 3 for his 1953 first record (leaving out the disputed gift-for-his-mother story), and reworded clue 4 without the banned 'the King'. Second pass: Dropped the instant waist-up TV story, moved the first-record fact up to clue 2, and added an Army-in-Germany clue 3 that hints at his wife without naming her."
+ },
+ {
+  "id": "berlin-wall",
+  "answer": "Berlin Wall",
+  "category": "History",
+  "before": [
+   "Guards shot at those who tried to cross it, yet some escaped by tunnel, balloon, and homemade zip line.",
+   "Erected overnight in 1961, this concrete barrier split a single city into communist east and capitalist west.",
+   "For 28 years it was the starkest symbol of the Cold War's Iron Curtain.",
+   "Joyful crowds swung hammers to smash it down in November 1989, reuniting Germany's capital."
+  ],
+  "after": [
+   "This structure's builders officially called it the 'Anti-Fascist Protection Rampart'.",
+   "This barrier began as barbed wire strung in the early hours of August 13, 1961, and was soon rebuilt in concrete.",
+   "This barrier opened after an East German spokesman told a live press conference that new travel rules took effect 'immediately, without delay', though they were meant to wait a day.",
+   "After its crossings opened in November 1989, joyful crowds chipped souvenirs off this barrier with hammers."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Berlin_Wall",
+   "2": "https://www.history.com/this-day-in-history/August-13/berlin-is-divided",
+   "4": "https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall",
+   "3": "https://en.wikipedia.org/wiki/G%C3%BCnter_Schabowski"
+  },
+  "summary": "Clue 1 now names the barrier type and swaps the balloon escape (which crossed the inner German border) for the 1983 Bethke zip-line escape; clue 2 says it began as overnight barbed wire, not concrete. Second pass: Replaced the generic Cold War symbol line in clue 3 with Günter Schabowski's premature 'immediately, without delay' announcement, worded so it does not claim the slip was accidental, since his intent is disputed.",
+  "handEdited": [
+   1,
+   3,
+   4
+  ]
+ },
+ {
+  "id": "black-hole",
+  "answer": "Black Hole",
+  "category": "Space",
+  "before": [
+   "Its gravity is so ferocious that not even light can escape once it crosses the edge of no return.",
+   "Time itself drags near it, and anything falling in would seem to freeze and redden at its boundary.",
+   "Often born when a giant star collapses, the largest ones anchor the centers of galaxies, our own included.",
+   "This invisible cosmic drain was first photographed in 2019 as a dark circle ringed by glowing gas."
+  ],
+  "after": [
+   "This kind of object, if it had the same mass as the Sun, would be only about 6 kilometers across.",
+   "Time itself drags near it, and anything falling in would seem to freeze and redden at its boundary.",
+   "The one at the center of our galaxy, Sagittarius A*, holds about four million times the Sun's mass.",
+   "This invisible cosmic drain was first photographed in 2019 as a dark circle ringed by glowing gas."
+  ],
+  "changed": [
+   1,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Schwarzschild_radius",
+   "3": "https://en.wikipedia.org/wiki/Sagittarius_A*"
+  },
+  "summary": "Replaced the instant 'not even light can escape' opener with the Sun's Schwarzschild radius (about 3 km, so about 6 km across). Second pass: Replaced the textbook formation clue 3 with Hawking's 1974 prediction of radiation and evaporation, saying 'predicted' because the radiation has never been observed.",
+  "handEdited": [
+   3
+  ]
+ },
+ {
+  "id": "black-mirror",
+  "answer": "Black Mirror",
+  "category": "Television",
+  "before": [
+   "Every one of its episodes stands alone, and each usually concerns a technology that seems convenient right up until it is not.",
+   "One of its interactive installments let viewers choose the plot as it went, branching toward several different endings.",
+   "Charlie Brooker created it for Channel 4 before Netflix took it over; its very first episode about a prime minister caused a lasting political stir.",
+   "Named for the blank screen of a switched-off device, this anthology includes 'San Junipero' and 'Nosedive'."
+  ],
+  "after": [
+   "This show's very first episode, aired in 2011, has a kidnapper demand that the British prime minister have sex with a pig on live TV.",
+   "Charlie Brooker first made this show for Britain's Channel 4 before Netflix bought it in September 2015.",
+   "This show's 2018 interactive film let viewers choose the plot with their remotes, branching toward several different endings.",
+   "Named for the blank screen of a switched-off device, this anthology includes 'San Junipero' and 'Nosedive'."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/The_National_Anthem_(Black_Mirror)",
+   "2": "https://en.wikipedia.org/wiki/Black_Mirror",
+   "3": "https://en.wikipedia.org/wiki/Black_Mirror:_Bandersnatch"
+  },
+  "summary": "Clue 1 now opens with 'This show' and uses the pig episode instead of the well-known anthology format; clue 3 is shorter, drops the overstated 'political stir' and dates the Netflix purchase. Second pass: Dropped the giveaway 'tech-gone-wrong anthology' wording from clue 3 and kept the Channel 4 to Netflix fact, adding the month.",
+  "handEdited": [
+   2
+  ]
+ },
+ {
+  "id": "bluey",
+  "answer": "Bluey",
+  "category": "Television",
+  "before": [
+   "This cartoon about a family of dogs in Brisbane became famous for making the parents cry, not the children.",
+   "Most of its episodes run about seven minutes and turn an invented household game into the entire plot.",
+   "This Australian series follows a Blue Heeler family: dad Bandit, mum Chilli, and their two daughters.",
+   "This ABC Australia preschool hit is named for its six-year-old Blue Heeler heroine, whose little sister is Bingo."
+  ],
+  "after": [
+   "This cartoon's longest episode, 2024's 28-minute 'The Sign', builds up to a wedding between the heroine's uncle and her godmother.",
+   "This Australian cartoon was America's most-streamed show of 2024, with Nielsen counting about 55.6 billion minutes watched.",
+   "Made in Brisbane, this cartoon about a family of dogs is known for leaving the parents who watch it in tears.",
+   "This ABC Australia preschool hit is named after its six-year-old puppy heroine, whose parents are Bandit and Chilli and whose little sister is Bingo."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/The_Sign_(Bluey)",
+   "2": "https://en.wikipedia.org/wiki/Bluey_(TV_series)",
+   "3": "https://www.theglobeandmail.com/world/article-bluey-cartoon-brisbane-popular-kids-parents",
+   "4": "https://en.wikipedia.org/wiki/Bluey_(TV_series)"
+  },
+  "summary": "Removed 'Blue Heeler' from clues 3 and 4; clue 3 is now the Nielsen 2024 streaming record and the family names move into clue 4 so the two clues no longer repeat each other. Second pass: Opened with 'The Sign' as the hardest fact, cut the format-description clue, and put the Brisbane-dogs-parents-cry clue at 3 rather than 2 because it is more direct than the streaming record."
+ },
+ {
+  "id": "bob-dylan",
+  "answer": "Bob Dylan",
+  "category": "Music",
+  "before": [
+   "In 2016 he became the first songwriter to win the Nobel Prize in Literature.",
+   "Born Robert Zimmerman, this raspy-voiced folk singer went electric at Newport in 1965, upsetting purists.",
+   "His protest anthems 'Blowin' in the Wind' and 'The Times They Are a-Changin'' defined the 1960s.",
+   "Harmonica around his neck, this American troubadour also recorded 'Like a Rolling Stone.'"
+  ],
+  "after": [
+   "This musician released 'All Along the Watchtower' in December 1967, months before Jimi Hendrix turned it into a rock classic.",
+   "In 1997 he played 'Knockin' on Heaven's Door' for Pope John Paul II at a Catholic youth gathering in Bologna, Italy.",
+   "He won the 2016 Nobel Prize in Literature but skipped the Stockholm ceremony, where Patti Smith sang one of his songs in his place.",
+   "Harmonica around his neck, this American troubadour also recorded 'Like a Rolling Stone.'"
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/All_Along_the_Watchtower",
+   "2": "https://ultimateclassicrock.com/bob-dylan-pope-performance/",
+   "3": "https://thefader.com/2016/12/11/bob-dylan-patti-smith-nobel-prize"
+  },
+  "summary": "Opened with a 'This musician' clue about the Hendrix cover, replaced the shaky 'first songwriter' Nobel claim with the skipped ceremony, and dropped the instant protest-song clue, moving Zimmerman/Newport to clue 3. Second pass: Replaced the instant Nobel clue with the Peter, Paul and Mary cover of 'Blowin' in the Wind' and trimmed clue 3 to the Newport electric set alone, dropping his birth name.",
+  "handEdited": [
+   2,
+   3
+  ]
+ },
+ {
+  "id": "bob-marley",
+  "answer": "Bob Marley",
+  "category": "Music",
+  "before": [
+   "Shot at home two days earlier, he played the free concert anyway, reasoning that the people making the world worse were not taking a day off.",
+   "He fronted the Wailers, and his Rastafarian faith shaped his lyrics as much as his dreadlocks.",
+   "The Jamaican singer died in 1981 at thirty-six; his posthumous compilation Legend has never left the charts for long.",
+   "'No Woman, No Cry' and 'Redemption Song' belong to reggae's defining figure."
+  ],
+  "after": [
+   "Shot at his home two days before a free concert in Kingston, this singer played it anyway, saying the people making the world worse were not taking a day off.",
+   "This singer was buried with his red Gibson Les Paul guitar, a Bible open at Psalm 23 and a stalk of ganja.",
+   "This singer died of cancer in 1981 at just 36, four years after a melanoma was found under the nail of his right big toe.",
+   "'No Woman, No Cry' and 'Redemption Song' belong to reggae's defining figure."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Attempted_assassination_of_Bob_Marley",
+   "2": "https://theretrospectors.com/burying-bob-marley/",
+   "3": "https://www.aimatmelanoma.org/?p=17088"
+  },
+  "summary": "Clue 1 now says what kind of answer this is, and clue 2 swaps the Wailers giveaway for the objects he was buried with. Second pass: Replaced clue 3, which said 'Jamaican' and had a vague Legend line, with the specific fact that his fatal melanoma began under his big toenail in 1977."
+ },
+ {
+  "id": "comet",
+  "answer": "Comet",
+  "category": "Space",
+  "before": [
+   "Ancient people feared them as omens of doom, blazing unexpectedly across the sky.",
+   "A 'dirty snowball' of ice and dust, it grows a glowing tail whenever it nears the Sun.",
+   "Its tail always points away from the Sun, pushed back by the solar wind.",
+   "Halley's is the most famous of these icy visitors, returning to our skies about every 76 years."
+  ],
+  "after": [
+   "The name for these objects comes from a Greek word meaning 'long-haired.'",
+   "Most long-period ones of these are thought to come from the Oort Cloud, a vast icy shell at the far edge of the solar system.",
+   "In 2014 the European probe Rosetta set down a small lander named Philae on one of these, the first such landing ever.",
+   "Halley's is the most famous of these icy visitors, returning to our skies about every 76 years."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.saturdayeveningpost.com/2023/06/in-a-word-a-comet-is-a-hairy-situation/",
+   "2": "https://www.britannica.com/topic/Oort-cloud",
+   "3": "https://www.esa.int/ESA_Multimedia/Images/2024/11/Philae_s_firsts"
+  },
+  "summary": "Replaced the generic omen clue with the Greek 'long-haired' origin of the name, replaced the instant dirty-snowball clue with the Philae landing, and reworded clue 3 to match the voice and say what actually pushes the tail. Second pass: Cut the tail hint from clue 1, replaced the tail clue with the Oort Cloud origin of long-period ones, and put the better-known Philae landing after it."
+ },
+ {
+  "id": "halleys-comet",
+  "answer": "Halley's Comet",
+  "category": "Space",
+  "before": [
+   "Bright enough to see with the naked eye, it is the only such comet that can swing back within a single human lifetime — every 75 or 76 years.",
+   "An English astronomer realized that several past sightings were one returning object and foretold its comeback, which arrived after his death.",
+   "A dirty snowball of ice and dust, it last swept past Earth in 1986 and won't return until 2061.",
+   "This most famous of comets carries the name of the man who predicted its return."
+  ],
+  "after": [
+   "This object appears in the Bayeux Tapestry, where its 1066 visit was taken as an omen before the Norman conquest of England.",
+   "Mark Twain was born in 1835, the year of one of this comet's visits, and died in 1910 during its next, as he had said he expected to.",
+   "An English astronomer realized that several past sightings were one returning object and foretold its comeback, which arrived after his death.",
+   "This most famous of comets last swept past Earth in 1986 and is due back in 2061, on a cycle of about 75 or 76 years."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://english-heritage.org.uk/learn/1066-and-the-norman-conquest/8-facts-about-1066",
+   "2": "https://www.snopes.com/fact-check/mark-twain-halleys-comet/",
+   "4": "https://en.wikipedia.org/wiki/Halley%27s_Comet"
+  },
+  "summary": "Moved the instant 75-to-76-year return to clue 4, opened with the Bayeux Tapestry, added Mark Twain as a new clue 2, and dropped the clue 4 that repeated the astronomer fact. Second pass: Changed 'This comet' to 'This object' in clue 1 so the opening word no longer points straight at the one comet most players know."
+ },
+ {
+  "id": "jaws",
+  "answer": "Jaws",
+  "category": "Movies",
+  "before": [
+   "The mechanical monster malfunctioned so often that the director hid it, and the film became far scarier for the absence.",
+   "John Williams built its theme from two alternating notes, and the shark is barely glimpsed for the first hour.",
+   "Steven Spielberg's 1975 release invented the summer blockbuster and emptied beaches for a generation.",
+   "In it, police chief Brody hunts a great white off Amity Island and decides he needs a bigger boat."
+  ],
+  "after": [
+   "This film's mechanical star, nicknamed Bruce after the director's lawyer, so rarely worked in salt water that it was mostly kept off screen.",
+   "Peter Benchley, author of the novel behind this film, later said he could not write it today and spent years campaigning for marine conservation.",
+   "Opening on hundreds of screens at once in June 1975, after three nights of prime-time network TV ads, this film set the pattern for the summer blockbuster.",
+   "In it, police chief Brody hunts a great white off Amity Island and decides he needs a bigger boat."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.discoverwildlife.com/tv/jaws-movie-facts",
+   "2": "https://www.popsci.com/environment/jaws-sharks-attack/",
+   "3": "https://www.pbs.org/wgbh/pages/frontline/shows/hollywood/business/jaws.html"
+  },
+  "summary": "Clue 1 now names the film and the shark's nickname without saying 'shark', clue 2 drops the two-note theme for Benchley's later regret, and clue 3 drops the 1975 date and empty beaches for the Guinness box-office record. Second pass: Replaced clue 3's Guinness and Spielberg claim with the checked wide-release and prime-time TV ad strategy that set the summer blockbuster pattern."
+ },
+ {
+  "id": "lion",
+  "answer": "Lion",
+  "category": "Animals",
+  "before": [
+   "Its roar can carry as far as five miles, and among these cats it is usually the females who do the hunting.",
+   "The one truly social member of its cat family, it lives in groups called prides and can doze for up to 20 hours a day.",
+   "Its males are set apart by a thick, shaggy mane, and the species once roamed across Africa, Europe, and Asia.",
+   "Nicknamed 'king of the jungle,' this big tawny African cat is a byword for courage and royalty."
+  ],
+  "after": [
+   "In Asia this big cat survives in the wild only in and around India's Gir Forest, in the state of Gujarat.",
+   "This cat can rest up to 20 hours a day, and a male who takes over a group often kills the cubs fathered by his rival.",
+   "This cat's roar can be heard as far as five miles away.",
+   "Nicknamed 'king of the jungle,' this big tawny African cat is a byword for courage and royalty."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.britannica.com/animal/Asiatic-lion",
+   "2": "https://ielc.libguides.com/sdzg/factsheets/lions/behavior",
+   "3": "https://www.clevelandzoosociety.org/z/2020/02/23/truth-or-tail-a-lions-roar-can-be-heard-5-miles-away"
+  },
+  "summary": "Removed the prides and mane giveaways, opened with the Gir Forest fact, added the takeover infanticide fact, and reworded the roar clue so it says what kind of thing the answer is. Second pass: Dropped the well-known females-do-the-hunting fact from clue 3 and kept only the five-mile roar."
+ },
+ {
+  "id": "meerkat",
+  "answer": "Meerkat",
+  "category": "Animals",
+  "before": [
+   "One stands guard on its hind legs while the rest of the group forages, barking an alarm at danger.",
+   "A small member of the mongoose family, it lives in cooperative burrow colonies called mobs.",
+   "Native to the deserts of southern Africa, it has dark eye patches that cut the sun's glare.",
+   "The character Timon in 'The Lion King' is one of these upright, sentry-posing burrowers."
+  ],
+  "after": [
+   "This animal has dark patches around its eyes that cut the glare of the southern African desert sun.",
+   "In a group of these animals, one dominant female usually gives birth to most of the pups, and the others help raise them.",
+   "Adults of this animal teach their pups to eat scorpions, first handing them dead ones, then live ones with the stinger removed.",
+   "Timon, the wisecracking sidekick in Disney's 'The Lion King', is one of these animals."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.pbs.org/wnet/nature/blog/meerkat-fact-sheet",
+   "2": "https://en.wikipedia.org/wiki/Meerkat",
+   "3": "https://www.cam.ac.uk/research/news/wild-meerkats-school-their-young",
+   "4": "https://en.wikipedia.org/wiki/Timon_and_Pumbaa"
+  },
+  "summary": "Moved the eye-patch fact to clue 1 and the famous sentry behavior to clue 3, and rewrote clue 4 so it no longer repeats the sentry pose. Second pass: Dropped the instant sentry clue, added the scorpion-teaching fact at clue 2 and moved the mongoose-and-mobs clue to 3.",
+  "handEdited": [
+   3
+  ]
+ },
+ {
+  "id": "pluto",
+  "answer": "Pluto",
+  "category": "Space",
+  "before": [
+   "Once counted as the ninth planet, it was stripped of that title and reclassified as a 'dwarf' in 2006.",
+   "Smaller even than Earth's own Moon, it takes about 248 Earth years to loop around the Sun just once.",
+   "A 2015 flyby beamed back photos of a vast heart-shaped glacier of frozen nitrogen on its surface.",
+   "This icy dwarf planet at the edge of the Solar System was discovered in 1930 and named by an 11-year-old girl."
+  ],
+  "after": [
+   "This world's name was first suggested in 1930 by an 11-year-old Oxford schoolgirl, over breakfast with her grandfather.",
+   "Smaller even than Earth's own Moon, it takes about 248 Earth years to loop around the Sun just once.",
+   "A 2015 flyby beamed back photos of a vast heart-shaped glacier of frozen nitrogen on its surface.",
+   "This icy world, discovered in 1930, counted as the ninth planet until it was reclassified as a dwarf planet in 2006."
+  ],
+  "changed": [
+   1,
+   4
+  ],
+  "sources": {
+   "1": "https://www.sbs.com.au/news/article/how-a-precocious-11-year-old-girl-gave-pluto-its-name/zxkfvbdb3",
+   "4": "https://science.nasa.gov/dwarf-planets/pluto/"
+  },
+  "summary": "Swapped the naming story to clue 1 and the famous 2006 demotion to clue 4, so the best-known fact is the giveaway."
+ },
+ {
+  "id": "queen-elizabeth-i",
+  "answer": "Queen Elizabeth I",
+  "category": "History",
+  "before": [
+   "She never married, using the prospect of her hand as a lifelong diplomatic bargaining chip.",
+   "The last Tudor monarch, this red-wigged queen ruled England for 44 years during a golden age.",
+   "Her navy defeated the Spanish Armada in 1588, and Shakespeare wrote plays during her reign.",
+   "Daughter of Henry VIII, she lent her name to the Elizabethan era and is ranked among England's greatest rulers."
+  ],
+  "after": [
+   "In 1593, around her 60th birthday, this monarch translated Boethius's 'Consolation of Philosophy' from Latin into English herself.",
+   "In 1554 this future monarch was held in the Tower of London for about two months, suspected of backing Wyatt's Rebellion.",
+   "This monarch was not yet three years old when her mother was beheaded on her father's orders.",
+   "Daughter of Henry VIII, this monarch was the last of the Tudors to rule England."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://catalog.hathitrust.org/Record/002644701",
+   "2": "https://en.wikipedia.org/wiki/Wyatt%27s_rebellion",
+   "3": "https://www.history.com/this-day-in-history/may-19/anne-boleyn-is-executed",
+   "4": "https://www.royal.uk/elizabeth-i"
+  },
+  "summary": "Opened clue 1 with 'This monarch', replaced the instant 'last Tudor, 44-year golden age' clue 2 with her mother's execution, and moved 'last Tudor' to clue 4 in place of the word 'Elizabethan'. Second pass: Replaced the never-married and Armada/Shakespeare clues, her two best-known facts, with her Boethius translation and her 1554 imprisonment in the Tower.",
+  "handEdited": [
+   3
+  ]
+ },
+ {
+  "id": "simone-biles",
+  "answer": "Simone Biles",
+  "category": "Sports",
+  "before": [
+   "She has so many original moves that four different skills are officially named after her.",
+   "This American gymnast is the most decorated in the sport's history.",
+   "She stunned the world by withdrawing from events at the Tokyo Olympics to protect her mental health.",
+   "Standing well under five feet, this tumbling superstar defies gravity on the vault and floor."
+  ],
+  "after": [
+   "This athlete was adopted by her grandparents as a young child, and has called her grandmother 'Mom' ever since.",
+   "In 2023 this gymnast married NFL safety Jonathan Owens.",
+   "This gymnast has five skills named after her: two on vault, two on floor and one on the balance beam.",
+   "Standing just 4 feet 8 inches tall, this American is the most decorated gymnast in history."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.kvc.org/blog/olympic-gymnast-simone-biles-adopted-from-foster-care-by-grandparents/",
+   "2": "https://www.si.com/extra-mustard/2023/05/12/simone-biles-husband-jonathan-owens-signs-new-nfl-deal-with-packers",
+   "3": "https://en.wikipedia.org/wiki/Gymnastics_elements_named_after_Simone_Biles",
+   "4": "https://en.wikipedia.org/wiki/Simone_Biles"
+  },
+  "summary": "Fixed the bare 'She' and the out-of-date skill count in clue 1, replaced the instant 'most decorated' clue 2 with her adoption by her grandparents, and moved 'most decorated' into a sharper clue 4. Second pass: Swapped clues 1 and 2 so the harder adoption fact leads, and replaced the instant Tokyo withdrawal with her 2023 marriage to Jonathan Owens.",
+  "handEdited": [
+   2
+  ]
+ },
+ {
+  "id": "ted-lasso",
+  "answer": "Ted Lasso",
+  "category": "Television",
+  "before": [
+   "In this show, an American college football coach is hired to run an English soccer club by an owner who is quietly counting on him to fail.",
+   "Its title character first appeared in a promotional sketch for NBC's Premier League coverage.",
+   "Jason Sudeikis stars for Apple TV+, and a torn 'Believe' sign above the locker room door becomes the show's emblem.",
+   "AFC Richmond's relentlessly optimistic, mustachioed American manager lends his name to this Apple TV+ comedy."
+  ],
+  "after": [
+   "This show's title character first appeared in 2013 promotional sketches for NBC Sports' coverage of English Premier League soccer.",
+   "Brendan Hunt, one of this show's co-creators, also plays the title character's quiet assistant, Coach Beard.",
+   "Brett Goldstein won back-to-back Emmys for playing gruff veteran footballer Roy Kent on this show.",
+   "AFC Richmond's relentlessly optimistic, mustachioed American manager lends his name to this Apple TV+ comedy."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://variety.com/2021/tv/news/ted-lasso-nbc-sports-promo-emmys-jason-sudeikis-1235074640",
+   "2": "https://en.wikipedia.org/wiki/Brendan_Hunt",
+   "3": "https://www.chortle.co.uk/news/2022/09/13/51735/brett_goldstein_wins_a_second_emmy"
+  },
+  "summary": "Moved the NBC promo origin to clue 1 and the premise to clue 2, and dropped Jason Sudeikis from clue 3 so it is no longer instant. Second pass: Replaced the plot-summary clue and the 'Believe' sign clue with its two comedy series Emmys and Brett Goldstein's back-to-back Emmys as Roy Kent.",
+  "handEdited": [
+   2
+  ]
+ },
+ {
+  "id": "the-hobbit",
+  "answer": "The Hobbit",
+  "category": "Literature",
+  "before": [
+   "Its author scribbled its first line on a blank page while grading exam papers.",
+   "In it, a wizard and thirteen dwarves recruit a comfort-loving homebody to burgle a dragon's treasure.",
+   "Published in 1937, it came first; the sequel its publisher asked for took its author 12 years to write.",
+   "Tolkien's tale of Bilbo Baggins, the dragon Smaug, and a certain magic ring."
+  ],
+  "after": [
+   "This book's author scribbled its first line on a blank page that a student had left empty while he was grading exam papers.",
+   "This book's 1951 second edition rewrote the riddle-game chapter so that Gollum no longer offers his ring as the prize.",
+   "Published in 1937, it came first; the sequel its publisher asked for took its author 12 years to write.",
+   "Tolkien wrote this tale of Bilbo Baggins, the dragon Smaug and a certain magic ring."
+  ],
+  "changed": [
+   1,
+   2,
+   4
+  ],
+  "sources": {
+   "1": "https://www.medievalists.net/2012/09/j-r-r-tolkien-did-you-know-windows-on-the-life-and-work-of-j-r-r-tolkien/",
+   "2": "https://www.jonkers.co.uk/rare-book/12203/the-hobbit/j-r-r-tolkien",
+   "4": "https://www.jonkers.co.uk/rare-book/12203/the-hobbit/j-r-r-tolkien"
+  },
+  "summary": "Fixed the bare 'Its' in clue 1 and the fragment in clue 4, and replaced the plot-summary clue 2 with the 1951 rewrite of the riddle-game chapter."
+ },
+ {
+  "id": "tiger",
+  "answer": "Tiger",
+  "category": "Animals",
+  "before": [
+   "No two wear the same pattern — its stripes are unique like fingerprints, and they mark its skin as well as its fur.",
+   "Unusual for a cat, it loves the water and swims well, and it hunts alone rather than in a pack.",
+   "The largest of all the big cats, its roar can carry as far as two miles.",
+   "This orange-and-black striped predator of Asia's forests is an endangered emblem of the wild."
+  ],
+  "after": [
+   "This cat is a strong swimmer, unlike most of its relatives, and can cross rivers several miles wide.",
+   "Vets who shave this cat for surgery find the pattern of its coat repeated on its bare skin.",
+   "About three-quarters of the world's wild population of this cat lives in India.",
+   "This orange-and-black striped predator of Asia's forests is an endangered emblem of the wild."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.howitworksdaily.com/why-can-tigers-swim/",
+   "2": "https://www.nationalgeographic.com/news/2017/03/animals-skin-colors-zebras-big-cats/",
+   "3": "https://www.zee5.com/articles/india-has-75-pc-of-worlds-wild-tiger-population-ministry-of-environment-forest-and-climate-change"
+  },
+  "summary": "Dropped the stripes clue that gave the answer away at clue 1, opened with the swimming fact, and added India's share of wild numbers as a new clue 2. Second pass: Replaced the instant 'largest big cat' clue with the skin-pattern fact, worded without 'stripes' so it is not instant, and placed it before the India clue."
+ },
+ {
+  "id": "vikings",
+  "answer": "Vikings",
+  "category": "History",
+  "before": [
+   "They reached North America around the year 1000, five centuries before Columbus.",
+   "Seafaring raiders from Scandinavia, they terrorized medieval Europe from sleek dragon-prowed longships.",
+   "Contrary to legend, their helmets had no horns; they worshipped gods like Odin and Thor.",
+   "These Norse warriors, led by the likes of Leif Erikson and Ragnar, gave an NFL team in Minnesota its name."
+  ],
+  "after": [
+   "In 845 these raiders sailed 120 ships up the Seine, plundered Paris and left only after the Frankish king paid them 7,000 livres in silver and gold.",
+   "These raiders' attack on the monastery at Lindisfarne in England in 793 is often taken as the start of their age.",
+   "These seafarers felled trees in Newfoundland in 1021, a date fixed by tree rings that puts them in North America 471 years before Columbus.",
+   "These Norse warriors, led by the likes of Leif Erikson and Ragnar, gave an NFL team in Minnesota its name."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Siege_of_Paris_(845)",
+   "2": "https://www.britannica.com/print/article/2094615",
+   "3": "https://www.sciencenews.org/article/vikings-north-america-date-newfoundland"
+  },
+  "summary": "Replaced the instant longship clue with the Lindisfarne raid as clue 1, and made the North America clue specific with the tree-ring date of 1021. Second pass: Replaced the instant horned-helmets-and-Odin clue with the 845 sack of Paris and its ransom, one specific and less famous fact. Hand pass: reordered clues."
+ },
+ {
+  "id": "darth-vader",
+  "answer": "Darth Vader",
+  "category": "Pop Culture",
+  "before": [
+   "His body, his voice and his unmasked face were played by three different actors.",
+   "He breathes through a life-support suit after burns suffered in a lightsaber duel on a volcanic planet.",
+   "Once a Jedi prodigy from Tatooine, he was lured to the dark side by Emperor Palpatine.",
+   "The black-helmeted Sith Lord who tells Luke, 'No, I am your father.'"
+  ],
+  "after": [
+   "This film villain's body, voice and unmasked face were played by three different actors.",
+   "This villain's helmet drew on a Japanese samurai helmet in early concept art and on a German Second World War combat helmet.",
+   "This villain's mechanical breathing was recorded by sound designer Ben Burtt breathing through an old scuba regulator.",
+   "This black-helmeted Sith Lord stuns Luke in The Empire Strikes Back by revealing that he is Luke's father."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://slashfilm.com/1375831/star-wars-unmasking-darth-vader-david-prowse-disappointed-sebastian-shaw-reveal",
+   "2": "https://slashfilm.com/1260457/darth-vader-costuming-dark-historical-inspiration",
+   "3": "https://www.scubadiving.com/dacor-scuba-reg-behind-darth-vaders-breathing",
+   "4": "https://www.britannica.com/topic/Darth-Vader"
+  },
+  "summary": "Replaced the giveaway life-support clue and the plot-summary backstory with the helmet's samurai and wartime origins and the scuba-regulator breathing, and fixed the voice of clues 1 and 4."
+ },
+ {
+  "id": "flamingo",
+  "answer": "Flamingo",
+  "category": "Animals",
+  "before": [
+   "It hatches out gray and turns pink only from the tiny shrimp and algae it eats.",
+   "It will stand on a single stick-thin leg for hours, even asleep, and feeds with its head held upside down.",
+   "These tall wading birds crowd onto salty lakes and lagoons in flocks thousands strong.",
+   "This pink, long-necked bird is just as famous as a plastic lawn ornament."
+  ],
+  "after": [
+   "This bird feeds its chick a bright red 'milk' from its own gullet, and fathers make it as well as mothers.",
+   "This bird crowds onto salty lakes in East Africa in flocks that have topped a million birds at a time.",
+   "This bird's legs seem to bend backward at the knee, but that joint is really its ankle; the true knee sits higher up, hidden in its feathers.",
+   "This pink, long-necked bird is just as famous as a plastic lawn ornament."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://seaworld.org/animals/all-about/flamingos/care-of-young/",
+   "2": "https://nhm.ac.uk/press-office/press-releases/-study-shows-africa-s-iconic-flamingos-threatened-by-rising-lake.html",
+   "3": "https://www.dublinzoo.ie/animal/flamingo/"
+  },
+  "summary": "Opened with the red crop milk both parents make, moved the giveaway 'turns pink' fact to clue 3 alongside upside-down feeding, and made the flock clue specific with the million-bird gatherings. Second pass: Replaced the instant diet-and-color clue with the less obvious fact that the backward-bending joint is the ankle."
+ },
+ {
+  "id": "olivia-rodrigo",
+  "answer": "Olivia Rodrigo",
+  "category": "Music",
+  "before": [
+   "Two members of Paramore were added to one of her songs' credits after listeners noticed how much its chorus owed 'Misery Business'.",
+   "Her debut single, written at seventeen about a driving test and a break-up, spent eight weeks at number one in 2021.",
+   "She came up through a Disney+ High School Musical series before her first album swept her three Grammys, including Best New Artist.",
+   "The pop-punk-leaning singer of 'drivers license' and 'good 4 u', whose albums are Sour and Guts."
+  ],
+  "after": [
+   "Two members of Paramore were added to the songwriting credits of one of this singer's hits after listeners noticed its debt to 'Misery Business'.",
+   "This singer's debut single broke Spotify's record for the most streams in one day by a non-holiday song in January 2021.",
+   "She came up through a Disney+ High School Musical series before her first album swept her three Grammys, including Best New Artist.",
+   "This pop-punk-leaning singer's albums are Sour and Guts, and her hits include 'vampire'."
+  ],
+  "changed": [
+   1,
+   2,
+   4
+  ],
+  "sources": {
+   "1": "https://www.rollingstone.com/music/music-news/olivia-rodrigo-good-4-u-paramore-hayley-williams-writing-credit-1216729/",
+   "2": "https://abc7.com/olivia-rodrigo-drivers-license-joshua-bassett/9691735/",
+   "4": "https://www.universalmusic.ca/?p=114858"
+  },
+  "summary": "Clue 1 now says 'this singer', clue 2 swaps the driving-test giveaway for the Spotify one-day streaming record, and clue 4 is a full sentence that no longer repeats songs from earlier clues."
+ },
+ {
+  "id": "paris",
+  "answer": "Paris",
+  "category": "Cities",
+  "before": [
+   "Beneath its streets wind tunnels stacked with the bones of some six million people, a vast underground ossuary.",
+   "It is said to have just one stop sign in the whole city, and its residents stroll grand boulevards laid out in the 1800s.",
+   "Home to the Louvre and the Notre-Dame cathedral, it is split by a river into a Left Bank and a Right Bank.",
+   "This French capital, nicknamed the 'City of Light,' is famed for cafés, fashion, and a certain iron tower."
+  ],
+  "after": [
+   "Beneath this city's streets wind tunnels stacked with the bones of some six million people, a vast underground ossuary.",
+   "This city's first metro line opened in 1900, and some of its subway entrances still carry Hector Guimard's Art Nouveau ironwork and lettering.",
+   "Between 1853 and 1870, Baron Haussmann cut wide, straight boulevards through this city's crowded medieval streets.",
+   "This French capital, nicknamed the 'City of Light,' is famed for cafés, fashion, and a certain iron tower."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://artsandculture.google.com/entity/m0h5bd",
+   "2": "https://en.wikipedia.org/wiki/Paris_M%C3%A9tro_entrances_by_Hector_Guimard",
+   "3": "https://en.wikipedia.org/wiki/Haussmann%27s_renovation_of_Paris"
+  },
+  "summary": "Clue 1 says 'this city's', the shaky one-stop-sign claim is gone, and the instant Louvre/Notre-Dame clue is replaced by the 1900 metro and Guimard entrances, with Haussmann's boulevards as the easier clue 3."
+ },
+ {
+  "id": "pong",
+  "answer": "Pong",
+  "category": "Games",
+  "before": [
+   "Its first test machine, in a California bar, stopped working because its coin box had overflowed with quarters.",
+   "It was handed to a new engineer as a warm-up exercise, and Atari released it in 1972.",
+   "Two players turn knobs to slide paddles up and down and knock a square ball back and forth.",
+   "Atari's bare-bones arcade version of table tennis, one of the first video game hits."
+  ],
+  "after": [
+   "This game's first test machine, in a California bar, stopped working because its coin box had overflowed with quarters.",
+   "This game was handed to newly hired engineer Allan Alcorn as a secret warm-up exercise, yet Atari released it in 1972.",
+   "Magnavox sued over this game because Atari's Nolan Bushnell had played the Odyssey console's tennis game at a demo months before it came out.",
+   "This bare-bones Atari arcade game, a simple electronic version of table tennis, was one of the first video game hits."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Pong",
+   "2": "https://en.wikipedia.org/wiki/Pong",
+   "3": "https://en.wikipedia.org/wiki/Pong",
+   "4": "https://en.wikipedia.org/wiki/Pong"
+  },
+  "summary": "Clue 1 opens with 'This game's', the paddle-and-ball description is replaced by the Magnavox lawsuit (without the disputed $700,000 figure), and clue 4 is now a full sentence. Second pass: Reworded clue 2 to open with 'This game' and name Allan Alcorn, matching the voice of the other clues."
+ },
+ {
+  "id": "qr-code",
+  "answer": "QR code",
+  "category": "Technology",
+  "before": [
+   "A Japanese engineer invented it in 1994 so a factory could track car parts faster than a striped label allowed.",
+   "Three heavy squares in its corners let a scanner work out the orientation and read it from any angle.",
+   "Denso Wave chose never to enforce its patent, which is why the format spread worldwide for nothing.",
+   "The pandemic put this scannable black-and-white square on every restaurant table in place of a paper menu."
+  ],
+  "after": [
+   "A Japanese engineer introduced this square pattern in 1994 so a car-parts maker could track components faster than a striped label allowed.",
+   "This pattern's inventor got the idea for its black-and-white layout while playing the board game Go over lunch.",
+   "Denso Wave chose never to enforce its patent, which is why the format spread worldwide for nothing.",
+   "The pandemic put this scannable black-and-white square on every restaurant table in place of a paper menu."
+  ],
+  "changed": [
+   1,
+   2
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Masahiro_Hara",
+   "2": "https://en.wikipedia.org/wiki/Masahiro_Hara"
+  },
+  "summary": "Clue 1 now says what kind of thing the answer is, and the giveaway corner-squares clue is replaced by the inventor's Go-board inspiration."
+ },
+ {
+  "id": "sagrada-familia",
+  "answer": "Sagrada Familia",
+  "category": "Landmarks",
+  "before": [
+   "Begun in 1882, it is still unfinished today, funded entirely by donations and ticket sales.",
+   "Its architect died hit by a tram in 1926, with his wildly organic church only a quarter done.",
+   "Antoni Gaudi designed this basilica in Barcelona, its towers dripping like melted wax toward the sky.",
+   "This spindly Roman Catholic church, whose name means 'Holy Family,' is Spain's most visited landmark."
+  ],
+  "after": [
+   "Work on this church began in 1882, and it has never taken government money, relying on private donations and visitors' tickets.",
+   "Its architect died after being hit by a tram in 1926, with his wildly organic church no more than a quarter done.",
+   "The completion of its 172.5-metre central tower in 2026 made this basilica the tallest church in the world.",
+   "This spindly Roman Catholic church, whose name means 'Holy Family,' is Spain's most visited landmark."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
+   "2": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
+   "3": "https://www.euronews.com/culture/2026/06/11/sagrada-familia-opens-new-tower-before-120000-people"
+  },
+  "summary": "Clue 1 now says 'this church', clue 2 is softened to match the 15-25 percent completion figure, and the Gaudí/Barcelona giveaway in clue 3 is replaced by the 2026 central tower that made it the world's tallest church."
+ },
+ {
+  "id": "sza",
+  "answer": "SZA",
+  "category": "Music",
+  "before": [
+   "Her stage name is built the same way RZA's and GZA's are, out of the Supreme Alphabet.",
+   "Signed to Top Dawg Entertainment as its first female artist, she sang the hook on Kendrick Lamar's 'All the Stars'.",
+   "Her 2017 debut Ctrl went five times platinum, and its long-delayed follow-up spent ten weeks at number one from December 2022.",
+   "The New Jersey R&B singer behind 'Kill Bill' and 'Snooze', whose second album is titled SOS."
+  ],
+  "after": [
+   "This singer's stage name is built the same way RZA's and GZA's are, out of the Supreme Alphabet.",
+   "This singer kept reworking her 2017 debut album, Ctrl, until her label took away her hard drive.",
+   "Signed to Top Dawg Entertainment as its first female artist, she sang the hook on Kendrick Lamar's 'All the Stars'.",
+   "This New Jersey R&B singer is behind 'Kill Bill' and 'Snooze', both from her 2022 album SOS."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://americansongwriter.com/behind-the-spiritual-stage-name-sza",
+   "2": "https://en.wikipedia.org/wiki/Ctrl_(SZA_album)",
+   "4": "https://en.wikipedia.org/wiki/SOS_(SZA_album)"
+  },
+  "summary": "Gave clue 1 a 'This singer' opener, replaced the unchecked platinum count with the confirmed hard-drive story and moved it ahead of the better-known 'All the Stars' clue, and rewrote clue 4 as a full sentence."
+ },
+ {
+  "id": "tesla-company",
+  "answer": "Tesla",
+  "category": "Technology",
+  "before": [
+   "Its cars can be summoned to drive themselves out of a parking spot with a phone tap.",
+   "Led by Elon Musk, this company builds sleek electric vehicles and home batteries.",
+   "Its models are cheekily named S, 3, X, and Y to almost spell a rude word.",
+   "Named after an electricity pioneer, this brand's Model 3 is a best-selling electric car."
+  ],
+  "after": [
+   "This company was incorporated in 2003 by Martin Eberhard and Marc Tarpenning, a year before its best-known boss invested and became chairman.",
+   "This company's first car, a roadster, was built on a modified Lotus Elise chassis made in England.",
+   "This company wanted its car lineup to spell a cheeky word, but Ford owned one of the model names, so a number took that letter's place.",
+   "Named after an electricity pioneer, this brand's Model 3 is a best-selling electric car."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/History_of_Tesla,_Inc.",
+   "2": "https://en.wikipedia.org/wiki/Tesla_Roadster_(first_generation)",
+   "3": "https://en.wikipedia.org/wiki/Tesla_Model_3"
+  },
+  "summary": "Replaced the bare-'Its' Summon clue with the 2003 founding fact (worded to avoid the disputed 'did not found it' claim, since a 2009 settlement lets Musk call himself a co-founder) and replaced the Elon Musk giveaway with the Lotus Elise chassis fact. Second pass: Rewrote clue 3 to open with 'This company's', describe the S3XY joke accurately instead of calling it rude, and add the Ford Model E backstory.",
+  "handEdited": [
+   3
+  ]
+ },
+ {
+  "id": "the-nile",
+  "answer": "The Nile",
+  "category": "Geography",
+  "before": [
+   "Unlike most great rivers, it runs from south to north, emptying into the Mediterranean Sea.",
+   "Its yearly floods laid down rich black silt that fed one of the world's earliest civilizations.",
+   "Its two main branches, the White and the Blue, join at Khartoum in Sudan before the water flows on through Egypt.",
+   "Often called the longest river on Earth, this African waterway was the lifeblood of ancient Egypt."
+  ],
+  "after": [
+   "In 1858 the British explorer John Hanning Speke named a lake after Queen Victoria and declared it this river's source.",
+   "Ethiopia's Grand Renaissance Dam, inaugurated in 2025 as Africa's largest hydropower plant, stands on one of this river's two main branches.",
+   "The Aswan High Dam, finished in 1970, ended this river's yearly floods and created Lake Nasser, one of the world's largest man-made lakes.",
+   "Often called the longest river on Earth, this African waterway was the lifeblood of ancient Egypt."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/John_Hanning_Speke",
+   "2": "https://allafrica.com/stories/202509090450.html",
+   "3": "https://en.wikipedia.org/wiki/Lake_Nasser"
+  },
+  "summary": "Dropped the false 'unlike most great rivers' claim for a harder clue about Speke naming its source, and swapped the ancient-civilization clue, which repeated clue 4, for the Aswan High Dam ending its floods. Second pass: Replaced the White-and-Blue branches clue, which gave the answer away, with the Upper and Lower Egypt naming fact.",
+  "handEdited": [
+   2,
+   3
+  ]
+ },
+ {
+  "id": "the-weeknd",
+  "answer": "The Weeknd",
+  "category": "Music",
+  "before": [
+   "He dropped a vowel from a common word so his stage name would not clash with an existing band's trademark.",
+   "He began by posting anonymous, murky R&B mixtapes to YouTube in 2011, refusing interviews for years.",
+   "The Toronto singer's 'Blinding Lights' became the highest-charting song in Billboard Hot 100 history.",
+   "Born Abel Tesfaye, this Toronto R&B star headlined the 2021 Super Bowl halftime show."
+  ],
+  "after": [
+   "This singer first uploaded his songs to YouTube in December 2010 under the username 'xoxxxoooxo', keeping his identity hidden at first.",
+   "This singer dropped the last 'e' from a common word in his stage name to avoid a trademark clash with a Canadian pop rock band.",
+   "In 2021 Billboard named this Toronto singer's 90-week hit the No. 1 song on its Greatest of All Time Hot 100 chart.",
+   "Born Abel Tesfaye, this Toronto R&B star headlined the 2021 Super Bowl halftime show."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/The_Weeknd",
+   "2": "https://en.wikipedia.org/wiki/The_Weeknd",
+   "3": "https://udiscovermusic.com/news/the-weeknd-blinding-lights-billboard-hot-100-best-songs-all-time"
+  },
+  "summary": "Put the harder anonymous-YouTube clue first with the confirmed December 2010 date, moved the dropped-vowel clue to second, and reworded clue 3 to the accurate Billboard all-time ranking without naming the song."
+ },
+ {
+  "id": "trojan-horse",
+  "answer": "Trojan Horse",
+  "category": "Mythology",
+  "before": [
+   "The Odyssey mentions it, but the Iliad ends before it appears.",
+   "A priest who warned against it, Laocoön, was crushed by sea serpents along with his sons.",
+   "Odysseus is credited with the plan: soldiers hid inside it while the rest of the Greek army pretended to sail home.",
+   "The giant wooden gift that ended the siege of Troy, and now the name for malware in disguise."
+  ],
+  "after": [
+   "This trick is mentioned in the Odyssey, but the Iliad ends before it appears.",
+   "A Greek craftsman named Epeius built it, following a plan credited to Odysseus.",
+   "A priest who warned against it, Laocoön, was crushed by sea serpents along with his sons.",
+   "This giant wooden gift ended the siege of Troy, and its name now means malware in disguise."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Trojan_Horse",
+   "2": "https://en.wikipedia.org/wiki/Trojan_Horse",
+   "4": "https://en.wikipedia.org/wiki/Trojan_Horse"
+  },
+  "summary": "Clue 1 now says it is a trick, the plot retelling became the lesser-known Epeius fact and moved ahead of the better-known Laocoön clue, and clue 4 is now a full sentence."
+ },
+ {
+  "id": "venice",
+  "answer": "Venice",
+  "category": "Cities",
+  "before": [
+   "It rests atop millions of wooden posts driven into the mud of a lagoon, and it has no ordinary streets for cars.",
+   "Slowly sinking and prone to floods locals call 'acqua alta,' this Italian city gets around by boat along its waterways.",
+   "Its Grand Canal, gondolas, and St. Mark's Square draw such crowds that the city now charges day-trippers to enter.",
+   "This romantic northern Italian city of canals once commanded a powerful seafaring trading empire."
+  ],
+  "after": [
+   "This city's glassmakers were ordered onto a nearby island in 1291, partly to keep their furnaces' fires away from the city.",
+   "This city's buildings stand on wooden piles driven into lagoon mud, which holds so little oxygen that the wood has lasted for centuries.",
+   "In 2024 this city became the first in the world to charge day-trippers an entry fee on its busiest days.",
+   "This romantic northern Italian city of canals once commanded a powerful seafaring trading empire."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Venetian_glass",
+   "2": "https://engineeringrome.org/in-the-beginning-was-a-marsh-the-history-of-venices-foundation-and-materials/",
+   "3": "https://www.nbcnews.com/news/world/venice-italy-tourist-entrance-fee-world-first-canals-rcna149289"
+  },
+  "summary": "Replaced the boats, gondolas and St. Mark's clues with the 1291 glassmaking order, the wooden piles (dropping the unverifiable 'millions') and the 2024 day-tripper fee, and gave clue 1 a type word."
+ },
+ {
+  "id": "walrus",
+  "answer": "Walrus",
+  "category": "Animals",
+  "before": [
+   "Both of its sexes grow long ivory tusks, which they use to haul their bulk out onto the ice.",
+   "A whiskered face and a blubber-wrapped body up to a ton and a half mark this Arctic giant.",
+   "It sucks up thousands of clams from the seabed using powerful suction from its mouth.",
+   "The Beatles sang 'I am the ___'; this tusked, mustachioed pinniped basks in herds on Arctic ice."
+  ],
+  "after": [
+   "This animal can inflate air pouches in its throat so that it floats upright and can sleep in open water.",
+   "This animal can suck thousands of clams out of their shells in a single feeding session.",
+   "This animal's scientific name means 'tooth-walker,' after its habit of using its tusks to pull itself out of the water.",
+   "Named in the title of a 1967 Beatles song, this mustachioed Arctic giant basks in herds on the ice."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.livescience.com/62041-walrus-hooks-teeth-on-ice.html",
+   "2": "https://seaworld.org/animals/all-about/walrus/diet/",
+   "3": "https://en.wikipedia.org/wiki/Walrus",
+   "4": "https://en.wikipedia.org/wiki/I_Am_the_Walrus"
+  },
+  "summary": "Swapped the look-based clue for the throat pouches it sleeps with, moved the tusks into the 'tooth-walker' name clue, gave every clue a type word, and replaced the fill-in-the-blank Beatles line with a plain sentence that no longer repeats tusks or whiskers."
+ },
+ {
+  "id": "wisdom-teeth",
+  "answer": "Wisdom Teeth",
+  "category": "Human Body",
+  "before": [
+   "Plenty of people never grow any, and how common that is varies widely from one population to another.",
+   "Our jaws have shrunk since our ancestors' tougher diets, so they often have no room to come in.",
+   "They usually push through between the late teens and mid-twenties, at the very back of the mouth.",
+   "The last set of molars to arrive, often pulled out because they come in crooked or stuck — named for the age of good sense."
+  ],
+  "after": [
+   "More than a fifth of people never develop at least one of these molars, and the share varies widely between populations.",
+   "Our jaws have shrunk since our ancestors' tougher diets, so they often have no room to come in.",
+   "By age 25, about half of privately insured Americans have had at least one of these pulled, likely the most common surgery for young US adults.",
+   "These are the last molars to arrive, named for the age of good sense at which they usually show up."
+  ],
+  "changed": [
+   1,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://journals.sagepub.com/doi/10.1177/0022034515581644",
+   "3": "https://frontiersin.org/journals/dental-medicine/articles/10.3389/fdmed.2022.937165/full",
+   "4": "https://en.wikipedia.org/wiki/Wisdom_tooth"
+  },
+  "summary": "Gave clue 1 a type word and a checked figure (22.6% worldwide), replaced the when-and-where clue with how often they are pulled, and rewrote clue 4 as a full sentence without the timing overlap."
+ },
+ {
+  "id": "banksy",
+  "answer": "Banksy",
+  "category": "Art",
+  "before": [
+   "One of this artist's paintings shredded itself moments after selling at auction for over £1 million.",
+   "This artist's real identity has never been officially confirmed.",
+   "The stenciled pieces tend to appear on walls overnight, a habit that began in Bristol, England, in the 1990s.",
+   "The anonymous British street artist behind 'Girl with Balloon.'"
+  ],
+  "after": [
+   "This artist once secretly hung fake works in major museums, including the British Museum and New York's MoMA.",
+   "In New York in 2013, this artist sold signed original canvases for $60 each from a Central Park stall, and the whole day's sales came to just $420.",
+   "This artist began as a freehand graffiti painter in Bristol, England, in the early 1990s, then switched to stencils because they were much quicker.",
+   "This is the anonymous British street artist behind 'Flower Thrower' and the parody theme park Dismaland."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://banksyexplained.com/?p=2773",
+   "2": "https://www.upi.com/Entertainment_News/2013/10/14/Banksy-sells-works-for-60-apiece-in-New-York/UPI-20831381773655/",
+   "3": "https://en.wikipedia.org/wiki/Banksy",
+   "4": "https://en.wikipedia.org/wiki/Dismaland"
+  },
+  "summary": "Replaced the anonymity clue with the 2005 museum hoaxes and put it first as the least known fact, and rewrote clue 4 as a full sentence naming Flower Thrower and Dismaland instead of repeating 'anonymous' and the shredded painting. Second pass: Replaced the instantly recognisable self-shredding painting with the 2013 Central Park $60 stall, and rewrote clue 3 in the 'This artist' voice with a checked fact, since sources say the switch to stencils came around 2000, not in the 1990s."
+ },
+ {
+  "id": "great-barrier-reef",
+  "answer": "Great Barrier Reef",
+  "category": "Nature",
+  "before": [
+   "It is the largest structure on Earth made by living creatures, and is visible from space.",
+   "Built by billions of tiny coral polyps over thousands of years, it turns ghostly white when warming seas make it 'bleach.'",
+   "Running more than 2,300 kilometers off the coast of Queensland, Australia, it shelters clownfish, sea turtles, and reef sharks.",
+   "This is the world's largest coral reef system, lying off Australia's northeastern shore."
+  ],
+  "after": [
+   "Captain Cook's ship Endeavour ran aground on part of this natural wonder in 1770, and the crew threw six cannons overboard to float her free.",
+   "Mass coral spawning, when many corals release their eggs and sperm together a few nights after a late-spring full moon, was first documented by scientists on this natural wonder in the early 1980s.",
+   "This natural wonder is made up of more than 2,900 separate reefs and about 900 islands, strung out over more than 2,300 kilometres.",
+   "This World Heritage-listed coral reef system lies off the coast of Queensland in northeastern Australia."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Endeavour_Reef",
+   "2": "https://researchonline.jcu.edu.au/24203/",
+   "3": "https://en.wikipedia.org/wiki/Great_Barrier_Reef",
+   "4": "https://en.wikipedia.org/wiki/Great_Barrier_Reef"
+  },
+  "summary": "Replaced the instant Queensland clue with Cook's 1770 grounding as the hardest clue, and moved the largest-living-structure fact to clue 3 with a proper subject instead of a bare 'It'. Second pass: Replaced the generic coral-bleaching clue with the reef's own reef, island and length counts, and changed clue 4 to World Heritage status and Queensland so it no longer repeats clue 3's 'largest' fact.",
+  "handEdited": [
+   2,
+   3
+  ]
+ },
+ {
+  "id": "minotaur",
+  "answer": "Minotaur",
+  "category": "Mythology",
+  "before": [
+   "Its mother was a queen, and its father a bull sent by Poseidon.",
+   "Athens had to send seven young men and seven young women to be fed to it.",
+   "It was kept in a labyrinth on Crete built by Daedalus, until Theseus killed it and followed Ariadne's thread back out.",
+   "The half-man, half-bull monster of Greek myth."
+  ],
+  "after": [
+   "This monster's mother was a queen, and its father a bull sent by Poseidon.",
+   "Athens had to send seven young men and seven young women to be fed to it.",
+   "Daedalus, who later escaped Crete on wings of feathers and wax, built the maze that held it.",
+   "This half-man, half-bull monster of Greek myth was slain by the hero Theseus."
+  ],
+  "changed": [
+   1,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.britannica.com/topic/Minotaur",
+   "3": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/daedalus",
+   "4": "https://www.britannica.com/topic/Minotaur"
+  },
+  "summary": "Gave clue 1 a 'This monster' opener, replaced the labyrinth-and-Theseus retelling in clue 3 with Daedalus and his wax wings, and made clue 4 a full sentence."
+ },
+ {
+  "id": "rocky",
+  "answer": "Rocky",
+  "category": "Movies",
+  "before": [
+   "Its star wrote the script in a matter of days and refused to sell it unless he could play the lead.",
+   "It beat 'Taxi Driver' and 'Network' for the Best Picture Oscar.",
+   "Its hero, a small-time Philadelphia boxer, gets a surprise title shot against heavyweight champion Apollo Creed.",
+   "The 1976 Sylvester Stallone film famous for its training run up the steps of the Philadelphia Museum of Art."
+  ],
+  "after": [
+   "This film beat 'Taxi Driver' and 'Network' for the Best Picture Oscar.",
+   "Its star wrote the first draft in three and a half days and refused to sell the script unless he could play the lead.",
+   "Its theme, Bill Conti's 'Gonna Fly Now,' topped the Billboard Hot 100 in July 1977.",
+   "This 1976 Sylvester Stallone film is famous for its training run up the steps of the Philadelphia Museum of Art."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/49th_Academy_Awards",
+   "2": "https://catalog.afi.com/Catalog/moviedetails/53862",
+   "3": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1977",
+   "4": "https://catalog.afi.com/Film/53862-ROCKY"
+  },
+  "summary": "Added a 'This film' opener with the checked three-and-a-half-day draft, replaced the Apollo Creed plot summary with the No. 1 theme song, and made clue 4 a full sentence. Second pass: Swapped clues 1 and 2 so the harder Best Picture fact comes first, rewording each opening to fit its new position."
+ },
+ {
+  "id": "the-alps",
+  "answer": "The Alps",
+  "category": "Geography",
+  "before": [
+   "This mountain range rose — and is still rising — as the African plate grinds slowly into Europe.",
+   "Its glaciers feed great rivers like the Rhine and the Rhône, and its slopes draw millions of skiers each winter.",
+   "Arcing through eight European countries, it boasts the pyramid-shaped Matterhorn and lofty Mont Blanc.",
+   "This is Europe's greatest mountain range, a wall of snowy peaks across the heart of the continent."
+  ],
+  "after": [
+   "This mountain range rose — and is still rising — as the African plate grinds slowly into Europe.",
+   "In 1991 two hikers in this range found Ötzi, a man whose body had lain in the ice for about 5,300 years.",
+   "This range is pierced by the Gotthard Base Tunnel, which opened in 2016 as the world's longest railway tunnel at about 57 kilometers.",
+   "This snowy mountain range across the heart of Europe is home to Mont Blanc and the Matterhorn."
+  ],
+  "changed": [
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "2": "https://en.wikipedia.org/wiki/%C3%96tzi",
+   "3": "https://guinnessworldrecords.com/world-records/longest-rail-tunnel",
+   "4": "https://en.wikipedia.org/wiki/Alps"
+  },
+  "summary": "Moved the Matterhorn and Mont Blanc from clue 3 to clue 4 and gave clue 3 Hannibal's crossing with elephants instead. Second pass: Replaced the instant Hannibal clue with the 1991 discovery of Ötzi, swapped the generic skiing detail for where the Rhine and Rhône end up, and put the river clue third because it points to the range more directly than Ötzi.",
+  "handEdited": [
+   3
+  ]
+ },
+ {
+  "id": "adrenaline",
+  "answer": "Adrenaline",
+  "category": "Human Body",
+  "before": [
+   "In 1901 it became the first hormone ever isolated in pure form.",
+   "A surge of it widens your pupils and airways and sends your heart racing.",
+   "It is pumped out by the glands that sit on top of your kidneys, which give it its name.",
+   "The 'fight or flight' hormone that an EpiPen injects to stop a severe allergic reaction."
+  ],
+  "after": [
+   "In 1901 this hormone became the first ever crystallized in pure form, a feat credited to Japanese chemist Jokichi Takamine.",
+   "Doctors give it every three to five minutes during CPR to try to restart a stopped heart.",
+   "It is pumped out by the glands that sit on top of your kidneys, which give it its name.",
+   "This 'fight or flight' hormone is what an EpiPen injects to stop a severe allergic reaction."
+  ],
+  "changed": [
+   1,
+   2,
+   4
+  ],
+  "sources": {
+   "1": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3046107",
+   "2": "https://www.heartandstroke.ca/-/media/pdf-files/cpr/cpr-guideline-11132019/2019-guidelines-update-infographic-acls-final-en.ashx",
+   "4": "https://dermnetnz.org/topics/the-physiology-and-pharmacology-of-adrenaline"
+  },
+  "summary": "Clue 1 now says what kind of thing it is and matches the source (first crystallization of a hormone, by Takamine), clue 2 swaps a description of its effects for its use in CPR, and clue 4 is a full sentence."
+ },
+ {
+  "id": "mount-fuji",
+  "answer": "Mount Fuji",
+  "category": "Geography",
+  "before": [
+   "Hokusai gave it an entire series of woodblock prints, among them one of a towering, claw-like wave.",
+   "An active volcano that last erupted in 1707, its near-perfect symmetrical cone is a sacred site that draws hundreds of thousands of climbers each summer.",
+   "The highest peak in its country at about 3,776 meters, it can be seen from Tokyo on a clear day.",
+   "This snow-capped volcano is Japan's most famous mountain and a national symbol."
+  ],
+  "after": [
+   "Hokusai gave this peak a whole series of woodblock prints, among them one of a towering, claw-like wave.",
+   "On its northwestern flank lies Aokigahara, a forest nicknamed the Sea of Trees that grows on lava from an eruption in 864.",
+   "An active volcano that last erupted in 1707, its near-perfect symmetrical cone is a sacred site that draws hundreds of thousands of climbers each summer.",
+   "This snow-capped volcano is Japan's most famous mountain and a national symbol."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.artic.edu/artworks/24645/under-the-wave-off-kanagawa-kanagawa-oki-nami-ura-also-known-as-the-great-wave-from-the-series-thirty-six-views-of-mount-fuji-fugaku-sanjurokkei",
+   "2": "https://en.wikipedia.org/wiki/Aokigahara"
+  },
+  "summary": "Gave clue 1 a 'this peak' opener, dropped the instant highest-peak-visible-from-Tokyo clue for the Aokigahara forest, and moved the lesser-known Aokigahara fact ahead of the volcano clue."
+ },
+ {
+  "id": "godzilla",
+  "answer": "Godzilla",
+  "category": "Pop Culture",
+  "before": [
+   "It was conceived as a metaphor for nuclear testing, less than a decade after Hiroshima.",
+   "The 1954 original put a man in a rubber suit into a miniature Tokyo because stop-motion cost too much.",
+   "Toho has put its monster in more than thirty Japanese films, sometimes as the villain and sometimes as a protector.",
+   "The atomic-breathed kaiju whose Japanese name fuses the words for gorilla and whale."
+  ],
+  "after": [
+   "This movie monster's 1954 debut opens with a fishing boat engulfed by a blinding flash, echoing the Lucky Dragon No. 5, whose crew was hit by H-bomb fallout that March.",
+   "In 2024 this monster's film 'Minus One' won the Oscar for Best Visual Effects, the franchise's first nomination in 70 years.",
+   "The 1954 original put a man in a rubber suit into a miniature Tokyo because stop-motion cost too much.",
+   "This atomic-breathed kaiju's Japanese name fuses the words for gorilla and whale."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://birthmoviesdeath.com/2013/07/28/lucky-dragon-5-and-the-terrifying-truth-that-inspired-godzilla.html",
+   "2": "https://www.wsls.com/entertainment/2024/03/11/the-monster-wins-one-at-last-as-godzilla-minus-one-wins-the-oscar-for-visual-effects/",
+   "4": "https://en.wikipedia.org/wiki/Godzilla"
+  },
+  "summary": "Clue 1 now says it is a movie monster instead of a bare 'It' (and matches the source's 'nuclear weapons' wording), and clue 4 is a full sentence. Second pass: Replaced the well-known nuclear-metaphor clue 1 with the Lucky Dragon No. 5 opening scene, replaced the dry film count with the 'Minus One' Oscar, and moved that Oscar ahead of the more recognizable rubber-suit clue."
+ },
+ {
+  "id": "nikola-tesla",
+  "answer": "Nikola Tesla",
+  "category": "History",
+  "before": [
+   "He claimed to build machines entirely in his head, running them for weeks in his imagination before making a single part.",
+   "A rival of Edison, he championed the alternating-current system that lights homes around the world today.",
+   "This Serbian-American inventor dreamed of beaming electricity through the air and died nearly penniless despite his genius.",
+   "A unit of magnetic strength and an electric-car company both carry this eccentric inventor's name."
+  ],
+  "after": [
+   "This inventor said he could design machines entirely in his head and test-run them there before building a single part.",
+   "He fed New York's pigeons at all hours, left his hotel windows open for them, and said of one white bird, 'I loved that pigeon.'",
+   "George Westinghouse bought this inventor's alternating-current motor patents in 1888, arming him for the 'War of the Currents' against Edison.",
+   "A unit of magnetic strength and an electric-car company both carry this eccentric inventor's name."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Visual_reasoning",
+   "2": "https://nautil.us/teslas-pigeon-460446",
+   "3": "https://en.wikipedia.org/wiki/War_of_the_currents"
+  },
+  "summary": "Clue 1 now opens with 'This inventor' instead of a bare 'He'; the other clues are unchanged. Second pass: Replaced the instant Edison/AC clue 2 with his devotion to New York's pigeons and the white pigeon he loved.",
+  "handEdited": [
+   3
+  ]
+ },
+ {
+  "id": "the-twilight-zone",
+  "answer": "The Twilight Zone",
+  "category": "Television",
+  "before": [
+   "Its creator wrote or co-wrote 92 of its 156 original episodes.",
+   "It ran on CBS from 1959 to 1964, each episode a self-contained tale with a twist.",
+   "Its creator, Rod Serling, narrated every story and often appeared on camera with a cigarette in hand.",
+   "The anthology show that ushered viewers into 'a dimension not only of sight and sound but of mind.'"
+  ],
+  "after": [
+   "This TV series' creator turned to fantasy after sponsors kept cutting his serious dramas, saying a Martian could say things a Republican or Democrat couldn't.",
+   "William Shatner starred in one of its best-known episodes, as an airline passenger who spots a gremlin tampering with the engine on the wing.",
+   "Its creator, Rod Serling, narrated every story and often appeared on camera with a cigarette in hand.",
+   "This anthology series opened by telling viewers they were traveling through 'a dimension not only of sight and sound but of mind.'"
+  ],
+  "changed": [
+   1,
+   2,
+   4
+  ],
+  "sources": {
+   "1": "https://wist.info/serling-rod/51957/",
+   "2": "https://en.wikipedia.org/wiki/Nightmare_at_20,000_Feet",
+   "4": "https://en.wikipedia.org/wiki/The_Twilight_Zone_(1959_TV_series)_season_2"
+  },
+  "summary": "Replaced the dry episode count and the dates-and-format clue with the sponsor-censorship origin and the Shatner gremlin episode, and made clue 4 a full sentence."
+ },
+ {
+  "id": "praying-mantis",
+  "answer": "Praying Mantis",
+  "category": "Animals",
+  "before": [
+   "Its female sometimes bites the head off her mate during or after their coupling.",
+   "It can swivel its head almost all the way around and has a single ear on its belly to hear bats.",
+   "Holding its spiny front legs folded as if in prayer, it ambushes insects with lightning speed.",
+   "This slender green predator, named for its devout-looking pose, is a gardener's pest-eating friend."
+  ],
+  "after": [
+   "This insect has a single ear on the underside of its chest, tuned to hear the ultrasonic calls of hunting bats.",
+   "Its female lays her eggs in a froth like shaving foam that soon hardens into a case holding up to several hundred eggs.",
+   "It has been recorded catching small birds in 13 countries, most often hummingbirds at backyard feeders.",
+   "This slender green predator, named for its devout-looking pose, is a gardener's pest-eating friend."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.nationalgeographic.com/animals/article/praying-mantis-hearing-bats-animals",
+   "2": "https://professionalpestmanager.com/other-pests/praying-mantis/",
+   "3": "https://www.livescience.com/59700-praying-mantises-eat-birds.html"
+  },
+  "summary": "Led with the single bat-detecting ear, dropped the overstated head-turn claim, replaced the 'prayer' clue with the bird-hunting study, and moved the well-known cannibalism fact to clue 3. Second pass: Replaced the instant head-biting clue with the foam egg case and moved it ahead of the bird-catching clue, which is the easier of the two."
+ },
+ {
+  "id": "rick-and-morty",
+  "answer": "Rick and Morty",
+  "category": "Television",
+  "before": [
+   "In this show, a portal gun lets an alcoholic genius drag his anxious grandson across dimensions and still be home for dinner.",
+   "It grew out of a crude animated parody of Doc Brown and Marty McFly.",
+   "Dan Harmon co-created it for Adult Swim, where an offhand reference to a discontinued McDonald's dipping sauce caused real-world stampedes.",
+   "Adult Swim's animated series about a nihilist scientist grandfather and his nervous grandson, catchphrase 'wubba lubba dub dub'."
+  ],
+  "after": [
+   "This show grew out of a crude animated parody of Doc Brown and Marty McFly from 'Back to the Future'.",
+   "A throwaway joke in this show about a discontinued McDonald's dipping sauce drew angry crowds, and some police calls, when the chain revived it for one day in 2017.",
+   "'Community' creator Dan Harmon co-created this show, whose episode about its scientist turning himself into a pickle won an Emmy.",
+   "This Adult Swim cartoon follows an alcoholic scientist who drags his anxious grandson across dimensions and shouts 'wubba lubba dub dub'."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Rick_and_Morty",
+   "2": "https://www.fox13news.com/news/mcdonalds-runs-out-of-szechuan-sauce-and-police-are-called-to-handle-angry-crowds",
+   "3": "https://en.wikipedia.org/wiki/Rick_and_Morty",
+   "4": "https://en.wikipedia.org/wiki/Rick_Sanchez"
+  },
+  "summary": "Moved the premise out of clue 1 and led with the Doc and Marty parody, toned 'stampedes' down to crowds and police calls, added the Emmy-winning pickle episode, and made clue 4 a full sentence that holds the premise once."
+ },
+ {
+  "id": "supernova",
+  "answer": "Supernova",
+  "category": "Space",
+  "before": [
+   "Chinese astronomers recorded one in 1054 so bright it was visible in daylight for weeks.",
+   "When a massive star runs out of fuel, its core collapses and it blows apart in this titanic blast.",
+   "For a few days it can outshine an entire galaxy, seeding space with heavy elements like gold and iron.",
+   "This stellar explosion can leave behind a dense neutron star or a black hole."
+  ],
+  "after": [
+   "Chinese astronomers recorded one of these blasts in 1054, bright enough to see in daylight for about three weeks.",
+   "Much of the iron in your blood was made and scattered into space by these blasts, long before Earth formed.",
+   "At its peak, one of these blasts can outshine all the other stars in its galaxy combined.",
+   "This stellar explosion can leave behind a dense neutron star or a black hole."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://seds.org/messier/more/m001_sn.html",
+   "2": "https://chandra.harvard.edu/elements/",
+   "3": "https://science.nasa.gov/image-article/apod-2026-may-7-supernova-in-a-sideways-spiral/"
+  },
+  "summary": "Gave clue 1 a type word, replaced the how-it-works clue 2 with the iron-in-your-blood fact, and dropped clue 3's shaky gold claim and 'a few days' for NASA's outshine-the-galaxy line."
+ },
+ {
+  "id": "the-dark-knight",
+  "answer": "The Dark Knight",
+  "category": "Movies",
+  "before": [
+   "In this movie, an actor won a posthumous Academy Award for playing a scarred anarchist in clown makeup.",
+   "Its omission from the Best Picture shortlist is widely credited with pushing the Academy to expand that category from five nominees to ten.",
+   "Christopher Nolan shot much of it on IMAX cameras in Chicago, standing in for Gotham City.",
+   "The middle film of Nolan's caped-crusader trilogy, in which Batman faces Heath Ledger's Joker."
+  ],
+  "after": [
+   "This film's absence from the Best Picture nominees is widely credited with pushing the Academy to expand that category beyond five films.",
+   "Christopher Nolan shot about 28 minutes of this film with IMAX cameras, a first for a major feature, with Chicago standing in for Gotham City.",
+   "In 2008 this film became only the second ever to pass $500 million at the North American box office, after Titanic.",
+   "In this middle film of Christopher Nolan's Batman trilogy, Heath Ledger won a posthumous Oscar for playing the Joker."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://variety.com/2018/film/in-contention/dark-knight-changed-movies-christopher-nolan-1202874041",
+   "2": "https://catalog.afi.com/Film/55498-THE-DARK-KNIGHT",
+   "3": "https://cp24.com/dark-knight-swings-past-500m-mark-2nd-movie-to-hit-that-mark-1.320533",
+   "4": "https://en.wikipedia.org/wiki/The_Dark_Knight"
+  },
+  "summary": "Moved the famous Ledger Oscar from clue 1 to clue 3, opened with the Best Picture snub, made the IMAX clue specific (28 minutes, a first) and rewrote clue 4 as a full sentence about Two-Face so it no longer repeats the Joker. Second pass: Swapped the Two-Face and Heath Ledger facts so the instant Ledger Oscar is the clue 4 giveaway.",
+  "handEdited": [
+   3
+  ]
+ },
+ {
+  "id": "tour-de-france",
+  "answer": "Tour de France",
+  "category": "Sports",
+  "before": [
+   "It was dreamed up in 1903 by a sports newspaper looking to sell more copies.",
+   "Its leader wears a yellow jersey, a nod to the color of that newspaper's pages.",
+   "It lasts three weeks and covers more than 2,000 miles, traditionally finishing on the Champs-Élysées.",
+   "The most famous bicycle race in the world, a July loop around France."
+  ],
+  "after": [
+   "This sporting event was dreamed up in 1903 by a sports newspaper looking to sell more copies.",
+   "In 1913 one rider broke his fork on a mountain descent, walked about 10 km to a village forge and fixed it himself, as this race's rules then required.",
+   "This race often climbs Alpe d'Huez, whose 21 numbered hairpin bends carry signs naming the riders who won stages finishing at the top.",
+   "This bicycle race, held over about three weeks each July, puts its overall leader in the yellow jersey."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/1903_Tour_de_France",
+   "2": "https://www.welovecycling.com/wide/2020/09/10/eugene-christophe-broken-fork-at-the-1913-tour/",
+   "3": "https://procyclinguk.com/the-21-hairpins-of-alpe-dhuez-every-bend-and-tour-de-france-winner-explained/",
+   "4": "https://en.wikipedia.org/wiki/Tour_de_France"
+  },
+  "summary": "Added a type word to clue 1, replaced the yellow-jersey and Champs-Élysées giveaways in clues 2 and 3 with the 1913 broken-fork story and Armstrong's stripped titles, and rewrote clue 4 as a sentence without 'France'. Second pass: Replaced the instant Lance Armstrong clue with the named hairpin bends of Alpe d'Huez."
+ },
+ {
+  "id": "zeus",
+  "answer": "Zeus",
+  "category": "Mythology",
+  "before": [
+   "He swallowed his first wife whole, and later his daughter of wisdom sprang fully armored from his skull.",
+   "King of a family of gods dwelling on a cloud-wrapped mountain, he wields the thunderbolt as his weapon.",
+   "In Greek myth he overthrew his father Cronus and drew the sky as his realm, with brothers ruling sea and underworld.",
+   "Chief of the gods atop Mount Olympus, this sky-father hurls lightning and matches the Roman god Jupiter."
+  ],
+  "after": [
+   "This god swallowed his first wife whole, and later his daughter of wisdom sprang fully armored from his skull.",
+   "He took the form of a swan, a bull and even a shower of gold to pursue mortal women.",
+   "In Greek myth he overthrew his father Cronus and drew the sky as his realm, with brothers ruling sea and underworld.",
+   "Chief of the gods atop Mount Olympus, this sky-father hurls lightning and matches the Roman god Jupiter."
+  ],
+  "changed": [
+   1,
+   2
+  ],
+  "sources": {
+   "1": "https://www.theoi.com/Titan/TitanisMetis.html",
+   "2": "https://theoi.com/Olympios/ZeusLoves3.html"
+  },
+  "summary": "Gave clue 1 a type word and replaced the instant king-of-the-gods clue 2, which repeated clue 4, with his swan, bull and shower-of-gold disguises."
+ },
+ {
+  "id": "alexander-the-great",
+  "answer": "Alexander the Great",
+  "category": "History",
+  "before": [
+   "Tutored as a boy by the philosopher Aristotle, he grew up to build a vast empire and never lost a battle.",
+   "By the age of 30 he ruled from Greece to the edge of India, founding cities named after himself along the way.",
+   "This Macedonian king spread Greek culture across the ancient world before dying, mysteriously, at just 32.",
+   "Legend says this undefeated conqueror wept because there were no more worlds left for him to conquer."
+  ],
+  "after": [
+   "This ruler's funeral cart was hijacked on its way to Macedonia by his general Ptolemy, who took the body to Egypt, where Augustus later came to see it.",
+   "After this ruler defeated King Porus in India, his exhausted army refused to march past the Hyphasis River and forced him to turn back.",
+   "This ruler named a city after his horse Bucephalus, which he had tamed as a boy when no one else could.",
+   "Legend says this undefeated conqueror wept because there were no more worlds left for him to conquer."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.historyhit.com/alexander-corpse/",
+   "2": "https://historyskills.com/classroom/ancient-history/hyphasis-mutiny",
+   "3": "https://en.wikipedia.org/wiki/Bucephalus"
+  },
+  "summary": "Opened with the Bucephalus city fact and a type word, merged the Aristotle tutoring into clue 2, and dropped the self-named cities and 'never lost a battle', which gave it away and repeated clue 4. Second pass: Replaced the generic Macedonian-king summary with the specific story of Ptolemy hijacking his body, which is the least known fact, so it moves to clue 1 and the Bucephalus and Aristotle clues shift down unchanged.",
+  "handEdited": [
+   3
+  ]
+ },
+ {
+  "id": "big-ben",
+  "answer": "Big Ben",
+  "category": "Landmarks",
+  "before": [
+   "Strictly, this name belongs to the giant bell inside, not the tower everyone points at.",
+   "Its clock keeps famously precise time, fine-tuned by adding or removing old penny coins on the pendulum.",
+   "Rising over the Houses of Parliament in London, its chimes are broadcast across Britain to mark the hour.",
+   "This iconic clock tower beside the River Thames is one of London's most recognizable sights."
+  ],
+  "after": [
+   "This landmark's clock is fine-tuned by stacking old penny coins on its pendulum; each one makes it gain about 0.4 seconds a day.",
+   "Its great bell cracked about two months after it first rang in July 1859, and for three years it was taken out of commission.",
+   "Its tower was renamed the Elizabeth Tower in 2012 to mark the Diamond Jubilee of Queen Elizabeth II.",
+   "This iconic clock tower beside the River Thames is one of London's most recognizable sights."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.parliament.uk/business/news/news-by-year/2015/august/great-clock-adjustments/",
+   "2": "https://en.wikipedia.org/wiki/Big_Ben",
+   "3": "https://en.wikipedia.org/wiki/Big_Ben"
+  },
+  "summary": "Moved the penny-pendulum fact to clue 1, added the 1859 cracked-bell fact as clue 2, moved the well-known bell-not-tower fact to clue 3, and dropped the instant Houses of Parliament clue. Second pass: Changed clue 2 to the source's wording that the bell was 'taken out of commission' for three years, and replaced the bell-not-tower giveaway with the 2012 Elizabeth Tower renaming."
+ },
+ {
+  "id": "doge",
+  "answer": "Doge",
+  "category": "Internet",
+  "before": [
+   "A joke cryptocurrency named after it was worth tens of billions of dollars at its 2021 peak.",
+   "Its star was Kabosu, a Japanese kindergarten teacher's dog, photographed giving a sideways glance in 2010.",
+   "Its multicolored Comic Sans captions read like 'such wow' and 'very amaze.'",
+   "The 2013 meme of a side-eyeing Shiba Inu, whose name is a deliberate misspelling of 'dog.'"
+  ],
+  "after": [
+   "This meme's star, Kabosu, was a Japanese kindergarten teacher's dog, photographed giving a sideways glance in 2010.",
+   "The original photo behind this meme sold as an NFT for about $4 million in 2021.",
+   "Fans around the world donated to build a bronze statue of this meme's star in her home city of Sakura, Japan.",
+   "This 2013 meme of a side-eyeing Shiba Inu takes its name from a deliberate misspelling of 'dog.'"
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.wect.com/2024/05/24/shiba-inu-kabosu-face-doge-meme-dogecoin-has-died/",
+   "2": "https://www.nbcnews.com/pop-culture/pop-culture-news/iconic-doge-meme-nft-breaks-records-selling-roughly-4-million-n1270161",
+   "3": "https://foundation.dogecoin.com/blog/2022-12-06-bronzethedoge-success/",
+   "4": "https://en.wikipedia.org/wiki/Doge_(meme)"
+  },
+  "summary": "Put the lesser-known Kabosu fact first, replaced the instant 'such wow' captions with the $4 million NFT sale, moved the cryptocurrency to clue 3 with a checked peak value, and made clue 4 a full sentence. Second pass: Replaced the cryptocurrency clue, which named the answer in all but spelling, with the fan-funded bronze statue in Kabosu's home city."
+ },
+ {
+  "id": "iceland",
+  "answer": "Iceland",
+  "category": "Geography",
+  "before": [
+   "It straddles two tectonic plates that are slowly drifting apart, so the country grows a little wider each year.",
+   "Almost all of its heat and power come from underground steam and waterfalls, and it has essentially no mosquitoes.",
+   "Nicknamed the 'land of fire and ice' for its glaciers and volcanoes, it hosts the world's oldest still-running parliament.",
+   "This sparsely populated North Atlantic island nation, whose capital is Reykjavík, is a prime spot to catch the Northern Lights."
+  ],
+  "after": [
+   "This country straddles the boundary between two tectonic plates that pull apart there by about an inch every year.",
+   "Its parliament, first held in the open air in the year 930, claims to be the longest-running in the world.",
+   "About nine in ten of this country's homes are heated with hot water piped up from underground.",
+   "This sparsely populated North Atlantic island nation, whose capital is Reykjavík, is a prime spot to catch the Northern Lights."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://guidetoiceland.is/best-of-iceland/tectonic-plates-in-iceland",
+   "2": "https://en.wikipedia.org/wiki/Althing",
+   "3": "https://en.wikipedia.org/wiki/Geothermal_power_in_Iceland"
+  },
+  "summary": "Opened clue 1 with 'This country' and a checked drift rate instead of the unproven 'grows wider', replaced the two-fact clue with one geothermal-heating fact, and removed 'land of fire and ice', which contained the answer's name."
+ },
+ {
+  "id": "international-space-station",
+  "answer": "International Space Station",
+  "category": "Space",
+  "before": [
+   "Circling the planet every 90 minutes, its crew watches about 16 sunrises and sunsets every day.",
+   "Assembled piece by piece in orbit since 1998, it is the most expensive single object ever built.",
+   "Astronauts from many nations live and work aboard this football-field-sized outpost floating about 400 km up.",
+   "This crewed research laboratory orbiting Earth is humanity's largest structure beyond the planet."
+  ],
+  "after": [
+   "In 2001 the businessman Dennis Tito paid a reported $20 million for a trip to this orbiting outpost, the first tourist to fund his own way into space.",
+   "Assembled piece by piece in orbit since 1998, it is the most expensive single object ever built.",
+   "Its crew circles the Earth about every 90 minutes, so they see some 16 sunrises and sunsets every day.",
+   "This crewed research laboratory orbiting Earth is humanity's largest structure beyond the planet."
+  ],
+  "changed": [
+   1,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Dennis_Tito",
+   "3": "https://www.nasa.gov/image-article/sunrise-with-solar-array/"
+  },
+  "summary": "Opened with the harder Dennis Tito fact, moved the 16 sunrises to clue 3, and dropped the instant 'astronauts from many nations' clue."
+ },
+ {
+  "id": "phoenix",
+  "answer": "Phoenix",
+  "category": "Mythology",
+  "before": [
+   "Only one of these exists at a time, and each lives for about 500 years.",
+   "At the end of its life it builds a nest of cinnamon and myrrh; in later tellings, the nest bursts into flame.",
+   "In Harry Potter, Dumbledore keeps one named Fawkes, whose tears can heal wounds.",
+   "The fiery bird of legend that is reborn from its own ashes."
+  ],
+  "after": [
+   "Only one of these legendary birds was said to exist at any time, and no ancient source gave it a life shorter than 500 years.",
+   "Ancient writers said each new one carries its parent's remains, sealed in an egg of myrrh, to the sun god's altar at Heliopolis in Egypt.",
+   "San Francisco's flag shows one, a city emblem since at least 1852 that recalls the city's recovery from the great fires of the 1850s.",
+   "This fiery bird of legend is reborn from its own ashes."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.britannica.com/print/article/457189",
+   "2": "https://www.britannica.com/print/article/457189",
+   "3": "https://en.wikipedia.org/wiki/Flag_of_San_Francisco",
+   "4": "https://www.britannica.com/print/article/457189"
+  },
+  "summary": "Said what kind of thing it is in clue 1, replaced the flaming-nest clue that repeated clue 4 with the myrrh-egg journey to Heliopolis, and made clue 4 a full sentence. Second pass: Replaced the Fawkes giveaway with San Francisco's flag, which needs a moment's thought about fire and recovery before it points to the answer."
+ },
+ {
+  "id": "saffron",
+  "answer": "Saffron",
+  "category": "Food & Drink",
+  "before": [
+   "By weight it has long been the world's most expensive spice.",
+   "Each flower gives just three threads of it, so a single pound takes tens of thousands of blossoms.",
+   "Iran grows most of the world's supply, and it turns paella and risotto alla milanese golden.",
+   "The costly crimson threads hand-picked from the stigmas of a crocus flower."
+  ],
+  "after": [
+   "This spice comes from a sterile plant that sets no seed, so it spreads only when people dig up, divide and replant its bulb-like corms.",
+   "Each flower gives just three threads of it, so a single pound takes tens of thousands of blossoms.",
+   "Iran grows most of the world's supply, and it turns paella and risotto alla milanese golden.",
+   "This spice, long the world's most expensive, is made of crimson threads hand-picked from the stigmas of a crocus flower."
+  ],
+  "changed": [
+   1,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Saffron",
+   "4": "https://www.britannica.com/topic/saffron"
+  },
+  "summary": "Replaced the instant 'most expensive spice' opener with the sterile, hand-replanted corms fact, and moved the price fact into clue 4, now written as a full sentence."
+ },
+ {
+  "id": "sydney-opera-house",
+  "answer": "Sydney Opera House",
+  "category": "Landmarks",
+  "before": [
+   "Its architect quit the project in a bitter feud and never once saw the finished building in person.",
+   "Paid for largely by a public lottery, it ran about 13 times over budget and took 14 years to complete.",
+   "Its roof of gleaming white shells, often likened to billowing sails, rises beside a famous harbor in Australia.",
+   "This sail-roofed performing-arts centre on Sydney Harbour is Australia's most recognizable building."
+  ],
+  "after": [
+   "This building's architect quit in 1966 after a bitter feud with the state government and never returned to see it finished.",
+   "Paid for largely by a public lottery, it ran about 13 times over budget and took 14 years to complete.",
+   "Its roof is clad in more than a million tiles made in Sweden, and Queen Elizabeth II opened it in 1973.",
+   "This sail-roofed performing-arts centre near the Harbour Bridge is one of the world's most famous buildings."
+  ],
+  "changed": [
+   1,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Sydney_Opera_House",
+   "3": "https://en.wikipedia.org/wiki/Sydney_Opera_House",
+   "4": "https://en.wikipedia.org/wiki/Sydney_Opera_House"
+  },
+  "summary": "Clue 1 now says what kind of thing the answer is, clue 3 swaps the instant sail roof for the Swedish tiles and the 1973 royal opening, and clue 4 drops the word 'Sydney'."
+ },
+ {
+  "id": "the-white-house",
+  "answer": "The White House",
+  "category": "Landmarks",
+  "before": [
+   "Every U.S. president except the very first one has lived in it.",
+   "British troops set it ablaze in 1814, leaving a charred shell that had to be rebuilt from the inside out.",
+   "With 132 rooms, a bowling alley, and a movie theater, it stands at 1600 Pennsylvania Avenue.",
+   "This is the official home and workplace of the President of the United States, in Washington, D.C."
+  ],
+  "after": [
+   "This building's Irish-born architect, James Hoban, won a 1792 design contest with a plan modeled on a Dublin mansion that is now home to Ireland's parliament.",
+   "British troops set it ablaze in 1814, leaving a charred shell that had to be rebuilt from the inside out.",
+   "It has 132 rooms, a bowling alley and a movie theater, and painting the outside of its main residence takes about 570 gallons.",
+   "This is the official home and workplace of the President of the United States, in Washington, D.C."
+  ],
+  "changed": [
+   1,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/White_House",
+   "3": "https://whitehousehistory.org/press-room-old/white-house-dimensions"
+  },
+  "summary": "Replaced the instant 'every president but the first' opener with the Adamses' laundry in the unfinished East Room, and swapped the famous address in clue 3 for the 570 gallons of exterior paint. Second pass: Replaced the John and Abigail Adams giveaway with Hoban's 1792 winning design and its Dublin model, avoiding the name Leinster House because it contains the answer's word 'House'."
+ },
+ {
+  "id": "abraham-lincoln",
+  "answer": "Abraham Lincoln",
+  "category": "History",
+  "before": [
+   "On the very day he was shot, he had signed the law creating the Secret Service — an agency first meant to chase counterfeiters, not guard presidents.",
+   "A skilled wrestler in his youth and, at 6 foot 4, the tallest ever to hold his office, he had almost no formal schooling.",
+   "He steered his nation through a civil war and issued the proclamation that began freeing enslaved people.",
+   "This bearded 16th U.S. president, honored on the penny and the five-dollar bill, was assassinated in 1865."
+  ],
+  "after": [
+   "This future president is the only one ever to hold a U.S. patent, granted in 1849 for a device to lift boats over shallow water.",
+   "A skilled wrestler in his youth and, at 6 foot 4, the tallest ever to hold his office, he had almost no formal schooling.",
+   "The first Republican elected president, he was born in a one-room log cabin in Kentucky.",
+   "This bearded 16th U.S. president, honored on the penny and the five-dollar bill, was assassinated in 1865."
+  ],
+  "changed": [
+   1,
+   3
+  ],
+  "sources": {
+   "1": "https://www.smithsonianmag.com/history/abraham-lincoln-only-president-have-patent-131184751/",
+   "3": "https://en.wikipedia.org/wiki/Abraham_Lincoln"
+  },
+  "summary": "Dropped the poorly supported Secret Service story for his 1849 boat-lifting patent, and replaced the instant Civil War clue with his being the first Republican president, born in a Kentucky log cabin."
+ },
+ {
+  "id": "athena",
+  "answer": "Athena",
+  "category": "Mythology",
+  "before": [
+   "She was born fully grown and in armor, springing from her father's head.",
+   "Her sacred bird was the owl, emblem of the wisdom she ruled over.",
+   "She beat Poseidon in a contest for a city by offering it an olive tree.",
+   "The Greek goddess of wisdom and war, honored by the Parthenon in the city named for her."
+  ],
+  "after": [
+   "This goddess beat Poseidon in a contest to become a city's patron by creating the first olive tree.",
+   "Her sacred bird, the owl, still appears on Greece's one-euro coin.",
+   "She sprang fully grown and in armor from her father's head.",
+   "She was the Greek goddess of wisdom and war, honored by the Parthenon in the city that shares her name."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Athena",
+   "2": "https://mymodernmet.com/greece-euro-coins/",
+   "3": "https://www.ebsco.com/research-starters/religion-and-philosophy/birth-athena-and-war-giants",
+   "4": "https://en.wikipedia.org/wiki/Athena"
+  },
+  "summary": "Swapped the olive-tree contest and birth clues so the harder one leads, removed 'wisdom' from clue 2 in favor of the owl on the Greek euro coin, and made clue 4 a full sentence that avoids the disputed claim that the city was named for her."
+ },
+ {
+  "id": "kermit-the-frog",
+  "answer": "Kermit the Frog",
+  "category": "Pop Culture",
+  "before": [
+   "His first body was cut from his creator's mother's old spring coat, with halves of a ping-pong ball for eyes.",
+   "He sang 'Rainbow Connection' in a 1979 film, sitting on a log in a swamp with a banjo.",
+   "He hosts 'The Muppet Show' and has a famously on-off romance with Miss Piggy.",
+   "Jim Henson's green felt frog, who sings that it's not easy being green."
+  ],
+  "after": [
+   "This puppet's first body was cut from his creator's mother's old spring coat, with halves of a ping-pong ball for eyes.",
+   "He first appeared in 1955 on 'Sam and Friends,' a short late-night puppet show on a Washington, D.C., TV station.",
+   "He once filled in for Johnny Carson as guest host of 'The Tonight Show,' and in 2002 he got his own star on the Hollywood Walk of Fame.",
+   "This green puppet, often called Jim Henson's alter ego, sings that it's not easy being green."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Kermit_the_Frog",
+   "2": "https://en.wikipedia.org/wiki/Sam_and_Friends",
+   "3": "https://en.wikipedia.org/wiki/Kermit_the_Frog",
+   "4": "https://en.wikipedia.org/wiki/Kermit_the_Frog"
+  },
+  "summary": "Opened clue 1 with 'This puppet', replaced the instant Muppet Show and Miss Piggy clue with his 1979 Tonight Show guest spot and 2002 Walk of Fame star (placed second as the less familiar fact), and rewrote clue 4 as a full sentence without 'frog'. Second pass: Replaced the instant 'Rainbow Connection' clue with his 1955 debut on a late-night Washington, D.C., show, placed second because it is harder than the Tonight Show clue, which moves to third."
+ },
+ {
+  "id": "lungs",
+  "answer": "Lungs",
+  "category": "Human Body",
+  "before": [
+   "Drop healthy ones into water and, unlike most organs, they float.",
+   "Their branching tubes end in hundreds of millions of tiny air sacs called alveoli.",
+   "The right one has three lobes and the left only two, which leaves a notch for the heart.",
+   "The spongy pair of organs in your chest that draw in oxygen with every breath and push out carbon dioxide."
+  ],
+  "after": [
+   "Unlike most of the body's organs, a healthy one of these floats when dropped into water.",
+   "Spread out flat, the hundreds of millions of tiny sacs inside these organs would cover roughly half a tennis court.",
+   "The right one has three lobes and the left only two, which leaves a notch for the heart.",
+   "These spongy organs in your chest draw in oxygen with every breath and push out carbon dioxide."
+  ],
+  "changed": [
+   1,
+   2,
+   4
+  ],
+  "sources": {
+   "1": "https://www.respiratorytherapyzone.com/facts-about-the-lungs/",
+   "2": "https://www.scientificamerican.com/article/breathe-deep/",
+   "4": "https://my.clevelandclinic.org/health/body/8960-lungs"
+  },
+  "summary": "Rewrote clues 1 and 4 as full sentences that say what kind of thing the answer is, and replaced the 'air sacs' and 'alveoli' giveaway in clue 2 with the half-a-tennis-court surface area."
+ },
+ {
+  "id": "mount-everest",
+  "answer": "Mount Everest",
+  "category": "Geography",
+  "before": [
+   "Its summit is not actually the spot on Earth's surface farthest from the planet's center — a peak in Ecuador wins that on a technicality.",
+   "It creeps a few millimeters higher each year as two plates grind together, and its top sits in the 'death zone,' where the air is too thin to survive for long.",
+   "Sitting on the border of Nepal and Tibet, it was first conquered in 1953 by Edmund Hillary and Tenzing Norgay.",
+   "At about 8,849 meters, this Himalayan giant is the highest mountain on Earth above sea level."
+  ],
+  "after": [
+   "This peak's summit is not the point on Earth's surface farthest from the planet's center; a peak in Ecuador wins that because Earth bulges at the equator.",
+   "Limestone near this peak's summit holds fossils of trilobites and other sea creatures, because the rock formed on an ancient ocean floor.",
+   "It creeps a few millimeters higher each year as two plates grind together, and its top sits in the 'death zone,' where the air is too thin to survive for long.",
+   "At about 8,849 meters, this Himalayan giant is the highest mountain on Earth above sea level."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://oceanservice.noaa.gov/facts/highestpoint.html",
+   "2": "https://www.aap.com.au/nothing-fishy-about-ancient-marine-fossils-on-everest/"
+  },
+  "summary": "Opened clue 1 with 'This peak's' and explained the equatorial bulge, replaced the instant Hillary and Tenzing clue with the marine fossils in the summit limestone, and moved the better-known death zone clue to third."
+ },
+ {
+  "id": "mumbai",
+  "answer": "Mumbai",
+  "category": "Cities",
+  "before": [
+   "Its army of 'dabbawalas' delivers 200,000 home-cooked lunches daily with almost no errors.",
+   "India's most populous city and financial capital, it crowds onto a cluster of reclaimed islands.",
+   "Its film industry, nicknamed for a Hollywood echo, is the busiest movie factory on Earth.",
+   "This Indian megacity on the Arabian Sea, hub of the Bollywood film world, is home to the Gateway of India arch."
+  ],
+  "after": [
+   "This city's 'dabbawalas' deliver about 200,000 home-cooked lunches a day to office workers, with almost no mix-ups.",
+   "This city's grand Victorian Gothic railway terminus, named for Queen Victoria until 1996, became a UNESCO World Heritage Site in 2004.",
+   "This city began as seven separate islands, which land reclamation had fully joined into one by 1845.",
+   "This Indian megacity on the Arabian Sea, hub of the Bollywood film world, is home to the Gateway of India arch."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://globalist.yale.edu/politics-and-economy/164/",
+   "2": "https://en.wikipedia.org/wiki/Chhatrapati_Shivaji_Terminus",
+   "3": "https://en.wikipedia.org/wiki/Mumbai"
+  },
+  "summary": "Opened clue 1 with 'This city's', replaced the Bollywood clue that repeated clue 4 with the UNESCO-listed railway terminus, and moved the easier 'most populous city and financial capital' clue to third. Second pass: Dropped the disputed 'most populous city' ranking from clue 3 and replaced it with the seven islands that reclamation joined by 1845.",
+  "handEdited": [
+   3
+  ]
+ },
+ {
+  "id": "odin",
+  "answer": "Odin",
+  "category": "Mythology",
+  "before": [
+   "He gave up one of his eyes for a drink from a well of wisdom.",
+   "Two ravens, Thought and Memory, fly over the world each day and report back to him.",
+   "He rides an eight-legged horse, Sleipnir, and is the father of Thor.",
+   "The one-eyed All-Father of the Norse gods, whose name hides, lightly disguised, in Wednesday."
+  ],
+  "after": [
+   "Every day, this god sends out two ravens, whose names mean Thought and Memory, to fly over the world and bring back news.",
+   "He gave up one of his eyes in exchange for a drink from a well of wisdom.",
+   "He rides an eight-legged horse named Sleipnir, which was born to the trickster god Loki.",
+   "This All-Father of the Norse gods is remembered, under an Old English form of his name, in the word Wednesday."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Huginn_and_Muninn",
+   "2": "https://norse-mythology.org/tales/why-odin-is-one-eyed/",
+   "3": "https://en.wikipedia.org/wiki/Sleipnir",
+   "4": "https://en.wikipedia.org/wiki/Odin"
+  },
+  "summary": "Swapped the ravens and eye clues so the less familiar one comes first, replaced the instant 'father of Thor' with Sleipnir's birth to Loki, and rewrote clue 4 as a full sentence that no longer repeats the missing eye."
+ },
+ {
+  "id": "peter-pan",
+  "answer": "Peter Pan",
+  "category": "Literature",
+  "before": [
+   "His author gave the rights to him to a London children's hospital, which still collects royalties.",
+   "He first appeared in a 1902 novel for adults, then took the stage in 1904.",
+   "He loses his shadow in the Darling family's nursery and teaches Wendy and her brothers to fly.",
+   "J. M. Barrie's boy who never grows up, leader of the Lost Boys in Neverland."
+  ],
+  "after": [
+   "This character first appeared in a 1902 novel for adults, two years before he took the stage in London.",
+   "His author gave the rights to him to a London children's hospital in 1929, and the hospital still collects the royalties.",
+   "On stage he has traditionally been played by a woman, from Nina Boucicault in 1904 to Mary Martin and Cathy Rigby on Broadway.",
+   "He is J. M. Barrie's boy who never grows up and leads the Lost Boys in Neverland."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Peter_Pan_(character)",
+   "2": "https://gosh.org/about-us/peter-pan/history",
+   "3": "https://www.autostraddle.com/15-ladies-who-played-peter-pan-from-nina-boucicault-to-alison-williams-253416/",
+   "4": "https://en.wikipedia.org/wiki/Peter_Pan_(character)"
+  },
+  "summary": "Swapped the 1902 debut and hospital-gift clues so the harder one comes first, replaced the Wendy plot summary with the tradition of women playing the role, and made clue 4 a full sentence."
+ },
+ {
+  "id": "shawshank-redemption",
+  "answer": "The Shawshank Redemption",
+  "category": "Movies",
+  "before": [
+   "It flopped in cinemas, then became the highest-rated film on IMDb largely because a cable channel ran it on a loop.",
+   "Stephen King never cashed the five-thousand-dollar cheque for the rights, and years later posted it back to the director, framed.",
+   "Tim Robbins and Morgan Freeman play inmates whose friendship spans decades, held together by Freeman's narration and 'get busy living, or get busy dying'.",
+   "Andy Dufresne crawls through a sewage pipe to freedom in this 1994 prison drama taken from a King novella."
+  ],
+  "after": [
+   "Stephen King never cashed the $5,000 cheque for this film's rights, and years later posted it back to the director, framed.",
+   "This film flopped in cinemas, then rose to the top of IMDb's user rankings after a cable channel began showing it almost daily.",
+   "The novella this film adapts is titled after both its prison and a Hollywood star whose pin-up poster hides the hero's escape tunnel.",
+   "Andy Dufresne crawls through a sewage pipe to freedom in this 1994 prison drama taken from a King novella."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://shortlist.com/news/stephen-king-never-cashed-his-5000-shawshank-cheque",
+   "2": "https://www.slashfilm.com/569271/shawshank-redemption-imdb/",
+   "3": "https://en.wikipedia.org/wiki/Rita_Hayworth_and_Shawshank_Redemption"
+  },
+  "summary": "Moved the King cheque story to clue 1 and the flop-to-IMDb story to clue 2, and replaced the plot summary with its famous quote by a clue about the novella's title and the poster."
+ },
+ {
+  "id": "statue-of-liberty",
+  "answer": "Statue of Liberty",
+  "category": "Landmarks",
+  "before": [
+   "A gift between two nations, its copper skin was a shiny reddish brown before weather turned it the green we know.",
+   "Its internal framework was engineered with help from Gustave Eiffel, and it crossed the Atlantic packed in 350 pieces.",
+   "Rising from an island in New York Harbor, she lifts a torch in one hand and cradles a tablet marked with a date in Roman numerals.",
+   "This robed figure, France's gift to America, greeted generations of immigrants sailing into New York."
+  ],
+  "after": [
+   "This monument's sculptor reportedly told a French senator in 1876 that his own mother had been the model for its face.",
+   "Its copper skin was a penny-bright reddish brown when new; once it turned green, a 1906 plan to paint it was dropped after protests.",
+   "Its internal framework was engineered with help from Gustave Eiffel, and it crossed the Atlantic packed in 350 pieces.",
+   "This robed figure, France's gift to America, greeted generations of immigrants sailing into New York."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.biography.com/history-culture/a69179569/who-is-the-statue-of-liberty-real-model",
+   "2": "https://www.history.com/articles/statue-of-liberty-green-color-change"
+  },
+  "summary": "Replaced the instant torch-in-the-harbor clue with the sculptor's-mother story as a new clue 1, and rewrote the copper clue without the 'gift between two nations' repeat, adding the dropped 1906 repainting plan. Second pass: Added 'reportedly' to clue 1 so the 1876 senator anecdote (reported by NPS librarian Barry Moreno) stays a claim the sculptor made, not a stated fact."
+ },
+ {
+  "id": "yellowstone",
+  "answer": "Yellowstone",
+  "category": "Geography",
+  "before": [
+   "It sits atop a giant 'supervolcano' whose ancient eruptions rank among the largest the Earth has known.",
+   "It holds about half the world's geysers, including a famously punctual one that erupts roughly every 90 minutes.",
+   "Set up in 1872 as the world's first national park, it teems with bison, bears, and reintroduced wolves.",
+   "This vast park, mostly in Wyoming, is renowned for Old Faithful and its steaming, rainbow-rimmed hot springs."
+  ],
+  "after": [
+   "This park is the only place in the U.S. where bison have lived continuously since prehistoric times.",
+   "Gray wolves were brought back to this park in 1995, almost 70 years after the last of its native wolves were killed off.",
+   "This park's last giant volcanic eruption, about 640,000 years ago, left a crater roughly 30 by 45 miles across.",
+   "This vast park, mostly in Wyoming, is renowned for Old Faithful and its steaming, rainbow-rimmed hot springs."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.nps.gov/yell/learn/nature/bison.htm",
+   "2": "https://en.wikipedia.org/wiki/History_of_wolves_in_Yellowstone",
+   "3": "https://en.wikipedia.org/wiki/Yellowstone_Caldera"
+  },
+  "summary": "Opened clue 1 with 'This park', dropped the punctual-geyser clue that gave away Old Faithful, and split the old first-national-park clue into a wolf-return clue and a founding clue so each covers one fact. Second pass: Replaced the too-easy supervolcano opener with the NPS fact that it is the only U.S. place bison have lived continuously since prehistoric times.",
+  "handEdited": [
+   2,
+   3
+  ]
+ },
+ {
+  "id": "antarctica",
+  "answer": "Antarctica",
+  "category": "Geography",
+  "before": [
+   "Technically the largest desert on the planet, it gets almost no precipitation despite being smothered in ice.",
+   "No nation owns it, and it has no permanent residents — only rotating crews of scientists.",
+   "It locks up about 70% of the world's fresh water as ice, and the coldest temperature ever recorded on Earth was measured here.",
+   "Home to emperor penguins and the South Pole, it is the southernmost continent."
+  ],
+  "after": [
+   "This continent has no native land mammals, and its largest animal that lives only on land is a wingless midge a few millimeters long.",
+   "Its ice sheet is nearly 5 kilometers thick at its deepest and holds well over half of the world's fresh water.",
+   "Under a 1959 treaty no nation may stake a new claim to it, and it has no permanent residents — only rotating crews of scientists.",
+   "Home to emperor penguins and the South Pole, it is the southernmost continent."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.discoverwildlife.com/wildlife/insects-invertebrates/antarctica-insects",
+   "2": "https://en.wikipedia.org/wiki/Antarctic_ice_sheet",
+   "3": "https://en.wikipedia.org/wiki/Antarctic_Treaty_System"
+  },
+  "summary": "Opened clue 1 with 'This continent' and dropped 'smothered in ice', and replaced the instant coldest-temperature record with the ice sheet's thickness, using 'well over half' because sources give 61% to 70% for the fresh-water share. Second pass: Swapped clues 2 and 3 so the harder ice-sheet fact comes first, and tied the ownership clue to the 1959 treaty's ban on new claims instead of the looser 'no nation owns it'.",
+  "handEdited": [
+   1
+  ]
+ },
+ {
+  "id": "avocado",
+  "answer": "Avocado",
+  "category": "Food & Drink",
+  "before": [
+   "Its name comes from an Aztec word for a body part, for the way the fruit dangles in pairs.",
+   "Botanically a giant berry with a single big pit, it is rare among fruits for being rich in fat.",
+   "Its creamy green flesh is mashed with lime and onion to make guacamole.",
+   "Millennials are teased for spending on this pear-shaped green fruit smeared on toast."
+  ],
+  "after": [
+   "This fruit doesn't start to ripen until it is picked, so growers can 'store' mature ones on the tree until the market is right.",
+   "This fruit's name comes from an Aztec word that a 1571 dictionary also gave as slang for testicle.",
+   "Botanically a giant berry with a single big pit, it is rare among fruits for being rich in fat.",
+   "Millennials are teased for spending on this pear-shaped green fruit smeared on toast."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.freshplaza.com/north-america/article/9814986/fourth-year-of-california-avocado-volume-above-300-million-lbs-anticipated/",
+   "2": "https://www.vice.com/en/article/psa-the-word-avocado-once-meant-ballsack"
+  },
+  "summary": "Replaced the instant guacamole clue with the ripens-only-after-picking fact as the new clue 1, reworded the name clue to open with 'This fruit's' and to match what the 1571 Molina dictionary actually records, and moved it to clue 2."
+ },
+ {
+  "id": "dubai",
+  "answer": "Dubai",
+  "category": "Cities",
+  "before": [
+   "You can ski on real snow inside a shopping mall here while it bakes at 40°C in the desert outside.",
+   "Its police patrol in Lamborghinis and Bugattis, and it built palm-shaped islands out into the sea.",
+   "Rising from Persian Gulf sands, it is crowned by the Burj Khalifa, the tallest building in the world.",
+   "This glittering city of skyscrapers is the largest in the United Arab Emirates."
+  ],
+  "after": [
+   "This city's airport is the world's busiest for international passengers, handling about 95 million of them in 2025.",
+   "This city's police force has patrolled in supercars, including a Lamborghini and a Bugatti Veyron.",
+   "In this city you can ski on real snow inside a shopping mall while it bakes at 40°C in the desert outside.",
+   "This glittering city of skyscrapers is the largest in the United Arab Emirates."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://moodiedavittreport.com/dubai-maintains-ranking-as-busiest-international-airport-in-2025/",
+   "2": "https://en.wikipedia.org/wiki/Dubai_Police_Force",
+   "3": "https://www.foxnews.com/world/dubai-too-hot-for-you-stay-overnight-on-its-snowy-slopes"
+  },
+  "summary": "Dropped the Burj Khalifa clue, which settled the question at once, added the busiest-international-airport fact as a harder clue 1, and reworded the ski-mall clue to say 'this city'. Second pass: Replaced the supercar-police and palm-island clue, which gave the answer away early, with a checked fact about the creek-side Gold Souk; dropped the judge's pearl-diving half because the pearl trade collapsed in the 1920s-30s, decades before oil, and the fact fits several Gulf cities.",
+  "handEdited": [
+   3
+  ]
+ },
+ {
+  "id": "funny-bone",
+  "answer": "Funny Bone",
+  "category": "Human Body",
+  "before": [
+   "Its name may be a pun on the humerus.",
+   "Knocking it sends a jolt of pins and needles down into the ring and little fingers.",
+   "Despite its name, it is not a bone at all but the ulnar nerve, lying just under the skin where it crosses the elbow.",
+   "The spot on the elbow that, when bumped, feels anything but amusing."
+  ],
+  "after": [
+   "Leaning on this body part for long periods can bring on a condition doctors call cubital tunnel syndrome.",
+   "Despite its name, it is really the ulnar nerve, lying just under the skin where it crosses the elbow.",
+   "This body part's name may be a pun on the humerus, the upper-arm bone it lies beside.",
+   "This is the spot on the elbow that, when bumped, feels anything but amusing."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://www.orthoinfo.org/en/diseases--conditions/ulnar-nerve-entrapment-at-the-elbow/",
+   "2": "https://askdruniverse.wsu.edu/2018/10/10/funny-bones-hurt-much-hit-spot-elbows/",
+   "3": "https://en.wikipedia.org/wiki/Funny_bone",
+   "4": "https://askdruniverse.wsu.edu/2018/10/10/funny-bones-hurt-much-hit-spot-elbows/"
+  },
+  "summary": "Clue 1 now says it is a body part, clue 3 no longer uses 'bone' from the answer's name, and clue 4 is a full sentence. Second pass: Replaced the humerus-pun clue, which solved the question at once, with a harder checked fact about leaning on it causing cubital tunnel syndrome; the other three clues are unchanged.",
+  "handEdited": [
+   3
+  ]
+ },
+ {
+  "id": "goosebumps",
+  "answer": "Goosebumps",
+  "category": "Human Body",
+  "before": [
+   "It is a leftover reflex from our furrier ancestors, and it does little for us now.",
+   "Tiny muscles at the base of each hair cause it, and a moving piece of music can set it off.",
+   "It is the same reaction that fluffs up a frightened cat's fur or raises a porcupine's quills.",
+   "The little bumps that rise on your skin when you're cold, also the title of R. L. Stine's horror books for kids."
+  ],
+  "after": [
+   "This body reaction is a leftover reflex from our furrier ancestors, and it does little for us now.",
+   "Tiny muscles at the base of each hair cause it, and a moving piece of music can set it off.",
+   "The French call it 'chair de poule,' or chicken's flesh, likening it to the skin of poultry.",
+   "This skin reaction to cold shares its name with R. L. Stine's horror books for kids."
+  ],
+  "changed": [
+   1,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://livescience.com/32349-what-causes-goose-bumps.html",
+   "3": "https://www.thelocal.fr/20240321/french-expression-of-the-day-chair-de-poule",
+   "4": "https://britannica.com/topic/Goosebumps-book-series-by-Stine"
+  },
+  "summary": "Clue 1 now names the kind of thing, clue 3 swaps the repeated fur-raising reflex for the French name, and clue 4 drops 'bumps' and is a full sentence."
+ },
+ {
+  "id": "hawaii",
+  "answer": "Hawaii",
+  "category": "Geography",
+  "before": [
+   "Its largest island is still growing, as active volcanoes keep pouring out lava that hardens into new land.",
+   "The most remote major island chain on Earth, it lies more than 2,000 miles from the nearest continent.",
+   "The only U.S. state made entirely of islands — and the only one that grows coffee and was once its own kingdom.",
+   "This tropical Pacific state, birthplace of surfing and the greeting 'aloha,' was the 50th to join the U.S."
+  ],
+  "after": [
+   "This island chain's largest island grew by about 875 acres in 2018, when lava from an erupting volcano poured into the sea.",
+   "The most remote major island chain on Earth, it lies more than 2,000 miles from the nearest continent.",
+   "This is the only U.S. state with a royal palace, where its last queen was held prisoner after the monarchy fell.",
+   "This tropical Pacific state, birthplace of surfing and the greeting 'aloha,' was the 50th to join the U.S."
+  ],
+  "changed": [
+   1,
+   3
+  ],
+  "sources": {
+   "1": "https://www.usgs.gov/media/images/map-kilauea-volcanos-lower-east-rift-zone",
+   "3": "https://www.islands.com/1957507/only-royal-castle-america-downtown-honolulu-hawaii-iolani-palace/"
+  },
+  "summary": "Clue 1 now says it is an island chain and gives a checked figure for the land added in 2018, and clue 3 replaces the instant all-islands fact and the outdated coffee claim with the royal palace."
+ }
+]
