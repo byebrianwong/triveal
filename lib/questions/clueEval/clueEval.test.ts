@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { normalizeAnswer } from "@/lib/game/answerMatch";
+import { containsAnswerName, normalizeAnswer } from "@/lib/game/answerMatch";
 import type { Question } from "@/lib/game/types";
 import { EXTRA_QUESTIONS } from "../extraBank";
 import { SEED_QUESTIONS } from "../seed";
@@ -218,7 +218,7 @@ describe("graded cases", () => {
       const q = byId.get(c.id)!;
       const banned = [q.answerCanonical, ...q.answerAliases].map(normalizeAnswer);
       for (const text of Object.values(c.replaceClues ?? {})) {
-        for (const word of banned) expect(normalizeAnswer(text)).not.toContain(word);
+        for (const word of banned) expect(containsAnswerName(normalizeAnswer(text), word), word).toBe(false);
       }
     }
   });
