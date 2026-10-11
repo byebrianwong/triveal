@@ -8500,8 +8500,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This writer is often credited with inventing the detective story, with the sleuth C. Auguste Dupin in 1841." },
-      { position: 2, text: "An NFL team takes its name from his best-known piece of verse." },
-      { position: 3, text: "He died at 40 after being found delirious at a Baltimore tavern, wearing clothes that were not his own." },
+      { position: 2, text: "He died at 40 after being found delirious at a Baltimore tavern, wearing clothes that were not his own." },
+      { position: 3, text: "An NFL team takes its name from his most famous poem." },
       { position: 4, text: "He was the American master of the macabre who wrote 'The Tell-Tale Heart' and 'The Fall of the House of Usher.'" },
     ],
     decoys: [

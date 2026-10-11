@@ -54,6 +54,19 @@ export function normalizeAnswer(raw: string): string {
   return expandAbbreviations(cleaned);
 }
 
+/**
+ * The bank's no-leak rule: does a clue contain an answer's name? Both
+ * arguments must already be normalized. A name longer than 4 characters
+ * counts anywhere, even inside a longer word, so "screaming" leaks "scream".
+ * A shorter name counts only as a whole word, or with a plural "s"/"es", so
+ * "poem" doesn't leak "Poe", but "Poe's" (normalized "poe s") and "dunes" do.
+ */
+export function containsAnswerName(textNorm: string, nameNorm: string): boolean {
+  if (!nameNorm) return false;
+  if (nameNorm.length > 4) return textNorm.includes(nameNorm);
+  return new RegExp(`(^| )${nameNorm}(e?s)?( |$)`).test(textNorm);
+}
+
 /** Classic dynamic-programming Levenshtein distance. */
 export function levenshtein(a: string, b: string): number {
   if (a === b) return 0;

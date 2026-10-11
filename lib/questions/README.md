@@ -133,9 +133,12 @@ fails a test named after its id. The checks:
 
 Three ways the leak rule surprises people:
 
-1. **It matches substrings, not words.** `liver` is leaked by "delivered"
-   and "sliver"; `skin` by "skinny"; `dune` by "dunes"; `scream` by
-   "screaming". Search your clue text for the bare canonical string.
+1. **For names longer than 4 characters, it matches substrings, not
+   words.** `liver` is leaked by "delivered" and "sliver", and `scream` by
+   "screaming". Search your clue text for the bare canonical string. A name
+   of 4 characters or fewer counts only as a whole word or a plural:
+   "poem" is fine for `poe` and "skinny" for `skin`, but "Poe's" and "dunes"
+   are leaks. The check is `containsAnswerName` in `lib/game/answerMatch.ts`.
 2. **`normalizeAnswer` strips leading articles.** "The Bear" canonicalizes
    to `bear`, "The Scream" to `scream`, "The Great Gatsby" to
    `great gatsby` — so the banned word is often shorter and far more common

@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { CLUE_POINTS, clueValue, scoreForSolve } from "./scoring";
-import { fuzzyTolerance, levenshtein, matchGuess, normalizeAnswer } from "./answerMatch";
+import { containsAnswerName, fuzzyTolerance, levenshtein, matchGuess, normalizeAnswer } from "./answerMatch";
 import { giveUp, initialRoundState, revealNextClue, submitGuess } from "./roundState";
 import { dailyQuestionIndex, hashString, localDateString } from "./daily";
 import { applyResult, initialStats } from "./stats";
@@ -52,6 +52,23 @@ describe("normalizeAnswer", () => {
     expect(normalizeAnswer("Wall St")).toBe("wall st"); // Street, not Saint
     expect(normalizeAnswer("St")).toBe("st");
     expect(normalizeAnswer("Fortnite")).toBe("fortnite");
+  });
+});
+
+describe("containsAnswerName (the leak rule)", () => {
+  const leaks = (clue: string, name: string) => containsAnswerName(normalizeAnswer(clue), normalizeAnswer(name));
+
+  it("matches a long name anywhere, even inside a longer word", () => {
+    expect(leaks("Everyone was screaming.", "The Scream")).toBe(true);
+    expect(leaks("It was delivered by hand.", "Liver")).toBe(true);
+  });
+
+  it("matches a short name only as a whole word or plural", () => {
+    expect(leaks("His best-known poem names a bird.", "Poe")).toBe(false);
+    expect(leaks("Poe's best-known poem names a bird.", "Poe")).toBe(true);
+    expect(leaks("Wind piles sand into dunes.", "Dune")).toBe(true);
+    expect(leaks("A very skinny cat.", "Skin")).toBe(false);
+    expect(leaks("Skin is the largest organ.", "Skin")).toBe(true);
   });
 });
 
@@ -233,7 +250,7 @@ describe("question bank integrity (spec §2.2 machine checks)", () => {
     for (const clue of q.clues) {
       const clueNorm = normalizeAnswer(clue.text);
       for (const term of leakTerms) {
-        expect(clueNorm.includes(term), `${q.id} clue ${clue.position} leaks "${term}"`).toBe(false);
+        expect(containsAnswerName(clueNorm, term), `${q.id} clue ${clue.position} leaks "${term}"`).toBe(false);
       }
     }
     // Decoys must be rejected by the matcher.

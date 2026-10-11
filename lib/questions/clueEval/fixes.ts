@@ -4,7 +4,7 @@
  * Used by pipeline/fix-clues.ts.
  */
 
-import { normalizeAnswer } from "@/lib/game/answerMatch";
+import { containsAnswerName, normalizeAnswer } from "@/lib/game/answerMatch";
 import type { Question } from "@/lib/game/types";
 
 /** What a rewriter returns for one question. */
@@ -25,8 +25,9 @@ export function changedPositions(q: Question, clues: string[]): number[] {
 
 /**
  * Problems that make a rewrite unusable. The leak check is the same one the
- * test suite runs: no clue may contain the answer or an alias, even inside a
- * longer word, after normalizing.
+ * test suite runs: no clue may contain the answer or an alias, after
+ * normalizing (see `containsAnswerName` for when a name inside a longer word
+ * counts).
  */
 export function rewriteProblems(q: Question, r: unknown): string[] {
   if (typeof r !== "object" || r === null) return ["not an object"];
@@ -43,7 +44,7 @@ export function rewriteProblems(q: Question, r: unknown): string[] {
     }
     if (text.length > MAX_CLUE_LENGTH) problems.push(`clue ${i + 1} is ${text.length} characters`);
     const norm = normalizeAnswer(text);
-    for (const name of banned) if (norm.includes(name)) problems.push(`clue ${i + 1} contains "${name}"`);
+    for (const name of banned) if (containsAnswerName(norm, name)) problems.push(`clue ${i + 1} contains "${name}"`);
   });
   if (new Set(clues).size !== clues.length) problems.push("two clues are identical");
   if (typeof summary !== "string") problems.push("no summary");
