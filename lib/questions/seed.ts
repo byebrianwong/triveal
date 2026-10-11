@@ -23,22 +23,10 @@ export const SEED_QUESTIONS: Question[] = [
     category: "Space",
     difficulty: "easy",
     clues: [
-      {
-        position: 1,
-        text: "Here a day outlasts a year, and the Sun rises in the west.",
-      },
-      {
-        position: 2,
-        text: "Even though it is not the closest planet to the Sun, its dense carbon-dioxide atmosphere traps so much heat that its surface can melt lead.",
-      },
-      {
-        position: 3,
-        text: "Roughly Earth's twin in size, it is the brightest natural object in our night sky after the Moon.",
-      },
-      {
-        position: 4,
-        text: "Named for the Roman goddess of love, it is the second planet from the Sun.",
-      },
+      { position: 1, text: "On this planet a day lasts longer than a year, and the Sun rises in the west." },
+      { position: 2, text: "Even though it is not the closest planet to the Sun, its dense carbon-dioxide atmosphere traps so much heat that its surface can melt lead." },
+      { position: 3, text: "Roughly Earth's twin in size, it is the brightest natural object in our night sky after the Moon." },
+      { position: 4, text: "Named for the Roman goddess of love, it is the second planet from the Sun." },
     ],
     decoys: [
       { text: "Mercury", eliminatedByClue: 2 },
@@ -53,22 +41,10 @@ export const SEED_QUESTIONS: Question[] = [
     category: "History",
     difficulty: "medium",
     clues: [
-      {
-        position: 1,
-        text: "She ruled Egypt but was Greek, and never spoke her subjects' language — until she chose to.",
-      },
-      {
-        position: 2,
-        text: "She lived closer in time to the first Moon landing than to the building of the Great Pyramid of Giza.",
-      },
-      {
-        position: 3,
-        text: "Her relationships with two powerful Romans, Julius Caesar and Mark Antony, helped decide the fate of the Roman Republic.",
-      },
-      {
-        position: 4,
-        text: "The last active ruler of the Ptolemaic Kingdom, she is said by legend to have died from the bite of an asp.",
-      },
+      { position: 1, text: "This ruler of Macedonian Greek descent seldom needed an interpreter with foreign peoples, Plutarch wrote, and was the first of her dynasty known to learn Egyptian." },
+      { position: 2, text: "She lived closer in time to the first Moon landing than to the building of the Great Pyramid of Giza." },
+      { position: 3, text: "In keeping with family custom, she shared her throne with two of her younger brothers in turn, and was wed to at least one of them." },
+      { position: 4, text: "The last active ruler of the Ptolemaic Kingdom, she is said by legend to have died from the bite of an asp." },
     ],
     decoys: [
       { text: "Nefertiti", eliminatedByClue: 1 },
@@ -83,22 +59,10 @@ export const SEED_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "medium",
     clues: [
-      {
-        position: 1,
-        text: "Three hearts, blue copper-based blood, and most of its mind spread out through its arms.",
-      },
-      {
-        position: 2,
-        text: "It can change color and texture in an instant and squeeze its entire body through any gap larger than its only hard part, its beak.",
-      },
-      {
-        position: 3,
-        text: "Some species can detach an arm to escape a predator and grow it back, and most of their neurons live in the arms rather than a central brain.",
-      },
-      {
-        position: 4,
-        text: "This eight-armed cephalopod is a famously clever ocean animal, a close relative of the squid and cuttlefish.",
-      },
+      { position: 1, text: "A deep-sea female of this animal was watched guarding her eggs for 53 months off California, the longest brooding known for any animal." },
+      { position: 2, text: "About two-thirds of this animal's neurons sit in its arms rather than its brain, so each arm can react on its own." },
+      { position: 3, text: "This animal can taste with the suckers on its arms, which carry receptors that sense chemicals on whatever they touch." },
+      { position: 4, text: "This eight-armed cephalopod is a famously clever ocean animal, a close relative of the squid and cuttlefish." },
     ],
     decoys: [
       { text: "Squid", eliminatedByClue: 4 },
@@ -114,22 +78,10 @@ export const SEED_QUESTIONS: Question[] = [
     category: "Cities",
     difficulty: "easy",
     clues: [
-      {
-        position: 1,
-        text: "The first U.S. president was sworn in here — back when it was the nation's capital.",
-      },
-      {
-        position: 2,
-        text: "It is the most populous city in its country, yet it is not even the capital of its own state. That title belongs to Albany.",
-      },
-      {
-        position: 3,
-        text: "Its five boroughs include Brooklyn, Queens, and the Bronx, and its harbor processed millions of arriving immigrants at Ellis Island.",
-      },
-      {
-        position: 4,
-        text: "Home to the Statue of Liberty, Times Square, and Central Park, it is nicknamed \"the Big Apple.\"",
-      },
+      { position: 1, text: "This city was the nation's capital when George Washington was sworn in here as the first U.S. president in 1789." },
+      { position: 2, text: "It is the most populous city in its country, yet it is not even the capital of its own state." },
+      { position: 3, text: "A 1626 Dutch letter reports that settlers bought the island at its heart from Native people for goods worth 60 guilders." },
+      { position: 4, text: "Home to the Statue of Liberty, Times Square, and Central Park, it is nicknamed \"the Big Apple.\"" },
     ],
     decoys: [
       { text: "Philadelphia", eliminatedByClue: 2 },
