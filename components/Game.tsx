@@ -12,6 +12,7 @@ import {
 import { clueValue, currentNetValue } from "@/lib/game/scoring";
 import { ClueRecap } from "./ClueRecap";
 import { ClueStack } from "./ClueStack";
+import { SiteLinks } from "./chrome";
 import { EnterHint, focusForTyping } from "./keyboard";
 import { Medallion } from "./Medallion";
 import { StarHost, type StarExpression } from "./StarHost";
@@ -240,6 +241,7 @@ export function Game({ puzzle, config }: { puzzle: PuzzleDto; config: GameConfig
                     />
                   </div>
                 </div>
+                <SiteLinks className="mt-8 flex items-center justify-center gap-4 lg:hidden" />
               </div>
             ) : (
               <div className="flex flex-1 items-center justify-center text-sm text-lav lg:text-base">

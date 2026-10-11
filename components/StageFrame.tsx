@@ -1,3 +1,5 @@
+import { SiteLinks } from "./chrome";
+
 /**
  * Small stars scattered over the open background on desktop. Positions are in
  * percent of the window so they spread out on any screen size. Phones don't
@@ -38,6 +40,8 @@ export function StageFrame({ children }: { children: React.ReactNode }) {
       <div className="relative mx-auto flex min-h-0 w-full max-w-md flex-1 flex-col lg:max-w-none">
         {children}
       </div>
+      {/* Desktop only. Phones show these at the end of the result screens. */}
+      <SiteLinks className="relative hidden flex-none items-center justify-between px-9 pb-4 lg:flex" />
     </div>
   );
 }

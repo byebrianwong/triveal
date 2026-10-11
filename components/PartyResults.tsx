@@ -1,7 +1,7 @@
 "use client";
 
 import type { PartyStateDto } from "@/app/party-actions";
-import { ScrollScreen } from "./chrome";
+import { ScrollScreen, SiteLinks } from "./chrome";
 
 /** Final standings after the last round. */
 export function PartyResults({
@@ -49,6 +49,8 @@ export function PartyResults({
       >
         Back to daily
       </button>
+
+      <SiteLinks className="flex items-center justify-center gap-4 lg:hidden" />
     </ScrollScreen>
   );
 }

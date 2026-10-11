@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
-import { ScoreChip, StreakChip } from "./chrome";
+import { ScoreChip, SiteLinks, StreakChip } from "./chrome";
 
 /** The gold chip in the top-right corner: streak on the daily, score in practice. */
 const meta = {
@@ -21,4 +21,9 @@ export const StreakAndScore: Story = {
       <ScoreChip score={34} />
     </div>
   ),
+};
+
+/** Links to Brian's App Arcade and his GitHub, as shown under a result. */
+export const LinksToBrian: Story = {
+  render: () => <SiteLinks className="flex items-center justify-center gap-4" />,
 };
