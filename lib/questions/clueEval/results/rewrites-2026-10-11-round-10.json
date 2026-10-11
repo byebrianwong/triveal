@@ -1,0 +1,1313 @@
+[
+ {
+  "id": "prometheus",
+  "answer": "Prometheus",
+  "category": "Mythology",
+  "before": [
+   "This mythical figure's name is usually read as 'forethought,' and his brother's as 'afterthought.'",
+   "Mary Shelley's 'Frankenstein' carries his name in its subtitle, casting Victor as a modern version of him.",
+   "As punishment, Zeus chained him to a rock where an eagle ate his liver every day, only for it to grow back each night.",
+   "This Titan stole fire from the gods and gave it to humankind."
+  ],
+  "after": [
+   "This mythical figure's name is usually read as 'forethought,' and his brother's as 'afterthought.'",
+   "Paul Manship's gilded 1934 statue of this figure stands beside the ice rink at Rockefeller Center in New York.",
+   "Mary Shelley's 'Frankenstein' carries his name in its subtitle, casting Victor as a modern version of him.",
+   "This Titan stole fire from the gods and gave it to humankind."
+  ],
+  "changed": [
+   2,
+   3
+  ],
+  "sources": {
+   "2": "https://nbc.com/nbc-insider/what-is-the-statue-at-rockefeller-center",
+   "3": "moved from clue 2"
+  },
+  "summary": "Replaced the famous liver-and-eagle clue with the Rockefeller Center statue and placed it before the better-known Frankenstein subtitle clue."
+ },
+ {
+  "id": "stranger-things",
+  "answer": "Stranger Things",
+  "category": "Television",
+  "before": [
+   "This show's working title was 'Montauk,' after the Long Island town where it was first meant to be set.",
+   "This show sent Kate Bush's 1985 song 'Running Up That Hill' to No. 1 in the UK in 2022.",
+   "This show's telekinetic heroine, raised in a secret lab, is named after the number tattooed on her arm.",
+   "This Netflix hit revived the career of Winona Ryder and unleashed a demon called the Demogorgon."
+  ],
+  "after": [
+   "This show's working title was 'Montauk,' after the Long Island town where it was first meant to be set.",
+   "This show's title lettering is set in Benguiat, a typeface chosen for its link to early-'80s Stephen King paperbacks.",
+   "This show sent Kate Bush's 1985 song 'Running Up That Hill' to No. 1 in the UK in 2022.",
+   "This Netflix hit revived the career of Winona Ryder and unleashed a demon called the Demogorgon."
+  ],
+  "changed": [
+   2,
+   3
+  ],
+  "sources": {
+   "2": "https://www.artofthetitle.com/title/stranger-things/",
+   "3": "moved from clue 2"
+  },
+  "summary": "Replaced the well-known Eleven clue with the Stephen King-inspired title typeface and moved it ahead of the easier Kate Bush clue."
+ },
+ {
+  "id": "rome",
+  "answer": "Rome",
+  "category": "Cities",
+  "before": [
+   "This city completely surrounds another country — the smallest in the world — inside its own city limits.",
+   "Visitors toss about 3,000 euros a day into one of its fountains, and the money goes to a charity that feeds people in need.",
+   "Legend says twin brothers raised by a wolf founded it, and it was built across seven hills.",
+   "Nicknamed the 'Eternal City,' this Italian capital straddles the Tiber River."
+  ],
+  "after": [
+   "For centuries, people in this city have stuck anonymous satirical verses on a battered ancient statue called Pasquino, which gave English the word 'pasquinade.'",
+   "This city's visitors toss about 3,000 euros a day into one of its fountains, and the money goes to a charity that feeds people in need.",
+   "A domed temple in this city, built about 1,900 years ago, still has the world's largest unreinforced concrete dome.",
+   "Nicknamed the 'Eternal City,' this Italian capital straddles the Tiber River."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Pasquino",
+   "2": "https://euronews.com/travel/2024/03/29/tourists-throw-over-1-million-into-italys-trevi-fountain-each-year-heres-what-happens-to-i",
+   "3": "https://monolithicdome.com/pantheon"
+  },
+  "summary": "Replaced the Romulus-and-Remus founding legend with the cat sanctuary at the site of Caesar's assassination. Swapped clues 1 and 2 so the lesser-known fountain fact opens (reworded to start with 'This city'), and replaced the Caesar cat-sanctuary clue with the Pantheon's record concrete dome.",
+  "handEdited": [
+   1,
+   3
+  ]
+ },
+ {
+  "id": "bob-dylan",
+  "answer": "Bob Dylan",
+  "category": "Music",
+  "before": [
+   "This musician released 'All Along the Watchtower' in December 1967, months before Jimi Hendrix turned it into a rock classic.",
+   "In 1997 he played 'Knockin' on Heaven's Door' for Pope John Paul II at a Catholic youth gathering in Bologna, Italy.",
+   "At the 1965 Newport Folk Festival, he drew boos from some folk fans when he played a loud set backed by an electric band.",
+   "Harmonica around his neck, this American troubadour also recorded 'Like a Rolling Stone.'"
+  ],
+  "after": [
+   "This musician released 'All Along the Watchtower' in December 1967, months before Jimi Hendrix turned it into a rock classic.",
+   "In 1997 he played 'Knockin' on Heaven's Door' for Pope John Paul II at a Catholic youth gathering in Bologna, Italy.",
+   "Timothée Chalamet sang this musician's songs live on camera for a 2024 biopic, and the role earned him a Best Actor Oscar nomination.",
+   "Harmonica around his neck, this American troubadour also recorded 'Like a Rolling Stone.'"
+  ],
+  "changed": [
+   3
+  ],
+  "sources": {
+   "3": "https://www.nbcnewyork.com/entertainment/entertainment-news/timothee-chalamet-sing-guitar-a-complete-unknown/6089487/?amp=1"
+  },
+  "summary": "Replaced the famous Newport electric set with his absence from the Nobel ceremony, where Patti Smith sang in his place. Replaced the instant Nobel ceremony clue with the fact that Timothée Chalamet sang the songs live on set for the 2024 biopic that earned him a Best Actor nomination."
+ },
+ {
+  "id": "joan-of-arc",
+  "answer": "Joan of Arc",
+  "category": "History",
+  "before": [
+   "Mark Twain called his novel about this young woman the best of all his books.",
+   "A church court condemned this teenager to death, and a church retrial declared her innocent 25 years later.",
+   "This teenage farm girl talked her way into an audience with an uncrowned king by describing voices she said came from saints.",
+   "This peasant girl in armor, burned at the stake in Rouen in 1431, is now a patron saint of France."
+  ],
+  "after": [
+   "Mark Twain called his novel about this young woman the best of all his books.",
+   "Held prisoner at Beaurevoir Castle in 1430, this captive leapt from the top of a tower trying to escape, and survived the fall.",
+   "A church court condemned this teenager to death, and a church retrial declared her innocent 25 years later.",
+   "This peasant girl in armor, burned at the stake in Rouen in 1431, is now a patron saint of France."
+  ],
+  "changed": [
+   2,
+   3
+  ],
+  "sources": {
+   "2": "https://www.jeanne-darc.info/location/beaurevoir/",
+   "3": "moved from clue 2"
+  },
+  "summary": "Replaced the near-instant saints' voices clue with her leap from the Beaurevoir tower and placed it before the easier retrial clue."
+ },
+ {
+  "id": "lotus",
+  "answer": "Lotus",
+  "category": "Nature",
+  "before": [
+   "A seed of this plant, dug from a dry lakebed in China, sprouted after roughly 1,300 years.",
+   "Its leaves repel water so well that droplets roll off and carry the dirt away — a self-cleaning trick engineers now copy.",
+   "It roots in pond mud but holds its pink or white flowers high above the water, which made it a Buddhist symbol of purity.",
+   "This plant is the national flower of India and gives its name to the cross-legged yoga pose."
+  ],
+  "after": [
+   "A seed of this plant, dug from a dry lakebed in China, sprouted after roughly 1,300 years.",
+   "Its leaves repel water so well that droplets roll off and carry the dirt away — a self-cleaning trick engineers now copy.",
+   "Sliced crosswise, this plant's crunchy underwater stem shows a wheel of air holes, and it is a common vegetable in Chinese and Japanese cooking.",
+   "This plant is the national flower of India and gives its name to the cross-legged yoga pose."
+  ],
+  "changed": [
+   3
+  ],
+  "sources": {
+   "3": "https://tasteasianfood.com/lotus-root-stir-fry/"
+  },
+  "summary": "Replaced the well-known purity-symbol clue with the edible underwater stem and its ring of air holes, a different angle that is easier than the self-cleaning leaves."
+ },
+ {
+  "id": "claude-monet",
+  "answer": "Claude Monet",
+  "category": "Art",
+  "before": [
+   "Cataracts clouded this painter's color vision in his seventies; in 1914 he wrote that reds had begun to look muddy, and he had surgery in 1923.",
+   "A critic sneered at one of his harbor scenes, and his insult gave a whole art movement its name.",
+   "He painted haystacks, poplars and Rouen Cathedral over and over to catch how the light changed through the day.",
+   "This French founder of Impressionism is often mixed up with Édouard Manet; in 1865, Salon visitors even praised Manet for this painter's seascapes."
+  ],
+  "after": [
+   "Cataracts clouded this painter's color vision in his seventies; in 1914 he wrote that reds had begun to look muddy, and he had surgery in 1923.",
+   "At his first wife's deathbed in 1879, this painter caught himself studying the blues, yellows and grays on her face, then painted her there.",
+   "In 2019 one of this painter's haystack scenes sold for $110.7 million, the first Impressionist work to top $100 million at auction.",
+   "This French founder of Impressionism is often mixed up with Édouard Manet; in 1865, Salon visitors even praised Manet for this painter's seascapes."
+  ],
+  "changed": [
+   2,
+   3
+  ],
+  "sources": {
+   "2": "https://trauma.blog.yorku.ca/2022/08/camille-on-her-deathbed",
+   "3": "https://www.cbc.ca/lite/story/1.5136355"
+  },
+  "summary": "Replaced the movement-naming and series-painting clues with the deathbed confession about Camille's colors and the record $110.7 million haystack sale."
+ },
+ {
+  "id": "oppenheimer",
+  "answer": "Oppenheimer",
+  "category": "Movies",
+  "before": [
+   "Kodak created black-and-white IMAX film especially for this movie, making it the first film to shoot scenes in black-and-white IMAX.",
+   "This film was adapted from 'American Prometheus,' Kai Bird and Martin J. Sherwin's Pulitzer Prize-winning biography.",
+   "Robert Downey Jr. won an Oscar for this film, playing Lewis Strauss, the official who worked to undermine its title figure.",
+   "Christopher Nolan's 2023 biopic swept the Oscars, paired in cinemas with 'Barbie.'"
+  ],
+  "after": [
+   "The director wrote this film's whole script in the first person, in its title character's voice, right down to the stage directions.",
+   "Kodak created black-and-white IMAX film especially for this movie, making it the first film to shoot scenes in black-and-white IMAX.",
+   "The lead role in this film made its star the first Irish-born actor ever to win the Academy Award for Best Actor.",
+   "This 2023 Christopher Nolan biopic swept the Oscars and was paired in cinemas with 'Barbie.'"
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://slashfilm.com/1307312/christopher-nolan-oppenheimer-script-written-first-person",
+   "2": "moved from clue 1",
+   "3": "https://www.irishecho.com/2024/3/proud-irishman-cillian-murphy-wins-oscar",
+   "4": "reworded from clue 4"
+  },
+  "summary": "Replaced the source-book and Oscar clues with the first-person screenplay and the no-CGI recreation of the Trinity test. Replaced the instant atomic-bomb-test clue 3 with Cillian Murphy's win as the first Irish-born Best Actor, which takes a step of thought to link to the film.",
+  "handEdited": [
+   4
+  ]
+ },
+ {
+  "id": "petra",
+  "answer": "Petra",
+  "category": "Landmarks",
+  "before": [
+   "A Swiss explorer in disguise 'rediscovered' this lost city for the West in 1812.",
+   "Carved into sandstone cliffs, this city was the capital of the Nabataeans, desert traders who grew rich from the incense trade.",
+   "Visitors reach this city through the Siq, a narrow gorge over a kilometer long that opens onto a towering carved facade.",
+   "This Jordanian wonder, whose Treasury appeared in an Indiana Jones film, is nicknamed the 'Rose City.'"
+  ],
+  "after": [
+   "A Swiss explorer in disguise 'rediscovered' this lost city for the West in 1812.",
+   "Bedouin families of the Bdul tribe lived in this city's carved caves and tombs until 1985, when the government began moving them to a new village nearby.",
+   "Bullet marks scar a stone urn high on this city's most famous facade, blamed on Bedouin who believed a legend that it hid treasure.",
+   "This Jordanian wonder, whose Treasury appeared in an Indiana Jones film, is nicknamed the 'Rose City.'"
+  ],
+  "changed": [
+   2,
+   3
+  ],
+  "sources": {
+   "2": "https://www.nationalgeographic.com/travel/article/petra-unesco-world-heritage-bedouin",
+   "3": "https://en.wikipedia.org/wiki/Al-Khazneh"
+  },
+  "summary": "Replaced the Nabataean-capital and Siq clues with the Bdul Bedouin who lived in the tombs until 1985 and the bullet-scarred urn of the treasure legend."
+ },
+ {
+  "id": "hydrogen",
+  "answer": "Hydrogen",
+  "category": "Science",
+  "before": [
+   "This element was first recognized as a distinct substance in 1766 by Henry Cavendish, who called it 'inflammable air.'",
+   "A heavy form of this element, deuterium, makes the 'heavy water' that slows neutrons in some nuclear reactors.",
+   "This gas lifted the Hindenburg airship, whose fiery 1937 crash ended the age of passenger zeppelins.",
+   "First on the periodic table with the symbol H, this gas fuses in the Sun to make helium."
+  ],
+  "after": [
+   "This element was first recognized as a distinct substance in 1766 by Henry Cavendish, who called it 'inflammable air.'",
+   "About 6 of every 10 atoms in your body are this element, yet it makes up only about a tenth of your body weight.",
+   "In 1783 the first balloon filled with this gas came down in a French village, where frightened locals attacked it with pitchforks and knives.",
+   "First on the periodic table with the symbol H, this gas fuses in the Sun to make helium."
+  ],
+  "changed": [
+   2,
+   3
+  ],
+  "sources": {
+   "2": "https://en.wikipedia.org/wiki/Composition_of_the_human_body",
+   "3": "https://en.wikipedia.org/wiki/History_of_ballooning"
+  },
+  "summary": "Replaced the heavy-water and Hindenburg clues with its share of the body's atoms and the 1783 Gonesse balloon attacked by villagers."
+ },
+ {
+  "id": "parasite-film",
+  "answer": "Parasite",
+  "category": "Movies",
+  "before": [
+   "This film's wealthy family lives in a sleek modernist house that was not a real home but a set built for the shoot.",
+   "In this film a housekeeper makes her rich employer two cheap instant noodles mixed and topped with sirloin, and the noodle maker later posted the recipe in 11 languages.",
+   "This film won the Palme d'Or at Cannes in 2019, the first South Korean film ever to take the festival's top prize.",
+   "Bong Joon-ho's 2019 class satire takes its name from an organism that feeds off a host."
+  ],
+  "after": [
+   "This film's wealthy family lives in a sleek modernist house that was not a real home but a set built for the shoot.",
+   "In this film a housekeeper makes her rich employer two cheap instant noodles mixed and topped with sirloin, and the noodle maker later posted the recipe in 11 languages.",
+   "When Donald Trump griped at a 2020 rally about this film winning Best Picture, its U.S. distributor tweeted back: 'Understandable. He can't read.'",
+   "Bong Joon-ho's 2019 class satire takes its name from an organism that feeds off a host."
+  ],
+  "changed": [
+   3
+  ],
+  "sources": {
+   "3": "https://wjla.com/news/entertainment/trump-apparently-not-a-fan-of-parasite"
+  },
+  "summary": "Replaced the dry Palme d'Or clue with the story of Trump's 2020 rally complaint and the distributor Neon's 'He can't read' reply."
+ },
+ {
+  "id": "achilles",
+  "answer": "Achilles",
+  "category": "Mythology",
+  "before": [
+   "This hero's mother hid him among a king's daughters, dressed as a girl, to keep him out of a war.",
+   "Alexander the Great, who claimed descent from this hero through his mother, laid a wreath on his supposed tomb at Troy.",
+   "In the Iliad, this hero refuses to fight and sulks in his tent after Agamemnon takes his prize, the captive Briseis.",
+   "This Greek hero died when an arrow from Paris struck the one weak spot on his body, his heel."
+  ],
+  "after": [
+   "This hero's mother hid him among a king's daughters, dressed as a girl, to keep him out of a war.",
+   "Alexander the Great, who claimed descent from this hero through his mother, laid a wreath on his supposed tomb at Troy.",
+   "When old King Priam came to this hero and kissed the hands that had killed his son Hector, the hero gave the body back.",
+   "This Greek hero died when an arrow from Paris struck the one weak spot on his body, his heel."
+  ],
+  "changed": [
+   3
+  ],
+  "sources": {
+   "3": "https://www.mythweb.com/Iliad/24.html"
+  },
+  "summary": "Replaced the dry Iliad sulking clue with Brad Pitt injuring his Achilles tendon while playing the hero in 'Troy'. Replaced the tendon clue 3, which gave the answer away and repeated clue 4's heel, with the Iliad scene where Priam kisses the hero's hands to ransom Hector's body."
+ },
+ {
+  "id": "adrenaline",
+  "answer": "Adrenaline",
+  "category": "Human Body",
+  "before": [
+   "In 1901 this hormone became the first ever crystallized in pure form, a feat credited to Japanese chemist Jokichi Takamine.",
+   "Doctors give it every three to five minutes during CPR to try to restart a stopped heart.",
+   "It is pumped out by the glands that sit on top of your kidneys, which give it its name.",
+   "This 'fight or flight' hormone is what an EpiPen injects to stop a severe allergic reaction."
+  ],
+  "after": [
+   "In 1901 this hormone became the first ever crystallized in pure form, a feat credited to Japanese chemist Jokichi Takamine.",
+   "This hormone's official U.S. drug name is a different word, because its common name was too close to a drug company's trademark.",
+   "Doctors give this hormone every three to five minutes during CPR to try to restart a stopped heart.",
+   "This 'fight or flight' hormone is what an EpiPen injects to stop a severe allergic reaction."
+  ],
+  "changed": [
+   2,
+   3
+  ],
+  "sources": {
+   "2": "https://www.newworldencyclopedia.org/entry/Epinephrine",
+   "3": "reworded from clue 2"
+  },
+  "summary": "Replaced the dry kidney-gland clue with the trademark reason the U.S. uses a different official name, placed it at clue 2 because it is harder than the CPR clue, which moves to clue 3.",
+  "handEdited": [
+   3
+  ]
+ },
+ {
+  "id": "beethoven",
+  "answer": "Ludwig van Beethoven",
+  "category": "Music",
+  "before": [
+   "This composer wrote only one opera, 'Fidelio', which was poorly received in 1805 and revised twice before its final 1814 version became a great success.",
+   "This composer originally dedicated his Third Symphony to Napoleon, then reportedly tore the title page in half when Napoleon declared himself emperor.",
+   "This composer was born in Bonn and moved to Vienna at 21 to study with Joseph Haydn.",
+   "This wild-haired composer's Ninth Symphony gave the world the 'Ode to Joy.'"
+  ],
+  "after": [
+   "This composer wrote only one opera, 'Fidelio', which was poorly received in 1805 and revised twice before its final 1814 version became a great success.",
+   "This composer originally dedicated his Third Symphony to Napoleon, then reportedly tore the title page in half when Napoleon declared himself emperor.",
+   "Some scholars think a famous piano piece by this composer is named for the wrong woman, because 'Therese' in his now-lost manuscript was misread.",
+   "This wild-haired composer's Ninth Symphony gave the world the 'Ode to Joy.'"
+  ],
+  "changed": [
+   3
+  ],
+  "sources": {
+   "3": "https://en.wikipedia.org/wiki/F%C3%BCr_Elise"
+  },
+  "summary": "Replaced the dry Bonn-to-Vienna clue with the theory that 'Für Elise' was really written for a Therese and the name was misread."
+ },
+ {
+  "id": "black-hole",
+  "answer": "Black Hole",
+  "category": "Space",
+  "before": [
+   "This kind of object, if it had the same mass as the Sun, would be only about 6 kilometers across.",
+   "Stephen Hawking calculated in 1974 that this kind of object should slowly leak radiation and could eventually evaporate.",
+   "The one at the center of our galaxy, Sagittarius A*, holds about four million times the Sun's mass.",
+   "This invisible cosmic drain was first photographed in 2019 as a dark circle ringed by glowing gas."
+  ],
+  "after": [
+   "Physicist John Wheeler popularized the name for this kind of object in 1967, saying an audience member at one of his talks had suggested it.",
+   "This kind of object, if it had the same mass as the Sun, would be only about 6 kilometers across.",
+   "Stephen Hawking once bet Kip Thorne that Cygnus X-1 was not this kind of object; he conceded in 1990, and the stake was a Penthouse subscription.",
+   "This invisible cosmic drain was first photographed in 2019 as a dark circle ringed by glowing gas."
+  ],
+  "changed": [
+   1,
+   2,
+   3
+  ],
+  "sources": {
+   "1": "https://www.sciencenews.org/blog/context/50-years-later-its-hard-say-who-named-black-holes",
+   "2": "moved from clue 1",
+   "3": "https://en.wikipedia.org/wiki/Scientific_wager"
+  },
+  "summary": "Replaced the dry Sagittarius A* mass clue with spaghettification, the stretching that happens near this kind of object. Replaced the too-easy Hawking radiation and spaghettification clues with Wheeler popularizing the name in 1967 and Hawking's lost Cygnus X-1 bet with Kip Thorne.",
+  "handEdited": [
+   3
+  ]
+ },
+ {
+  "id": "black-mirror",
+  "answer": "Black Mirror",
+  "category": "Television",
+  "before": [
+   "Jodie Foster directed an episode of this anthology series in which a worried mother has a monitoring chip implanted in her young daughter's brain.",
+   "This show's very first episode, aired in 2011, has a kidnapper demand that the British prime minister have sex with a pig on live TV.",
+   "This show's 2018 interactive film let viewers choose the plot with their remotes, branching toward several different endings.",
+   "Named for the blank screen of a switched-off device, this anthology includes 'San Junipero' and 'Nosedive'."
+  ],
+  "after": [
+   "Jodie Foster directed an episode of this anthology series in which a worried mother has a monitoring chip implanted in her young daughter's brain.",
+   "This show's 2013 episode about a woman who talks to an AI copy of her dead boyfriend was a partial influence on the chatbot app Replika.",
+   "This show's very first episode, aired in 2011, has a kidnapper demand that the British prime minister have sex with a pig on live TV.",
+   "Named for the blank screen of a switched-off device, this anthology includes 'San Junipero' and 'Nosedive'."
+  ],
+  "changed": [
+   2,
+   3
+  ],
+  "sources": {
+   "2": "https://en.wikipedia.org/wiki/Be_Right_Back",
+   "3": "moved from clue 2"
+  },
+  "summary": "Replaced the dry Bandersnatch clue with the episode that partly influenced the Replika chatbot, placed it second as it is harder than the pig episode, which moves to clue 3."
+ },
+ {
+  "id": "bluey",
+  "answer": "Bluey",
+  "category": "Television",
+  "before": [
+   "This cartoon's longest episode, 2024's 28-minute 'The Sign', builds up to a wedding between the heroine's uncle and her godmother.",
+   "This Australian cartoon was America's most-streamed show of 2024, with Nielsen counting about 55.6 billion minutes watched.",
+   "Made in Brisbane, this cartoon about a family of dogs is known for leaving the parents who watch it in tears.",
+   "This ABC Australia preschool hit is named after its six-year-old puppy heroine, whose parents are Bandit and Chilli and whose little sister is Bingo."
+  ],
+  "after": [
+   "This cartoon's longest episode, 2024's 28-minute 'The Sign', builds up to a wedding between the heroine's uncle and her godmother.",
+   "The dad in this cartoon is voiced by David McCormack, frontman of the Brisbane rock band Custard.",
+   "This Australian cartoon was America's most-streamed show of 2024, with Nielsen counting about 55.6 billion minutes watched.",
+   "This ABC Australia preschool hit is named after its six-year-old puppy heroine, whose parents are Bandit and Chilli and whose little sister is Bingo."
+  ],
+  "changed": [
+   2,
+   3
+  ],
+  "sources": {
+   "2": "https://en.wikipedia.org/wiki/David_McCormack",
+   "3": "moved from clue 2"
+  },
+  "summary": "Replaced the generic 'makes parents cry' clue with the fact that the dad is voiced by Custard's frontman, and put it second because it is harder than the Nielsen statistic."
+ },
+ {
+  "id": "carbon",
+  "answer": "Carbon",
+  "category": "Science",
+  "before": [
+   "This element's soccer-ball-shaped 'buckyball' molecule, made of 60 atoms, won its discoverers the 1996 Nobel Prize in Chemistry.",
+   "This element makes up about 18 percent of the human body by mass, second only to oxygen.",
+   "Scientists define the atomic mass unit as exactly one-twelfth the mass of one atom of this element's most common isotope.",
+   "With the symbol C, this element makes up diamond, graphite, and the soot in a chimney."
+  ],
+  "after": [
+   "This element's soccer-ball-shaped 'buckyball' molecule, made of 60 atoms, won its discoverers the 1996 Nobel Prize in Chemistry.",
+   "This element makes up about 18 percent of the human body by mass, second only to oxygen.",
+   "A one-atom-thick sheet of this element, first peeled off with sticky tape, won Andre Geim and Konstantin Novoselov the 2010 Nobel Prize in Physics.",
+   "With the symbol C, this element makes up diamond, graphite, and the soot in a chimney."
+  ],
+  "changed": [
+   3
+  ],
+  "sources": {
+   "3": "https://physicstoday.aip.org/news/andre-geim-and-konstantin-novoselov-win-2010-physics-nobel-for-graphene"
+  },
+  "summary": "Replaced the dry atomic-mass-unit definition with the bomb pulse, in which nuclear testing almost doubled atmospheric carbon-14. Replaced the bomb-test clue, whose mention of the dating isotope gave the answer away, with the sticky-tape graphene Nobel Prize."
+ },
+ {
+  "id": "colosseum",
+  "answer": "Colosseum",
+  "category": "Landmarks",
+  "before": [
+   "This arena could reportedly be flooded to stage mock naval battles for the roaring crowds.",
+   "Beneath its arena floor lay a two-level warren of tunnels and cages, where elevators lifted caged animals up to the surface.",
+   "Begun under the emperor Vespasian around AD 72 and finished under his son Titus in AD 80, this arena is also known as the Flavian Amphitheater.",
+   "This ancient oval amphitheater is the single most iconic monument of Rome."
+  ],
+  "after": [
+   "Popes have led a Good Friday Way of the Cross at this arena almost every year since 1964, reviving a devotion first set up there in 1750.",
+   "Beneath its arena floor lay a two-level warren of tunnels and cages, where elevators lifted caged animals up to the surface.",
+   "This arena could reportedly be flooded to stage mock naval battles for the roaring crowds.",
+   "Opened by the emperor Titus in AD 80, this oval amphitheater in Rome is thought to have held about 50,000 spectators."
+  ],
+  "changed": [
+   1,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://aleteia.org/2024/03/26/how-the-vaticans-way-of-the-cross-got-to-the-colosseum/",
+   "3": "moved from clue 1",
+   "4": "https://en.wikipedia.org/wiki/Colosseum"
+  },
+  "summary": "Replaced the dry construction-dates clue with the papal Good Friday Way of the Cross held there, a modern angle that is easier than the tunnels clue.",
+  "handEdited": [
+   4
+  ]
+ },
+ {
+  "id": "drake-rapper",
+  "answer": "Drake",
+  "category": "Music",
+  "before": [
+   "This rapper first found fame on a Canadian teen drama, playing a basketball star who is shot by a classmate and left using a wheelchair.",
+   "He has placed more songs on the Billboard Hot 100 than any other artist in the chart's history.",
+   "This rapper's streetwear brand OVO, short for October's Very Own, uses an owl as its best-known logo.",
+   "'Hotline Bling' and 'God's Plan' belong to this Toronto star, born Aubrey Graham."
+  ],
+  "after": [
+   "This rapper first found fame on a Canadian teen drama, playing a basketball star who is shot by a classmate and left using a wheelchair.",
+   "This rapper has placed more songs on the Billboard Hot 100 than any other artist in the chart's history.",
+   "The Toronto Raptors named this rapper their global ambassador in 2013, and he once rubbed coach Nick Nurse's shoulders courtside during a 2019 playoff game.",
+   "'Hotline Bling' and 'God's Plan' belong to this Toronto star, born Aubrey Graham."
+  ],
+  "changed": [
+   2,
+   3
+  ],
+  "sources": {
+   "2": "reworded from clue 2",
+   "3": "https://cfjctoday.com/2019/05/30/nba-commissioner-says-drake-went-over-the-line-in-touching-coach-during-game/"
+  },
+  "summary": "Replaced the OVO owl logo clue with his Raptors ambassador role and the 2019 courtside shoulder rub on coach Nick Nurse.",
+  "handEdited": [
+   2
+  ]
+ },
+ {
+  "id": "emperor-penguin",
+  "answer": "Emperor Penguin",
+  "category": "Animals",
+  "before": [
+   "This bird dives deeper than any other bird, past 500 meters, and can stay under for more than 20 minutes.",
+   "In winter storms these birds pack into tight huddles that keep shuffling in slow waves, so the ones on the cold outer edge gradually work their way inside.",
+   "The male balances a single egg on his feet through the Antarctic winter, eating nothing for over two months.",
+   "This Antarctic bird with yellow ear patches starred in an Oscar-winning 2005 documentary about its long march inland to breed."
+  ],
+  "after": [
+   "This bird dives deeper than any other bird, past 500 meters, and can stay under for more than 20 minutes.",
+   "Scientists find new colonies of this bird from space, by spotting the brown patches its droppings leave on the ice in satellite images.",
+   "In winter storms these birds pack into tight huddles that keep shuffling in slow waves, so the ones on the cold outer edge gradually work their way inside.",
+   "This Antarctic bird with yellow ear patches starred in an Oscar-winning 2005 documentary about its long march inland to breed."
+  ],
+  "changed": [
+   2,
+   3
+  ],
+  "sources": {
+   "2": "https://e360.yale.edu/digest/emperor-penguin-colonies-discovered-by-spotting-guano-from-space",
+   "3": "moved from clue 2"
+  },
+  "summary": "Replaced the dry egg-on-feet clue 3 with the fact that colonies are found from space by spotting guano stains in satellite images."
+ },
+ {
+  "id": "formula-one",
+  "answer": "Formula One",
+  "category": "Sports",
+  "before": [
+   "This sport's drivers endure about five times their body weight in cornering forces and can sweat off two to three kilos in a race.",
+   "This series' first world championship race was held at Silverstone in 1950.",
+   "This series' cars make so much downforce that, in theory, they could drive upside down on a tunnel ceiling.",
+   "This is motorsport's premier open-wheel series, run by the FIA, and its crown jewel is the Monaco Grand Prix."
+  ],
+  "after": [
+   "From 1950 to 1960, this championship counted the Indianapolis 500 as a points-scoring round, though very few of its European regulars ever raced there.",
+   "This series' fastest-ever pit stop, at Qatar in 2023, swapped a car's full set of tyres in just 1.80 seconds.",
+   "This series' cars make so much downforce that, in theory, they could drive upside down on a tunnel ceiling.",
+   "This is motorsport's premier open-wheel series, run by the FIA, and its crown jewel is the Monaco Grand Prix."
+  ],
+  "changed": [
+   1,
+   2
+  ],
+  "sources": {
+   "1": "https://www.formulaonehistory.com/every-indianapolis-500-f1-winner/",
+   "2": "https://www.guinnessworldrecords.com/news/2024/03/the-record-breaking-evolution-of-the-formula-1-pit-stop-766434"
+  },
+  "summary": "Replaced the dry Silverstone 1950 clue 2 with the record 1.80-second pit stop at Qatar in 2023. Replaced the cornering-forces clue 1, which pointed straight at the series, with the lesser-known fact that the Indy 500 counted toward its title from 1950 to 1960."
+ },
+ {
+  "id": "fortnite",
+  "answer": "Fortnite",
+  "category": "Games",
+  "before": [
+   "This game began in 2017 as a paid co-op mode called Save the World, in which players build defenses against zombie-like monsters called husks.",
+   "This game's 2020 concert starring a giant animated Travis Scott drew 12.3 million players at once, a record for the game at the time.",
+   "A 2020 fight over in-app payments got this game pulled from Apple's and Google's app stores and led to antitrust lawsuits against both companies.",
+   "Famous for its flossing dances and 'Battle Pass,' this free Epic Games title is a battle-royale craze."
+  ],
+  "after": [
+   "In October 2019 this game ended a season by vanishing into a black hole, and for more than a day players who logged on saw nothing but the black hole.",
+   "This game's 2020 concert starring a giant animated Travis Scott drew 12.3 million players at once, a record for the game at the time.",
+   "A 2020 fight over in-app payments got this game pulled from Apple's and Google's app stores and led to antitrust lawsuits against both companies.",
+   "Famous for its flossing dances and 'Battle Pass,' this free Epic Games title is a battle-royale craze."
+  ],
+  "changed": [
+   1
+  ],
+  "sources": {
+   "1": "https://www.news4jax.com/news/fortnite-game-returns-after-going-to-black-hole-for-over-36-hours"
+  },
+  "summary": "Replaced the dry Save the World origin clue 1 with the October 2019 black-hole event that left the game blank for more than a day."
+ },
+ {
+  "id": "hamburger",
+  "answer": "Hamburger",
+  "category": "Food & Drink",
+  "before": [
+   "This sandwich was first sold in the U.S. in 1900 at New Haven's Louis' Lunch, says the Library of Congress, though rival towns dispute it.",
+   "This sandwich sold for five cents apiece at a Wichita, Kansas, chain founded in 1921 and often called the first fast-food chain.",
+   "Popeye's freeloading friend Wimpy kept promising to pay on Tuesday for one of these sandwiches today.",
+   "This sandwich, a grilled beef patty in a bun often topped with cheese, lettuce and ketchup, is a backyard cookout classic."
+  ],
+  "after": [
+   "This sandwich was first sold in the U.S. in 1900 at New Haven's Louis' Lunch, says the Library of Congress, though rival towns dispute it.",
+   "This sandwich sold for five cents apiece at a Wichita, Kansas, chain founded in 1921 and often called the first fast-food chain.",
+   "The first lab-grown beef version of this sandwich, tasted in London in 2013, was made with $330,000 from Google co-founder Sergey Brin.",
+   "This sandwich, a grilled beef patty in a bun often topped with cheese, lettuce and ketchup, is a backyard cookout classic."
+  ],
+  "changed": [
+   3
+  ],
+  "sources": {
+   "3": "https://www.nbcnews.com/technolog/intense-flavor-330-000-burger-was-built-lab-hits-spot-6c10835460"
+  },
+  "summary": "Replaced the Wimpy clue 3 with the 2013 London tasting of the first lab-grown beef version, funded with $330,000 from Sergey Brin."
+ },
+ {
+  "id": "hamlet",
+  "answer": "Hamlet",
+  "category": "Literature",
+  "before": [
+   "This play is the longest its author wrote, and Kenneth Branagh's 1996 film of the full text runs about four hours.",
+   "This play's title role has often been played by women, including Sarah Bernhardt in 1899.",
+   "This play gave English the phrases 'to thine own self be true' and 'the lady doth protest too much.'",
+   "This Shakespeare tragedy follows the Prince of Denmark, who asks, 'To be, or not to be.'"
+  ],
+  "after": [
+   "This play is the longest its author wrote, and Kenneth Branagh's 1996 film of the full text runs about four hours.",
+   "This play's title role has often been played by women, including Sarah Bernhardt in 1899.",
+   "A biographer wrote in 1709 that this play's author acted in it himself, and that its Ghost was the best role he ever played.",
+   "This Shakespeare tragedy follows the Prince of Denmark, who asks, 'To be, or not to be.'"
+  ],
+  "changed": [
+   3
+  ],
+  "sources": {
+   "3": "https://www.gutenberg.org/ebooks/16275"
+  },
+  "summary": "Replaced the famous-phrases clue 3 with the fact that The Lion King was heavily modeled on the play. Replaced the instant Lion King plot clue 3 with Nicholas Rowe's 1709 report that Shakespeare's best role was the Ghost in this play."
+ },
+ {
+  "id": "ice-bucket-challenge",
+  "answer": "Ice Bucket Challenge",
+  "category": "Internet",
+  "before": [
+   "Research paid for by this viral campaign helped scientists link a gene, NEK1, to a disease of the nerves.",
+   "Pete Frates, a former Boston College baseball captain with a nerve disease, helped turn it into a viral phenomenon.",
+   "In the summer of 2014 it raised more than $100 million for one charity in about a month.",
+   "This viral stunt had people dump freezing water over their heads to raise money for ALS research."
+  ],
+  "after": [
+   "Research paid for by this viral campaign helped scientists link a gene, NEK1, to a disease of the nerves.",
+   "Pete Frates, a former Boston College baseball captain with a nerve disease, helped turn this campaign into a viral phenomenon.",
+   "When Mark Zuckerberg nominated Bill Gates for this in 2014, Gates designed and built a rope-pulled rig to do it.",
+   "This viral stunt had people dump freezing water over their heads to raise money for ALS research."
+  ],
+  "changed": [
+   2,
+   3
+  ],
+  "sources": {
+   "2": "reworded from clue 2",
+   "3": "https://bgr.com/general/bill-gates-ice-bucket-challenge/"
+  },
+  "summary": "Replaced the dry fundraising-total clue 3 with Bill Gates building his own rope-pulled rig after Mark Zuckerberg nominated him.",
+  "handEdited": [
+   2
+  ]
+ },
+ {
+  "id": "kimchi",
+  "answer": "Kimchi",
+  "category": "Food & Drink",
+  "before": [
+   "In 2008 a specially sterilized version of this dish flew to the International Space Station.",
+   "It was traditionally left to ferment through the winter in clay pots buried in the ground.",
+   "Many homes in its country keep a separate refrigerator just for it, and the autumn tradition of making it together is on UNESCO's heritage list.",
+   "This spicy, sour Korean side dish of fermented cabbage appears at nearly every meal."
+  ],
+  "after": [
+   "In 2008 a specially sterilized version of this dish flew to the International Space Station.",
+   "In its home country, people say this dish's name instead of 'cheese' to smile for photos.",
+   "Many homes in its country keep a separate refrigerator just for it, and the autumn tradition of making it together is on UNESCO's heritage list.",
+   "This spicy, sour Korean side dish of fermented cabbage appears at nearly every meal."
+  ],
+  "changed": [
+   2
+  ],
+  "sources": {
+   "2": "https://www.staradvertiser.com/2012/03/28/breaking-news/kimchi-tops-cheese-at-nuclear-summit/"
+  },
+  "summary": "Replaced the dry buried-pots clue 2 with the South Korean habit of saying the dish's name instead of 'cheese' for photos, leaving the country unnamed so it stays harder than clue 3."
+ },
+ {
+  "id": "leaning-tower-of-pisa",
+  "answer": "Leaning Tower of Pisa",
+  "category": "Landmarks",
+  "before": [
+   "This bell tower holds seven bells, one for each note of the musical scale.",
+   "This tower took nearly 200 years to build, and engineers only halted its slow topple in the 1990s.",
+   "Legend says Galileo dropped two balls of different weights from its top to show they fall at the same speed.",
+   "This famously tilted white marble bell tower stands beside a cathedral in Tuscany's Piazza dei Miracoli, the Square of Miracles."
+  ],
+  "after": [
+   "This bell tower holds seven bells, one for each note of the musical scale.",
+   "In World War II, a 23-year-old American sergeant was sent to have this tower shelled if German spotters were using it, but he held back.",
+   "In 1934 Mussolini had engineers pour concrete into its foundation to straighten it, but it lurched a few more inches south.",
+   "This famously tilted white marble bell tower stands beside a cathedral in Tuscany's Piazza dei Miracoli, the Square of Miracles."
+  ],
+  "changed": [
+   2,
+   3
+  ],
+  "sources": {
+   "2": "https://content.time.com/time/specials/packages/article/0,28804,1995297_1995295,00.html",
+   "3": "https://www.history.com/this-day-in-history/february-27/leaning-tower-needs-help"
+  },
+  "summary": "Replaced the familiar Galileo legend in clue 3 with Mussolini's 1934 attempt to straighten the tower, which made it lean further. Replaced clue 2, which gave the lean away and overlapped the Mussolini clue, with the story of the American sergeant ordered to destroy the tower in World War II.",
+  "handEdited": [
+   2
+  ]
+ },
+ {
+  "id": "microsoft",
+  "answer": "Microsoft",
+  "category": "Technology",
+  "before": [
+   "This company's first product was a version of the BASIC programming language for the Altair 8800 computer.",
+   "This company was founded in 1975 in Albuquerque, New Mexico, and moved to the Seattle area in 1979.",
+   "This company's co-founder was ranked the world's richest person by Forbes in most years between 1995 and 2017.",
+   "Maker of Windows, Office and the Xbox, this tech giant uses a logo of four colored squares."
+  ],
+  "after": [
+   "This company's first product was a version of the BASIC programming language for the Altair 8800 computer.",
+   "This company was founded in 1975 in Albuquerque, New Mexico, and moved to the Seattle area in 1979.",
+   "In 2014 this company paid $2.5 billion for Mojang, the Stockholm studio behind Minecraft.",
+   "Maker of Windows, Office and the Xbox, this tech giant uses a logo of four colored squares."
+  ],
+  "changed": [
+   3
+  ],
+  "sources": {
+   "3": "https://abc7ny.com/post/microsoft-buys-minecraft-maker-mojang-for-$25-billion/309106/"
+  },
+  "summary": "Replaced the dry richest-co-founder clue 3 with the company's $2.5 billion purchase of Minecraft's maker in 2014."
+ },
+ {
+  "id": "mount-kilimanjaro",
+  "answer": "Mount Kilimanjaro",
+  "category": "Geography",
+  "before": [
+   "This mountain is the tallest on Earth that stands alone rather than as part of a range.",
+   "Though it sits close to the equator, its summit wears glaciers and snow that are steadily melting away.",
+   "Hikers can reach its summit without ropes, passing through rainforest, moorland and alpine desert on the way up.",
+   "This snow-capped Tanzanian volcano is the highest point on the whole African continent."
+  ],
+  "after": [
+   "On December 9, 1961, the day Tanganyika became independent, a 'freedom torch' was first lit on this mountain's summit.",
+   "This mountain is the tallest on Earth that stands alone rather than as part of a range.",
+   "Though this mountain sits close to the equator, its summit wears glaciers and snow that are steadily melting away.",
+   "This Tanzanian volcano is the highest point on the whole African continent."
+  ],
+  "changed": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Uhuru_Torch",
+   "2": "moved from clue 1",
+   "3": "reworded from clue 2",
+   "4": "reworded from clue 4"
+  },
+  "summary": "Replaced the dry walk-up-climb clue 3 with the Uhuru (freedom) torch first lit on the summit on Tanganyika's independence day in 1961.",
+  "handEdited": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "mr-bean",
+  "answer": "Mr. Bean",
+  "category": "Television",
+  "before": [
+   "This TV show's star, who holds a master's degree in electrical engineering, co-created it; its first episode aired on New Year's Day 1990.",
+   "Its title character appeared at the London 2012 Olympics opening ceremony, playing one repeated note of 'Chariots of Fire.'",
+   "In one episode its title character drives home from a sale sitting in an armchair strapped to his car's roof.",
+   "This nearly silent British sitcom stars Rowan Atkinson as a bumbling, childlike man in a tweed jacket."
+  ],
+  "after": [
+   "This TV show's star, who holds a master's degree in electrical engineering, co-created it; its first episode aired on New Year's Day 1990.",
+   "This show's title character wasn't named until after its first episode was made, and other vegetable names, such as Mr. Cauliflower, were considered.",
+   "This show's title character appeared at the London 2012 Olympics opening ceremony, playing one repeated note of 'Chariots of Fire.'",
+   "This nearly silent British sitcom stars Rowan Atkinson as a bumbling, childlike man in a tweed jacket."
+  ],
+  "changed": [
+   2,
+   3
+  ],
+  "sources": {
+   "2": "https://en.wikipedia.org/wiki/Mr._Bean_(character)",
+   "3": "reworded from clue 2"
+  },
+  "summary": "Replaced the dry armchair-on-the-roof clue 3 with the fact that the character was named only after the first episode was made, with Mr. Cauliflower among the vegetable names considered.",
+  "handEdited": [
+   3
+  ]
+ },
+ {
+  "id": "olivia-rodrigo",
+  "answer": "Olivia Rodrigo",
+  "category": "Music",
+  "before": [
+   "Two members of Paramore were added to the songwriting credits of one of this singer's hits after listeners noticed its debt to 'Misery Business'.",
+   "This singer's debut single broke Spotify's record for the most streams in one day by a non-holiday song in January 2021.",
+   "She came up through a Disney+ High School Musical series before her first album swept her three Grammys, including Best New Artist.",
+   "This pop-punk-leaning singer's albums are Sour and Guts, and her hits include 'vampire'."
+  ],
+  "after": [
+   "Two members of Paramore were added to the songwriting credits of one of this singer's hits after listeners noticed its debt to 'Misery Business'.",
+   "This singer's debut single broke Spotify's record for the most streams in one day by a non-holiday song in January 2021.",
+   "In July 2021 this singer spoke from the White House press briefing room podium to urge young people to get vaccinated against COVID-19.",
+   "This pop-punk-leaning singer's albums are Sour and Guts, and her hits include 'vampire'."
+  ],
+  "changed": [
+   3
+  ],
+  "sources": {
+   "3": "https://abc7news.com/olivia-rodrigo-biden-white-house-dr-fauci-tour-2022/10887132/"
+  },
+  "summary": "Replaced the dry career-path clue 3 with her July 2021 White House visit, where she spoke from the briefing room podium to promote youth COVID-19 vaccination."
+ },
+ {
+  "id": "pac-man",
+  "answer": "Pac-Man",
+  "category": "Games",
+  "before": [
+   "This arcade game has a 'kill screen': on level 256 a bug fills half the screen with garbled symbols, so the level can't be finished.",
+   "This game's four enemies each hunt differently: one gives direct chase, two try to get in front of you, and one keeps switching between chasing and fleeing.",
+   "This game's designer, Toru Iwatani, built it around eating because he wanted a game that would draw women and couples into arcades.",
+   "Blinky, Pinky, Inky, and Clyde hound this 1980 arcade icon around its maze."
+  ],
+  "after": [
+   "This arcade game has a 'kill screen': on level 256 a bug fills half the screen with garbled symbols, so the level can't be finished.",
+   "For this game's 30th anniversary in 2010, Google made its logo playable, and one firm estimated it added 4.8 million hours to people's time on Google.",
+   "This game's designer, Toru Iwatani, built it around eating because he wanted a game that would draw women and couples into arcades.",
+   "Blinky, Pinky, Inky, and Clyde hound this 1980 arcade icon around its maze."
+  ],
+  "changed": [
+   2
+  ],
+  "sources": {
+   "2": "https://www.datamation.com/applications/did-googles-pac-man-celebration-gobble-productivity/"
+  },
+  "summary": "Replaced the dry ghost-behaviour clue 2 with Google's playable 2010 anniversary logo and RescueTime's estimate of 4.8 million extra hours spent on Google."
+ },
+ {
+  "id": "reddit",
+  "answer": "Reddit",
+  "category": "Internet",
+  "before": [
+   "In 2023 thousands of this site's communities went dark in protest at new charges for access to its data.",
+   "One of this site's forums organized a share-buying campaign in early 2021 that cost hedge funds billions.",
+   "This site was founded in 2005 by Steve Huffman and Alexis Ohanian, and its alien mascot is called Snoo.",
+   "Self-described as the front page of the internet, this home of AMAs went public in 2024."
+  ],
+  "after": [
+   "In 2023 thousands of this site's communities went dark in protest at new charges for access to its data.",
+   "One of this site's forums organized a share-buying campaign in early 2021 that cost hedge funds billions.",
+   "One of this site's co-founders married tennis star Serena Williams in New Orleans in 2017.",
+   "Self-described as the front page of the internet, this home of AMAs went public in 2024."
+  ],
+  "changed": [
+   3
+  ],
+  "sources": {
+   "3": "https://www.cbsnews.com/miami/news/serena-williams-gets-married"
+  },
+  "summary": "Replaced the dry founding-and-mascot clue 3 with the fact that co-founder Alexis Ohanian married Serena Williams in New Orleans in 2017."
+ },
+ {
+  "id": "saffron",
+  "answer": "Saffron",
+  "category": "Food & Drink",
+  "before": [
+   "This spice comes from a sterile plant that sets no seed, so it spreads only when people dig up, divide and replant its bulb-like corms.",
+   "Each flower gives just three threads of it, so a single pound takes tens of thousands of blossoms.",
+   "Iran grows most of the world's supply, and it turns paella and risotto alla milanese golden.",
+   "This spice, long the world's most expensive, is made of crimson threads hand-picked from the stigmas of a crocus flower."
+  ],
+  "after": [
+   "This spice comes from a sterile plant that sets no seed, so it spreads only when people dig up, divide and replant its bulb-like corms.",
+   "Each flower gives just three threads of it, so a single pound takes tens of thousands of blossoms.",
+   "The top band of India's flag is officially this spice's color, called kesari in Hindi, above stripes of white and green.",
+   "This spice, long the world's most expensive, is made of crimson threads hand-picked from the stigmas of a crocus flower."
+  ],
+  "changed": [
+   3
+  ],
+  "sources": {
+   "3": "https://knowindia.india.gov.in/national-identity-elements/national-flag.php"
+  },
+  "summary": "Replaced the dry Iran-and-paella clue 3 with the fact that the top band of India's flag is officially this spice's color (kesari)."
+ },
+ {
+  "id": "simone-biles",
+  "answer": "Simone Biles",
+  "category": "Sports",
+  "before": [
+   "This athlete was adopted by her grandparents as a young child, and has called her grandmother 'Mom' ever since.",
+   "In 2023 this gymnast married NFL safety Jonathan Owens.",
+   "This gymnast has five skills named after her: two on vault, two on floor and one on the balance beam.",
+   "Standing just 4 feet 8 inches tall, this American is the most decorated gymnast in history."
+  ],
+  "after": [
+   "This athlete was adopted by her grandparents as a young child, and has called her grandmother 'Mom' ever since.",
+   "After Russian hackers leaked her medical records in 2016, this gymnast tweeted that she has ADHD and has taken medicine for it since she was a kid.",
+   "This gymnast has five skills named after her: two on vault, two on floor and one on the balance beam.",
+   "Standing just 4 feet 8 inches tall, this American is the most decorated gymnast in history."
+  ],
+  "changed": [
+   2
+  ],
+  "sources": {
+   "2": "https://globalnews.ca/news/2939394/russian-hackers-leak-health-information-of-rio-olympic-athletes-simone-biles-venus-serena-williams"
+  },
+  "summary": "Replaced the dry marriage clue with the 2016 medical-records leak that led her to reveal her ADHD."
+ },
+ {
+  "id": "speed-of-light",
+  "answer": "Speed of Light",
+  "category": "Science",
+  "before": [
+   "This physical constant was first shown to have a measurable value in 1676, when Danish astronomer Ole Rømer timed the eclipses of Jupiter's moon Io.",
+   "Since 1983 its value has been fixed exactly by definition, and the meter itself is now defined by it.",
+   "Because it is finite, we see distant stars as they were long ago, and a few may have burned out since.",
+   "Physicists label this cosmic top speed with the letter c."
+  ],
+  "after": [
+   "This physical constant was first shown to have a measurable value in 1676, when Danish astronomer Ole Rømer timed the eclipses of Jupiter's moon Io.",
+   "Since 1983 its value has been fixed exactly by definition, and the meter itself is now defined by it.",
+   "Computer pioneer Grace Hopper handed out pieces of wire just under a foot long to show the farthest a signal can go in a nanosecond, a limit set by this constant.",
+   "Physicists label this constant, about 300,000 kilometers per second, with the letter c."
+  ],
+  "changed": [
+   3,
+   4
+  ],
+  "sources": {
+   "3": "https://en.wikipedia.org/wiki/Grace_Hopper",
+   "4": "https://en.wikipedia.org/wiki/Speed_of_light"
+  },
+  "summary": "Replaced the generic distant-stars clue with the Large Hadron Collider's 99.9999991% proton figure. Replaced the near-instant LHC clue with Grace Hopper's nanosecond wires, and reworded clue 4 to drop 'speed', a word from the answer's name."
+ },
+ {
+  "id": "spongebob-squarepants",
+  "answer": "SpongeBob SquarePants",
+  "category": "Television",
+  "before": [
+   "This cartoon inspired a Broadway musical that earned 12 Tony nominations in 2018, tying for the most that year.",
+   "This cartoon first aired as a sneak peek right after Nickelodeon's 1999 Kids' Choice Awards, more than two months before its official premiere.",
+   "This cartoon's creator taught marine biology, and many of its characters began in a comic he drew for his students called 'The Intertidal Zone.'",
+   "This cartoon's hero lives in a pineapple under the sea with his pet snail, Gary, next door to his best friend, Patrick the starfish."
+  ],
+  "after": [
+   "This cartoon inspired a Broadway musical that earned 12 Tony nominations in 2018, tying for the most that year.",
+   "Ernest Borgnine and Tim Conway, co-stars of the 1960s sitcom McHale's Navy, voiced a pair of elderly superheroes on this cartoon.",
+   "This cartoon's creator taught marine biology, and many of its characters began in a comic he drew for his students called 'The Intertidal Zone.'",
+   "This cartoon's hero lives in a pineapple under the sea with his pet snail, Gary, on the same street as his best friend, Patrick the starfish."
+  ],
+  "changed": [
+   2,
+   4
+  ],
+  "sources": {
+   "2": "https://en.wikipedia.org/wiki/Mermaid_Man_and_Barnacle_Boy",
+   "4": "https://en.wikipedia.org/wiki/Squidward_Tentacles"
+  },
+  "summary": "Replaced the dry sneak-peek premiere clue with the McHale's Navy stars who voiced its elderly superheroes.",
+  "handEdited": [
+   4
+  ]
+ },
+ {
+  "id": "succession",
+  "answer": "Succession",
+  "category": "Television",
+  "before": [
+   "Nicholas Britell's theme for this show, all clattering piano and strings, became an unlikely earworm and won an Emmy.",
+   "This show's patriarch dies suddenly on a plane in the third episode of its final season, as his children say goodbye by phone.",
+   "This HBO drama about a feuding media dynasty followed its creator's unmade screenplay about the real Murdoch family.",
+   "In it, Kendall, Shiv and Roman Roy claw at each other over who will take over Waystar RoyCo."
+  ],
+  "after": [
+   "Nicholas Britell's theme for this show, all clattering piano and strings, became an unlikely earworm and won an Emmy.",
+   "Kieran Culkin was first asked to read for cousin Greg on this show, but felt wrong for the part and sent in a tape for Roman instead.",
+   "This HBO drama grew out of its creator's unmade screenplay about the real Murdoch family.",
+   "In this show, Kendall, Shiv and Roman Roy claw at each other over who will take over Waystar RoyCo."
+  ],
+  "changed": [
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "2": "https://thewrap.com/kieran-culkin-cousin-greg-succession",
+   "3": "https://au.news.yahoo.com/succession-creator-jesse-armstrong-finally-105720130.html",
+   "4": "reworded from clue 4"
+  },
+  "summary": "Replaced the plot-point death clue with Kieran Culkin's casting story and changed 'followed' to 'grew out of' in clue 3, as the judge suggested.",
+  "handEdited": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "sumo",
+  "answer": "Sumo",
+  "category": "Sports",
+  "before": [
+   "This sport's highest rank is the only one whose holders can never be demoted; one who keeps losing is expected to retire instead.",
+   "Mongolian-born Hakuhō won a record 45 top-division championships in this sport before retiring in 2021.",
+   "In this sport, a wrestler loses the instant anything but the soles of his feet touches the clay — even a fingertip will do it.",
+   "This is Japan's national sport, in which two heavyweight wrestlers in mawashi belts try to force each other out of a straw-edged ring."
+  ],
+  "after": [
+   "This sport's highest rank is the only one whose holders can never be demoted; one who keeps losing is expected to retire instead.",
+   "Wrestlers in this sport are banned from driving, a rule brought in after a serious traffic accident.",
+   "Mongolian-born Hakuhō won a record 45 top-division championships in this sport before retiring in 2021.",
+   "This is Japan's national sport, in which two heavyweight wrestlers in mawashi belts try to force each other out of a straw-edged ring."
+  ],
+  "changed": [
+   2,
+   3
+  ],
+  "sources": {
+   "2": "https://www.arabnews.com/node/382497",
+   "3": "moved from clue 2"
+  },
+  "summary": "Replaced the rules-description clue with the sport's driving ban for wrestlers."
+ },
+ {
+  "id": "teddy-bear",
+  "answer": "Teddy Bear",
+  "category": "Pop Culture",
+  "before": [
+   "A German toy company and a Brooklyn shopkeeper both started making this toy around 1902, apparently independently of each other.",
+   "This toy got its name after a 1902 hunting trip on which a U.S. president refused to shoot a captured animal tied to a tree.",
+   "Winnie-the-Pooh began as a real one of these toys, bought at Harrods in 1921 for Christopher Robin Milne's first birthday.",
+   "This cuddly stuffed toy, often brown and button-eyed, has been a bedtime companion for generations of children."
+  ],
+  "after": [
+   "A German toy company and a Brooklyn shopkeeper both started making this toy around 1902, apparently independently of each other.",
+   "In 1907 a Michigan priest told his parish that this new toy, unlike dolls, threatened little girls' maternal instincts.",
+   "After the Titanic sank in 1912, a British retailer ordered black versions of this toy from Steiff, and only 494 were made.",
+   "This toy got its name after a 1902 hunting trip on which a U.S. president refused to shoot a captured animal tied to a tree."
+  ],
+  "changed": [
+   2,
+   3,
+   4
+  ],
+  "sources": {
+   "2": "https://www.mentalfloss.com/history/great-teddy-bear-panic-1907",
+   "3": "https://en.wikipedia.org/wiki/Steiff",
+   "4": "moved from clue 2"
+  },
+  "summary": "Replaced the dry Roosevelt naming clue with the 1912 Titanic black Steiff bears, a lesser-known fact on a new angle. Replaced the instant Winnie-the-Pooh clue with the 1907 Michigan priest's warning that the toy threatened girls' maternal instincts."
+ },
+ {
+  "id": "the-lion-king",
+  "answer": "The Lion King",
+  "category": "Movies",
+  "before": [
+   "This film earned Hans Zimmer his first Oscar, for Best Original Score; his second came 27 years later for 'Dune.'",
+   "This film's stage version, directed by Julie Taymor with giant puppets and masks, is the highest-grossing show in Broadway history.",
+   "Elton John and Tim Rice wrote this animated film's songs, and three of them were nominated for the same Best Original Song Oscar.",
+   "This 1994 Disney film about a cub reclaiming his throne at Pride Rock got a photoreal 2019 remake."
+  ],
+  "after": [
+   "This film earned Hans Zimmer his first Oscar, for Best Original Score; his second came 27 years later for 'Dune.'",
+   "Disney's 'A-team' of animators chose to work on 'Pocahontas,' expecting it to be the bigger hit, so this film was made by a 'B-team.'",
+   "This film's stage version, directed by Julie Taymor with giant puppets and masks, is the highest-grossing show in Broadway history.",
+   "This 1994 Disney film about a cub reclaiming his throne at Pride Rock got a photoreal 2019 remake."
+  ],
+  "changed": [
+   2,
+   3
+  ],
+  "sources": {
+   "2": "https://www.mentalfloss.com/article/591594/25-surprising-facts-about-lion-king",
+   "3": "moved from clue 2"
+  },
+  "summary": "Replaced the dry songwriters clue with the A-team/B-team Pocahontas story and placed it before the easier Broadway clue."
+ },
+ {
+  "id": "the-renaissance",
+  "answer": "The Renaissance",
+  "category": "History",
+  "before": [
+   "This era's 'father' is often said to be the poet Petrarch, who is also credited with coming up with the idea of the 'Dark Ages.'",
+   "Many historians date this era's start to 1401, when Florence held a contest to design new bronze doors for its Baptistery.",
+   "Wealthy patrons like the Medici funded its explosion of art, science, and learning.",
+   "Leonardo da Vinci and Michelangelo were geniuses of this cultural 'rebirth' in Europe."
+  ],
+  "after": [
+   "This era's 'father' is often said to be the poet Petrarch, who is also credited with coming up with the idea of the 'Dark Ages.'",
+   "Many historians date this era's start to 1401, when Florence held a contest to design new bronze doors for its Baptistery.",
+   "In 1497, during this era, followers of the friar Savonarola burned mirrors, books and paintings in Florence's Bonfire of the Vanities.",
+   "Leonardo da Vinci and Michelangelo were geniuses of this cultural 'rebirth' in Europe."
+  ],
+  "changed": [
+   3
+  ],
+  "sources": {
+   "3": "https://en.wikipedia.org/wiki/Bonfire_of_the_vanities"
+  },
+  "summary": "Replaced the generic Medici patronage clue with the Ninja Turtles naming fact, naming different artists from clue 4. Replaced the instant Ninja Turtles clue, which repeated clue 4's artists angle, with Savonarola's 1497 Bonfire of the Vanities in Florence."
+ },
+ {
+  "id": "tiger-woods",
+  "answer": "Tiger Woods",
+  "category": "Sports",
+  "before": [
+   "This golfer won his first major at twenty-one by twelve strokes, a record margin for that tournament.",
+   "He held all four professional major titles at the same time, a run that took on his own nickname.",
+   "The golfer's 2019 Masters win, eleven years after his previous major, is rated among sport's great comebacks.",
+   "Golf's defining modern player, born Eldrick, has fifteen major championships."
+  ],
+  "after": [
+   "This golfer won his first major at twenty-one by twelve strokes, a record margin for that tournament.",
+   "He held all four professional major titles at the same time, a run that took on his own nickname.",
+   "At age two, this golfer had a putting contest with Bob Hope on 'The Mike Douglas Show' in 1978.",
+   "Golf's defining modern player, born Eldrick, has fifteen major championships."
+  ],
+  "changed": [
+   3
+  ],
+  "sources": {
+   "3": "https://golf.com/news/tiger-woods-40-biggest-moments-television-debut-at-age-2/"
+  },
+  "summary": "Replaced the 2019 Masters comeback clue with his 1978 TV putting contest against Bob Hope at age two."
+ },
+ {
+  "id": "tiktok",
+  "answer": "TikTok",
+  "category": "Internet",
+  "before": [
+   "This app absorbed Musical.ly in August 2018, moving all of that app's existing accounts into its own.",
+   "This app's sister app in China, Douyin, was launched by the same company a year earlier, and the two are kept strictly separate.",
+   "This app launched with a 15-second cap on videos, and by 2022 it let users record clips up to 10 minutes long.",
+   "Dances and lip-sync clips go viral on this app whose name evokes a ticking clock."
+  ],
+  "after": [
+   "This app absorbed Musical.ly in August 2018, moving all of that app's existing accounts into its own.",
+   "This app's sister app in China, Douyin, was launched by the same company a year earlier, and the two are kept strictly separate.",
+   "In June 2020, two weeks after a deadly border clash with China, India banned this app, which had about 200 million users there.",
+   "Dances and lip-sync clips go viral on this app whose name evokes a ticking clock."
+  ],
+  "changed": [
+   3
+  ],
+  "sources": {
+   "3": "https://www.pbs.org/newshour/world/heres-what-happened-when-india-banned-tiktok"
+  },
+  "summary": "Replaced the dry video-length clue with the app's January 2025 U.S. shutdown and next-day return. Replaced the instant U.S. shutdown clue with India's June 2020 ban, which came two weeks after the Galwan clash and cut off about 200 million users (dates also checked at https://www.aljazeera.com/amp/economy/2020/6/29/india-bans-59-mostly-chinese-apps-amid-border-dispute)."
+ },
+ {
+  "id": "times-square",
+  "answer": "Times Square",
+  "category": "Landmarks",
+  "before": [
+   "Until 1904 this plaza bore the name of Long Acre, a London street at the center of the horse-and-carriage trade.",
+   "Alfred Eisenstaedt's famous photo of a sailor kissing a woman in white on V-J Day, 1945, was taken in this plaza.",
+   "This plaza's stretch of Broadway was closed to cars in 2009 and turned into a pedestrian zone.",
+   "Named for a newspaper that once headquartered there, this New York City plaza is a neon tourist magnet."
+  ],
+  "after": [
+   "Until 1904 this plaza bore the name of Long Acre, a London street at the center of the horse-and-carriage trade.",
+   "In 1928 a moving sign of lit bulbs wrapped around a tower in this plaza began flashing news; its first headline told of Herbert Hoover's win over Al Smith.",
+   "Alfred Eisenstaedt's famous photo of a sailor kissing a woman in white on V-J Day, 1945, was taken in this plaza.",
+   "Named for a newspaper that once headquartered there, this New York City plaza is a neon tourist magnet."
+  ],
+  "changed": [
+   2,
+   3
+  ],
+  "sources": {
+   "2": "https://en.wikipedia.org/wiki/Motograph_News_Bulletin",
+   "3": "moved from clue 2"
+  },
+  "summary": "Replaced the dry pedestrian-zone clue 3 with the origin of the New Year's Eve ball drop as a stand-in for banned fireworks, worded so it still takes a moment's thought. Dropped the instant New Year's Eve clue, added the 1928 news ticker whose first headline was Hoover's win (without the judge's unverified 'one of the first' claim), and placed it before the better-known V-J Day kiss photo."
+ },
+ {
+  "id": "tornado",
+  "answer": "Tornado",
+  "category": "Nature",
+  "before": [
+   "Scientists rate this storm's strength by the damage it leaves behind, because its winds are so hard to measure directly.",
+   "The deadliest one in US history tore across Missouri, Illinois and Indiana in March 1925, killing at least 695 people.",
+   "The United States gets more of them than any other country — well over a thousand a year.",
+   "This spinning funnel of wind carries Dorothy's house from Kansas to Oz."
+  ],
+  "after": [
+   "Scientists rate this storm's strength by the damage it leaves behind, because its winds are so hard to measure directly.",
+   "The deadliest one in US history tore across Missouri, Illinois and Indiana in March 1925, killing at least 695 people.",
+   "In 1999 a mobile 'Doppler on Wheels' radar clocked winds of about 300 mph in one near Bridge Creek, Oklahoma — a world record for wind measured by radar.",
+   "This spinning funnel of wind carries Dorothy's house from Kansas to Oz."
+  ],
+  "changed": [
+   3
+  ],
+  "sources": {
+   "3": "https://www.guinnessworldrecords.com/world-records/73283-fastest-wind-speed-not-surface-speed"
+  },
+  "summary": "Replaced the generic US-frequency clue 3 with the 1999 Bridge Creek radar record of about 300 mph winds, a specific and repeatable fact."
+ },
+ {
+  "id": "uber",
+  "answer": "Uber",
+  "category": "Technology",
+  "before": [
+   "This company's founders were reportedly inspired by failing to find a cab in Paris on a winter night in 2008.",
+   "This company launched in San Francisco in 2010 under a longer name and dropped the word 'Cab' after regulators sent it cease-and-desist orders.",
+   "This company's co-founder and chief executive, Travis Kalanick, resigned under investor pressure in 2017 after a string of scandals.",
+   "This ride-hailing app's name is a German word meaning 'above,' and it is now also a food-delivery giant."
+  ],
+  "after": [
+   "This company's founders were reportedly inspired by failing to find a cab in Paris on a winter night in 2008.",
+   "This company launched in San Francisco in 2010 under a longer name and dropped the word 'Cab' after regulators sent it cease-and-desist orders.",
+   "In December 2013 Jessica Seinfeld posted a $415 receipt after this company's surge pricing more than octupled fares on a night of snow and hail in Manhattan.",
+   "This ride-hailing app's name is a German word meaning 'above,' and it is now also a food-delivery giant."
+  ],
+  "changed": [
+   3
+  ],
+  "sources": {
+   "3": "https://fortune.com/2013/12/30/why-the-surge-pricing-fiasco-is-great-for-uber"
+  },
+  "summary": "Replaced the dry Kalanick-resignation clue 3 with Jessica Seinfeld's $415 surge-priced ride in 2013, a specific story players would retell."
+ },
+ {
+  "id": "wikipedia",
+  "answer": "Wikipedia",
+  "category": "Technology",
+  "before": [
+   "This website began in January 2001 as a side project of Nupedia, a slow, expert-reviewed encyclopedia it soon outgrew.",
+   "It runs on donations, famously asking readers for support rather than selling ads.",
+   "Jimmy Wales has called himself this website's sole founder, publicly disputing Larry Sanger's billing as its co-founder.",
+   "Students are warned not to cite this crowd-written reference, though many peek at it first."
+  ],
+  "after": [
+   "This website began in January 2001 as a side project of Nupedia, a slow, expert-reviewed encyclopedia it soon outgrew.",
+   "Clicking the first link in this website's articles over and over led to its 'Philosophy' page for 97% of articles, a February 2016 count found.",
+   "Jimmy Wales has called himself this website's sole founder, publicly disputing Larry Sanger's billing as its co-founder.",
+   "Students are warned not to cite this crowd-written reference, though many peek at it first."
+  ],
+  "changed": [
+   2
+  ],
+  "sources": {
+   "2": "https://en.wikipedia.org/wiki/Wikipedia_philosophy_phenomenon"
+  },
+  "summary": "Replaced the generic donations clue 2 with the 'Getting to Philosophy' phenomenon, which is specific to this site and fun to repeat."
+ },
+ {
+  "id": "zeus",
+  "answer": "Zeus",
+  "category": "Mythology",
+  "before": [
+   "This god swallowed his first wife whole, and later his daughter of wisdom sprang fully armored from his skull.",
+   "He took the form of a swan, a bull and even a shower of gold to pursue mortal women.",
+   "In Greek myth he overthrew his father Cronus and drew the sky as his realm, with brothers ruling sea and underworld.",
+   "Chief of the gods atop Mount Olympus, this sky-father hurls lightning and matches the Roman god Jupiter."
+  ],
+  "after": [
+   "This god swallowed his first wife whole, and later his daughter of wisdom sprang fully armored from his skull.",
+   "He took the form of a swan, a bull and even a shower of gold to pursue mortal women.",
+   "A seated statue of this god at Olympia, almost 40 feet tall and plated with gold and ivory, was one of the Seven Wonders of the Ancient World.",
+   "Chief of the gods atop Mount Olympus, this sky-father hurls lightning and matches the Roman god Jupiter."
+  ],
+  "changed": [
+   3
+  ],
+  "sources": {
+   "3": "https://www.britannica.com/topic/Statue-of-Zeus"
+  },
+  "summary": "Replaced the textbook Cronus-overthrow clue 3 with Phidias's gold-and-ivory statue at Olympia, one of the Seven Wonders, a new angle that is easier than clue 2 but not instant."
+ }
+]

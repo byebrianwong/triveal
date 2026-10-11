@@ -19,7 +19,10 @@
  * rewrites-2026-10-04-round-2.json (round 2), rewrites-2026-10-05.json
  * (round 3), rewrites-2026-10-10.json (round 4),
  * rewrites-2026-10-10-round-5.json, -round-6.json, -round-7.json and
- * rewrites-2026-10-11-round-8.json.
+ * rewrites-2026-10-11-round-8.json. Round 9 (rewrites-2026-10-11-round-9.json)
+ * rewrote the questions still judged "needs work". Round 10
+ * (rewrites-2026-10-11-round-10.json) rewrote 50 questions judged good whose
+ * clues 1-3 included one the judge scored only 2 or 3 of 5 for interest.
  * The current rules
  * for writing and rewriting clues are in lib/questions/README.md, under "What
  * makes a good question". Follow those, not the style of the entries below.
@@ -327,10 +330,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Landmarks",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This arena could reportedly be flooded to stage mock naval battles for the roaring crowds." },
+      { position: 1, text: "Popes have led a Good Friday Way of the Cross at this arena almost every year since 1964, reviving a devotion first set up there in 1750." },
       { position: 2, text: "Beneath its arena floor lay a two-level warren of tunnels and cages, where elevators lifted caged animals up to the surface." },
-      { position: 3, text: "Begun under the emperor Vespasian around AD 72 and finished under his son Titus in AD 80, this arena is also known as the Flavian Amphitheater." },
-      { position: 4, text: "This ancient oval amphitheater is the single most iconic monument of Rome." },
+      { position: 3, text: "This arena could reportedly be flooded to stage mock naval battles for the roaring crowds." },
+      { position: 4, text: "Opened by the emperor Titus in AD 80, this oval amphitheater in Rome is thought to have held about 50,000 spectators." },
     ],
     decoys: [
       { text: "Circus Maximus", eliminatedByClue: 1 },
@@ -527,7 +530,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This composer wrote only one opera, 'Fidelio', which was poorly received in 1805 and revised twice before its final 1814 version became a great success." },
       { position: 2, text: "This composer originally dedicated his Third Symphony to Napoleon, then reportedly tore the title page in half when Napoleon declared himself emperor." },
-      { position: 3, text: "This composer was born in Bonn and moved to Vienna at 21 to study with Joseph Haydn." },
+      { position: 3, text: "Some scholars think a famous piano piece by this composer is named for the wrong woman, because 'Therese' in his now-lost manuscript was misread." },
       { position: 4, text: "This wild-haired composer's Ninth Symphony gave the world the 'Ode to Joy.'" },
     ],
     decoys: [
@@ -1192,8 +1195,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This bell tower holds seven bells, one for each note of the musical scale." },
-      { position: 2, text: "This tower took nearly 200 years to build, and engineers only halted its slow topple in the 1990s." },
-      { position: 3, text: "Legend says Galileo dropped two balls of different weights from its top to show they fall at the same speed." },
+      { position: 2, text: "In World War II, a 23-year-old American sergeant was sent to have this tower shelled if German spotters were using it, but he held back." },
+      { position: 3, text: "In 1934 Mussolini had engineers pour concrete into its foundation to straighten it, but it lurched a few more inches south." },
       { position: 4, text: "This famously tilted white marble bell tower stands beside a cathedral in Tuscany's Piazza dei Miracoli, the Square of Miracles." },
     ],
     decoys: [
@@ -1227,9 +1230,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Cities",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "This city completely surrounds another country — the smallest in the world — inside its own city limits." },
-      { position: 2, text: "Visitors toss about 3,000 euros a day into one of its fountains, and the money goes to a charity that feeds people in need." },
-      { position: 3, text: "Legend says twin brothers raised by a wolf founded it, and it was built across seven hills." },
+      { position: 1, text: "For centuries, people in this city have stuck anonymous satirical verses on a battered ancient statue called Pasquino, which gave English the word 'pasquinade.'" },
+      { position: 2, text: "This city's visitors toss about 3,000 euros a day into one of its fountains, and the money goes to a charity that feeds people in need." },
+      { position: 3, text: "A domed temple in this city, built about 1,900 years ago, still has the world's largest unreinforced concrete dome." },
       { position: 4, text: "Nicknamed the 'Eternal City,' this Italian capital straddles the Tiber River." },
     ],
     decoys: [
@@ -1497,9 +1500,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Space",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This kind of object, if it had the same mass as the Sun, would be only about 6 kilometers across." },
-      { position: 2, text: "Stephen Hawking calculated in 1974 that this kind of object should slowly leak radiation and could eventually evaporate." },
-      { position: 3, text: "The one at the center of our galaxy, Sagittarius A*, holds about four million times the Sun's mass." },
+      { position: 1, text: "Physicist John Wheeler popularized the name for this kind of object in 1967, saying an audience member at one of his talks had suggested it." },
+      { position: 2, text: "This kind of object, if it had the same mass as the Sun, would be only about 6 kilometers across." },
+      { position: 3, text: "Stephen Hawking once bet Kip Thorne that Cygnus X-1 was not this kind of object; he conceded in 1990, and the stake was a Penthouse subscription." },
       { position: 4, text: "This invisible cosmic drain was first photographed in 2019 as a dark circle ringed by glowing gas." },
     ],
     decoys: [
@@ -1587,10 +1590,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Geography",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This mountain is the tallest on Earth that stands alone rather than as part of a range." },
-      { position: 2, text: "Though it sits close to the equator, its summit wears glaciers and snow that are steadily melting away." },
-      { position: 3, text: "Hikers can reach its summit without ropes, passing through rainforest, moorland and alpine desert on the way up." },
-      { position: 4, text: "This snow-capped Tanzanian volcano is the highest point on the whole African continent." },
+      { position: 1, text: "On December 9, 1961, the day Tanganyika became independent, a 'freedom torch' was first lit on this mountain's summit." },
+      { position: 2, text: "This mountain is the tallest on Earth that stands alone rather than as part of a range." },
+      { position: 3, text: "Though this mountain sits close to the equator, its summit wears glaciers and snow that are steadily melting away." },
+      { position: 4, text: "This Tanzanian volcano is the highest point on the whole African continent." },
     ],
     decoys: [
       { text: "Mount Everest", eliminatedByClue: 1 },
@@ -2885,7 +2888,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This god swallowed his first wife whole, and later his daughter of wisdom sprang fully armored from his skull." },
       { position: 2, text: "He took the form of a swan, a bull and even a shower of gold to pursue mortal women." },
-      { position: 3, text: "In Greek myth he overthrew his father Cronus and drew the sky as his realm, with brothers ruling sea and underworld." },
+      { position: 3, text: "A seated statue of this god at Olympia, almost 40 feet tall and plated with gold and ivory, was one of the Seven Wonders of the Ancient World." },
       { position: 4, text: "Chief of the gods atop Mount Olympus, this sky-father hurls lightning and matches the Roman god Jupiter." },
     ],
     decoys: [
@@ -3155,7 +3158,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This musician released 'All Along the Watchtower' in December 1967, months before Jimi Hendrix turned it into a rock classic." },
       { position: 2, text: "In 1997 he played 'Knockin' on Heaven's Door' for Pope John Paul II at a Catholic youth gathering in Bologna, Italy." },
-      { position: 3, text: "At the 1965 Newport Folk Festival, he drew boos from some folk fans when he played a loud set backed by an electric band." },
+      { position: 3, text: "Timothée Chalamet sang this musician's songs live on camera for a 2024 biopic, and the role earned him a Best Actor Oscar nomination." },
       { position: 4, text: "Harmonica around his neck, this American troubadour also recorded 'Like a Rolling Stone.'" },
     ],
     decoys: [
@@ -3191,7 +3194,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This element's soccer-ball-shaped 'buckyball' molecule, made of 60 atoms, won its discoverers the 1996 Nobel Prize in Chemistry." },
       { position: 2, text: "This element makes up about 18 percent of the human body by mass, second only to oxygen." },
-      { position: 3, text: "Scientists define the atomic mass unit as exactly one-twelfth the mass of one atom of this element's most common isotope." },
+      { position: 3, text: "A one-atom-thick sheet of this element, first peeled off with sticky tape, won Andre Geim and Konstantin Novoselov the 2010 Nobel Prize in Physics." },
       { position: 4, text: "With the symbol C, this element makes up diamond, graphite, and the soot in a chimney." },
     ],
     decoys: [
@@ -3227,8 +3230,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This physical constant was first shown to have a measurable value in 1676, when Danish astronomer Ole Rømer timed the eclipses of Jupiter's moon Io." },
       { position: 2, text: "Since 1983 its value has been fixed exactly by definition, and the meter itself is now defined by it." },
-      { position: 3, text: "Because it is finite, we see distant stars as they were long ago, and a few may have burned out since." },
-      { position: 4, text: "Physicists label this cosmic top speed with the letter c." },
+      { position: 3, text: "Computer pioneer Grace Hopper handed out pieces of wire just under a foot long to show the farthest a signal can go in a nanosecond, a limit set by this constant." },
+      { position: 4, text: "Physicists label this constant, about 300,000 kilometers per second, with the letter c." },
     ],
     decoys: [
       { text: "Sound Barrier", eliminatedByClue: 2 },
@@ -3316,8 +3319,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This element was first recognized as a distinct substance in 1766 by Henry Cavendish, who called it 'inflammable air.'" },
-      { position: 2, text: "A heavy form of this element, deuterium, makes the 'heavy water' that slows neutrons in some nuclear reactors." },
-      { position: 3, text: "This gas lifted the Hindenburg airship, whose fiery 1937 crash ended the age of passenger zeppelins." },
+      { position: 2, text: "About 6 of every 10 atoms in your body are this element, yet it makes up only about a tenth of your body weight." },
+      { position: 3, text: "In 1783 the first balloon filled with this gas came down in a French village, where frightened locals attacked it with pitchforks and knives." },
       { position: 4, text: "First on the periodic table with the symbol H, this gas fuses in the Sun to make helium." },
     ],
     decoys: [
@@ -3496,8 +3499,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This bird dives deeper than any other bird, past 500 meters, and can stay under for more than 20 minutes." },
-      { position: 2, text: "In winter storms these birds pack into tight huddles that keep shuffling in slow waves, so the ones on the cold outer edge gradually work their way inside." },
-      { position: 3, text: "The male balances a single egg on his feet through the Antarctic winter, eating nothing for over two months." },
+      { position: 2, text: "Scientists find new colonies of this bird from space, by spotting the brown patches its droppings leave on the ice in satellite images." },
+      { position: 3, text: "In winter storms these birds pack into tight huddles that keep shuffling in slow waves, so the ones on the cold outer edge gradually work their way inside." },
       { position: 4, text: "This Antarctic bird with yellow ear patches starred in an Oscar-winning 2005 documentary about its long march inland to breed." },
     ],
     decoys: [
@@ -3874,8 +3877,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "A Swiss explorer in disguise 'rediscovered' this lost city for the West in 1812." },
-      { position: 2, text: "Carved into sandstone cliffs, this city was the capital of the Nabataeans, desert traders who grew rich from the incense trade." },
-      { position: 3, text: "Visitors reach this city through the Siq, a narrow gorge over a kilometer long that opens onto a towering carved facade." },
+      { position: 2, text: "Bedouin families of the Bdul tribe lived in this city's carved caves and tombs until 1985, when the government began moving them to a new village nearby." },
+      { position: 3, text: "Bullet marks scar a stone urn high on this city's most famous facade, blamed on Bedouin who believed a legend that it hid treasure." },
       { position: 4, text: "This Jordanian wonder, whose Treasury appeared in an Indiana Jones film, is nicknamed the 'Rose City.'" },
     ],
     decoys: [
@@ -3946,8 +3949,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "Until 1904 this plaza bore the name of Long Acre, a London street at the center of the horse-and-carriage trade." },
-      { position: 2, text: "Alfred Eisenstaedt's famous photo of a sailor kissing a woman in white on V-J Day, 1945, was taken in this plaza." },
-      { position: 3, text: "This plaza's stretch of Broadway was closed to cars in 2009 and turned into a pedestrian zone." },
+      { position: 2, text: "In 1928 a moving sign of lit bulbs wrapped around a tower in this plaza began flashing news; its first headline told of Herbert Hoover's win over Al Smith." },
+      { position: 3, text: "Alfred Eisenstaedt's famous photo of a sailor kissing a woman in white on V-J Day, 1945, was taken in this plaza." },
       { position: 4, text: "Named for a newspaper that once headquartered there, this New York City plaza is a neon tourist magnet." },
     ],
     decoys: [
@@ -4540,8 +4543,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This film earned Hans Zimmer his first Oscar, for Best Original Score; his second came 27 years later for 'Dune.'" },
-      { position: 2, text: "This film's stage version, directed by Julie Taymor with giant puppets and masks, is the highest-grossing show in Broadway history." },
-      { position: 3, text: "Elton John and Tim Rice wrote this animated film's songs, and three of them were nominated for the same Best Original Song Oscar." },
+      { position: 2, text: "Disney's 'A-team' of animators chose to work on 'Pocahontas,' expecting it to be the bigger hit, so this film was made by a 'B-team.'" },
+      { position: 3, text: "This film's stage version, directed by Julie Taymor with giant puppets and masks, is the highest-grossing show in Broadway history." },
       { position: 4, text: "This 1994 Disney film about a cub reclaiming his throne at Pride Rock got a photoreal 2019 remake." },
     ],
     decoys: [
@@ -4755,10 +4758,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Kodak created black-and-white IMAX film especially for this movie, making it the first film to shoot scenes in black-and-white IMAX." },
-      { position: 2, text: "This film was adapted from 'American Prometheus,' Kai Bird and Martin J. Sherwin's Pulitzer Prize-winning biography." },
-      { position: 3, text: "Robert Downey Jr. won an Oscar for this film, playing Lewis Strauss, the official who worked to undermine its title figure." },
-      { position: 4, text: "Christopher Nolan's 2023 biopic swept the Oscars, paired in cinemas with 'Barbie.'" },
+      { position: 1, text: "The director wrote this film's whole script in the first person, in its title character's voice, right down to the stage directions." },
+      { position: 2, text: "Kodak created black-and-white IMAX film especially for this movie, making it the first film to shoot scenes in black-and-white IMAX." },
+      { position: 3, text: "The lead role in this film made its star the first Irish-born actor ever to win the Academy Award for Best Actor." },
+      { position: 4, text: "This 2023 Christopher Nolan biopic swept the Oscars and was paired in cinemas with 'Barbie.'" },
     ],
     decoys: [
       { text: "Barbie", eliminatedByClue: 2 },
@@ -4775,7 +4778,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This film's wealthy family lives in a sleek modernist house that was not a real home but a set built for the shoot." },
       { position: 2, text: "In this film a housekeeper makes her rich employer two cheap instant noodles mixed and topped with sirloin, and the noodle maker later posted the recipe in 11 languages." },
-      { position: 3, text: "This film won the Palme d'Or at Cannes in 2019, the first South Korean film ever to take the festival's top prize." },
+      { position: 3, text: "When Donald Trump griped at a 2020 rally about this film winning Best Picture, its U.S. distributor tweeted back: 'Understandable. He can't read.'" },
       { position: 4, text: "Bong Joon-ho's 2019 class satire takes its name from an organism that feeds off a host." },
     ],
     decoys: [
@@ -4864,8 +4867,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This show's working title was 'Montauk,' after the Long Island town where it was first meant to be set." },
-      { position: 2, text: "This show sent Kate Bush's 1985 song 'Running Up That Hill' to No. 1 in the UK in 2022." },
-      { position: 3, text: "This show's telekinetic heroine, raised in a secret lab, is named after the number tattooed on her arm." },
+      { position: 2, text: "This show's title lettering is set in Benguiat, a typeface chosen for its link to early-'80s Stephen King paperbacks." },
+      { position: 3, text: "This show sent Kate Bush's 1985 song 'Running Up That Hill' to No. 1 in the UK in 2022." },
       { position: 4, text: "This Netflix hit revived the career of Winona Ryder and unleashed a demon called the Demogorgon." },
     ],
     decoys: [
@@ -4900,9 +4903,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This cartoon inspired a Broadway musical that earned 12 Tony nominations in 2018, tying for the most that year." },
-      { position: 2, text: "This cartoon first aired as a sneak peek right after Nickelodeon's 1999 Kids' Choice Awards, more than two months before its official premiere." },
+      { position: 2, text: "Ernest Borgnine and Tim Conway, co-stars of the 1960s sitcom McHale's Navy, voiced a pair of elderly superheroes on this cartoon." },
       { position: 3, text: "This cartoon's creator taught marine biology, and many of its characters began in a comic he drew for his students called 'The Intertidal Zone.'" },
-      { position: 4, text: "This cartoon's hero lives in a pineapple under the sea with his pet snail, Gary, next door to his best friend, Patrick the starfish." },
+      { position: 4, text: "This cartoon's hero lives in a pineapple under the sea with his pet snail, Gary, on the same street as his best friend, Patrick the starfish." },
     ],
     decoys: [
       { text: "Rugrats", eliminatedByClue: 2 },
@@ -5026,7 +5029,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This arcade game has a 'kill screen': on level 256 a bug fills half the screen with garbled symbols, so the level can't be finished." },
-      { position: 2, text: "This game's four enemies each hunt differently: one gives direct chase, two try to get in front of you, and one keeps switching between chasing and fleeing." },
+      { position: 2, text: "For this game's 30th anniversary in 2010, Google made its logo playable, and one firm estimated it added 4.8 million hours to people's time on Google." },
       { position: 3, text: "This game's designer, Toru Iwatani, built it around eating because he wanted a game that would draw women and couples into arcades." },
       { position: 4, text: "Blinky, Pinky, Inky, and Clyde hound this 1980 arcade icon around its maze." },
     ],
@@ -5097,7 +5100,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Games",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "This game began in 2017 as a paid co-op mode called Save the World, in which players build defenses against zombie-like monsters called husks." },
+      { position: 1, text: "In October 2019 this game ended a season by vanishing into a black hole, and for more than a day players who logged on saw nothing but the black hole." },
       { position: 2, text: "This game's 2020 concert starring a giant animated Travis Scott drew 12.3 million players at once, a record for the game at the time." },
       { position: 3, text: "A 2020 fight over in-app payments got this game pulled from Apple's and Google's app stores and led to antitrust lawsuits against both companies." },
       { position: 4, text: "Famous for its flossing dances and 'Battle Pass,' this free Epic Games title is a battle-royale craze." },
@@ -5639,7 +5642,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This company's first product was a version of the BASIC programming language for the Altair 8800 computer." },
       { position: 2, text: "This company was founded in 1975 in Albuquerque, New Mexico, and moved to the Seattle area in 1979." },
-      { position: 3, text: "This company's co-founder was ranked the world's richest person by Forbes in most years between 1995 and 2017." },
+      { position: 3, text: "In 2014 this company paid $2.5 billion for Mojang, the Stockholm studio behind Minecraft." },
       { position: 4, text: "Maker of Windows, Office and the Xbox, this tech giant uses a logo of four colored squares." },
     ],
     decoys: [
@@ -5746,7 +5749,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This website began in January 2001 as a side project of Nupedia, a slow, expert-reviewed encyclopedia it soon outgrew." },
-      { position: 2, text: "It runs on donations, famously asking readers for support rather than selling ads." },
+      { position: 2, text: "Clicking the first link in this website's articles over and over led to its 'Philosophy' page for 97% of articles, a February 2016 count found." },
       { position: 3, text: "Jimmy Wales has called himself this website's sole founder, publicly disputing Larry Sanger's billing as its co-founder." },
       { position: 4, text: "Students are warned not to cite this crowd-written reference, though many peek at it first." },
     ],
@@ -5783,7 +5786,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This app absorbed Musical.ly in August 2018, moving all of that app's existing accounts into its own." },
       { position: 2, text: "This app's sister app in China, Douyin, was launched by the same company a year earlier, and the two are kept strictly separate." },
-      { position: 3, text: "This app launched with a 15-second cap on videos, and by 2022 it let users record clips up to 10 minutes long." },
+      { position: 3, text: "In June 2020, two weeks after a deadly border clash with China, India banned this app, which had about 200 million users there." },
       { position: 4, text: "Dances and lip-sync clips go viral on this app whose name evokes a ticking clock." },
     ],
     decoys: [
@@ -5980,7 +5983,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This athlete was adopted by her grandparents as a young child, and has called her grandmother 'Mom' ever since." },
-      { position: 2, text: "In 2023 this gymnast married NFL safety Jonathan Owens." },
+      { position: 2, text: "After Russian hackers leaked her medical records in 2016, this gymnast tweeted that she has ADHD and has taken medicine for it since she was a kid." },
       { position: 3, text: "This gymnast has five skills named after her: two on vault, two on floor and one on the balance beam." },
       { position: 4, text: "Standing just 4 feet 8 inches tall, this American is the most decorated gymnast in history." },
     ],
@@ -6233,7 +6236,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This sandwich was first sold in the U.S. in 1900 at New Haven's Louis' Lunch, says the Library of Congress, though rival towns dispute it." },
       { position: 2, text: "This sandwich sold for five cents apiece at a Wichita, Kansas, chain founded in 1921 and often called the first fast-food chain." },
-      { position: 3, text: "Popeye's freeloading friend Wimpy kept promising to pay on Tuesday for one of these sandwiches today." },
+      { position: 3, text: "The first lab-grown beef version of this sandwich, tasted in London in 2013, was made with $330,000 from Google co-founder Sergey Brin." },
       { position: 4, text: "This sandwich, a grilled beef patty in a bun often topped with cheese, lettuce and ketchup, is a backyard cookout classic." },
     ],
     decoys: [
@@ -6305,7 +6308,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This era's 'father' is often said to be the poet Petrarch, who is also credited with coming up with the idea of the 'Dark Ages.'" },
       { position: 2, text: "Many historians date this era's start to 1401, when Florence held a contest to design new bronze doors for its Baptistery." },
-      { position: 3, text: "Wealthy patrons like the Medici funded its explosion of art, science, and learning." },
+      { position: 3, text: "In 1497, during this era, followers of the friar Savonarola burned mirrors, books and paintings in Florence's Bonfire of the Vanities." },
       { position: 4, text: "Leonardo da Vinci and Michelangelo were geniuses of this cultural 'rebirth' in Europe." },
     ],
     decoys: [
@@ -6574,8 +6577,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This cartoon's longest episode, 2024's 28-minute 'The Sign', builds up to a wedding between the heroine's uncle and her godmother." },
-      { position: 2, text: "This Australian cartoon was America's most-streamed show of 2024, with Nielsen counting about 55.6 billion minutes watched." },
-      { position: 3, text: "Made in Brisbane, this cartoon about a family of dogs is known for leaving the parents who watch it in tears." },
+      { position: 2, text: "The dad in this cartoon is voiced by David McCormack, frontman of the Brisbane rock band Custard." },
+      { position: 3, text: "This Australian cartoon was America's most-streamed show of 2024, with Nielsen counting about 55.6 billion minutes watched." },
       { position: 4, text: "This ABC Australia preschool hit is named after its six-year-old puppy heroine, whose parents are Bandit and Chilli and whose little sister is Bingo." },
     ],
     decoys: [
@@ -6592,9 +6595,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "Nicholas Britell's theme for this show, all clattering piano and strings, became an unlikely earworm and won an Emmy." },
-      { position: 2, text: "This show's patriarch dies suddenly on a plane in the third episode of its final season, as his children say goodbye by phone." },
-      { position: 3, text: "This HBO drama about a feuding media dynasty followed its creator's unmade screenplay about the real Murdoch family." },
-      { position: 4, text: "In it, Kendall, Shiv and Roman Roy claw at each other over who will take over Waystar RoyCo." },
+      { position: 2, text: "Kieran Culkin was first asked to read for cousin Greg on this show, but felt wrong for the part and sent in a tape for Roman instead." },
+      { position: 3, text: "This HBO drama grew out of its creator's unmade screenplay about the real Murdoch family." },
+      { position: 4, text: "In this show, Kendall, Shiv and Roman Roy claw at each other over who will take over Waystar RoyCo." },
     ],
     decoys: [
       { text: "Empire", eliminatedByClue: 2 },
@@ -6610,8 +6613,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "Jodie Foster directed an episode of this anthology series in which a worried mother has a monitoring chip implanted in her young daughter's brain." },
-      { position: 2, text: "This show's very first episode, aired in 2011, has a kidnapper demand that the British prime minister have sex with a pig on live TV." },
-      { position: 3, text: "This show's 2018 interactive film let viewers choose the plot with their remotes, branching toward several different endings." },
+      { position: 2, text: "This show's 2013 episode about a woman who talks to an AI copy of her dead boyfriend was a partial influence on the chatbot app Replika." },
+      { position: 3, text: "This show's very first episode, aired in 2011, has a kidnapper demand that the British prime minister have sex with a pig on live TV." },
       { position: 4, text: "Named for the blank screen of a switched-off device, this anthology includes 'San Junipero' and 'Nosedive'." },
     ],
     decoys: [
@@ -6772,8 +6775,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This rapper first found fame on a Canadian teen drama, playing a basketball star who is shot by a classmate and left using a wheelchair." },
-      { position: 2, text: "He has placed more songs on the Billboard Hot 100 than any other artist in the chart's history." },
-      { position: 3, text: "This rapper's streetwear brand OVO, short for October's Very Own, uses an owl as its best-known logo." },
+      { position: 2, text: "This rapper has placed more songs on the Billboard Hot 100 than any other artist in the chart's history." },
+      { position: 3, text: "The Toronto Raptors named this rapper their global ambassador in 2013, and he once rubbed coach Nick Nurse's shoulders courtside during a 2019 playoff game." },
       { position: 4, text: "'Hotline Bling' and 'God's Plan' belong to this Toronto star, born Aubrey Graham." },
     ],
     decoys: [
@@ -6953,7 +6956,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This company's founders were reportedly inspired by failing to find a cab in Paris on a winter night in 2008." },
       { position: 2, text: "This company launched in San Francisco in 2010 under a longer name and dropped the word 'Cab' after regulators sent it cease-and-desist orders." },
-      { position: 3, text: "This company's co-founder and chief executive, Travis Kalanick, resigned under investor pressure in 2017 after a string of scandals." },
+      { position: 3, text: "In December 2013 Jessica Seinfeld posted a $415 receipt after this company's surge pricing more than octupled fares on a night of snow and hail in Manhattan." },
       { position: 4, text: "This ride-hailing app's name is a German word meaning 'above,' and it is now also a food-delivery giant." },
     ],
     decoys: [
@@ -6989,7 +6992,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "In 2023 thousands of this site's communities went dark in protest at new charges for access to its data." },
       { position: 2, text: "One of this site's forums organized a share-buying campaign in early 2021 that cost hedge funds billions." },
-      { position: 3, text: "This site was founded in 2005 by Steve Huffman and Alexis Ohanian, and its alien mascot is called Snoo." },
+      { position: 3, text: "One of this site's co-founders married tennis star Serena Williams in New Orleans in 2017." },
       { position: 4, text: "Self-described as the front page of the internet, this home of AMAs went public in 2024." },
     ],
     decoys: [
@@ -7077,8 +7080,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Sports",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This sport's drivers endure about five times their body weight in cornering forces and can sweat off two to three kilos in a race." },
-      { position: 2, text: "This series' first world championship race was held at Silverstone in 1950." },
+      { position: 1, text: "From 1950 to 1960, this championship counted the Indianapolis 500 as a points-scoring round, though very few of its European regulars ever raced there." },
+      { position: 2, text: "This series' fastest-ever pit stop, at Qatar in 2023, swapped a car's full set of tyres in just 1.80 seconds." },
       { position: 3, text: "This series' cars make so much downforce that, in theory, they could drive upside down on a tunnel ceiling." },
       { position: 4, text: "This is motorsport's premier open-wheel series, run by the FIA, and its crown jewel is the Monaco Grand Prix." },
     ],
@@ -7133,7 +7136,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This golfer won his first major at twenty-one by twelve strokes, a record margin for that tournament." },
       { position: 2, text: "He held all four professional major titles at the same time, a run that took on his own nickname." },
-      { position: 3, text: "The golfer's 2019 Masters win, eleven years after his previous major, is rated among sport's great comebacks." },
+      { position: 3, text: "At age two, this golfer had a putting contest with Bob Hope on 'The Mike Douglas Show' in 1978." },
       { position: 4, text: "Golf's defining modern player, born Eldrick, has fifteen major championships." },
     ],
     decoys: [
@@ -7528,8 +7531,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "Mark Twain called his novel about this young woman the best of all his books." },
-      { position: 2, text: "A church court condemned this teenager to death, and a church retrial declared her innocent 25 years later." },
-      { position: 3, text: "This teenage farm girl talked her way into an audience with an uncrowned king by describing voices she said came from saints." },
+      { position: 2, text: "Held prisoner at Beaurevoir Castle in 1430, this captive leapt from the top of a tower trying to escape, and survived the fall." },
+      { position: 3, text: "A church court condemned this teenager to death, and a church retrial declared her innocent 25 years later." },
       { position: 4, text: "This peasant girl in armor, burned at the stake in Rouen in 1431, is now a patron saint of France." },
     ],
     decoys: [
@@ -7727,7 +7730,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Two members of Paramore were added to the songwriting credits of one of this singer's hits after listeners noticed its debt to 'Misery Business'." },
       { position: 2, text: "This singer's debut single broke Spotify's record for the most streams in one day by a non-holiday song in January 2021." },
-      { position: 3, text: "She came up through a Disney+ High School Musical series before her first album swept her three Grammys, including Best New Artist." },
+      { position: 3, text: "In July 2021 this singer spoke from the White House press briefing room podium to urge young people to get vaccinated against COVID-19." },
       { position: 4, text: "This pop-punk-leaning singer's albums are Sour and Guts, and her hits include 'vampire'." },
     ],
     decoys: [
@@ -7960,8 +7963,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This sport's highest rank is the only one whose holders can never be demoted; one who keeps losing is expected to retire instead." },
-      { position: 2, text: "Mongolian-born Hakuhō won a record 45 top-division championships in this sport before retiring in 2021." },
-      { position: 3, text: "In this sport, a wrestler loses the instant anything but the soles of his feet touches the clay — even a fingertip will do it." },
+      { position: 2, text: "Wrestlers in this sport are banned from driving, a rule brought in after a serious traffic accident." },
+      { position: 3, text: "Mongolian-born Hakuhō won a record 45 top-division championships in this sport before retiring in 2021." },
       { position: 4, text: "This is Japan's national sport, in which two heavyweight wrestlers in mawashi belts try to force each other out of a straw-edged ring." },
     ],
     decoys: [
@@ -8429,7 +8432,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This hero's mother hid him among a king's daughters, dressed as a girl, to keep him out of a war." },
       { position: 2, text: "Alexander the Great, who claimed descent from this hero through his mother, laid a wreath on his supposed tomb at Troy." },
-      { position: 3, text: "In the Iliad, this hero refuses to fight and sulks in his tent after Agamemnon takes his prize, the captive Briseis." },
+      { position: 3, text: "When old King Priam came to this hero and kissed the hands that had killed his son Hector, the hero gave the body back." },
       { position: 4, text: "This Greek hero died when an arrow from Paris struck the one weak spot on his body, his heel." },
     ],
     decoys: [
@@ -8753,7 +8756,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This spice comes from a sterile plant that sets no seed, so it spreads only when people dig up, divide and replant its bulb-like corms." },
       { position: 2, text: "Each flower gives just three threads of it, so a single pound takes tens of thousands of blossoms." },
-      { position: 3, text: "Iran grows most of the world's supply, and it turns paella and risotto alla milanese golden." },
+      { position: 3, text: "The top band of India's flag is officially this spice's color, called kesari in Hindi, above stripes of white and green." },
       { position: 4, text: "This spice, long the world's most expensive, is made of crimson threads hand-picked from the stigmas of a crocus flower." },
     ],
     decoys: [
@@ -8788,7 +8791,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "In 2008 a specially sterilized version of this dish flew to the International Space Station." },
-      { position: 2, text: "It was traditionally left to ferment through the winter in clay pots buried in the ground." },
+      { position: 2, text: "In its home country, people say this dish's name instead of 'cheese' to smile for photos." },
       { position: 3, text: "Many homes in its country keep a separate refrigerator just for it, and the autumn tradition of making it together is on UNESCO's heritage list." },
       { position: 4, text: "This spicy, sour Korean side dish of fermented cabbage appears at nearly every meal." },
     ],
@@ -9059,7 +9062,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "A seed of this plant, dug from a dry lakebed in China, sprouted after roughly 1,300 years." },
       { position: 2, text: "Its leaves repel water so well that droplets roll off and carry the dirt away — a self-cleaning trick engineers now copy." },
-      { position: 3, text: "It roots in pond mud but holds its pink or white flowers high above the water, which made it a Buddhist symbol of purity." },
+      { position: 3, text: "Sliced crosswise, this plant's crunchy underwater stem shows a wheel of air holes, and it is a common vegetable in Chinese and Japanese cooking." },
       { position: 4, text: "This plant is the national flower of India and gives its name to the cross-legged yoga pose." },
     ],
     decoys: [
@@ -9149,7 +9152,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Scientists rate this storm's strength by the damage it leaves behind, because its winds are so hard to measure directly." },
       { position: 2, text: "The deadliest one in US history tore across Missouri, Illinois and Indiana in March 1925, killing at least 695 people." },
-      { position: 3, text: "The United States gets more of them than any other country — well over a thousand a year." },
+      { position: 3, text: "In 1999 a mobile 'Doppler on Wheels' radar clocked winds of about 300 mph in one near Bridge Creek, Oklahoma — a world record for wind measured by radar." },
       { position: 4, text: "This spinning funnel of wind carries Dorothy's house from Kansas to Oz." },
     ],
     decoys: [
@@ -9202,8 +9205,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "Cataracts clouded this painter's color vision in his seventies; in 1914 he wrote that reds had begun to look muddy, and he had surgery in 1923." },
-      { position: 2, text: "A critic sneered at one of his harbor scenes, and his insult gave a whole art movement its name." },
-      { position: 3, text: "He painted haystacks, poplars and Rouen Cathedral over and over to catch how the light changed through the day." },
+      { position: 2, text: "At his first wife's deathbed in 1879, this painter caught himself studying the blues, yellows and grays on her face, then painted her there." },
+      { position: 3, text: "In 2019 one of this painter's haystack scenes sold for $110.7 million, the first Impressionist work to top $100 million at auction." },
       { position: 4, text: "This French founder of Impressionism is often mixed up with Édouard Manet; in 1865, Salon visitors even praised Manet for this painter's seascapes." },
     ],
     decoys: [
@@ -9382,8 +9385,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "In 1901 this hormone became the first ever crystallized in pure form, a feat credited to Japanese chemist Jokichi Takamine." },
-      { position: 2, text: "Doctors give it every three to five minutes during CPR to try to restart a stopped heart." },
-      { position: 3, text: "It is pumped out by the glands that sit on top of your kidneys, which give it its name." },
+      { position: 2, text: "This hormone's official U.S. drug name is a different word, because its common name was too close to a drug company's trademark." },
+      { position: 3, text: "Doctors give this hormone every three to five minutes during CPR to try to restart a stopped heart." },
       { position: 4, text: "This 'fight or flight' hormone is what an EpiPen injects to stop a severe allergic reaction." },
     ],
     decoys: [
@@ -9490,8 +9493,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This mythical figure's name is usually read as 'forethought,' and his brother's as 'afterthought.'" },
-      { position: 2, text: "Mary Shelley's 'Frankenstein' carries his name in its subtitle, casting Victor as a modern version of him." },
-      { position: 3, text: "As punishment, Zeus chained him to a rock where an eagle ate his liver every day, only for it to grow back each night." },
+      { position: 2, text: "Paul Manship's gilded 1934 statue of this figure stands beside the ice rink at Rockefeller Center in New York." },
+      { position: 3, text: "Mary Shelley's 'Frankenstein' carries his name in its subtitle, casting Victor as a modern version of him." },
       { position: 4, text: "This Titan stole fire from the gods and gave it to humankind." },
     ],
     decoys: [
@@ -9544,8 +9547,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "Research paid for by this viral campaign helped scientists link a gene, NEK1, to a disease of the nerves." },
-      { position: 2, text: "Pete Frates, a former Boston College baseball captain with a nerve disease, helped turn it into a viral phenomenon." },
-      { position: 3, text: "In the summer of 2014 it raised more than $100 million for one charity in about a month." },
+      { position: 2, text: "Pete Frates, a former Boston College baseball captain with a nerve disease, helped turn this campaign into a viral phenomenon." },
+      { position: 3, text: "When Mark Zuckerberg nominated Bill Gates for this in 2014, Gates designed and built a rope-pulled rig to do it." },
       { position: 4, text: "This viral stunt had people dump freezing water over their heads to raise money for ALS research." },
     ],
     decoys: [
@@ -9581,7 +9584,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This play is the longest its author wrote, and Kenneth Branagh's 1996 film of the full text runs about four hours." },
       { position: 2, text: "This play's title role has often been played by women, including Sarah Bernhardt in 1899." },
-      { position: 3, text: "This play gave English the phrases 'to thine own self be true' and 'the lady doth protest too much.'" },
+      { position: 3, text: "A biographer wrote in 1709 that this play's author acted in it himself, and that its Ghost was the best role he ever played." },
       { position: 4, text: "This Shakespeare tragedy follows the Prince of Denmark, who asks, 'To be, or not to be.'" },
     ],
     decoys: [
@@ -9724,9 +9727,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "A German toy company and a Brooklyn shopkeeper both started making this toy around 1902, apparently independently of each other." },
-      { position: 2, text: "This toy got its name after a 1902 hunting trip on which a U.S. president refused to shoot a captured animal tied to a tree." },
-      { position: 3, text: "Winnie-the-Pooh began as a real one of these toys, bought at Harrods in 1921 for Christopher Robin Milne's first birthday." },
-      { position: 4, text: "This cuddly stuffed toy, often brown and button-eyed, has been a bedtime companion for generations of children." },
+      { position: 2, text: "In 1907 a Michigan priest told his parish that this new toy, unlike dolls, threatened little girls' maternal instincts." },
+      { position: 3, text: "After the Titanic sank in 1912, a British retailer ordered black versions of this toy from Steiff, and only 494 were made." },
+      { position: 4, text: "This toy got its name after a 1902 hunting trip on which a U.S. president refused to shoot a captured animal tied to a tree." },
     ],
     decoys: [
       { text: "Rag doll", eliminatedByClue: 2 },
@@ -9832,8 +9835,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This TV show's star, who holds a master's degree in electrical engineering, co-created it; its first episode aired on New Year's Day 1990." },
-      { position: 2, text: "Its title character appeared at the London 2012 Olympics opening ceremony, playing one repeated note of 'Chariots of Fire.'" },
-      { position: 3, text: "In one episode its title character drives home from a sale sitting in an armchair strapped to his car's roof." },
+      { position: 2, text: "This show's title character wasn't named until after its first episode was made, and other vegetable names, such as Mr. Cauliflower, were considered." },
+      { position: 3, text: "This show's title character appeared at the London 2012 Olympics opening ceremony, playing one repeated note of 'Chariots of Fire.'" },
       { position: 4, text: "This nearly silent British sitcom stars Rowan Atkinson as a bumbling, childlike man in a tweed jacket." },
     ],
     decoys: [
