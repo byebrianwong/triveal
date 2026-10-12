@@ -159,6 +159,10 @@ Two things keep it honest:
 | `results/calibration.md` | Agreement with Brian's grades |
 | `results/graded-fixes.md` | Suggested rewrites for the graded questions |
 | `results/graded.json` | Scores for the graded cases, and their cache |
+| `factCheck.ts` | The fact checker's prompt, answer checks and report. Pure code, unit tested. |
+| `results/factcheck.json` | Every fact check: verdict, evidence and suggested fix for each clue text |
+| `results/factcheck.md` | Clues still in the bank whose fact check found a problem |
+| `../../../pipeline/fact-check.ts` | The fact-check runner |
 | `../../../pipeline/eval-clues.ts` | The runner |
 
 ## Re-runs and second passes
@@ -172,10 +176,43 @@ Bump `RUBRIC_VERSION` to force that without a text change.
 The results are committed, so the next person or agent doesn't pay to
 re-score questions that haven't changed.
 
-A second set of judging criteria (a fact-checking pass, say) would be its own
-rubric file and its own results file, with the same export and ingest steps.
-Each result records the rubric version that judged it, so skipping works per
-pass. It isn't built yet; add it when there's a second rubric to run.
+The fact check below is a separate pass with its own results file.
+
+## Fact check
+
+The judge's `fact` field comes from the model's memory. It flags some true
+facts as doubtful and passes some false ones. `pipeline/fact-check.ts` is a
+second pass that checks each clue against sources a subagent opens on the
+web. It runs inside a Claude Code session, in the same export and ingest
+pattern:
+
+```bash
+pnpm pipeline pipeline/fact-check.ts --export pipeline/data/fact-tasks   # every unchecked clue
+pnpm pipeline pipeline/fact-check.ts --export pipeline/data/fact-tasks --ids tea,boxing
+#   ... one fresh subagent per checker-NNN.txt, with web search; each writes checker-NNN.answer.json ...
+pnpm pipeline pipeline/fact-check.ts --ingest pipeline/data/fact-tasks
+```
+
+Each checker gets 12 questions by default (`--batch` changes that) and
+about 2-4 searches per question. Web search is capped per session, so keep
+about 10 checkers running at once.
+
+Each clue gets a verdict: `ok`, `loose` (true in substance but overstated or
+too precise), `wrong`, or `unverified`, with the evidence and its URL. For
+loose and wrong clues the checker suggests a fix. The results go into
+`results/factcheck.json`, and `results/factcheck.md` lists every clue still
+in the bank whose check found a problem. Ingest never edits the bank: read
+each problem, check the fix, and edit the clue by hand.
+
+A check applies to the clue's exact text. Any edit makes the clue unchecked
+again, so the next export picks it up. A clue whose new text is the
+checker's own fix counts as checked.
+
+The two passes meet in one place. When a source has confirmed a clue, the
+judge's doubt about that clue raises no flag, and a question held back only
+for such doubts is left off the bank report's list of questions to fix.
+`pnpm eval-clues` reads `factcheck.json` for this whenever it writes the
+reports.
 
 ## Rewriting clues in bulk
 
@@ -211,7 +248,8 @@ same export and ingest pattern:
 
 ## Limits
 
-- The fact check has no sources. It catches some errors, not all.
+- The judge's fact field has no sources. The fact check has sources, but a
+  checker can still misread one, so read each fix before applying it.
 - Models know more trivia than people do, so "typical player" numbers are
   estimates. The simulated player gives a real measurement, but of a model.
 - The calibration set is small: 18 cases from two grading sessions.

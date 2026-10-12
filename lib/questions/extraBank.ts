@@ -141,7 +141,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This painter worked as an art dealer, a teacher in England and a lay preacher among Belgian coal miners before taking up art at 27." },
       { position: 2, text: "This painter's younger brother Theo, an art dealer, paid his bills for years, and more than 650 of his letters to Theo survive." },
-      { position: 3, text: "This painter made about 2,100 artworks in just over a decade, most of them in his last two years, yet sold almost nothing while alive." },
+      { position: 3, text: "This painter made about 2,100 artworks in just over a decade, most of his oils in his last two years, yet sold almost nothing while alive." },
       { position: 4, text: "This Dutch Post-Impressionist painted 'The Starry Night' and 'Sunflowers' and cut off part of his own ear." },
     ],
     decoys: [
@@ -249,7 +249,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This continent has no native land mammals, and its largest animal that lives only on land is a wingless midge a few millimeters long." },
       { position: 2, text: "Its ice sheet is nearly 5 kilometers thick at its deepest and holds well over half of the world's fresh water." },
-      { position: 3, text: "Under a 1959 treaty no nation may stake a new claim to it, and it has no permanent residents — only rotating crews of scientists." },
+      { position: 3, text: "Under a 1959 treaty no nation may stake a new claim to it, and it has no permanent residents — only rotating crews of scientists and support staff." },
       { position: 4, text: "Home to emperor penguins and the South Pole, it is the southernmost continent." },
     ],
     decoys: [
@@ -321,7 +321,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "On a sunny day, the top of this landmark can trace a loop about 15 centimeters across as the sun moves across the sky and heats its iron." },
       { position: 2, text: "Its designer built himself a small private apartment near the top, where he once hosted Thomas Edison." },
-      { position: 3, text: "Built as a temporary showpiece for an 1889 world's fair, it was nearly scrapped but survived because it made a superb radio antenna." },
+      { position: 3, text: "Built as a temporary showpiece for an 1889 world's fair, it outlived its 20-year permit largely because it made a superb radio antenna." },
       { position: 4, text: "This wrought-iron landmark on the Champ de Mars has become the best-known symbol of Paris." },
     ],
     decoys: [
@@ -356,7 +356,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This monument's sculptor reportedly told a French senator in 1876 that his own mother had been the model for its face." },
-      { position: 2, text: "Its copper skin was a penny-bright reddish brown when new; once it turned green, a 1906 plan to paint it was dropped after protests." },
+      { position: 2, text: "Its copper skin was a penny-bright reddish brown when new; as it began turning green, a 1906 plan to paint it was dropped after protests." },
       { position: 3, text: "Its internal framework was engineered with help from Gustave Eiffel, and it crossed the Atlantic packed in 350 pieces." },
       { position: 4, text: "This robed figure, France's gift to America, greeted generations of immigrants sailing into New York." },
     ],
@@ -409,7 +409,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "This animal's newborn is pink, hairless, and about the size of a stick of butter — roughly a nine-hundredth of its mother's weight." },
+      { position: 1, text: "This animal's newborn is pink, nearly hairless, and about the size of a stick of butter — roughly a nine-hundredth of its mother's weight." },
       { position: 2, text: "For about a century, scientists argued whether it was a raccoon relative or a bear, until DNA studies in 1985 placed it with the bears." },
       { position: 3, text: "A sixth 'finger' formed from an enlarged wrist bone helps this animal grip the stalks it eats." },
       { position: 4, text: "This bamboo-eating bear from China's misty highlands is the black-and-white emblem of the WWF." },
@@ -463,7 +463,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "This animal is thought to 'hear' distant rumbles through the soles of its feet, picking up ground vibrations from miles away." },
+      { position: 1, text: "This animal is thought to 'hear' distant rumbles through the soles of its feet, picking up ground vibrations that may carry more than a mile." },
       { position: 2, text: "This animal grows six sets of molars in its life, and when the last set wears out it can starve." },
       { position: 3, text: "This animal can recognize itself in a mirror, and it seems to mourn its dead, returning to touch their bones." },
       { position: 4, text: "This gray giant, with big flapping ears and ivory tusks, comes in African and Asian kinds." },
@@ -555,7 +555,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This board game has more possible games than there are atoms in the observable universe; Claude Shannon put the figure at about 10 to the 120th power." },
       { position: 2, text: "This game grew out of India's chaturanga, known by the 600s, in which the piece that became its most powerful could move just one square diagonally." },
-      { position: 3, text: "In 1997 an IBM computer became the first to beat this game's reigning world champion in a match." },
+      { position: 3, text: "In 1997 an IBM computer became the first to beat this game's reigning world champion in a match at standard tournament time controls." },
       { position: 4, text: "In this two-player strategy game, each side marshals pawns, knights, bishops, rooks, a queen, and a king." },
     ],
     decoys: [
@@ -609,7 +609,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "A tagged female of this fish, nicknamed Nicole, swam from South Africa to Australia and back in under nine months." },
       { position: 2, text: "Warmer-bodied than most fish, it can rocket its whole body clear out of the water to ambush a seal from below." },
-      { position: 3, text: "It grows and sheds thousands of serrated teeth over its life, set in replaceable rows, yet has never survived long in a tank." },
+      { position: 3, text: "It grows and sheds thousands of serrated teeth over its life, set in replaceable rows, and no aquarium has kept one longer than 198 days." },
       { position: 4, text: "The huge predatory fish behind the movie 'Jaws,' it is named for its pale underside." },
     ],
     decoys: [
@@ -645,7 +645,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Hokusai gave this peak a whole series of woodblock prints, among them one of a towering, claw-like wave." },
       { position: 2, text: "On its northwestern flank lies Aokigahara, a forest nicknamed the Sea of Trees that grows on lava from an eruption in 864." },
-      { position: 3, text: "An active volcano that last erupted in 1707, its near-perfect symmetrical cone is a sacred site that draws hundreds of thousands of climbers each summer." },
+      { position: 3, text: "An active volcano that last erupted in 1707, its near-perfect symmetrical cone is a sacred site that draws around 200,000 climbers each summer." },
       { position: 4, text: "This snow-capped volcano is Japan's most famous mountain and a national symbol." },
     ],
     decoys: [
@@ -662,7 +662,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This site's sacred Intihuatana stone was chipped in 2000 when a crane fell on it during the filming of a beer commercial." },
-      { position: 2, text: "Built around 1450 and abandoned barely a century later, it slipped past the Spanish conquistadors entirely." },
+      { position: 2, text: "Built by the Incas in the 1400s and abandoned around the time of the Spanish conquest, it seems never to have been found by the conquistadors." },
       { position: 3, text: "American explorer Hiram Bingham brought this site to the world's attention in 1911, after a local farmer named Melchor Arteaga guided him up to it." },
       { position: 4, text: "This mist-wrapped stone citadel is the most famous ruin of the Inca Empire." },
     ],
@@ -699,7 +699,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This naturalist spent eight years studying barnacles, enough to fill four volumes on the living and fossil kinds." },
       { position: 2, text: "Before proposing to his cousin Emma Wedgwood, he listed marriage's pros and cons, deciding a wife would be 'better than a dog anyhow.'" },
-      { position: 3, text: "He had his world-changing theory worked out some twenty years before he finally published it." },
+      { position: 3, text: "He first hit on his world-changing theory in 1838, some twenty years before he finally published it." },
       { position: 4, text: "His 1859 book 'On the Origin of Species' laid out the theory of evolution." },
     ],
     decoys: [
@@ -751,7 +751,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Sports",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "At the 1936 Berlin Olympics this sport's first gold-medal game was played outdoors on a converted clay tennis court in driving rain." },
+      { position: 1, text: "At the 1936 Berlin Olympics this sport's first gold-medal game was played outdoors on a dirt tennis court in driving rain." },
       { position: 2, text: "This sport's first goals were two peach containers hung from a gym balcony rail with their bottoms still in, so the ball had to be retrieved after every score." },
       { position: 3, text: "Muggsy Bogues, at 5 feet 3 inches the shortest player ever in this sport's top U.S. league, played 14 seasons in it." },
       { position: 4, text: "In this sport, players dribble, shoot free throws and dunk, and Michael Jordan and LeBron James are among its greatest stars." },
@@ -772,7 +772,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "This animal sometimes uses tools: in Shark Bay, Australia, some wear marine sponges on their snouts to shield them while probing the seafloor." },
       { position: 2, text: "It sleeps with only half its brain at a time, keeping one eye open so it can still surface for air." },
       { position: 3, text: "Each one has its own signature whistle that others use much like a name." },
-      { position: 4, text: "This sleek, intelligent toothed whale often rides the bow waves of boats, and one starred on TV as Flipper." },
+      { position: 4, text: "This sleek, intelligent toothed whale often rides the bow waves of boats, and several of them took turns playing TV's Flipper." },
     ],
     decoys: [
       { text: "Porpoise", eliminatedByClue: 3 },
@@ -807,7 +807,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "A green alga not known to grow anywhere else lives in this mammal's fur, tinting its coat a mossy green." },
       { position: 2, text: "Its digestion is so slow that a single leafy meal can take weeks to break down." },
-      { position: 3, text: "It climbs down from the treetops only about once a week — to relieve itself — and can hold its breath longer than a dolphin." },
+      { position: 3, text: "It climbs down from the treetops only about once a week — to relieve itself — and is reported to hold its breath underwater for up to 40 minutes." },
       { position: 4, text: "This famously slow-moving Central and South American mammal dangles upside down from branches by long, curved claws." },
     ],
     decoys: [
@@ -823,7 +823,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "In Asia this big cat survives in the wild only in and around India's Gir Forest, in the state of Gujarat." },
+      { position: 1, text: "In Asia this big cat survives in the wild only in India's state of Gujarat, where the Gir Forest is its main stronghold." },
       { position: 2, text: "This cat can rest up to 20 hours a day, and a male who takes over a group often kills the cubs fathered by his rival." },
       { position: 3, text: "This cat's roar can be heard as far as five miles away." },
       { position: 4, text: "Nicknamed 'king of the jungle,' this big tawny African cat is a byword for courage and royalty." },
@@ -844,7 +844,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "Nearly all of this metal ever mined would fit inside about four and a half Olympic swimming pools, and much of it was forged in colliding neutron stars." },
       { position: 2, text: "This metal is so soft that a single ounce can be beaten into a sheet covering a hundred square feet, and it never rusts or tarnishes." },
       { position: 3, text: "Thin flakes of this metal are sprinkled on luxury desserts as an edible garnish, and they pass through the body undigested." },
-      { position: 4, text: "This dense, shiny yellow precious metal fills central-bank vaults and hangs around the necks of Olympic champions." },
+      { position: 4, text: "This dense, shiny yellow precious metal fills central-bank vaults and plates the medals hung around Olympic champions' necks." },
     ],
     decoys: [
       { text: "Silver", eliminatedByClue: 2 },
@@ -880,7 +880,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "The historian Josephus wrote that this lake threw up floating lumps of black bitumen the shape and size of headless bulls." },
       { position: 2, text: "Its shores are the lowest dry land on Earth, more than 400 meters below the oceans' surface, and its water level drops about a meter a year." },
       { position: 3, text: "Its water is about 9.6 times saltier than the ocean, too salty for fish or water plants; only microbes survive in it." },
-      { position: 4, text: "This landlocked salt lake between Jordan and Israel is famous for mineral-rich mud and effortless floating." },
+      { position: 4, text: "This landlocked salt lake bordered by Jordan, Israel and the West Bank is famous for mineral-rich mud and effortless floating." },
     ],
     decoys: [
       { text: "Great Salt Lake", eliminatedByClue: 4 },
@@ -933,7 +933,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This monument was sold at auction in 1915 for £6,600 to a local man, who gave it to the nation three years later." },
       { position: 2, text: "Some of this monument's stones were hauled about 140 miles from the hills of Wales, though no one is certain how." },
-      { position: 3, text: "Put up around 5,000 years ago, its great stones line up with the sunrise on the longest day of the year." },
+      { position: 3, text: "Begun around 5,000 years ago, its great stones line up with the sunrise on the longest day of the year." },
       { position: 4, text: "This prehistoric circle of massive standing stones is one of the world's most famous ancient monuments." },
     ],
     decoys: [
@@ -949,7 +949,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Landmarks",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This landmark stood as the tallest structure people had ever built for more than 3,800 years, until an English cathedral spire passed it in 1311." },
+      { position: 1, text: "This landmark stood as the tallest structure people had ever built for about 3,800 years, until a medieval English cathedral spire finally passed it." },
       { position: 2, text: "This monument was once faced in white limestone polished until it shone, but by the 1800s most of those casing stones had been taken for other building work." },
       { position: 3, text: "The only one of the seven wonders of the ancient world still standing, it was built from over two million blocks of stone." },
       { position: 4, text: "This tomb of the pharaoh Khufu is the largest of the three famous royal tombs at a desert site in Greater Cairo." },
@@ -1059,7 +1059,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This mammal's drab brown fur glows blue-green under ultraviolet light, a trait scientists first reported in 2020." },
       { position: 2, text: "It hunts with eyes, ears, and nose all sealed shut, sensing the faint electric fields of prey through its soft, leathery snout." },
-      { position: 3, text: "Native to Australia, it has no stomach and no teeth, mashing food with bits of gravel it scoops up while feeding." },
+      { position: 3, text: "Native to Australia, it has no true stomach and, as an adult, no teeth, mashing food on horny pads inside its bill." },
       { position: 4, text: "This duck-billed, beaver-tailed, web-footed oddity so baffled naturalists that the first specimen was dismissed as a hoax." },
     ],
     decoys: [
@@ -1078,7 +1078,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "This animal may sleep as little as half an hour a day, and its heart can weigh about 11 kilograms." },
       { position: 2, text: "Its tongue is nearly half a meter long and a dark blue-purple, a color thought to guard against sunburn while it feeds." },
       { position: 3, text: "Its mother gives birth standing up, so a newborn starts life with a drop of up to two meters to the ground." },
-      { position: 4, text: "This spotted African browser reaches leaves high in acacia trees that nothing else can touch." },
+      { position: 4, text: "This spotted African browser reaches leaves high in acacia trees that few other animals can touch." },
     ],
     decoys: [
       { text: "Ostrich", eliminatedByClue: 1 },
@@ -1095,7 +1095,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This world's name was first suggested in 1930 by an 11-year-old Oxford schoolgirl, over breakfast with her grandfather." },
       { position: 2, text: "Smaller even than Earth's own Moon, it takes about 248 Earth years to loop around the Sun just once." },
-      { position: 3, text: "A 2015 flyby beamed back photos of a vast heart-shaped glacier of frozen nitrogen on its surface." },
+      { position: 3, text: "A 2015 flyby beamed back photos of a vast heart-shaped bright patch, its western lobe a glacier of frozen nitrogen." },
       { position: 4, text: "This icy world, discovered in 1930, counted as the ninth planet until it was reclassified as a dwarf planet in 2006." },
     ],
     decoys: [
@@ -1130,7 +1130,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This optical sight is different for every viewer: no two people see exactly the same one, since it depends on where the light meets each person's eyes." },
-      { position: 2, text: "It is really a full circle of light, but from the ground you only ever see the top arc." },
+      { position: 2, text: "It is really a full circle of light, but from the ground the horizon usually hides all but the top arc." },
       { position: 3, text: "Sometimes a fainter second one appears just outside it, with its colors in reverse order." },
       { position: 4, text: "This arc of red-through-violet colors stretches across the sky when the sun shines during or after rain." },
     ],
@@ -1203,7 +1203,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This bell tower holds seven bells, one for each note of the musical scale." },
       { position: 2, text: "In World War II, a 23-year-old American sergeant was sent to have this tower shelled if German spotters were using it, but he held back." },
-      { position: 3, text: "In 1934 Mussolini had engineers pour concrete into its foundation to straighten it, but it lurched a few more inches south." },
+      { position: 3, text: "Work on this tower began in 1173, then stopped for almost a century during wars with Genoa, Lucca and Florence, so it took about two centuries to finish." },
       { position: 4, text: "This famously tilted white marble bell tower stands beside a cathedral in Tuscany's Piazza dei Miracoli, the Square of Miracles." },
     ],
     decoys: [
@@ -1401,7 +1401,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This animal can seal itself in and sleep through dry spells; one glued to a card at the British Museum in 1846 woke up about four years later." },
       { position: 2, text: "Its tongue is a ribbon set with up to 25,000 tiny teeth, and most land-dwelling kinds are both male and female at once." },
-      { position: 3, text: "It glides on a single muscular foot, and its slime lets it crawl along a razor's edge unharmed." },
+      { position: 3, text: "It glides on a single muscular foot so sensitive and controlled that it can creep over a razor blade unharmed." },
       { position: 4, text: "This slow, shell-carrying mollusc leaves a shimmering trail and is a close cousin of the slug." },
     ],
     decoys: [
@@ -1436,7 +1436,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This animal's largest species can grow more than 30 centimeters long, and a record one caught on Cameroon's Sanaga River in 1989 weighed 3.66 kilograms." },
-      { position: 2, text: "One North American species of this animal can freeze solid in winter, its heart stopped, and then thaw back to life in spring." },
+      { position: 2, text: "One North American species of this animal can let two-thirds of its body water turn to ice in winter, its heart stopped, and then thaw back to life in spring." },
       { position: 3, text: "This animal rarely drinks by mouth; it soaks up water through its skin, especially through a thin patch on its belly." },
       { position: 4, text: "This hopping amphibian croaks by night near ponds and snatches insects with a long, sticky tongue." },
     ],
@@ -1509,7 +1509,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Physicist John Wheeler popularized the name for this kind of object in 1967, saying an audience member at one of his talks had suggested it." },
       { position: 2, text: "This kind of object, if it had the same mass as the Sun, would be only about 6 kilometers across." },
-      { position: 3, text: "Stephen Hawking once bet Kip Thorne that Cygnus X-1 was not this kind of object; he conceded in 1990, and the stake was a Penthouse subscription." },
+      { position: 3, text: "The film Interstellar's giant spinning one of these, called Gargantua, was rendered using equations physicist Kip Thorne sent to the visual effects team." },
       { position: 4, text: "This invisible cosmic drain was first photographed in 2019 as a dark circle ringed by glowing gas." },
     ],
     decoys: [
@@ -1526,7 +1526,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "Each molecule of this compound is bent, with its two outer atoms set about 104.5 degrees apart." },
-      { position: 2, text: "Henry Cavendish found in 1781 that burning hydrogen in air produces this substance, helping show it is a compound, not an element." },
+      { position: 2, text: "Henry Cavendish found in 1781 that burning hydrogen in air produces this substance, a result Lavoisier soon used to show it is a compound." },
       { position: 3, text: "A heavy form of this substance, made with deuterium, was the target of Allied sabotage raids on a Norwegian plant during World War II." },
       { position: 4, text: "This clear, tasteless liquid, vital to all known life, falls as rain and fills the oceans." },
     ],
@@ -1581,7 +1581,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This phenomenon's signal races along a wire at a large fraction of the speed of light, even though the particles carrying it barely crawl." },
       { position: 2, text: "In the 1780s Luigi Galvani made the legs of dead frogs twitch with this, which fed popular talk of bringing the dead back to life." },
-      { position: 3, text: "In September 1882, Pearl Street Station began selling this to paying customers in lower Manhattan." },
+      { position: 3, text: "In September 1882, Pearl Street Station began supplying this to customers in lower Manhattan, though the first bill went out in January 1883." },
       { position: 4, text: "This form of energy lights our bulbs and runs our devices, measured in volts and amps." },
     ],
     decoys: [
@@ -1599,7 +1599,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "On December 9, 1961, the day Tanganyika became independent, a 'freedom torch' was first lit on this mountain's summit." },
       { position: 2, text: "This mountain is the tallest on Earth that stands alone rather than as part of a range." },
-      { position: 3, text: "Though this mountain sits close to the equator, its summit wears glaciers and snow that are steadily melting away." },
+      { position: 3, text: "Though it sits just south of the equator, this mountain lost about 82 percent of its summit ice between 1912 and 2000." },
       { position: 4, text: "This Tanzanian volcano is the highest point on the whole African continent." },
     ],
     decoys: [
@@ -1634,9 +1634,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This island chain's largest island grew by about 875 acres in 2018, when lava from an erupting volcano poured into the sea." },
-      { position: 2, text: "The most remote major island chain on Earth, it lies more than 2,000 miles from the nearest continent." },
+      { position: 2, text: "One of the most isolated island chains on Earth, it lies about 2,390 miles from California, the nearest mainland." },
       { position: 3, text: "This is the only U.S. state with a royal palace, where its last queen was held prisoner after the monarchy fell." },
-      { position: 4, text: "This tropical Pacific state, birthplace of surfing and the greeting 'aloha,' was the 50th to join the U.S." },
+      { position: 4, text: "This tropical Pacific state, where ancient chiefs rode the surf and 'aloha' is the greeting, was the 50th to join the U.S." },
     ],
     decoys: [
       { text: "Alaska", eliminatedByClue: 3 },
@@ -1654,7 +1654,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "This landmark's clock is fine-tuned by stacking old penny coins on its pendulum; each one makes it gain about 0.4 seconds a day." },
       { position: 2, text: "Its great bell cracked about two months after it first rang in July 1859, and for three years it was taken out of commission." },
       { position: 3, text: "Its tower was renamed the Elizabeth Tower in 2012 to mark the Diamond Jubilee of Queen Elizabeth II." },
-      { position: 4, text: "This iconic clock tower beside the River Thames is one of London's most recognizable sights." },
+      { position: 4, text: "Though strictly the name of a bell, this is what most people call the clock tower beside the River Thames, one of London's best-known sights." },
     ],
     decoys: [
       { text: "Leaning Tower of Pisa", eliminatedByClue: 2 },
@@ -1708,7 +1708,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "This city's Arabic name is often translated as 'the Victorious,' and it is nicknamed 'the City of a Thousand Minarets.'" },
       { position: 2, text: "In its 'City of the Dead' cemetery, thousands of people live and work alongside the graves." },
       { position: 3, text: "Its Khan el-Khalili bazaar grew from a khan built in the 1380s on the spot where the Fatimid caliphs' tomb was demolished." },
-      { position: 4, text: "This sprawling Egyptian capital is the biggest city in both Africa and the Middle East." },
+      { position: 4, text: "This sprawling Egyptian capital is the heart of the largest urban area in the Arab world and, by most estimates, in Africa." },
     ],
     decoys: [
       { text: "Baghdad", eliminatedByClue: 3 },
@@ -1725,7 +1725,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This city's sixth-century underground cistern, its roof held up by 336 marble columns, was a filming location for the Bond film 'From Russia with Love.'" },
       { position: 2, text: "This city was the capital of four empires over nearly 16 centuries, yet today it is not even the capital of its own country." },
-      { position: 3, text: "This city's covered market, with 61 streets and over 4,000 shops, has been trading since the 15th century." },
+      { position: 3, text: "This city's covered market, with 61 streets and roughly 3,000 to 4,000 shops, has been trading since the 15th century." },
       { position: 4, text: "This Turkish city on the Bosphorus, home to the Hagia Sophia and the Blue Mosque, is the nation's largest." },
     ],
     decoys: [
@@ -1762,7 +1762,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "This Roman was kidnapped by pirates as a young man; once his ransom was paid, he hunted them down and had them crucified." },
       { position: 2, text: "This Roman wrote his own account of conquering Gaul, referring to himself in the third person throughout." },
       { position: 3, text: "This Roman's calendar reform gave Europe a 365-day year with a leap day every fourth year, used for more than 1,600 years." },
-      { position: 4, text: "Betrayed by his friend Brutus, this Roman ruler is remembered for the dying words 'Et tu, Brute?'" },
+      { position: 4, text: "Betrayed by his friend Brutus, this Roman ruler was given the dying words 'Et tu, Brute?' by Shakespeare." },
     ],
     decoys: [
       { text: "Augustus", eliminatedByClue: 1 },
@@ -1797,7 +1797,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This inventor said he could design machines entirely in his head and test-run them there before building a single part." },
       { position: 2, text: "He fed New York's pigeons at all hours, left his hotel windows open for them, and said of one white bird, 'I loved that pigeon.'" },
-      { position: 3, text: "George Westinghouse bought this inventor's alternating-current motor patents in 1888, arming him for the 'War of the Currents' against Edison." },
+      { position: 3, text: "George Westinghouse licensed this inventor's alternating-current motor patents in 1888, arming his company for the 'War of the Currents' against Edison." },
       { position: 4, text: "A unit of magnetic strength and an electric-car company both carry this eccentric inventor's name." },
     ],
     decoys: [
@@ -1851,7 +1851,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This cat is a strong swimmer, unlike most of its relatives, and can cross rivers several miles wide." },
       { position: 2, text: "Vets who shave this cat for surgery find the pattern of its coat repeated on its bare skin." },
-      { position: 3, text: "About three-quarters of the world's wild population of this cat lives in India." },
+      { position: 3, text: "About two-thirds of the world's wild population of this cat lives in India." },
       { position: 4, text: "This orange-and-black striped predator of Asia's forests is an endangered emblem of the wild." },
     ],
     decoys: [
@@ -1867,7 +1867,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "A group of these African grazers is called a 'dazzle', and one species is named after Jules Grévy, a French president who received one as a gift from Abyssinia in the 1880s." },
+      { position: 1, text: "A group of these African grazers is sometimes called a 'dazzle', and one species is named after Jules Grévy, a French president who received one as a gift from Abyssinia in the 1880s." },
       { position: 2, text: "In a 2019 study, biting horseflies struggled to land on this animal, failing to slow down as they neared its patterned coat." },
       { position: 3, text: "This wild cousin of the horse has never been truly domesticated, though the zoologist Walter Rothschild drove a carriage pulled by them to Buckingham Palace." },
       { position: 4, text: "This striped, horse-like grazer roams the African plains in herds, often mixed in with wildebeest." },
@@ -1887,7 +1887,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This animal's fingerprints are so like a human's that even under a microscope they are nearly impossible to tell apart." },
       { position: 2, text: "Its babies eat a special form of their mother's droppings, called pap, to pick up the gut microbes they need to digest leaves." },
-      { position: 3, text: "It sleeps up to 20 hours a day, drowsy on a diet of toxic leaves almost nothing else can stomach." },
+      { position: 3, text: "It sleeps up to 22 hours a day, drowsy on a diet of toxic leaves almost nothing else can stomach." },
       { position: 4, text: "This fuzzy, big-nosed eucalyptus-muncher clings to gum trees in the Australian bush." },
     ],
     decoys: [
@@ -1904,9 +1904,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "A group of these animals is called a 'crash,' and they use shared dung heaps called middens to leave scent messages for each other." },
-      { position: 2, text: "Badly near-sighted, this huge, thick-skinned grazer leans on sharp hearing and smell to sense trouble." },
+      { position: 2, text: "With weak eyesight, this huge, thick-skinned plant-eater leans on sharp hearing and smell to sense trouble." },
       { position: 3, text: "Its horn, the reason poachers hunt it, has no bone in it at all; it is keratin, the same stuff as your fingernails." },
-      { position: 4, text: "This massive horned herbivore, second only to the elephant in land-animal size, wallows in mud to keep cool." },
+      { position: 4, text: "This massive horned herbivore, whose biggest species is second only to the elephant among land animals, wallows in mud to keep cool." },
     ],
     decoys: [
       { text: "Elephant", eliminatedByClue: 1 },
@@ -2012,7 +2012,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This creature can't chew, so it coats or fills its prey with digestive juices and then sucks up the liquefied remains." },
-      { position: 2, text: "In 1832, thousands of these tiny creatures drifted on the wind onto Darwin's ship, HMS Beagle, about 60 miles off the coast of Argentina." },
+      { position: 2, text: "In 1832, thousands of these tiny creatures drifted on the wind onto Darwin's ship, HMS Beagle, about 60 miles from land at the mouth of the Río de la Plata." },
       { position: 3, text: "One kind of this creature, the bolas, swings a line tipped with a sticky glob at moths it has lured in by copying a female moth's scent." },
       { position: 4, text: "This web-spinning creepy-crawly snares flies in silk and stars in many a Halloween decoration." },
     ],
@@ -2049,7 +2049,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "In this reptile, whether a hatchling turns out male or female depends not on its genes but on how warm the sand around its egg is." },
       { position: 2, text: "The salty 'tears' it sheds have nothing to do with sadness: glands beside its eyes push out the extra salt it takes in with ocean water." },
-      { position: 3, text: "It can read the Earth's magnetic field, using it to cross whole oceans and return to the very beach where it hatched." },
+      { position: 3, text: "It can read the Earth's magnetic field, using it to cross whole oceans and find its way back to the stretch of coast where it hatched." },
       { position: 4, text: "This flippered marine reptile hauls out onto tropical beaches to bury its eggs in the sand." },
     ],
     decoys: [
@@ -2281,7 +2281,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Geography",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This mountain range rose — and is still rising — as the African plate grinds slowly into Europe." },
+      { position: 1, text: "This mountain range was thrust up as the African plate drove into Europe, and parts of it are still rising by up to 2.5 millimeters a year." },
       { position: 2, text: "In 1991 two hikers in this range found Ötzi, a man whose body had lain in the ice for about 5,300 years." },
       { position: 3, text: "This range is pierced by the Gotthard Base Tunnel, which opened in 2016 as the world's longest railway tunnel at about 57 kilometers." },
       { position: 4, text: "This snowy mountain range across the heart of Europe is home to Mont Blanc and the Matterhorn." },
@@ -2301,7 +2301,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Fossils of ancient sea creatures such as trilobites turn up near the summit of this range's highest peak, which was once seabed." },
       { position: 2, text: "This range is still rising today, pushed upward as India keeps grinding north into the rest of Asia." },
-      { position: 3, text: "This range's name comes from Sanskrit for 'abode of snow,' and one of its glaciers, the Gangotri, is the source of the Ganges." },
+      { position: 3, text: "This range's name comes from Sanskrit for 'abode of snow,' and one of its glaciers, the Gangotri, is a main source of the Ganges." },
       { position: 4, text: "This colossal Asian mountain range is crowned by Mount Everest, the highest point on the planet." },
     ],
     decoys: [
@@ -2337,7 +2337,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This park is the only place in the U.S. where bison have lived continuously since prehistoric times." },
       { position: 2, text: "Gray wolves were brought back to this park in 1995, almost 70 years after the last of its native wolves were killed off." },
-      { position: 3, text: "This park's last giant volcanic eruption, about 640,000 years ago, left a crater roughly 30 by 45 miles across." },
+      { position: 3, text: "This park's last giant volcanic eruption, about 631,000 years ago, left a crater roughly 30 by 45 miles across." },
       { position: 4, text: "This vast park, mostly in Wyoming, is renowned for Old Faithful and its steaming, rainbow-rimmed hot springs." },
     ],
     decoys: [
@@ -2389,7 +2389,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Landmarks",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This building began as a medieval fortress, then became a royal palace, and opened as a public museum only after the French Revolution." },
+      { position: 1, text: "This building began as a medieval fortress, then became a royal palace, and opened as a public museum in the middle of the French Revolution." },
       { position: 2, text: "In 1939, as war loomed, this museum's staff trucked thousands of artworks to châteaux in the French countryside." },
       { position: 3, text: "In 1911 an Italian handyman who had once worked in this building walked out with its most famous painting, which stayed missing for over two years." },
       { position: 4, text: "This grand Paris museum on the Seine is home to the Mona Lisa and the Venus de Milo." },
@@ -2518,7 +2518,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "This city's citizens could vote to exile a politician for ten years by scratching his name on pieces of broken pottery." },
       { position: 2, text: "In ancient times this city was joined to its port of Piraeus by the Long Walls, which kept supplies flowing during sieges." },
       { position: 3, text: "Legend says this city chose its patron goddess's gift, an olive tree, over the sea god's salt-water spring." },
-      { position: 4, text: "This capital of Greece, crowned by the Acropolis and the Parthenon, is called the cradle of Western philosophy." },
+      { position: 4, text: "This capital of Greece, crowned by the Acropolis and the Parthenon, is often called the cradle of Western civilization." },
     ],
     decoys: [
       { text: "Sparta", eliminatedByClue: 2 },
@@ -2572,7 +2572,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "This founder was the only person to sign all four of these: the Declaration of Independence, the alliance with France, the peace treaty with Britain and the Constitution." },
       { position: 2, text: "At 11 he invented swim fins worn on the hands, and in 1968 he was inducted into the International Swimming Hall of Fame." },
       { position: 3, text: "Under the pen name Richard Saunders, he put out a yearly almanac that popularized sayings like 'Early to bed and early to rise.'" },
-      { position: 4, text: "This bespectacled polymath grins from the U.S. hundred-dollar bill, though he never held the presidency." },
+      { position: 4, text: "This famous polymath gazes out from the U.S. hundred-dollar bill, though he never held the presidency." },
     ],
     decoys: [
       { text: "Thomas Jefferson", eliminatedByClue: 1 },
@@ -2714,7 +2714,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "The variety of this fruit sold in most Western shops is named after a British duke, whose gardener grew it in the hothouses of Chatsworth in the 1830s." },
-      { position: 2, text: "Nearly all of them sold worldwide are clones of a single variety, which leaves them dangerously prone to disease." },
+      { position: 2, text: "Nearly all of them shipped for export are clones of a single variety, which leaves them dangerously prone to disease." },
       { position: 3, text: "This fruit grows on a giant herb, not a tree — the plant's 'trunk' is just large leaves rolled tightly one over another." },
       { position: 4, text: "This yellow fruit, peeled before eating, is the cartoon favorite of monkeys everywhere." },
     ],
@@ -2877,7 +2877,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This epic's character Mentor, whose form the goddess Athena takes to guide the hero's son, gave his name to the word 'mentor'." },
       { position: 2, text: "James Joyce modeled his 1922 novel Ulysses on this epic, giving each of the novel's 18 episodes a counterpart in the hero's journey." },
-      { position: 3, text: "In this epic, the hero's old dog Argos is the only one to recognize him when he comes home disguised as a beggar, and then dies." },
+      { position: 3, text: "In this epic, the hero's old dog Argos is the first to recognize him when he comes home disguised as a beggar, and then dies." },
       { position: 4, text: "This Homeric epic follows a Greek king's ten-year voyage home to Ithaca after the Trojan War, while his wife Penelope fends off suitors." },
     ],
     decoys: [
@@ -2895,7 +2895,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This god swallowed his first wife whole, and later his daughter of wisdom sprang fully armored from his skull." },
       { position: 2, text: "He took the form of a swan, a bull and even a shower of gold to pursue mortal women." },
-      { position: 3, text: "A seated statue of this god at Olympia, almost 40 feet tall and plated with gold and ivory, was one of the Seven Wonders of the Ancient World." },
+      { position: 3, text: "A seated statue of this god at Olympia, about 40 feet tall and plated with gold and ivory, was one of the Seven Wonders of the Ancient World." },
       { position: 4, text: "Chief of the gods atop Mount Olympus, this sky-father hurls lightning and matches the Roman god Jupiter." },
     ],
     decoys: [
@@ -2985,7 +2985,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This film's sound designer made its signature weapon's hum by mixing the drone of an idling film projector with the buzz of a TV set." },
       { position: 2, text: "This 1977 film opened in just 32 U.S. theaters, yet it went on to pass Jaws as the highest-grossing film of its time." },
-      { position: 3, text: "This film's desert planet takes its name from Tataouine, a town in southern Tunisia, the country where its desert scenes were shot." },
+      { position: 3, text: "This film's desert planet takes its name from Tataouine, a town in southern Tunisia, the country where most of its desert scenes were shot." },
       { position: 4, text: "In this space adventure, farm boy Luke Skywalker learns the ways of the Force and joins Han Solo and Princess Leia against Darth Vader." },
     ],
     decoys: [
@@ -3093,7 +3093,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This singer's only concerts outside the United States were a handful of shows in Canada in 1957." },
       { position: 2, text: "At 18, this Mississippi-born singer paid about $4 at a Memphis studio in 1953 to cut his first record, 'My Happiness.'" },
-      { position: 3, text: "Drafted in 1958, this singer served in the U.S. Army in West Germany, where he met the 14-year-old girl he would later marry." },
+      { position: 3, text: "Drafted at the end of 1957, this singer served in the U.S. Army in West Germany, where he met the 14-year-old girl he would later marry." },
       { position: 4, text: "He lived at Graceland in Memphis and topped the charts with 'Jailhouse Rock' and 'Love Me Tender.'" },
     ],
     decoys: [
@@ -3127,7 +3127,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Music",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "This instrument earned a world-famous soloist only about $32 when he played it incognito for 45 minutes in a Washington, D.C., subway station in 2007." },
+      { position: 1, text: "This instrument earned a world-famous soloist only about $32 from passersby when he played it incognito for 43 minutes in a Washington, D.C., subway station in 2007." },
       { position: 2, text: "Albert Einstein played this instrument from childhood and gave each one he owned the nickname 'Lina.'" },
       { position: 3, text: "An orchestra's concertmaster plays this instrument, whose players form the biggest section on the stage." },
       { position: 4, text: "Antonio Stradivari made the most prized examples of this chin-held instrument; one, the 'Lady Blunt,' sold for $15.9 million in 2011." },
@@ -3364,7 +3364,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "This kind of natural disaster wrecked Lisbon on All Saints' Day in 1755 and helped inspire Voltaire's 'Candide'." },
       { position: 2, text: "In 2011 one of these off Japan sped up the planet's spin, shortening the day by about 1.8 microseconds." },
       { position: 3, text: "The most powerful one ever recorded struck near Valdivia, Chile, in 1960 and left about 2 million people homeless." },
-      { position: 4, text: "This violent shaking of the ground toppled much of San Francisco in 1906." },
+      { position: 4, text: "This violent shaking of the ground hit San Francisco in 1906, breaking gas mains and starting fires that burned most of the city." },
     ],
     decoys: [
       { text: "Volcano", eliminatedByClue: 2 },
@@ -3470,7 +3470,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "hard",
     clues: [
       { position: 1, text: "A Belgian priest first proposed this theory, and its name was coined on BBC radio by Fred Hoyle, who never accepted it." },
-      { position: 2, text: "A faint hiss picked up by a radio antenna in 1965 turned out to be the leftover glow of this event." },
+      { position: 2, text: "A faint hiss picked up by a New Jersey radio antenna in 1964 turned out to be the leftover glow of this event." },
       { position: 3, text: "Most of the helium in the universe was made in the first few minutes after this event." },
       { position: 4, text: "This cosmic origin event shares its name with a hit TV sitcom about physicists." },
     ],
@@ -3543,7 +3543,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This reptile's females can produce young without a male, as two English zoos discovered in 2006." },
       { position: 2, text: "This lizard's young spend their first years living up in trees, largely to avoid being eaten by adults of their own kind." },
-      { position: 3, text: "This lizard's venomous bite stops blood from clotting, which overturned the old idea that germs in its mouth killed its prey." },
+      { position: 3, text: "Studies since 2009 have challenged the old idea that germs in this lizard's mouth killed its prey, pointing instead to blood loss and a venom that slows clotting." },
       { position: 4, text: "The largest lizard alive, this giant monitor is named for the island it roams." },
     ],
     decoys: [
@@ -3777,7 +3777,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "In the 1960s, two giant rock-cut temples in this country were sawn into blocks and moved uphill, away from a new dam's reservoir." },
       { position: 2, text: "Napoleon invaded this country in 1798, bringing along more than 150 scientists and scholars to study it." },
-      { position: 3, text: "This country's last ruling queen came from a Greek-speaking dynasty founded by one of Alexander the Great's generals." },
+      { position: 3, text: "This country's last active pharaoh was a queen from a Greek-speaking dynasty founded by one of Alexander the Great's generals." },
       { position: 4, text: "With its capital at Cairo, this land of the Nile links Africa to the Middle East via the Suez Canal." },
     ],
     decoys: [
@@ -3903,7 +3903,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Work on this church began in 1882, and it has never taken government money, relying on private donations and visitors' tickets." },
       { position: 2, text: "Its architect died after being hit by a tram in 1926, with his wildly organic church no more than a quarter done." },
-      { position: 3, text: "The completion of its 172.5-metre central tower in 2026 made this basilica the tallest church in the world." },
+      { position: 3, text: "Its 172.5-metre central tower, completed in 2026, makes this basilica the tallest church in the world." },
       { position: 4, text: "This spindly Roman Catholic church, whose name means 'Holy Family,' is Spain's most visited landmark." },
     ],
     decoys: [
@@ -3921,7 +3921,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This ancient site's Sacred Cenote, a natural sinkhole, has been dredged for thousands of offerings, including gold, jade and human bones." },
       { position: 2, text: "At this site, the setting sun near each equinox casts a shadow serpent that seems to slither down a pyramid's staircase." },
-      { position: 3, text: "Its main step-pyramid, El Castillo, encodes the days of the year in its 365 steps." },
+      { position: 3, text: "Its main step-pyramid, El Castillo, has about 91 steps per side, which with the top platform add up to 365, one per day of the year." },
       { position: 4, text: "This ruined city was voted one of the New Seven Wonders of the World in 2007, alongside Machu Picchu and the Taj Mahal." },
     ],
     decoys: [
@@ -4246,7 +4246,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "Some of these people called Constantinople 'Miklagarðr', the Great City, and many served there in the Byzantine emperor's Varangian Guard." },
       { position: 2, text: "These raiders' attack on the monastery at Lindisfarne in England in 793 is often taken as the start of their age." },
       { position: 3, text: "These seafarers felled trees in Newfoundland in 1021, a date fixed by tree rings that puts them in North America 471 years before Columbus." },
-      { position: 4, text: "These Norse warriors, led by the likes of Leif Erikson and Ragnar, gave an NFL team in Minnesota its name." },
+      { position: 4, text: "These Norse seafarers, including the explorer Leif Erikson, gave Minnesota's NFL team its name, a nod to the state's Scandinavian heritage." },
     ],
     decoys: [
       { text: "Saxons", eliminatedByClue: 2 },
@@ -4315,7 +4315,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Food & Drink",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "An 8,000-year-old rock painting in Spain's Araña Caves shows a person climbing ropes to collect this food from the wild." },
+      { position: 1, text: "A rock painting in Spain's Araña Caves, thought to be about 8,000 years old, shows a person climbing up to a wild hive to collect this food." },
       { position: 2, text: "Ancient Egyptian doctors spread this food on wounds, and it turns up in many of the remedies in their surviving medical papyri." },
       { position: 3, text: "Doctors warn against giving this food to babies under one year old because it can carry botulism spores." },
       { position: 4, text: "Golden and sticky, this natural sweetener is what Winnie-the-Pooh craves from the hive." },
@@ -4478,7 +4478,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This organ is almost never where cancer starts, partly because its muscle cells rarely divide." },
-      { position: 2, text: "In 1929 a 24-year-old German doctor threaded a catheter from a vein in his own arm into this organ and took an X-ray to prove it." },
+      { position: 2, text: "In 1929 a young German doctor threaded a catheter from a vein in his own arm into this organ and took an X-ray to prove it." },
       { position: 3, text: "Surgeon Christiaan Barnard performed the first human-to-human transplant of this organ in Cape Town in 1967." },
       { position: 4, text: "Doctors listen with a stethoscope to this organ, drawn as a red symbol of love." },
     ],
@@ -4534,7 +4534,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "Karl Landsteiner won the 1930 Nobel Prize in Medicine for discovering that this fluid comes in different groups." },
       { position: 2, text: "Horseshoe crabs have a blue version of this fluid, harvested to test medicines and vaccines for contamination." },
       { position: 3, text: "An adult's body holds about five liters of this fluid, and at rest the heart pumps all of it around in about a minute." },
-      { position: 4, text: "Iron makes this red fluid red, and it courses through the arteries and veins." },
+      { position: 4, text: "Iron-rich hemoglobin makes this red fluid red, and it courses through the arteries and veins." },
     ],
     decoys: [
       { text: "Plasma", eliminatedByClue: 3 },
@@ -4585,10 +4585,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This film's alien language was created from scratch by Paul Frommer, a USC business-school professor with a doctorate in linguistics." },
+      { position: 1, text: "This film's alien language was developed by Paul Frommer, a USC business-school professor with a doctorate in linguistics." },
       { position: 2, text: "After this film's release, CNN reported that some fans felt depressed because they could never visit its fictional world." },
       { position: 3, text: "James Cameron wrote this film's first treatment in 1994, then shelved it for over a decade because the effects technology he needed did not exist yet." },
-      { position: 4, text: "James Cameron's 2009 3D epic became the highest-grossing film ever made." },
+      { position: 4, text: "James Cameron's 2009 3D epic reigned for well over a decade in all as the highest-grossing film ever made." },
     ],
     decoys: [
       { text: "Titanic", eliminatedByClue: 2 },
@@ -4657,9 +4657,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "This film's queen began as a villain, until a power ballad written for her led the director to rewrite the whole first act." },
+      { position: 1, text: "This film's queen began as a villain, until a power ballad written for her led the director to rewrite the whole movie." },
       { position: 2, text: "This was the first film from Walt Disney Animation Studios to win the Oscar for Best Animated Feature." },
-      { position: 3, text: "This film's kingdom sits on a fjord because its art director chose Norway as the model, borrowing its rosemaling folk art too." },
+      { position: 3, text: "This film's art director wanted its kingdom on a fjord, so he chose Norway as the model, borrowing its rosemaling folk art too." },
       { position: 4, text: "Loosely based on 'The Snow Queen,' this animated blockbuster turns everything Elsa touches to ice." },
     ],
     decoys: [
@@ -4765,7 +4765,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "The director wrote this film's whole script in the first person, in its title character's voice, right down to the stage directions." },
+      { position: 1, text: "The director wrote this film's color scenes in the first person, in its title character's voice, something he had never done before." },
       { position: 2, text: "Kodak created black-and-white IMAX film especially for this movie, making it the first film to shoot scenes in black-and-white IMAX." },
       { position: 3, text: "The lead role in this film made its star the first Irish-born actor ever to win the Academy Award for Best Actor." },
       { position: 4, text: "This 2023 Christopher Nolan biopic swept the Oscars and was paired in cinemas with 'Barbie.'" },
@@ -4821,7 +4821,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This sitcom was developed under the working title 'Insomnia Cafe' and later called 'Six of One' before it got its final name." },
       { position: 2, text: "This sitcom's 2004 finale drew 52.5 million U.S. viewers, the biggest audience for an entertainment show since the 'Seinfeld' finale." },
-      { position: 3, text: "Courteney Cox was the only one of this sitcom's six main stars never nominated for an Emmy for her role." },
+      { position: 3, text: "In 2018 Netflix reportedly paid about $100 million to keep streaming this sitcom in the US through 2019." },
       { position: 4, text: "This NBC sitcom followed Ross, Rachel, Monica, Chandler, Joey and Phoebe, who often gathered at the Central Perk coffeehouse." },
     ],
     decoys: [
@@ -5179,10 +5179,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Games",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "This game's 'Minus World', an endless underwater level reached by slipping through a wall, was a playground rumor that turned out to be real." },
+      { position: 1, text: "This game's 'Minus World', an endless underwater level reached by slipping through a wall, was a real glitch that fueled playground talk of secret levels." },
       { position: 2, text: "Its main theme, by Koji Kondo, was the first video game music added to the U.S. National Recording Registry." },
       { position: 3, text: "Released in 1985 and later bundled with the NES, it was the best-selling video game of all time for over 20 years." },
-      { position: 4, text: "In this Nintendo classic, a plumber and his sibling Luigi set out to rescue Princess Peach from the spiky-shelled Bowser." },
+      { position: 4, text: "In this Nintendo classic, a plumber and his sibling Luigi set out to rescue Princess Toadstool (later called Peach) from the spiky-shelled Bowser." },
     ],
     decoys: [
       { text: "Sonic the Hedgehog", eliminatedByClue: 2 },
@@ -5252,7 +5252,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This superheroine's creator, psychologist William Moulton Marston, devised a blood-pressure test for lying that was a forerunner of the modern lie detector." },
-      { position: 2, text: "In this heroine's original origin story, her mother, a queen, sculpted her from clay and the Greek gods brought her to life." },
+      { position: 2, text: "In this heroine's original origin story, her mother, a queen, sculpted her from clay and the goddess Aphrodite brought her to life." },
       { position: 3, text: "In 1972 this heroine appeared on the cover of the first regular issue of Ms. magazine, under a banner backing her for president." },
       { position: 4, text: "Diana Prince fights for justice as this star-spangled Amazon, played on film by Gal Gadot." },
     ],
@@ -5289,7 +5289,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This superhero was gray in his first 1962 comic, but printing problems led Marvel to change his color." },
       { position: 2, text: "This superhero was born when a scientist pushed a teenager, dared onto a bomb test site, into a trench and took the blast himself." },
-      { position: 3, text: "On this superhero's 1977–1982 CBS series, his scientist alter ego became David instead of Bruce, because the producer disliked alliterative comic-book names." },
+      { position: 3, text: "On this superhero's 1977–1982 CBS series, his scientist alter ego became David instead of Bruce; the producer said he disliked alliterative comic-book names." },
       { position: 4, text: "This Marvel behemoth, whose catchphrase is 'smash,' bursts out of his shirt but never his purple pants." },
     ],
     decoys: [
@@ -6872,7 +6872,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This singer wrote a jealous-woman classic and an all-time farewell ballad so close together that she once said it was the same day." },
-      { position: 2, text: "Her Imagination Library, launched in 1995, had mailed more than 300 million free books to children in five countries by the time she died." },
+      { position: 2, text: "This singer once entered a Los Angeles lookalike contest of drag queens dressed as her, and got the least applause of anyone." },
       { position: 3, text: "This country singer, the fourth of twelve children, was born in a one-room cabin in Tennessee's Smoky Mountains." },
       { position: 4, text: "'9 to 5' and 'Islands in the Stream' were hits for this rhinestoned country icon, who helped fund Moderna's vaccine research." },
     ],
@@ -9842,7 +9842,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This TV show's star, who holds a master's degree in electrical engineering, co-created it; its first episode aired on New Year's Day 1990." },
-      { position: 2, text: "This show's title character wasn't named until after its first episode was made, and other vegetable names, such as Mr. Cauliflower, were considered." },
+      { position: 2, text: "This show's title character keeps clashing with a light-blue three-wheeled Reliant van, which gets tipped over, crashed into or bumped out of its parking space." },
       { position: 3, text: "This show's title character appeared at the London 2012 Olympics opening ceremony, playing one repeated note of 'Chariots of Fire.'" },
       { position: 4, text: "This nearly silent British sitcom stars Rowan Atkinson as a bumbling, childlike man in a tweed jacket." },
     ],
@@ -10527,7 +10527,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This involuntary act shows up in Siamese fighting fish only when they see another of their kind or their own reflection, often in the middle of an attack." },
       { position: 2, text: "Even the skeptical essayist Michel de Montaigne made the sign of the cross before his mouth when doing this, a habit some trace to a plague around 590 AD." },
-      { position: 3, text: "Video from inside the womb has shown a fetus doing this at 30 weeks, and while it lasts, the airway can widen to three or four times its usual size." },
+      { position: 3, text: "Ultrasound scans have caught unborn babies doing this as early as 11 weeks into pregnancy." },
       { position: 4, text: "This big open-mouthed breath often comes when you're tired or bored, and just seeing someone else do it can set you off." },
     ],
     decoys: [
@@ -10581,7 +10581,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Television",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This sitcom's stars took a $1,000-a-week pay cut to cover the cost of shooting on 35 mm film, and in return got 80 percent ownership of the films." },
+      { position: 1, text: "This sitcom's stars took a $1,000-a-week pay cut to cover the cost of shooting on 35 mm film, and in return they, not CBS, got ownership of the films." },
       { position: 2, text: "Actor William Frawley's contract on this show reportedly bound him to stay sober, and he was warned he'd be fired if he turned up drunk more than once." },
       { position: 3, text: "Its January 1953 episode about a baby's birth drew about 44 million viewers, more than watched Dwight Eisenhower's inauguration the next day." },
       { position: 4, text: "This 1950s CBS sitcom starred Lucille Ball as a zany housewife and her real-life husband Desi Arnaz as Cuban bandleader Ricky Ricardo." },
@@ -10675,7 +10675,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Television",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "The network chairman who dreamed up this drama on a Hawaii vacation was fired before it aired, then secretly voiced its 'previously on' recaps." },
+      { position: 1, text: "The network chairman who dreamed up this drama on a Hawaii vacation was fired before it aired, then went on to voice its 'previously on' recaps." },
       { position: 2, text: "This show's writers first planned to kill off its hero halfway through the pilot, with Michael Keaton lined up for the role." },
       { position: 3, text: "Characters on this show were named after the philosophers John Locke, Jean-Jacques Rousseau and David Hume." },
       { position: 4, text: "This ABC drama followed the survivors of Oceanic Flight 815 on a mysterious island, haunted by the numbers 4, 8, 15, 16, 23 and 42." },
@@ -11220,7 +11220,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This 1965 film was a hit almost everywhere except Austria and West Germany, partly because it had to compete with popular German films from the decade before." },
       { position: 2, text: "In November 1966 this film passed Gone with the Wind as the highest-grossing film ever made, a title it then held for five years." },
-      { position: 3, text: "The long sung passages of Christopher Plummer's role in this film were dubbed by singer Bill Lee, because Plummer struggled to match his co-star's sustained notes." },
+      { position: 3, text: "Singer Bill Lee dubbed the long sung passages of Christopher Plummer's role in this film." },
       { position: 4, text: "In this film musical, Julie Andrews plays Maria, a would-be nun sent to be governess to the seven von Trapp children in Salzburg." },
     ],
     decoys: [
@@ -11405,7 +11405,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "History",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "During this disaster, an Avignon physician concluded that bloodletting did not work, yet kept prescribing it for members of the papal court whom he disliked." },
+      { position: 1, text: "During this disaster, Pope Clement VI's physician kept him in his Avignon palace surrounded by fires, believing they would purify the air." },
       { position: 2, text: "People living through this catastrophe called it the 'great pestilence' or 'the great death'; its now-familiar English name first appeared in 1755, translating a Danish phrase." },
       { position: 3, text: "A 14th-century account claims that an army besieging the Crimean port of Kaffa in 1346 catapulted infected corpses over its walls during this outbreak, though some historians doubt it." },
       { position: 4, text: "This pandemic of bubonic plague swept Europe from 1346 to 1353 and killed an estimated 30 to 60 percent of its people." },
@@ -11645,7 +11645,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Literature",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This writer walked with a limp for the rest of his life after his 26-year-old nephew shot him in the leg with a pistol in 1886." },
+      { position: 1, text: "This writer walked with a limp for the rest of his life after his nephew Gaston shot him in the leg in 1886." },
       { position: 2, text: "One of this novelist's books, rejected by his publisher and long thought lost, was found by his great-grandson in 1989 and finally published in 1994." },
       { position: 3, text: "UNESCO has ranked this author the world's second most-translated writer since 1979, behind Agatha Christie and ahead of Shakespeare." },
       { position: 4, text: "This French author wrote 'Twenty Thousand Leagues Under the Seas' and 'Around the World in Eighty Days'." },
@@ -11959,8 +11959,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "Elias Howe, a sewing-machine pioneer, patented an early version of this device in 1851 but never seriously tried to sell it." },
-      { position: 2, text: "Close to half of these devices worldwide come from a single Japanese firm, founded in Tokyo in 1934, whose three initials appear on many of them." },
-      { position: 3, text: "In 1937 this device beat the button in the so-called 'Battle of the Fly' over how to close men's trousers." },
+      { position: 2, text: "Swedish-born engineer Gideon Sundbäck patented the modern form of this device in 1917 and also built the machine that made it in bulk." },
+      { position: 3, text: "Close to half of these devices worldwide come from a single Japanese firm, founded in Tokyo in 1934, whose three initials appear on many of them." },
       { position: 4, text: "This fastener got its name from rubber galoshes that B.F. Goodrich launched in 1923 and named after the sound the device makes." },
     ],
     decoys: [
@@ -12049,9 +12049,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Technology",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This gadget's prototype was called DustPuppy, because like a puppy it would try very hard to please but might sometimes mess up." },
-      { position: 2, text: "Amazon agreed in 2022 to buy this gadget's maker for about $1.7 billion, but the deal collapsed in January 2024 over EU competition concerns." },
-      { position: 3, text: "In 2016 this machine's maker admitted 'we see this a lot' after viral reports of the machines smearing dog poop across owners' floors." },
+      { position: 1, text: "This gadget's maker built PackBot military robots, which searched the World Trade Center rubble and were the first to assess Japan's wrecked Fukushima nuclear plant." },
+      { position: 2, text: "This gadget's prototype was called DustPuppy, because like a puppy it would try very hard to please but might sometimes mess up." },
+      { position: 3, text: "Amazon agreed in 2022 to buy this gadget's maker for about $1.7 billion, but the deal collapsed in January 2024 over EU competition concerns." },
       { position: 4, text: "This disc-shaped robot vacuum, launched by iRobot in 2002, is held by the Smithsonian as 'the first successful domestic robot.'" },
     ],
     decoys: [
@@ -12087,7 +12087,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "A full-size Victorian copy of this artwork, stitched by the Leek Embroidery Society, gives a naked man underpants, copied from photographs museum staff had 'cleaned up'." },
-      { position: 2, text: "Heinrich Himmler called this work 'important for our glorious and cultured Germanic history', and a German research team took fragments from its underside in 1941." },
+      { position: 2, text: "In 1941 Himmler's Nazi research institute, the Ahnenerbe, sent a team to study this work in Normandy, and a textile expert took a piece of its backing fabric." },
       { position: 3, text: "When this work was lent to the British Museum in 2026, Britain agreed to lend the Lewis chessmen and Sutton Hoo treasures to France in return." },
       { position: 4, text: "This nearly 70-meter embroidered strip of linen tells the story of the Norman conquest of England, building to the Battle of Hastings in 1066." },
     ],
@@ -12288,7 +12288,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This city's only hill began as a giant temple spire that collapsed because the soft ground could not hold it, and over decades took the shape of a natural hill." },
-      { position: 2, text: "This city's ground was sinking about 12 cm a year in 1981, and parts of it now lie about a meter below sea level." },
+      { position: 2, text: "This city's Chatuchak Weekend Market has more than 15,000 stalls and draws over 200,000 visitors every weekend." },
       { position: 3, text: "This city became a royal capital in 1782, when King Rama I moved his court across the river from Thonburi." },
       { position: 4, text: "This Thai capital's full ceremonial name, 168 letters long, is listed by Guinness World Records as the longest place name in the world." },
     ],
@@ -12306,7 +12306,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Pop Culture",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "After this toy got a roughly 45-second scene in 'Toy Story 2', its sales rose by about 20 percent." },
+      { position: 1, text: "After this toy got a 45-second scene in 'Toy Story 2', its sales rose by 20 percent." },
       { position: 2, text: "This toy's inventor, a French electrician named André Cassagnes, called it 'L'Écran Magique' — 'the magic screen' — and showed it at the 1959 Nuremberg toy fair." },
       { position: 3, text: "In 2012 a Mitt Romney aide likened the campaign's planned reset for the general election to this toy, and Newt Gingrich mocked it as 'a great toy but a losing strategy.'" },
       { position: 4, text: "This red-framed drawing toy has two white knobs, one for horizontal lines and one for vertical, and you wipe the picture by shaking it." },
@@ -12625,7 +12625,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "These body parts can develop horizontal grooves after a high fever, first described by a French doctor in 1846, and a groove's position shows roughly when the illness struck." },
-      { position: 2, text: "In primates these replaced the claws of earlier animals, and a 2022 study found that climbing without claws is quieter, suggesting they helped tree-dwelling ancestors stalk prey." },
+      { position: 2, text: "A doctor tracked the one on his own left thumb for about 35 years and found its growth slowed from 0.123 mm a day at age 32 to 0.095 mm a day at 67." },
       { position: 3, text: "An Indian man grew these on his left hand for 66 years, until in 2018 they were cut off with a power tool in New York at a combined 909.6 cm." },
       { position: 4, text: "These hard keratin plates on your hands grow about 3.5 mm a month, roughly twice as fast as their counterparts on your toes." },
     ],

@@ -23,7 +23,7 @@ export const SEED_QUESTIONS: Question[] = [
     category: "Space",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "On this planet a day lasts longer than a year, and the Sun rises in the west." },
+      { position: 1, text: "This planet spins so slowly that one turn on its axis takes longer than its year, and the Sun rises in the west." },
       { position: 2, text: "Even though it is not the closest planet to the Sun, its dense carbon-dioxide atmosphere traps so much heat that its surface can melt lead." },
       { position: 3, text: "Roughly Earth's twin in size, it is the brightest natural object in our night sky after the Moon." },
       { position: 4, text: "Named for the Roman goddess of love, it is the second planet from the Sun." },
@@ -60,8 +60,8 @@ export const SEED_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "A deep-sea female of this animal was watched guarding her eggs for 53 months off California, the longest brooding known for any animal." },
-      { position: 2, text: "About two-thirds of this animal's neurons sit in its arms rather than its brain, so each arm can react on its own." },
-      { position: 3, text: "This animal can taste with the suckers on its arms, which carry receptors that sense chemicals on whatever they touch." },
+      { position: 2, text: "In Indonesia, one species of this animal gathers discarded coconut-shell halves, carries them across the seabed and shuts itself inside them when threatened." },
+      { position: 3, text: "After a 2021 government-commissioned review, the UK extended its animal sentience law to cover this animal, along with crabs and lobsters." },
       { position: 4, text: "This eight-armed cephalopod is a famously clever ocean animal, a close relative of the squid and cuttlefish." },
     ],
     decoys: [

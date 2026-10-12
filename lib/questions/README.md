@@ -191,13 +191,17 @@ pnpm test             # +1 test per question added
 pnpm lint
 npx tsc --noEmit
 pnpm eval-clues --ids <new-or-edited-ids>   # clue quality; needs an API key
+pnpm pipeline pipeline/fact-check.ts --export pipeline/data/fact-tasks --ids <new-or-edited-ids>   # then --ingest
 ```
 
 Then update the header comment in `extraBank.ts` with the new total.
 
 The last step scores the clues against "What makes a good question" and
-merges the results into `clueEval/results/`. Commit those results with the
-questions. To find which existing questions most need work, read
+merges the results into `clueEval/results/`. The fact check opens a source
+for every clue, because the judge only checks facts from memory; run it in a
+Claude Code session (see `clueEval/README.md`, "Fact check") and fix every
+clue `clueEval/results/factcheck.md` lists. Commit both sets of results with
+the questions. To find which existing questions most need work, read
 `clueEval/results/report.md`. How the eval works, and how far to trust it,
 is in [`clueEval/README.md`](clueEval/README.md).
 

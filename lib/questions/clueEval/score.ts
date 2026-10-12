@@ -143,9 +143,15 @@ export const FLAG_LABELS = {
 
 export type Flag = keyof typeof FLAG_LABELS;
 
-export function flagsFor(j: Judgement, player?: PlayerRun): Flag[] {
+/**
+ * `factChecked` says whether a source has confirmed a clue (see
+ * factCheck.ts). The judge's fact field comes from memory, so a doubt about a
+ * confirmed clue raises no flag.
+ */
+export function flagsFor(j: Judgement, player?: PlayerRun, factChecked?: (position: number) => boolean): Flag[] {
   const flags: Flag[] = [];
   const clues = POSITIONS.map((p) => clueOf(j, p));
+  const factDoubts = POSITIONS.filter((p) => !factChecked?.(p)).map((p) => clueOf(j, p).fact);
 
   // Working the answer out from clue 1 is fine; getting it without thinking is not.
   if (j.clue1.alone === "instant") flags.push("clue1-too-easy");
@@ -159,8 +165,8 @@ export function flagsFor(j: Judgement, player?: PlayerRun): Flag[] {
   if (j.distinct_facts <= 2) flags.push("few-distinct-facts");
   if (!j.order_ok) flags.push("order");
   if (clues.some((c) => c.wording === 1)) flags.push("clunky-wording");
-  if (clues.some((c) => c.fact === "wrong")) flags.push("fact-wrong");
-  else if (clues.some((c) => c.fact === "doubtful")) flags.push("fact-doubtful");
+  if (factDoubts.includes("wrong")) flags.push("fact-wrong");
+  else if (factDoubts.includes("doubtful")) flags.push("fact-doubtful");
   if (!j.clue4_unique) flags.push("not-unique");
   if (player && player.solvedOn === null) flags.push("player-never-solved");
   return flags;
@@ -403,12 +409,21 @@ export function renderCalibrationReport(
   return lines.join("\n") + "\n";
 }
 
+/**
+ * The judge held this question back, but its only flags were doubts about
+ * facts that a source has since confirmed, so nothing is left to fix.
+ */
+export function clearedByFactCheck(e: EvalEntry): boolean {
+  return e.judge.verdict !== "good" && e.flags.length === 0 && POSITIONS.some((p) => clueOf(e.judge, p).fact !== "ok");
+}
+
 export function renderBankReport(
   entries: EvalEntry[],
   meta: { judgeModel: string; playerModel: string; date: string },
 ): string {
   const n = entries.length;
   const verdicts = count(entries.map((e) => e.judge.verdict));
+  const cleared = entries.filter(clearedByFactCheck);
   const judged = count(entries.map((e) => e.judge.difficulty));
   const labelled = count(entries.map((e) => e.labelled));
   const expected = count(entries.map((e) => e.judge.expected_solve));
@@ -425,6 +440,12 @@ export function renderBankReport(
     "The rules it checks are in `lib/questions/README.md`, under \"What makes a good question\".",
     "",
     `**${n} questions. Verdicts: ${verdicts.get("good") ?? 0} good (${pct(verdicts.get("good") ?? 0, n)}), ${verdicts.get("needs_work") ?? 0} needs work, ${verdicts.get("bad") ?? 0} bad.**`,
+    ...(cleared.length
+      ? [
+          "",
+          `${cleared.length} of those held back were held back only for facts the judge doubted and a source has since confirmed (\`factcheck.json\`), so they are not listed to fix: ${cleared.map((e) => `\`${e.id}\``).join(", ")}.`,
+        ]
+      : []),
     "",
     "## How the bank plays",
     "",
@@ -459,7 +480,7 @@ export function renderBankReport(
 
   const rank = { bad: 0, needs_work: 1, good: 2 } as const;
   const toFix = entries
-    .filter((e) => e.judge.verdict !== "good")
+    .filter((e) => e.judge.verdict !== "good" && !clearedByFactCheck(e))
     .sort(
       (a, b) =>
         rank[a.judge.verdict] - rank[b.judge.verdict] ||

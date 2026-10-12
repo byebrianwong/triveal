@@ -56,6 +56,7 @@ import { EXTRA_QUESTIONS } from "../lib/questions/extraBank";
 import { SEED_QUESTIONS } from "../lib/questions/seed";
 import { dedupeByCanonical } from "../lib/questions/select";
 import { GRADED_CASES } from "../lib/questions/clueEval/graded";
+import { isClueChecked, type FactCheckFile } from "../lib/questions/clueEval/factCheck";
 import {
   JUDGE_SCHEMA,
   PLAYER_SCHEMA,
@@ -175,6 +176,17 @@ function saveStore(store: Store, order: string[]): void {
   fs.writeFileSync(storeFile, `{\n"meta": ${JSON.stringify(store.meta)},\n"questions": {\n${body}\n}\n}\n`);
 }
 
+// Clues a source has confirmed (pipeline/fact-check.ts). The judge's doubt
+// about one of these raises no flag.
+const factChecks: FactCheckFile["questions"] = fs.existsSync(path.join(RESULTS_DIR, "factcheck.json"))
+  ? (JSON.parse(fs.readFileSync(path.join(RESULTS_DIR, "factcheck.json"), "utf8")) as FactCheckFile).questions
+  : {};
+
+function factCheckedFor(q: Question | undefined): ((position: number) => boolean) | undefined {
+  if (!q) return undefined;
+  return (p) => isClueChecked(factChecks[q.id], q.clues.find((c) => c.position === p)?.text ?? "");
+}
+
 function entryFor(q: Question, judgement: Judgement, player: PlayerRun | undefined): EvalEntry {
   return {
     id: q.id,
@@ -185,7 +197,7 @@ function entryFor(q: Question, judgement: Judgement, player: PlayerRun | undefin
     judgeModel: JUDGE_MODEL,
     ...(player ? { playerKey: playerKey(q), playerModel: PLAYER_MODEL, player } : {}),
     judge: judgement,
-    flags: flagsFor(judgement, player),
+    flags: flagsFor(judgement, player, factCheckedFor(q)),
   };
 }
 
@@ -593,7 +605,7 @@ async function main(): Promise<void> {
     for (const id of Object.keys(store.questions)) if (!byId.has(id)) delete store.questions[id];
   }
   // Flags are cheap to recompute, so a change to flagsFor applies without re-scoring.
-  for (const e of Object.values(store.questions)) e.flags = flagsFor(e.judge, e.player);
+  for (const e of Object.values(store.questions)) e.flags = flagsFor(e.judge, e.player, factCheckedFor(byId.get(e.id)));
 
   if (Object.keys(store.questions).length) {
     saveStore(store, order);
