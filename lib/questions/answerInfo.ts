@@ -85,11 +85,14 @@ export const ANSWER_PAGE_TITLES: Record<string, string | null> = {
   casablanca: "Casablanca (film)", // the bare name is the Moroccan city
   dune: "Dune (novel)", // the bare name is the sand formation
   psycho: "Psycho (1960 film)", // the bare name is a disambiguation page
+  "sound of music": "The Sound of Music (film)", // the bare name is the stage musical
+  "groundhog day": "Groundhog Day (film)", // the bare name is the holiday
   // Video games — the bare name is the franchise, not the 1981 arcade game
   "donkey kong": "Donkey Kong (1981 video game)",
   // Television — bare names that are disambiguation pages
   bear: "The Bear (TV series)",
   survivor: "Survivor (American TV series)",
+  lost: "Lost (TV series)",
   // Places and acronyms whose article sits under a fuller name
   alcatraz: "Alcatraz Island",
   gps: "Global Positioning System",
@@ -99,11 +102,18 @@ export const ANSWER_PAGE_TITLES: Record<string, string | null> = {
   "corpse flower": "Amorphophallus titanum",
   // Art — the bare name is the biblical meal, not Leonardo's mural
   "last supper": "The Last Supper (Leonardo)",
+  // Art — the bare names are a Basque town and a disambiguation page
+  guernica: "Guernica (Picasso)",
+  nighthawks: "Nighthawks (Hopper)",
   // Literature — the bare name is a disambiguation page
   "peter pan": "Peter Pan (character)",
   // Internet — the bare names are a Venetian ruler and a disambiguation page
   doge: "Doge (meme)",
   spam: "Email spam",
+  dress: "The dress", // the bare name (after "The" is stripped) is the garment
+  // Technology and games — the bare names are a disambiguation page and an economics term
+  polaroid: "Polaroid Corporation",
+  monopoly: "Monopoly (game)",
 };
 
 type AnswerLike = Pick<Question, "answer" | "answerCanonical" | "answerAliases" | "category"> &
