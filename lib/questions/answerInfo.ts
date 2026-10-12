@@ -114,6 +114,12 @@ export const ANSWER_PAGE_TITLES: Record<string, string | null> = {
   // Technology and games — the bare names are a disambiguation page and an economics term
   polaroid: "Polaroid Corporation",
   monopoly: "Monopoly (game)",
+  // Bare names that are disambiguation pages or a different subject (a Mexican state)
+  titan: "Titan (moon)",
+  narcissus: "Narcissus (mythology)",
+  diaphragm: "Thoracic diaphragm",
+  tabasco: "Tabasco sauce",
+  bowling: "Tenpin bowling",
 };
 
 type AnswerLike = Pick<Question, "answer" | "answerCanonical" | "answerAliases" | "category"> &

@@ -1,0 +1,2021 @@
+{
+ "napster": {
+  "answer": "Napster",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This company's name and logos sold at a bankruptcy auction for $5.3 million in 2002, and Best Buy bought it for $121 million in 2008.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Napster"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "This service was named after its creator's high-school nickname, which referred to his curly hair.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Napster"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "Many colleges blocked this program in 2000 after it clogged campus networks, at one point using roughly 60% of Indiana University's bandwidth.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Napster",
+     "https://edtechmagazine.com/higher/article/2012/12/real-reason-colleges-banned-napster",
+     "https://edition.cnn.com/2000/fyi/sb/07/05/napster/index.html",
+     "https://www.chronicle.com/article/indiana-u-will-test-system-to-prevent-computer-users-from-overloading-networks/"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "Shawn Fanning and Sean Parker launched this peer-to-peer music-sharing service in 1999, and Metallica famously sued it.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Napster",
+     "https://en.wikipedia.org/wiki/Metallica_v._Napster,_Inc."
+    ]
+   }
+  ]
+ },
+ "retina": {
+  "answer": "Retina",
+  "clues": [
+   {
+    "position": 1,
+    "text": "Gram for gram, this tissue has the greatest continuous energy demand of any part of the human body, greater even than the brain.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Retina"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "The tiny bright dots that dart about when you stare at a clear blue sky are white blood cells in vessels lying in front of this tissue.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Blue_field_entoptic_phenomenon",
+     "https://en.wikipedia.org/wiki/Retina"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "This tissue grows out of the embryonic brain, and it is the only part of the nervous system that can be seen without an invasive procedure.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Retina"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This thin layer at the back of the eye holds the rods and cones, and its name comes from the Latin word for 'net'.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Retina"
+    ]
+   }
+  ]
+ },
+ "oak": {
+  "answer": "Oak",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This tree gives the Northern Irish city of Derry its name, from the Irish 'Doire', meaning a grove of these trees.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Oak"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "This tree was sacred to Zeus, and at his oracle at Dodona priests read the god's messages in the rustling of its leaves.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Oak"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "After losing the Battle of Worcester in 1651, the future Charles II hid in one of these trees, a story kept alive by Britain's third most common pub name.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Royal_Oak"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This tree's acorns can poison cattle and horses but are safe for pigs, and it is the national tree of the United States, Germany and Wales.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Oak"
+    ]
+   }
+  ]
+ },
+ "unicorn": {
+  "answer": "Unicorn",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This creature's name is conventionally given to the most common animal on the Bronze Age Indus Valley seals, a cow-bodied beast, though some scholars dispute the label.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Unicorn"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "The King James Bible of 1611 used this creature's name to translate the Hebrew 're'em', a beast proverbial for being impossible to tame.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Unicorn"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "This creature became a heraldic symbol of Scotland because it was believed to be the natural enemy of the lion, the emblem of England's kings.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Unicorn"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This legendary white horse has a single spiraled horn on its forehead, and narwhal tusks were once sold in Europe as that horn.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Unicorn"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1: Wikipedia says the Indus seal animal is 'conventionally called a unicorn' and that the interpretation is controversial; the clue hedges."
+ },
+ "segway": {
+  "answer": "Segway",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This machine's makers forecast 100,000 sales in its first 13 months, yet only about 140,000 had been sold when production ended in 2020.",
+    "how": "written",
+    "sources": [
+     "https://thenextweb.com/news/the-segway-is-no-more-bachelor-parties-of-the-world-pour-one-out",
+     "https://newatlas.com/urban-transport/segway-end-production/"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Before this invention was unveiled, Steve Jobs was quoted calling it 'as big a deal as the PC', and investor John Doerr guessed it would matter more than the Internet.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Segway"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "In 2010, less than a year after buying the company that made this machine, British millionaire Jimi Heselden died riding an off-road version of it off a cliff into a river.",
+    "how": "written",
+    "sources": [
+     "https://www.nbcnews.com/id/wbna39377851",
+     "https://en.wikipedia.org/wiki/Segway"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This two-wheeled, self-balancing personal transporter, invented by Dean Kamen, was unveiled on Good Morning America in December 2001.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Segway"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1: the 140,000 figure is Segway's own approximate lifetime total; one source counts it as units produced rather than sold. Production of the US-built PT ended July 15, 2020."
+ },
+ "whatsapp": {
+  "answer": "WhatsApp",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This app's co-founder, who relied on food stamps as a teenager, signed the deal selling it on the door of his old welfare office.",
+    "how": "written",
+    "sources": [
+     "https://www.nbcnews.com/tech/internet/whatsapp-founders-include-facebook-reject-ukrainian-immigrant-n34541"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "This app began in 2009 as a way to show a status next to each name in a phone's contacts, such as 'at work' or 'on a call'.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/WhatsApp"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "In 2009 one of this app's co-founders was turned down for jobs by Twitter and then Facebook, which bought his company five years later.",
+    "how": "written",
+    "sources": [
+     "https://www.nbcnews.com/tech/internet/whatsapp-founders-include-facebook-reject-ukrainian-immigrant-n34541",
+     "https://bgr.com/2014/02/20/whatsapp-messaging-app-history/"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This Meta-owned messaging app, used by billions, takes its name from a pun on a casual greeting that asks how someone is doing.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/WhatsApp"
+    ]
+   }
+  ],
+  "writerNotes": "Deal price: Wikipedia gives US$19 billion; NBC's early report said $16 billion, so no price is used. 'Billions' rests on Wikipedia's 'more than 2 billion active users in February 2020'."
+ },
+ "whistlers-mother": {
+  "answer": "Whistler's Mother",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This painting was pawned by its artist before the French state bought it in 1891, and it now hangs in Paris's Musée d'Orsay.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Whistler%27s_Mother",
+     "https://www.sartle.com/artwork/whistlers-mother-james-abbott-mcneill-whistler"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "One unverifiable story says this 1871 portrait's sitter filled in for a model who missed the appointment, and was painted seated because standing for long was too uncomfortable.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Whistler%27s_Mother"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "In the 1997 comedy 'Bean', the bumbling hero accidentally defaces this painting as it is brought to the United States, then secretly swaps in a poster.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Whistler%27s_Mother"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This painting's formal title is 'Arrangement in Grey and Black No. 1', but it is known by its sitter, Anna, the American-born painter's own parent.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Whistler%27s_Mother",
+     "https://www.sartle.com/artwork/whistlers-mother-james-abbott-mcneill-whistler"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 2 is hedged because Wikipedia calls the stories about the sitting 'unverifiable'."
+ },
+ "chicago": {
+  "answer": "Chicago",
+  "clues": [
+   {
+    "position": 1,
+    "text": "In 1861 engineers jacked up a six-story brick hotel in this city about 6 feet while its guests stayed inside, part of raising the whole city out of the mud.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Raising_of_Chicago"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "This city's name comes from a French rendering of a Miami–Illinois word for a wild relative of onion and garlic that grew there in abundance.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Chicago"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "In 1900 this city reversed the flow of its river, sending its sewage away from the Great Lake that supplied its drinking water.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Chicago"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This city, nicknamed the Windy City, built the Home Insurance Building in 1885, often called the world's first skyscraper.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Chicago",
+     "https://en.wikipedia.org/wiki/Home_Insurance_Building"
+    ]
+   }
+  ]
+ },
+ "andromeda-galaxy": {
+  "answer": "Andromeda Galaxy",
+  "clues": [
+   {
+    "position": 1,
+    "text": "Around 964 CE the astronomer Abd al-Rahman al-Sufi described this object as a 'small cloud' in his Book of Fixed Stars.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Andromeda_Galaxy"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "On a 1923 photo of this spiral, Edwin Hubble crossed out an 'N' for a supposed nova and wrote 'VAR!', having found a variable star that proved it lay outside the Milky Way.",
+    "how": "written",
+    "sources": [
+     "https://carnegiescience.edu/about/history/archives/plate-archives/m31var",
+     "https://www.astronomy.com/science/the-star-that-changed-the-cosmos-m31-v1/"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "About 2.5 million light-years away, this spiral is, under most viewing conditions, one of the most distant things a person can see with the naked eye.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Andromeda_Galaxy"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "Charles Messier listed this spiral as number 31 in his catalog, and it is closing in on the Milky Way at about 110 km per second.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Andromeda_Galaxy",
+     "https://www.nationalgeographic.com/science/article/milky-way-andromeda-galaxy-collision-odds",
+     "https://arxiv.org/pdf/2603.22863"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 4 uses Wikipedia's current figure of about a 50% chance of collision within 10 billion years (older estimates said a near-certain collision in about 4 billion years). Avoided the word 'galaxy' in all clues."
+ },
+ "zipper": {
+  "answer": "Zipper",
+  "clues": [
+   {
+    "position": 1,
+    "text": "Elias Howe, a sewing-machine pioneer, patented an early version of this device in 1851 but never seriously tried to sell it.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Zipper"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Close to half of these devices worldwide come from a single Japanese firm, founded in Tokyo in 1934, whose three initials appear on many of them.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/YKK",
+     "https://www.mentalfloss.com/article/68451/why-do-all-zippers-have-letters-ykk-them"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "In 1937 this device beat the button in the so-called 'Battle of the Fly' over how to close men's trousers.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Zipper"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This fastener got its name from rubber galoshes that B.F. Goodrich launched in 1923 and named after the sound the device makes.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Zipper",
+     "https://www.csmonitor.com/Technology/Pioneers/2012/0424/Google-honors-Gideon-Sundback-Father-of-the-zipper"
+    ]
+   }
+  ],
+  "writerNotes": "Some sources date the name to 1925 rather than 1923; Wikipedia says 1923. Alias 'Zip' is the British name."
+ },
+ "charlie-bit-my-finger": {
+  "answer": "Charlie Bit My Finger",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This viral clip was among the files the CIA released in 2017 from Osama bin Laden's computer, alongside Tom and Jerry cartoons and crochet tutorials.",
+    "how": "written",
+    "sources": [
+     "https://www.militarytimes.com/news/pentagon-congress/2017/11/02/cia-releases-470000-more-files-from-bin-laden-raid/",
+     "https://www.foxnews.com/politics/bin-laden-files-reveal-fondness-for-funny-cats-charlie-bit-my-finger-videos",
+     "https://en.wikipedia.org/wiki/Charlie_Bit_My_Finger"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "In May 2021 this home video was auctioned as an NFT for $760,999, and the family said they would take the original off YouTube.",
+    "how": "written",
+    "sources": [
+     "https://www.rollingstone.com/culture/culture-news/charlie-bit-my-finger-nft-auction-1173526/",
+     "https://www.cbsnews.com/amp/news/charlie-bit-my-finger-video-deleted-youtube-nft",
+     "https://en.wikipedia.org/wiki/Charlie_Bit_My_Finger"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "In October 2009 this clip passed 'Evolution of Dance' in YouTube views, with about 129.5 million.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Charlie_Bit_My_Finger",
+     "https://www.illawarramercury.com.au/story/623754/the-most-viewed-youtube-clip-of-all-time/",
+     "https://knowyourmeme.com/memes/charlie-bit-my-finger",
+     "https://theworld.org/stories/2012-02-10/finger-biting-baby-and-his-brother-are-youtubes-biggest-success-story",
+     "https://childrights.thedailystar.net/rising/2010/05/01/index.htm"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "In this 56-second home video from 2007, a baby brother chomps down on three-year-old Harry, whose pained English complaint gave the clip its name.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Charlie_Bit_My_Finger"
+    ]
+   }
+  ],
+  "writerNotes": "Bin Laden detail: Wikipedia says 'reportedly'; news coverage of the CIA's November 2017 release lists the clip by name, so clue 1 states it plainly. Clue 4 says the clip is 56 seconds per Wikipedia."
+ },
+ "the-night-watch": {
+  "answer": "The Night Watch",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This painting shows a small, brightly lit girl with a dead chicken hanging from her belt, a reference to the emblem of the militiamen it portrays.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/The_Night_Watch"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "In 1715 this canvas was trimmed on all four sides, probably to fit between two columns in Amsterdam's town hall, and lost figures from its left edge.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/The_Night_Watch",
+     "https://www.nationalgallery.org.uk/paintings/gerrit-lundens-after-rembrandt-the-company-of-captain-banning-cocq-the-nightwatch",
+     "https://hyperallergic.com/658816/artificial-intelligence-helps-reconstruct-the-night-watch-rembrandt/"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "Starting in 2019, this canvas was studied and restored inside a glass room in the Rijksmuseum, with the work livestreamed to the public.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/The_Night_Watch"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "Rembrandt's 1642 group portrait of Captain Frans Banninck Cocq's militia company got its popular name because dark varnish made the daytime scene look like it was set after dark.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/The_Night_Watch"
+    ]
+   }
+  ],
+  "writerNotes": "Sources differ on how many figures were cut in 1715 (Wikipedia: two; National Gallery: two men and a child), so clue 2 says 'lost figures' without a count."
+ },
+ "lisbon": {
+  "answer": "Lisbon",
+  "clues": [
+   {
+    "position": 1,
+    "text": "A bookshop in this capital's Chiado district, opened in 1732, is listed by Guinness World Records as the world's oldest operating bookshop.",
+    "how": "written",
+    "sources": [
+     "https://www.guinnessworldrecords.com/world-records/longest-running-bookshop",
+     "https://en.wikipedia.org/wiki/Livraria_Bertrand"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Ancient writers such as Strabo passed on a legend that this city was founded by Ulysses, and it is often called the second-oldest European capital after Athens.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Lisbon",
+     "https://www.sjsu.edu/faculty/watkins/lisbon.htm"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "On All Saints' Day in 1755 an earthquake, a tsunami and days of fire wrecked this city, and the Marquis of Pombal rebuilt its downtown with broad, straight streets.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Lisbon",
+     "https://www.newworldencyclopedia.org/entry/1755_Lisbon_earthquake",
+     "https://www.history.com/this-day-in-history/november-1/earthquake-takes-heavy-toll-on-lisbon"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This capital and largest city of Portugal sits on the northern shore of the Tagus, where the river meets the Atlantic.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Lisbon"
+    ]
+   }
+  ],
+  "writerNotes": "'Second-oldest European capital after Athens' is stated flatly by Wikipedia; it is a common claim rather than a settled ranking. Guinness record dated 19 April 2010."
+ },
+ "betelgeuse": {
+  "answer": "Betelgeuse",
+  "clues": [
+   {
+    "position": 1,
+    "text": "On 13 December 1920 this star became the first beyond the Sun to have its disk measured, using a 20-foot interferometer on Mount Wilson's 100-inch telescope.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Betelgeuse",
+     "https://www.lindahall.org/about/news/scientist-of-the-day/francis-pease/",
+     "https://astropublishing.com/5FAM2020/4/"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "This star's European name comes from a 13th-century misreading of one letter in an Arabic name meaning 'the hand of al-Jawzā''.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Betelgeuse"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "Between late 2019 and early 2020 this star faded to about a third of its usual brightness, probably because material thrown off its surface formed a dust cloud.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Betelgeuse"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This red supergiant is usually the second-brightest star in Orion after Rigel, and a 1988 movie's title character made its 'beetle juice' pronunciation popular.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Betelgeuse"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 3 hedges the dust cause ('probably'), as Wikipedia says the Hubble study 'suggests' it."
+ },
+ "roomba": {
+  "answer": "Roomba",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This gadget's prototype was called DustPuppy, because like a puppy it would try very hard to please but might sometimes mess up.",
+    "how": "written",
+    "sources": [
+     "https://nautil.us/dont-fear-the-robot-237802/",
+     "https://en.wikipedia.org/wiki/Roomba"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Amazon agreed in 2022 to buy this gadget's maker for about $1.7 billion, but the deal collapsed in January 2024 over EU competition concerns.",
+    "how": "written",
+    "sources": [
+     "https://www.bloomberg.com/news/articles/2024-01-29/amazon-drops-irobot-acquisition-after-eu-veto-threat",
+     "https://sharecast.com/amp/news/international-companies/amazon-irobot-abandon-merger-due-to-eu-opposition--15985368.html"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "In 2016 this machine's maker admitted 'we see this a lot' after viral reports of the machines smearing dog poop across owners' floors.",
+    "how": "written",
+    "sources": [
+     "https://www.foxnews.com/tech/irobot-responds-to-roomba-poopocalypse-complaints",
+     "https://uproxx.com/?p=1733775",
+     "https://en.wikipedia.org/wiki/Roomba"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This disc-shaped robot vacuum, launched by iRobot in 2002, is held by the Smithsonian as 'the first successful domestic robot.'",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Roomba"
+    ]
+   }
+  ],
+  "writerNotes": "Deal value: most reports say $1.7 billion; Bloomberg later described it as $1.4 billion (after a price cut), so clue 2 says 'about $1.7 billion' for the 2022 agreement."
+ },
+ "hotmail": {
+  "answer": "Hotmail",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This email service had to shut its servers down in August 1999 after a flaw let anyone read other users' messages without a password.",
+    "how": "written",
+    "sources": [
+     "https://www.salon.com/tech/col/rose/1999/09/01/hotmail_security/"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "This service launched on July 4, 1996, a date meant to symbolize freedom from email tied to your internet provider.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Outlook.com"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "Its name was chosen because it hides the letters of HTML, and its early logo capitalized exactly those four letters.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Outlook.com"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "Microsoft bought this free webmail service from Sabeer Bhatia and Jack Smith in 1997 for a reported $400 million, and replaced it with Outlook.com in 2013.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Outlook.com",
+     "https://techcrunch.com/2009/10/18/ps-i-love-you-get-your-free-email-at-hotmail"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1: Salon (1 Sep 1999) says no password was needed and Hotmail 'shut its servers down' to plug the hole. Wikipedia's 'password eh' version could not be corroborated with 1999 reporting, so it was not used. Clue 2: Wikipedia says the date 'symbolized' freedom from ISP-based email."
+ },
+ "bayeux-tapestry": {
+  "answer": "Bayeux Tapestry",
+  "clues": [
+   {
+    "position": 1,
+    "text": "A full-size Victorian copy of this artwork, stitched by the Leek Embroidery Society, gives a naked man underpants, copied from photographs museum staff had 'cleaned up'.",
+    "how": "written",
+    "sources": [
+     "https://www.readingmuseum.org.uk/node/14341",
+     "https://en.wikipedia.org/wiki/Bayeux_Tapestry"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Heinrich Himmler called this work 'important for our glorious and cultured Germanic history', and a German research team took fragments from its underside in 1941.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bayeux_Tapestry"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "When this work was lent to the British Museum in 2026, Britain agreed to lend the Lewis chessmen and Sutton Hoo treasures to France in return.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://www.gov.uk/government/news/bayeux-tapestry-to-go-on-display-at-the-british-museum-in-2026",
+     "https://www.britishmuseum.org/exhibitions/bayeux-tapestry",
+     "https://en.wikipedia.org/wiki/Bayeux_Tapestry"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This nearly 70-meter embroidered strip of linen tells the story of the Norman conquest of England, building to the Battle of Hastings in 1066.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bayeux_Tapestry"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1: Reading Museum says the Leek women copied the underpants from hand-coloured photographs 'cleaned-up' by male staff at the South Kensington Museum (now the V&A). Headcount of embroiderers varies (35 vs 37), so no number is given. Clue 2: Himmler quote and 1941 fragments are from Wikipedia only. Clue 3: gov.uk says the British Museum lends 'the Sutton Hoo collection, the Lewis Chessmen and other treasures to France'."
+ },
+ "edinburgh": {
+  "answer": "Edinburgh",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This city is where the Encyclopaedia Britannica was born, sold in 100 weekly parts from a printing office here starting in December 1768.",
+    "how": "written",
+    "sources": [
+     "https://nls.uk/collections/rare-books/encyclopaedia-britannica",
+     "https://en.wikipedia.org/wiki/History_of_the_Encyclop%C3%A6dia_Britannica"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Since 1861 a gun has been fired from this city's castle at 1 p.m. on most days, first so ships offshore could check their chronometers.",
+    "how": "written",
+    "sources": [
+     "https://edinburghcastle.scot/discover/highlights/one-oclock-gun",
+     "https://www.edinburghcastle.scot/media/1380/edinburgh-castle-large-print-guide.pdf"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "The self-taught joiner who designed this city's 61-meter Gothic monument to Sir Walter Scott drowned in a canal in 1844, before it was finished.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Scott_Monument"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This Scottish capital hosts the Fringe, the world's largest arts festival, every August beneath a castle built on an extinct volcano.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Edinburgh_Castle",
+     "https://www.aljazeera.com/video/2019/8/4/worlds-largest-arts-festival-under-way-in-edinburgh"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1: first part dated 10 December 1768 by Britannica and NLS (one source says 6 December), so only the month is given. Clue 2: first-firing date is 1861 in all sources (castle guide says 7 June, History Scotland says January); not fired on Sundays, Good Friday and Christmas Day, hence 'most days'. Clue 3: Wikipedia calls George Meikle Kemp a self-taught architect who drowned in the Union Canal on 6 March 1844; monument built 1840-46."
+ },
+ "titan-moon": {
+  "answer": "Titan",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This moon's air is so dense and its gravity so weak that engineer Robert Zubrin suggested a person could fly there by flapping wings strapped to their arms.",
+    "how": "written",
+    "sources": [
+     "https://journals.le.ac.uk/index.php/pst/article/view/997",
+     "https://www.planetary.org/articles/what-would-it-be-like-to-stand-on-the-surface-of-titan"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Found in 1655, this moon was called simply 'Saturni Luna' by its discoverer and got its present name only in 1847, from astronomer John Herschel.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Titan_(moon)",
+     "https://www.astronomy.com/today-in-the-history-of-astronomy/march-25-1655-christiaan-huygens-discovers-titan/"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "In January 2005 the European probe Huygens parachuted onto this moon, the farthest from Earth that any spacecraft had ever landed.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Titan_(moon)",
+     "https://www.esa.int/kids/en/learn/Our_Universe/Planets_and_moons/Titan"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "Saturn's largest moon is bigger than the planet Mercury, and lakes of liquid methane dot its surface.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Titan_(moon)"
+    ]
+   }
+  ],
+  "writerNotes": "Answer is plain 'Titan'; the Wikipedia picture lookup will hit a disambiguation page, so answerInfo.ts probably needs an ANSWER_PAGE_TITLES override to 'Titan (moon)' (not added; brief says edit only this file). Clue 1: the flapping-wing idea is Zubrin's, from his book Entering Space, per the Leicester physics paper; not a NASA claim. Clue 2: Wikipedia says about 6% wider, 'only 40% as massive'."
+ },
+ "peanut-butter": {
+  "answer": "Peanut Butter",
+  "clues": [
+   {
+    "position": 1,
+    "text": "Cereal pioneer John Harvey Kellogg patented a way to make this food in the 1890s and served it to patients who needed protein they could eat without chewing.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Peanut_butter",
+     "https://www.historynewsnetwork.org/article/62153"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "In the Netherlands this spread is sold as 'pindakaas', a name that calls it a kind of cheese.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Peanut_butter"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "In the 1920s a California inventor, Joseph Rosefield, found a way to stop the oil in this spread from separating, and later created its first 'chunky' version.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Joseph_L._Rosefield",
+     "https://hmdb.org/m.asp?m=163095",
+     "https://www.historynewsnetwork.org/article/62153"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "George Washington Carver is often wrongly credited with inventing this spread, which Americans famously pair with jelly in sandwiches.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Peanut_butter"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1: Wikipedia says it 'couldn't be sold under the name peanut butter' in 1948 because 'butter' was reserved for real butter (to avoid confusion with margarine); the 'pindakaas' name itself goes back to Surinamese peanut cheese. Clue 2: Kellogg patent year differs (1895 per HNN, 1898 per Wikipedia), so only the decade is given. Clue 3: Rosefield's process is dated 1921, 1922 or 1923 by different sources, so only the decade is given; Alameda marker places him in California."
+ },
+ "pinterest": {
+  "answer": "Pinterest",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This website's co-founder said he wrote personally to its first 5,000 users, offering them his phone number and even meeting some of them.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Pinterest"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "This site grew out of Tote, an earlier app by two of its founders that was meant as a digital substitute for printed shopping catalogs.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Pinterest"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "comScore called this site the fastest ever to break the 10 million unique-visitor mark, after it drew 11.7 million U.S. visitors in January 2012.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Pinterest"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This image-sharing site lets users save recipes, home ideas and outfits to themed digital boards.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Pinterest"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1 is Silbermann's own account ('Silbermann said he wrote to the first 5,000 users'), so the clue keeps 'said'."
+ },
+ "gustav-klimt": {
+  "answer": "Gustav Klimt",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This painter's three ceiling paintings for the University of Vienna were called pornographic by critics, and all three burned when German forces set fire to an Austrian castle in May 1945.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Gustav_Klimt"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "For a 1902 exhibition honoring Beethoven, this painter made a wall frieze whose knight in golden armor is said to bear the features of Vienna opera director Mahler.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Gustav_Klimt",
+     "https://en.wikipedia.org/wiki/Beethoven_Frieze",
+     "https://www.mahlerfoundation.org/?p=8445"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "This painter's portrait of Adele Bloch-Bauer sold for a reported $135 million in 2006, and an heir's long legal fight to recover it became the film 'Woman in Gold'.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Portrait_of_Adele_Bloch-Bauer_I"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This Austrian painter, a founder of the Vienna Secession, added real gold leaf to 'The Kiss', his painting of a couple locked in an embrace.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/The_Kiss_(Klimt)",
+     "https://en.wikipedia.org/wiki/Gustav_Klimt"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 3: the heir is Maria Altmann, niece of Adele's husband Ferdinand; her seven-year claim reached the U.S. Supreme Court."
+ },
+ "mexico-city": {
+  "answer": "Mexico City",
+  "clues": [
+   {
+    "position": 1,
+    "text": "Residents of this city are informally called 'chilangos', a name that outsiders once used as an insult.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Mexico_City"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "This capital sits on a drained lakebed, and parts of it have sunk as much as nine meters since the early 1900s.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Mexico_City"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "After his graphics for the 1968 Olympics, New Jersey-born designer Lance Wyman gave this city's Metro stations picture icons, partly so riders who could not read could find their stop.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Mexico_City_Metro",
+     "https://www.designboom.com/design/lance-wyman-interview-10-14-2014-2/"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "The Spanish built this capital on the ruins of the Aztec city of Tenochtitlan, putting its cathedral on the Aztecs' sacred precinct beside their main temple.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Mexico_City",
+     "https://en.wikipedia.org/wiki/Mexico_City_Metropolitan_Cathedral"
+    ]
+   }
+  ]
+ },
+ "yuri-gagarin": {
+  "answer": "Yuri Gagarin",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This cosmonaut ejected from his descending capsule and landed by parachute, a detail Soviet officials hid because record rules then required pilots to land with their craft.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Yuri_Gagarin",
+     "https://planetary.org/space-missions/vostok-1"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "This pilot was promoted from senior lieutenant to major by a special order issued while his flight was still under way.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Yuri_Gagarin"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "This pilot stood just 1.57 meters tall, under the 1.70-meter limit set so that candidates could fit inside the cramped capsule.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Yuri_Gagarin"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "In April 1961 this Soviet pilot became the first human in space, crying 'Poyekhali!' ('Off we go!') at liftoff.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Yuri_Gagarin",
+     "https://planetary.org/space-missions/vostok-1"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1: Wikipedia says the FAI later revised its rules and certified his records."
+ },
+ "pretzel": {
+  "answer": "Pretzel",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This baked good has served as the emblem of bakers and their guilds in southern Germany since at least the 12th century.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Pretzel"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Because it could be made from just flour and water, this snack could be eaten during Lent, when eggs, lard and dairy were forbidden.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Pretzel"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "In January 2002, George W. Bush told reporters he had choked on one of these and passed on his mother's advice: 'chew before you swallow.'",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Pretzel",
+     "https://georgewbush-whitehouse.archives.gov/news/releases/2002/01/print/20020114-1.html"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "Legend says a monk first twisted this knotted snack to look like arms crossed in prayer, and today it is sold both soft and hard.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Pretzel"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 4 hedges with 'Legend says' because Wikipedia gives the monk story as 'supposedly'."
+ },
+ "keyboard-cat": {
+  "answer": "Keyboard Cat",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This meme's creator teamed up with another meme's creator in 2013 to sue Warner Bros. for putting both their characters in the Scribblenauts video games without permission.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Keyboard_Cat",
+     "https://www.engadget.com/2013-05-02-keyboard-cat-nyan-cat-creators-file-lawsuit-over-scribblenauts.html"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "This video's original star, a pet named Fatso, was filmed in 1984 by Spokane man Charlie Schmidt wearing an infant's blue T-shirt, but the clip only reached YouTube in 2007.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Keyboard_Cat"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "This clip became a craze in 2009 after an employee of a web video company tacked it onto the end of a blooper of someone falling off an escalator.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Keyboard_Cat"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This viral video shows a feline in a blue shirt playing a jaunty tune on a synthesizer, while its owner secretly moves its paws, his hands hidden by the shirt.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Keyboard_Cat",
+     "https://knowyourmeme.com/memes/keyboard-cat"
+    ]
+   }
+  ],
+  "writerNotes": "The instrument was an Ensoniq Mirage sampling keyboard, described as a synthesizer in clue 4 to avoid the answer word. Fatso's death year is disputed (1987 vs about 1999), so it is left out."
+ },
+ "henri-matisse": {
+  "answer": "Henri Matisse",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This artist's 1907 painting 'Blue Nude' was burned in effigy when the Armory Show reached Chicago in 1913.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Henri_Matisse"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "This painter trained in law and worked as a court administrator, and only took up painting at about 19, when his mother brought him art supplies as he recovered from appendicitis.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Henri_Matisse"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "This artist's picture of a sailboat hung upside down at New York's Museum of Modern Art for 47 days in 1961; even his art-dealer son Pierre missed it.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/The_Boat_(Matisse)",
+     "https://news.masterworksfineart.com/2018/09/19/moma-hung-matisse-gouache-painting-upside-down-for-47-days"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This French painter led the Fauves, or 'wild beasts', and late in life, often confined to a wheelchair, made bold cut-outs from painted paper.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Henri_Matisse"
+    ]
+   }
+  ]
+ },
+ "bangkok": {
+  "answer": "Bangkok",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This city's only hill began as a giant temple spire that collapsed because the soft ground could not hold it, and over decades took the shape of a natural hill.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bangkok",
+     "https://en.wikipedia.org/wiki/Wat_Saket"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "This city's ground was sinking about 12 cm a year in 1981, and parts of it now lie about a meter below sea level.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bangkok"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "This city became a royal capital in 1782, when King Rama I moved his court across the river from Thonburi.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bangkok"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This Thai capital's full ceremonial name, 168 letters long, is listed by Guinness World Records as the longest place name in the world.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bangkok"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1 is the Golden Mount (Phu Khao Thong) at Wat Saket, a chedi begun by Rama III."
+ },
+ "etch-a-sketch": {
+  "answer": "Etch A Sketch",
+  "clues": [
+   {
+    "position": 1,
+    "text": "After this toy got a roughly 45-second scene in 'Toy Story 2', its sales rose by about 20 percent.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Etch_A_Sketch"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "This toy's inventor, a French electrician named André Cassagnes, called it 'L'Écran Magique' — 'the magic screen' — and showed it at the 1959 Nuremberg toy fair.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Etch_A_Sketch"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "In 2012 a Mitt Romney aide likened the campaign's planned reset for the general election to this toy, and Newt Gingrich mocked it as 'a great toy but a losing strategy.'",
+    "how": "written",
+    "sources": [
+     "https://www.csmonitor.com/USA/Politics/The-Vote/2012/0321/Etch-A-Sketch-Can-Mitt-Romney-shake-off-his-aide-s-Mr.-Potato-Head-gaffe"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This red-framed drawing toy has two white knobs, one for horizontal lines and one for vertical, and you wipe the picture by shaking it.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Etch_A_Sketch"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 3: the aide was Eric Fehrnstrom on CNN, March 2012; the Gingrich quote is from his tweet as reported by the Christian Science Monitor."
+ },
+ "tabasco": {
+  "answer": "Tabasco",
+  "clues": [
+   {
+    "position": 1,
+    "text": "Fans of the TV series 'Roswell' mailed bottles of this condiment, a favorite of the show's alien characters, to the WB network to save the show from cancellation.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Tabasco_sauce",
+     "https://www.mentalfloss.com/article/32093/7-television-shows-saved-their-fans"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "During the Vietnam War this condiment's maker sent troops 'The Charlie Ration Cookbook', which came wrapped around a two-ounce bottle of the stuff.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Tabasco_sauce",
+     "https://www.wearethemighty.com/articles/the-long-history-of-the-us-military-and-tabasco-sauce/"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "This product's pepper mash is mixed with salt and aged for up to three years in white oak barrels that once held whiskey.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Tabasco_sauce"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This fiery red Louisiana condiment comes in small bottles and has been made by the McIlhenny family on Avery Island since 1868, by the company's account.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Tabasco_sauce"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 4 hedges the 1868 date because historians dispute parts of the company's origin story."
+ },
+ "pancreas": {
+  "answer": "Pancreas",
+  "clues": [
+   {
+    "position": 1,
+    "text": "Clusters of cells in this organ are named after a German who described them in his 1869 doctoral thesis at age 21, though he could not say what they did.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Paul_Langerhans",
+     "https://litfl.com/paul-langerhans/"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Butchers sell this organ from calves and lambs as one of the two kinds of sweetbread; the other is the thymus.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Sweetbread",
+     "https://www.tastingtable.com/1045736/a-complete-guide-to-sweetbreads"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "Alex Trebek, Patrick Swayze, Alan Rickman and Luciano Pavarotti all died of cancer that started in this organ.",
+    "how": "written",
+    "sources": [
+     "https://www.wftv.com/news/trending/pancreatic-cancer-5-celebrities-who-battled-disease/NRH5IJPRABF5FDHIAQTLKVZTLI/"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This organ, tucked behind the stomach, makes the insulin that controls your blood sugar.",
+    "how": "written",
+    "sources": [
+     "https://www.niddk.nih.gov/news/media-library/17729",
+     "https://www.microscopemaster.com/islets-of-langerhans.html"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1: Langerhans was born 25 July 1847 and presented the thesis in February 1869, so 21 is computed from those dates; Wikipedia says he 'could not suggest a function'. Clue 3: the wftv list says Trebek had stage 4 pancreatic cancer and gives his death date but not an explicit cause; his death from it is widely reported."
+ },
+ "moss": {
+  "answer": "Moss",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This plant grows in about 120 varieties at Saihō-ji, a Kyoto temple whose visitors must book ahead and copy a Buddhist sutra before touring the garden.",
+    "how": "written",
+    "sources": [
+     "https://www.japan-experience.com/all-about-japan/kyoto/temples-shrines/saihoji-kokedera-temple-mosses",
+     "https://www.hikemasterjapan.com/the-saihoji-moss-temple-kyoto-kokedera"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "In World War I, Britain and Canada used one kind of this plant to dress wounds when cotton ran short, because it can soak up as much as 22 times its own weight.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://www.smithsonianmag.com/science-nature/how-humble-moss-helped-heal-wounds-thousands-WWI-180963081/",
+     "https://theconversation.com/war-and-peat-how-bog-moss-helped-save-thousands-of-lives-in-world-war-i-106630",
+     "https://siarchives.si.edu/blog/fostering-collaboration-public-good-sphagnum-moss-and-wwi"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "Tardigrades are nicknamed this plant's 'piglets', because the tiny animals are so often found living in its damp clumps.",
+    "how": "written",
+    "sources": [
+     "https://buglife.org.uk/bugs/bug-directory/water-bears",
+     "https://askabiologist.asu.edu/explore/tardigrades"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "According to a proverb that Erasmus helped popularize, a rolling stone never gathers this soft green plant.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/A_rolling_stone_gathers_no_moss"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1: '120 varieties' is the figure travel guides repeat ('about 120'); the sutra-copying requirement is current practice and could change. Clue 2: sources give 20-25 times its weight; Smithsonian says up to 22."
+ },
+ "hermes": {
+  "answer": "Hermes",
+  "clues": [
+   {
+    "position": 1,
+    "text": "In 415 BC, just before Athens sailed against Sicily, vandals smashed the faces of pillar statues of this Greek god all over the city, and suspicion fell on Alcibiades.",
+    "how": "written",
+    "sources": [
+     "https://www.worldhistory.org/article/1684/the-desecration-of-the-statues-of-hermes-415-bce/",
+     "https://www.athensinsiders.com/blog/alcibiades-socrates-and-the-herms-of-athens-a-religious-scandal-and-democracy-in-crisis"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Sent by Zeus to free Io, this god lulled the hundred-eyed giant Argus to sleep and killed him; in Ovid's telling, Hera put the eyes in the peacock's tail.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Argus_Panoptes",
+     "https://theoi.com/Olympios/HermesMyths2.html"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "On the day he was born, this god made a lyre from a tortoise shell and stole fifty of Apollo's cows, reversing their hoofprints to hide the trail.",
+    "how": "written",
+    "sources": [
+     "https://ftp.theoi.com/Text/HomericHymns2.html"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This messenger of the Olympian gods wore winged sandals and carried a staff twined with two snakes, and the Romans called him Mercury.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Hermes"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1: Alcibiades was recalled to face trial over the Mysteries parody and the statue affair; who did it is still disputed, so the clue says only that suspicion fell on him. Clue 3 follows the Homeric Hymn to Hermes (Evelyn-White translation): 'reversed the marks of their hoofs'."
+ },
+ "beanie-babies": {
+  "answer": "Beanie Babies",
+  "clues": [
+   {
+    "position": 1,
+    "text": "In 1999 a Las Vegas judge made a divorcing couple sit on the courtroom floor and take turns picking from their collection of these, one at a time.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://archive.seattletimes.com/archive/19991106/2993553/no-joint-custody-beanie-baby-collection-is-divided",
+     "https://www.snopes.com/fact-check/couple-divorce-beanie-babies/"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "At the height of the craze, these collectibles made up about a tenth of all sales on the young auction site eBay.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://www.historynewsnetwork.org/article/186030",
+     "https://en.wikipedia.org/wiki/Beanie_Babies",
+     "https://www.sec.gov/Archives/edgar/data/0001065088/000101287098002475/0001012870-98-002475.txt"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "After Diana's death in 1997, this line added a purple bear named Princess, with proceeds pledged to her memorial fund.",
+    "how": "written",
+    "sources": [
+     "https://www.mentalfloss.com/posts/princess-diana-beanie-baby"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "These small Ty plush animals, filled with plastic pellets and sold with a heart-shaped tag, set off a collecting frenzy in the late 1990s.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Beanie_Babies"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 2: several sources give 6% in 1997 and 10% in 1998; HNN ties 'a tenth' to eBay's 1998 filing. Aliases 'Beanie Baby' and 'Beanies' are common alternate names; they ban those words too."
+ },
+ "doughnut": {
+  "answer": "Doughnut",
+  "clues": [
+   {
+    "position": 1,
+    "text": "Salvation Army volunteers famously fried this treat for American troops in World War I France, and in 1938 the group's Chicago branch launched a national day for it.",
+    "how": "written",
+    "sources": [
+     "https://www.salvationarmyusa.org/stories/celebrate-donut-day-with-salvation-army/",
+     "https://centralusa.salvationarmy.org/western-wm4/news/nationaldonutday"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "A campaign by Israel's labor union helped make a jelly-filled version of this treat, the sufganiyah, the country's signature Hanukkah food.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Sufganiyah",
+     "https://www.npr.org/2017/12/19/572068488/how-the-israeli-sufganiyah-or-jelly-doughnut-got-its-start-as-a-hanukkah-treat"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "Maine sea captain Hanson Gregory claimed that in 1847, as a teenage sailor, he gave this fried treat its now-familiar shape using a tin pepper box.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://downeast.com/features/doughnuts-in-maine-from-inception-to-perfection",
+     "https://www.todayifoundout.com/index.php/2012/05/why-do-doughnuts-have-holes/"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "In a Halloween episode of The Simpsons, Homer sells his soul to the devil for one of these ring-shaped fried treats.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Treehouse_of_Horror_IV"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1 sources are Salvation Army pages; the oft-repeated detail of frying in soldiers' helmets is left out because no independent source confirmed it. Clue 2: Gregory's own story changed over time (pepper box, later a biscuit cutter); the clue states it as his claim. He was a sailor from 1845 but not yet a captain in 1847, so 'sea captain' describes his later career."
+ },
+ "uvula": {
+  "answer": "Uvula",
+  "clues": [
+   {
+    "position": 1,
+    "text": "When a Tel Aviv ear, nose and throat doctor compared the soft palates of humans and other mammals in 1992, only humans had a proper one of these; two baboons had small, underdeveloped ones.",
+    "how": "written",
+    "sources": [
+     "https://www.scienceupdate.com/2006/09/animal-uvulas/",
+     "https://pubmed.ncbi.nlm.nih.gov/1408233/"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Traditional surgeons in parts of Ethiopia and other African countries cut this off young children, a custom linked to heavy bleeding, infection and even death.",
+    "how": "written",
+    "sources": [
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC9778602/",
+     "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11492597/",
+     "https://en.wikipedia.org/wiki/Uvula"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "This body part's name is Latin for 'little grape', after the shape it was thought to resemble.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Uvula",
+     "https://www.etymologynerd.com/blog/uvula-grapes"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This small teardrop of flesh hangs down from the soft palate at the back of your throat, and touching it can set off the gag reflex.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Uvula"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1 rests on Finkelstein's 1992 paper 'The riddle of the uvula'. Sources disagree on 8 vs 9 species studied, so the clue gives no count. Wikipedia separately says miniature pigs have been found to have one, so the clue is pinned to that one study rather than claiming humans are unique."
+ },
+ "geyser": {
+  "answer": "Geyser",
+  "clues": [
+   {
+    "position": 1,
+    "text": "The largest one of these ever known, in New Zealand, threw black, rock-laden water up to 460 metres high, and killed four people who stood too close in 1903.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Waimangu_Geyser",
+     "https://en.wikipedia.org/wiki/Geysir"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "In Iceland, soap was sometimes added to one of these to make it go off on special occasions, a trick that grew rare in the 1990s over environmental concerns.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Geysir",
+     "https://en.wikipedia.org/wiki/Geyser"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "Yellowstone National Park holds roughly half of all of these on Earth, with at least 150 of them packed into one square mile.",
+    "how": "written",
+    "sources": [
+     "https://www.nps.gov/features/yell/ofvec/exhibits/treasures/ugb/index.htm",
+     "https://en.wikipedia.org/wiki/Geyser"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "These springs periodically blast boiling water and steam into the air, their name comes from an Icelandic word meaning 'to gush', and Old Faithful is the most famous one.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Geysir",
+     "https://en.wikipedia.org/wiki/Geyser"
+    ]
+   }
+  ],
+  "writerNotes": "Waimangu height: Wikipedia gives up to 1,500 ft (460 m), noting another source says 450 m. Clue 2's soap fact is from Wikipedia's Geysir article only (it says soap was 'seldom used' in the 1990s for environmental reasons, not banned)."
+ },
+ "narcissus": {
+  "answer": "Narcissus",
+  "clues": [
+   {
+    "position": 1,
+    "text": "In one ancient telling of this Greek youth's story, a spurned admirer named Ameinias killed himself with a sword at his door, calling on the gods to avenge him.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Narcissus_(mythology)",
+     "https://www.theoi.com/Heros/Narkissos.html",
+     "https://en.wikipedia.org/wiki/Narcissus_(mythology"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "The seer Tiresias told this youth's mother, the nymph Liriope, that he would live a long life only if he never came to know himself.",
+    "how": "written",
+    "sources": [
+     "https://www.theoi.com/Heros/Narkissos.html",
+     "https://en.wikipedia.org/wiki/Narcissus_(mythology)"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "The nymph Echo fell for this youth, and after he rejected her she wasted away until only her voice was left.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Narcissus_(mythology)"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This beautiful youth from Greek myth fell in love with his own reflection in a pool, and a spring flower now carries his name.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Narcissus_(mythology)",
+     "https://www.theoi.com/Heros/Narkissos.html"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1 is Conon's version (Narrations 24). Clue 2 follows Ovid, Metamorphoses 3; Wikipedia paraphrases the prophecy as 'provided he does not look at himself', Theoi's translation as 'if he but fail to recognize himself'."
+ },
+ "big-bird": {
+  "answer": "Big Bird",
+  "clues": [
+   {
+    "position": 1,
+    "text": "The performer inside this character watched a small TV monitor strapped to his chest to see where he was going, a rig nicknamed the 'electronic bra'.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Big_Bird",
+     "https://listverse.com/2019/06/16/10-crazy-facts-about-big-bird/"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "NASA held early talks about flying this character on the 1986 Challenger mission, but the plan was dropped and teacher Christa McAuliffe went instead.",
+    "how": "written",
+    "sources": [
+     "https://www.nbcnews.com/science/weird-science/nasa-confirms-talks-fly-big-bird-doomed-shuttle-challenger-n353521",
+     "https://en.wikipedia.org/wiki/Big_Bird"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "Caroll Spinney played this character from 1969 to 2018, and in an odd pairing also performed its grumpy neighbor Oscar the Grouch.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Big_Bird",
+     "https://listverse.com/2019/06/16/10-crazy-facts-about-big-bird/"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This 8-foot-2 yellow feathered giant lives on Sesame Street, and his best friend is the woolly Mr. Snuffleupagus.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Big_Bird",
+     "https://listverse.com/2019/06/16/10-crazy-facts-about-big-bird/"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 2: NASA has said only that there were initial conversations and the plan was never approved, so the clue says 'early talks'. 'Canary': listverse cites 'Biggius canarius' from Sesame Street Unpaved and Ma Bear calling him a huge canary."
+ },
+ "curling": {
+  "answer": "Curling",
+  "clues": [
+   {
+    "position": 1,
+    "text": "Great Britain won the tournament in this sport at the first Winter Olympics in Chamonix in 1924, but the IOC did not treat the result as official until 2006.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Curling_at_the_Winter_Olympics",
+     "https://www.teamgb.com/article/tales-of-team-gb-at-chamonix-1924/2plziz6I4DMAUSo4pdkv1B",
+     "https://en.wikipedia.org/wiki/Curling"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "In this sport, players are expected to call their own fouls and shake hands with opponents, and conceding a hopeless game is seen as honourable.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Curling",
+     "https://www.koreatimes.co.kr/sports/20260218/a-cheating-claim-violated-the-spirit-of-curling-at-the-olympics-the-sport-is-moving-on"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "The Olympic equipment for this sport is cut from granite from Ailsa Craig, an uninhabited island off Scotland, by a firm founded in 1851 that holds exclusive rights to it.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://www.teamgb.com/article/ailsa-craig-everything-you-need-to-know-about-where-olympic-curling-stones/5EFRzBr6xItMWCr2XRyaTS",
+     "https://en.wikipedia.org/wiki/Curling",
+     "https://en.wikipedia.org/wiki/Kays_of_Scotland"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "In this Winter Olympic sport, teams slide heavy stones down a sheet of ice toward a target called the house while teammates sweep in front of them.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Curling"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1: a Journal of Olympic History piece says the IOC's 2006 recognition was informal (a spokesman's statement), so the clue says 'did not treat the result as official until 2006', matching Wikipedia's wording. Clue 2's 'conceding is honourable' is from Wikipedia only. Clue 3: Wikipedia also names a Trefor quarry in Wales as a granite source, so the clue is limited to the Olympic stones."
+ },
+ "diaphragm": {
+  "answer": "Diaphragm",
+  "clues": [
+   {
+    "position": 1,
+    "text": "One ancient Greek word for this muscle, phrēn, also meant 'mind', which is why its nerve is called 'phrenic' and why skull-reading was named 'phrenology'.",
+    "how": "written",
+    "sources": [
+     "https://www.etymonline.com/word/phrenic",
+     "https://www.etymonline.com/word/phreno-",
+     "https://www.merriam-webster.com/dictionary/phreno-"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "The aorta, the esophagus and the inferior vena cava each pass through their own opening in this muscle on the way between chest and abdomen.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Thoracic_diaphragm"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "In 2003, surgeons in Cleveland threaded electrodes into this muscle of paralyzed actor Christopher Reeve so that he could breathe for a time without his ventilator.",
+    "how": "written",
+    "sources": [
+     "https://staff.washington.edu/chudler/reeveb.html",
+     "https://www.hospimedica.com/surgical-techniques/articles/86020000/procedure-allows-paralyzed-actor-to-breathe-without-respirator.html"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This dome-shaped muscle beneath the lungs pulls downward to draw in each breath, and its sudden spasms cause hiccups.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Thoracic_diaphragm",
+     "https://en.wikipedia.org/wiki/Hiccup"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 3: early reports said Reeve could breathe about 15 minutes unaided, later reports said over two hours, so the clue says only 'for a time'. Sources differ on whether it was Cleveland Clinic or University Hospitals; the clue says only 'Cleveland'."
+ },
+ "kudzu": {
+  "answer": "Kudzu",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This plant's root starch thickens Japanese sweets and sauces, and its fiber is still woven in Japan into cloth for summer kimono and obi.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Kudzu"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "This plant made its American debut as an exotic in Japan's exhibit at the 1876 Centennial Exposition in Philadelphia.",
+    "how": "written",
+    "sources": [
+     "https://daily.jstor.org/how-kudzu-was-supposed-to-save-the-south/",
+     "https://en.wikipedia.org/wiki/Kudzu_in_the_United_States"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "During the Depression, the US government offered Southern farmers up to $8 an acre to plant this vine against soil erosion, then later declared it a weed.",
+    "how": "written",
+    "sources": [
+     "https://daily.jstor.org/how-kudzu-was-supposed-to-save-the-south/",
+     "https://en.wikipedia.org/wiki/Kudzu_in_the_United_States"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "Nicknamed 'the vine that ate the South', this climber can grow a foot a day and smothers whole stands of trees across the southeastern US.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Kudzu_in_the_United_States"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 3: the weed listing is dated 1970 by Wikipedia and 1972 by JSTOR Daily, so the clue gives no year. The $8 was a maximum ('up to')."
+ },
+ "cyclops": {
+  "answer": "Cyclops",
+  "clues": [
+   {
+    "position": 1,
+    "text": "Apollo is said to have killed giants of this kind in anger, because they had forged the thunderbolt Zeus used to strike down his son Asclepius.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Cyclopes"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Ancient Greeks credited giants of this kind with building the walls of Mycenae and Tiryns, whose stones seemed too huge for ordinary men to move.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Cyclopes"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "In 1914, palaeontologist Othenio Abel suggested that skulls of Sicily's dwarf elephants, with their large central nasal opening, inspired the myth of this creature.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Cyclopes"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "In Homer's Odyssey, one of these one-eyed giants, Polyphemus, is made drunk and blinded by Odysseus, who had told him his name was 'Nobody'.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Polyphemus"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1 follows Euripides' Alcestis as cited on Wikipedia; Pherecydes instead has Apollo kill the Cyclopes' sons, hence 'is said to'. Clue 3 is Abel's proposal, which critics call unsupported; the clue says 'suggested'. Sources are Wikipedia only."
+ },
+ "mr-potato-head": {
+  "answer": "Mr. Potato Head",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This plaything, invented by George Lerner around 1949, is widely credited as the first toy advertised on television, in 1952.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Mr._Potato_Head",
+     "https://www.ebsco.com/research-starters/history/mr-potato-head",
+     "https://pentacrestmuseums.uiowa.edu/me-and-my-spuds"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "In 1987 this toy gave up his pipe, handing it to Surgeon General C. Everett Koop, and became the face of the Great American Smokeout.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Mr._Potato_Head",
+     "https://www.overstreetaccess.com/?p=64630",
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC2253576"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "Until a plastic body arrived in 1964, the box told children to push this toy's plastic features into a real vegetable from the kitchen.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Mr._Potato_Head"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This Hasbro toy, voiced by Don Rickles in Toy Story, is a plastic spud decorated with removable eyes, ears, nose and mustache.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Mr._Potato_Head"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1's 'first toy advertised on television' (April 30, 1952) is sourced to Wikipedia only; my search did not find a second source for it."
+ },
+ "bowling": {
+  "answer": "Bowling",
+  "clues": [
+   {
+    "position": 1,
+    "text": "In 1947, a group of Harry Truman's friends from Missouri paid for a facility for this sport in the West Wing of the White House.",
+    "how": "written",
+    "sources": [
+     "https://americacomesalive.com/day_in_history/april-25-1947-bowling-alley-unveiled-white-house/",
+     "https://en.wikipedia.org/wiki/Ten-pin_bowling"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Political scientist Robert Putnam built a 1995 essay and a 2000 book on the decline of league play in this sport, even as the number of people playing it rose.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bowling_Alone"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "An 1841 Connecticut law banned the nine-pin version of this game, and legend says players got around it by adding one more pin.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Ten-pin_bowling",
+     "https://www.history.com/articles/bowling-history-egypt-to-america",
+     "https://uncommonwealth.lva.virginia.gov/?p=46689"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "A perfect game in this sport means 12 strikes in a row, for a score of 300.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Ten-pin_bowling"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 3 is a widely repeated story ('reportedly'); the 1841 law itself is on Wikipedia. Clue 2's 60 feet is foul line to the centre of the head pin."
+ },
+ "fingernail": {
+  "answer": "Fingernail",
+  "clues": [
+   {
+    "position": 1,
+    "text": "These body parts can develop horizontal grooves after a high fever, first described by a French doctor in 1846, and a groove's position shows roughly when the illness struck.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Beau%27s_lines",
+     "https://www.news-medical.net/health/Beaue28099s-Lines.aspx",
+     "https://litfl.com/joseph-honore-simon-beau/"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "In primates these replaced the claws of earlier animals, and a 2022 study found that climbing without claws is quieter, suggesting they helped tree-dwelling ancestors stalk prey.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Nail_(anatomy)",
+     "https://pubmed.ncbi.nlm.nih.gov/36103535/"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "An Indian man grew these on his left hand for 66 years, until in 2018 they were cut off with a power tool in New York at a combined 909.6 cm.",
+    "how": "written",
+    "sources": [
+     "https://guinnessworldrecords.com/news/2018/7/owner-of-worlds-longest-nails-has-them-cut-after-growing-them-for-66-years-532563",
+     "https://irishtimes.com/news/offbeat/man-with-world-s-longest-fingernails-cuts-them-after-66-years-1.3562507"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "These hard keratin plates on your hands grow about 3.5 mm a month, roughly twice as fast as their counterparts on your toes.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Nail_(anatomy)"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1 is Beau's lines (Joseph Beau, 1846); dating the illness from the groove's distance to the cuticle is from the search summaries of the consultant360/news-medical pages. Clue 4's 3.5 mm/month is Yaemsiri et al. 2010 as cited by Wikipedia; Wikipedia says about twice as fast as toenails (elsewhere up to four times), so 'roughly twice' is the safe wording."
+ },
+ "rose": {
+  "answer": "Rose",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This flowering shrub has grown against the apse of Germany's Hildesheim Cathedral for about 700 years, and its roots survived the 1945 bombing that wrecked the church.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Thousand-year_Rose"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Apples, pears, cherries, almonds and strawberries all belong to the plant family named after this flower.",
+    "how": "written",
+    "sources": [
+     "https://www.britannica.com/plant/Rosaceae",
+     "https://Www.wikipedia.org/wiki/Rosaceae"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "In 1986 Ronald Reagan proclaimed this flower the national floral emblem of the United States, noting that George Washington had bred them.",
+    "how": "written",
+    "sources": [
+     "https://www.reaganlibrary.gov/research/speeches/112086a",
+     "https://www.law.cornell.edu/uscode/text/36/303"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "In Romeo and Juliet, Juliet says that this flower would smell as sweet by any other name.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/A_rose_by_any_other_name_would_smell_as_sweet"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1: Wikipedia says documentation verifies an age of around 700 years (legend says about 1,000); the above-ground parts were destroyed and it regrew from the roots."
+ },
+ "quetzalcoatl": {
+  "answer": "Quetzalcoatl",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This god went down to Mictlan, the underworld, and made a new race of humans from the bones of earlier ones, reviving them with blood drawn from his own body.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Quetzalcoatl"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Mexico's Great Pyramid of Cholula, the largest pyramid in the world by volume, has traditionally been seen as dedicated to this god; a Spanish church has topped it since 1594.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Great_Pyramid_of_Cholula",
+     "https://www.sciencealert.com/the-world-s-largest-pyramid-is-hidden-under-a-mountain-in-mexico"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "Spanish accounts claim Moctezuma took Hernán Cortés for this god returning in 1519, though most modern scholars treat that story as a myth from after the conquest.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Quetzalcoatl"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This Aztec god's name means 'feathered serpent' in Nahuatl, and a pterosaur was named after him in 1975.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Quetzalcoatl"
+    ]
+   }
+  ],
+  "writerNotes": "Wikipedia gives the name's meaning as 'Precious serpent' or 'Quetzal-feathered Serpent'; 'feathered serpent' is the common short form. Clue 1: Wikipedia says Cihuacoatl helped him."
+ },
+ "typewriter": {
+  "answer": "Typewriter",
+  "clues": [
+   {
+    "position": 1,
+    "text": "Mark Twain bought one of these machines in 1874 for $125, then wrote the next year that he had stopped using it because everyone he wrote to asked him to describe it.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://www.openculture.com/2025/10/mark-twain-wrote-the-first-book-ever-written-with-a-typewriter.html",
+     "https://marktwainproject.org/letters/uccl01212/",
+     "https://twainquotes.com/Typewriters.html"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "In 2013 Russia's Federal Guard Service, which protects the president, ordered about 20 of these machines; an unnamed source said the aim was to keep secret papers off computers.",
+    "how": "written",
+    "sources": [
+     "https://www.channelstv.com/2013/07/12/russian-security-agency-to-buy-typewriters-to-avoid-leaks/",
+     "https://www.foxnews.com/world/kremlin-turns-back-to-typewriters-to-avoid-leaks"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "This machine's own name is the classic example of a long English word that can be spelled using only the top row of letters on a keyboard.",
+    "how": "written",
+    "sources": [
+     "https://digitalcommons.butler.edu/wordways/vol32/iss2/23",
+     "https://nationalreview.com/corner/typewriter-trivia-john-derbyshire/amp"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "The QWERTY layout was designed in the early 1870s for one of these machines, the Sholes and Glidden, which Remington sold from 1874.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/QWERTY"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 2: the FSO denied the purchase was about leaks and said it was routine, so the clue attributes the motive to an unnamed source (Izvestia). Clue 3 says 'classic example', not 'longest', because 11-letter top-row words such as 'rupturewort' exist."
+ },
+ "volleyball": {
+  "answer": "Volleyball",
+  "clues": [
+   {
+    "position": 1,
+    "text": "When Japan's women beat the Soviet Union for this sport's first Olympic women's title in 1964, a reported 85% of Japanese TV viewers were watching.",
+    "how": "written",
+    "sources": [
+     "https://joc.or.jp/english/historyjapan/tokyo1964.html",
+     "https://en.wikipedia.org/wiki/1964_in_Japanese_television",
+     "https://olympics.com/en/news/tokyo-1964-women-volleyball-japan-gold"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Since 1998, international teams in this sport have used a defensive specialist in a contrasting jersey who may not block or attack from above the top of the net.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Volleyball"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "A YMCA instructor invented this sport in Holyoke, Massachusetts, in 1895 and first named it 'mintonette', because he drew on badminton.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Volleyball"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "Players in this sport set and spike over a high net, and a beach version of it joined the Olympic program in 1996.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Volleyball"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1: the 85% figure is the widely cited one (JOC, Wikipedia); a single-channel NHK listing gives 66.8%, hence 'a reported'. Clue 2: Wikipedia says the libero cannot block or attack the ball when it is entirely above net height."
+ }
+}
