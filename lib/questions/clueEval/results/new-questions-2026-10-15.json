@@ -1,0 +1,1994 @@
+{
+ "gullivers-travels": {
+  "answer": "Gulliver's Travels",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This 1726 satire has astronomers on a flying island find two moons of Mars, 151 years before Asaph Hall actually spotted them; a crater on one is named after its author.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Moons_of_Mars"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "In 1980 computer scientist Danny Cohen took the terms 'big-endian' and 'little-endian' from this book's quarrel over which end of a boiled egg to crack.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Endianness",
+     "https://en.wikipedia.org/wiki/Gulliver%27s_Travels"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "This book gave English the word 'yahoo', its name for the brutish, humanlike creatures in a land run by intelligent horses.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Gulliver%27s_Travels"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "In this Jonathan Swift satire, a ship's surgeon washes ashore after a shipwreck on Lilliput and is taken prisoner by people less than six inches tall.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Gulliver%27s_Travels"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1: Deimos craters named Swift and Voltaire (Moons of Mars article). Most astronomers think Swift was using a common argument of the time, so the clue says 'find', not 'predict'."
+ },
+ "jenga": {
+  "answer": "Jenga",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This game's first 100 sets were made by Camphill, a Yorkshire community for people with learning disabilities, for a British designer who launched it in 1983.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Jenga",
+     "https://www.museumofplay.org/blog/block-by-block-leslie-scotts-jenga-game-or-in-swahili-zuia-kwa-kuzuia-mchezo-wa-jenga-wa-leslie-scott/"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Its designer, born in Tanganyika and raised speaking Swahili, named this game after a Swahili word meaning 'to build'.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Jenga",
+     "https://www.museumofplay.org/blog/block-by-block-leslie-scotts-jenga-game-or-in-swahili-zuia-kwa-kuzuia-mchezo-wa-jenga-wa-leslie-scott/"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "The horror role-playing game Dread uses this game instead of dice, and when it falls the player's character usually dies.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Dread_(role-playing_game)"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "In this party game, players take turns sliding one wooden block out of a tower of 54 and stacking it on top without toppling everything.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Jenga"
+    ]
+   }
+  ],
+  "writerNotes": "Launch year: Wikipedia says London Toy Fair, January 1983; the Museum of Play caption also dates the original game to 1983."
+ },
+ "sneeze": {
+  "answer": "Sneeze",
+  "clues": [
+   {
+    "position": 1,
+    "text": "An ancient Greek book of 'Problems' credited to Aristotle asks why the sun's heat brings on this reflex, and guesses that the heat makes moisture the body has to expel.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Photic_sneeze_reflex",
+     "https://en.wikipedia.org/wiki/Problems_(Aristotle"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Donna Griffiths of the UK began a record-long fit of these on 13 January 1981 and had her first day free of them in September 1983.",
+    "how": "written",
+    "sources": [
+     "https://www.guinnessworldrecords.com/world-records/67595-longest-sneezing-fit"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "One of the oldest surviving copyrighted American films, shot by Edison's company in 1894, is five seconds of an assistant taking a pinch of snuff and doing this.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Fred_Ott%27s_Sneeze"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "Dust or pollen irritating the inside of your nose sets off this explosive reflex, and people nearby often answer it with 'Bless you'.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Sneeze"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 2: the Library of Congress calls it the second oldest surviving copyrighted US film, so the clue says 'one of the oldest'. Clue 3: Guinness counts 976 days; other outlets say 977 or 978, so the clue gives dates instead of a count."
+ },
+ "skype": {
+  "answer": "Skype",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This program was written by four Estonian programmers, and its calls ran on a peer-to-peer design borrowed from the file-sharing service Kazaa.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Skype"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "eBay bought this service in 2005 for about $2.6 billion, then sold 65% of it to a group of investors in 2009.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Skype",
+     "https://www.techrepublic.com/article/microsoft-skype-shutting-down/"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "In 2013 Microsoft shut down its own Windows Live Messenger in favor of this service, which it had bought two years earlier.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Skype",
+     "https://en.wikipedia.org/wiki/Windows_Live_Messenger"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This free internet voice and video calling app, launched in 2003, had over 660 million registered accounts by the end of 2010.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Skype"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 3: Wikipedia gives $2.6 billion in its infobox and about $2.5 billion plus earn-outs in the body, so the clue says 'about'."
+ },
+ "sirius": {
+  "answer": "Sirius",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This star's faint companion, first seen in 1862 by Alvan Graham Clark while testing a new 18.5-inch telescope lens, turned out to be a white dwarf about the size of Earth.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Sirius",
+     "https://en.wikipedia.org/wiki/Alvan_Graham_Clark"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Ancient Egyptians worshipped this star as the goddess Sopdet, and its first dawn appearance each year came just before the Nile's annual flood.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Sirius"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "The Greeks linked this star's late-summer reappearance to the hottest stretch of the year, which is why that season is still called the 'dog days'.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Sirius"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "About 8.6 light-years away in the constellation Canis Major, this star is the brightest in Earth's night sky.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Sirius"
+    ]
+   }
+  ],
+  "writerNotes": "No 'Dog Star' alias, so clue 3 can say 'dog days'. Add it if players should be able to type 'Dog Star', but then clue 3 needs rewording."
+ },
+ "treasure-island": {
+  "answer": "Treasure Island",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This novel's treacherous coxswain Israel Hands takes his name from a real member of Blackbeard's crew, whom Blackbeard reportedly shot in the knee.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Treasure_Island",
+     "https://en.wikipedia.org/wiki/Israel_Hands"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "This novel's author wanted to call it 'The Sea Cook', and it first ran in a boys' magazine under the pen name 'Captain George North'.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Treasure_Island",
+     "https://stevensonmuseum.org/robert-louis-stevenson/the-works/publications-timeline/"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "This adventure story grew out of a rainy 1881 holiday in Braemar, Scotland, when its author set out to amuse his young stepson with a map.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Treasure_Island",
+     "https://robert-louis-stevenson.org/other-scotland/",
+     "https://en.wikipedia.org/wiki/Lloyd_Osbourne"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This Robert Louis Stevenson novel follows young Jim Hawkins and the one-legged ship's cook Long John Silver, whose parrot is named Captain Flint.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Treasure_Island"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1 hedged with 'reportedly': the shooting comes from Captain Charles Johnson's 1724 account. Clue 3 avoids saying Stevenson and Lloyd drew the map together, since Wikipedia only says he wrote it to amuse the boy and based it on a map."
+ },
+ "uno": {
+  "answer": "Uno",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This card game's rights were sold in 1972 for $50,000 plus 10 cents a copy to a group led by Robert Tezak, whose funeral parlor housed the company's offices.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Uno_(card_game)",
+     "https://en.wikipedia.org/wiki/Merle_Robbins"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "An Ohio barber invented this card game in 1971 to settle an argument with his son over the rules of Crazy Eights, and first sold it from his barbershop.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Merle_Robbins",
+     "https://en.wikipedia.org/wiki/Uno_(card_game)"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "In 2019 this game's official Twitter account upset many fans by saying that piling a draw card onto another one, called 'stacking', is not allowed.",
+    "how": "written",
+    "sources": [
+     "https://www.today.com/today/amp/tdna153640",
+     "https://en.wikipedia.org/wiki/Uno_(card_game)"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "In this Mattel card game of colored number cards, Skips and Wild Draw Fours, you must call out its name, Spanish for 'one', when down to your last card.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Uno_(card_game)"
+    ]
+   }
+  ],
+  "writerNotes": "The funeral parlor detail is from the Uno Wikipedia article only. The Merle Robbins article confirms the 1972 sale for $50,000 plus 10 cents a game but does not name Tezak."
+ },
+ "saliva": {
+  "answer": "Saliva",
+  "clues": [
+   {
+    "position": 1,
+    "text": "In 2006 French scientists found opiorphin, a painkiller in this bodily fluid that worked up to six times better than morphine in tests on rats.",
+    "how": "written",
+    "sources": [
+     "https://www.nature.com/news/2006/061113/full/news061113-4.html",
+     "https://chemistryworld.com/news/new-natural-painkiller-discovered/3002854.article"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "An early Japanese rice drink called kuchikamizake relied on an enzyme in this fluid to turn the grain's starch into sugar for wild yeast to ferment.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Saliva",
+     "https://alljapannews.com/whatsnew/view/502416/the-history-of-sake-is-said-to-have"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "Edible-nest swiftlets build their cup-shaped nests almost entirely from strands of this, which harden in air and are later cooked into a pricey Chinese soup.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Edible-nest_swiftlet",
+     "https://en.wikipedia.org/wiki/Saliva"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "Ivan Pavlov's dogs famously learned to start producing this watery mouth fluid at a signal such as a metronome or buzzer, before any food arrived.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Saliva",
+     "https://blog.oup.com/2014/11/ivan-pavlov-surprising-facts/"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1: Nature's news piece says 'up to six times'; Chemistry World says 'several times'. The result is in rats only, which the clue says."
+ },
+ "vine": {
+  "answer": "Vine",
+  "clues": [
+   {
+    "position": 1,
+    "text": "In 2013 Dunkin' Donuts aired what was billed as the first TV ad made from a single clip on this app: a latte flipping a coin before a football game.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Vine_(service)",
+     "https://www.sportsbusinessdaily.com/Daily/Issues/2013/09/09/Marketing-and-Sponsorship/Dunkin-Donuts.aspx"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Days after buying Twitter in 2022, Elon Musk polled users on reviving this app, and about 70 percent of millions of votes said yes.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Vine_(service)",
+     "https://techcrunch.com/2022/10/31/elon-musk-vine-reboot-poll"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "Shawn Mendes first drew a following on this app in 2013 with a very short cover of Justin Bieber's 'As Long as You Love Me'.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Shawn_Mendes"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This Twitter-owned app, shut down in 2017, let users share looping videos no more than six seconds long.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Vine_(service)"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1 says 'billed as' the first because Virgin Mobile ran TV ads built from Vine footage a week earlier; Dunkin's was the first made from a single clip. Clue 2: the poll ran about Oct 30-31, 2022, three or four days after Musk closed the Twitter deal on Oct 27; vote counts reported between 4 and 4.9 million, so the clue says 'millions'."
+ },
+ "orion": {
+  "answer": "Orion",
+  "clues": [
+   {
+    "position": 1,
+    "text": "Finns call part of this constellation Väinämöinen's scythe, and in Lakota tradition its best-known row of stars is the spine of a bison.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Orion_(constellation)"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "The meteor shower named after this constellation each October is made of dust shed by Halley's Comet.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Orion_(constellation)",
+     "https://www.space.com/spacewatch/061013_night_sky.html"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "In one Greek myth a scorpion killed this figure, which is why he and the Scorpion are never in the night sky at the same time.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Orion_(constellation)"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This constellation of a mythical hunter holds the red supergiant Betelgeuse and a famous belt of three bright stars in a row.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Orion_(constellation)",
+     "https://en.wikipedia.org/wiki/Orion_(constellation"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1 facts come from the Orion Wikipedia article only. The meteor shower's name contains the answer, so clue 2 does not name it."
+ },
+ "fahrenheit-451": {
+  "answer": "Fahrenheit 451",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This novel began as a 25,000-word story typed in nine days on a rented typewriter in a UCLA library basement, at ten cents a half hour — $9.80 in all.",
+    "how": "written",
+    "sources": [
+     "https://laughingsquid.com/ray-bradbury-on-writing-fahrenheit-451-in-a-library/",
+     "https://en.wikipedia.org/wiki/Fahrenheit_451"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "In 1966 François Truffaut turned this novel into a film starring Oskar Werner and Julie Christie.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Fahrenheit_451"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "In 2015 the internet's standards body approved an error code for web pages blocked for legal reasons, numbered after this novel's title.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Fahrenheit_451"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "In this Ray Bradbury novel, the fireman Guy Montag's job is burning books, and its title is the temperature at which paper supposedly catches fire.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Fahrenheit_451"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1: the $9.80, nine days and 25,000 words are Bradbury's own account (2006 letter quoted by Laughing Squid); Wikipedia confirms the Powell Library basement and the ten-cents-per-half-hour rate. Clue 4 says 'supposedly' because Wikipedia notes paper's autoignition point varies from 424 to 475 °F."
+ },
+ "sudoku": {
+  "answer": "Sudoku",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This puzzle's modern form was most likely devised by Howard Garns, a 74-year-old retired architect from Indiana, and first printed by Dell Magazines in 1979.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Sudoku"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "A retired Hong Kong judge from New Zealand wrote a computer program to generate this puzzle and got The Times of London to start running it in November 2004.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Wayne_Gould",
+     "https://en.wikipedia.org/wiki/Sudoku"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "In 2012 mathematicians at University College Dublin used a supercomputer search to prove that this puzzle needs at least 17 starting numbers to have only one solution.",
+    "how": "written",
+    "sources": [
+     "https://www.scientificamerican.com/article/mathematician-claims-breakthrough/",
+     "https://arxiv.org/abs/1201.0749"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This Japanese-named number puzzle asks you to fill a 9×9 grid so that every row, column and 3×3 box holds the digits 1 to 9 exactly once.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Sudoku"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1 hedges 'most likely' as Wikipedia does. Clue 3 leaves out CPU-hour figures because sources disagree (7 million vs 700 million). Sources give The Times launch as 12 or 15 November 2004, so the clue says only November 2004."
+ },
+ "collarbone": {
+  "answer": "Collarbone",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This part of the skeleton is the first to begin ossifying in an embryo, in the fifth or sixth week of pregnancy, yet one of the last to finish, at about 21 to 25.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Clavicle"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Its Latin anatomical name means 'little key', for the way it rotates like a key when the shoulder moves.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Clavicle"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "People born with cleidocranial dysplasia can lack this part of the skeleton partly or completely, so their shoulders can be pushed together in front of the body.",
+    "how": "written",
+    "sources": [
+     "https://medlineplus.gov/ency/article/001589.htm",
+     "https://en.wikipedia.org/wiki/Clavicle"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This slender horizontal strut running from the sternum to the shoulder is one of the most commonly broken parts of the human skeleton.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Clavicle",
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC5659318/table/TAB1"
+    ]
+   }
+  ],
+  "writerNotes": "Clues avoid the words 'collar' and 'bone' entirely (so 'ossifying', 'sternum', 'skeleton'). Clue 4 relies on Wikipedia's 'the clavicle is the most commonly broken bone'."
+ },
+ "neopets": {
+  "answer": "Neopets",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This website's American CEO in the early 2000s ran the company with Scientology's 'Org Board' chart, though its British creators kept Scientology off the site.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Neopets",
+     "https://theoutline.com/post/4190/neopets-was-run-by-scientologists"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "In 2021 this website announced an NFT 'Metaverse' spin-off, then formally cancelled it in July 2023 after heavy criticism from its own community.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Neopets"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "Viacom bought this site for $160 million in 2005, amid criticism that the children playing on it might not realize they were being advertised to.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Neopets"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This website, launched in 1999, let millions of kids adopt, feed and dress up virtual creatures such as Shoyrus and Kacheeks.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Neopets",
+     "https://www.cantonpl.org/blogs/post/25-fun-facts-for-neopets-25th-anniversary/"
+    ]
+   }
+  ],
+  "writerNotes": "Clues avoid 'neo', 'pet' and the in-game words that contain them (Neopoints, Neopia). Owner in clue 1 is Doug Dohring, not named on purpose."
+ },
+ "europa-moon": {
+  "answer": "Europa",
+  "clues": [
+   {
+    "position": 1,
+    "text": "In Arthur C. Clarke's novel '2010: Odyssey Two', HAL keeps broadcasting that every world is humanity's to explore except this moon, where no landing may be attempted.",
+    "how": "written",
+    "sources": [
+     "https://academickids.com/encyclopedia/index.php/2010:_Odyssey_Two"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "The astronomer Simon Marius named this moon after a Phoenician woman of Greek myth, the mother of King Minos of Crete.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Europa_(moon)"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "Galileo spotted this moon in January 1610; the smallest of his four, it is a bit smaller than Earth's Moon and the smoothest known solid body in the Solar System.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Europa_(moon)"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This icy moon of Jupiter, thought to hide an ocean with two to three times the water of Earth's oceans, is the target of NASA's Clipper probe launched in 2024.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Europa_(moon)"
+    ]
+   }
+  ],
+  "writerNotes": "Answer page may need an ANSWER_PAGE_TITLES override to 'Europa (moon)', since bare 'Europa' is a disambiguation page on Wikipedia. Clue 1 has only one fetched source (an encyclopedia mirror of the novel's plot); the line is well known but worth a second look."
+ },
+ "beowulf": {
+  "answer": "Beowulf",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This poem survives in just one manuscript, copied around the year 1000, which was scorched in a 1731 fire at Ashburnham House in London.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Beowulf"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "A 2020 translation of this poem by Maria Dahvana Headley turned its famous first word, 'Hwæt!', into 'Bro!'",
+    "how": "written",
+    "sources": [
+     "https://melmagazine.com/en-us/story/beowulf-new-translation-bro-maria-dahvana-headley",
+     "https://www.asymptotejournal.com/blog/2020/12/09/from-epic-hero-to-modern-bro-on-maria-dahvana-headleys-beowulf/",
+     "https://en.wikipedia.org/wiki/Beowulf"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "Seamus Heaney's translation of this poem beat 'Harry Potter and the Prisoner of Azkaban' to the Whitbread Book of the Year prize in 2000.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Beowulf:_A_New_Verse_Translation",
+     "https://publishersweekly.com/pw/print/20000207/21975-pw-heaney-takes-u-k-s-whitbread-prize.html",
+     "https://www.csmonitor.com/2000/0203/p1s5.html"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This Old English epic's hero kills the monster Grendel and then Grendel's mother, and fifty years later is mortally wounded fighting a dragon.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Beowulf"
+    ]
+   }
+  ],
+  "writerNotes": "Manuscript is dated 975-1025, so clue 1 says 'around the year 1000'. Prize announced January 2000 for 1999 books."
+ },
+ "twister": {
+  "answer": "Twister",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This game is one of four that Bill and Ted pick to beat Death in the 1991 film 'Bill & Ted's Bogus Journey', along with Battleship, Clue and Electric Football.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bill_%26_Ted%27s_Bogus_Journey"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "This game's working title was 'Pretzel', but Milton Bradley renamed it because the toy maker Transogram already owned that trademark for a toy dog.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Twister_(game)",
+     "https://en.wikipedia.org/wiki/Twister_(game"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "Rivals accused its maker of selling 'sex in a box', but sales took off after Eva Gabor played it with Johnny Carson on 'The Tonight Show' in May 1966.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Twister_(game)"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "In this game a spinner calls out moves like 'right hand yellow', and players contort themselves across a mat of red, yellow, green and blue circles.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Twister_(game)"
+    ]
+   }
+  ]
+ },
+ "pituitary-gland": {
+  "answer": "Pituitary Gland",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This small structure is found in every vertebrate, and in fish part of it is believed to control how they change color.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Pituitary_gland"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "This structure's name comes from a Latin word for slime, from an old belief, going back to Galen, that it produced nasal mucus.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Pituitary_gland"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "Robert Wadlow grew to 8 ft 11.1 in because this structure was enlarged and pumping out too much growth hormone.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Robert_Wadlow"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This pea-sized structure hanging below the brain is called the 'master' of the endocrine system, because it directs the thyroid, adrenals, ovaries and testes.",
+    "how": "written",
+    "sources": [
+     "https://www.ummhealth.org/health-library/the-pituitary-gland",
+     "https://pituitary.org/item/pituitary-gland/"
+    ]
+   }
+  ],
+  "writerNotes": "Wikipedia compares its size to a kidney bean (clue 1); medical-centre pages say pea (clue 4). Wikipedia glosses pituita as 'slime'."
+ },
+ "aol": {
+  "answer": "AOL",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This company traces its roots to Control Video Corporation, whose only product was GameLine, a 1983 service for the Atari 2600 console.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/AOL"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "In January 1997 this internet service agreed with 36 US states to refund users after its December 1996 switch to a flat $19.95 monthly fee left them facing busy signals.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/AOL",
+     "https://atg.wa.gov/news/news-releases/washington-reaches-agreement-america-online-0"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "This company's famous greeting voice belonged to Elwood Edwards, who was paid $200 in 1989 to record the lines in his living room on a cassette deck.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Elwood_Edwards"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This dial-up internet giant mailed out free trial CDs by the million and merged with Time Warner in 2001, then the largest merger in US history.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/AOL",
+     "https://en.wikipedia.org/wiki/Elwood_Edwards"
+    ]
+   }
+  ]
+ },
+ "valentina-tereshkova": {
+  "answer": "Valentina Tereshkova",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This Russian lawmaker successfully proposed the 2020 constitutional change that reset Vladimir Putin's presidential term count to zero, letting him run again.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Valentina_Tereshkova",
+     "https://meduza.io/en/feature/2020/03/10/the-forever-president",
+     "https://www.jurist.org/news/2020/03/russia-parliament-approves-constitutional-change-allowing-putin-to-run-for-president-again"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Before her selection, this former textile factory worker was an amateur skydiver, and she later married fellow cosmonaut Andriyan Nikolayev.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Valentina_Tereshkova"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "On her only flight she orbited Earth 48 times, logging more time aloft than all the American astronauts before her combined.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Valentina_Tereshkova"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This Soviet cosmonaut, call sign 'Chaika', became the first woman in space when she flew Vostok 6 alone in June 1963.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Valentina_Tereshkova"
+    ]
+   }
+  ]
+ },
+ "the-catcher-in-the-rye": {
+  "answer": "The Catcher in the Rye",
+  "clues": [
+   {
+    "position": 1,
+    "text": "According to producer Don Hahn, Disney once floated an animated film called 'Dufus' that would have retold this novel's story with German shepherds.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye",
+     "https://cancelledmovies.miraheze.org/wiki/Dufus"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "In 1978, after three school board members in Issaquah, Washington, called this novel part of an 'overall communist plot' and got it banned, voters recalled all three.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye",
+     "https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "Mark David Chapman was carrying a copy of this novel, bought that day and signed inside with its narrator's name, when he shot John Lennon.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This 1951 J.D. Salinger novel follows Holden Caulfield, a teenager just expelled from prep school, over a few days in New York City.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1: Wikipedia says Hahn revealed it in 2020; the cancelled-films wiki dates the idea to the late 1980s and says it borrowed the novel's plot because Salinger would not sell the rights. Clue kept to 'once floated' and attributed to Hahn."
+ },
+ "backgammon": {
+  "answer": "Backgammon",
+  "clues": [
+   {
+    "position": 1,
+    "text": "In 1979 this game's world champion lost 7–1 to a computer program, the first board-game world champion beaten by software, though its creator admitted it got the better dice.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Backgammon",
+     "https://bkgm.com/articles/Berliner/BackgammonProgramBeatsWorldChamp/"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "A sixth-century Greek epigram records how the Byzantine emperor Zeno wrecked a strong position in a Roman forerunner of this game with one bad roll that left eight pieces exposed.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Tabula_(game)",
+     "https://en.wikipedia.org/wiki/Backgammon",
+     "https://en.wikipedia.org/wiki/Tabula_(game",
+     "https://anthologiagraeca.org/api/passages/urn:cts:greekLit:tlg7000.tlg001.ag:9.482/?format=api"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "One 1930s story credited Russia's Grand Duke Dmitri Pavlovich, a plotter in Rasputin's murder, with inventing this game's rule for doubling the stakes mid-game.",
+    "how": "written",
+    "sources": [
+     "https://gammonlife.com/?p=1016",
+     "https://bkgm.com/articles/Jacoby/BackgammonHistory"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "In this two-player dice game, each side races 15 checkers around 24 triangular points and tries to be first to bear them all off the board.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Backgammon"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 3 is hedged ('one story'): the 1930 New Yorker credited Dmitri 'according to one story', and the inventor of doubling is disputed. Clue 1: the program was BKG 9.8 by Hans Berliner, beating Luigi Villa."
+ },
+ "norman-rockwell": {
+  "answer": "Norman Rockwell",
+  "clues": [
+   {
+    "position": 1,
+    "text": "Turned down by the US Navy in World War I for being underweight, this artist reportedly gorged on bananas and doughnuts overnight and was accepted the next day.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Norman_Rockwell",
+     "https://mentalfloss.com/article/74842/norman-rockwell-facts"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "This illustrator's work for the Boy Scouts spanned 64 years, and he finished his last scouting painting at age 82.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Norman_Rockwell",
+     "https://mentalfloss.com/article/74842/norman-rockwell-facts"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "This painter's image of six-year-old Ruby Bridges walking to a New Orleans school between U.S. marshals hung in the White House in 2011.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Norman_Rockwell",
+     "https://mentalfloss.com/article/74842/norman-rockwell-facts"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This illustrator painted more than 300 covers for The Saturday Evening Post from 1916 to 1963, and his name became shorthand for wholesome small-town America.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Norman_Rockwell",
+     "https://mentalfloss.com/article/74842/norman-rockwell-facts"
+    ]
+   }
+  ],
+  "writerNotes": "Sources disagree on the exact cover count (322 vs 323) and the Navy weight shortfall (8 vs 17 pounds), so the clues avoid both exact numbers."
+ },
+ "four-leaf-clover": {
+  "answer": "Four-Leaf Clover",
+  "clues": [
+   {
+    "position": 1,
+    "text": "Italian driver Ugo Sivocci painted this symbol on his Alfa Romeo for the 1923 Targa Florio, won the race, and Alfa adopted it as its racing badge.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Four-leaf_clover",
+     "https://tflcar.com/2023/02/alfa-romeo-quadrifoglio-100-years-autodelta-anniversary/"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "In 2023 a Wisconsin woman set a Guinness world record when witnesses at a public library certified 118,791 of these finds from her collection.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Four-leaf_clover",
+     "https://www.wmtv15news.com/2023/02/26/fitchburg-woman-sets-new-guinness-world-record-largest-four-leaf-clover-collection/"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "A 2017 survey of about 5.7 million plants in six European countries found this variety once in every 5,076, twice as often as the oft-quoted 1 in 10,000.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Four-leaf_clover",
+     "https://www.theweathernetwork.com/en/news/nature/outdoors/odds-of-finding-a-four-leaf-clover-st-patricks-day"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This good-luck charm is a rare mutant sprig of a common three-part lawn plant, and by tradition each of its parts stands for faith, hope, love or luck.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Four-leaf_clover"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 3: the record holder is Gabriella Gerhardt of Fitchburg, Wisconsin; the count was at the Fitchburg Public Library on 25 February 2023."
+ },
+ "persephone": {
+  "answer": "Persephone",
+  "clues": [
+   {
+    "position": 1,
+    "text": "In Ovid's telling, the Sirens were once this goddess's maiden companions, who prayed for wings so they could search the seas for her after she was carried off.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://theoi.com/Pontios/Seirenes.html",
+     "https://www.britannica.com/print/article/546538"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Zeus settled this goddess's quarrel with Aphrodite over the youth Adonis by splitting his year into thirds: one with each goddess and one on his own.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Persephone",
+     "https://cts.perseids.org/read/greekLit/tlg0548/tlg001/perseus-eng2/3.14.4-3.14.8"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "In many tellings, Orpheus's music moved this goddess so deeply that she persuaded her husband to let Eurydice return to the living.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Persephone",
+     "https://library.biblicalarchaeology.org/sidebar/orpheus-the-man-with-the-golden-harp"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This daughter of Demeter ate pomegranate seeds in the underworld, which bound her to spend part of every year there as Hades's queen.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Persephone"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1 names Ovid because other versions (Hyginus) make the bird form a punishment from Demeter. Clue 2 follows Apollodorus; another version has Calliope split the year in halves."
+ },
+ "yayoi-kusama": {
+  "answer": "Yayoi Kusama",
+  "clues": [
+   {
+    "position": 1,
+    "text": "At the 1966 Venice Biennale, this artist spread 1,500 plastic mirrored spheres across a lawn and sold them for $2 each until the organizers made her stop.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Yayoi_Kusama"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "From 1977 until her death, this artist lived by choice in a psychiatric hospital in Tokyo, working in a studio a short distance away.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Yayoi_Kusama"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "Her giant yellow pumpkin on a pier on the island of Naoshima was swept into the sea by a typhoon in 2021, and its replacement has a hook in the stem for dragging it to safety.",
+    "how": "written",
+    "sources": [
+     "https://abc17news.com/entertainment/cnn-style/2022/10/07/yayoi-kusamas-yellow-pumpkin-sculpture-is-back-on-naoshima-island-japan/"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This Japanese artist, who died at 97 in 2026, covered canvases, rooms and people in polka dots and built the mirrored Infinity Rooms.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Yayoi_Kusama",
+     "https://www.expressandstar.com/uk-news/avant-garde-polka-dot-artist-yayoi-kusama-dies-aged-97-8944509"
+    ]
+   }
+  ],
+  "writerNotes": "Kusama died 14 August 2026 (Wikipedia; studio announced it 27 August). Clue 3: sources differ on whether the old pumpkin was restored or a new one built; the clue says 'replacement', which matches CNN's account of a brand-new sculpture."
+ },
+ "iceberg": {
+  "answer": "Iceberg",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This natural object fizzes with a crackling, frying sound as trapped air bubbles burst, and U.S. Navy scientists thought sonar might pick up the noise 100 miles away.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://www.gi.alaska.edu/alaska-science-forum/bergy-seltzer"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "The largest one ever reported, sighted by a U.S. Navy ship in 1956, was said to measure about 335 by 97 kilometers, bigger than Belgium.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Iceberg"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "Salvage master Nick Sloane, who refloated the Costa Concordia, proposed wrapping one of these and towing it 2,000 km toward drought-hit Cape Town for drinking water.",
+    "how": "written",
+    "sources": [
+     "https://www.gulf-times.com/story/598419/the-tow-an-iceberg-plan-being-floated-to-ease-cape-town-drought"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "Only about a tenth of one of these floating masses shows above the water, and one sank the Titanic in 1912.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Iceberg"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 2 hedged ('ever reported', 'said to measure') because the 1956 sighting was never measured by satellite. Sloane's plan was floated in 2018 (Gulf Times, 4 July 2018); the clue gives no year."
+ },
+ "hydra": {
+  "answer": "Hydra",
+  "clues": [
+   {
+    "position": 1,
+    "text": "The foul smell of the river Anigrus in Greece was said to come from this monster's poison, washed from the arrows a hero had used to shoot a centaur.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Lernaean_Hydra"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Hera sent a giant crab to distract the hero fighting this creature; he crushed it underfoot, and she set the crab among the stars as Cancer.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Lernaean_Hydra"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "According to Apollodorus, King Eurystheus refused to count this monster's killing because the hero's nephew Iolaus had helped.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Labours_of_Hercules"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "Heracles fought this many-headed swamp serpent as his second labour, and in many tellings two heads grew back for every one he cut off.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Labours_of_Hercules",
+     "https://en.wikipedia.org/wiki/Lernaean_Hydra"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1 hedged ('was said to') because Wikipedia says 'reputedly'. Head counts and regrowth vary by source, so clue 4 says 'in many tellings'."
+ },
+ "baywatch": {
+  "answer": "Baywatch",
+  "clues": [
+   {
+    "position": 1,
+    "text": "By the end of this series' 11-season run, not a single member of its original cast was still on the show.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Baywatch"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "NBC cancelled this drama after its first season, but its lead actor helped revive it in first-run syndication in 1991 and was made an executive producer.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Baywatch"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "Guinness World Records credited this series with the largest TV audience of any show, at more than 1.1 billion viewers a week.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Baywatch"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This series followed Los Angeles County lifeguards in red swimsuits, played by David Hasselhoff, Pamela Anderson and others.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Baywatch"
+    ]
+   }
+  ],
+  "writerNotes": "All facts from Wikipedia only (which cites Guinness for clue 3). The 11 seasons include the last two as Baywatch: Hawaii."
+ },
+ "silly-putty": {
+  "answer": "Silly Putty",
+  "clues": [
+   {
+    "position": 1,
+    "text": "Credit for inventing this toy is disputed, with claims for a General Electric engineer in New Haven and a Dow Corning chemist, both hunting for a wartime rubber substitute.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Silly_Putty"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "The Apollo 8 crew took this toy into lunar orbit in 1968 and used its stickiness to hold tools in place in zero gravity.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Silly_Putty"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "Its marketer borrowed $147 to pack one-ounce portions into plastic eggs sold for $1, and after a New Yorker mention he sold over 250,000 in three days.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Silly_Putty"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This stretchy silicone toy bounces when dropped, snaps when yanked sharply, and could once copy pictures straight off a newspaper page.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Silly_Putty"
+    ]
+   }
+  ],
+  "writerNotes": "All facts from Wikipedia only. Clue 4's newspaper trick worked when newspaper ink was petroleum-based, hence 'could once'."
+ },
+ "washington-crossing-the-delaware": {
+  "answer": "Washington Crossing the Delaware",
+  "clues": [
+   {
+    "position": 1,
+    "text": "The first version of this painting survived a fire in the artist's studio, only to be destroyed in a British bombing raid on Bremen in 1942.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Washington_Crossing_the_Delaware_(1851_painting)"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "American landscape painter Worthington Whittredge posed for both the commanding general and a steersman in this canvas, painted in Düsseldorf with the Rhine as the model for its river.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Worthington_Whittredge",
+     "https://www.britannica.com/print/article/642968",
+     "https://en.wikipedia.org/wiki/Washington_Crossing_the_Delaware_(1851_painting)"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "A smaller copy of this painting hung in the White House for decades until 2014, then sold at Christie's in 2022 for about $45 million.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Washington_Crossing_the_Delaware_(1851_painting)",
+     "https://checkyourfact.com/2022/12/21/fact-check-painting-george-washington-white-house",
+     "https://leadstories.com/hoax-alert/2022/12/fact-check-painting-of-george-washington-was-not-removed-from-white-house-display-by-obama.html",
+     "https://www.wxow.com/news/painting-from-winona-museum-sells-for-45-million/article_a8a993d6-d27d-11ec-bec7-d7e8f8eb260e.html"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "Emanuel Leutze painted this 1851 scene of the future first president standing in a rowboat among river ice on Christmas night, 1776, before the Battle of Trenton.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Washington_Crossing_the_Delaware_(1851_painting)"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 3: sources disagree on whether the White House loan began in 1979 or 'the 1970s', so the clue says 'for decades'. The 2022 price was $45,045,000."
+ },
+ "fly-agaric": {
+  "answer": "Fly Agaric",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This mushroom can hold up to 400 times more vanadium than typical plants and fungi, stored in an unusual compound called amavadin.",
+    "how": "written",
+    "sources": [
+     "https://chimia.ch/chimia/article/download/2019_096/520/11175",
+     "https://sites.williams.edu/bigchem/topics/metal-iron-storage-and-transport/vanadium-storage/",
+     "https://en.wikipedia.org/wiki/Amanita_muscaria"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Among the Koryak of Siberia, poor people drank the urine of richer ones who had eaten this mushroom, since its mind-altering compounds pass through the body largely unchanged.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://treesforlife.org.uk/forest/mythology-folklore/fly-agaric/",
+     "https://en.wikipedia.org/wiki/Amanita_muscaria"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "This mushroom's common name is thought to come from its old use as an insecticide: Albertus Magnus wrote before 1256 that it was powdered in milk to kill household pests.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Amanita_muscaria",
+     "https://treesforlife.org.uk/forest/mythology-folklore/fly-agaric/"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This toadstool's red cap flecked with white spots makes it the classic fairy-tale mushroom, and Super Mario's power-up mushrooms are based on it.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Amanita_muscaria"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1: the 400x figure is given as 'up to' in CHIMIA (2019) and as 'on average' by a Williams College page; the clue uses 'up to'. Clue 3: the sources say 'flies'; the clue says 'household pests' to avoid the answer's word."
+ },
+ "loch-ness-monster": {
+  "answer": "Loch Ness Monster",
+  "clues": [
+   {
+    "position": 1,
+    "text": "In 1975 naturalist Sir Peter Scott gave this creature a scientific name, which a Scottish politician noticed was an anagram of a phrase calling it a hoax by 'Sir Peter S.'",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Loch_Ness_Monster",
+     "https://hoaxes.org/archive/permalink/nessiteras_rhombopteryx",
+     "https://lists.ku.edu/pipermail/taxacom/2013-March/124503.html"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Footprints of this creature found by big-game hunter Marmaduke Wetherell in 1933 turned out to have been made with a stuffed hippo's foot, the kind once used as an umbrella stand.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Loch_Ness_Monster",
+     "https://simanaitissays.com/2024/03/07/nessie-tidbits-part-2/"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "A 2018 survey of environmental DNA in the lake this creature supposedly calls home found no reptile DNA at all, but a great deal of eel DNA.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Loch_Ness_Monster",
+     "https://www.otago.ac.nz/news/newsroom/first-edna-study-of-loch-ness-points-to-something-fishy",
+     "https://www.sci.news/biology/eel-dna-loch-ness-07580.html"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This long-necked beast, often pictured as a surviving plesiosaur, is said to lurk in a deep, murky lake in the Scottish Highlands.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Loch_Ness_Monster"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1 avoids the scientific name (Nessiteras) and the anagram's full text because both contain words from the answer. Clue 2: the hunter was Marmaduke Wetherell; sources say the prints were made with a stuffed hippo foot, the base of an umbrella stand or ashtray. Clue 3: samples were taken in June 2018 and results announced in 2019."
+ },
+ "cheers": {
+  "answer": "Cheers",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This sitcom's creators first considered an American take on Fawlty Towers set in a hotel, and its lead was originally written as a retired football player.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Cheers"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "When actor Nicholas Colasanto died in 1985, this sitcom wrote his character's death into the show and brought in a young Woody Harrelson.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Cheers"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "This sitcom's producers picked a real pub out of a phone book and paid its owner $1 for photos of it, and that pub now draws nearly a million visitors a year.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Cheers"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This NBC sitcom about the staff and regulars of a Boston bar, with a theme song about a place 'where everybody knows your name', ended in 1993.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Cheers",
+     "https://en.wikipedia.org/wiki/One_for_the_Road_(Cheers)"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1: the football-player version was meant for Fred Dryer. Clue 3: the pub is the Bull & Finch in Boston. All four clues rest on Wikipedia only; finale facts also on the 'One for the Road' article. Finale viewer estimates vary (80-93 million), so the clue gives no number."
+ },
+ "wheres-waldo": {
+  "answer": "Where's Waldo?",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This character is known as Charlie in France, Holger in Denmark and Efi in Israel.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Where%27s_Wally%3F"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Across his first seven books, this figure's average size on the page shrank from about 0.99 to roughly 0.2 square centimeters, while the crowds hiding him grew.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Where%27s_Wally%3F"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "One crowded beach scene in this character's first book got it pulled from some US school libraries in the 1990s because of a tiny topless sunbather.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Where%27s_Wally%3F",
+     "https://www.mentalfloss.com/literature/books/waldos-topless-beach-scandal",
+     "https://www.elpl.org/blogs/post/banned-book-week-wheres-waldo"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This bespectacled traveler in a red-and-white striped shirt and bobble hat hides in busy double-page scenes drawn by British illustrator Martin Handford.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Where%27s_Wally%3F"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1: the foreign names come from Wikipedia plus search-result snippets (Danish title 'Hvor er Holger?', Hebrew title for Efi); the Hebrew name rests on one listing. Clue 2: Wikipedia gives 0.99 cm² in book one and 0.20-0.17 cm² in books four to seven. The words where, Waldo and Wally appear in no clue."
+ },
+ "edgar-degas": {
+  "answer": "Edgar Degas",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This French painter's only work bought by a museum in his lifetime showed his uncle's cotton office in New Orleans, the city his Creole mother came from.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Edgar_Degas",
+     "https://en.wikipedia.org/wiki/A_Cotton_Office_in_New_Orleans"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "During the Dreyfus Affair this artist's antisemitism came to the fore, and he broke with all of his Jewish friends.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Edgar_Degas"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "Though he took a leading role in organizing the Impressionist exhibitions, this artist rejected the label and preferred to be called a realist.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Edgar_Degas"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "More than half of this artist's works show ballet dancers, and his wax sculpture of a 14-year-old ballerina wore real hair and a cloth tutu.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Edgar_Degas"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1: Wikipedia says A Cotton Office was his only work bought by a museum (Pau, 1878) in his lifetime. The sitter is his maternal uncle Michel Musson."
+ },
+ "poppy": {
+  "answer": "Poppy",
+  "clues": [
+   {
+    "position": 1,
+    "text": "In 2009 Tasmania's attorney-general claimed that wallabies were eating this crop, getting 'as high as a kite' and leaving crop circles in the fields.",
+    "how": "written",
+    "sources": [
+     "https://www.nbcnews.com/id/wbna31539546",
+     "https://odt.co.nz/node/62817"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Claude Monet's 1873 painting of a woman with a parasol and a child near Argenteuil, shown at the first Impressionist exhibition, is named for this red flower.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://business.sherbrookerecord.com/sherbrookerecord/news/read/43174226/pentagon_warns_military_service_members_to_stay_away_from_poppy_seeds",
+     "https://en.wikipedia.org/wiki/The_Poppy_Field_near_Argenteuil"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "In 1903 California made a golden-orange wild species of this its official state flower; its petals close at night and in cloudy weather.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Eschscholzia_californica",
+     "https://www.larpd.org/valley-wilds-article-california-poppy"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "Inspired by John McCrae's 1915 poem 'In Flanders Fields', people have worn a red paper or silk version of this flower since World War I to remember the war dead.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://www.militarytimes.com/veterans/salute-veterans/2017/11/10/veterans-day-why-poppies",
+     "https://www.maritime-executive.com/features/the-poppy-a-symbol-of-memorial-day"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1 is worded as a claim: Lara Giddings said it at a 2009 budget hearing; AP could not get the brief she cited. Clue 3: the California poppy is in the poppy family but not the genus Papaver."
+ },
+ "downton-abbey": {
+  "answer": "Downton Abbey",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This drama was filmed mostly at the Hampshire home of the earls of Carnarvon, whose 5th Earl paid for Howard Carter's search for Tutankhamun's tomb.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Highclere_Castle",
+     "https://en.wikipedia.org/wiki/Downton_Abbey"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "This series was first planned as a spin-off of Gosford Park, the 2001 film whose screenplay won the show's creator, Julian Fellowes, an Oscar.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Gosford_Park",
+     "https://en.wikipedia.org/wiki/Downton_Abbey"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "This show opens the day after the Titanic sinks, when a family learns that both heirs to its estate died aboard.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Downton_Abbey"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This British period drama follows the Crawley family and their servants on a Yorkshire estate, with Maggie Smith as the Dowager Countess of Grantham.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Downton_Abbey"
+    ]
+   }
+  ]
+ },
+ "cabbage-patch-kids": {
+  "answer": "Cabbage Patch Kids",
+  "clues": [
+   {
+    "position": 1,
+    "text": "These toys grew out of the handmade 'Doll Babies' a Kentucky folk artist sold at craft fairs; she sued the man behind them and settled out of court.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Martha_Nelson_Thomas",
+     "https://en.wikipedia.org/wiki/Cabbage_Patch_Kids"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Coleco shipped 3.3 million of these in 1983, but after it filed for bankruptcy in 1988, Hasbro took over the line.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Cabbage_Patch_Kids"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "At their 'hospital' in Cleveland, Georgia, staff in scrubs stage 'live births' of these and joke that they have never needed a C-section.",
+    "how": "written",
+    "sources": [
+     "https://gardenandgun.com/cabbage-patch-kids-babyland-general-hospital"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "These soft, round-faced dolls set off shopping riots in late 1983, and each one came with a birth certificate and adoption papers.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Cabbage_Patch_Kids",
+     "https://gardenandgun.com/cabbage-patch-kids-babyland-general-hospital"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1 leaves out the settlement year: Wikipedia's two articles give 1984 and 1985."
+ },
+ "escalator": {
+  "answer": "Escalator",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This invention's name was trademarked for the 1900 Paris Exposition, where the machine won first prize, but in 1950 the word was ruled generic.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Escalator"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "When Harrods unveiled England's first one in 1898, staff reportedly waited at the top with brandy and smelling salts for shaken shoppers.",
+    "how": "written",
+    "sources": [
+     "https://londonist.com/2016/03/secrets-of-harrods",
+     "https://walks.com/podcast/today-november-16-in-london-history-derring-do-at-harrods"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "The first working one, which its inventor Jesse Reno called an 'inclined elevator', ran beside a pier at Coney Island in 1896.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Escalator"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "Riders on this moving staircase stand on the left in Tokyo, but on the right in Osaka.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Escalator"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 2 hedged with 'reportedly': several sources call the brandy story lore. The Harrods machine was a woven leather inclined belt by Piat."
+ },
+ "wheel-of-fortune": {
+  "answer": "Wheel of Fortune",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This game show's 1973 pilot was called 'Shopper's Bazaar', and for years its winners spent their money on prizes in onstage shopping rounds.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Wheel_of_Fortune_(American_game_show)"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "NBC's president rejected this show's 1981 pick for host, a Los Angeles TV weatherman, as 'too local', until the show's creator halted tapings.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Pat_Sajak",
+     "https://en.wikipedia.org/wiki/Wheel_of_Fortune_(American_game_show)"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "In 1983 creator Merv Griffin replaced this show's theme with 'Changing Keys', a tune he wrote himself so he could collect royalties on both its network and syndicated versions.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Wheel_of_Fortune_(American_game_show)"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "Vanna White has revealed the letters on this show's puzzle board since 1982, and Ryan Seacrest took over from Pat Sajak as its host in 2024.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Wheel_of_Fortune_(American_game_show)"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 2: Sajak was a KNBC Los Angeles weatherman; Silverman called him 'too local' and Griffin imposed a moratorium on tapings (Pat Sajak article)."
+ },
+ "hot-wheels": {
+  "answer": "Hot Wheels",
+  "clues": [
+   {
+    "position": 1,
+    "text": "In 2008 this toy line marked its four billionth car with a white-gold model studded with about 2,700 diamond chips, valued at $140,000.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Hot_Wheels"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "This toy line's holy grail is a pink 1969 Volkswagen bus prototype that loaded its surfboards through the rear window; one is now valued at around $150,000.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://antiquetrader.com/collectibles/hot-wheels-perfect-10",
+     "https://en.wikipedia.org/wiki/Hot_Wheels",
+     "https://hagerty.com/media/news/the-rarest-hot-wheels-is-worth-more-than-its-full-scale-counterpart"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "This toy line's creator, Elliot Handler, reportedly got the idea watching his son play with Matchbox cars, and wanted flashy custom cars instead of realistic models.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Hot_Wheels"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This die-cast car brand, launched by Mattel in 1968, is famous for the bright orange plastic track its little cars race down.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Hot_Wheels"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 2: Antique Trader says collector Bruce Pascal bought the pink Rear-Loading Beach Bomb for $72,000; Wikipedia calls it the 'Holy Grail' of collections. How many pink ones exist is disputed, so the clue avoids a count."
+ },
+ "game-boy": {
+  "answer": "Game Boy",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This handheld missed its company president's ¥10,000 price target because its screen was costly, so it launched in Japan in 1989 at ¥12,500.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Game_Boy"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "One of these was charred and its buttons melted when fire hit its owner's Gulf War barracks, yet it still worked and went on show in its maker's New York store.",
+    "how": "written",
+    "sources": [
+     "https://www.military.com/off-duty/games/game-boy-survived-iraqi-bombing-during-gulf-war.html",
+     "https://www.timeextension.com/news/2023/06/one-of-the-worlds-most-famous-game-boys-is-retiring-from-active-duty"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "This device was less advanced than the Atari Lynx because its screen had no color, but its low price and up to 30 hours on four AA batteries won out.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Game_Boy"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "Nintendo launched this handheld in 1989 and bundled Tetris with it in every region except Japan.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Game_Boy"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 2: sources differ on whether a Scud missile or another explosive hit the barracks, so the clue says only 'fire hit'. It was retired from the New York store display in 2023, so the clue uses past tense."
+ },
+ "caesar-salad": {
+  "answer": "Caesar Salad",
+  "clues": [
+   {
+    "position": 1,
+    "text": "The restaurant credited with creating this dish dresses it with lime juice today, though most modern recipes use lemon juice or vinegar.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Caesar_salad"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "According to its creator's daughter, the original version of this dish had no anchovies; its savory kick came from Worcestershire sauce.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Caesar_salad"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "Julia Child remembered eating this dish in the 1920s, when its whole lettuce leaves were meant to be lifted by the stem and eaten with the fingers.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Caesar_salad"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This romaine dish was created in Tijuana in 1924 by an Italian-born restaurateur, though a popular myth credits the Roman general who shares its name.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Caesar_salad",
+     "https://en.wikipedia.org/wiki/Caesar_Cardini"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 2 relies on the daughter's account as reported by Wikipedia; credit for the dish is disputed (brother Alex, staff), so the clues say 'its creator' without naming him."
+ },
+ "badminton": {
+  "answer": "Badminton",
+  "clues": [
+   {
+    "position": 1,
+    "text": "In a 2023 test at a racket maker's factory in Japan, an Indian player set this sport's Guinness record for the fastest hit, clocked at 565 km/h.",
+    "how": "written",
+    "sources": [
+     "https://www.guinnessworldrecords.com/world-records/92507-fastest-badminton-hit-male"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "British officers in 19th-century India played an early form of this sport called 'Poona', after the garrison town where it caught on.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Badminton"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "This sport is named after the Duke of Beaufort's country house in Gloucestershire, though nobody is sure exactly why.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Badminton"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "Players of this sport, an Olympic event since 1992, use light rackets to hit a feathered shuttlecock over a high net.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Badminton"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 1: Satwiksairaj Rankireddy, 14 April 2023, Yonex factory gym in Soka, Saitama. It was a controlled test, not a match; the fastest in-match smash is lower, so the clue says 'in a test'."
+ },
+ "bubble-wrap": {
+  "answer": "Bubble Wrap",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This plastic product was first sold under the name Air Cap, and its inventors made the first version by sealing shower curtains together.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bubble_Wrap_(brand)"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "This product's first big customer was IBM, which used it to protect its new 1401 computer during shipping.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bubble_Wrap_(brand)",
+     "https://en.wikipedia.org/wiki/Bubble_wrap"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "Two engineers in Hawthorne, New Jersey, invented this in 1957 while trying to make textured wallpaper, then tried selling it as greenhouse insulation.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bubble_Wrap_(brand)",
+     "https://en.wikipedia.org/wiki/Bubble_wrap"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "The last Monday of January is an appreciation day for this cushioning packing sheet, whose rows of air-filled pockets people love to pop.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bubble_wrap"
+    ]
+   }
+  ],
+  "writerNotes": "Sources disagree on the year of the IBM deal (1959, 1960 or 1961), so clue 2 gives no year."
+ },
+ "nutella": {
+  "answer": "Nutella",
+  "clues": [
+   {
+    "position": 1,
+    "text": "Under Italian law this product can't be labeled a 'chocolate cream', because it falls short of the minimum amount of cocoa solids.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Nutella"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "This product grew out of a spread called Supercrema, sold from 1951, and its first jar under its new name left a factory in Alba, Italy, in April 1964.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Nutella"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "In April 2026 a jar of this drifted through the Orion capsule on NASA's Artemis II livestream, and its maker boasted it had traveled further than any spread in history.",
+    "how": "written",
+    "sources": [
+     "https://www.wantedinrome.com/news/floating-nutella-jar-steals-the-show-as-artemis-ii-circles-the-moon.html",
+     "https://en.wikipedia.org/wiki/Nutella"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "Made by the Italian company Ferrero, this sweet hazelnut-and-cocoa spread has its own World Day every February 5.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Nutella"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 3 is from April 2026; sources give the livestream as 6 or 7 April, so the clue says only April 2026."
+ },
+ "guinness": {
+  "answer": "Guinness",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This drink was long clarified with isinglass, made from fish bladders, so vegans could not drink it until its brewer stopped using it in the late 2010s.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Guinness"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "In 1759 this drink's founder signed a 9,000-year lease on an unused brewery, at a rent of £45 a year.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Guinness"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "This drink's harp logo faces right, and when Ireland's government adopted a harp emblem it made its own face left to avoid clashing with the brewer's older trademark.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Guinness",
+     "https://www.mondaq.com/ireland/trademark/1444496/irish-symbols-under-legal-protection"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "This dark Irish stout, brewed at St James's Gate in Dublin, also lent its name to a famous book of world records.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Guinness"
+    ]
+   }
+  ],
+  "writerNotes": "Wikipedia gives 2016, 2017 and 2018 in different places for the end of isinglass, so clue 1 says 'the late 2010s'."
+ },
+ "wayne-gretzky": {
+  "answer": "Wayne Gretzky",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This athlete tucked the right side of his jersey into his pants because his boyhood team's sweaters, sized for ten-year-olds, were too big, and he kept the habit all career.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Wayne_Gretzky"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Before this athlete's last game, at Madison Square Garden in 1999, both the Canadian and American anthems were altered to mention him.",
+    "how": "written",
+    "sources": [
+     "https://www.oocities.org/colosseum/stadium/1583/041899a.html",
+     "https://www.nhl.com/rangers/news/the-great-one-says-goodbye"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "In 1988 this player was traded to Los Angeles in a deal that sent back two players, three first-round picks and $15 million in cash.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Wayne_Gretzky"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "Nicknamed 'The Great One', this Canadian hockey star wore No. 99, a number the NHL later retired for every team.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Wayne_Gretzky"
+    ]
+   }
+  ],
+  "writerNotes": "Clue 2's anthem source is an archived AP game report (oocities mirror); the NHL page confirms the date and venue."
+ },
+ "kentucky-derby": {
+  "answer": "Kentucky Derby",
+  "clues": [
+   {
+    "position": 1,
+    "text": "This horse race was founded by a grandson of William Clark of the Lewis and Clark Expedition.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Kentucky_Derby"
+    ]
+   },
+   {
+    "position": 2,
+    "text": "Black jockeys won 15 of the first 28 runnings of this race, starting with Oliver Lewis aboard Aristides in the very first one in 1875.",
+    "how": "corrected or rewritten after review",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Kentucky_Derby",
+     "https://www.derbymuseum.org/aatr.html",
+     "https://www.npr.org/2016/05/07/477175260/the-forgotten-history-of-african-american-jockeys"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "In 1973 Secretariat set this race's speed record, running its mile and a quarter in 1:59.4.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Kentucky_Derby"
+    ]
+   },
+   {
+    "position": 4,
+    "text": "Nicknamed 'the Run for the Roses', this race at Churchill Downs in Louisville drapes its winner in a blanket of 554 red roses.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Kentucky_Derby"
+    ]
+   }
+  ]
+ }
+}

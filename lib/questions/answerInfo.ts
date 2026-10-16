@@ -120,6 +120,15 @@ export const ANSWER_PAGE_TITLES: Record<string, string | null> = {
   diaphragm: "Thoracic diaphragm",
   tabasco: "Tabasco sauce",
   bowling: "Tenpin bowling",
+  uno: "Uno (card game)",
+  vine: "Vine (service)", // the bare name is the climbing plant
+  orion: "Orion (constellation)",
+  europa: "Europa (moon)",
+  twister: "Twister (game)",
+  "four leaf clover": "Four-leaf clover", // no page under the capitalized title
+  hydra: "Lernaean Hydra",
+  "washington crossing the delaware": "Washington Crossing the Delaware (1851 paintings)",
+  "wheel of fortune": "Wheel of Fortune (American game show)",
 };
 
 type AnswerLike = Pick<Question, "answer" | "answerCanonical" | "answerAliases" | "category"> &
