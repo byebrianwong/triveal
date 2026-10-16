@@ -293,6 +293,13 @@ describe("flagsFor", () => {
     expect(flags).not.toContain("fact-doubtful");
   });
 
+  it("drops the judge's doubt about a fact a source has confirmed", () => {
+    const j = clean({ clue1: { ...goodClue, fact: "doubtful" }, clue3: { ...goodClue, fact: "wrong" } });
+    expect(flagsFor(j, undefined, (p) => p === 3)).toContain("fact-doubtful");
+    expect(flagsFor(j, undefined, (p) => p === 3)).not.toContain("fact-wrong");
+    expect(flagsFor(j, undefined, () => true)).toEqual([]);
+  });
+
   it("flags a question the simulated player never solves, but not an early solve", () => {
     expect(flagsFor(clean(), { solvedOn: 1, guesses: ["x"] })).toEqual([]);
     expect(flagsFor(clean(), { solvedOn: null, guesses: [] })).toContain("player-never-solved");
@@ -349,6 +356,20 @@ describe("renderBankReport", () => {
     expect(report.indexOf("`awful`")).toBeLessThan(report.indexOf("`meh`"));
     expect(report).not.toContain("`fine`");
     expect(report).toContain("Test \\| Pipes");
+  });
+
+  it("leaves out a question held back only for facts a source confirmed", () => {
+    const judge = clean({ verdict: "needs_work", clue2: { ...goodClue, fact: "doubtful" } });
+    const confirmed = { ...entry("checked", judge), flags: flagsFor(judge, undefined, () => true) };
+    const report = renderBankReport([confirmed, entry("unchecked", judge)], {
+      judgeModel: "j",
+      playerModel: "p",
+      date: "2026-10-12",
+    });
+    expect(report).toContain("1 of those held back were held back only for facts");
+    expect(report).toMatch(/`checked`\.$/m);
+    expect(report).toContain("| UNCHECKED (`unchecked`)");
+    expect(report).not.toContain("| CHECKED (`checked`)");
   });
 });
 

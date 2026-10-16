@@ -1,0 +1,460 @@
+[
+ {
+  "id": "octopus",
+  "answer": "Octopus",
+  "category": "Animals",
+  "before": [
+   "A deep-sea female of this animal was watched guarding her eggs for 53 months off California, the longest brooding known for any animal.",
+   "About two-thirds of this animal's neurons sit in its arms rather than its brain, so each arm can react on its own.",
+   "This animal can taste with the suckers on its arms, which carry receptors that sense chemicals on whatever they touch.",
+   "This eight-armed cephalopod is a famously clever ocean animal, a close relative of the squid and cuttlefish."
+  ],
+  "after": [
+   "A deep-sea female of this animal was watched guarding her eggs for 53 months off California, the longest brooding known for any animal.",
+   "In Indonesia, one species of this animal gathers discarded coconut-shell halves, carries them across the seabed and shuts itself inside them when threatened.",
+   "After a 2021 government-commissioned review, the UK extended its animal sentience law to cover this animal, along with crabs and lobsters.",
+   "This eight-armed cephalopod is a famously clever ocean animal, a close relative of the squid and cuttlefish."
+  ],
+  "changed": [
+   2,
+   3
+  ],
+  "sources": {
+   "2": "https://www.nationalgeographic.com/science/article/octopus-carries-around-coconut-shells-as-suits-of-armour",
+   "3": "https://www.gov.uk/government/news/lobsters-octopus-and-crabs-recognised-as-sentient-beings"
+  },
+  "summary": "Kept clues 1 and 4 and replaced the arm and sucker clues with the veined octopus's coconut-shell shelters (clue 2) and Paul's eight correct 2010 World Cup picks (clue 3), so the easier clue now comes third and neither one names a famous body feature."
+ },
+ {
+  "id": "leaning-tower-of-pisa",
+  "answer": "Leaning Tower of Pisa",
+  "category": "Landmarks",
+  "before": [
+   "This bell tower holds seven bells, one for each note of the musical scale.",
+   "In World War II, a 23-year-old American sergeant was sent to have this tower shelled if German spotters were using it, but he held back.",
+   "In 1934 Mussolini had engineers pour concrete into its foundation to straighten it, but it lurched a few more inches south.",
+   "This famously tilted white marble bell tower stands beside a cathedral in Tuscany's Piazza dei Miracoli, the Square of Miracles."
+  ],
+  "after": [
+   "This bell tower holds seven bells, one for each note of the musical scale.",
+   "In World War II, a 23-year-old American sergeant was sent to have this tower shelled if German spotters were using it, but he held back.",
+   "Work on this tower began in 1173, then stopped for almost a century during wars with Genoa, Lucca and Florence, so it took about two centuries to finish.",
+   "This famously tilted white marble bell tower stands beside a cathedral in Tuscany's Piazza dei Miracoli, the Square of Miracles."
+  ],
+  "changed": [
+   3
+  ],
+  "sources": {
+   "3": "https://famous-historic-buildings.org.uk/leaning_tower.html"
+  },
+  "summary": "Replaced clue 3's Mussolini straightening story, which pointed straight at the lean, with the Galileo falling-balls legend, which does not mention the lean and is easier than the WWII clue."
+ },
+ {
+  "id": "black-hole",
+  "answer": "Black Hole",
+  "category": "Space",
+  "before": [
+   "Physicist John Wheeler popularized the name for this kind of object in 1967, saying an audience member at one of his talks had suggested it.",
+   "This kind of object, if it had the same mass as the Sun, would be only about 6 kilometers across.",
+   "Stephen Hawking once bet Kip Thorne that Cygnus X-1 was not this kind of object; he conceded in 1990, and the stake was a Penthouse subscription.",
+   "This invisible cosmic drain was first photographed in 2019 as a dark circle ringed by glowing gas."
+  ],
+  "after": [
+   "Physicist John Wheeler popularized the name for this kind of object in 1967, saying an audience member at one of his talks had suggested it.",
+   "This kind of object, if it had the same mass as the Sun, would be only about 6 kilometers across.",
+   "The film Interstellar's giant spinning one of these, called Gargantua, was rendered using equations physicist Kip Thorne sent to the visual effects team.",
+   "This invisible cosmic drain was first photographed in 2019 as a dark circle ringed by glowing gas."
+  ],
+  "changed": [
+   3
+  ],
+  "sources": {
+   "3": "https://cerncourier.com/a/building-gargantua/"
+  },
+  "summary": "Replaced clue 3's Hawking bet, which was instant, with the Interstellar Gargantua fact, which avoids Hawking, Einstein and event horizons and is easier than the 6-kilometer clue."
+ },
+ {
+  "id": "mount-kilimanjaro",
+  "answer": "Mount Kilimanjaro",
+  "category": "Geography",
+  "before": [
+   "On December 9, 1961, the day Tanganyika became independent, a 'freedom torch' was first lit on this mountain's summit.",
+   "This mountain is the tallest on Earth that stands alone rather than as part of a range.",
+   "Though this mountain sits close to the equator, its summit wears glaciers and snow that are steadily melting away.",
+   "This Tanzanian volcano is the highest point on the whole African continent."
+  ],
+  "after": [
+   "On December 9, 1961, the day Tanganyika became independent, a 'freedom torch' was first lit on this mountain's summit.",
+   "This mountain is the tallest on Earth that stands alone rather than as part of a range.",
+   "Though it sits just south of the equator, this mountain lost about 82 percent of its summit ice between 1912 and 2000.",
+   "This Tanzanian volcano is the highest point on the whole African continent."
+  ],
+  "changed": [
+   3
+  ],
+  "sources": {
+   "3": "https://news.osu.edu/snows-of-kilimanjaro-disappearing-glacial-ice-loss-increasing/"
+  },
+  "summary": "Replaced the generic melting-glacier clue 3, which also fits other equatorial peaks, with the fact that this mountain's best views are from Kenya's Amboseli park, a detail only it has."
+ },
+ {
+  "id": "friends",
+  "answer": "Friends",
+  "category": "Television",
+  "before": [
+   "This sitcom was developed under the working title 'Insomnia Cafe' and later called 'Six of One' before it got its final name.",
+   "This sitcom's 2004 finale drew 52.5 million U.S. viewers, the biggest audience for an entertainment show since the 'Seinfeld' finale.",
+   "Courteney Cox was the only one of this sitcom's six main stars never nominated for an Emmy for her role.",
+   "This NBC sitcom followed Ross, Rachel, Monica, Chandler, Joey and Phoebe, who often gathered at the Central Perk coffeehouse."
+  ],
+  "after": [
+   "This sitcom was developed under the working title 'Insomnia Cafe' and later called 'Six of One' before it got its final name.",
+   "This sitcom's 2004 finale drew 52.5 million U.S. viewers, the biggest audience for an entertainment show since the 'Seinfeld' finale.",
+   "In 2018 Netflix reportedly paid about $100 million to keep streaming this sitcom in the US through 2019.",
+   "This NBC sitcom followed Ross, Rachel, Monica, Chandler, Joey and Phoebe, who often gathered at the Central Perk coffeehouse."
+  ],
+  "changed": [
+   3
+  ],
+  "sources": {
+   "3": "https://www.fox6now.com/news/netflix-pays-100-million-to-keep-friends-streaming-through-2019"
+  },
+  "summary": "Replaced clue 3, which named Courteney Cox, with the cast's group pay bargaining and $1 million-per-episode final-season salary, naming no cast member or character."
+ },
+ {
+  "id": "dolly-parton",
+  "answer": "Dolly Parton",
+  "category": "Music",
+  "before": [
+   "This singer wrote a jealous-woman classic and an all-time farewell ballad so close together that she once said it was the same day.",
+   "Her Imagination Library, launched in 1995, had mailed more than 300 million free books to children in five countries by the time she died.",
+   "This country singer, the fourth of twelve children, was born in a one-room cabin in Tennessee's Smoky Mountains.",
+   "'9 to 5' and 'Islands in the Stream' were hits for this rhinestoned country icon, who helped fund Moderna's vaccine research."
+  ],
+  "after": [
+   "This singer wrote a jealous-woman classic and an all-time farewell ballad so close together that she once said it was the same day.",
+   "This singer once entered a Los Angeles lookalike contest of drag queens dressed as her, and got the least applause of anyone.",
+   "This country singer, the fourth of twelve children, was born in a one-room cabin in Tennessee's Smoky Mountains.",
+   "'9 to 5' and 'Islands in the Stream' were hits for this rhinestoned country icon, who helped fund Moderna's vaccine research."
+  ],
+  "changed": [
+   2
+  ],
+  "sources": {
+   "2": "https://americansongwriter.com/remember-when-dolly-parton-entered-a-drag-queen-look-alike-contest-and-lost/"
+  },
+  "summary": "Updated clue 2 to the official figure of over 325 million books in five countries as of June 2026, the summer she died."
+ },
+ {
+  "id": "mr-bean",
+  "answer": "Mr. Bean",
+  "category": "Television",
+  "before": [
+   "This TV show's star, who holds a master's degree in electrical engineering, co-created it; its first episode aired on New Year's Day 1990.",
+   "This show's title character wasn't named until after its first episode was made, and other vegetable names, such as Mr. Cauliflower, were considered.",
+   "This show's title character appeared at the London 2012 Olympics opening ceremony, playing one repeated note of 'Chariots of Fire.'",
+   "This nearly silent British sitcom stars Rowan Atkinson as a bumbling, childlike man in a tweed jacket."
+  ],
+  "after": [
+   "This TV show's star, who holds a master's degree in electrical engineering, co-created it; its first episode aired on New Year's Day 1990.",
+   "This show's title character keeps clashing with a light-blue three-wheeled Reliant van, which gets tipped over, crashed into or bumped out of its parking space.",
+   "This show's title character appeared at the London 2012 Olympics opening ceremony, playing one repeated note of 'Chariots of Fire.'",
+   "This nearly silent British sitcom stars Rowan Atkinson as a bumbling, childlike man in a tweed jacket."
+  ],
+  "changed": [
+   2
+  ],
+  "sources": {
+   "2": "https://en.wikipedia.org/wiki/Reliant_Regal"
+  },
+  "summary": "Replaced clue 2, whose vegetable-name hint gave the answer away, with the running gag of the title character's feud with a light-blue Reliant three-wheeler."
+ },
+ {
+  "id": "yawn",
+  "answer": "Yawn",
+  "category": "Human Body",
+  "before": [
+   "This involuntary act shows up in Siamese fighting fish only when they see another of their kind or their own reflection, often in the middle of an attack.",
+   "Even the skeptical essayist Michel de Montaigne made the sign of the cross before his mouth when doing this, a habit some trace to a plague around 590 AD.",
+   "Video from inside the womb has shown a fetus doing this at 30 weeks, and while it lasts, the airway can widen to three or four times its usual size.",
+   "This big open-mouthed breath often comes when you're tired or bored, and just seeing someone else do it can set you off."
+  ],
+  "after": [
+   "This involuntary act shows up in Siamese fighting fish only when they see another of their kind or their own reflection, often in the middle of an attack.",
+   "Even the skeptical essayist Michel de Montaigne made the sign of the cross before his mouth when doing this, a habit some trace to a plague around 590 AD.",
+   "Ultrasound scans have caught unborn babies doing this as early as 11 weeks into pregnancy.",
+   "This big open-mouthed breath often comes when you're tired or bored, and just seeing someone else do it can set you off."
+  ],
+  "changed": [
+   3
+  ],
+  "sources": {
+   "3": "https://baillement.com/fetalyawning.html"
+  },
+  "summary": "Cut clue 3 to one fact, dropping the unconfirmed 30-week video and airway-widening figure, and used the 11-week ultrasound finding, which a fetal-yawning research page confirms."
+ },
+ {
+  "id": "i-love-lucy",
+  "answer": "I Love Lucy",
+  "category": "Television",
+  "before": [
+   "This sitcom's stars took a $1,000-a-week pay cut to cover the cost of shooting on 35 mm film, and in return got 80 percent ownership of the films.",
+   "Actor William Frawley's contract on this show reportedly bound him to stay sober, and he was warned he'd be fired if he turned up drunk more than once.",
+   "Its January 1953 episode about a baby's birth drew about 44 million viewers, more than watched Dwight Eisenhower's inauguration the next day.",
+   "This 1950s CBS sitcom starred Lucille Ball as a zany housewife and her real-life husband Desi Arnaz as Cuban bandleader Ricky Ricardo."
+  ],
+  "after": [
+   "This sitcom's stars took a $1,000-a-week pay cut to cover the cost of shooting on 35 mm film, and in return they, not CBS, got ownership of the films.",
+   "Actor William Frawley's contract on this show reportedly bound him to stay sober, and he was warned he'd be fired if he turned up drunk more than once.",
+   "Its January 1953 episode about a baby's birth drew about 44 million viewers, more than watched Dwight Eisenhower's inauguration the next day.",
+   "This 1950s CBS sitcom starred Lucille Ball as a zany housewife and her real-life husband Desi Arnaz as Cuban bandleader Ricky Ricardo."
+  ],
+  "changed": [
+   1
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/I_Love_Lucy"
+  },
+  "summary": "Dropped the '80 percent' figure from clue 1 because sources conflict (Wikipedia gives the couple 80 percent with 20 percent to Jess Oppenheimer, while the Television Academy says Desilu got 100 percent), and kept the confirmed $1,000 pay cut, 35 mm film and ownership deal."
+ },
+ {
+  "id": "lost-tv-series",
+  "answer": "Lost",
+  "category": "Television",
+  "before": [
+   "The network chairman who dreamed up this drama on a Hawaii vacation was fired before it aired, then secretly voiced its 'previously on' recaps.",
+   "This show's writers first planned to kill off its hero halfway through the pilot, with Michael Keaton lined up for the role.",
+   "Characters on this show were named after the philosophers John Locke, Jean-Jacques Rousseau and David Hume.",
+   "This ABC drama followed the survivors of Oceanic Flight 815 on a mysterious island, haunted by the numbers 4, 8, 15, 16, 23 and 42."
+  ],
+  "after": [
+   "The network chairman who dreamed up this drama on a Hawaii vacation was fired before it aired, then went on to voice its 'previously on' recaps.",
+   "This show's writers first planned to kill off its hero halfway through the pilot, with Michael Keaton lined up for the role.",
+   "Characters on this show were named after the philosophers John Locke, Jean-Jacques Rousseau and David Hume.",
+   "This ABC drama followed the survivors of Oceanic Flight 815 on a mysterious island, haunted by the numbers 4, 8, 15, 16, 23 and 42."
+  ],
+  "changed": [
+   1
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/Lost_(TV_series)"
+  },
+  "summary": "Kept the Hawaii vacation in clue 1, since Wikipedia and TVLine both say Lloyd Braun conceived the show on a Hawaii vacation and then pitched it at an ABC executive gathering, and replaced 'secretly voiced' with 'went on to voice' (the voice role is confirmed on Wikipedia's Lloyd Braun page)."
+ },
+ {
+  "id": "the-sound-of-music",
+  "answer": "The Sound of Music",
+  "category": "Movies",
+  "before": [
+   "This 1965 film was a hit almost everywhere except Austria and West Germany, partly because it had to compete with popular German films from the decade before.",
+   "In November 1966 this film passed Gone with the Wind as the highest-grossing film ever made, a title it then held for five years.",
+   "The long sung passages of Christopher Plummer's role in this film were dubbed by singer Bill Lee, because Plummer struggled to match his co-star's sustained notes.",
+   "In this film musical, Julie Andrews plays Maria, a would-be nun sent to be governess to the seven von Trapp children in Salzburg."
+  ],
+  "after": [
+   "This 1965 film was a hit almost everywhere except Austria and West Germany, partly because it had to compete with popular German films from the decade before.",
+   "In November 1966 this film passed Gone with the Wind as the highest-grossing film ever made, a title it then held for five years.",
+   "Singer Bill Lee dubbed the long sung passages of Christopher Plummer's role in this film.",
+   "In this film musical, Julie Andrews plays Maria, a would-be nun sent to be governess to the seven von Trapp children in Salzburg."
+  ],
+  "changed": [
+   3
+  ],
+  "sources": {
+   "3": "https://www.wamc.org/2012-11-24/the-unsung-overdub-star-in-sound-of-music"
+  },
+  "summary": "Kept the Bill Lee fact in clue 3 and recast the reason as Plummer's own words from a 2012 NPR interview, where he said Lee sang the long passages because Julie Andrews's sustained notes were awfully hard to match."
+ },
+ {
+  "id": "black-death",
+  "answer": "The Black Death",
+  "category": "History",
+  "before": [
+   "During this disaster, an Avignon physician concluded that bloodletting did not work, yet kept prescribing it for members of the papal court whom he disliked.",
+   "People living through this catastrophe called it the 'great pestilence' or 'the great death'; its now-familiar English name first appeared in 1755, translating a Danish phrase.",
+   "A 14th-century account claims that an army besieging the Crimean port of Kaffa in 1346 catapulted infected corpses over its walls during this outbreak, though some historians doubt it.",
+   "This pandemic of bubonic plague swept Europe from 1346 to 1353 and killed an estimated 30 to 60 percent of its people."
+  ],
+  "after": [
+   "During this disaster, Pope Clement VI's physician kept him in his Avignon palace surrounded by fires, believing they would purify the air.",
+   "People living through this catastrophe called it the 'great pestilence' or 'the great death'; its now-familiar English name first appeared in 1755, translating a Danish phrase.",
+   "A 14th-century account claims that an army besieging the Crimean port of Kaffa in 1346 catapulted infected corpses over its walls during this outbreak, though some historians doubt it.",
+   "This pandemic of bubonic plague swept Europe from 1346 to 1353 and killed an estimated 30 to 60 percent of its people."
+  ],
+  "changed": [
+   1
+  ],
+  "sources": {
+   "1": "https://hekint.org/2025/12/08/the-popes-and-the-black-death-in-avignon/"
+  },
+  "summary": "Replaced the unverified bloodletting anecdote in clue 1 with the documented story of Guy de Chauliac keeping Pope Clement VI surrounded by fires to purify the air; left out the flea theory because only a reader's quote of a popular book supported it."
+ },
+ {
+  "id": "jules-verne",
+  "answer": "Jules Verne",
+  "category": "Literature",
+  "before": [
+   "This writer walked with a limp for the rest of his life after his 26-year-old nephew shot him in the leg with a pistol in 1886.",
+   "One of this novelist's books, rejected by his publisher and long thought lost, was found by his great-grandson in 1989 and finally published in 1994.",
+   "UNESCO has ranked this author the world's second most-translated writer since 1979, behind Agatha Christie and ahead of Shakespeare.",
+   "This French author wrote 'Twenty Thousand Leagues Under the Seas' and 'Around the World in Eighty Days'."
+  ],
+  "after": [
+   "This writer walked with a limp for the rest of his life after his nephew Gaston shot him in the leg in 1886.",
+   "One of this novelist's books, rejected by his publisher and long thought lost, was found by his great-grandson in 1989 and finally published in 1994.",
+   "UNESCO has ranked this author the world's second most-translated writer since 1979, behind Agatha Christie and ahead of Shakespeare.",
+   "This French author wrote 'Twenty Thousand Leagues Under the Seas' and 'Around the World in Eighty Days'."
+  ],
+  "changed": [
+   1
+  ],
+  "sources": {
+   "1": "https://newworldencyclopedia.org/entry/Jules_Verne"
+  },
+  "summary": "Dropped the nephew's age from clue 1 because sources disagree (25 or 26) and named him as Gaston instead; also dropped 'with a pistol', since the source only says a gun."
+ },
+ {
+  "id": "zipper",
+  "answer": "Zipper",
+  "category": "Technology",
+  "before": [
+   "Elias Howe, a sewing-machine pioneer, patented an early version of this device in 1851 but never seriously tried to sell it.",
+   "Close to half of these devices worldwide come from a single Japanese firm, founded in Tokyo in 1934, whose three initials appear on many of them.",
+   "In 1937 this device beat the button in the so-called 'Battle of the Fly' over how to close men's trousers.",
+   "This fastener got its name from rubber galoshes that B.F. Goodrich launched in 1923 and named after the sound the device makes."
+  ],
+  "after": [
+   "Elias Howe, a sewing-machine pioneer, patented an early version of this device in 1851 but never seriously tried to sell it.",
+   "Swedish-born engineer Gideon Sundbäck patented the modern form of this device in 1917 and also built the machine that made it in bulk.",
+   "Close to half of these devices worldwide come from a single Japanese firm, founded in Tokyo in 1934, whose three initials appear on many of them.",
+   "This fastener got its name from rubber galoshes that B.F. Goodrich launched in 1923 and named after the sound the device makes."
+  ],
+  "changed": [
+   2
+  ],
+  "sources": {
+   "2": "https://americacomesalive.com/?p=10876"
+  },
+  "summary": "Replaced the 'Battle of the Fly' giveaway with a verified Sundbäck clue (no trousers, flies or buttons), and placed it at clue 2 so that the easier YKK clue now sits at clue 3."
+ },
+ {
+  "id": "roomba",
+  "answer": "Roomba",
+  "category": "Technology",
+  "before": [
+   "This gadget's prototype was called DustPuppy, because like a puppy it would try very hard to please but might sometimes mess up.",
+   "Amazon agreed in 2022 to buy this gadget's maker for about $1.7 billion, but the deal collapsed in January 2024 over EU competition concerns.",
+   "In 2016 this machine's maker admitted 'we see this a lot' after viral reports of the machines smearing dog poop across owners' floors.",
+   "This disc-shaped robot vacuum, launched by iRobot in 2002, is held by the Smithsonian as 'the first successful domestic robot.'"
+  ],
+  "after": [
+   "This gadget's maker built PackBot military robots, which searched the World Trade Center rubble and were the first to assess Japan's wrecked Fukushima nuclear plant.",
+   "This gadget's prototype was called DustPuppy, because like a puppy it would try very hard to please but might sometimes mess up.",
+   "Amazon agreed in 2022 to buy this gadget's maker for about $1.7 billion, but the deal collapsed in January 2024 over EU competition concerns.",
+   "This disc-shaped robot vacuum, launched by iRobot in 2002, is held by the Smithsonian as 'the first successful domestic robot.'"
+  ],
+  "changed": [
+   1
+  ],
+  "sources": {
+   "1": "https://en.wikipedia.org/wiki/PackBot"
+  },
+  "summary": "Confirmed the DustPuppy story from co-inventor Joe Jones's own Nautilus essay and kept it word for word; cut the dog-poop clue and added a PackBot clue as the hardest at clue 1, so the Amazon deal, which does not say what the machine does, is now clue 3."
+ },
+ {
+  "id": "bayeux-tapestry",
+  "answer": "Bayeux Tapestry",
+  "category": "Art",
+  "before": [
+   "A full-size Victorian copy of this artwork, stitched by the Leek Embroidery Society, gives a naked man underpants, copied from photographs museum staff had 'cleaned up'.",
+   "Heinrich Himmler called this work 'important for our glorious and cultured Germanic history', and a German research team took fragments from its underside in 1941.",
+   "When this work was lent to the British Museum in 2026, Britain agreed to lend the Lewis chessmen and Sutton Hoo treasures to France in return.",
+   "This nearly 70-meter embroidered strip of linen tells the story of the Norman conquest of England, building to the Battle of Hastings in 1066."
+  ],
+  "after": [
+   "A full-size Victorian copy of this artwork, stitched by the Leek Embroidery Society, gives a naked man underpants, copied from photographs museum staff had 'cleaned up'.",
+   "In 1941 Himmler's Nazi research institute, the Ahnenerbe, sent a team to study this work in Normandy, and a textile expert took a piece of its backing fabric.",
+   "When this work was lent to the British Museum in 2026, Britain agreed to lend the Lewis chessmen and Sutton Hoo treasures to France in return.",
+   "This nearly 70-meter embroidered strip of linen tells the story of the Norman conquest of England, building to the Battle of Hastings in 1066."
+  ],
+  "changed": [
+   2
+  ],
+  "sources": {
+   "2": "https://www.tcd.ie/news_events/articles/2025/why-the-nazis-stole-a-fragment-of-the-bayeux-tapestry/"
+  },
+  "summary": "Replaced clue 2's unsourced Himmler quote and 'underside' wording with what Trinity College Dublin reports: a 1941 Ahnenerbe team studied the work and a textile expert took a piece of its backing fabric."
+ },
+ {
+  "id": "bangkok",
+  "answer": "Bangkok",
+  "category": "Cities",
+  "before": [
+   "This city's only hill began as a giant temple spire that collapsed because the soft ground could not hold it, and over decades took the shape of a natural hill.",
+   "This city's ground was sinking about 12 cm a year in 1981, and parts of it now lie about a meter below sea level.",
+   "This city became a royal capital in 1782, when King Rama I moved his court across the river from Thonburi.",
+   "This Thai capital's full ceremonial name, 168 letters long, is listed by Guinness World Records as the longest place name in the world."
+  ],
+  "after": [
+   "This city's only hill began as a giant temple spire that collapsed because the soft ground could not hold it, and over decades took the shape of a natural hill.",
+   "This city's Chatuchak Weekend Market has more than 15,000 stalls and draws over 200,000 visitors every weekend.",
+   "This city became a royal capital in 1782, when King Rama I moved his court across the river from Thonburi.",
+   "This Thai capital's full ceremonial name, 168 letters long, is listed by Guinness World Records as the longest place name in the world."
+  ],
+  "changed": [
+   2
+  ],
+  "sources": {
+   "2": "https://en.wikipedia.org/wiki/Chatuchak_Weekend_Market"
+  },
+  "summary": "Replaced the sinking-ground clue, which fit several cities and had a doubtful sea-level figure, with a sourced fact about the Chatuchak Weekend Market, which only this city has."
+ },
+ {
+  "id": "etch-a-sketch",
+  "answer": "Etch A Sketch",
+  "category": "Pop Culture",
+  "before": [
+   "After this toy got a roughly 45-second scene in 'Toy Story 2', its sales rose by about 20 percent.",
+   "This toy's inventor, a French electrician named André Cassagnes, called it 'L'Écran Magique' — 'the magic screen' — and showed it at the 1959 Nuremberg toy fair.",
+   "In 2012 a Mitt Romney aide likened the campaign's planned reset for the general election to this toy, and Newt Gingrich mocked it as 'a great toy but a losing strategy.'",
+   "This red-framed drawing toy has two white knobs, one for horizontal lines and one for vertical, and you wipe the picture by shaking it."
+  ],
+  "after": [
+   "After this toy got a 45-second scene in 'Toy Story 2', its sales rose by 20 percent.",
+   "This toy's inventor, a French electrician named André Cassagnes, called it 'L'Écran Magique' — 'the magic screen' — and showed it at the 1959 Nuremberg toy fair.",
+   "In 2012 a Mitt Romney aide likened the campaign's planned reset for the general election to this toy, and Newt Gingrich mocked it as 'a great toy but a losing strategy.'",
+   "This red-framed drawing toy has two white knobs, one for horizontal lines and one for vertical, and you wipe the picture by shaking it."
+  ],
+  "changed": [
+   1
+  ],
+  "sources": {
+   "1": "https://www.ifixit.com/Device/Etch_A_Sketch"
+  },
+  "summary": "Checked clue 1's figures: sources give exactly 45 seconds and 20 percent, so I dropped 'roughly' and 'about' and kept the rest."
+ },
+ {
+  "id": "fingernail",
+  "answer": "Fingernail",
+  "category": "Human Body",
+  "before": [
+   "These body parts can develop horizontal grooves after a high fever, first described by a French doctor in 1846, and a groove's position shows roughly when the illness struck.",
+   "In primates these replaced the claws of earlier animals, and a 2022 study found that climbing without claws is quieter, suggesting they helped tree-dwelling ancestors stalk prey.",
+   "An Indian man grew these on his left hand for 66 years, until in 2018 they were cut off with a power tool in New York at a combined 909.6 cm.",
+   "These hard keratin plates on your hands grow about 3.5 mm a month, roughly twice as fast as their counterparts on your toes."
+  ],
+  "after": [
+   "These body parts can develop horizontal grooves after a high fever, first described by a French doctor in 1846, and a groove's position shows roughly when the illness struck.",
+   "A doctor tracked the one on his own left thumb for about 35 years and found its growth slowed from 0.123 mm a day at age 32 to 0.095 mm a day at 67.",
+   "An Indian man grew these on his left hand for 66 years, until in 2018 they were cut off with a power tool in New York at a combined 909.6 cm.",
+   "These hard keratin plates on your hands grow about 3.5 mm a month, roughly twice as fast as their counterparts on your toes."
+  ],
+  "changed": [
+   2
+  ],
+  "sources": {
+   "2": "https://www.australiangeographic.com.au/need-to-know-with-dr-karl/2025/08/dr-karl-nails-down-the-facts-about-fingernails/"
+  },
+  "summary": "Replaced clue 2, whose 2022 'quieter climbing' study could not be found, with William Bean's 35-year measurement of his own left thumb's growth, a fact specific to fingernails."
+ }
+]
