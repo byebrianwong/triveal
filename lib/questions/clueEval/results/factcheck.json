@@ -4830,6 +4830,14 @@
      "evidence": "Wikipedia: red plastic frame; left knob horizontal, right knob vertical; erase by turning upside down and shaking. https://en.wikipedia.org/wiki/Etch_A_Sketch",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent (fact check for PR #58/#59)"
+    },
+    {
+     "position": 1,
+     "text": "After this toy got a 45-second scene in 'Toy Story 2', its sales rose by 20 percent.",
+     "verdict": "ok",
+     "evidence": "iFixit: \"This second feature was 45 seconds long, which resulted in Etch A Sketch sales increasing by 20 percent.\" https://www.ifixit.com/Device/Etch_A_Sketch",
+     "checkedOn": "2026-10-16",
+     "checker": "claude-code-session (manual check)"
     }
    ]
   },
@@ -17176,6 +17184,20 @@
      "evidence": "He did not coin 'iron curtain', but his 1946 Fulton speech made it world-famous; the clue says 'made famous', which matches. https://winstonchurchill.org/resources/quotes/did-churchill-coin-the-term-iron-curtain",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "wisdom-teeth": {
+   "id": "wisdom-teeth",
+   "answer": "Wisdom Teeth",
+   "checks": [
+    {
+     "position": 3,
+     "text": "By age 25, about half of privately insured Americans have had at least one of these pulled, likely the most common surgery for young US adults.",
+     "verdict": "ok",
+     "evidence": "Frontiers in Dental Medicine (2022): \"Approximately 50% of patients are estimated to undergo at least one 3M extraction by age 25\" in privately insured claims data, and 3M extractions \"are likely the most common surgery performed on US adolescents and young adults.\" https://frontiersin.org/journals/dental-medicine/articles/10.3389/fdmed.2022.937165/full",
+     "checkedOn": "2026-10-16",
+     "checker": "claude-code-session (manual check)"
     }
    ]
   },

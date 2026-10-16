@@ -643,8 +643,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Geography",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Hokusai gave this peak a whole series of woodblock prints, among them one of a towering, claw-like wave." },
-      { position: 2, text: "On its northwestern flank lies Aokigahara, a forest nicknamed the Sea of Trees that grows on lava from an eruption in 864." },
+      { position: 1, text: "On this peak's northwestern flank lies Aokigahara, a forest nicknamed the Sea of Trees that grows on lava from an eruption in 864." },
+      { position: 2, text: "Hokusai gave this peak a whole series of woodblock prints, among them one of a towering, claw-like wave." },
       { position: 3, text: "An active volcano that last erupted in 1707, its near-perfect symmetrical cone is a sacred site that draws around 200,000 climbers each summer." },
       { position: 4, text: "This snow-capped volcano is Japan's most famous mountain and a national symbol." },
     ],
@@ -662,8 +662,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This site's sacred Intihuatana stone was chipped in 2000 when a crane fell on it during the filming of a beer commercial." },
-      { position: 2, text: "Built by the Incas in the 1400s and abandoned around the time of the Spanish conquest, it seems never to have been found by the conquistadors." },
-      { position: 3, text: "American explorer Hiram Bingham brought this site to the world's attention in 1911, after a local farmer named Melchor Arteaga guided him up to it." },
+      { position: 2, text: "American explorer Hiram Bingham brought this site to the world's attention in 1911, after a local farmer named Melchor Arteaga guided him up to it." },
+      { position: 3, text: "Built by the Incas in the 1400s and abandoned around the time of the Spanish conquest, it seems never to have been found by the conquistadors." },
       { position: 4, text: "This mist-wrapped stone citadel is the most famous ruin of the Inca Empire." },
     ],
     decoys: [
@@ -1705,9 +1705,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Cities",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This city's Arabic name is often translated as 'the Victorious,' and it is nicknamed 'the City of a Thousand Minarets.'" },
+      { position: 1, text: "This city's Khan el-Khalili bazaar grew from a khan built in the 1380s on the spot where the Fatimid caliphs' tomb was demolished." },
       { position: 2, text: "In its 'City of the Dead' cemetery, thousands of people live and work alongside the graves." },
-      { position: 3, text: "Its Khan el-Khalili bazaar grew from a khan built in the 1380s on the spot where the Fatimid caliphs' tomb was demolished." },
+      { position: 3, text: "This city's Arabic name is often translated as 'the Victorious,' and it is nicknamed 'the City of a Thousand Minarets.'" },
       { position: 4, text: "This sprawling Egyptian capital is the heart of the largest urban area in the Arab world and, by most estimates, in Africa." },
     ],
     decoys: [
@@ -1724,8 +1724,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This city's sixth-century underground cistern, its roof held up by 336 marble columns, was a filming location for the Bond film 'From Russia with Love.'" },
-      { position: 2, text: "This city was the capital of four empires over nearly 16 centuries, yet today it is not even the capital of its own country." },
-      { position: 3, text: "This city's covered market, with 61 streets and roughly 3,000 to 4,000 shops, has been trading since the 15th century." },
+      { position: 2, text: "This city's covered market, with 61 streets and roughly 3,000 to 4,000 shops, has been trading since the 15th century." },
+      { position: 3, text: "This city was the capital of four empires over nearly 16 centuries, yet today it is not even the capital of its own country." },
       { position: 4, text: "This Turkish city on the Bosphorus, home to the Hagia Sophia and the Blue Mosque, is the nation's largest." },
     ],
     decoys: [
@@ -2011,8 +2011,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "This creature can't chew, so it coats or fills its prey with digestive juices and then sucks up the liquefied remains." },
-      { position: 2, text: "In 1832, thousands of these tiny creatures drifted on the wind onto Darwin's ship, HMS Beagle, about 60 miles from land at the mouth of the Río de la Plata." },
+      { position: 1, text: "In 1832, thousands of these tiny creatures drifted on the wind onto Darwin's ship, HMS Beagle, about 60 miles from land at the mouth of the Río de la Plata." },
+      { position: 2, text: "This creature can't chew, so it coats or fills its prey with digestive juices and then sucks up the liquefied remains." },
       { position: 3, text: "One kind of this creature, the bolas, swings a line tipped with a sticky glob at moths it has lured in by copying a female moth's scent." },
       { position: 4, text: "This web-spinning creepy-crawly snares flies in silk and stars in many a Halloween decoration." },
     ],
@@ -2389,8 +2389,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Landmarks",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This building began as a medieval fortress, then became a royal palace, and opened as a public museum in the middle of the French Revolution." },
-      { position: 2, text: "In 1939, as war loomed, this museum's staff trucked thousands of artworks to châteaux in the French countryside." },
+      { position: 1, text: "In 1939, as war loomed, this museum's staff trucked thousands of artworks to châteaux in the French countryside." },
+      { position: 2, text: "This building began as a medieval fortress, then became a royal palace, and opened as a public museum in the middle of the French Revolution." },
       { position: 3, text: "In 1911 an Italian handyman who had once worked in this building walked out with its most famous painting, which stayed missing for over two years." },
       { position: 4, text: "This grand Paris museum on the Seine is home to the Mona Lisa and the Venus de Milo." },
     ],
@@ -2569,8 +2569,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "History",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This founder was the only person to sign all four of these: the Declaration of Independence, the alliance with France, the peace treaty with Britain and the Constitution." },
-      { position: 2, text: "At 11 he invented swim fins worn on the hands, and in 1968 he was inducted into the International Swimming Hall of Fame." },
+      { position: 1, text: "At 11 this founder invented swim fins worn on the hands, and in 1968 he was inducted into the International Swimming Hall of Fame." },
+      { position: 2, text: "This founder was the only person to sign all four of these: the Declaration of Independence, the alliance with France, the peace treaty with Britain and the Constitution." },
       { position: 3, text: "Under the pen name Richard Saunders, he put out a yearly almanac that popularized sayings like 'Early to bed and early to rise.'" },
       { position: 4, text: "This famous polymath gazes out from the U.S. hundred-dollar bill, though he never held the presidency." },
     ],
@@ -4315,7 +4315,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Food & Drink",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "A rock painting in Spain's Araña Caves, thought to be about 8,000 years old, shows a person climbing up to a wild hive to collect this food." },
+      { position: 1, text: "A rock painting in Spain's Araña Caves, thought to be about 8,000 years old, shows a figure high on a cliff gathering this food from the wild." },
       { position: 2, text: "Ancient Egyptian doctors spread this food on wounds, and it turns up in many of the remedies in their surviving medical papyri." },
       { position: 3, text: "Doctors warn against giving this food to babies under one year old because it can carry botulism spores." },
       { position: 4, text: "Golden and sticky, this natural sweetener is what Winnie-the-Pooh craves from the hive." },
@@ -4534,7 +4534,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "Karl Landsteiner won the 1930 Nobel Prize in Medicine for discovering that this fluid comes in different groups." },
       { position: 2, text: "Horseshoe crabs have a blue version of this fluid, harvested to test medicines and vaccines for contamination." },
       { position: 3, text: "An adult's body holds about five liters of this fluid, and at rest the heart pumps all of it around in about a minute." },
-      { position: 4, text: "Iron-rich hemoglobin makes this red fluid red, and it courses through the arteries and veins." },
+      { position: 4, text: "Iron-rich hemoglobin gives this fluid its color as it courses through the body's arteries and veins." },
     ],
     decoys: [
       { text: "Plasma", eliminatedByClue: 3 },
@@ -4588,7 +4588,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "This film's alien language was developed by Paul Frommer, a USC business-school professor with a doctorate in linguistics." },
       { position: 2, text: "After this film's release, CNN reported that some fans felt depressed because they could never visit its fictional world." },
       { position: 3, text: "James Cameron wrote this film's first treatment in 1994, then shelved it for over a decade because the effects technology he needed did not exist yet." },
-      { position: 4, text: "James Cameron's 2009 3D epic reigned for well over a decade in all as the highest-grossing film ever made." },
+      { position: 4, text: "James Cameron's 2009 3D epic about the blue-skinned Na'vi of Pandora spent years as the highest-grossing film ever made." },
     ],
     decoys: [
       { text: "Titanic", eliminatedByClue: 2 },
@@ -4657,8 +4657,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "This film's queen began as a villain, until a power ballad written for her led the director to rewrite the whole movie." },
-      { position: 2, text: "This was the first film from Walt Disney Animation Studios to win the Oscar for Best Animated Feature." },
+      { position: 1, text: "This was the first film from Walt Disney Animation Studios to win the Oscar for Best Animated Feature." },
+      { position: 2, text: "This film's queen began as a villain, until a power ballad written for her led the director to rewrite the whole movie." },
       { position: 3, text: "This film's art director wanted its kingdom on a fjord, so he chose Norway as the model, borrowing its rosemaling folk art too." },
       { position: 4, text: "Loosely based on 'The Snow Queen,' this animated blockbuster turns everything Elsa touches to ice." },
     ],
@@ -10657,7 +10657,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "In 1950 a 22-year-old novice monk burned down this city's famous gilded temple pavilion, a crime Yukio Mishima turned into a novel." },
-      { position: 2, text: "A craftsman founded a company in this city in 1889 to make hanafuda playing cards; it is still based here, and now makes video games." },
+      { position: 2, text: "Nintendo was founded in this city in 1889 to make hanafuda playing cards, and it still has its headquarters here." },
       { position: 3, text: "In 1945, US Secretary of War Henry Stimson had this city taken off the atomic bomb target list, and Nagasaki was chosen instead." },
       { position: 4, text: "This city of temples and shrines was Japan's imperial capital from 794 to 1869, and in 1997 it gave its name to a landmark climate treaty." },
     ],
@@ -10798,7 +10798,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     id: "the-dress",
     answer: "The Dress",
     answerCanonical: "the dress",
-    answerAliases: [],
+    answerAliases: ["Blue and black dress", "White and gold dress"],
     category: "Internet",
     difficulty: "medium",
     clues: [
@@ -11218,7 +11218,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This 1965 film was a hit almost everywhere except Austria and West Germany, partly because it had to compete with popular German films from the decade before." },
+      { position: 1, text: "This 1965 film flopped in Austria and West Germany, where audiences already knew its story from two popular German films of the 1950s." },
       { position: 2, text: "In November 1966 this film passed Gone with the Wind as the highest-grossing film ever made, a title it then held for five years." },
       { position: 3, text: "Singer Bill Lee dubbed the long sung passages of Christopher Plummer's role in this film." },
       { position: 4, text: "In this film musical, Julie Andrews plays Maria, a would-be nun sent to be governess to the seven von Trapp children in Salzburg." },
