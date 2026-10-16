@@ -18,6 +18,15 @@
  * Clue 4 tags of "good" aren't checked: clue 4 is allowed to give the
  * answer away, so "good" there doesn't map onto the judge's scores. Where
  * he left the verdict blank, there's no verdict check.
+ *
+ * Grading session 3 (2026-10-15, on a grading page): ten questions the judge
+ * called good, five it scored highest and five lowest, with the scores
+ * hidden. He marked seven "ship as is" and tagged no single clues. For
+ * comet he asked whether "long-period" is a real thing and said that if it
+ * is, the question is fine; it is (an orbit longer than 200 years), so it
+ * counts as ship. He left kyoto and the-dress without a verdict: his notes
+ * there are about whether hanafuda cards are too obscure and whether "The
+ * Dress" is a specific enough answer, so they carry no check.
  */
 
 import type { GradedCase } from "./score";
@@ -301,6 +310,97 @@ const CASES: GradedCase[] = [
     // summary", so only clue 3 is checked.
     said: "Every clue tagged good, but 'the 4th might actually be less direct than the first? (first and second clues are more just facts / summary?)'",
     expect: [{ kind: "clue-good", clue: 3 }],
+  },
+  // Session 3: the grading page, judge-"good" questions only. The clues are
+  // the texts he saw; zebra and super-mario-bros changed in the bank after
+  // the fact check.
+  {
+    id: "zebra",
+    clues: [
+      "A group of these African grazers is called a 'dazzle', and one species is named after Jules Grévy, a French president who received one as a gift from Abyssinia in the 1880s.",
+      "In a 2019 study, biting horseflies struggled to land on this animal, failing to slow down as they neared its patterned coat.",
+      "This wild cousin of the horse has never been truly domesticated, though the zoologist Walter Rothschild drove a carriage pulled by them to Buckingham Palace.",
+      "This striped, horse-like grazer roams the African plains in herds, often mixed in with wildebeest.",
+    ],
+    said: "Ship as is.",
+    expect: [{ kind: "verdict-good" }],
+  },
+  {
+    id: "giant-sequoia",
+    clues: [
+      "This tree's spongy bark can be two feet thick, armor against the wildfires that help its seeds sprout.",
+      "It grows naturally only in scattered groves on the western slopes of California's Sierra Nevada.",
+      "It is not the tallest tree — its coastal cousin is — but the most massive single tree on Earth, General Sherman, is one.",
+      "This colossal red-barked conifer gives a California national park its name.",
+    ],
+    said: "Ship as is.",
+    expect: [{ kind: "verdict-good" }],
+  },
+  {
+    id: "black-mirror",
+    clues: [
+      "Jodie Foster directed an episode of this anthology series in which a worried mother has a monitoring chip implanted in her young daughter's brain.",
+      "This show's 2013 episode about a woman who talks to an AI copy of her dead boyfriend was a partial influence on the chatbot app Replika.",
+      "This show's very first episode, aired in 2011, has a kidnapper demand that the British prime minister have sex with a pig on live TV.",
+      "Named for the blank screen of a switched-off device, this anthology includes 'San Junipero' and 'Nosedive'.",
+    ],
+    said: "Ship as is.",
+    expect: [{ kind: "verdict-good" }],
+  },
+  {
+    id: "rocky",
+    clues: [
+      "This film beat 'Taxi Driver' and 'Network' for the Best Picture Oscar.",
+      "Its star wrote the first draft in three and a half days and refused to sell the script unless he could play the lead.",
+      "Its theme, Bill Conti's 'Gonna Fly Now,' topped the Billboard Hot 100 in July 1977.",
+      "This 1976 Sylvester Stallone film is famous for its training run up the steps of the Philadelphia Museum of Art.",
+    ],
+    said: "Ship as is.",
+    expect: [{ kind: "verdict-good" }],
+  },
+  {
+    id: "earwax",
+    clues: [
+      "This substance was recommended as a balm for cracked lips by Lydia Maria Child's popular 19th-century household guide, The American Frugal Housewife.",
+      "In baleen whales this builds up for a lifetime in layers like tree rings, so scientists slice the plugs open to read a whale's age and stress hormones.",
+      "A single letter of DNA in one gene decides whether yours is sticky and brown or dry and crumbly, and the same gene affects how much your armpits smell.",
+      "Doctors warn that cotton swabs just push this sticky yellowish gunk deeper, and it usually works its way out on its own as you chew and talk.",
+    ],
+    said: "Ship as is.",
+    expect: [{ kind: "verdict-good" }],
+  },
+  {
+    id: "super-mario-bros",
+    clues: [
+      "This game's 'Minus World', an endless underwater level reached by slipping through a wall, was a playground rumor that turned out to be real.",
+      "Its main theme, by Koji Kondo, was the first video game music added to the U.S. National Recording Registry.",
+      "Released in 1985 and later bundled with the NES, it was the best-selling video game of all time for over 20 years.",
+      "In this Nintendo classic, a plumber and his sibling Luigi set out to rescue Princess Peach from the spiky-shelled Bowser.",
+    ],
+    said: "Ship as is.",
+    expect: [{ kind: "verdict-good" }],
+  },
+  {
+    id: "saxophone",
+    clues: [
+      "This instrument was patented in 1846 for orchestras and military bands, and French army bands took it up decades before jazz made it famous.",
+      "Though this instrument is made of brass, it is played with a single reed like a clarinet, so it counts as a woodwind.",
+      "Jazz giants Charlie Parker, nicknamed 'Bird', and John Coltrane both made their names on this instrument.",
+      "President Bill Clinton famously played this reed instrument, which comes in alto and tenor sizes.",
+    ],
+    said: "Ship as is.",
+    expect: [{ kind: "verdict-good" }],
+  },
+  {
+    id: "comet",
+    clues: [
+      "The name for these objects comes from a Greek word meaning 'long-haired.'",
+      "Most long-period ones of these are thought to come from the Oort Cloud, a vast icy shell at the far edge of the solar system.",
+      "In 2014 the European probe Rosetta set down a small lander named Philae on one of these, the first such landing ever.",
+      "Halley's is the most famous of these icy visitors, returning to our skies about every 76 years.",
+    ],
+    said: "'What is \"long-period\"? If that's a real thing, then this is fine.' It is real, so ship as is.",
+    expect: [{ kind: "verdict-good" }],
   },
 ];
 

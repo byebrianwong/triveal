@@ -143,8 +143,8 @@ Two things keep it honest:
   graded question or quote its clues. `clueEval.test.ts` fails if they do.
 - **Grades are Brian's words, not guesses at his taste.** Add a case to
   `graded.ts` only for something he said or clearly agreed with. The set is
-  18 cases from two sessions, four of them whole questions he'd ship as they
-  are. More of those would make the verdict checks stronger.
+  26 cases from three sessions, twelve of them whole questions he'd ship as
+  they are.
 
 ## Files
 
@@ -252,6 +252,6 @@ same export and ingest pattern:
   checker can still misread one, so read each fix before applying it.
 - Models know more trivia than people do, so "typical player" numbers are
   estimates. The simulated player gives a real measurement, but of a model.
-- The calibration set is small: 18 cases from two grading sessions.
+- The calibration set is small: 26 cases from three grading sessions.
 - The private bank is not scored. The results are committed to a public repo,
   and private questions must not end up in it.
