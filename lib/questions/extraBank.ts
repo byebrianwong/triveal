@@ -610,10 +610,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "A tagged female of this fish, nicknamed Nicole, swam from South Africa to Australia and back in under nine months." },
-      { position: 2, text: "Warmer-bodied than most fish, it can rocket its whole body clear out of the water to ambush a seal from below." },
-      { position: 3, text: "It grows and sheds thousands of serrated teeth over its life, set in replaceable rows, and no aquarium has kept one longer than 198 days." },
-      { position: 4, text: "The huge predatory fish behind the movie 'Jaws,' it is named for its pale underside." },
+      { position: 1, text: "A tagged female of this shark species, nicknamed Nicole, swam from South Africa to Australia and back in about nine months." },
+      { position: 2, text: "No aquarium has kept this shark alive for long: the record is 198 days, set at California's Monterey Bay Aquarium, which then released it into the ocean." },
+      { position: 3, text: "This shark's body runs warmer than the water around it, and it can launch itself clear of the surface to ambush a seal from below." },
+      { position: 4, text: "The species of huge predatory fish behind the movie 'Jaws,' it is named for its pale underside." },
     ],
     decoys: [
       { text: "Killer Whale", eliminatedByClue: 4 },
@@ -755,7 +755,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "At the 1936 Berlin Olympics this sport's first gold-medal game was played outdoors on a dirt tennis court in driving rain." },
-      { position: 2, text: "This sport's first goals were two peach containers hung from a gym balcony rail with their bottoms still in, so the ball had to be retrieved after every score." },
+      { position: 2, text: "This sport's inventor later coached it at the University of Kansas, where he is still the only men's coach with a losing record, at 55-60." },
       { position: 3, text: "Muggsy Bogues, at 5 feet 3 inches the shortest player ever in this sport's top U.S. league, played 14 seasons in it." },
       { position: 4, text: "In this sport, players dribble, shoot free throws and dunk, and Michael Jordan and LeBron James are among its greatest stars." },
     ],
@@ -954,7 +954,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This landmark stood as the tallest structure people had ever built for about 3,800 years, until a medieval English cathedral spire finally passed it." },
       { position: 2, text: "This monument was once faced in white limestone polished until it shone, but by the 1800s most of those casing stones had been taken for other building work." },
-      { position: 3, text: "The only one of the seven wonders of the ancient world still standing, it was built from over two million blocks of stone." },
+      { position: 3, text: "Granite blocks weighing up to 80 tonnes were brought from Aswan, more than 900 kilometers to the south, to build this monument's King's Chamber." },
       { position: 4, text: "This tomb of the pharaoh Khufu is the largest of the three famous royal tombs at a desert site in Greater Cairo." },
     ],
     decoys: [
@@ -1907,8 +1907,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "A group of these animals is called a 'crash,' and they use shared dung heaps called middens to leave scent messages for each other." },
-      { position: 2, text: "With weak eyesight, this huge, thick-skinned plant-eater leans on sharp hearing and smell to sense trouble." },
-      { position: 3, text: "Its horn, the reason poachers hunt it, has no bone in it at all; it is keratin, the same stuff as your fingernails." },
+      { position: 2, text: "Albrecht Dürer's famous 1515 woodcut of this animal was based on a written description and a brief sketch; he never saw the animal itself." },
+      { position: 3, text: "Oxpeckers riding on this weak-sighted animal give alarm calls when people approach; in a 2020 study it spotted walkers every time the birds were aboard, but only 23 percent of the time without them." },
       { position: 4, text: "This massive horned herbivore, whose biggest species is second only to the elephant among land animals, wallows in mud to keep cool." },
     ],
     decoys: [
@@ -3004,9 +3004,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Movies",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This film changed the color of its magic shoes, which were silver in the book, to show off the Technicolor process." },
-      { position: 2, text: "This film's best-known song was nearly cut because the studio felt a slow ballad so early stalled the story; it then won the Oscar for Best Original Song." },
-      { position: 3, text: "Buddy Ebsen was hospitalized and had to quit this film when the aluminum dust in his metallic makeup coated his lungs." },
+      { position: 1, text: "Buddy Ebsen was hospitalized and had to quit this film when the aluminum dust in his makeup coated his lungs." },
+      { position: 2, text: "Harold Arlen and Yip Harburg's ballad for this film was nearly cut because the studio felt a slow song so early stalled the story; it went on to win the Oscar for Best Original Song." },
+      { position: 3, text: "This film changed the color of its magic shoes, which were silver in the book, to show off the Technicolor process." },
       { position: 4, text: "In this 1939 musical, a Kansas farm girl and her dog Toto are swept away by a tornado to a land of Munchkins and witches." },
     ],
     decoys: [
@@ -4534,9 +4534,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Human Body",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Karl Landsteiner won the 1930 Nobel Prize in Medicine for discovering that this fluid comes in different groups." },
+      { position: 1, text: "Biologists class this as a connective tissue, in the same family as bone and cartilage." },
       { position: 2, text: "Horseshoe crabs have a blue version of this fluid, harvested to test medicines and vaccines for contamination." },
-      { position: 3, text: "An adult's body holds about five liters of this fluid, and at rest the heart pumps all of it around in about a minute." },
+      { position: 3, text: "An adult's body holds about five liters of this, roughly 7 percent of its total weight." },
       { position: 4, text: "Iron-rich hemoglobin gives this fluid its color as it courses through the body's arteries and veins." },
     ],
     decoys: [
@@ -4663,7 +4663,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "This was the first film from Walt Disney Animation Studios to win the Oscar for Best Animated Feature." },
       { position: 2, text: "This film's queen began as a villain, until a power ballad written for her led the director to rewrite the whole movie." },
       { position: 3, text: "This film's art director wanted its kingdom on a fjord, so he chose Norway as the model, borrowing its rosemaling folk art too." },
-      { position: 4, text: "Loosely based on 'The Snow Queen,' this animated blockbuster turns everything Elsa touches to ice." },
+      { position: 4, text: "Loosely based on 'The Snow Queen,' this animated hit follows Elsa, a young queen whose touch turns things to ice, and her sister Anna." },
     ],
     decoys: [
       { text: "Moana", eliminatedByClue: 2 },
@@ -13349,10 +13349,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Pop Culture",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This character is known as Charlie in France, Holger in Denmark and Efi in Israel." },
-      { position: 2, text: "Across his first seven books, this figure's average size on the page shrank from about 0.99 to roughly 0.2 square centimeters, while the crowds hiding him grew." },
-      { position: 3, text: "One crowded beach scene in this character's first book got it pulled from some US school libraries in the 1990s because of a tiny topless sunbather." },
-      { position: 4, text: "This bespectacled traveler in a red-and-white striped shirt and bobble hat hides in busy double-page scenes drawn by British illustrator Martin Handford." },
+      { position: 1, text: "The title character of this book series is known as Charlie in France, Holger in Denmark and Efi in Israel." },
+      { position: 2, text: "Across the first seven books in this series, its hero shrank on the page from about one square centimeter to roughly 0.2, while the crowds hiding him grew." },
+      { position: 3, text: "One crowded beach scene in this series' first book got it pulled from some US school libraries in the 1990s because of a tiny topless sunbather." },
+      { position: 4, text: "In this series of busy double-page scenes by British illustrator Martin Handford, readers hunt for a bespectacled traveler in a red-and-white striped shirt and bobble hat." },
     ],
     decoys: [
       { text: "I Spy", eliminatedByClue: 1 },
@@ -13481,9 +13481,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Pop Culture",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "In 2008 this toy line marked its four billionth car with a white-gold model studded with about 2,700 diamond chips, valued at $140,000." },
+      { position: 1, text: "In 2008 this toy line marked its four billionth model with a one-off cast in white gold and studded with more than 2,700 diamonds, valued at $140,000." },
       { position: 2, text: "This toy line's holy grail is a pink 1969 Volkswagen bus prototype that loaded its surfboards through the rear window; one is now valued at around $150,000." },
-      { position: 3, text: "This toy line's creator, Elliot Handler, reportedly got the idea watching his son play with Matchbox cars, and wanted flashy custom cars instead of realistic models." },
+      { position: 3, text: "Its creator, Elliot Handler, meant this toy line to appeal to boys the way his company's Barbie doll had appealed to girls." },
       { position: 4, text: "This die-cast car brand, launched by Mattel in 1968, is famous for the bright orange plastic track its little cars race down." },
     ],
     decoys: [

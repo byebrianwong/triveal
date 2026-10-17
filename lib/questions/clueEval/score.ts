@@ -215,6 +215,8 @@ export type Check =
   | { kind: "clue-dull"; clue: number }
   /** Most typical players would name the answer from this clue at once, without thinking. */
   | { kind: "clue-too-easy"; clue: number }
+  /** Brian said a player still has to think: the judge must not rate this clue instant. */
+  | { kind: "clue-not-too-easy"; clue: number }
   /** The clue uses a distinctive word from the answer's own name. */
   | { kind: "clue-names-answer"; clue: number }
   /** The judge must not flag a fact we have checked. */
@@ -278,6 +280,8 @@ export function describeCheck(c: Check): string {
       return `clue ${c.clue} is dull`;
     case "clue-too-easy":
       return `clue ${c.clue} gives it away`;
+    case "clue-not-too-easy":
+      return `clue ${c.clue} doesn't give it away`;
     case "clue-names-answer":
       return `clue ${c.clue} uses the answer's name`;
     case "clue-fact-ok":
@@ -327,6 +331,10 @@ export function runCheck(j: Judgement, check: Check): CheckResult {
     case "clue-too-easy": {
       const c = clueOf(j, check.clue);
       return { check, pass: c.alone === "instant", got: `alone ${c.alone}` };
+    }
+    case "clue-not-too-easy": {
+      const c = clueOf(j, check.clue);
+      return { check, pass: c.alone !== "instant", got: `alone ${c.alone}` };
     }
     case "clue-names-answer": {
       const c = clueOf(j, check.clue);

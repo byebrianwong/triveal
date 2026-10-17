@@ -320,6 +320,8 @@ describe("runCheck", () => {
     ["clue-weak passes at interest 3", { kind: "clue-weak", clue: 2 }, clean({ clue2: { ...goodClue, interest: 3 } }), true],
     ["clue-weak fails at interest 4", { kind: "clue-weak", clue: 2 }, clean(), false],
     ["clue-too-easy", { kind: "clue-too-easy", clue: 4 }, clean(), true],
+    ["clue-not-too-easy passes on a clue to work out", { kind: "clue-not-too-easy", clue: 3 }, clean(), true],
+    ["clue-not-too-easy fails on a giveaway", { kind: "clue-not-too-easy", clue: 4 }, clean(), false],
     ["clue-fact-ok", { kind: "clue-fact-ok", clue: 1 }, clean({ clue1: { ...goodClue, fact: "doubtful" } }), false],
     ["repeat-pair either way round", { kind: "repeat-pair", clues: [1, 4] }, clean({ clue4: { ...goodClue, repeats: 1 } }), true],
     ["no-repeat-pair", { kind: "no-repeat-pair", clues: [1, 4] }, clean(), true],
