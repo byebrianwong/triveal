@@ -11721,6 +11721,52 @@
     }
    ]
   },
+  "pixar": {
+   "id": "pixar",
+   "answer": "Pixar",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This studio's first product was not a film but a $135,000 image-processing computer, sold to hospitals and intelligence agencies; fewer than 300 went out before it quit the hardware business.",
+     "verdict": "ok",
+     "evidence": "Cult of Mac says the Pixar Image Computer launched in 1986 at $135,000 (plus a $35,000 workstation), that its buyers included Disney, universities, intelligence agencies and medical research labs, that fewer than 300 had sold by April 1990, and that Steve Jobs shut the hardware division down on 25 April 1990, selling it to Vicom Systems (https://www.cultofmac.com/?p=477983). Wikipedia agrees fewer than 300 were ever sold, and adds the medical side: ten machines donated to hospitals, 30 bought by a CAT scanner maker, and use for MRI and CT at Georgetown. https://en.wikipedia.org/wiki/Pixar_Image_Computer",
+     "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This studio's 1988 short 'Tin Toy,' about a wind-up one-man band, became the first computer-animated film to win an Academy Award.",
+     "verdict": "ok",
+     "evidence": "Guinness World Records names Tin Toy, dated 1988, as the first computer-animated film to win an Academy Award - Best Short Film (Animated) at the 61st Academy Awards on 29 March 1989 - and describes its hero as a one-man band toy called Tinny (https://www.guinnessworldrecords.com/world-records/777092-first-computer-animated-film-to-win-an-academy-award). Wikipedia confirms it was the first CGI animated short to receive an Academy Award and calls Tinny a tin one-man band toy; descriptions of the character as a small wind-up figure with drum, cymbals and horn are consistent with the film. https://en.wikipedia.org/wiki/Tin_Toy",
+     "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This studio hides the code A113, a classroom number at the CalArts art school, in nearly every one of its feature films.",
+     "verdict": "ok",
+     "evidence": "Wikipedia says A113 is an inside joke and Easter egg referring to a classroom at the California Institute of the Arts used by graphic design and character animation students - alumni of that room include John Lasseter, Pete Docter and Brad Bird - and that it has appeared in almost every Pixar movie. https://en.wikipedia.org/wiki/A113",
+     "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This Emeryville, California, animation studio, behind 'Toy Story,' 'Up' and 'WALL-E,' was bought by Disney in 2006.",
+     "verdict": "ok",
+     "evidence": "Wikipedia says Pixar is based in Emeryville, California, at 1200 Park Avenue; that Disney agreed to buy it on 24 January 2006 in an all-stock deal worth about $7.4 billion, completed 5 May 2006; and that Pixar made Toy Story (1995), WALL-E (2008) and Up (2009). https://en.wikipedia.org/wiki/Pixar",
+     "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "This studio's first product was not a film but a $135,000 image-processing computer, sold to medical labs and intelligence agencies; fewer than 300 went out before it quit the hardware business.",
+     "verdict": "ok",
+     "evidence": "Wikipedia's Pixar Image Computer article gives the $135,000 price, names medical imaging among its markets (Georgetown University for MRI and CT, a CAT scanner maker buying 30 machines), says fewer than 300 were sold in total, and records the 1990 sale of the hardware business to Vicom Systems; Wikipedia's Pixar article calls the machine the core product after the 1986 spin-off, 'primarily sold to governmental, scientific, and medical markets,' and Cult of Mac lists intelligence agencies and medical research labs among the main buyers. https://en.wikipedia.org/wiki/Pixar_Image_Computer",
+     "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "pizza": {
    "id": "pizza",
    "answer": "Pizza",
@@ -13621,6 +13667,22 @@
      "verdict": "ok",
      "evidence": "Common knowledge: X-rays show the bones, and skeletons are a Halloween staple. The skeleton article (opened) covers the bony framework. https://en.wikipedia.org/wiki/Skeleton",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "This body system doubles as a gland: in mice it releases a hormone reported to tell the pancreas to put out more insulin and to sharpen memory, though later mouse studies could not repeat the insulin result.",
+     "verdict": "ok",
+     "evidence": "Wikipedia on osteocalcin: the uncarboxylated form acts as a hormone made in bone and causes pancreatic beta cells to release more insulin, and it plays a role in spatial learning and memory. Columbia University's report on Oury et al. (Cell, 2013) confirms the memory work was in mice: mice lacking osteocalcin had smaller hippocampi and impaired learning and memory. The 2020 PLOS Genetics commentary \"Lack of reproducibility in osteocalcin-deficient mice\" records that Moriishi and Komori, and Diegel et al., found glucose metabolism normal in osteocalcin-null mice, including insulin tolerance testing, so the metabolic result did not replicate. https://pmc.ncbi.nlm.nih.gov/articles/PMC7319276/",
+     "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This body system is a Halloween staple, rattling on doorsteps every October, and it is what an X-ray reveals beneath the skin.",
+     "verdict": "ok",
+     "evidence": "MedlinePlus: X-rays \"send a small amount of radiation through your body to create pictures of bones and organs,\" with bone blocking the most radiation and appearing white, so the image shows bone beneath the skin. Wikipedia's Halloween article lists skeletons first among the \"traditionally macabre symbols\" used to decorate yards, public spaces and houses. https://medlineplus.gov/xrays.html",
+     "checkedOn": "2026-10-17",
      "checker": "claude-code-subagent"
     }
    ]
@@ -17577,6 +17639,30 @@
      "verdict": "ok",
      "evidence": "Wikipedia: Orville made the first successful powered flight on 17 December 1903 in the brothers' Flyer, https://en.wikipedia.org/wiki/Wright_brothers",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "A hockey stick to the face knocked out one brother's front teeth as a teenager, and the heart trouble that followed ended his plan to study at Yale; he spent the years after at home, reading and nursing his dying mother.",
+     "verdict": "ok",
+     "evidence": "Wikipedia says that in late 1885 or early 1886 Wilbur was struck in the face with a hockey stick by Oliver Crook Haugh while playing an ice-skating game, lost his front teeth, became withdrawn and spent the next few years largely housebound, had planned to attend Yale but did not, and cared for his mother, who was terminally ill with tuberculosis (she died in 1889). The Mississippi State invention archive quotes Bishop Milton Wright that a few weeks after the blow Wilbur 'began to be affected with nervous palpitations of the heart,' which 'precluded the realization of the former idea of his parents, of giving him a course in Yale College,' and says he stayed home for four years caring for his dying mother Susan. Two caveats that do not change the substance: the Bishop's diary calls the implement a bat (Wikipedia and most popular accounts say a hockey stick), and that archive notes he suffered 'perhaps as much from depression as from his vaguely-defined heart disorder.' He was 18 at the time, so 'as a teenager' holds. https://invention.psychology.msstate.edu/i/Wrights/Wrights.html",
+     "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "These two brothers ran a print shop in Dayton, Ohio, on a press they built themselves, and printed a short-lived weekly for the city's Black readers edited by the poet Paul Laurence Dunbar.",
+     "verdict": "ok",
+     "evidence": "Wikipedia says Orville designed and built his own printing press with Wilbur's help, started a printing business in Dayton, Ohio, in 1889 with Wilbur, and that for a brief period the brothers printed the Dayton Tattler, a weekly edited by Paul Laurence Dunbar, the African-American poet who was Orville's friend and classmate. The Wright Brothers Aviation Center page says Dunbar launched the paper for Dayton's African-American community in late 1890 and that it 'lasted only three issues,' which supports 'short-lived.' https://wright-brothers.org/History_Wing/Wright_Story/Career_Choices/Good_News_Bad_News/Good_News_Bad_News.htm",
+     "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Angry that the Smithsonian honoured a rival's machine instead of theirs, the surviving brother sent their 1903 aircraft to a museum in London in 1928, and it stayed there for 20 years.",
+     "verdict": "ok",
+     "evidence": "The Smithsonian's National Air and Space Museum says the Smithsonian's display credited Samuel Langley's aircraft as the first capable of sustained flight, that Orville used the loan as leverage to get that corrected, that he announced it in 1925 and shipped the 1903 Flyer to the Science Museum in London in 1928, and that it returned to the United States in 1948 and was installed at the Smithsonian on December 17, 1948 - a 20-year loan, with Orville (Wilbur died in 1912) the surviving brother. The only unstated nuance is that the Flyer was moved out of London for safe storage during World War II; the loan to the London museum still ran the full 20 years. https://airandspace.si.edu/stories/editorial/how-wright-flyer-got-smithsonian",
+     "checkedOn": "2026-10-17",
      "checker": "claude-code-subagent"
     }
    ]
