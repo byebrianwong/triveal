@@ -1308,6 +1308,14 @@
      "evidence": "Describes dribbling, free throws and dunks, and names Michael Jordan and LeBron James among the sport's top stars. https://en.wikipedia.org/wiki/Basketball",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This sport's inventor later coached it at the University of Kansas, where he is still the only men's coach with a losing record, at 55-60.",
+     "verdict": "ok",
+     "evidence": "Wikipedia's James Naismith article says he coached Kansas from 1898 to 1907, 'compiled a record of 55–60 and is the only losing coach in Kansas history.' https://en.wikipedia.org/wiki/James_Naismith",
+     "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -2091,6 +2099,30 @@
      "problem": "The red color comes from hemoglobin and its heme groups, not from iron alone. Wikipedia: 'Hemoglobin is the principal determinant of the color of blood.'",
      "fix": "Iron-rich hemoglobin makes this red fluid red, and it courses through the arteries and veins.",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "Biologists class this as a connective tissue, in the same family as bone and cartilage.",
+     "verdict": "ok",
+     "evidence": "Wikipedia calls blood 'a specialized form of connective tissue' (cells suspended in plasma); bone and cartilage are the other standard specialized connective tissues. https://en.wikipedia.org/wiki/Blood",
+     "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "An adult's body holds about five liters of this, roughly 7 percent of its total weight.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the average adult has a blood volume of roughly 5 litres, and blood makes up about 7 percent of body weight. https://en.wikipedia.org/wiki/Blood",
+     "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Iron-rich hemoglobin gives this fluid its color as it courses through the body's arteries and veins.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: hemoglobin is 'the principal determinant of the color of blood'; each hemoglobin molecule carries four iron-containing heme groups. https://en.wikipedia.org/wiki/Blood",
+     "checkedOn": "2026-10-17",
      "checker": "claude-code-subagent"
     }
    ]
@@ -5304,6 +5336,14 @@
      "evidence": "'Loosely inspired by Hans Christian Andersen's 1844 fairy tale The Snow Queen'. Elsa has powers to create ice and snow. https://en.wikipedia.org/wiki/Frozen_(2013_film)",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Loosely based on 'The Snow Queen,' this animated hit follows Elsa, a young queen whose touch turns things to ice, and her sister Anna.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the film is 'loosely inspired by Hans Christian Andersen's 1844 fairy tale The Snow Queen'; Elsa is 'the 21-year-old queen of Arendelle and Anna's elder sister' with powers to create ice and snow. The Elsa article adds she is given gloves to contain her power, which supports the touch framing. https://en.wikipedia.org/wiki/Frozen_(2013_film) https://en.wikipedia.org/wiki/Elsa_(Frozen)",
+     "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -6226,6 +6266,14 @@
      "evidence": "Wikipedia: located in Giza, Greater Cairo, on the Giza plateau at the edge of the Western Desert; Khufu's is the largest of the three main pyramids, https://en.wikipedia.org/wiki/Giza_pyramid_complex",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Granite blocks weighing up to 80 tonnes were brought from Aswan, more than 900 kilometers to the south, to build this monument's King's Chamber.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: granite blocks 'from Aswan, weighing up to 80 tonnes, for the King's Chamber structure', transported from Aswan 'more than 900 km (560 mi) south.' (That is the distance by river; the straight-line distance is shorter, about 680 km, but the clue's figure matches the standard source.) https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
+     "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -6341,6 +6389,38 @@
      "verdict": "ok",
      "evidence": "Wikipedia: the names refer to its white underside; the novel and 1975 film Jaws shaped its man-eater image. https://en.wikipedia.org/wiki/Great_white_shark",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "A tagged female of this shark species, nicknamed Nicole, swam from South Africa to Australia and back in about nine months.",
+     "verdict": "ok",
+     "evidence": "Mongabay (2005): Nicole, a female, was satellite-tagged off South Africa on November 7, 2003. She swam to Australia (the tag popped off south of Exmouth Gulf) and was later identified back at Gansbaai, South Africa. The round trip of more than 12,400 miles took just under nine months. https://news.mongabay.com/2005/10/great-white-shark-swims-12400-miles-shocks-scientists/",
+     "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "No aquarium has kept this shark alive for long: the record is 198 days, set at California's Monterey Bay Aquarium, which then released it into the ocean.",
+     "verdict": "ok",
+     "evidence": "NBC/AP (2005): the Monterey Bay Aquarium kept the shark for 198 days, a captivity record; the previous record was 16 days. She was released into the ocean south of Monterey Bay because she was growing too large and had begun preying on other fish. A search on 2026-10-16 found no longer stay; Wikipedia's Sharks in captivity page and Guinness still list 198 days as the record. https://www.nbcnews.com/news/amp/wbna7351538",
+     "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This shark's body runs warmer than the water around it, and it can launch itself clear of the surface to ambush a seal from below.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the species is 'partially warm-blooded', and warm blood from its dark muscles is supplied to the rest of the body. Off South Africa, its ambushes on Cape fur seals usually involve leaping or breaching out of the water, and white sharks typically ambush seals from below. https://en.wikipedia.org/wiki/Great_white_shark",
+     "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "The species of huge predatory fish behind the movie 'Jaws,' it is named for its pale underside.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the common names refer to its white underside. Peter Benchley's novel Jaws and the film portray this species as a man-eater and set its public image. https://en.wikipedia.org/wiki/Great_white_shark",
+     "checkedOn": "2026-10-17",
      "checker": "claude-code-subagent"
     }
    ]
@@ -7073,6 +7153,44 @@
      "verdict": "ok",
      "evidence": "Wikipedia: honey is made when bees ingest and process nectar; honey bees are generalist pollinators. https://en.wikipedia.org/wiki/Honey_bee",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "hot-wheels": {
+   "id": "hot-wheels",
+   "answer": "Hot Wheels",
+   "checks": [
+    {
+     "position": 1,
+     "text": "In 2008 this toy line marked its four billionth model with a one-off cast in white gold and studded with more than 2,700 diamonds, valued at $140,000.",
+     "verdict": "ok",
+     "evidence": "New Atlas (February 2008): a one-of-a-kind car unveiled at the 2008 Toy Fair marked the 4 billionth vehicle. It was made of 18-carat white gold with more than 2,700 diamonds, and the diamonds alone were valued at $140,000. Wikipedia calls it a diamond-studded model worth US$140,000, with 2,700 diamond chips. https://newatlas.com/diamond-encrusted-hot-wheels-car/8826/",
+     "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This toy line's holy grail is a pink 1969 Volkswagen bus prototype that loaded its surfboards through the rear window; one is now valued at around $150,000.",
+     "verdict": "ok",
+     "evidence": "Antique Trader: the pink rear-loading Beach Bomb was a pre-production piece built in 1969. Its surfboards loaded through the open rear window, and it was never sold to the public. The one Bruce Pascal bought for $72,000 could now fetch well over $150,000. Search results show that Hagerty quotes Pascal's estimate of $150,000, but other estimates run from $70,000 to $175,000, so 'around $150,000' is one estimate among several. https://antiquetrader.com/collectibles/hot-wheels-perfect-10",
+     "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Its creator, Elliot Handler, meant this toy line to appeal to boys the way his company's Barbie doll had appealed to girls.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Elliot Handler developed the concept for the line as a toy that would appeal to boys in the same way their Barbie had to girls. https://en.wikipedia.org/wiki/Hot_Wheels",
+     "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This die-cast car brand, launched by Mattel in 1968, is famous for the bright orange plastic track its little cars race down.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Mattel introduced the brand on May 18, 1968, and the original track sets used bright orange road sections. https://en.wikipedia.org/wiki/Hot_Wheels",
+     "checkedOn": "2026-10-17",
      "checker": "claude-code-subagent"
     }
    ]
@@ -12450,6 +12568,22 @@
      "fix": "This massive horned herbivore, whose biggest species is second only to the elephant among land animals, wallows in mud to keep cool.",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Albrecht Dürer's famous 1515 woodcut of this animal was based on a written description and a brief sketch; he never saw the animal itself.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Dürer never saw the rhinoceros. He based the 1515 woodcut on an anonymous written description and a brief sketch of an Indian rhinoceros that had arrived in Lisbon. https://en.wikipedia.org/wiki/D%C3%BCrer%27s_Rhinoceros",
+     "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Oxpeckers riding on this weak-sighted animal give alarm calls when people approach; in a 2020 study it spotted walkers every time the birds were aboard, but only 23 percent of the time without them.",
+     "verdict": "ok",
+     "evidence": "Victoria University (April 10, 2020), on a 2020 Current Biology study: black rhinos have poor vision, and oxpeckers give alarm calls when humans approach. Rhinos carrying oxpeckers detected approaching humans 100% of the time, and rhinos without them only 23% of the time. https://www.vu.edu.au/about-vu/news-events/news/black-rhinos-eavesdrop-on-alarm-calls-of-hitchhiking-oxpeckers-to-avoid-humans",
+     "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -16957,6 +17091,44 @@
     }
    ]
   },
+  "wheres-waldo": {
+   "id": "wheres-waldo",
+   "answer": "Where's Waldo?",
+   "checks": [
+    {
+     "position": 1,
+     "text": "The title character of this book series is known as Charlie in France, Holger in Denmark and Efi in Israel.",
+     "verdict": "ok",
+     "evidence": "Wikipedia names the French version Charlie; the Danish Wikipedia article is titled 'Find Holger' (Hvor er Holger?), and its Hebrew interlanguage title is 'Where is Efi?'. https://en.wikipedia.org/wiki/Where%27s_Wally%3F https://da.wikipedia.org/wiki/Find_Holger",
+     "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Across the first seven books in this series, its hero shrank on the page from about one square centimeter to roughly 0.2, while the crowds hiding him grew.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: he averaged about 0.99 square centimetres in the first book, 0.80 in the second, 0.33 in the third, and 0.20 to 0.17 in books four to seven, while the number of characters per scene rose from 225 to about 850. https://en.wikipedia.org/wiki/Where%27s_Wally%3F",
+     "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "One crowded beach scene in this series' first book got it pulled from some US school libraries in the 1990s because of a tiny topless sunbather.",
+     "verdict": "ok",
+     "evidence": "Wikipedia on the first book (1987): a topless woman sunbathes in the 'On the Beach' scene; in March 1993 Springs Public School on Long Island removed it from its library, other schools followed, and it is #87 on the ALA's most challenged books of the 1990s. https://en.wikipedia.org/wiki/Where%27s_Wally%3F_(book)",
+     "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "In this series of busy double-page scenes by British illustrator Martin Handford, readers hunt for a bespectacled traveler in a red-and-white striped shirt and bobble hat.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: created by 'the English illustrator' Martin Handford; the character is identified by his red-and-white-striped shirt, bobble hat and glasses. https://en.wikipedia.org/wiki/Where%27s_Wally%3F",
+     "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "whistlers-mother": {
    "id": "whistlers-mother",
    "answer": "Whistler's Mother",
@@ -17235,6 +17407,22 @@
      "verdict": "ok",
      "evidence": "Wikipedia: a '1939 American musical fantasy film'; Dorothy, a Kansas farm girl, is carried with her dog Toto by a tornado to a magical land of witches. https://en.wikipedia.org/wiki/The_Wizard_of_Oz_(1939_film)",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "Buddy Ebsen was hospitalized and had to quit this film when the aluminum dust in his makeup coated his lungs.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'Doctors determined that the aluminum dust used in the Tin Man makeup was coating his lungs'; it led to a lengthy hospitalization and he was forced to leave the production. https://en.wikipedia.org/wiki/Buddy_Ebsen",
+     "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Harold Arlen and Yip Harburg's ballad for this film was nearly cut because the studio felt a slow song so early stalled the story; it went on to win the Oscar for Best Original Song.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: music by Harold Arlen, lyrics by Yip Harburg; the studio nearly cut it, reasoning that a slow ballad early in the film would stall the story; it won the Academy Award for Best Original Song. https://en.wikipedia.org/wiki/Over_the_Rainbow",
+     "checkedOn": "2026-10-17",
      "checker": "claude-code-subagent"
     }
    ]

@@ -27,6 +27,15 @@
  * counts as ship. He left kyoto and the-dress without a verdict: his notes
  * there are about whether hanafuda cards are too obscure and whether "The
  * Dress" is a specific enough answer, so they carry no check.
+ *
+ * Grading session 4 (2026-10-16, on a grading page): the 14 questions the
+ * judge rated "needs work", with each answer hidden until he chose to show it.
+ * He marked six "ship as is" and eight "needs work", and wrote notes instead
+ * of tagging clues. Five of the six he'd ship were held back only because the
+ * judge rated clue 3 instant. Where he said a clue still makes you think,
+ * there's a clue-not-too-easy check. His koala grade (ship as is) isn't
+ * recorded: the house rules use the koala and its clue 1 as their example,
+ * and a graded question must not appear in the rules the judge reads.
  */
 
 import type { GradedCase } from "./score";
@@ -401,6 +410,153 @@ const CASES: GradedCase[] = [
     ],
     said: "'What is \"long-period\"? If that's a real thing, then this is fine.' It is real, so ship as is.",
     expect: [{ kind: "verdict-good" }],
+  },
+  // Session 4: the grading page, the 14 questions the judge rated "needs work",
+  // shown in mixed order with each answer hidden until he chose to show it. The
+  // clues are the texts he saw; eight were rewritten after his grades.
+  {
+    id: "honey",
+    clues: [
+      "A rock painting in Spain's Araña Caves, thought to be about 8,000 years old, shows a figure high on a cliff gathering this food from the wild.",
+      "Ancient Egyptian doctors spread this food on wounds, and it turns up in many of the remedies in their surviving medical papyri.",
+      "Doctors warn against giving this food to babies under one year old because it can carry botulism spores.",
+      "Golden and sticky, this natural sweetener is what Winnie-the-Pooh craves from the hive.",
+    ],
+    said: "Ship as is. 'The honey babies is not super well known, it's fine to keep in.'",
+    expect: [{ kind: "verdict-good" }, { kind: "clue-not-too-easy", clue: 3 }],
+  },
+  {
+    id: "great-white-shark",
+    clues: [
+      "A tagged female of this fish, nicknamed Nicole, swam from South Africa to Australia and back in under nine months.",
+      "Warmer-bodied than most fish, it can rocket its whole body clear out of the water to ambush a seal from below.",
+      "It grows and sheds thousands of serrated teeth over its life, set in replaceable rows, and no aquarium has kept one longer than 198 days.",
+      "The huge predatory fish behind the movie 'Jaws,' it is named for its pale underside.",
+    ],
+    said: "Needs work. 'I think many people would put shark.' An early clue should hint that the full, specific name of the shark is needed.",
+    expect: [{ kind: "verdict-not-good" }],
+  },
+  {
+    id: "chess",
+    clues: [
+      "This board game has more possible games than there are atoms in the observable universe; Claude Shannon put the figure at about 10 to the 120th power.",
+      "This game grew out of India's chaturanga, known by the 600s, in which the piece that became its most powerful could move just one square diagonally.",
+      "In 1997 an IBM computer became the first to beat this game's reigning world champion in a match at standard tournament time controls.",
+      "In this two-player strategy game, each side marshals pawns, knights, bishops, rooks, a queen, and a king.",
+    ],
+    said: "Ship as is. 'Clue three is not instant, there's also Go, and other possible options.'",
+    expect: [{ kind: "verdict-good" }, { kind: "clue-not-too-easy", clue: 3 }],
+  },
+  {
+    id: "wheres-waldo",
+    clues: [
+      "This character is known as Charlie in France, Holger in Denmark and Efi in Israel.",
+      "Across his first seven books, this figure's average size on the page shrank from about 0.99 to roughly 0.2 square centimeters, while the crowds hiding him grew.",
+      "One crowded beach scene in this character's first book got it pulled from some US school libraries in the 1990s because of a tiny topless sunbather.",
+      "This bespectacled traveler in a red-and-white striped shirt and bobble hat hides in busy double-page scenes drawn by British illustrator Martin Handford.",
+    ],
+    said: "Ship as is. The shrinking-size idea seems true. A clue should hint that the answer is the full title, not only the character.",
+    expect: [{ kind: "verdict-good" }],
+  },
+  {
+    id: "blood",
+    clues: [
+      "Karl Landsteiner won the 1930 Nobel Prize in Medicine for discovering that this fluid comes in different groups.",
+      "Horseshoe crabs have a blue version of this fluid, harvested to test medicines and vaccines for contamination.",
+      "An adult's body holds about five liters of this fluid, and at rest the heart pumps all of it around in about a minute.",
+      "Iron-rich hemoglobin gives this fluid its color as it courses through the body's arteries and veins.",
+    ],
+    said: "Needs work. 'It's fine to have some clues that play easy. But agree this is a little too easy.'",
+    expect: [{ kind: "verdict-not-good" }],
+  },
+  {
+    id: "venus",
+    clues: [
+      "This planet spins so slowly that one turn on its axis takes longer than its year, and the Sun rises in the west.",
+      "Even though it is not the closest planet to the Sun, its dense carbon-dioxide atmosphere traps so much heat that its surface can melt lead.",
+      "Roughly Earth's twin in size, it is the brightest natural object in our night sky after the Moon.",
+      "Named for the Roman goddess of love, it is the second planet from the Sun.",
+    ],
+    said: "Ship as is. 'This is fine.'",
+    expect: [{ kind: "verdict-good" }],
+  },
+  {
+    id: "frozen",
+    clues: [
+      "This was the first film from Walt Disney Animation Studios to win the Oscar for Best Animated Feature.",
+      "This film's queen began as a villain, until a power ballad written for her led the director to rewrite the whole movie.",
+      "This film's art director wanted its kingdom on a fjord, so he chose Norway as the model, borrowing its rosemaling folk art too.",
+      "Loosely based on 'The Snow Queen,' this animated blockbuster turns everything Elsa touches to ice.",
+    ],
+    said: "Needs work. The other clues are fine enough; clue 4 is worded weird.",
+    expect: [{ kind: "verdict-not-good" }],
+  },
+  {
+    id: "rhinoceros",
+    clues: [
+      "A group of these animals is called a 'crash,' and they use shared dung heaps called middens to leave scent messages for each other.",
+      "With weak eyesight, this huge, thick-skinned plant-eater leans on sharp hearing and smell to sense trouble.",
+      "Its horn, the reason poachers hunt it, has no bone in it at all; it is keratin, the same stuff as your fingernails.",
+      "This massive horned herbivore, whose biggest species is second only to the elephant among land animals, wallows in mud to keep cool.",
+    ],
+    said: "Needs work. 'Clue 2 is fine, clue 3 is too easy.'",
+    expect: [{ kind: "verdict-not-good" }, { kind: "clue-too-easy", clue: 3 }],
+  },
+  {
+    id: "hot-wheels",
+    clues: [
+      "In 2008 this toy line marked its four billionth car with a white-gold model studded with about 2,700 diamond chips, valued at $140,000.",
+      "This toy line's holy grail is a pink 1969 Volkswagen bus prototype that loaded its surfboards through the rear window; one is now valued at around $150,000.",
+      "This toy line's creator, Elliot Handler, reportedly got the idea watching his son play with Matchbox cars, and wanted flashy custom cars instead of realistic models.",
+      "This die-cast car brand, launched by Mattel in 1968, is famous for the bright orange plastic track its little cars race down.",
+    ],
+    said: "Needs work. Saying 'car' in clue 1 is too easy, though the rest of that clue is interesting. 'Clue 3 should probably be replaced.'",
+    expect: [{ kind: "verdict-not-good" }, { kind: "clue-too-easy", clue: 1 }],
+  },
+  {
+    id: "water",
+    clues: [
+      "Each molecule of this compound is bent, with its two outer atoms set about 104.5 degrees apart.",
+      "Henry Cavendish found in 1781 that burning hydrogen in air produces this substance, a result Lavoisier soon used to show it is a compound.",
+      "A heavy form of this substance, made with deuterium, was the target of Allied sabotage raids on a Norwegian plant during World War II.",
+      "This clear, tasteless liquid, vital to all known life, falls as rain and fills the oceans.",
+    ],
+    said: "Ship as is. 'It's fine.'",
+    expect: [{ kind: "verdict-good" }],
+  },
+  {
+    id: "wizard-of-oz",
+    variant: "session-4",
+    clues: [
+      "This film changed the color of its magic shoes, which were silver in the book, to show off the Technicolor process.",
+      "This film's best-known song was nearly cut because the studio felt a slow ballad so early stalled the story; it then won the Oscar for Best Original Song.",
+      "Buddy Ebsen was hospitalized and had to quit this film when the aluminum dust in his metallic makeup coated his lungs.",
+      "In this 1939 musical, a Kansas farm girl and her dog Toto are swept away by a tornado to a land of Munchkins and witches.",
+    ],
+    said: "Needs work. Swap clues 1 and 3. Don't use the word 'metallic' (it makes the Buddy Ebsen clue too easy). Clue 2 is not specific enough: other Oscar-winning songs may also have nearly been cut.",
+    expect: [{ kind: "verdict-not-good" }],
+  },
+  {
+    id: "basketball",
+    clues: [
+      "At the 1936 Berlin Olympics this sport's first gold-medal game was played outdoors on a dirt tennis court in driving rain.",
+      "This sport's first goals were two peach containers hung from a gym balcony rail with their bottoms still in, so the ball had to be retrieved after every score.",
+      "Muggsy Bogues, at 5 feet 3 inches the shortest player ever in this sport's top U.S. league, played 14 seasons in it.",
+      "In this sport, players dribble, shoot free throws and dunk, and Michael Jordan and LeBron James are among its greatest stars.",
+    ],
+    said: "Needs work. 'Clue 2 is too easy. Clue 3 might be too easy as a 2nd clue.'",
+    expect: [{ kind: "verdict-not-good" }, { kind: "clue-too-easy", clue: 2 }],
+  },
+  {
+    id: "great-pyramid-of-giza",
+    clues: [
+      "This landmark stood as the tallest structure people had ever built for about 3,800 years, until a medieval English cathedral spire finally passed it.",
+      "This monument was once faced in white limestone polished until it shone, but by the 1800s most of those casing stones had been taken for other building work.",
+      "The only one of the seven wonders of the ancient world still standing, it was built from over two million blocks of stone.",
+      "This tomb of the pharaoh Khufu is the largest of the three famous royal tombs at a desert site in Greater Cairo.",
+    ],
+    said: "Needs work. 'Plays a little too easy.'",
+    expect: [{ kind: "verdict-not-good" }],
   },
 ];
 
