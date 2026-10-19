@@ -36,6 +36,14 @@
  * there's a clue-not-too-easy check. His koala grade (ship as is) isn't
  * recorded: the house rules use the koala and its clue 1 as their example,
  * and a graded question must not appear in the rules the judge reads.
+ *
+ * Grading session 5 (2026-10-16, playing the live site): he rated five rounds
+ * with the post-round faces and wrote "too easy" on three of them. These are
+ * grades from playing, not from reading, so there are no per-clue tags and no
+ * note on which clue gave it away. All three were questions the judge had
+ * rated good with no clue called instant, so they are the first cases where he
+ * is harsher than the judge. The meerkat round he rated good; the olympic-games
+ * round he rated okay, which is neither verdict, so it carries no check.
  */
 
 import type { GradedCase } from "./score";
@@ -141,6 +149,30 @@ const GRADED_CLUES: Record<string, string[]> = {
     "Its long voyage home features a witch named Circe, the deadly Sirens, and the whirlpool Charybdis.",
     "Attributed to the Greek poet Homer, this epic follows Odysseus's ten-year journey back from the Trojan War.",
     "Its title, drawn from the hero's name, has become a word for any long, wandering adventure.",
+  ],
+  "wright-brothers": [
+    "These inventors' key insight was 'wing warping', twisting the wingtips in opposite directions to keep balance and turn in the air.",
+    "Neither of them ever married, and they tossed a coin to decide which would make the first attempt at powered flight.",
+    "They ran a bicycle shop in Dayton, Ohio, and paid for their flying experiments with its profits.",
+    "These two American brothers, Wilbur and Orville, built and flew the world's first successful airplane.",
+  ],
+  skeleton: [
+    "More than half of this body system's parts are found in the hands and feet.",
+    "This body system's hyoid, a horseshoe-shaped piece in the neck, is the only one of its parts not joined to any other.",
+    "In adults this body system is constantly rebuilt, with roughly a tenth of it replaced every year.",
+    "A rattling one is a Halloween staple, and it is what an X-ray reveals beneath the skin.",
+  ],
+  meerkat: [
+    "In a group of these animals, one dominant female has most of the pups, and while pregnant she may drive pregnant rivals out of the group for weeks.",
+    "This animal has dark patches around its eyes that cut the glare of the southern African desert sun.",
+    "Adults of this animal teach their pups to eat scorpions, first handing them dead ones, then live ones with the stinger removed.",
+    "Timon, the wisecracking sidekick in Disney's 'The Lion King', is one of these animals.",
+  ],
+  pixar: [
+    "This studio began in 1979 as the Graphics Group of Lucasfilm's computer division and was spun off in 1986 with $10 million from Steve Jobs.",
+    "This studio hides the code A113, a classroom number at the CalArts art school, in nearly every one of its feature films.",
+    "This studio's 1988 short 'Tin Toy,' about a wind-up one-man band, became the first computer-animated film to win an Academy Award.",
+    "This Emeryville, California, animation studio, behind 'Toy Story,' 'Up' and 'WALL-E,' was bought by Disney in 2006.",
   ],
 };
 
@@ -557,6 +589,29 @@ const CASES: GradedCase[] = [
     ],
     said: "Needs work. 'Plays a little too easy.'",
     expect: [{ kind: "verdict-not-good" }],
+  },
+  // Session 5: played on the live site. A "too easy" note with a bad face is a
+  // verdict on the whole question; he tagged no clues, so nothing says which
+  // clue gave it away.
+  {
+    id: "wright-brothers",
+    said: "Rated bad while playing, with the note 'too easy'.",
+    expect: [{ kind: "verdict-not-good" }],
+  },
+  {
+    id: "skeleton",
+    said: "Rated bad while playing, with the note 'too easy'.",
+    expect: [{ kind: "verdict-not-good" }],
+  },
+  {
+    id: "pixar",
+    said: "Rated bad while playing, with the note 'too easy'.",
+    expect: [{ kind: "verdict-not-good" }],
+  },
+  {
+    id: "meerkat",
+    said: "Rated good while playing, with no note.",
+    expect: [{ kind: "verdict-good" }],
   },
 ];
 
