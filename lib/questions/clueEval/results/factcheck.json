@@ -17664,6 +17664,14 @@
      "evidence": "The Smithsonian's National Air and Space Museum says the Smithsonian's display credited Samuel Langley's aircraft as the first capable of sustained flight, that Orville used the loan as leverage to get that corrected, that he announced it in 1925 and shipped the 1903 Flyer to the Science Museum in London in 1928, and that it returned to the United States in 1948 and was installed at the Smithsonian on December 17, 1948 - a 20-year loan, with Orville (Wilbur died in 1912) the surviving brother. The only unstated nuance is that the Flyer was moved out of London for safe storage during World War II; the loan to the London museum still ran the full 20 years. https://airandspace.si.edu/stories/editorial/how-wright-flyer-got-smithsonian",
      "checkedOn": "2026-10-17",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "The idea of twisting a wing's tips in opposite directions to bank and turn came to one brother in 1899 as he idly flexed the long cardboard box a bicycle inner tube had come in.",
+     "verdict": "ok",
+     "evidence": "Two sources independent of the family and its museums support every claim. A U.S. federal courts exhibit on the Wright patent case says \"The solution came unexpectedly one summer day in 1899\" and \"While talking with a customer in the shop, Wilbur idly played with a long, thin cardboard box for a bicycle inner tube\", then \"realized that this twisting effect could be used to change the angles of opposing biplane wings\" (https://exhibits.nhd.uscourts.gov/47.htm). A Smithsonian education page describes the same object as \"a cardboard container for a bicycle inner tube, which was empty and open at both ends\", says that \"While talking to a customer, he idly picked up\" the box and pressed opposite corners so that \"The other two corners moved simultaneously - one went up and the other went down\", and dates the biplane kite built on the idea to the summer of 1899 (https://smithsonianeducation.org/educators/lesson_plans/wright/wing_warping.html). Neither page hedges the anecdote, and both are consistent with the clue on the year, the object, the idle handling and the opposite-direction twist. The only variation between retellings is minor and does not touch the clue: some accounts have a customer buying the tube while the Smithsonian page has Wilbur picking up an already empty box, and some note he had also watched buzzards twist their wing tips before this. https://smithsonianeducation.org/educators/lesson_plans/wright/wing_warping.html",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
     }
    ]
   },

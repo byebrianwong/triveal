@@ -1024,8 +1024,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "History",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "A hockey stick to the face knocked out one brother's front teeth as a teenager, and the heart trouble that followed ended his plan to study at Yale; he spent the years after at home, reading and nursing his dying mother." },
-      { position: 2, text: "These two brothers ran a print shop in Dayton, Ohio, on a press they built themselves, and printed a short-lived weekly for the city's Black readers edited by the poet Paul Laurence Dunbar." },
+      { position: 1, text: "These two brothers ran a print shop in Dayton, Ohio, on a press they built themselves, and printed a short-lived weekly for the city's Black readers edited by the poet Paul Laurence Dunbar." },
+      { position: 2, text: "The idea of twisting a wing's tips in opposite directions to bank and turn came to one brother in 1899 as he idly flexed the long cardboard box a bicycle inner tube had come in." },
       { position: 3, text: "Angry that the Smithsonian honoured a rival's machine instead of theirs, the surviving brother sent their 1903 aircraft to a museum in London in 1928, and it stayed there for 20 years." },
       { position: 4, text: "These two American brothers, Wilbur and Orville, built and flew the world's first successful airplane." },
     ],
