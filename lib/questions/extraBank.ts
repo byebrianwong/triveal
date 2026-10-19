@@ -13800,7 +13800,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This tale was never translated from an Arabic original; Hanna Diyab, a storyteller from Aleppo, told it to the French translator Antoine Galland in Paris in 1709." },
       { position: 2, text: "In British Christmas pantomimes of this story, the hero's mother is the comic dame Widow Twankey, named after a cheap brand of Chinese tea." },
-      { position: 3, text: "The first printed version of this tale is set not in Arabia but in 'one of the cities of China', where its hero is a penniless ne'er-do-well whose late father was a tailor." },
+      { position: 3, text: "The first printed version of this tale is set not in Arabia but in the capital of a kingdom of China, where its hero is an unruly ne'er-do-well whose late father was a poor tailor." },
       { position: 4, text: "Robin Williams voiced the wisecracking Genie in Disney's 1992 animated film of this tale, whose street-urchin hero falls for Princess Jasmine." },
     ],
     decoys: [
@@ -13874,7 +13874,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This creature gave its name to the 'economics' that Paul Krugman mocked in July 2016, after one European country reported 26 percent GDP growth for 2015." },
-      { position: 2, text: "In the oldest known tale of this creature, a saga first written down around the eighth century, three of them drag the sleeping King Fergus mac Léti toward the sea, then grant him three wishes for their release." },
+      { position: 2, text: "In the oldest known tale of this creature, a saga first written down around the eighth century, sprites carry the sleeping King Fergus mac Léti to the sea; the three he catches grant him three wishes to save their lives." },
       { position: 3, text: "Before the 20th century this solitary shoemaker was usually pictured in red; Samuel Lover in 1831 gave it 'a red square-cut coat, richly laced with gold'." },
       { position: 4, text: "Lucky, the mascot of General Mills' Lucky Charms cereal, is one of these little Irish fairies, said to hide a pot of gold at the end of the rainbow." },
     ],

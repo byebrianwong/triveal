@@ -116,6 +116,16 @@
      "evidence": "Wikipedia: Robin Williams voiced the Genie in the 1992 film; Aladdin is 'an Arabian street urchin' in love with Princess Jasmine. https://en.wikipedia.org/wiki/Aladdin_(1992_Disney_film)",
      "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "The first printed version of this tale is set not in Arabia but in 'one of the cities of China', where its hero is a penniless ne'er-do-well whose late father was a tailor.",
+     "verdict": "loose",
+     "evidence": "Galland's French text opens 'Sire, dans la capitale d'un royaume de la Chine, très riche et d'une vaste étendue... il y avoit un tailleur nommé Mustafa', 'Mustafa le tailleur étoit fort pauvre', and the son 'étoit méchant, opiniâtre, désobéissant' https://archive.org/stream/lesmilleunenuits08gall/lesmilleunenuits08gall_djvu.txt ; Wikipedia credits Galland with the first printing and gives Burton's 'impoverished young ne'er-do-well' in 'one of the cities of Ancient China', with his late father Mustapha a tailor https://en.wikipedia.org/wiki/Aladdin",
+     "problem": "The quoted phrase 'one of the cities of China' is Burton's 1885 wording, not the first printed version's. Galland's 1710s French text opens 'dans la capitale d'un royaume de la Chine' (in the capital of a kingdom of China). The China setting, the poor tailor father and the unruly son all check out.",
+     "fix": "The first printed version of this tale is set not in Arabia but in the capital of a kingdom of China, where its hero is an unruly ne'er-do-well whose late father was a poor tailor.",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -8478,6 +8488,14 @@
      "evidence": "Apple, 26 Oct 2004: U2 special edition with 'a gorgeous black enclosure with a red Click Wheel' and 'custom engraving of U2 band member signatures' https://www.apple.com/newsroom/2004/10/26Apple-Introduces-the-U2-iPod/ ; signatures 'engraved on the stainless steel back' https://512pixels.net/2022/05/the-u2-ipod/",
      "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "A 2004 special edition of this device, black with a red control, carried the engraved signatures of U2's four members on its back.",
+     "verdict": "ok",
+     "evidence": "Apple press release of 26 October 2004 describes the U2 special edition's 'black enclosure with a red Click Wheel' and 'custom engraving of U2 band member signatures' https://www.apple.com/newsroom/2004/10/26Apple-Introduces-the-U2-iPod/ ; Low End Mac: 'black with a red clickwheel and the signatures of the band members engraved on the back' https://lowendmac.com/2004/ipod-u2-special-edition/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -9716,6 +9734,16 @@
      "text": "This creature gave its name to the 'economics' that Paul Krugman mocked in July 2016, after one European country reported 26 percent GDP growth for 2015.",
      "verdict": "ok",
      "evidence": "Krugman coined the term on 12 July 2016 ('Leprechaun economics: Ireland reports 26 percent growth! But it doesn't make sense') after the Irish CSO revised 2015 GDP growth to 26.3% https://en.wikipedia.org/wiki/Leprechaun_economics",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In the oldest known tale of this creature, a saga first written down around the eighth century, three of them drag the sleeping King Fergus mac Léti toward the sea, then grant him three wishes for their release.",
+     "verdict": "loose",
+     "evidence": "Binchy's translation: 'Sprites came to the king and bore him out of his chariot... carried him as far as the sea'; Fergus 'caught hold of three of them'; 'Let my three wishes be granted to me' and the reply 'Life for life!' https://www.fairyist.com/fairy-tales/the-saga-of-fergus-mac-leti/ ; CODECS: narrative 'probably of the 8th century (Binchy)', Old Irish https://codecs.vanhamel.nl/Echtra_Fergusa_maic_L%C3%A9ti ; Wikipedia calls it the earliest known reference to the creature and gives three lúchorpáin and three wishes in exchange for release https://en.wikipedia.org/wiki/Leprechaun",
+     "problem": "In the saga, an unspecified number of sprites carry Fergus to the sea. He then catches three of them, and those three grant his three wishes. The clue says three of them drag him, which is more precise than the text (Wikipedia's summary also says three). The eighth-century date, the King Fergus mac Léti episode and the three wishes check out.",
+     "fix": "In the oldest known tale of this creature, a saga first written down around the eighth century, sprites carry the sleeping King Fergus mac Léti to the sea; the three he catches grant him three wishes to save their lives.",
      "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
@@ -13684,6 +13712,14 @@
      "text": "In a 1966 study co-written by future Nobel laureate Daniel Kahneman, this part of the eye proved a reliable gauge of mental effort as people held more and more digits in memory.",
      "verdict": "ok",
      "evidence": "Beatty and Kahneman's 1966 study: pupil diameter increased with each digit heard, peak size depended on how many digits had to be held, so dilation serves as a measure of cognitive load/mental effort https://en.wikipedia.org/wiki/Task-invoked_pupillary_response ; Kahneman & Beatty (1966) 'Pupil Diameter and Load on Memory', Science; Kahneman won the 2002 Nobel Memorial Prize in Economic Sciences https://en.wikipedia.org/wiki/Daniel_Kahneman",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "When goats lower their heads to graze, each eyeball can rotate 50 degrees or more to keep this part of the eye level with the ground.",
+     "verdict": "ok",
+     "evidence": "UC Berkeley news: when grazing prey animals lower their heads to eat, 'their eyes rotated to maintain the pupils' horizontal alignment with the ground' and 'Grazing animals' eyes can rotate by 50 degrees or more in each eye' https://news.berkeley.edu/2015/08/07/pupil-shape-and-ecological-niche/ ; The Conversation names goats specifically: 'eyes of goats, deer, horses, and sheep rotate as they bend their head down to eat... Each eye in these animals rotates by 50 degrees, possibly more.' https://theconversation.com/revealed-why-animals-pupils-come-in-different-shapes-and-sizes-45796",
      "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
