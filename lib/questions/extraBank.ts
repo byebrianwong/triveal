@@ -13638,7 +13638,6 @@ export const EXTRA_QUESTIONS: Question[] = [
       { text: "Belmont Stakes", eliminatedByClue: 3 },
     ],
   },
-  // -- batch 2026-10-17 --
   {
     id: "pupil",
     answer: "Pupil",
