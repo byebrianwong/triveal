@@ -5082,6 +5082,14 @@
      "evidence": "Common knowledge; the ETHW milestone describes Pearl Street supplying it to light incandescent lamps. https://ethw.org/Milestones:Pearl_Street_Station",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "This phenomenon was a Roman painkiller: the emperor Claudius's own doctor told headache sufferers to hold a live torpedo ray to the sore spot until the skin went numb.",
+     "verdict": "ok",
+     "evidence": "Wikipedia describes Scribonius Largus as court physician to the emperor Claudius and credits him with an early description of using shocks from electric fish for gout and headaches. A translation of chapter 11 of his Compositiones gives the headache remedy as a live torpedo/stingray placed on the part of the head which is in pain until the pain stops and the part goes numb, with the fish removed once numbness is felt. Some scholars note the ancient torpedo may have been an electric ray or an electric catfish, but the electric ray is the standard reading. https://hekint.org/scribonius-largus/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -6765,6 +6773,44 @@
     }
    ]
   },
+  "goosebumps": {
+   "id": "goosebumps",
+   "answer": "Goosebumps",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This body reaction's nerves form synapse-like junctions with hair-follicle stem cells, and in 2020 Harvard researchers found those cells go dormant without that signal.",
+     "verdict": "ok",
+     "evidence": "The 2020 Cell paper from Ya-Chieh Hsu's Harvard lab (Shwartz et al., Cell Types Promoting Goosebumps Form a Niche to Regulate Hair Follicle Stem Cells) reports that sympathetic nerves form synapse-like structures with hair follicle stem cells and regulate them through norepinephrine, and that without norepinephrine signaling the stem cells enter deep quiescence, down-regulating cell cycle and metabolism and up-regulating Foxp1 and Fgf18. The work was done in mice, which the clue does not contradict. https://hscrb.harvard.edu/publication/shwartz-y-gonzalez-celeiro-m-chen-cl-pasolli-ha-sheu-sh-fan-sm-shamsi-f-assaad-s-lin-et-zhang-b-tsai-pc-he-m-tseng-yh-lin-sj-hsu-yc-cell-types-promoting-goosebumps-form-a-niche-to-regul",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Tiny muscles at the base of each hair cause this reaction, and a moving piece of music can set it off.",
+     "verdict": "ok",
+     "evidence": "The reaction is caused by the arrector pili muscles, tiny muscles at the base of each hair that pull the hair upright when they contract, and the page states that music can also be a cause of piloerection. https://en.wikipedia.org/wiki/Goose_bumps",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "The French call this reaction 'chair de poule,' or chicken's flesh, likening it to the skin of poultry.",
+     "verdict": "ok",
+     "evidence": "The etymology section records the French term as chair de poule and notes that French uses the hen or chicken where English and German use the goose; poule is a hen, so chicken's flesh is a fair rendering. https://en.wikipedia.org/wiki/Goose_bumps",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This skin reaction to cold shares its name with R. L. Stine's horror books for kids.",
+     "verdict": "ok",
+     "evidence": "Goosebumps is a series of children's horror novels by the American author R. L. Stine, aimed at readers roughly 8 to 12 years old. The cited Britannica page returned HTTP 403 in this session, so I confirmed it on Wikipedia instead. https://en.wikipedia.org/wiki/Goosebumps",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "gorilla": {
    "id": "gorilla",
    "answer": "Gorilla",
@@ -6913,6 +6959,30 @@
      "verdict": "ok",
      "evidence": "Stanford Solar Center: gravity keeps objects on the ground and holds Earth in orbit around the Sun. https://solar-center.stanford.edu/activities/jeff/Gravity.html",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "This force was first measured in a laboratory in 1798, when Henry Cavendish gauged its pull between lead balls on a wire-hung rod and so found the density of the Earth.",
+     "verdict": "ok",
+     "evidence": "Cavendish ran the experiment in 1797-1798 and reported in 1798. The apparatus was a torsion balance: a wooden rod about six feet long hung from a fine wire with a small lead sphere at each end, with two large lead balls brought near them. He reported the Earth's density, about 5.448 times that of water. The page calls it the first experiment to measure the force of gravity between masses in the laboratory. https://en.wikipedia.org/wiki/Cavendish_experiment",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This force makes time run slower the stronger it is, so the clocks on GPS satellites, where it is weaker, must be corrected for running fast.",
+     "verdict": "ok",
+     "evidence": "Weaker gravity at satellite altitude makes GPS clocks gain about 45.8 microseconds per day; special relativity costs about 7.2 microseconds per day, leaving a net gain of about 38.6 microseconds per day. The satellites' frequency standard is set slightly slow before launch to compensate, so the correction is indeed for clocks that run fast. https://en.wikipedia.org/wiki/Error_analysis_for_the_Global_Positioning_System",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This force's waves — ripples in space-time from two colliding black holes — were first detected in 2015, a century after Einstein predicted them.",
+     "verdict": "ok",
+     "evidence": "GW150914 was detected on 14 September 2015 (announced 11 February 2016) and came from the inspiral and merger of two black holes of about 36 and 29 solar masses. Einstein predicted gravitational waves in 1916, so 2015 is a century later. https://en.wikipedia.org/wiki/First_observation_of_gravitational_waves",
+     "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
    ]
@@ -10996,6 +11066,14 @@
      "evidence": "Wikipedia: the galaxy that includes the Solar System; 'all the individual naked-eye stars in the entire sky are part of the Milky Way Galaxy'. https://en.wikipedia.org/wiki/Milky_Way",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "This galaxy's middle is crossed by a bar of stars some 27,000 light-years long, which an infrared survey pinned down in 2005 by peering through the dust.",
+     "verdict": "ok",
+     "evidence": "The August 2005 University of Wisconsin release on the GLIMPSE survey describes a central bar of old red stars about 27,000 light-years long, some 7,000 light-years longer than previously believed. It was found with the Infrared Array Camera on the Spitzer Space Telescope, which let astronomers cut through obscuring clouds of interstellar dust. https://news.wisc.edu/galactic-survey-reveals-a-new-look-for-the-milky-way/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -12419,6 +12497,14 @@
      "verdict": "ok",
      "evidence": "Wikipedia: farmed worldwide for feathers and meat. The head-in-the-sand idea is a myth (Pliny) that may come from birds turning eggs in their nest holes. https://en.wikipedia.org/wiki/Common_ostrich",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "This bird has two kneecaps in each knee, the only bird known to have them, while its emu relatives have no bony kneecap at all.",
+     "verdict": "ok",
+     "evidence": "BBC Discover Wildlife says ostriches are \"the only animals to bear twice the regulation number of kneecaps\", with two per knee, and that \"Emus and cassowaries, the ostrich's close relatives, have no kneecaps at all\" (peerj.com and pmc returned 403, so I used accessible coverage of the same Royal Veterinary College work; ScienceDaily's report of it likewise says \"Ostriches are the only animals in the world to have a double-kneecap\" and that no evidence of it was found even in extinct giant birds, and the Regnault et al. 2014 PeerJ emu paper reports \"no evidence of an ossified patella in emus\"). https://www.discoverwildlife.com/animal-facts/birds/why-do-ostriches-have-two-knees",
+     "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
    ]
@@ -13983,6 +14069,22 @@
      "verdict": "ok",
      "evidence": "Wikipedia and Science Focus describe a colored arc formed when sunlight from behind the viewer is refracted and reflected in raindrops. https://en.wikipedia.org/wiki/Rainbow",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "This band of light always sits about 42 degrees from the point directly opposite the sun, an angle René Descartes calculated in 1637 with a water-filled glass sphere.",
+     "verdict": "ok",
+     "evidence": "Wikipedia's Rainbow article says the bow is centred on the antisolar point (the observer's head shadow) and that \"The base of the cone forms a circle at an angle of 40-42 degrees to the line between the observer's head and their shadow\", so \"about 42 degrees\" matches the primary bow's outer edge; the same article says that in his 1637 treatise Discourse on Method Descartes \"experimented with passing rays of light through a large glass sphere filled with water\" to work out the rainbow's angles. Histories of the calculation agree he put the maximum radius at about 41 degrees 47 minutes, i.e. about 42 degrees. https://en.wikipedia.org/wiki/Rainbow",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Isaac Newton first counted only five colors in this display, then added orange and indigo so the total would match the seven notes of a musical scale.",
+     "verdict": "ok",
+     "evidence": "Wikipedia's Rainbow article says Newton \"originally (1672) divided the spectrum into five main colours\" and later \"includ[ed] orange and indigo, giving seven main colours by analogy to the number of notes in a musical scale\"; the ROYGBIV article says the same (\"Originally he used only five colors\", then added orange and indigo \"to match the number of musical notes in the major scale\"). https://en.wikipedia.org/wiki/Rainbow",
+     "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
    ]
@@ -17528,6 +17630,22 @@
      "evidence": "NASA: the Sun is a hot glowing ball of hydrogen and helium at the center of our solar system. https://science.nasa.gov/sun/facts/",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "This star's light revealed a new gas during an 1868 eclipse, years before anyone found it on Earth, and the element was named after this star.",
+     "verdict": "ok",
+     "evidence": "Jules Janssen first detected helium's spectral line during the total solar eclipse of 18 August 1868, and Norman Lockyer proposed that it came from a new element and named it after helios, the Greek word for the Sun. Helium was not isolated on Earth until 1895, by Ramsay, Cleve and Langlet, so the solar detection came 27 years earlier. https://en.wikipedia.org/wiki/Helium",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This star holds about 99.8 percent of all the mass in our Solar System, and 1.3 million Earths would fit inside it.",
+     "verdict": "ok",
+     "evidence": "NASA's Sun facts page states the Sun holds about 99.8 percent of the solar system's mass and that about 1.3 million Earths would fit inside it by volume. (The page separately notes it would take more than 330,000 Earths to match the Sun's mass, a different measure, which the clue does not use.) https://science.nasa.gov/sun/facts/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -18152,6 +18270,44 @@
      "evidence": "QWERTY was devised for the Sholes and Glidden typewriter in the early 1870s; E. Remington and Sons began selling it in 1874. https://en.wikipedia.org/wiki/QWERTY",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent (fact check for PR #58/#59)"
+    }
+   ]
+  },
+  "tyrannosaurus-rex": {
+   "id": "tyrannosaurus-rex",
+   "answer": "Tyrannosaurus rex",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This dinosaur's thigh bone, dug up in Montana, held flexible soft tissue resembling blood vessels, scientists reported in 2005.",
+     "verdict": "ok",
+     "evidence": "The cited report describes Mary Schweitzer's team announcing on 24 March 2005 (paper in Science the next day) that specimen MOR 1125, a thighbone from a Montana sandstone formation, yielded stretchy, flexible tissue with long structures resembling blood vessels and possibly round cells. https://www.nbcnews.com/id/7285683",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This dinosaur's largest teeth were almost a foot long once you count the roots.",
+     "verdict": "ok",
+     "evidence": "The largest tooth found so far is estimated at 30.5 cm (12.0 in) long including the root as the animal bore it, so almost a foot understates rather than overstates the figure. https://en.wikipedia.org/wiki/Tyrannosaurus",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "One of the most complete skeletons of this dinosaur ever found, nicknamed Sue, stands in Chicago's Field Museum.",
+     "verdict": "ok",
+     "evidence": "Sue is one of the most complete skeletons of the species, about 85 percent complete, and is mounted at the Field Museum of Natural History in Chicago. https://en.wikipedia.org/wiki/Tyrannosaurus",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This 'tyrant lizard king' of the Late Cretaceous was the star predator of 'Jurassic Park.'",
+     "verdict": "ok",
+     "evidence": "The genus name comes from the Greek for tyrant and lizard and the Latin rex means king, giving tyrant lizard king, and the animal lived in the Late Cretaceous (late Maastrichtian, about 69 to 66 million years ago). The species is the headline predator of the 1993 film Jurassic Park, and the clue correctly places the animal itself in the Cretaceous rather than the Jurassic. https://en.wikipedia.org/wiki/Tyrannosaurus",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
     }
    ]
   },

@@ -246,6 +246,39 @@ same export and ingest pattern:
    and no new flags appeared.
 5. Run the usual checklist (`pnpm test`, `pnpm lint`, `npx tsc --noEmit`).
 
+## What the judge cannot see: the answer that owns its topic
+
+Found on 2026-10-19, acting on grades Brian gave while playing the live site.
+
+He rated three questions "too easy" that the judge had called good, with every
+clue interesting and none rated instant: `wright-brothers`, `skeleton` and
+`pixar`. No threshold over the judge's data separates them from the rest of the
+bank. What they shared was that a clue before clue 4 named the very thing the
+answer is famous for -- powered flight, the Dayton bicycle shop, Steve Jobs,
+the hands-and-feet bone count.
+
+There is a cheap way to spot candidates by hand: look at the phrase clue 1 uses
+to refer to the answer. The house rules require saying what kind of thing the
+answer is ("This game...", "This print's..."), and when that kind has almost no
+other famous members, the required phrase leaks the answer before the fact does
+any work. "This body system" has one plausible answer, and so do "This force",
+"This star" and "This optical sight". Grouping clue 1's head noun across the
+bank takes a few lines of script and surfaces them.
+
+Two things to know before acting on it:
+
+- The signal over-fires. Of ten candidates ranked this way, three had a good,
+  specific clue 1 after all (`periodic-table`, `olympic-games`,
+  `tyrannosaurus-rex`), so read the clue before rewriting it.
+- For the broadest answers (`gravity`, `rainbow`, `the-sun`, `milky-way`) no
+  single clue rewrite makes the question medium, because the category plus the
+  referring phrase invites the answer as a default guess. A judge reached the
+  same conclusion independently. Narrowing the answer itself would be the real
+  fix, and that is Brian's call.
+
+The fix that worked on all three of his was to find a fact adjacent to the fame
+rather than the fame itself, and to let clue 4 carry the giveaway.
+
 ## Limits
 
 - The judge's fact field has no sources. The fact check has sources, but a
