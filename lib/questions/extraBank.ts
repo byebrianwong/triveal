@@ -13649,7 +13649,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "In a 1966 study co-written by future Nobel laureate Daniel Kahneman, this part of the eye proved a reliable gauge of mental effort as people held more and more digits in memory." },
       { position: 2, text: "Renaissance women are said to have widened these with drops of deadly nightshade, a popular explanation for the plant's other name, belladonna, 'beautiful lady'." },
-      { position: 3, text: "When goats lower their heads to graze, each eyeball can rotate 50 degrees or more to keep this part of the eye, a horizontal slot in goats, level with the ground." },
+      { position: 3, text: "When goats lower their heads to graze, each eyeball can rotate 50 degrees or more to keep this part of the eye level with the ground." },
       { position: 4, text: "This black opening at the center of the iris takes its name from the Latin for 'little doll', for the tiny image of yourself you see in someone else's." },
     ],
     decoys: [
@@ -13800,12 +13800,12 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This tale was never translated from an Arabic original; Hanna Diyab, a storyteller from Aleppo, told it to the French translator Antoine Galland in Paris in 1709." },
       { position: 2, text: "In British Christmas pantomimes of this story, the hero's mother is the comic dame Widow Twankey, named after a cheap brand of Chinese tea." },
-      { position: 3, text: "The first printed version of this tale, in Antoine Galland's French Nights, is set in 'one of the cities of China', and its hero commands two genies, the weaker one bound to a magic ring." },
+      { position: 3, text: "The first printed version of this tale is set not in Arabia but in 'one of the cities of China', where its hero is a penniless ne'er-do-well whose late father was a tailor." },
       { position: 4, text: "Robin Williams voiced the wisecracking Genie in Disney's 1992 animated film of this tale, whose street-urchin hero falls for Princess Jasmine." },
     ],
     decoys: [
-      { text: "Ali Baba and the Forty Thieves", eliminatedByClue: 3 },
-      { text: "Sinbad the Sailor", eliminatedByClue: 3 },
+      { text: "Ali Baba and the Forty Thieves", eliminatedByClue: 2 },
+      { text: "Sinbad the Sailor", eliminatedByClue: 2 },
     ],
   },
   {
@@ -13874,7 +13874,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This creature gave its name to the 'economics' that Paul Krugman mocked in July 2016, after one European country reported 26 percent GDP growth for 2015." },
-      { position: 2, text: "In the oldest known tale of this creature, an Irish saga first written down around the eighth century, three of them drag King Fergus mac Léti toward the sea, then grant him three wishes." },
+      { position: 2, text: "In the oldest known tale of this creature, a saga first written down around the eighth century, three of them drag the sleeping King Fergus mac Léti toward the sea, then grant him three wishes for their release." },
       { position: 3, text: "Before the 20th century this solitary shoemaker was usually pictured in red; Samuel Lover in 1831 gave it 'a red square-cut coat, richly laced with gold'." },
       { position: 4, text: "Lucky, the mascot of General Mills' Lucky Charms cereal, is one of these little Irish fairies, said to hide a pot of gold at the end of the rainbow." },
     ],
@@ -14007,7 +14007,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This gadget took shape after its maker's hardware chief, Jon Rubinstein, was shown a tiny 1.8-inch hard drive at Toshiba in 2001 and promised to buy every one Toshiba could make." },
       { position: 2, text: "This device's signature control was inspired by a Bang & Olufsen cordless phone, the BeoCom 6000, which Phil Schiller reportedly brought to an early meeting with Steve Jobs." },
-      { position: 3, text: "In 2004 Apple sold a black-and-red special edition of this device with the engraved signatures of U2's four members on its back." },
+      { position: 3, text: "A 2004 special edition of this device, black with a red control, carried the engraved signatures of U2's four members on its back." },
       { position: 4, text: "Steve Jobs unveiled this Apple music player in October 2001 as '1,000 songs in your pocket', and the line ended in May 2022 with the discontinued Touch model." },
     ],
     decoys: [
@@ -14138,12 +14138,12 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This board game's first run of 1,100 copies, in 1981, cost its inventors about $75 apiece to make, but they sold them for $15 each." },
-      { position: 2, text: "This game's makers were sued for $300 million by author Fred L. Worth after a fake fact he had planted in his reference book, that Columbo's first name was Philip, turned up in it." },
-      { position: 3, text: "This game was dreamed up in Montreal on 15 December 1979, after one of its two journalist inventors realized he had bought his sixth Scrabble set and wondered if they could invent their own." },
+      { position: 2, text: "This game was dreamed up in Montreal on 15 December 1979, after one of its two journalist inventors realized he had bought his sixth Scrabble set and wondered if they could invent their own." },
+      { position: 3, text: "This game's makers were sued for $300 million by author Fred L. Worth after a fake fact he had planted in his reference book, that Columbo's first name was Philip, turned up in it." },
       { position: 4, text: "In this board game, players win colored plastic wedges by answering questions in six categories, such as blue for Geography and orange for Sports & Leisure." },
     ],
     decoys: [
-      { text: "Scrabble", eliminatedByClue: 3 },
+      { text: "Scrabble", eliminatedByClue: 2 },
       { text: "Pictionary", eliminatedByClue: 1 },
       { text: "Cranium", eliminatedByClue: 1 },
     ],
