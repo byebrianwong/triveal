@@ -142,6 +142,14 @@
      "evidence": "Wikipedia says Widow Twankey, a pantomime dame played by an older man, 'was named after a cheap brand of China tea', an inferior grade of green tea. https://en.wikipedia.org/wiki/Widow_Twankey ; the Aladdin article says 'the traditional Aladdin pantomime is the source of the well-known pantomime character Widow Twankey (Aladdin's mother)'. https://en.wikipedia.org/wiki/Aladdin",
      "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In British Christmas pantomimes of this story, the hero's mother is a comic dame whose name comes from a cheap Chinese green tea.",
+     "verdict": "ok",
+     "evidence": "Wikipedia says Widow Twankey is the pantomime dame in this story, a comic female role usually played by a man, and that she 'was named after a cheap brand of China tea'. It adds that 'Twankay' is an inferior grade of green tea named after Tunxi in Anhui (https://en.wikipedia.org/wiki/Widow_Twankey). Merriam-Webster defines Twankay tea as 'a green tea of inferior quality' (https://www.merriam-webster.com/dictionary/twankay). Sixth Tone says that in 1861 H.J. Byron named the hero's mother 'Widow Twankey' after the lower-grade Tunxi green tea, and that she became a pantomime dame played by a man in drag, https://www.sixthtone.com/news/1018829",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
     }
    ]
   },
