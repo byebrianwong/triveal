@@ -230,6 +230,14 @@
      "evidence": "Wikipedia: 'In the Earth's crust, aluminium is the most abundant metallic element'; 'aluminium' is the British/IUPAC spelling and 'aluminum' the North American one; cans and foil are standard uses. https://en.wikipedia.org/wiki/Aluminium",
      "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This metal's oxide, corundum, forms both rubies and sapphires, colored red by traces of chromium or blue by iron and titanium.",
+     "verdict": "ok",
+     "evidence": "Corundum is 'a crystalline form of aluminium oxide (Al2O3)'; 'Rubies are red due to the presence of chromium' https://en.wikipedia.org/wiki/Corundum ; GIA: 'When the trace elements are iron and titanium, the corundum is blue sapphire'; 'Chromium can cause the red color of ruby' https://www.gia.edu/sapphire-description",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -342,6 +350,14 @@
      "text": "In 'Jurassic Park', scientists clone dinosaurs from blood inside a mosquito preserved in this golden fossilized tree resin.",
      "verdict": "ok",
      "evidence": "Wikipedia: in Crichton's novel and the 1993 film, scientists 'extract the preserved blood of dinosaurs from prehistoric mosquitoes trapped in amber' and clone the dinosaurs. Amber is fossilized tree resin. https://en.wikipedia.org/wiki/Amber",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "Russia's Kaliningrad region holds an estimated 90 percent of the world's known deposits of this material, mined on its Baltic coast at Yantarny.",
+     "verdict": "ok",
+     "evidence": "'The region around the combine holds 90% of the world's extractable amber'; the combine is Russia's only official amber mine, located in Yantarny, Kaliningrad Oblast https://en.wikipedia.org/wiki/Kaliningrad_Amber_Combine",
      "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
@@ -3930,6 +3946,14 @@
      "evidence": "Wikipedia: sugar is heated until it liquefies and spun out through tiny holes by centrifugal force, cooling into fine strands that are gathered on a stick or cone. https://en.wikipedia.org/wiki/Cotton_candy",
      "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "In 2016 a Vanderbilt engineer used a roughly $40 machine for making this treat, bought at Target, to build molds for artificial capillaries.",
+     "verdict": "ok",
+     "evidence": "VUMC News, 8 Feb 2016: Vanderbilt mechanical engineer Leon Bellan: 'I went to Target and bought a cotton candy machine for about $40'; it spins fibers used as templates that leave microchannels functioning as artificial capillaries https://news.vumc.org/?p=235866",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -4390,6 +4414,14 @@
      "evidence": "EIA: 'Of the 80 million households that have a dishwasher, 16 million (almost 20%) did not use their dishwasher in 2015' (out of about 118 million U.S. households). https://www.eia.gov/todayinenergy/detail.php?id=31692",
      "problem": "'About three-quarters' is overstated. EIA's 2015 RECS counted about 80 million households with a dishwasher out of about 118 million, roughly 68%, or about two-thirds. Wikipedia's 75% figure cites that same survey but does not match it.",
      "fix": "About two-thirds of U.S. homes have this kitchen appliance, which sprays hot, soapy water over racks of plates, glasses and cutlery.",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "A descendant of John Fitch, whose steamboat was the first patented in the U.S., patented this household machine in 1886.",
+     "verdict": "ok",
+     "evidence": "USPTO: her maternal grandfather was John Fitch, who 'invented the first patented steamboat in the United States'; she received U.S. patent 355,139 just after Christmas 1886 https://www.uspto.gov/dwcstories/cochran.html ; IEEE Spectrum calls Fitch her great-grandfather and says his was 'the first steamboat to be granted a U.S. patent' (either way she is a descendant) https://spectrum.ieee.org/who-invented-the-dishwasher",
      "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
@@ -5828,6 +5860,14 @@
      "text": "Wham-O named this toy after the Frisbie pie company of Bridgeport, Connecticut, whose empty tins New England college students had long tossed around.",
      "verdict": "ok",
      "evidence": "New England Historical Society: the Frisbie Pie Company was in Bridgeport, Connecticut. Yale students tossed its empty tins from the 1920s, and the craze spread to other New England campuses. Wham-O's Knerr saw students calling discs 'Frisbie' and renamed the toy Frisbee. https://newenglandhistoricalsociety.com/the-sweet-new-england-history-of-the-frisbee/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Wham-O first sold this toy as the Pluto Platter, then renamed it after a Connecticut pie company whose empty tins New England college students had long tossed around.",
+     "verdict": "ok",
+     "evidence": "Morrison sold the Pluto Platter rights to Wham-O in January 1957, which then gave it the brand name Frisbee, derived from the Connecticut-based Frisbie Pie Company, whose empty tins Yale students tossed https://en.wikipedia.org/wiki/Frisbee ; 'New England college students often tossed empty pie tins around for fun' and called the Pluto Platter a 'frisbie'; Knerr adopted the nickname https://www.nbcnews.com/news/amp/wbna19267609",
      "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
@@ -8414,6 +8454,30 @@
      "evidence": "Wikipedia: unveiled October 23, 2001 with the promise of '1,000 songs in your pocket'; Apple ended the line on May 10, 2022, discontinuing the iPod Touch, 'the last remaining product in the iPod line'. https://en.wikipedia.org/wiki/IPod",
      "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "This gadget took shape after its maker's hardware chief, Jon Rubinstein, was shown a tiny 1.8-inch hard drive at Toshiba in 2001 and promised to buy every one Toshiba could make.",
+     "verdict": "ok",
+     "evidence": "IEEE Spectrum: on a February 2001 visit to Toshiba, Rubinstein (Apple's SVP of hardware engineering) saw the 1.8-inch drive and 'told his Toshiba colleagues he'd buy every 1.8-inch drive the company could make' https://spectrum.ieee.org/from-podfather-to-palms-pilot",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This device's signature control was inspired by a Bang & Olufsen cordless phone, the BeoCom 6000, which Phil Schiller reportedly brought to an early meeting with Steve Jobs.",
+     "verdict": "ok",
+     "evidence": "Tony Fadell: 'the wheel was inspired from this Bang & Olufsen DECT cordless phone'; the article names it the Beocom 6000 and says Phil Schiller brought it to a meeting with Steve Jobs https://www.ifun.de/ipod-bedienung-bo-telefon-war-vorbild-fuers-click-wheel-186934/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In 2004 Apple sold a black-and-red special edition of this device with the engraved signatures of U2's four members on its back.",
+     "verdict": "ok",
+     "evidence": "Apple, 26 Oct 2004: U2 special edition with 'a gorgeous black enclosure with a red Click Wheel' and 'custom engraving of U2 band member signatures' https://www.apple.com/newsroom/2004/10/26Apple-Introduces-the-U2-iPod/ ; signatures 'engraved on the stainless steel back' https://512pixels.net/2022/05/the-u2-ipod/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -9644,6 +9708,14 @@
      "text": "Lucky, the mascot of General Mills' Lucky Charms cereal, is one of these little Irish fairies, said to hide a pot of gold at the end of the rainbow.",
      "verdict": "ok",
      "evidence": "Wikipedia: Lucky is 'the mascot of Lucky Charms cereal, created by General Mills'; leprechauns are said to have a hidden pot of gold at the end of the rainbow. https://en.wikipedia.org/wiki/Leprechaun",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "This creature gave its name to the 'economics' that Paul Krugman mocked in July 2016, after one European country reported 26 percent GDP growth for 2015.",
+     "verdict": "ok",
+     "evidence": "Krugman coined the term on 12 July 2016 ('Leprechaun economics: Ireland reports 26 percent growth! But it doesn't make sense') after the Irish CSO revised 2015 GDP growth to 26.3% https://en.wikipedia.org/wiki/Leprechaun_economics",
      "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
@@ -13522,6 +13594,14 @@
      "evidence": "Wikipedia: at the February 4, 2007, Super Bowl XLI halftime show, a downpour began during 'Purple Rain', the closing song. https://en.wikipedia.org/wiki/Super_Bowl_XLI_halftime_show",
      "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This musician is credited with playing all 27 instruments listed on his 1978 debut album, 'For You', which he also wrote, arranged and produced.",
+     "verdict": "ok",
+     "evidence": "'In 1978, Prince hit the ground running with his debut album For You'; 'Prince is listed as playing all 27 instruments on this album', credited 'produced, arranged, composed and performed by Prince' https://www.thecurrent.org/feature/2021/04/15/musicheads-essential-album-prince-for-you",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -13596,6 +13676,14 @@
      "text": "This black opening at the center of the iris takes its name from the Latin for 'little doll', for the tiny image of yourself you see in someone else's.",
      "verdict": "ok",
      "evidence": "Merriam-Webster: from Latin pupilla, diminutive of pupa 'doll', 'so called because the tiny image of oneself seen in another's eye is like a tiny doll.' https://www.merriam-webster.com/dictionary/pupil",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "In a 1966 study co-written by future Nobel laureate Daniel Kahneman, this part of the eye proved a reliable gauge of mental effort as people held more and more digits in memory.",
+     "verdict": "ok",
+     "evidence": "Beatty and Kahneman's 1966 study: pupil diameter increased with each digit heard, peak size depended on how many digits had to be held, so dilation serves as a measure of cognitive load/mental effort https://en.wikipedia.org/wiki/Task-invoked_pupillary_response ; Kahneman & Beatty (1966) 'Pupil Diameter and Load on Memory', Science; Kahneman won the 2002 Nobel Memorial Prize in Economic Sciences https://en.wikipedia.org/wiki/Daniel_Kahneman",
      "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
@@ -16422,6 +16510,14 @@
      "evidence": "Wikipedia: lacrimal glands secrete the fluid; from the lacrimal punctum tears enter the lacrimal sac, the nasolacrimal duct and 'finally into the nasal cavity'; excess tears from strong emotion 'can cause the nose to run' https://en.wikipedia.org/wiki/Tears",
      "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "Researchers in Madagascar reported in 2007 that a moth uses its barbed, harpoon-like proboscis to drink this fluid from sleeping birds.",
+     "verdict": "ok",
+     "evidence": "Mongabay (April 2007) reports the Biology Letters 2007 study by Hilgartner et al. finding that Hemiceratoides hieroglyphica uses a 'sharply barbed proboscis' to drink tears of sleeping birds in Madagascar https://news.mongabay.com/2007/04/tear-sucking-moth-in-madagascar-feeds-on-bird-eyes/ ; Wikipedia calls it a 'specialized, harpoon-like proboscis' https://en.wikipedia.org/wiki/Hemiceratoides_hieroglyphica",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -17808,6 +17904,14 @@
      "text": "In this board game, players win colored plastic wedges by answering questions in six categories, such as blue for Geography and orange for Sports & Leisure.",
      "verdict": "ok",
      "evidence": "Wikipedia: answering correctly on a category headquarters space 'awards a wedge in that color'; classic edition has Geography in blue and Sports & Leisure in orange, among six categories. https://en.wikipedia.org/wiki/Trivial_Pursuit",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "This board game's first run of 1,100 copies, in 1981, cost its inventors about $75 apiece to make, but they sold them for $15 each.",
+     "verdict": "ok",
+     "evidence": "Museum of Play: in 1981 the pair began producing the game; 'an initial print run of 1,100 copies' https://www.museumofplay.org/?p=28793 ; Antique Trader: they launched it 'by producing 1,100 games - at a loss'; 'Initially the game cost $75 to produce and sold for $15' https://www.antiquetrader.com/feature-stories/80s-board-game-trivial-pursuit-answered-our-need-to-know",
      "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
@@ -19494,6 +19598,14 @@
      "text": "Stanford grad students Jerry Yang and David Filo started this web portal in 1994 as 'Jerry and David's Guide to the World Wide Web'.",
      "verdict": "ok",
      "evidence": "Wikipedia: in January 1994 Stanford graduate students Jerry Yang and David Filo built 'Jerry and David's guide to the World Wide Web' https://en.wikipedia.org/wiki/Yahoo",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "This company paid country singer Wylie Gustafson about $590 for a recording; after it aired nationally in the company's ads, he sued for $5 million and settled in 2002.",
+     "verdict": "ok",
+     "evidence": "Gustafson 'accepted a one-time payment of $590.38' for the yodel, recorded for what was meant to be a regional Yahoo TV ad; he then heard it in a national Yahoo ad (Super Bowl 1999); 'we had asked for $5 million'; the case settled in 2002 https://thehustle.co/the-yodeler-who-sued-yahoo ; The Register, 23 April 2002: he was suing Yahoo for $5 million and has settled https://www.theregister.com/2002/04/23/yahoo_settles_yodel_case/",
      "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
