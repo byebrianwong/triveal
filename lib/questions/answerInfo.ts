@@ -129,6 +129,12 @@ export const ANSWER_PAGE_TITLES: Record<string, string | null> = {
   hydra: "Lernaean Hydra",
   "washington crossing the delaware": "Washington Crossing the Delaware (1851 paintings)",
   "wheel of fortune": "Wheel of Fortune (American game show)",
+  // Bare names that are disambiguation pages or a different subject (the
+  // abstract noun, the wagon route)
+  "harlem shake": "Harlem Shake (meme)",
+  sirens: "Siren (mythology)",
+  curiosity: "Curiosity (rover)",
+  "oregon trail": "The Oregon Trail (series)",
 };
 
 type AnswerLike = Pick<Question, "answer" | "answerCanonical" | "answerAliases" | "category"> &
