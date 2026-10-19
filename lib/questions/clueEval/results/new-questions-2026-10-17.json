@@ -340,17 +340,18 @@
   "clues": [
    {
     "position": 1,
-    "text": "This tale was never translated from an Arabic original; Hanna Diyab, a storyteller from Aleppo, told it to the French translator Antoine Galland in Paris in 1709.",
+    "text": "This tale has no known Arabic original; like Ali Baba, it was told to the French translator Antoine Galland in Paris in 1709 by Hanna Diyab, a storyteller from Aleppo.",
     "how": "written",
     "sources": [
-     "https://en.wikipedia.org/wiki/Hanna_Diyab",
+     "https://arablit.org/2019/05/27/translation-of-aladdin-tellers-memoir-forthcoming-2020/",
      "https://en.wikipedia.org/wiki/Aladdin",
-     "https://arablit.org/2019/05/27/translation-of-aladdin-tellers-memoir-forthcoming-2020/"
+     "https://en.wikipedia.org/wiki/Ali_Baba_and_the_Forty_Thieves",
+     "https://en.wikipedia.org/wiki/Hanna_Diyab"
     ]
    },
    {
     "position": 2,
-    "text": "In British Christmas pantomimes of this story, the hero's mother is the comic dame Widow Twankey, named after a cheap brand of Chinese tea.",
+    "text": "In British Christmas pantomimes of this story, the hero's mother is a comic dame named after a cheap brand of Chinese tea.",
     "how": "written",
     "sources": [
      "https://en.wikipedia.org/wiki/Widow_Twankey"
