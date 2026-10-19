@@ -13796,7 +13796,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This tale was never translated from an Arabic original; Hanna Diyab, a storyteller from Aleppo, told it to the French translator Antoine Galland in Paris in 1709." },
-      { position: 2, text: "The first printed version of this tale, from 1710, is set in 'one of the cities of China', and its hero commands two genies, the weaker one bound to a magic ring." },
+      { position: 2, text: "The first printed version of this tale, in Antoine Galland's French Nights, is set in 'one of the cities of China', and its hero commands two genies, the weaker one bound to a magic ring." },
       { position: 3, text: "In British Christmas pantomimes of this story, the hero's mother is the comic dame Widow Twankey, named after a cheap brand of Chinese tea." },
       { position: 4, text: "Robin Williams voiced the wisecracking Genie in Disney's 1992 animated film of this tale, whose street-urchin hero falls for Princess Jasmine." },
     ],
@@ -13832,10 +13832,10 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Literature",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "In 1926 the barrister C. P. Sanger showed that this novel's events can be dated exactly, between 1771 and 1803, and that its plot to take over two estates is legally sound." },
+      { position: 1, text: "In 1926 the barrister C. P. Sanger showed that this novel's events can be dated year by year, from 1771 to 1803, and that its law of entails, wills and mortgages is accurate." },
       { position: 2, text: "For an 1850 edition of this novel, published after its author's death, her sister corrected the punctuation and diluted the thick Yorkshire dialect of the old servant Joseph." },
       { position: 3, text: "Kate Bush, who shares a birthday with this novel's author, wrote a song named after it at 18 and became the first woman to top the UK chart with an entirely self-written song." },
-      { position: 4, text: "In this Emily Brontë novel, filmed in 2026 with Margot Robbie and Jacob Elordi, the foundling Heathcliff loves Catherine Earnshaw on the Yorkshire moors." },
+      { position: 4, text: "In this Emily Brontë novel, adapted in a 2026 film with Margot Robbie and Jacob Elordi, the foundling Heathcliff loves Catherine Earnshaw on the Yorkshire moors." },
     ],
     decoys: [
       { text: "Jane Eyre", eliminatedByClue: 2 },
@@ -13949,7 +13949,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "This company had to quit the instant-camera business in 1986 after losing a patent suit to Polaroid, and in 1991 it agreed to pay Polaroid $925 million." },
       { position: 2, text: "Engineer Steven Sasson built the first handheld digital camera at this company in 1975; it weighed about 8 pounds and took 23 seconds to save each 0.01-megapixel image to tape." },
       { position: 3, text: "This brand's founder said he built its invented name around the letter K, because it seemed 'a strong, incisive sort of letter'." },
-      { position: 4, text: "George Eastman launched this Rochester company's first camera in 1888 with the slogan 'You press the button, we do the rest'; it filed for bankruptcy in 2012." },
+      { position: 4, text: "George Eastman launched the first camera bearing this Rochester company's name in 1888 with the slogan 'You press the button, we do the rest'; the company filed for bankruptcy in 2012." },
     ],
     decoys: [
       { text: "Polaroid", eliminatedByClue: 1 },
@@ -13968,7 +13968,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "A descendant of John Fitch, whose steamboat was the first patented in the U.S., patented this appliance in 1886; her version cleaned with water pressure instead of scrubbers." },
       { position: 2, text: "Chicago's Palmer House hotel made the first big purchase of this invention in 1887, and at the 1893 World's Fair it won a prize for mechanical construction and durability." },
       { position: 3, text: "This appliance's Illinois inventor was reportedly fed up with servants chipping her heirloom china, and vowed that if nobody else would invent it, she'd do it herself." },
-      { position: 4, text: "About three-quarters of U.S. homes have this kitchen appliance, which sprays hot, soapy water over racks of plates, glasses and cutlery." },
+      { position: 4, text: "About two-thirds of U.S. homes have this kitchen appliance, which sprays hot, soapy water over racks of plates, glasses and cutlery." },
     ],
     decoys: [
       { text: "Washing machine", eliminatedByClue: 3 },
@@ -14079,7 +14079,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This plant was reportedly so prized by Tokugawa Ieyasu that he forbade taking it out of Utogi, the Shizuoka village where its cultivation is said to have begun around 1600." },
       { position: 2, text: "A fire alarm that wakes deaf and hard-of-hearing sleepers by spraying the vapor of this pungent condiment won Japanese researchers the 2011 Ig Nobel Prize in Chemistry." },
-      { position: 3, text: "Chefs traditionally grate this plant's knobbly stem on sharkskin, and its sharp bite fades within about 15 to 20 minutes of grating." },
+      { position: 3, text: "Chefs traditionally grate this plant's knobbly stem on sharkskin, and its subtle flavor starts to fade about 15 to 20 minutes after grating, leaving mostly heat." },
       { position: 4, text: "Most of the green paste served under this name at sushi bars outside Japan is really a mix of horseradish and mustard, colored green." },
     ],
     decoys: [
@@ -14117,7 +14117,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "In 2016 a Vanderbilt engineer used a roughly $40 machine for making this treat, bought at Target, to spin fibers that served as molds for artificial capillaries." },
       { position: 2, text: "The French call this treat 'daddy's beard', and a Paris-based couple borrowed that name in 1970 for Barbapapa, their shape-shifting cartoon hero." },
-      { position: 3, text: "A Nashville dentist co-invented the machine for this treat, and at the 1904 St. Louis World's Fair he and his partner sold 68,655 boxes at 25 cents, nearly half the price of admission." },
+      { position: 3, text: "A Nashville dentist co-invented the machine for this treat, and at the 1904 St. Louis World's Fair he and his partner sold 68,655 boxes at 25 cents, half the price of admission." },
       { position: 4, text: "This fluffy fairground treat is made by melting sugar and flinging it through tiny holes, where it cools into hair-thin threads that are wound onto a paper cone." },
     ],
     decoys: [
@@ -14136,7 +14136,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This game's makers were sued for $300 million by author Fred L. Worth after a fake fact he had planted in his reference book, that Columbo's first name was Philip, turned up in it." },
       { position: 2, text: "About 20 million copies of this board game were reportedly sold in the United States in 1984 alone, three years after its launch in Canada." },
-      { position: 3, text: "This game was dreamed up in Montreal on 15 December 1979, when its two journalist inventors found pieces missing from their Scrabble set and decided to make their own." },
+      { position: 3, text: "This game was dreamed up in Montreal on 15 December 1979, after one of its two journalist inventors realized he had bought his sixth Scrabble set and wondered if they could invent their own." },
       { position: 4, text: "In this board game, players win colored plastic wedges by answering questions in six categories, such as blue for Geography and orange for Sports & Leisure." },
     ],
     decoys: [
@@ -14153,7 +14153,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Games",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This computer game was wiped from its school's system at the end of a 1971 term, leaving only a paper printout, and its creator retyped the code over Thanksgiving weekend in 1974." },
+      { position: 1, text: "This computer game was deleted from a school district's mainframe at the end of a 1971 term, leaving only a paper printout, and one of its creators retyped the code over Thanksgiving weekend in 1974." },
       { position: 2, text: "This game was first played in a Minneapolis history class on a screenless teletype, and players hunted for food by typing 'BANG' as fast as they could." },
       { position: 3, text: "For a 1975 release, this game's designer set the odds of misfortunes such as illness and death using the diaries and accounts of real 19th-century settlers." },
       { position: 4, text: "In this classroom computer game, players lead a wagon party west from Independence, Missouri, ford rivers, and often read 'You have died of dysentery.'" },

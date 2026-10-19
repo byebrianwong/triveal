@@ -79,6 +79,46 @@
     }
    ]
   },
+  "aladdin": {
+   "id": "aladdin",
+   "answer": "Aladdin",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This tale was never translated from an Arabic original; Hanna Diyab, a storyteller from Aleppo, told it to the French translator Antoine Galland in Paris in 1709.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Galland met Hanna, who had travelled from Aleppo to Paris, in March 1709; Hanna Diyab article lists Aladdin as told on 5 May 1709, apparently from oral telling; 'any authentic Arabic textual source has not been found' and the Chavis and Sabbagh Arabic manuscripts are back-translations of Galland's French. https://en.wikipedia.org/wiki/Aladdin https://en.wikipedia.org/wiki/Hanna_Diyab",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "The first printed version of this tale, from 1710, is set in 'one of the cities of China', and its hero commands two genies, the weaker one bound to a magic ring.",
+     "verdict": "loose",
+     "evidence": "Aladdin article: set in 'one of the cities of China'; ring genie 'too weak to directly undo any of the magic of the genie of the lamp'; volumes ix and x 'published in 1710'. Editions list: 'Vols. 9, 10 = 1712, Paris: Florentin Delaulne.' https://en.wikipedia.org/wiki/Aladdin https://en.wikipedia.org/wiki/Les_Mille_et_Une_Nuits",
+     "problem": "The 1710 date is disputed: Wikipedia's Aladdin article says volumes IX and X appeared in 1710, but its Les Mille et Une Nuits editions list dates volumes 9 and 10 to 1712 (Paris, Florentin Delaulne). The setting and the weaker ring genie are correct.",
+     "fix": "The first printed version of this tale, in Antoine Galland's French Nights, is set in 'one of the cities of China', and its hero commands two genies, the weaker one bound to a magic ring.",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In British Christmas pantomimes of this story, the hero's mother is the comic dame Widow Twankey, named after a cheap brand of Chinese tea.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Widow Twankey, Aladdin's mother in pantomime, was 'named after a cheap brand of China tea' (twankay, an inferior green tea); first used in H. J. Byron's 1861 Aladdin. https://en.wikipedia.org/wiki/Widow_Twankey",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Robin Williams voiced the wisecracking Genie in Disney's 1992 animated film of this tale, whose street-urchin hero falls for Princess Jasmine.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Robin Williams voiced the Genie in the 1992 film; Aladdin is 'an Arabian street urchin' in love with Princess Jasmine. https://en.wikipedia.org/wiki/Aladdin_(1992_Disney_film)",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "albert-einstein": {
    "id": "albert-einstein",
    "answer": "Albert Einstein",
@@ -265,6 +305,44 @@
      "verdict": "ok",
      "evidence": "Wikipedia: it is the largest tract of tropical rainforest in the world; jaguars and poison dart frogs live there. https://en.wikipedia.org/wiki/Amazon_rainforest",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "amber": {
+   "id": "amber",
+   "answer": "Amber",
+   "checks": [
+    {
+     "position": 1,
+     "text": "In 2015 a palaeontologist at a market in Myitkyina, Myanmar, spotted a 99-million-year-old feathered dinosaur tail in a lump of this, which had been taken for a plant.",
+     "verdict": "ok",
+     "evidence": "Asian Scientist: Xing Lida found the piece in 2015 at an amber market in Myitkyina, Myanmar. It had been seen as 'some kind of plant inclusion,' was about 99 million years old and held a feathered dinosaur tail. https://www.asianscientist.com/2016/12/in-the-lab/feathered-dinosaur-tail-preserved-amber/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This material's ancient Greek name, ēlektron, gave us the word 'electricity', because rubbing it makes it attract light things such as bits of paper.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'electricity' comes from Latin electrum, from Greek elektron, 'amber.' The page describes rubbed amber attracting 'light bodies,' with bits of paper as an example. https://en.wikipedia.org/wiki/Etymology_of_electricity",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Prussia's king gave Peter the Great a room paneled in this in 1716; called the 'Eighth Wonder of the World', it was looted by the Nazis in 1941 and never found.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Frederick William I of Prussia presented the room to Peter the Great in 1716. It was dubbed the 'Eighth Wonder of the World.' Army Group North dismantled it in 1941 and took it to Konigsberg. It 'was never seen in public again,' and apart from one mosaic panel it has never been recovered. https://en.wikipedia.org/wiki/Amber_Room",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "In 'Jurassic Park', scientists clone dinosaurs from blood inside a mosquito preserved in this golden fossilized tree resin.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: in Crichton's novel and the 1993 film, scientists 'extract the preserved blood of dinosaurs from prehistoric mosquitoes trapped in amber' and clone the dinosaurs. Amber is fossilized tree resin. https://en.wikipedia.org/wiki/Amber",
+     "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
    ]
@@ -575,6 +653,44 @@
      "verdict": "ok",
      "evidence": "Armstrong stepped off and said 'That's one small step for [a] man, one giant leap for mankind', the first human on the Moon. https://en.wikipedia.org/wiki/Apollo_11",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "apollo-13": {
+   "id": "apollo-13",
+   "answer": "Apollo 13",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This mission's command module pilot radioed a day after launch that he hadn't filed his income tax return, and he qualified for an extension as a US citizen 'abroad'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Swigert realized during the flight that he had not filed his federal tax return and 'was entitled to a 60-day extension for being out of the country at the deadline.' Don't Mess With Taxes: he asked how to get an extension on April 12, 1970, the day after launch, and Glynn Lunney replied that citizens outside the country get a 60-day extension. https://en.wikipedia.org/wiki/Apollo_13 https://dontmesswithtaxes.com/?p=6168",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This mission's plutonium generator, meant to power science experiments on the Moon, came home instead and sank into the Pacific's Tonga Trench.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the SNAP-27 RTG for the lunar surface experiments 'rests in the South Pacific Ocean, in the vicinity of the Tonga Trench.' Its graphite fuel cask survived reentry and sank there. https://en.wikipedia.org/wiki/Radioisotope_thermoelectric_generator",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This mission's crew held the record for the farthest humans had ever traveled from Earth, 400,171 km, until Artemis II passed it on April 6, 2026.",
+     "verdict": "ok",
+     "evidence": "Al Jazeera: Artemis II broke the Apollo 13 record of 400,171 km (248,655 miles) on Monday, 6 April 2026, at 15:58 GMT. https://www.aljazeera.com/news/2026/4/6/artemis-ii-breaks-record-for-the-furthest-human-travel-from-earth",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "After an oxygen tank exploded on this 1970 Moon mission, Jack Swigert radioed 'Houston, we've had a problem', and the crew used the lunar module as a lifeboat.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: after the oxygen tank accident, Swigert reported 'Okay, Houston, we've had a problem here,' and Lovell repeated it. The crew used the lunar module as a 'lifeboat.' https://en.wikipedia.org/wiki/Apollo_13",
+     "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
    ]
@@ -2279,6 +2395,44 @@
     }
    ]
   },
+  "bone-marrow": {
+   "id": "bone-marrow",
+   "answer": "Bone Marrow",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This tissue was first transplanted successfully between identical twins in the 1950s, work that won E. Donnall Thomas a share of the 1990 Nobel Prize in Medicine.",
+     "verdict": "ok",
+     "evidence": "Univ. of Minnesota: 'the first successful bone marrow transplant was performed by Dr. E. Donnall Thomas in Cooperstown, New York' in 1956, using marrow from the leukemia patient's identical twin https://cancer.umn.edu/mncctn/news/blood-cancer-awareness-history-bone-marrow-transplantation ; Wikipedia: Thomas shared the 1990 Nobel Prize with Joseph E. Murray for the development of cell and organ transplantation https://en.wikipedia.org/wiki/E._Donnall_Thomas",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Four years after receiving this tissue from a German donor, a Reno sheriff's office employee learned in 2019 that his semen carried only the donor's DNA.",
+     "verdict": "ok",
+     "evidence": "ABA Journal (Dec 2019): Chris Long, an IT employee with the Washoe County sheriff's department in Reno, had a German donor; PET: 'after four years the DNA in his semen had been entirely replaced by his donor's' https://www.progress.org.uk/forensics-find-donor-dna-in-semen-of-bone-marrow-transplant-patient/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "About 400,000 years ago, people in Israel's Qesem Cave kept skin-wrapped deer legs for up to nine weeks before cracking them open to eat this.",
+     "verdict": "ok",
+     "evidence": "Phys.org: about 400,000 years ago at Qesem Cave, Israel, fallow deer metapodials 'were kept at the cave covered in skin' and saved 'for up to nine weeks' before the marrow was eaten https://phys.org/news/2019-10-prehistoric-humans-ate-bone-marrow.html",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This soft, spongy tissue in the hollow centers of the skeleton makes roughly 500 billion blood cells a day, and transplants of it are used to treat leukemia.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: a semi-solid tissue in the spongy portions of bones; 'Human marrow produces approximately 500 billion blood cells per day'; transplants treat cancers including leukemia https://en.wikipedia.org/wiki/Bone_marrow",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "boston-tea-party": {
    "id": "boston-tea-party",
    "answer": "Boston Tea Party",
@@ -3087,6 +3241,44 @@
     }
    ]
   },
+  "charlottes-web": {
+   "id": "charlottes-web",
+   "answer": "Charlotte's Web",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This 1952 children's book's illustrator, Garth Williams, first gave its heroine a woman's face, until the author asked him to draw her realistically.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'Williams's initial drawings depicted a spider with a woman's face', and White asked him to draw a more lifelike spider; released October 15, 1952 https://en.wikipedia.org/wiki/Charlotte%27s_Web",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "When its author recorded this book for an audiobook in 1970, he reportedly needed 17 takes to read its heroine's death without his voice breaking.",
+     "verdict": "ok",
+     "evidence": "Mental Floss: White recorded the audiobook in 1970 and 'took 17 takes to get through Charlotte's death without his voice cracking or beginning to cry' https://www.mentalfloss.com/literature/books/10-things-you-might-not-know-about-charlottes-web",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Its author carried a spider's egg sac from his Maine barn to New York in a candy box, where the hatchlings escaped and strung silk from his hairbrush to his mirror.",
+     "verdict": "ok",
+     "evidence": "Mental Floss: White cut an egg sac from his barn, put it in a candy box when leaving for New York, and the hatchlings strung lines 'from my comb to my brush, from my brush to my mirror' https://www.mentalfloss.com/literature/books/10-things-you-might-not-know-about-charlottes-web",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "In this E. B. White novel, a barn spider saves the pig Wilbur from slaughter by spinning words such as 'Some Pig' and 'Terrific'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Charlotte weaves words praising Wilbur, including 'Some Pig' and 'Terrific', so Zuckerman will not kill a famous pig https://en.wikipedia.org/wiki/Charlotte%27s_Web",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "cheese": {
    "id": "cheese",
    "answer": "Cheese",
@@ -3473,6 +3665,82 @@
     }
    ]
   },
+  "cloud-gate": {
+   "id": "cloud-gate",
+   "answer": "Cloud Gate",
+   "checks": [
+    {
+     "position": 1,
+     "text": "In 2015 the Chinese oil city of Karamay built a mirrored 'oil bubble' so like this artwork that its creator cried plagiarism; the mayor of its home city called the copy flattery.",
+     "verdict": "ok",
+     "evidence": "Hurriyet: the Karamay sculpture is 'in the shape of an oil bubble'. Hyperallergic: it opened in August 2015, Kapoor was 'shocked at the blatant plagiarism', and Mayor Emanuel said 'Imitation is the greatest form of flattery'. https://hyperallergic.com/229974/chicago-mayor-flattered-kapoor-even-madder-as-cloud-gate-gate-continues/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This artwork's creator sued the NRA in 2018 for showing it in a promotional video, and that December the gun group settled by agreeing to remove the image.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Kapoor sued over the NRA video's use of the sculpture, and the suit settled in December 2018 with the NRA removing the image. A search confirmed the complaint was filed on June 19, 2018. https://en.wikipedia.org/wiki/Cloud_Gate",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This sculpture's 168 stainless steel plates were welded together and polished until no seams showed; its 110-short-ton form was inspired by liquid mercury.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 168 stainless steel plates welded together, with every weld ground and polished until no seams are visible; weighs 110 short tons; design 'inspired by liquid mercury'. https://en.wikipedia.org/wiki/Cloud_Gate",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Anish Kapoor's mirrored sculpture in Chicago's Millennium Park is better known by a nickname that he once called 'completely stupid'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Kapoor described the 'Bean' nickname as 'completely stupid'; the sculpture is in Chicago's Millennium Park. https://en.wikipedia.org/wiki/Cloud_Gate",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "club-penguin": {
+   "id": "club-penguin",
+   "answer": "Club Penguin",
+   "checks": [
+    {
+     "position": 1,
+     "text": "In 2022 London police took over 'Rewritten', a fan-run copy of this closed kids' game, after a Disney copyright complaint, and arrested three people.",
+     "verdict": "ok",
+     "evidence": "NME (14 Apr 2022): City of London Police's PIPCU seized Club Penguin Rewritten after a Disney copyright notice and arrested three people https://www.nme.com/news/club-penguin-fan-remake-closed-as-police-make-three-arrests-3204722",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In this online game's final weeks in 2017, players raced to get banned fastest by swearing in chat, with the best times from signup to ban under 40 seconds.",
+     "verdict": "ok",
+     "evidence": "Gigazine (24 Feb 2017, before the March 2017 closure): players raced to get banned by typing a prohibited word in chat, timed from a fresh browser through signup to the ban notice; fastest leaderboard time 37.37 seconds https://gigazine.net/gsc_news/en/20170224-club-penguin-ban-race",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Disney bought this virtual world, made in Kelowna, British Columbia, for $350 million in 2007, plus up to $350 million in bonuses it never paid because profit goals were missed.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: sold to Disney in 2007 for $350.93 million with 'bonuses of up to $350 million' for targets by 2009; 'Disney ultimately didn't pay the extra $350 million, as Club Penguin missed both profit goals'; developed in Kelowna, British Columbia https://en.wikipedia.org/wiki/Club_Penguin",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "In this snowy online world for kids, launched in 2005, players waddled around as cartoon birds, decorated their igloos and kept fluffy pets called puffles.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: went live October 24, 2005; each player had an igloo home; players could buy pets called puffles https://en.wikipedia.org/wiki/Club_Penguin",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "coca-cola": {
    "id": "coca-cola",
    "answer": "Coca-Cola",
@@ -3625,6 +3893,46 @@
     }
    ]
   },
+  "cotton-candy": {
+   "id": "cotton-candy",
+   "answer": "Cotton Candy",
+   "checks": [
+    {
+     "position": 1,
+     "text": "In 2016 a Vanderbilt engineer used a roughly $40 machine for making this treat, bought at Target, to spin fibers that served as molds for artificial capillaries.",
+     "verdict": "ok",
+     "evidence": "VUMC (Feb 2016): Vanderbilt engineer Leon Bellan: 'I went to Target and bought a cotton candy machine for about $40'; its fibers were used as templates for artificial capillary networks. https://news.vumc.org/?p=235866",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "The French call this treat 'daddy's beard', and a Paris-based couple borrowed that name in 1970 for Barbapapa, their shape-shifting cartoon hero.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Barbapapa was created by Annette Tison and Talus Taylor, a Paris-based couple, and first published 19 May 1970; the name comes from 'barbe à papa', literally 'Daddy's beard', meaning cotton candy; the characters shapeshift. https://en.wikipedia.org/wiki/Barbapapa",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "A Nashville dentist co-invented the machine for this treat, and at the 1904 St. Louis World's Fair he and his partner sold 68,655 boxes at 25 cents, nearly half the price of admission.",
+     "verdict": "loose",
+     "evidence": "Smithsonian: Nashville dentist William Morrison and confectioner John C. Wharton sold their product for $0.25 a box, half the fair's admission price (Wikipedia gives 68,655 boxes: https://en.wikipedia.org/wiki/Cotton_candy). https://www.smithsonianmag.com/smart-news/people-worlds-fair-paid-half-admission-box-cotton-candy-180961332/",
+     "problem": "The 25-cent price was exactly half the fair's 50-cent admission, not 'nearly half'.",
+     "fix": "A Nashville dentist co-invented the machine for this treat, and at the 1904 St. Louis World's Fair he and his partner sold 68,655 boxes at 25 cents, half the price of admission.",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This fluffy fairground treat is made by melting sugar and flinging it through tiny holes, where it cools into hair-thin threads that are wound onto a paper cone.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: sugar is heated until it liquefies and spun out through tiny holes by centrifugal force, cooling into fine strands that are gathered on a stick or cone. https://en.wikipedia.org/wiki/Cotton_candy",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "craigslist": {
    "id": "craigslist",
    "answer": "Craigslist",
@@ -3773,6 +4081,44 @@
      "verdict": "ok",
      "evidence": "Wikipedia: crocodiles are armoured with large osteoderms, have a long V-shaped snout, and look similar to alligators, which are in a separate family. https://en.wikipedia.org/wiki/Crocodile",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "curiosity": {
+   "id": "curiosity",
+   "answer": "Curiosity",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This NASA robot's wheels are punched with holes that spell 'JPL' in Morse code, leaving tracks its software uses to measure how far it has driven.",
+     "verdict": "ok",
+     "evidence": "NASA: the holes in the wheels leave imprints that spell 'JPL' in Morse code. The visual odometry software uses features in the tracks to measure the distance between drive steps. https://science.nasa.gov/resource/curiosity-tracks-its-tracks",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Clara Ma, a 12-year-old Kansas sixth-grader, named this robot in a 2009 NASA essay contest and won a trip to sign her name on it while it was being built.",
+     "verdict": "ok",
+     "evidence": "JPL, May 27, 2009: Clara Ma, a 12-year-old sixth-grader from Lenexa, Kansas, won the naming contest. Her prize was a trip to JPL to sign her name on the rover while it was being assembled. The contest opened in November 2008, and the winner was picked in 2009. https://www.jpl.nasa.gov/news/nasa-selects-students-entry-as-new-mars-rover-name/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "On its first anniversary in August 2013, this robot used vibrations from its soil-analysis instrument to hum 'Happy Birthday' to itself, a stunt it never repeated.",
+     "verdict": "ok",
+     "evidence": "Nextgov (2017): in August 2013, engineers used the vibrations of the SAM sample-analysis instrument to play 'Happy Birthday' for the first anniversary. The rover tweeted 'I only hummed 'Happy Birthday' to myself once, back in 2013,' and NASA saw 'no scientific gain' in repeating it. A search found no later repeat. https://www.nextgov.com/emerging-tech/2017/08/why-curiosity-rover-stopped-singing-happy-birthday-itself/140176",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This car-sized, nuclear-powered NASA explorer was lowered onto Mars by a rocket-powered 'sky crane' in August 2012 and has been climbing Mount Sharp in Gale Crater.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the 'car-sized rover' is powered by a radioisotope thermoelectric generator. It was lowered by the thruster-driven 'sky crane' descent stage and landed in Gale crater on August 6, 2012. NASA: still active, and it reached 1 km of elevation gain climbing Mount Sharp in August 2026. https://en.wikipedia.org/wiki/Curiosity_(rover) https://science.nasa.gov/mission/msl-curiosity/",
+     "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
    ]
@@ -4004,6 +4350,46 @@
      "text": "Bruce Willis plays New York cop John McClane in this action film, taking on Hans Gruber's gang in a Los Angeles office tower on Christmas Eve.",
      "verdict": "ok",
      "evidence": "Wikipedia: on Christmas Eve, NYPD detective John McClane (Bruce Willis) arrives in Los Angeles and faces Hans Gruber's gang in Nakatomi Plaza. https://en.wikipedia.org/wiki/Die_Hard",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "dishwasher": {
+   "id": "dishwasher",
+   "answer": "Dishwasher",
+   "checks": [
+    {
+     "position": 1,
+     "text": "A descendant of John Fitch, whose steamboat was the first patented in the U.S., patented this appliance in 1886; her version cleaned with water pressure instead of scrubbers.",
+     "verdict": "ok",
+     "evidence": "IEEE Spectrum: 'Her great-grandfather John Fitch invented the first steamboat to be granted a U.S. patent'; she was granted a patent in 1886; 'Her machine was the first to use water pressure instead of scrubbers'. https://spectrum.ieee.org/who-invented-the-dishwasher",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Chicago's Palmer House hotel made the first big purchase of this invention in 1887, and at the 1893 World's Fair it won a prize for mechanical construction and durability.",
+     "verdict": "ok",
+     "evidence": "USPTO: in 1887 she met the Palmer House manager and left with her first order; at the 1893 World's Fair judges gave the machine the top award for 'best mechanical construction, durability, and adaptation to its line of work'. https://www.uspto.gov/dwcstories/cochran.html",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This appliance's Illinois inventor was reportedly fed up with servants chipping her heirloom china, and vowed that if nobody else would invent it, she'd do it herself.",
+     "verdict": "ok",
+     "evidence": "USPTO: living in Shelbyville, Illinois, she was upset when 'the servants had chipped the dishes' (heirlooms said to date to the 1600s) and vowed, 'If nobody else is going to invent a dishwashing machine, I'll do it myself.' https://www.uspto.gov/dwcstories/cochran.html",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "About three-quarters of U.S. homes have this kitchen appliance, which sprays hot, soapy water over racks of plates, glasses and cutlery.",
+     "verdict": "loose",
+     "evidence": "EIA: 'Of the 80 million households that have a dishwasher, 16 million (almost 20%) did not use their dishwasher in 2015' (out of about 118 million U.S. households). https://www.eia.gov/todayinenergy/detail.php?id=31692",
+     "problem": "'About three-quarters' is overstated. EIA's 2015 RECS counted about 80 million households with a dishwasher out of about 118 million, roughly 68%, or about two-thirds. Wikipedia's 75% figure cites that same survey but does not match it.",
+     "fix": "About two-thirds of U.S. homes have this kitchen appliance, which sprays hot, soapy water over racks of plates, glasses and cutlery.",
      "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
@@ -5215,6 +5601,44 @@
     }
    ]
   },
+  "flappy-bird": {
+   "id": "flappy-bird",
+   "answer": "Flappy Bird",
+   "checks": [
+    {
+     "position": 1,
+     "text": "In February 2014 Apple and Google began rejecting new games that used this game's distinctive first word, to stem a flood of copycats.",
+     "verdict": "ok",
+     "evidence": "The Next Web, February 15, 2014: Apple and Google are now rejecting games with 'Flappy' in the title, 'an apparent effort to stem the flow of clones.' https://thenextweb.com/news/apple-google-now-rejecting-games-flappy-title",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "After this game was pulled, phones that still had it installed were listed on eBay with bids reaching $90,000, though many bids were thought to be fake.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: phones with the app pre-installed were listed on eBay, 'some receiving bids of over $90,000.' Digit: an iPhone 5 listing reached $90,000 with 62 bids, which 'can obviously be fake bids.' https://www.digit.in/news/apps/flappy-bird-iphone-up-for-sale-at-90-000-on-ebay-19714.html",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Vietnamese developer Dong Nguyen said this game was earning about $50,000 a day from ads when he pulled it in February 2014, tweeting 'I cannot take this anymore.'",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Nguyen told The Verge (February 5, 2014) that the game earned 'around $50,000 a day' from in-game ads. On February 8, 2014, he tweeted that he would take it down, adding 'I cannot take this anymore.' It was removed on February 10. https://en.wikipedia.org/wiki/Flappy_Bird",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "In this 2013 mobile game, each tap of the screen keeps a little flier named Faby aloft as it squeezes through gaps between green, Mario-style pipes.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: released May 24, 2013. The bird is named Faby and rises only when the player taps the screen, passing between green pipes. Kotaku called the graphics 'Mario-style.' https://en.wikipedia.org/wiki/Flappy_Bird",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "forbidden-city": {
    "id": "forbidden-city",
    "answer": "Forbidden City",
@@ -5367,6 +5791,44 @@
      "verdict": "ok",
      "evidence": "Covers the Storming of the Bastille on 14 July 1789, the Reign of Terror, and the 1799 coup making Napoleon First Consul. https://en.wikipedia.org/wiki/French_Revolution",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "frisbee": {
+   "id": "frisbee",
+   "answer": "Frisbee",
+   "checks": [
+    {
+     "position": 1,
+     "text": "When Ed Headrick, who patented the grooves on this toy's professional model, died in 2002, his ashes were molded into a limited run of them, as he had wished.",
+     "verdict": "ok",
+     "evidence": "PDGA: Headrick added grooves to make the Professional Model and patented them as the 'Lines of Headrick.' He died in August 2002, and his ashes were molded into a limited number of discs, as he had wished. https://www.pdga.com/node/21359",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Selling an early plastic version of this toy at fairs around 1948, its inventor joked that it was free but the 'invisible wire' it flew on cost $1.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Morrison and Franscioni were making the plastic 'Flyin-Saucer' by 1948 and demonstrated it at fairs, with the pitch 'The Flyin' Saucer is free, but the invisible wire is $1.00.' https://en.wikipedia.org/wiki/Frisbee",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In 1974 a college student sneaked his whippet, Ashley, onto the field at a televised Dodgers game, where the dog leapt to catch these until both were escorted off.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: on August 5, 1974, Alex Stein, 'then a 19-year-old college student,' smuggled Ashley into a nationally televised Dodgers-Reds game. He went onto the field and threw discs for the dog to catch. 'After eight minutes, Stein was escorted off the field and arrested.' https://en.wikipedia.org/wiki/Ashley_Whippet",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Wham-O named this toy after the Frisbie pie company of Bridgeport, Connecticut, whose empty tins New England college students had long tossed around.",
+     "verdict": "ok",
+     "evidence": "New England Historical Society: the Frisbie Pie Company was in Bridgeport, Connecticut. Yale students tossed its empty tins from the 1920s, and the craze spread to other New England campuses. Wham-O's Knerr saw students calling discs 'Frisbie' and renamed the toy Frisbee. https://newenglandhistoricalsociety.com/the-sweet-new-england-history-of-the-frisbee/",
+     "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
    ]
@@ -5995,6 +6457,44 @@
      "verdict": "ok",
      "evidence": "Wikipedia: fjords form where glaciers cut U-shaped valleys later flooded by the sea; U-shaped valleys are glacial. https://en.wikipedia.org/wiki/Fjord",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "gmail": {
+   "id": "gmail",
+   "answer": "Gmail",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This web service was code-named Caribou, after a project in a 'Dilbert' strip, and at launch ran on 300 old Pentium III computers nobody else at its company wanted.",
+     "verdict": "ok",
+     "evidence": "Time: 'originally code-named Caribou, borrowing the name of a mysterious corporate project occasionally alluded to in Dilbert'; it 'ended up running on three hundred old Pentium III computers nobody else at Google wanted' https://time.com/43263/gmail-10th-anniversary/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Paul Buchheit, who also suggested the corporate motto 'Don't be evil', built the first rough version of this service in a day, as a search tool for his own messages.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Buchheit 'suggested Google's former company motto Don't be evil in a 2000 meeting' https://en.wikipedia.org/wiki/Paul_Buchheit ; Time: his first useful build was a search engine for his own email and 'it did indeed take only a day' https://time.com/43263/gmail-10th-anniversary/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Launched on April 1, 2004, this service was widely taken for a hoax, and invitations to its early test version soon sold on eBay for $150 or more.",
+     "verdict": "ok",
+     "evidence": "Time: announced April 1, 2004, 'an awful lot of people briefly took it to be a really good hoax'; 'Bidding for invites on eBay sent prices shooting up to $150 and beyond' https://time.com/43263/gmail-10th-anniversary/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Google's free email service launched with 1 GB of storage, 500 times Hotmail's, and in Germany and the UK it had to call itself 'Google Mail' for years.",
+     "verdict": "ok",
+     "evidence": "Time: '1GB—500 times what Microsoft's Hotmail offered' https://time.com/43263/gmail-10th-anniversary/ ; Computerworld: Google used Googlemail in Germany after launch until it got the trademark, and in the UK until the May 2010 settlement https://www.computerworld.com/article/1533004/google-settles-gmail-trademark-dispute.html",
+     "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
    ]
@@ -6883,6 +7383,44 @@
     }
    ]
   },
+  "harlem-shake": {
+   "id": "harlem-shake",
+   "answer": "Harlem Shake",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This 2012 track's opening 'Con los terroristas!' was sampled without permission from reggaeton star Héctor Delgado, who had quit music in 2008 for evangelical Christianity.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Héctor Luis Delgado announced his retirement from music on September 3, 2008 after becoming a born-again Christian, joining an evangelical church; his 'con los terroristas' line was used without credit in the opening of Baauer's track https://en.wikipedia.org/wiki/H%C3%A9ctor_el_Father ; the sample was not cleared, and the track was released in 2012 https://en.wikipedia.org/wiki/Harlem_Shake_(song)",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This track debuted at No. 1 on the Billboard Hot 100 in the very week the chart began counting YouTube views, only the 21st song ever to start at the top.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: it debuted at number one on the Hot 100, aided by 103 million weekly video streams, 'announced that week by Billboard and Nielsen SoundScan as a new component of their charts'; 'the twenty-first song in the Hot 100's history to debut at number one' https://en.wikipedia.org/wiki/Harlem_Shake_(song)",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In 2013 up to 15 Australian miners were fired, and the FAA looked into a Frontier Airlines flight, after people filmed themselves doing this craze.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'A group of up to 15 miners in Australia were fired'; a video on a Frontier Airlines flight caused the FAA 'to launch an investigation' https://en.wikipedia.org/wiki/Harlem_Shake_(meme)",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "In this 2013 video craze set to a Baauer track, one person in a helmet or mask dances alone until the bass drops, then the video cuts to a whole room going wild in costumes.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: one performer, often in a helmet or mask, dances alone; 'When the bass drops, the video cuts to the entire group dancing', often in costumes; set to Baauer's 2012 song https://en.wikipedia.org/wiki/Harlem_Shake_(meme)",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "harry-potter": {
    "id": "harry-potter",
    "answer": "Harry Potter",
@@ -7499,6 +8037,44 @@
     }
    ]
   },
+  "hydrangea": {
+   "id": "hydrangea",
+   "answer": "Hydrangea",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This flower was almost named after Nicole-Reine Lepaute, an astronomer who helped predict Halley's Comet's 1759 return, by the botanist Philibert Commerson.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Philibert Commerson 'attempted to name the Hydrangea flower Lepautia' after her; the name became Hortensia instead; she worked with Lalande and Clairaut to predict the comet's 1759 return. https://en.wikipedia.org/wiki/Nicole-Reine_Lepaute",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In 2014 thieves stripped gardens across northern France of this shrub's flowers, amid rumors that its dried petals give a high like cannabis.",
+     "verdict": "ok",
+     "evidence": "The Local, 7 February 2014: a 'Hortensia Gang' was taking hydrangeas from gardens in Nord-Pas-de-Calais, amid rumors that dried petals rolled into a joint give a high similar to cannabis. https://www.thelocal.fr/20140207/are-french-pot-smokers-turning-to-hydrangeas-for-highs",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In Japan, a sweet tea brewed from the leaves of one variety of this shrub is poured over small Buddha statues on April 8 to celebrate the Buddha's birthday.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: amacha is made from leaves of Hydrangea macrophylla var. thunbergii and on April 8 is poured over small Buddha statues for Buddha's Birthday. https://en.wikipedia.org/wiki/Amacha",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This shrub's big mophead blooms turn blue in acid soil, where aluminium is available, and pink in alkaline soil; its name is Greek for 'water vessel'.",
+     "verdict": "ok",
+     "evidence": "RHS: mophead cultivars are 'bluest in acid soil conditions (high, available aluminium levels)' and pink in alkaline conditions. Wikipedia: name 'derived from Greek and means water vessel'. https://www.rhs.org.uk/plants/hydrangea/shrubby https://en.wikipedia.org/wiki/Hydrangea",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "hydrogen": {
    "id": "hydrogen",
    "answer": "Hydrogen",
@@ -7803,6 +8379,44 @@
     }
    ]
   },
+  "ipod": {
+   "id": "ipod",
+   "answer": "iPod",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This gadget took shape after Apple's Jon Rubinstein was shown a tiny 1.8-inch hard drive at Toshiba in 2001 and promised to buy every one the company could make.",
+     "verdict": "ok",
+     "evidence": "IEEE Spectrum: in February 2001 Rubinstein visited Toshiba, where his hosts showed him a 1.8-inch hard drive, and 'Rubinstein told his Toshiba colleagues he'd buy every 1.8-inch drive the company could make.' https://spectrum.ieee.org/from-podfather-to-palms-pilot",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This device's scroll wheel was inspired by a Bang & Olufsen cordless phone, the BeoCom 6000, which Phil Schiller reportedly brought to an early meeting with Steve Jobs.",
+     "verdict": "ok",
+     "evidence": "ifun.de, quoting a 2022 tweet by Tony Fadell: the wheel 'was inspired from this Bang & Olufsen DECT cordless phone' (BeoCom 6000), which Phil Schiller brought to a meeting with Steve Jobs. https://www.ifun.de/ipod-bedienung-bo-telefon-war-vorbild-fuers-click-wheel-186934/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Copywriter Vinnie Chieco proposed this device's name after its white prototype reminded him of '2001: A Space Odyssey' and the line 'Open the pod bay doors, Hal'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: freelance copywriter Vinnie Chieco proposed the name; seeing a prototype reminded him of 'Open the pod bay doors, Hal' from 2001: A Space Odyssey, a reference to the ship's white EVA pods. https://en.wikipedia.org/wiki/IPod",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Steve Jobs unveiled this Apple music player in October 2001 as '1,000 songs in your pocket', and the line ended in May 2022 with the discontinued Touch model.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: unveiled October 23, 2001 with the promise of '1,000 songs in your pocket'; Apple ended the line on May 10, 2022, discontinuing the iPod Touch, 'the last remaining product in the iPod line'. https://en.wikipedia.org/wiki/IPod",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "iron-man": {
    "id": "iron-man",
    "answer": "Iron Man",
@@ -7953,6 +8567,44 @@
      "verdict": "ok",
      "evidence": "Wikipedia: 'the largest city in Turkey', on the Bosphorus. https://en.wikipedia.org/wiki/Istanbul",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "jackie-robinson": {
+   "id": "jackie-robinson",
+   "answer": "Jackie Robinson",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This athlete's older brother Mack won silver in the 200 metres at the 1936 Berlin Olympics, finishing 0.4 seconds behind Jesse Owens.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Mack Robinson, older brother of Jackie Robinson, won silver in the 200 m at the 1936 Berlin Olympics, finishing '0.4 seconds behind Jesse Owens.' https://en.wikipedia.org/wiki/Mack_Robinson_(sprinter)",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "As an Army lieutenant at Camp Hood, Texas, in 1944, this athlete refused a bus driver's order to move to the back; he was court-martialed and acquitted.",
+     "verdict": "ok",
+     "evidence": "American Heritage: on July 6, 1944, at Camp Hood, Texas, Second Lieutenant Robinson refused the driver's order to 'get to the back of the bus.' The charges that followed went to a court-martial on August 2, 1944, which found him not guilty. https://www.americanheritage.com/court-martial-jackie-robinson",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This athlete became UCLA's first four-sport letterman, though in baseball, his weakest sport there, he hit just .097 in his one season.",
+     "verdict": "ok",
+     "evidence": "UCLA Athletics: he 'became UCLA's first four-sport letterwinner.' He batted .097 in 1940, 'the one year he played baseball for the Bruins,' and 'baseball was the sport with which he had the most trouble.' https://uclabruins.com/news/2012/4/15/207904110",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "On April 15, 1947, this Brooklyn Dodger broke Major League Baseball's color line, and every player now wears his No. 42 on that date each year.",
+     "verdict": "ok",
+     "evidence": "UCLA Athletics: he debuted for the Brooklyn Dodgers on April 15, 1947, as the first African-American in the majors. On Jackie Robinson Day, MLB players and on-field personnel wear No. 42. https://uclabruins.com/news/2012/4/15/207904110",
+     "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
    ]
@@ -8571,6 +9223,46 @@
     }
    ]
   },
+  "kodak": {
+   "id": "kodak",
+   "answer": "Kodak",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This company had to quit the instant-camera business in 1986 after losing a patent suit to Polaroid, and in 1991 it agreed to pay Polaroid $925 million.",
+     "verdict": "ok",
+     "evidence": "UPI, 15 July 1991: 'Eastman Kodak paid Polaroid Corp. $925 million Monday to settle a patent infringement lawsuit' ($873 million award plus $52 million interest); Judge Zobel's 1985 ruling ordered Kodak out of the instant camera business, which it left in 1986. https://www.upi.com/Archives/1991/07/15/Polaroid-Kodak-settle-patent-suit/7131679550400/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Engineer Steven Sasson built the first handheld digital camera at this company in 1975; it weighed about 8 pounds and took 23 seconds to save each 0.01-megapixel image to tape.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Sasson's 1975 camera weighed about 3.6 kg (8 lb), had a 100 x 100 pixel (0.01 megapixel) CCD, and took about 23 seconds to record each image to cassette tape; Kodak article calls it 'the first battery operated handheld digital camera prototype'. https://en.wikipedia.org/wiki/Steven_Sasson https://en.wikipedia.org/wiki/Kodak",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This brand's founder said he built its invented name around the letter K, because it seemed 'a strong, incisive sort of letter'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Eastman said the letter K was a favorite, 'a strong, incisive sort of letter', and he devised the name around it. https://en.wikipedia.org/wiki/Kodak",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "George Eastman launched this Rochester company's first camera in 1888 with the slogan 'You press the button, we do the rest'; it filed for bankruptcy in 2012.",
+     "verdict": "loose",
+     "evidence": "Wikipedia: slogan coined by George Eastman in 1888 for the Kodak camera, 'a model that replaced Eastman's earlier, poorly selling Detective camera'; Kodak filed for Chapter 11 on 19 January 2012. https://en.wikipedia.org/wiki/You_Press_the_Button,_We_Do_the_Rest https://en.wikipedia.org/wiki/Kodak",
+     "problem": "The 1888 Kodak was not Eastman's company's first camera: it replaced 'Eastman's earlier, poorly selling Detective camera'. It was the first camera under this brand name. Slogan (coined 1888) and January 2012 bankruptcy are correct.",
+     "fix": "George Eastman launched the first camera bearing this Rochester company's name in 1888 with the slogan 'You press the button, we do the rest'; the company filed for bankruptcy in 2012.",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "komodo-dragon": {
    "id": "komodo-dragon",
    "answer": "Komodo Dragon",
@@ -8607,6 +9299,44 @@
      "verdict": "ok",
      "evidence": "Wikipedia: 'It is the largest extant species of lizard'. It was described in 1912 from the island of Komodo. https://en.wikipedia.org/wiki/Komodo_dragon",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "krampus": {
+   "id": "krampus",
+   "answer": "Krampus",
+   "checks": [
+    {
+     "position": 1,
+     "text": "In 1953 the head of Vienna's kindergartens published a pamphlet calling this folklore figure 'an evil man' and warning that he could scar children for life.",
+     "verdict": "ok",
+     "evidence": "Mental Floss: 'in 1953 the head of Vienna's kindergarten system also published a pamphlet calling Krampus \"an evil man\"' and warned celebrating him could cause lasting psychological harm to children. https://www.mentalfloss.com/holidays/christmas/9-facts-about-krampus-st-nicks-demonic-companion",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In Styria this figure was said to hand families a bundle of birch twigs painted gold, which they hung up all year as a reminder to children to behave.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'In Styria, the bundle of birch rods is presented by Krampus to families. The twigs are painted gold and displayed year-round in the house—a reminder to any child who has temporarily forgotten Krampus.' https://en.wikipedia.org/wiki/Krampus",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Austrian holiday cards since the 1800s often show this figure with a long tongue, one human foot and one cloven hoof, sometimes chasing after women.",
+     "verdict": "ok",
+     "evidence": "Mental Floss: Krampus has been 'a fixture on Austrian holiday greeting cards since the 1800s', cards often show him 'pursuing women or menacing children', with a long tongue and 'one human foot and one cloven hoof'. https://www.mentalfloss.com/holidays/christmas/9-facts-about-krampus-st-nicks-demonic-companion",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "On the night of December 5, this horned, hairy Alpine demon roams with St. Nicholas, swatting naughty children with birch switches and hauling the worst away in a basket.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: on the evening of 5 December (Krampusnacht) the 'wicked hairy devil' appears with St. Nicholas; he carries birch branches 'with which he occasionally swats children' and a sack or basket on his back 'to cart off evil children'. https://en.wikipedia.org/wiki/Krampus",
+     "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
    ]
@@ -8767,6 +9497,44 @@
     }
    ]
   },
+  "lascaux": {
+   "id": "lascaux",
+   "answer": "Lascaux",
+   "checks": [
+    {
+     "position": 1,
+     "text": "Simon Coencas, one of four boys who found this prehistoric site in 1940, was later interned at Drancy with his Jewish family; he was the last of the four when he died in 2020.",
+     "verdict": "ok",
+     "evidence": "French Ministry of Culture: Coencas found the cave on 12 September 1940 with three other boys; arrested in 1942 with his Jewish family, he was 'interned in the Muette camp at Drancy'; he died on 2 February 2020 and was 'the last of the four discoverers'. https://archeologie.culture.gouv.fr/lascaux/en/simon-coencas-1927-2020",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Culture minister André Malraux closed this site to the public in 1963 after visitors' breath and electric lighting set green algae growing on its walls.",
+     "verdict": "ok",
+     "evidence": "Futura Sciences: 'French Cultural Affairs Minister André Malraux closed the site permanently to the public in April 1963'; visitors brought moisture and carbon dioxide, and 'Artificial electric lighting' led to 'destructive outbreaks of green algae'. https://www.futura-sciences.com/en/?p=900816",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "A beast at the head of a procession in this site's Hall of the Bulls, drawn with a catlike body and two straight horns, is nicknamed 'the Unicorn'.",
+     "verdict": "ok",
+     "evidence": "French Ministry of Culture: the figure's undulating lines suggest 'a cat', it has 'two straight horns projecting from the head', and it 'is in the lead position', pushing the animals on the wall toward the rear; Wikipedia gives the nickname 'unicorn' in the Hall of the Bulls. https://archeologie.culture.gouv.fr/sculpture-prehistoire/en/media/view/2787",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Found in 1940 after a teenager's dog nosed into a hole left by a fallen tree, this cave in France's Dordogne is covered with Ice Age images of horses, bulls and stags.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: found 12 September 1940 by 18-year-old Marcel Ravidat 'when his dog investigated a hole left by an uprooted tree'; the cave is near Montignac in Dordogne, and its images show horses, stags, aurochs and bison. https://en.wikipedia.org/wiki/Lascaux",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "lebron-james": {
    "id": "lebron-james",
    "answer": "LeBron James",
@@ -8839,6 +9607,44 @@
      "verdict": "ok",
      "evidence": "The Mona Lisa, a portrait of Lisa del Giocondo, is his best-known work and hangs in the Louvre. https://en.wikipedia.org/wiki/Lisa_del_Giocondo",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "leprechaun": {
+   "id": "leprechaun",
+   "answer": "Leprechaun",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This creature gave its name to the 'economics' that Paul Krugman mocked in July 2016, after Ireland reported 26 percent GDP growth for 2015.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Krugman tweeted on 12 July 2016, 'Leprechaun economics: Ireland reports 26 percent growth!' after the CSO reported 26.3% growth for 2015. https://en.wikipedia.org/wiki/Leprechaun_economics",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In the oldest known tale of this creature, an Irish saga first written down around the eighth century, three of them drag King Fergus mac Léti toward the sea, then grant him three wishes.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: earliest known reference is Echtra Fergus mac Léti; Fergus wakes being dragged toward the sea by three lúchorpáin, who grant him three wishes for their release. World History Encyclopedia: the tale 'data del siglo VIII EC' (dates from the 8th century). https://en.wikipedia.org/wiki/Leprechaun https://www.worldhistory.org/trans/es/1-19406/leprechaun/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Before the 20th century this solitary shoemaker was usually pictured in red; Samuel Lover in 1831 gave it 'a red square-cut coat, richly laced with gold'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: before the 20th century the leprechaun was generally held to wear red, not green; Samuel Lover, 1831: 'he wears a red square-cut coat, richly laced with gold'; described as a solitary creature whose principal occupation is making and cobbling shoes. https://en.wikipedia.org/wiki/Leprechaun",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Lucky, the mascot of General Mills' Lucky Charms cereal, is one of these little Irish fairies, said to hide a pot of gold at the end of the rainbow.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Lucky is 'the mascot of Lucky Charms cereal, created by General Mills'; leprechauns are said to have a hidden pot of gold at the end of the rainbow. https://en.wikipedia.org/wiki/Leprechaun",
+     "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
    ]
@@ -9876,6 +10682,82 @@
      "evidence": "Baltimore, eight golds in Beijing, 23 Olympic golds. https://en.wikipedia.org/wiki/Michael_Phelps",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent (fact check for PR #58/#59)"
+    }
+   ]
+  },
+  "michelangelos-david": {
+   "id": "michelangelos-david",
+   "answer": "David",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This sculpture was carved from a huge marble block nicknamed 'the Giant', which two earlier sculptors, Agostino di Duccio and Antonio Rossellino, had left unfinished.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: officials called the block 'il gigante'; Agostino di Duccio began roughing it out around 1465 and stopped; Antonio Rossellino's 1476 commission was cancelled and the block sat unfinished for about 25 years. https://en.wikipedia.org/wiki/David_(Michelangelo)",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "A plaster copy of this sculpture at London's V&A was given a detachable fig leaf, reportedly after Queen Victoria was shocked by its nudity.",
+     "verdict": "ok",
+     "evidence": "V&A: Queen Victoria 'was apparently so shocked by his nudity' that a fig leaf was commissioned, hung on the cast with two hooks before royal visits. https://www.vam.ac.uk/articles/the-story-of-michelangelos-david",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In 2023 a Florida charter school's principal was pushed out after a sixth-grade art class was shown this sculpture, and Florence's mayor then honored her in person.",
+     "verdict": "ok",
+     "evidence": "WCTV: Tallahassee Classical is a charter school; the David was shown to a sixth-grade art class and the board pressured principal Hope Carrasquilla to resign. Wanted in Rome: Mayor Dario Nardella welcomed her in person and she received an award 'in the name of art and culture' at Palazzo Vecchio. https://www.wctv.tv/2023/03/27/italy-invites-tallahassee-school-field-trip-after-principal-forced-resign-over-david-statue https://www.wantedinrome.com/news/florence-welcomes-us-principal-ousted-over-david-statue.html",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This 17-foot marble nude in Florence's Accademia Gallery, carved from 1501 to 1504, shows the young biblical hero who killed Goliath.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 5.17 metres (17 ft 0 in) marble statue, c. 1501 to June 1504, in the Galleria dell'Accademia, Florence, depicting the biblical David. https://en.wikipedia.org/wiki/David_(Michelangelo)",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "michelin-man": {
+   "id": "michelin-man",
+   "answer": "Michelin Man",
+   "checks": [
+    {
+     "position": 1,
+     "text": "Momus's 1991 album 'Hippopotamomus' cast this figure as a rubber-fetish icon; after his owners threatened legal action, unsold copies were destroyed.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Momus's 1991 album included the song 'Michelin Man,' which used the mascot 'as a metaphor for hypersexual rubber fetishism.' After Michelin threatened legal action, 'all unsold copies of the album were destroyed.' https://en.wikipedia.org/wiki/Hippopotamomus",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This figure debuted on an 1898 poster raising a goblet of nails and broken glass under a Latin toast from Horace meaning 'Now is the time to drink'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: on O'Galop's 1898 poster, the figure offers the toast 'Nunc est bibendum,' from Horace's Odes ('Now is the time to drink'), with a glass 'filled with nails and broken glass.' https://en.wikipedia.org/wiki/Michelin_Man",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Aimed at wealthy early motorists, this figure first wore pince-nez and smoked a cigar; he later gave up both and was slimmed down in 1998.",
+     "verdict": "ok",
+     "evidence": "Michelin: his smoking habit, pince-nez and goblet 'appealed to the wealthy upper class' when cars were exclusive luxuries, and 'The pince-nez vanished, followed by the cigar.' Wikipedia: in 1998 'a slimmed-down version of him (sans glasses) was adopted.' https://middle-east.michelin.com/en/unveiling-the-michelin-man-origins-the-iconic-mascot-story https://en.wikipedia.org/wiki/Michelin_Man",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This roly-poly mascot of a French tyre company is built from a stack of white tyres, since tyres were pale until carbon was added to the rubber around 1912.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: tyres were originally gray-white or light beige and became black in 1912, when carbon was added. Michelin: his white colour is 'reminiscent of natural rubber,' and today's tyres are black from carbon additives. https://en.wikipedia.org/wiki/Michelin_Man https://middle-east.michelin.com/en/unveiling-the-michelin-man-origins-the-iconic-mascot-story",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -11071,6 +11953,44 @@
     }
    ]
   },
+  "nokia": {
+   "id": "nokia",
+   "answer": "Nokia",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This company began as Fredrik Idestam's 1865 pulp mill in Tampere and took its name from the nearby town where he opened a second mill in 1868.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: in 1865 Fredrik Idestam built a pulp mill by the Tammerkoski rapids in Tampere; in 1868 he built a second mill near the town of Nokia, and the company was named 'after the site of the second pulp mill'. https://en.wikipedia.org/wiki/Nokia",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Long before phones, this company's name was a brand of rubber boots made by the Finnish Rubber Works, which merged with it in 1967; its tyre arm split off in 1988.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Finnish Rubber Works 'began to use the brand Nokia' for its rubber boots; in 1967 it merged with Nokia Osakeyhtiö and Kaapelitehdas 'to form Nokia Corporation'; 'Nokian Tyres left in 1988'. https://en.wikipedia.org/wiki/Nokian_Footwear",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "A 2009 estimate said this company's signature ringtone, taken from Francisco Tárrega's 1902 guitar piece 'Gran Vals', was heard about 20,000 times a second.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Gran Vals was 'composed in 1902 by the Spanish classical guitarist and composer Francisco Tárrega'; in 2009 the tune was estimated to be heard '1.8 billion times per day, about 20,000 times per second'. https://en.wikipedia.org/wiki/Nokia_tune",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This Finnish brand's famously indestructible 3310, released in 2000, sold about 126 million units and came loaded with the game Snake II.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the 3310 was announced 1 September 2000 and released in Q4 2000; '126 million units sold worldwide'; games include 'the hugely popular Snake II'; it is jokingly called 'indestructible'. https://en.wikipedia.org/wiki/Nokia_3310",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "nyan-cat": {
    "id": "nyan-cat",
    "answer": "Nyan Cat",
@@ -11260,6 +12180,46 @@
      "evidence": "About 28,000 accepted species; one of the two largest flowering-plant families (with Asteraceae); Phalaenopsis is the most popular houseplant orchid. https://en.wikipedia.org/wiki/Orchidaceae",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent (fact check for PR #58/#59)"
+    }
+   ]
+  },
+  "oregon-trail": {
+   "id": "oregon-trail",
+   "answer": "The Oregon Trail",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This computer game was wiped from its school's system at the end of a 1971 term, leaving only a paper printout, and its creator retyped the code over Thanksgiving weekend in 1974.",
+     "verdict": "loose",
+     "evidence": "Wikipedia: developed by Rawitsch, Heinemann and Dillenberger. At the end of the semester they printed the source code and deleted the program from the school district's mainframe. Rawitsch 'spent the 1974 Thanksgiving weekend copying and adjusting the printed BASIC source code into the system.' MECC history: Rawitsch printed the code on yellow paper and retyped it over a 'long Thanksgiving weekend in 1974.' https://en.wikipedia.org/wiki/The_Oregon_Trail_(1971_video_game) https://mecc.co/2011/01/19/oregon-trail-history-on-40th-anniversary-of-the-game/",
+     "problem": "The game had three creators (Don Rawitsch, Bill Heinemann and Paul Dillenberger), so 'its creator' overstates Rawitsch's role. It was also deleted from the school district's shared mainframe, not from a single school's system. The printout and the 1974 Thanksgiving-weekend retyping are both supported.",
+     "fix": "This computer game was deleted from a school district's mainframe at the end of a 1971 term, leaving only a paper printout, and one of its creators retyped the code over Thanksgiving weekend in 1974.",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This game was first played in a Minneapolis history class on a screenless teletype, and players hunted for food by typing 'BANG' as fast as they could.",
+     "verdict": "ok",
+     "evidence": "MECC history: Rawitsch, who taught American history in north Minneapolis, first played it with his class on December 3, 1971, on the school's teletype, 'a screen-less, electromechanical typewriter.' For hunting, the teletype prompted 'Type BANG', and a fast, accurate entry bagged the animal. Wikipedia: typing faster gathers more food. https://mecc.co/2011/01/19/oregon-trail-history-on-40th-anniversary-of-the-game/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "For a 1975 release, this game's designer set the odds of misfortunes such as illness and death using the diaries and accounts of real 19th-century settlers.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: for the 1975 MECC release, Rawitsch calculated the event probabilities himself, 'basing them on historical diaries and narratives.' MECC history: he tallied how often illness, death and other events occurred in settlers' journals and built those rates into the game. https://en.wikipedia.org/wiki/The_Oregon_Trail_(1971_video_game)",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "In this classroom computer game, players lead a wagon party west from Independence, Missouri, ford rivers, and often read 'You have died of dysentery.'",
+     "verdict": "ok",
+     "evidence": "Wikipedia (1985 version): the party journeys 'from Independence, Missouri, to Willamette Valley, Oregon.' Rivers can be crossed by fording, caulking the wagon and floating it, or ferry. The 'dysentery-riddled party' is the game's famous trope, and Bouchard's book is titled 'You Have Died of Dysentery.' https://en.wikipedia.org/wiki/The_Oregon_Trail_(1985_video_game)",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -12565,6 +13525,82 @@
     }
    ]
   },
+  "pringles": {
+   "id": "pringles",
+   "answer": "Pringles",
+   "checks": [
+    {
+     "position": 1,
+     "text": "The first name of this snack's mustachioed mascot, Julius, began as a 2006 Wikipedia prank by a college student who was watching NFL star Julius Peppers.",
+     "verdict": "ok",
+     "evidence": "Inverse: in 2006, college freshmen watching football made up 'Julius Pringles' while Julius Peppers was on TV, and one of them added the name to Wikipedia. https://www.inverse.com/input/culture/a-wikipedia-editor-faked-name-pringles-mascot",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In 2009 Britain's Court of Appeal ruled that this snack, only about 42% potato, counted as a potato crisp and so owed VAT, overturning its maker's earlier win.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the High Court ruled for P&G in July 2008, and in May 2009 the Court of Appeal 'reversed the earlier decision'; potato content is 'about 42%'. https://en.wikipedia.org/wiki/Pringles",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Procter & Gamble chemist Fred Baur, who designed this snack's container, had part of his ashes buried in one after his death in 2008.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Fred Baur (1918–2008), the P&G chemist who developed the product and its can, had 'part of his cremated remains in a Pringles container in his grave'. https://en.wikipedia.org/wiki/Pringles",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Now owned by Mars, this stackable snack's saddle-shaped chips, each a hyperbolic paraboloid, come nested in a tall cardboard tube.",
+     "verdict": "ok",
+     "evidence": "Simpson Thacher: Mars's acquisition of Kellanova, the maker of Pringles, 'closed on December 11, 2025'. Wikipedia: each chip is 'a hyperbolic paraboloid', sold in a tubular paperboard can. https://www.stblaw.com/about-us/news/view/2025/12/12/mars-completes-acquisition-of-kellanova",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "pupil": {
+   "id": "pupil",
+   "answer": "Pupil",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This part of the eye grew wider with each extra digit people had to hold in memory, a 1966 study co-written by future Nobel laureate Daniel Kahneman found.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'Beatty and Kahneman (1966) asked participants of an experiment to remember a sequence of digits'; pupils widened as each digit was heard, with peak size depending on how many digits were held in memory. https://en.wikipedia.org/wiki/Task-invoked_pupillary_response",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Renaissance women are said to have widened these with drops of deadly nightshade, a popular explanation for the plant's other name, belladonna, 'beautiful lady'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: name from Italian bella donna, 'in reference to the cosmetic use of the plant during the Renaissance'; 'It has been widely claimed that drops prepared from the plant were used to dilate women's pupils'; commonly known as deadly nightshade. Clue is suitably hedged. https://en.wikipedia.org/wiki/Atropa_belladonna",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "When goats lower their heads to graze, each eyeball can rotate 50 degrees or more to keep this part of the eye, a horizontal slot in goats, level with the ground.",
+     "verdict": "ok",
+     "evidence": "Berkeley News: goats keep horizontal pupils level with the ground when they lower their heads; eyes can rotate '50 degrees or more in each eye'. https://news.berkeley.edu/2015/08/07/pupil-shape-and-ecological-niche/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This black opening at the center of the iris takes its name from the Latin for 'little doll', for the tiny image of yourself you see in someone else's.",
+     "verdict": "ok",
+     "evidence": "Merriam-Webster: from Latin pupilla, diminutive of pupa 'doll', 'so called because the tiny image of oneself seen in another's eye is like a tiny doll.' https://www.merriam-webster.com/dictionary/pupil",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "queen-elizabeth-i": {
    "id": "queen-elizabeth-i",
    "answer": "Queen Elizabeth I",
@@ -13123,6 +14159,44 @@
     }
    ]
   },
+  "romulus-and-remus": {
+   "id": "romulus-and-remus",
+   "answer": "Romulus and Remus",
+   "checks": [
+    {
+     "position": 1,
+     "text": "One of this legendary pair is said to have vanished in a sudden thunderstorm while reviewing his army, and was later worshipped as the god Quirinus.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Romulus 'disappeared in a whirlwind during a sudden and violent storm, as he was reviewing his troops on the Campus Martius'; his cult 'later became assimilated with the cult of Quirinus'. https://en.wikipedia.org/wiki/Romulus",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "To settle which of them would name and rule a new city, this pair watched the sky from two hills; one saw six vultures first, but the other then saw twelve.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'Remus sighted six vultures over the Aventine Hill, then Romulus saw a flight of twelve above the Palatine Hill'; Remus claimed priority for seeing first, Romulus for seeing more. https://en.wikipedia.org/wiki/Romulus",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Figures of this pair were added to a famous bronze in Rome's Capitoline Museums in the late 15th century, and radiocarbon tests suggest the animal above them is medieval.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: twins 'added in the late 15th century AD, probably by sculptor Antonio del Pollaiuolo'; radiocarbon dating of casting-core residues indicates the wolf was made between 1021 and 1153 AD (dating contested by some scholars); housed in the Capitoline Museums. https://en.wikipedia.org/wiki/Capitoline_Wolf",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Set adrift on the Tiber as babies, these twin sons of Mars were suckled by a she-wolf; one later killed the other and founded Rome.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the twin sons of Mars were set adrift on the Tiber, suckled by a she-wolf, and after the augury dispute Romulus killed Remus and founded Rome. https://en.wikipedia.org/wiki/Romulus",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "roomba": {
    "id": "roomba",
    "answer": "Roomba",
@@ -13196,6 +14270,44 @@
      "evidence": "Juliet, Act 2 Scene 2: that which we call a rose by any other name would smell as sweet. https://en.wikipedia.org/wiki/A_rose_by_any_other_name_would_smell_as_sweet",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent (fact check for PR #58/#59)"
+    }
+   ]
+  },
+  "rudolph": {
+   "id": "rudolph",
+   "answer": "Rudolph the Red-Nosed Reindeer",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This character's creator, a Montgomery Ward copywriter, first tried the names Rollo and Reginald, according to his draft manuscripts now held at Dartmouth College.",
+     "verdict": "ok",
+     "evidence": "Farmers' Almanac: 'Draft manuscripts held at Dartmouth College, May's alma mater, show Rollo and Reginald came first'; Robert L. May wrote the story for Montgomery Ward. https://www.farmersalmanac.com/the-real-story-behind-rudolph",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "A 6-inch puppet of this character from a 1960s TV special sold with its Santa puppet for $368,000 in 2020, years after Antiques Roadshow valued the pair at $8,000 to $10,000.",
+     "verdict": "ok",
+     "evidence": "Boston 25: the 6-inch Rudolph and 11-inch Santa from the 1964 special sold for $368,000 in November 2020; in 2005 Antiques Roadshow appraiser Simeon Lipman estimated $8,000-$10,000. https://www.boston25news.com/news/trending/rudolph-santa-figures-beloved-1964-tv-special-soar-368k-auction/ZBI3WAXHONCI3JUG4CR22DLKAQ/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Gene Autry first turned down the song about this character, written by its creator's brother-in-law, but his wife talked him into it, and his 1949 recording hit No. 1.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Autry 'first rejected it, but his wife convinced him'; recorded 1949, it 'hit No. 1 in the US charts during Christmas 1949'; Johnny Marks was May's brother-in-law. https://en.wikipedia.org/wiki/Rudolph,_the_Red-Nosed_Reindeer_(song)",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "In a 1964 Rankin/Bass stop-motion TV special, this young outcast visits the Island of Misfit Toys and later lights the way for Santa's sleigh through a snowstorm.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the 1964 Rankin/Bass stop-motion special features the Island of Misfit Toys; Rudolph's nose lets Santa fly through a major snowstorm. https://en.wikipedia.org/wiki/Rudolph_the_Red-Nosed_Reindeer_(TV_special)",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -13353,6 +14465,44 @@
      "verdict": "ok",
      "evidence": "The world's largest hot desert; the name comes from Arabic ṣaḥrāʾ, meaning 'desert'. https://en.wikipedia.org/wiki/Sahara",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "sally-ride": {
+   "id": "sally-ride",
+   "answer": "Sally Ride",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This astronaut ran a student camera program on NASA's twin GRAIL Moon probes, and the spot where they were deliberately crashed in December 2012 was named in her honor.",
+     "verdict": "ok",
+     "evidence": "Astronomy: Ride led GRAIL's MoonKAM student camera program; probes Ebb and Flow were intentionally crashed on 17 December 2012 and the site was named for her. https://www.astronomy.com/space-exploration/grail-lunar-impact-site-named-for-astronaut-sally-ride/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This astronaut's 2012 obituary publicly revealed her 27-year partner, Tam O'Shaughnessy, making her the first known LGBTQ astronaut.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'Ride's obituary publicly revealed for the first time that O'Shaughnessy had been her partner for 27 years', making her the first known LGBTQ astronaut. https://en.wikipedia.org/wiki/Sally_Ride",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "NASA engineers planning a one-week flight for this astronaut asked her whether 100 tampons would be 'the right number'.",
+     "verdict": "ok",
+     "evidence": "Poynter, quoting Ride's 2002 NASA oral history: engineers deciding 'how many tampons should fly on a one-week flight' asked, 'Is 100 the right number?' https://poynter.org/?p=863445",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "In June 1983 this physicist flew aboard Challenger to become the first American woman in space; she later sat on the inquiries into both the Challenger and Columbia disasters.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: physicist; first American woman in space, June 1983 aboard Challenger on STS-7; served on the Rogers Commission (Challenger) and the Columbia Accident Investigation Board. https://en.wikipedia.org/wiki/Sally_Ride",
+     "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
    ]
@@ -13853,6 +15003,44 @@
     }
    ]
   },
+  "sirens": {
+   "id": "sirens",
+   "answer": "Sirens",
+   "checks": [
+    {
+     "position": 1,
+     "text": "Naples was first called Parthenope, after one of these mythical creatures whose body was said to have washed ashore there after she threw herself into the sea.",
+     "verdict": "ok",
+     "evidence": "Wikipedia History of Naples: the city was 'initially known as Parthenope', named after the siren who had thrown herself into the sea after failing to bewitch Ulysses and is 'said to have washed ashore at Megaride'. https://en.wikipedia.org/wiki/History_of_Naples",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "When the Argonauts sailed past these creatures, Orpheus drowned out their voices with his own music, though one crewman, Butes, still leapt overboard.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Orpheus played his lyre 'more beautifully than they, drowning out their voices'; 'the sharp-eared hero Butes, heard the song and leapt into the sea'. https://en.wikipedia.org/wiki/Siren_(mythology)",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In 1819 Charles Cagniard de la Tour named his new noise-making device after these creatures, because it could produce sound underwater.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'In 1819, an improved siren was developed and named by Baron Charles Cagniard de la Tour'; it 'could produce sound under water', hence the name, as his 1819 paper explains. https://en.wikipedia.org/wiki/Siren_(alarm)",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Odysseus had his crew plug their ears with beeswax and tie him to the mast so he could hear these singers safely; a crowned, twin-tailed one is Starbucks' logo.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Odysseus had 'all of his sailors plug their ears with beeswax and tie him to the mast' (https://en.wikipedia.org/wiki/Siren_(mythology)); Starbucks' logo is based on 'a twin-tailed mermaid, or Siren', which is now the brand's only symbol. This page does not mention the crown, but the logo's crowned siren is well documented. https://www.starkinsider.com/2011/01/starbucks-unveils-new-40th-anniversary-logo-branding-news.html",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "sisyphus": {
    "id": "sisyphus",
    "answer": "Sisyphus",
@@ -14003,6 +15191,44 @@
      "verdict": "ok",
      "evidence": "Found in tropical rainforests of Central and South America; long curved claws let them hang upside down from branches. https://en.wikipedia.org/wiki/Sloth",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "small-intestine": {
+   "id": "small-intestine",
+   "answer": "Small Intestine",
+   "checks": [
+    {
+     "position": 1,
+     "text": "About 2% of people are born with Meckel's diverticulum, a pouch on this organ left over from the embryo's yolk stalk, which medical students remember by a 'rule of twos'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: present in about 2% of the population, in the distal ileum, 'a vestigial remnant of the vitelline duct' linking the midgut to the yolk sac, remembered by 'the rule of 2s' https://en.wikipedia.org/wiki/Meckel%27s_diverticulum",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "A 2014 Swedish study found the gut's inner lining covers about 30 to 40 m², nearer half a badminton court than the oft-quoted tennis court, and most of that lies in this organ.",
+     "verdict": "ok",
+     "evidence": "ScienceNordic (Apr 2014): Gothenburg (Sahlgrenska) researchers found 30 to 40 m², 'half a badminton court rather than a tennis court' https://www.sciencenordic.com/forskningno-gut-human-body/guts-match-the-surface-area-of-a-studio-apartment/1400373 ; BioNumbers (Helander & Fändriks 2014): total ~32 m², of which small intestine 30 m² https://bionumbers.hms.harvard.edu/bionumber.aspx?id=111126",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "The middle section of this organ, the jejunum, is named from the Latin for 'fasting' because anatomists usually found it empty after death; the word 'jejune' shares the root.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the jejunum is the second part of the small intestine (between duodenum and ileum), from Latin jejunus 'fasting', because it was 'frequently found to be void of food following death'; 'jejune' comes from the same root https://en.wikipedia.org/wiki/Jejunum",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This coiled tube between the stomach and the colon, lined with millions of finger-like villi, is where most of the nutrients from our food are absorbed.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'It lies between the stomach and large intestine'; 'the site where most of the nutrients from ingested food are absorbed'; lined with 'small finger-like protrusions called intestinal villi' https://en.wikipedia.org/wiki/Small_intestine",
+     "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
    ]
@@ -15009,6 +16235,44 @@
     }
    ]
   },
+  "table-tennis": {
+   "id": "table-tennis",
+   "answer": "Table Tennis",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This sport's best-known nickname was trademarked in 1901 by the London games maker J. Jaques & Son, which sold the American rights to Parker Brothers.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: British manufacturer J. Jaques & Son Ltd (a London firm) trademarked 'ping-pong' in 1901, and 'Jaques sold the rights to the 'ping-pong' name to Parker Brothers' in the US. https://en.wikipedia.org/wiki/Table_tennis",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In 2000 this sport's governing body swapped its 38 mm ball for a 40 mm one, whose extra air resistance slowed rallies down for TV viewers.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 38 mm balls were officially replaced by 40 mm balls in October 2000. The larger ball increased air resistance and slowed the game, which had become too fast to watch on television. https://en.wikipedia.org/wiki/Table_tennis",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In Nagoya in 1971, American player Glenn Cowan rode the Chinese team's bus and got a silk portrait from their star Zhuang Zedong; China soon invited the US team over.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: in Nagoya, Cowan boarded the Chinese team's bus, where Zhuang Zedong gave him 'the silk portrait of Huangshan Mountains.' 'Two days later, the U.S. team received an official invitation to travel to China.' https://en.wikipedia.org/wiki/Ping-pong_diplomacy",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Born as a Victorian after-dinner parlor game with a row of books for a net, this paddle sport has been in the Olympics since Seoul 1988.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the game began in Victorian England as an upper-class 'after-dinner parlour game,' with 'a row of books stood upright along the centre of the table as a net.' It 'has been an Olympic sport since 1988' (the Seoul Games). https://en.wikipedia.org/wiki/Table_tennis",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "taj-mahal": {
    "id": "taj-mahal",
    "answer": "Taj Mahal",
@@ -15119,6 +16383,44 @@
      "verdict": "ok",
      "evidence": "Afternoon tea was originally taken between 16:00 and 17:00, with black tea served with milk. https://en.wikipedia.org/wiki/Afternoon_tea",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "tears": {
+   "id": "tears",
+   "answer": "Tears",
+   "checks": [
+    {
+     "position": 1,
+     "text": "Researchers in Madagascar reported in 2007 that a moth slips its barbed, harpoon-like proboscis under the closed eyelids of sleeping birds to drink this fluid.",
+     "verdict": "ok",
+     "evidence": "Hilgartner et al., Biology Letters (Jan 2007), Madagascar: 'first report of exploitation of tears by Lepidoptera from the closed eyes of sleeping birds'; 'The distal half of the proboscis was intruded beneath the lid of the closed eye'; hooks give the tip 'the appearance of an ancient harpoon', with numerous barbs https://pmc.ncbi.nlm.nih.gov/articles/PMC2375961",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In a 2011 Weizmann Institute study, men who sniffed this odorless fluid, donated by women, had lower testosterone and rated women's faces as less sexually appealing.",
+     "verdict": "ok",
+     "evidence": "Science News (Jan 2011): Weizmann Institute study; tears from women watching sad films had no perceptible odor; men who sniffed them had lower salivary testosterone and rated female faces as less sexually attractive https://www.sciencenews.org/article/lonely-teardrops",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Bogorad's syndrome makes people whose facial nerve regrows wrongly after Bell's palsy produce this fluid while eating, and it is nicknamed after a reptile.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Bogorad's syndrome, colloquially 'crocodile tears syndrome', is 'an uncommon consequence of recovery from Bell's palsy' with 'faulty regeneration of the facial nerve' causing sufferers to 'shed tears while eating' https://en.wikipedia.org/wiki/Crocodile_tears",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Made by the lacrimal glands, this salty fluid drains through tiny holes at the inner corners of the eyelids into the nose, which is why crying gives you a runny nose.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: lacrimal glands secrete the fluid; from the lacrimal punctum tears enter the lacrimal sac, the nasolacrimal duct and 'finally into the nasal cavity'; excess tears from strong emotion 'can cause the nose to run' https://en.wikipedia.org/wiki/Tears",
+     "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
    ]
@@ -16471,6 +17773,46 @@
     }
    ]
   },
+  "trivial-pursuit": {
+   "id": "trivial-pursuit",
+   "answer": "Trivial Pursuit",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This game's makers were sued for $300 million by author Fred L. Worth after a fake fact he had planted in his reference book, that Columbo's first name was Philip, turned up in it.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Fred L. Worth 'filed a $300 million lawsuit against the distributors of Trivial Pursuit' in 1984; the Columbo first-name answer (Philip) had been fabricated to catch copyright violators. https://en.wikipedia.org/wiki/Trivial_Pursuit",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "About 20 million copies of this board game were reportedly sold in the United States in 1984 alone, three years after its launch in Canada.",
+     "verdict": "ok",
+     "evidence": "V&A: 'In 1984, 20 million games were sold in the United States'; Canadian Encyclopedia: first introduced in Canada in 1981. Note the Canadian Encyclopedia instead gives 20 million as cumulative 'by 1984', but the clue is hedged with 'reportedly'. https://collections.vam.ac.uk/item/O224411 https://www.thecanadianencyclopedia.ca/en/article/trivial-pursuit",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This game was dreamed up in Montreal on 15 December 1979, when its two journalist inventors found pieces missing from their Scrabble set and decided to make their own.",
+     "verdict": "loose",
+     "evidence": "Canadian Encyclopedia: devised on 15 December 1979 at Haney's Montreal home; Haney realized he had bought his 'sixth game of Scrabble (possibly because of missing pieces)'; Abbott a Canadian Press sports journalist, Haney a Gazette photo editor. https://www.thecanadianencyclopedia.ca/en/article/trivial-pursuit",
+     "problem": "Date, place and journalist inventors are right, but the missing-Scrabble-pieces story is legend stated as fact. The Canadian Encyclopedia says Haney realized he had bought his sixth Scrabble game ('possibly because of missing pieces'), which made him wonder whether they could create their own game; the V&A presents missing pieces only as 'the story goes'.",
+     "fix": "This game was dreamed up in Montreal on 15 December 1979, after one of its two journalist inventors realized he had bought his sixth Scrabble set and wondered if they could invent their own.",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "In this board game, players win colored plastic wedges by answering questions in six categories, such as blue for Geography and orange for Sports & Leisure.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: answering correctly on a category headquarters space 'awards a wedge in that color'; classic edition has Geography in blue and Sports & Leisure in orange, among six categories. https://en.wikipedia.org/wiki/Trivial_Pursuit",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "tulip": {
    "id": "tulip",
    "answer": "Tulip",
@@ -16969,6 +18311,44 @@
     }
    ]
   },
+  "very-hungry-caterpillar": {
+   "id": "very-hungry-caterpillar",
+   "answer": "The Very Hungry Caterpillar",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This picture book topped the 'favorite childhood books' George W. Bush's office listed in a 1999 survey of governors, drawing jokes since it came out when he was in his twenties.",
+     "verdict": "ok",
+     "evidence": "Washington Examiner: in Pizza Hut's 1999 survey of governors, Bush's office listed the book first, 'at the tippy-top, followed by six others'; critics joked it 'was published when he was 23' https://www.washingtonexaminer.com/magazine/1829969/the-presidents-very-favorite-book/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "U.S. printers balked at this 1969 picture book's die-cut holes and pages of varying widths, so its editor found a printer in Japan to make it.",
+     "verdict": "ok",
+     "evidence": "Eric Carle: editor Ann Beneduce 'had been unable to find a printer in the U.S.' because of 'the die-cut holes in the fruits and foods and the graduated, shortened pages' https://eric-carle.com/?p=242 ; Lit Hub: 'Beneduce located a printer in Japan who was able to produce the book'; published 1969 https://lithub.com/why-the-very-hungry-caterpillar-almost-never-happened/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This book's author defended its use of 'cocoon' instead of 'chrysalis' by recalling his father telling him to come out of his cocoon: 'poetry won over science!'",
+     "verdict": "ok",
+     "evidence": "Eric Carle's FAQ: his father told him 'Eric, come out of your cocoon'; 'it would not sound right to say, Come out of your chrysalis'; 'And so poetry won over science!' https://eric-carle.com/faq-items/many-of-you-ask-why-the-butterfly-in-the-very-hungry-caterpillar-comes-from-a-cocoon-not-a-chrysalis/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "In Eric Carle's picture book, a tiny larva eats through one apple, two pears, three plums and a huge Saturday feast, gets a stomach ache, then becomes a beautiful butterfly.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the caterpillar eats one apple, two pears, three plums and more, feasts on Saturday, gets a stomach ache, builds a cocoon and emerges as a butterfly https://en.wikipedia.org/wiki/The_Very_Hungry_Caterpillar",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "victoria-falls": {
    "id": "victoria-falls",
    "answer": "Victoria Falls",
@@ -17355,6 +18735,46 @@
     }
    ]
   },
+  "wasabi": {
+   "id": "wasabi",
+   "answer": "Wasabi",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This plant was reportedly so prized by Tokugawa Ieyasu that he forbade taking it out of Utogi, the Shizuoka village where its cultivation is said to have begun around 1600.",
+     "verdict": "ok",
+     "evidence": "Shizuoka prefecture site: cultivation in Utogi 'said to have originated during the Keicho era (1596-1615)'; 'Tokugawa Ieyasu, who spent his later years in Sunpu Castle, forbade wasabi from being taken out of the area.' Clue's 'reportedly so prized' is suitably hedged. https://fujinokuni.shokunomiyako-shizuoka.pref.shizuoka.jp/en/culture/article/2481",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "A fire alarm that wakes deaf and hard-of-hearing sleepers by spraying the vapor of this pungent condiment won Japanese researchers the 2011 Ig Nobel Prize in Chemistry.",
+     "verdict": "ok",
+     "evidence": "National Geographic: 2011 Ig Nobel Prize in chemistry to Makoto Imai and colleagues for a wasabi-spray wake-up alarm for people with hearing difficulties; Wikipedia: a smoke alarm prototype for deaf people. https://www.nationalgeographic.com/culture/article/110930-ig-nobel-prizes-2011-research-wasabi-beer-bottles-science https://en.wikipedia.org/wiki/Wasabi",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Chefs traditionally grate this plant's knobbly stem on sharkskin, and its sharp bite fades within about 15 to 20 minutes of grating.",
+     "verdict": "loose",
+     "evidence": "Marx Foods: 'About 15-20 minutes after being grated, wasabi starts to lose some of its nuanced flavor, becoming simply hot'; traditional sharkskin grater. Wikipedia: 'Traditionally, coarse sharkskin is used to grate the root' (rhizome plus stem base). https://marxfood.com/how-to-use-fresh-wasabi/ https://en.wikipedia.org/wiki/Wasabi",
+     "problem": "The cited source says it is the nuanced flavor, not the heat, that fades after 15-20 minutes: grated wasabi then becomes 'simply hot'. Sharkskin grating of the rhizome-stem is correct.",
+     "fix": "Chefs traditionally grate this plant's knobbly stem on sharkskin, and its subtle flavor starts to fade about 15 to 20 minutes after grating, leaving mostly heat.",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Most of the green paste served under this name at sushi bars outside Japan is really a mix of horseradish and mustard, colored green.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: common substitute is 'a mixture of horseradish, mustard, starch, and green food coloring'; outside Japan this is used at 'a majority of sushi restaurants'. https://en.wikipedia.org/wiki/Wasabi",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "water": {
    "id": "water",
    "answer": "Water",
@@ -17619,6 +19039,44 @@
      "verdict": "ok",
      "evidence": "Wikipedia calls him the greatest writer in English and England's national poet, and lists Romeo and Juliet and Hamlet among his works. https://en.wikipedia.org/wiki/William_Shakespeare",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "willow": {
+   "id": "willow",
+   "answer": "Willow",
+   "checks": [
+    {
+     "position": 1,
+     "text": "One of the world's oldest known fishing nets, found in a bog at Antrea, then part of Finland, was made from this tree's fibres more than 10,000 years ago.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the net is 'made out of willow' and dated to about 8540 BC. It was found in 1913 while ditching a swamp meadow in Antrea, then in Finland and now Kamennogorsk, Russia, and is 'one of the oldest known fishing nets in the world.' https://en.wikipedia.org/wiki/Antrea_Net",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Napoleon was first buried on St Helena in a valley shaded by these trees, and visitors took so many cuttings as relics that their offspring are said to grow worldwide.",
+     "verdict": "ok",
+     "evidence": "Babylonstoren: Napoleon was first buried in 1821 in the Sane Valley (Valley of the Willows), where 5 or 6 large willows formed an arbour. Visitors took many cuttings from the willow at the head of the grave, and these were planted around the world. https://blog.babylonstoren.com/?p=8412",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Linnaeus named one species of this tree 'babylonica' after Psalm 137, whose exiles hang their harps on its branches, though those trees were probably poplars.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the epithet babylonica stems from 'a misunderstanding by Linnaeus that this willow was the tree described in the Bible' (Psalm 137, harps hung on the willows). The trees by the Euphrates were Euphrates poplars, and the NIV says 'poplars.' https://en.wikipedia.org/wiki/Salix_babylonica",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Cricket bats are made from the wood of this tree, and its Latin name, Salix, gave us salicylic acid, the basis of aspirin.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'The bat is traditionally made from willow wood, specifically from a variety of white willow.' Salicylic acid's name 'is from Latin salix for willow tree,' and it is a precursor to acetylsalicylic acid (aspirin). https://en.wikipedia.org/wiki/Cricket_bat https://en.wikipedia.org/wiki/Salicylic_acid",
+     "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
    ]
@@ -17957,6 +19415,86 @@
      "verdict": "ok",
      "evidence": "Wikipedia: Orville made the first successful powered flight on 17 December 1903 in the brothers' Flyer, https://en.wikipedia.org/wiki/Wright_brothers",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "wuthering-heights": {
+   "id": "wuthering-heights",
+   "answer": "Wuthering Heights",
+   "checks": [
+    {
+     "position": 1,
+     "text": "In 1926 the barrister C. P. Sanger showed that this novel's events can be dated exactly, between 1771 and 1803, and that its plot to take over two estates is legally sound.",
+     "verdict": "loose",
+     "evidence": "Sanger's 1926 Hogarth essay: possible 'to ascertain the year, and, in most cases, the month' https://wuthering-heights.co.uk/sanger ; his legal analysis: 'Emily Brontë clearly had a considerable knowledge of the law', but Heathcliff held the Grange 'though wrongfully'; events run 1771 to 1803 https://wuthering-heights.co.uk/legal ; Sanger listed as barrister https://modernistarchives.com/node/6572",
+     "problem": "Sanger dated events to the year and 'in most cases' the month, not exactly, and he found Brontë's law accurate but concluded Heathcliff held Thrushcross Grange 'though wrongfully', so the takeover plot is not legally sound.",
+     "fix": "In 1926 the barrister C. P. Sanger showed that this novel's events can be dated year by year, from 1771 to 1803, and that its law of entails, wills and mortgages is accurate.",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "For an 1850 edition of this novel, published after its author's death, her sister corrected the punctuation and diluted the thick Yorkshire dialect of the old servant Joseph.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: after Emily's death Charlotte edited a second edition, published 1850; 'She addressed the faulty punctuation and orthography but also diluted Joseph's thick Yorkshire dialect' https://en.wikipedia.org/wiki/Wuthering_Heights",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Kate Bush, who shares a birthday with this novel's author, wrote a song named after it at 18 and became the first woman to top the UK chart with an entirely self-written song.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Bush shared her birthday with Emily Brontë; she wrote it 'aged 18' on 5 March 1977; it made her 'the first female artist to achieve a number-one single with an entirely self-written song' https://en.wikipedia.org/wiki/Wuthering_Heights_(song)",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "In this Emily Brontë novel, filmed in 2026 with Margot Robbie and Jacob Elordi, the foundling Heathcliff loves Catherine Earnshaw on the Yorkshire moors.",
+     "verdict": "loose",
+     "evidence": "Wikipedia: Emerald Fennell film with Margot Robbie as Catherine Earnshaw and Jacob Elordi as Heathcliff; principal photography mid-January to late March 2025; released February 13, 2026 https://en.wikipedia.org/wiki/Wuthering_Heights_(2026_film)",
+     "problem": "The film was shot from January to March 2025; only its release (February 13, 2026) was in 2026.",
+     "fix": "In this Emily Brontë novel, adapted in a 2026 film with Margot Robbie and Jacob Elordi, the foundling Heathcliff loves Catherine Earnshaw on the Yorkshire moors.",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "yahoo": {
+   "id": "yahoo",
+   "answer": "Yahoo!",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This company's famous yodel was recorded by country singer Wylie Gustafson for about $590; after it aired nationally, he sued for $5 million and settled in 2002.",
+     "verdict": "ok",
+     "evidence": "The Hustle: Wylie Gustafson got a one-time $590.38 for a regional spot; it aired nationally in the 1999 Super Bowl; he sought $5 million and settled in 2002 https://thehustle.co/the-yodeler-who-sued-yahoo ; The Register (23 Apr 2002) reports the settlement https://www.theregister.com/2002/04/23/yahoo_settles_yodel_case/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This company turned down a chance to buy Google for $1 million in 1998, and in 2008 rejected Microsoft's $44.6 billion takeover bid.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: in 1998 Page and Brin 'approached Yahoo to sell their nascent search engine for $1 million' and Yahoo declined; in February 2008 Microsoft bid $44.6 billion and Yahoo rejected it as undervaluing the company https://en.wikipedia.org/wiki/Yahoo",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Its founders said they picked its name for the slang sense 'rude, unsophisticated, uncouth', after the brutish humanlike creatures in 'Gulliver's Travels'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the founders said they liked the slang meaning 'rude, unsophisticated, uncouth', which traces to the Yahoos of Gulliver's Travels https://en.wikipedia.org/wiki/Yahoo",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Stanford grad students Jerry Yang and David Filo started this web portal in 1994 as 'Jerry and David's Guide to the World Wide Web'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: in January 1994 Stanford graduate students Jerry Yang and David Filo built 'Jerry and David's guide to the World Wide Web' https://en.wikipedia.org/wiki/Yahoo",
+     "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
    ]
