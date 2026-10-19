@@ -139,6 +139,8 @@ export const ANSWER_PAGE_TITLES: Record<string, string | null> = {
   curiosity: "Curiosity (rover)",
   "oregon trail": "The Oregon Trail (series)",
   "snow white and the seven dwarfs": "Snow White and the Seven Dwarfs (film)",
+  atlas: "Atlas (mythology)", // the bare name is a book of maps
+  "stinging nettle": "Urtica dioica", // the common name is a disambiguation page
 };
 
 type AnswerLike = Pick<Question, "answer" | "answerCanonical" | "answerAliases" | "category"> &
