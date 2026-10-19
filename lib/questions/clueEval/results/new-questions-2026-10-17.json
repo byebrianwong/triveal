@@ -4,7 +4,7 @@
   "clues": [
    {
     "position": 1,
-    "text": "This part of the eye grew wider with each extra digit people had to hold in memory, a 1966 study co-written by future Nobel laureate Daniel Kahneman found.",
+    "text": "In a 1966 study co-written by future Nobel laureate Daniel Kahneman, this part of the eye proved a reliable gauge of mental effort as people held more and more digits in memory.",
     "how": "written",
     "sources": [
      "https://en.wikipedia.org/wiki/Task-invoked_pupillary_response",
@@ -90,7 +90,7 @@
   "clues": [
    {
     "position": 1,
-    "text": "Researchers in Madagascar reported in 2007 that a moth slips its barbed, harpoon-like proboscis under the closed eyelids of sleeping birds to drink this fluid.",
+    "text": "Researchers in Madagascar reported in 2007 that a moth uses its barbed, harpoon-like proboscis to drink this fluid from sleeping birds.",
     "how": "written",
     "sources": [
      "https://en.wikipedia.org/wiki/Hemiceratoides_hieroglyphica",
@@ -257,7 +257,7 @@
   "clues": [
    {
     "position": 1,
-    "text": "This company's famous yodel was recorded by country singer Wylie Gustafson for about $590; after it aired nationally, he sued for $5 million and settled in 2002.",
+    "text": "This company paid country singer Wylie Gustafson about $590 for a recording; after it aired nationally in the company's ads, he sued for $5 million and settled in 2002.",
     "how": "written",
     "sources": [
      "https://thehustle.co/the-yodeler-who-sued-yahoo",
@@ -350,18 +350,18 @@
    },
    {
     "position": 2,
-    "text": "The first printed version of this tale, in Antoine Galland's French Nights, is set in 'one of the cities of China', and its hero commands two genies, the weaker one bound to a magic ring.",
-    "how": "written",
-    "sources": [
-     "https://en.wikipedia.org/wiki/Aladdin"
-    ]
-   },
-   {
-    "position": 3,
     "text": "In British Christmas pantomimes of this story, the hero's mother is the comic dame Widow Twankey, named after a cheap brand of Chinese tea.",
     "how": "written",
     "sources": [
      "https://en.wikipedia.org/wiki/Widow_Twankey"
+    ]
+   },
+   {
+    "position": 3,
+    "text": "The first printed version of this tale, in Antoine Galland's French Nights, is set in 'one of the cities of China', and its hero commands two genies, the weaker one bound to a magic ring.",
+    "how": "written",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Aladdin"
     ]
    },
    {
@@ -506,7 +506,7 @@
   "clues": [
    {
     "position": 1,
-    "text": "This creature gave its name to the 'economics' that Paul Krugman mocked in July 2016, after Ireland reported 26 percent GDP growth for 2015.",
+    "text": "This creature gave its name to the 'economics' that Paul Krugman mocked in July 2016, after one European country reported 26 percent GDP growth for 2015.",
     "how": "written",
     "sources": [
      "https://en.wikipedia.org/wiki/Leprechaun_economics",
@@ -714,7 +714,7 @@
   "clues": [
    {
     "position": 1,
-    "text": "A descendant of John Fitch, whose steamboat was the first patented in the U.S., patented this appliance in 1886; her version cleaned with water pressure instead of scrubbers.",
+    "text": "A descendant of John Fitch, whose steamboat was the first patented in the U.S., patented this household machine in 1886.",
     "how": "written",
     "sources": [
      "https://www.uspto.gov/dwcstories/cochran.html",
@@ -798,7 +798,7 @@
   "clues": [
    {
     "position": 1,
-    "text": "This gadget took shape after Apple's Jon Rubinstein was shown a tiny 1.8-inch hard drive at Toshiba in 2001 and promised to buy every one the company could make.",
+    "text": "This gadget took shape after its maker's hardware chief, Jon Rubinstein, was shown a tiny 1.8-inch hard drive at Toshiba in 2001 and promised to buy every one Toshiba could make.",
     "how": "written",
     "sources": [
      "https://spectrum.ieee.org/from-podfather-to-palms-pilot",
@@ -807,7 +807,7 @@
    },
    {
     "position": 2,
-    "text": "This device's scroll wheel was inspired by a Bang & Olufsen cordless phone, the BeoCom 6000, which Phil Schiller reportedly brought to an early meeting with Steve Jobs.",
+    "text": "This device's signature control was inspired by a Bang & Olufsen cordless phone, the BeoCom 6000, which Phil Schiller reportedly brought to an early meeting with Steve Jobs.",
     "how": "written",
     "sources": [
      "https://www.ifun.de/ipod-bedienung-bo-telefon-war-vorbild-fuers-click-wheel-186934/",
@@ -816,11 +816,11 @@
    },
    {
     "position": 3,
-    "text": "Copywriter Vinnie Chieco proposed this device's name after its white prototype reminded him of '2001: A Space Odyssey' and the line 'Open the pod bay doors, Hal'.",
+    "text": "In 2004 Apple sold a black-and-red special edition of this device with the engraved signatures of U2's four members on its back.",
     "how": "written",
     "sources": [
-     "https://en.wikipedia.org/wiki/IPod",
-     "https://www.cultofmac.com/?p=125926"
+     "https://www.apple.com/newsroom/2004/10/26Apple-Introduces-the-U2-iPod/",
+     "https://theapplewiki.com/wiki/IPod_with_Click_Wheel_(4th_generation)"
     ]
    },
    {
@@ -833,7 +833,7 @@
     ]
    }
   ],
-  "writerNotes": "Clue 1: IEEE Spectrum: Toshiba hosts 'trotted out a 1.8-inch hard drive' they weren't sure what to do with, and 'Rubinstein told his Toshiba colleagues he'd buy every 1.8-inch drive the company could make.' Computer History Museum: Toshiba MK5002MAL 1.8-inch drive was the first iPod's storage; Rubinstein: 'The key element was the drive.' Date: Isaacson (via Time) puts the visit in February 2001, other accounts January 2001; both are 2001. Clue 2: Tony Fadell tweeted on 10 May 2022 that the wheel was inspired by a B&O DECT cordless phone brought to the first meeting with Jobs; ifun.de names the BeoCom 6000 and says Schiller brought it; ifanr summarises Fast Company's insider quote ('Phil had seen it, and said, Well, we should do that'). Hedged with 'reportedly'. The 2001 original had a mechanically rotating wheel (the 'click wheel' came later), so the clue says 'scroll wheel'. Clue 3: 'pod' is not a leak (the 4-letter answer 'ipod' only matches as a whole word). Clue 4: Wikipedia: discontinued 10 May 2022, iPod Touch being the last model; Apple's newsroom post says 'available while supplies last'."
+  "writerNotes": "Clue 1: IEEE Spectrum: Toshiba hosts 'trotted out a 1.8-inch hard drive' they weren't sure what to do with, and 'Rubinstein told his Toshiba colleagues he'd buy every 1.8-inch drive the company could make.' Computer History Museum: Toshiba MK5002MAL 1.8-inch drive was the first iPod's storage; Rubinstein: 'The key element was the drive.' Date: Isaacson (via Time) puts the visit in February 2001, other accounts January 2001; both are 2001. Clue 2: Tony Fadell tweeted on 10 May 2022 that the wheel was inspired by a B&O DECT cordless phone brought to the first meeting with Jobs; ifun.de names the BeoCom 6000 and says Schiller brought it; ifanr summarises Fast Company's insider quote ('Phil had seen it, and said, Well, we should do that'). Hedged with 'reportedly'. The 2001 original had a mechanically rotating wheel (the 'click wheel' came later), so the clue says 'scroll wheel'. Clue 3: 'pod' is not a leak (the 4-letter answer 'ipod' only matches as a whole word). Clue 4: Wikipedia: discontinued 10 May 2022, iPod Touch being the last model; Apple's newsroom post says 'available while supplies last'. Judge round: clue 3 (pod bay doors) replaced because it used part of the answer's name; Apple's 26 Oct 2004 press release describes the U2 edition."
  },
  "michelangelos-david": {
   "answer": "David",
@@ -1046,7 +1046,7 @@
   "clues": [
    {
     "position": 1,
-    "text": "In 2016 a Vanderbilt engineer used a roughly $40 machine for making this treat, bought at Target, to spin fibers that served as molds for artificial capillaries.",
+    "text": "In 2016 a Vanderbilt engineer used a roughly $40 machine for making this treat, bought at Target, to build molds for artificial capillaries.",
     "how": "written",
     "sources": [
      "https://news.vumc.org/?p=235866"
@@ -1088,21 +1088,21 @@
   "clues": [
    {
     "position": 1,
+    "text": "This board game's first run of 1,100 copies, in 1981, cost its inventors about $75 apiece to make, but they sold them for $15 each.",
+    "how": "written",
+    "sources": [
+     "https://epe.lac-bac.gc.ca/100/205/301/ic/cdc/heirloom_series/volume4/216-219.htm",
+     "https://www.museumofplay.org/?p=28793"
+    ]
+   },
+   {
+    "position": 2,
     "text": "This game's makers were sued for $300 million by author Fred L. Worth after a fake fact he had planted in his reference book, that Columbo's first name was Philip, turned up in it.",
     "how": "written",
     "sources": [
      "https://en.wikipedia.org/wiki/Trivial_Pursuit",
      "https://en.wikipedia.org/wiki/Columbo_(character)",
      "https://www.mentalfloss.com/posts/trivial-pursuit-board-game-history"
-    ]
-   },
-   {
-    "position": 2,
-    "text": "About 20 million copies of this board game were reportedly sold in the United States in 1984 alone, three years after its launch in Canada.",
-    "how": "written",
-    "sources": [
-     "https://epe.lac-bac.gc.ca/100/205/301/ic/cdc/heirloom_series/volume4/216-219.htm",
-     "https://en.wikipedia.org/wiki/Chris_Haney_(Trivial_Pursuit)"
     ]
    },
    {
@@ -1123,7 +1123,7 @@
     ]
    }
   ],
-  "writerNotes": "Clue 1: Worth filed the $300M suit in October 1984; 'Philip' was a deliberate fake entry in his trivia encyclopedia; he lost (cert denied 1988). Clue 2: Library and Archives Canada heirloom-series page: 'In 1984, a record 20 million of the games were sold in the United States alone'; Wikipedia's Haney article also gives 20 million in 1984, but the main Trivial Pursuit article says 20 million by 1986 and about 30 million 1983-88, hence 'about' and 'reportedly'. Launched fall 1981. Clue 3: LAC page: on 15 Dec 1979 Haney (Gazette photo editor) and Abbott (Canadian Press sportswriter) 'got together in Montreal for a game of Scrabble and found pieces of the game missing'. Mental Floss says instead they couldn't find a Scrabble board; Wikipedia only says the accounts mostly involve Scrabble. Avoided the word 'trivia' in clues as too close to the answer."
+  "writerNotes": "Clue 1: Worth filed the $300M suit in October 1984; 'Philip' was a deliberate fake entry in his trivia encyclopedia; he lost (cert denied 1988). Clue 2: Library and Archives Canada heirloom-series page: 'In 1984, a record 20 million of the games were sold in the United States alone'; Wikipedia's Haney article also gives 20 million in 1984, but the main Trivial Pursuit article says 20 million by 1986 and about 30 million 1983-88, hence 'about' and 'reportedly'. Launched fall 1981. Clue 3: LAC page: on 15 Dec 1979 Haney (Gazette photo editor) and Abbott (Canadian Press sportswriter) 'got together in Montreal for a game of Scrabble and found pieces of the game missing'. Mental Floss says instead they couldn't find a Scrabble board; Wikipedia only says the accounts mostly involve Scrabble. Avoided the word 'trivia' in clues as too close to the answer. Judge round: the 1984 sales clue was dropped; the first-run cost is from Library and Archives Canada and The Strong museum."
  },
  "oregon-trail": {
   "answer": "The Oregon Trail",
@@ -1296,11 +1296,12 @@
   "clues": [
    {
     "position": 1,
-    "text": "In 2015 a palaeontologist at a market in Myitkyina, Myanmar, spotted a 99-million-year-old feathered dinosaur tail in a lump of this, which had been taken for a plant.",
+    "text": "Russia's Kaliningrad region holds an estimated 90 percent of the world's known deposits of this material, mined on its Baltic coast at Yantarny.",
     "how": "written",
     "sources": [
-     "https://www.asianscientist.com/2016/12/in-the-lab/feathered-dinosaur-tail-preserved-amber/",
-     "https://research-information.bris.ac.uk/en/publications/a-feathered-dinosaur-tail-with-primitive-plumage-trapped-in-mid-c/"
+     "https://www.aljazeera.com/features/2014/10/28/illegally-mining-russias-baltic-gold",
+     "https://www.aa.com.tr/en/europe/amber-ancient-treasure-from-the-sea-that-could-reshape-russia-s-future/3269236",
+     "https://en.wikipedia.org/wiki/Kaliningrad_Amber_Combine"
     ]
    },
    {
@@ -1329,7 +1330,7 @@
     ]
    }
   ],
-  "writerNotes": "Leak rule: avoided 'chamber', 'Amberley', 'ambergris' and the name 'Amber Room'. Clue 1: Asian Scientist (Dec 2016): Xing Lida found it in 2015 at 'an amber market in Myitkyina, Myanmar'; it was initially taken for 'some kind of plant inclusion'; ~99 million years old. Xing et al., Current Biology 2016 (Bristol research portal): mid-Cretaceous (~99 Ma) amber from Kachin State; feathered tail of a putative juvenile coelurosaur. Asian Scientist says it was initially taken for a plant inclusion, hence 'had been taken for a plant' (search snippets say the seller thought so, but I did not open those pages). Clue 2: Wikipedia Etymology of electricity: Greek ēlektron 'amber' -> Latin electrum -> Gilbert's 'electricus' (1600); an 'Electrick' attracts light bodies such as bits of paper when rubbed. Clue 3: Wikipedia Amber Room: Frederick William I gave it to Peter the Great in 1716; called the 'Eighth Wonder of the World'; dismantled by Army Group North in 1941 and taken to Königsberg; its fate is unknown (a Soviet report says destroyed April 1945), replica installed 2003. Clue 4: Wikipedia Amber: preserved organisms in amber are a key plot point in Crichton's 1990 novel and the 1993 film."
+  "writerNotes": "Leak rule: avoided 'chamber', 'Amberley', 'ambergris' and the name 'Amber Room'. Clue 1: Asian Scientist (Dec 2016): Xing Lida found it in 2015 at 'an amber market in Myitkyina, Myanmar'; it was initially taken for 'some kind of plant inclusion'; ~99 million years old. Xing et al., Current Biology 2016 (Bristol research portal): mid-Cretaceous (~99 Ma) amber from Kachin State; feathered tail of a putative juvenile coelurosaur. Asian Scientist says it was initially taken for a plant inclusion, hence 'had been taken for a plant' (search snippets say the seller thought so, but I did not open those pages). Clue 2: Wikipedia Etymology of electricity: Greek ēlektron 'amber' -> Latin electrum -> Gilbert's 'electricus' (1600); an 'Electrick' attracts light bodies such as bits of paper when rubbed. Clue 3: Wikipedia Amber Room: Frederick William I gave it to Peter the Great in 1716; called the 'Eighth Wonder of the World'; dismantled by Army Group North in 1941 and taken to Königsberg; its fate is unknown (a Soviet report says destroyed April 1945), replica installed 2003. Clue 4: Wikipedia Amber: preserved organisms in amber are a key plot point in Crichton's 1990 novel and the 1993 film. Judge round: clue 1 (Myanmar dinosaur tail) replaced; it gave the answer away and echoed clue 4. Al Jazeera says 'at least 90 percent of the world's deposits'; Anadolu quotes the Kaliningrad Amber Combine's geologist on 90% of extractable reserves."
  },
  "rudolph": {
   "answer": "Rudolph the Red-Nosed Reindeer",
@@ -1447,16 +1448,14 @@
    },
    {
     "position": 4,
-    "text": "Wham-O named this toy after the Frisbie pie company of Bridgeport, Connecticut, whose empty tins New England college students had long tossed around.",
+    "text": "Wham-O first sold this toy as the Pluto Platter, then renamed it after a Connecticut pie company whose empty tins New England college students had long tossed around.",
     "how": "written",
     "sources": [
-     "https://en.wikipedia.org/wiki/Frisbee",
-     "https://newenglandhistoricalsociety.com/the-sweet-new-england-history-of-the-frisbee/",
-     "https://en.wikipedia.org/wiki/Walter_Frederick_Morrison"
+     "https://en.wikipedia.org/wiki/Frisbee"
     ]
    }
   ],
-  "writerNotes": "Clue 1: PDGA: after redesigning the Pluto Platter into the Professional Model he 'filed a new patent application that claimed the grooves' ('The Lines of Headrick'); on his death in 2002 'his ashes were molded into a limited number of discs per his wishes'. Wikipedia Frisbee also says his ashes were molded into memorial discs. Kept 'disc golf' out of clue 1 because it would give the answer away. Clue 2: Wikipedia Frisbee: Morrison and Franscioni's Flyin-Saucer (from 1948), pitch: 'The Flyin' Saucer is free, but the invisible wire is $1.00.' Flying Disc Museum timeline: sold 1948-50 at fairs, stores and beaches 'using invisible wire and other sales ploys'. Clue 3: Wikipedia Ashley Whippet: Alex Stein, 19-year-old college student, 5 Aug 1974, nationally televised Dodgers-Reds game; Wikipedia says about eight minutes, but an LA Times account (quoted by Dodger Thoughts) suggests a shorter stint, so the clue gives no duration. Clue 4: Wikipedia: named after a Connecticut pie maker whose tins Yale students tossed; New England Historical Society: Frisbie Pie Company founded 1871 in Bridgeport; students across New England campuses tossed the tins; Wham-O changed the spelling from 'Frisbie'. Year of the rename differs (June 1957 per Wikipedia, 1958 per NEHS), so the clue gives none."
+  "writerNotes": "Clue 1: PDGA: after redesigning the Pluto Platter into the Professional Model he 'filed a new patent application that claimed the grooves' ('The Lines of Headrick'); on his death in 2002 'his ashes were molded into a limited number of discs per his wishes'. Wikipedia Frisbee also says his ashes were molded into memorial discs. Kept 'disc golf' out of clue 1 because it would give the answer away. Clue 2: Wikipedia Frisbee: Morrison and Franscioni's Flyin-Saucer (from 1948), pitch: 'The Flyin' Saucer is free, but the invisible wire is $1.00.' Flying Disc Museum timeline: sold 1948-50 at fairs, stores and beaches 'using invisible wire and other sales ploys'. Clue 3: Wikipedia Ashley Whippet: Alex Stein, 19-year-old college student, 5 Aug 1974, nationally televised Dodgers-Reds game; Wikipedia says about eight minutes, but an LA Times account (quoted by Dodger Thoughts) suggests a shorter stint, so the clue gives no duration. Clue 4: Wikipedia: named after a Connecticut pie maker whose tins Yale students tossed; New England Historical Society: Frisbie Pie Company founded 1871 in Bridgeport; students across New England campuses tossed the tins; Wham-O changed the spelling from 'Frisbie'. Year of the rename differs (June 1957 per Wikipedia, 1958 per NEHS), so the clue gives none. Judge round: clue 4 no longer names the Frisbie company, which nearly spells the answer."
  },
  "sally-ride": {
   "answer": "Sally Ride",
@@ -2020,11 +2019,12 @@
    },
    {
     "position": 3,
-    "text": "In 1993, amid a fight with Warner Bros., this musician changed his stage name to an unpronounceable symbol, and he later performed with 'slave' written on his cheek.",
+    "text": "This musician is credited with playing all 27 instruments listed on his 1978 debut album, 'For You', which he also wrote, arranged and produced.",
     "how": "written",
     "sources": [
-     "https://en.wikipedia.org/wiki/Prince_(musician)",
-     "https://www.mentalfloss.com/entertainment/music/prince-symbol-name-change-history"
+     "https://www.thecurrent.org/feature/2021/04/15/musicheads-essential-album-prince-for-you",
+     "https://www.thesound.co.nz/home/music/2020/07/prince-played-every-single-instrument-and-sang-every-part-by-him.html",
+     "https://faroutmagazine.co.uk/how-many-instruments-did-prince-play/"
     ]
    },
    {
@@ -2037,7 +2037,7 @@
     ]
    }
   ],
-  "writerNotes": "Clue 1: Wikipedia: written by Prince as 'Christopher', peaked at No. 2, kept from No. 1 by his own 'Kiss'; Songfacts: week ending 19 Apr 1986 'Kiss' was No. 1 and 'Manic Monday' No. 2. Clue 2: Wikipedia: 'a two-minute guitar solo that ended the song' at the 2004 Rock Hall tribute to George Harrison; Ultimate Classic Rock (15 Mar 2004, with Tom Petty and Jeff Lynne): he 'tossed his guitar into the air'. Clue 3: Wikipedia: 1993 name change to a symbol 'in the midst of a contractual dispute with Warner Bros.' and appearances with 'slave' on his face; Mental Floss: 'slave' across his cheek on stage in 1995. Clue 4: Wikipedia: Super Bowl XLI (Feb 2007), '12-minute performance in the rain' ending with 'Purple Rain'; the Super Bowl XLI halftime article: 4 Feb 2007, Dolphin Stadium, a downpour during 'Purple Rain', the first rain at a Super Bowl halftime show. The leak rule bans 'prince' as a substring, so no 'princess' etc. Note: bare 'Prince' on Wikipedia is a disambiguation/title page, so this likely needs an ANSWER_PAGE_TITLES override to 'Prince (musician)'."
+  "writerNotes": "Clue 1: Wikipedia: written by Prince as 'Christopher', peaked at No. 2, kept from No. 1 by his own 'Kiss'; Songfacts: week ending 19 Apr 1986 'Kiss' was No. 1 and 'Manic Monday' No. 2. Clue 2: Wikipedia: 'a two-minute guitar solo that ended the song' at the 2004 Rock Hall tribute to George Harrison; Ultimate Classic Rock (15 Mar 2004, with Tom Petty and Jeff Lynne): he 'tossed his guitar into the air'. Clue 3: Wikipedia: 1993 name change to a symbol 'in the midst of a contractual dispute with Warner Bros.' and appearances with 'slave' on his face; Mental Floss: 'slave' across his cheek on stage in 1995. Clue 4: Wikipedia: Super Bowl XLI (Feb 2007), '12-minute performance in the rain' ending with 'Purple Rain'; the Super Bowl XLI halftime article: 4 Feb 2007, Dolphin Stadium, a downpour during 'Purple Rain', the first rain at a Super Bowl halftime show. The leak rule bans 'prince' as a substring, so no 'princess' etc. Note: bare 'Prince' on Wikipedia is a disambiguation/title page, so this likely needs an ANSWER_PAGE_TITLES override to 'Prince (musician)'. Judge round: clue 3 (symbol name change) replaced; the 27 comes from the album's liner-note credits."
  },
  "aluminum": {
   "answer": "Aluminum",
@@ -2064,10 +2064,11 @@
    },
    {
     "position": 3,
-    "text": "Napoleon III reportedly saved his dinner plates made of this metal, then a costly novelty, for his most honored guests.",
+    "text": "This metal's oxide, corundum, forms both rubies and sapphires, colored red by traces of chromium or blue by iron and titanium.",
     "how": "written",
     "sources": [
-     "https://en.wikipedia.org/wiki/Hall%E2%80%93H%C3%A9roult_process"
+     "https://en.wikipedia.org/wiki/Corundum",
+     "https://www.britannica.com/science/corundum"
     ]
    },
    {
@@ -2079,6 +2080,6 @@
     ]
    }
   ],
-  "writerNotes": "Clue 1: Wikipedia: process 'discovered independently and almost simultaneously in 1886'; Héroult 10 Apr 1863 - 9 May 1914; Hall 6 Dec 1863 - 27 Dec 1914 (the Héroult article also gives Hall as 1863-1914). Clue 2: Wikipedia: 100-ounce apex set 6 Dec 1884, cast by William Frishmuth, 'put on public display at Tiffany's in New York City' where visitors stepped over it, metal 'as rare and valuable as silver'; Mental Floss: $1 an ounce, 'about the same price as silver', two days in Tiffany's window; GWU museum: $1.10/oz, 'as valuable as silver'. Clue 3 is an anecdote, hence 'reportedly': Wikipedia (Hall-Héroult) says Napoleon III 'reportedly reserved his aluminium dinner plates for his most honored guests'. I found no primary source, only popular retellings (e.g. Sapiens), and left out the 'lesser guests got gold' half. Drop the clue if 'reportedly' is not enough. Clue 4: Wikipedia: most abundant metallic element in the crust (8.23% by mass); 'aluminium' is the Commonwealth spelling, 'aluminum' the North American one."
+  "writerNotes": "Clue 1: Wikipedia: process 'discovered independently and almost simultaneously in 1886'; Héroult 10 Apr 1863 - 9 May 1914; Hall 6 Dec 1863 - 27 Dec 1914 (the Héroult article also gives Hall as 1863-1914). Clue 2: Wikipedia: 100-ounce apex set 6 Dec 1884, cast by William Frishmuth, 'put on public display at Tiffany's in New York City' where visitors stepped over it, metal 'as rare and valuable as silver'; Mental Floss: $1 an ounce, 'about the same price as silver', two days in Tiffany's window; GWU museum: $1.10/oz, 'as valuable as silver'. Clue 3 is an anecdote, hence 'reportedly': Wikipedia (Hall-Héroult) says Napoleon III 'reportedly reserved his aluminium dinner plates for his most honored guests'. I found no primary source, only popular retellings (e.g. Sapiens), and left out the 'lesser guests got gold' half. Drop the clue if 'reportedly' is not enough. Clue 4: Wikipedia: most abundant metallic element in the crust (8.23% by mass); 'aluminium' is the Commonwealth spelling, 'aluminum' the North American one. Judge round: Napoleon III clue replaced because it repeated clue 2's once-precious angle."
  }
 }

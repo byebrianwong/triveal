@@ -1,8 +1,8 @@
 /**
- * Expanded question bank — 750 hand-written questions added to grow the daily
+ * Expanded question bank — 800 hand-written questions added to grow the daily
  * and practice pools. The later batches broaden the mix toward modern pop
  * culture — movies, TV, video games, music, tech, and internet culture —
- * alongside the evergreen topics. The three most recent batches of 50 pull
+ * alongside the evergreen topics. The four most recent batches of 50 pull
  * back the other way to even out the category mix: they feed the thin
  * categories (Nature most of all, then art, the human body, mythology,
  * literature, internet, pop culture, and technology) while keeping a
@@ -33,6 +33,9 @@
  * The 50 after those (from "gullivers-travels" on) were added on 2026-10-15
  * the same way, spread across the 13 thinnest categories; their sources are in
  * clueEval/results/new-questions-2026-10-15.json.
+ * The 50 after those (from "pupil" on) were added on 2026-10-17 the same way,
+ * spread across the 17 thinnest categories (none for the Geography group or
+ * Animals); their sources are in clueEval/results/new-questions-2026-10-17.json.
  * The current rules
  * for writing and rewriting clues are in lib/questions/README.md, under "What
  * makes a good question". Follow those, not the style of the entries below.
@@ -13644,7 +13647,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Human Body",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This part of the eye grew wider with each extra digit people had to hold in memory, a 1966 study co-written by future Nobel laureate Daniel Kahneman found." },
+      { position: 1, text: "In a 1966 study co-written by future Nobel laureate Daniel Kahneman, this part of the eye proved a reliable gauge of mental effort as people held more and more digits in memory." },
       { position: 2, text: "Renaissance women are said to have widened these with drops of deadly nightshade, a popular explanation for the plant's other name, belladonna, 'beautiful lady'." },
       { position: 3, text: "When goats lower their heads to graze, each eyeball can rotate 50 degrees or more to keep this part of the eye, a horizontal slot in goats, level with the ground." },
       { position: 4, text: "This black opening at the center of the iris takes its name from the Latin for 'little doll', for the tiny image of yourself you see in someone else's." },
@@ -13682,7 +13685,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Human Body",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Researchers in Madagascar reported in 2007 that a moth slips its barbed, harpoon-like proboscis under the closed eyelids of sleeping birds to drink this fluid." },
+      { position: 1, text: "Researchers in Madagascar reported in 2007 that a moth uses its barbed, harpoon-like proboscis to drink this fluid from sleeping birds." },
       { position: 2, text: "In a 2011 Weizmann Institute study, men who sniffed this odorless fluid, donated by women, had lower testosterone and rated women's faces as less sexually appealing." },
       { position: 3, text: "Bogorad's syndrome makes people whose facial nerve regrows wrongly after Bell's palsy produce this fluid while eating, and it is nicknamed after a reptile." },
       { position: 4, text: "Made by the lacrimal glands, this salty fluid drains through tiny holes at the inner corners of the eyelids into the nose, which is why crying gives you a runny nose." },
@@ -13757,7 +13760,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Internet",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This company's famous yodel was recorded by country singer Wylie Gustafson for about $590; after it aired nationally, he sued for $5 million and settled in 2002." },
+      { position: 1, text: "This company paid country singer Wylie Gustafson about $590 for a recording; after it aired nationally in the company's ads, he sued for $5 million and settled in 2002." },
       { position: 2, text: "This company turned down a chance to buy Google for $1 million in 1998, and in 2008 rejected Microsoft's $44.6 billion takeover bid." },
       { position: 3, text: "Its founders said they picked its name for the slang sense 'rude, unsophisticated, uncouth', after the brutish humanlike creatures in 'Gulliver's Travels'." },
       { position: 4, text: "Stanford grad students Jerry Yang and David Filo started this web portal in 1994 as 'Jerry and David's Guide to the World Wide Web'." },
@@ -13796,13 +13799,13 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This tale was never translated from an Arabic original; Hanna Diyab, a storyteller from Aleppo, told it to the French translator Antoine Galland in Paris in 1709." },
-      { position: 2, text: "The first printed version of this tale, in Antoine Galland's French Nights, is set in 'one of the cities of China', and its hero commands two genies, the weaker one bound to a magic ring." },
-      { position: 3, text: "In British Christmas pantomimes of this story, the hero's mother is the comic dame Widow Twankey, named after a cheap brand of Chinese tea." },
+      { position: 2, text: "In British Christmas pantomimes of this story, the hero's mother is the comic dame Widow Twankey, named after a cheap brand of Chinese tea." },
+      { position: 3, text: "The first printed version of this tale, in Antoine Galland's French Nights, is set in 'one of the cities of China', and its hero commands two genies, the weaker one bound to a magic ring." },
       { position: 4, text: "Robin Williams voiced the wisecracking Genie in Disney's 1992 animated film of this tale, whose street-urchin hero falls for Princess Jasmine." },
     ],
     decoys: [
-      { text: "Ali Baba and the Forty Thieves", eliminatedByClue: 2 },
-      { text: "Sinbad the Sailor", eliminatedByClue: 2 },
+      { text: "Ali Baba and the Forty Thieves", eliminatedByClue: 3 },
+      { text: "Sinbad the Sailor", eliminatedByClue: 3 },
     ],
   },
   {
@@ -13870,7 +13873,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Mythology",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This creature gave its name to the 'economics' that Paul Krugman mocked in July 2016, after Ireland reported 26 percent GDP growth for 2015." },
+      { position: 1, text: "This creature gave its name to the 'economics' that Paul Krugman mocked in July 2016, after one European country reported 26 percent GDP growth for 2015." },
       { position: 2, text: "In the oldest known tale of this creature, an Irish saga first written down around the eighth century, three of them drag King Fergus mac Léti toward the sea, then grant him three wishes." },
       { position: 3, text: "Before the 20th century this solitary shoemaker was usually pictured in red; Samuel Lover in 1831 gave it 'a red square-cut coat, richly laced with gold'." },
       { position: 4, text: "Lucky, the mascot of General Mills' Lucky Charms cereal, is one of these little Irish fairies, said to hide a pot of gold at the end of the rainbow." },
@@ -13965,7 +13968,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Technology",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "A descendant of John Fitch, whose steamboat was the first patented in the U.S., patented this appliance in 1886; her version cleaned with water pressure instead of scrubbers." },
+      { position: 1, text: "A descendant of John Fitch, whose steamboat was the first patented in the U.S., patented this household machine in 1886." },
       { position: 2, text: "Chicago's Palmer House hotel made the first big purchase of this invention in 1887, and at the 1893 World's Fair it won a prize for mechanical construction and durability." },
       { position: 3, text: "This appliance's Illinois inventor was reportedly fed up with servants chipping her heirloom china, and vowed that if nobody else would invent it, she'd do it herself." },
       { position: 4, text: "About two-thirds of U.S. homes have this kitchen appliance, which sprays hot, soapy water over racks of plates, glasses and cutlery." },
@@ -14002,9 +14005,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Technology",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This gadget took shape after Apple's Jon Rubinstein was shown a tiny 1.8-inch hard drive at Toshiba in 2001 and promised to buy every one the company could make." },
-      { position: 2, text: "This device's scroll wheel was inspired by a Bang & Olufsen cordless phone, the BeoCom 6000, which Phil Schiller reportedly brought to an early meeting with Steve Jobs." },
-      { position: 3, text: "Copywriter Vinnie Chieco proposed this device's name after its white prototype reminded him of '2001: A Space Odyssey' and the line 'Open the pod bay doors, Hal'." },
+      { position: 1, text: "This gadget took shape after its maker's hardware chief, Jon Rubinstein, was shown a tiny 1.8-inch hard drive at Toshiba in 2001 and promised to buy every one Toshiba could make." },
+      { position: 2, text: "This device's signature control was inspired by a Bang & Olufsen cordless phone, the BeoCom 6000, which Phil Schiller reportedly brought to an early meeting with Steve Jobs." },
+      { position: 3, text: "In 2004 Apple sold a black-and-red special edition of this device with the engraved signatures of U2's four members on its back." },
       { position: 4, text: "Steve Jobs unveiled this Apple music player in October 2001 as '1,000 songs in your pocket', and the line ended in May 2022 with the discontinued Touch model." },
     ],
     decoys: [
@@ -14115,7 +14118,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Food & Drink",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "In 2016 a Vanderbilt engineer used a roughly $40 machine for making this treat, bought at Target, to spin fibers that served as molds for artificial capillaries." },
+      { position: 1, text: "In 2016 a Vanderbilt engineer used a roughly $40 machine for making this treat, bought at Target, to build molds for artificial capillaries." },
       { position: 2, text: "The French call this treat 'daddy's beard', and a Paris-based couple borrowed that name in 1970 for Barbapapa, their shape-shifting cartoon hero." },
       { position: 3, text: "A Nashville dentist co-invented the machine for this treat, and at the 1904 St. Louis World's Fair he and his partner sold 68,655 boxes at 25 cents, half the price of admission." },
       { position: 4, text: "This fluffy fairground treat is made by melting sugar and flinging it through tiny holes, where it cools into hair-thin threads that are wound onto a paper cone." },
@@ -14134,15 +14137,15 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Games",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This game's makers were sued for $300 million by author Fred L. Worth after a fake fact he had planted in his reference book, that Columbo's first name was Philip, turned up in it." },
-      { position: 2, text: "About 20 million copies of this board game were reportedly sold in the United States in 1984 alone, three years after its launch in Canada." },
+      { position: 1, text: "This board game's first run of 1,100 copies, in 1981, cost its inventors about $75 apiece to make, but they sold them for $15 each." },
+      { position: 2, text: "This game's makers were sued for $300 million by author Fred L. Worth after a fake fact he had planted in his reference book, that Columbo's first name was Philip, turned up in it." },
       { position: 3, text: "This game was dreamed up in Montreal on 15 December 1979, after one of its two journalist inventors realized he had bought his sixth Scrabble set and wondered if they could invent their own." },
       { position: 4, text: "In this board game, players win colored plastic wedges by answering questions in six categories, such as blue for Geography and orange for Sports & Leisure." },
     ],
     decoys: [
-      { text: "Scrabble", eliminatedByClue: 1 },
+      { text: "Scrabble", eliminatedByClue: 3 },
       { text: "Pictionary", eliminatedByClue: 1 },
-      { text: "Cranium", eliminatedByClue: 2 },
+      { text: "Cranium", eliminatedByClue: 1 },
     ],
   },
   {
@@ -14229,7 +14232,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Nature",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "In 2015 a palaeontologist at a market in Myitkyina, Myanmar, spotted a 99-million-year-old feathered dinosaur tail in a lump of this, which had been taken for a plant." },
+      { position: 1, text: "Russia's Kaliningrad region holds an estimated 90 percent of the world's known deposits of this material, mined on its Baltic coast at Yantarny." },
       { position: 2, text: "This material's ancient Greek name, ēlektron, gave us the word 'electricity', because rubbing it makes it attract light things such as bits of paper." },
       { position: 3, text: "Prussia's king gave Peter the Great a room paneled in this in 1716; called the 'Eighth Wonder of the World', it was looted by the Nazis in 1941 and never found." },
       { position: 4, text: "In 'Jurassic Park', scientists clone dinosaurs from blood inside a mosquito preserved in this golden fossilized tree resin." },
@@ -14289,7 +14292,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "When Ed Headrick, who patented the grooves on this toy's professional model, died in 2002, his ashes were molded into a limited run of them, as he had wished." },
       { position: 2, text: "Selling an early plastic version of this toy at fairs around 1948, its inventor joked that it was free but the 'invisible wire' it flew on cost $1." },
       { position: 3, text: "In 1974 a college student sneaked his whippet, Ashley, onto the field at a televised Dodgers game, where the dog leapt to catch these until both were escorted off." },
-      { position: 4, text: "Wham-O named this toy after the Frisbie pie company of Bridgeport, Connecticut, whose empty tins New England college students had long tossed around." },
+      { position: 4, text: "Wham-O first sold this toy as the Pluto Platter, then renamed it after a Connecticut pie company whose empty tins New England college students had long tossed around." },
     ],
     decoys: [
       { text: "Boomerang", eliminatedByClue: 3 },
@@ -14554,7 +14557,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This musician wrote 'Manic Monday' for the Bangles under the name 'Christopher', and in 1986 it stalled at No. 2 on the Billboard Hot 100, behind one of his own songs." },
       { position: 2, text: "At George Harrison's 2004 Rock and Roll Hall of Fame induction, this musician ended 'While My Guitar Gently Weeps' with a blazing solo, then tossed his guitar into the air." },
-      { position: 3, text: "In 1993, amid a fight with Warner Bros., this musician changed his stage name to an unpronounceable symbol, and he later performed with 'slave' written on his cheek." },
+      { position: 3, text: "This musician is credited with playing all 27 instruments listed on his 1978 debut album, 'For You', which he also wrote, arranged and produced." },
       { position: 4, text: "This Minneapolis singer and guitarist, star of the 1984 film 'Purple Rain', played that song in a real downpour at the 2007 Super Bowl halftime show." },
     ],
     decoys: [
@@ -14573,7 +14576,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This metal's modern smelting method was found independently in 1886 by the American Charles Martin Hall and the Frenchman Paul Héroult, who were both born in 1863 and both died in 1914." },
       { position: 2, text: "Before it capped the Washington Monument in 1884, a 100-ounce pyramid of this metal, then about as valuable as silver, was shown at Tiffany's in New York, where visitors stepped over it." },
-      { position: 3, text: "Napoleon III reportedly saved his dinner plates made of this metal, then a costly novelty, for his most honored guests." },
+      { position: 3, text: "This metal's oxide, corundum, forms both rubies and sapphires, colored red by traces of chromium or blue by iron and titanium." },
       { position: 4, text: "This lightweight metal, the most abundant in Earth's crust, goes into soda cans and kitchen foil, and in Britain its name has an extra 'i'." },
     ],
     decoys: [
