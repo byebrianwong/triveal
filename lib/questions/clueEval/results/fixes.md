@@ -22,20 +22,6 @@ Solid structure, but clue 3's statistic needs checking against a source or repla
 - Now: By age 25, about half of privately insured Americans have had at least one of these pulled, likely the most common surgery for young US adults.
 - Suggested: Pulling these teeth is one of the most common surgeries for young adults in the US, with about 10 million removed there each year.
 
-## Aladdin (`aladdin`): needs_work
-
-Strong facts throughout, but clue 2's 'Widow Twankey' is a giveaway name for panto-goers and clue 1 fits Ali Baba just as well.
-
-**Clue 1.** Fits Ali Baba equally, since Diyab also told Galland that tale in 1709 and it has no Arabic original either.
-
-- Now: This tale was never translated from an Arabic original; Hanna Diyab, a storyteller from Aleppo, told it to the French translator Antoine Galland in Paris in 1709.
-- Suggested: This tale has no known Arabic original; like Ali Baba, it was told to the French translator Antoine Galland in Paris in 1709 by Hanna Diyab, a storyteller from Aleppo.
-
-**Clue 2.** The name Widow Twankey is a giveaway word that settles the question at once for anyone who knows British panto.
-
-- Now: In British Christmas pantomimes of this story, the hero's mother is the comic dame Widow Twankey, named after a cheap brand of Chinese tea.
-- Suggested: In British Christmas pantomimes of this story, the hero's mother is a comic dame named after a cheap brand of Chinese tea.
-
 ## Blood (`blood`): needs_work
 
 The horseshoe crab clue is a great fact but 'blue version of this fluid' makes it instant at position 2, ahead of the harder five-liter clue.
@@ -89,6 +75,15 @@ Clue 3's heavy-water wording is instant and should be replaced.
 
 - Now: A heavy form of this substance, made with deuterium, was the target of Allied sabotage raids on a Norwegian plant during World War II.
 - Suggested: Unlike most substances, this one is densest as a liquid at about 4 degrees Celsius, so its solid form floats and lakes freeze from the top down.
+
+## Aladdin (`aladdin`): needs_work
+
+A strong, well-ordered question with four distinct facts; only clue 2 needs a small fix, since Twankay was a type of cheap green tea rather than a brand.
+
+**Clue 2.** Twankay was a cheap variety of Chinese green tea, not a brand.
+
+- Now: In British Christmas pantomimes of this story, the hero's mother is a comic dame named after a cheap brand of Chinese tea.
+- Suggested: In British Christmas pantomimes of this story, the hero's mother is a comic dame whose name comes from a cheap Chinese green tea.
 
 ## Boxing (`boxing`): needs_work
 

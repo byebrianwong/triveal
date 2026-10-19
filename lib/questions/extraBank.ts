@@ -13799,7 +13799,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This tale has no known Arabic original; like Ali Baba, it was told to the French translator Antoine Galland in Paris in 1709 by Hanna Diyab, a storyteller from Aleppo." },
-      { position: 2, text: "In British Christmas pantomimes of this story, the hero's mother is a comic dame named after a cheap brand of Chinese tea." },
+      { position: 2, text: "In British Christmas pantomimes of this story, the hero's mother is a comic dame whose name comes from a cheap Chinese green tea." },
       { position: 3, text: "The first printed version of this tale is set not in Arabia but in the capital of a kingdom of China, where its hero is an unruly ne'er-do-well whose late father was a poor tailor." },
       { position: 4, text: "Robin Williams voiced the wisecracking Genie in Disney's 1992 animated film of this tale, whose street-urchin hero falls for Princess Jasmine." },
     ],
