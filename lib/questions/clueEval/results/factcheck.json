@@ -155,6 +155,44 @@
     }
    ]
   },
+  "aluminum": {
+   "id": "aluminum",
+   "answer": "Aluminum",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This metal's modern smelting method was found independently in 1886 by the American Charles Martin Hall and the Frenchman Paul Héroult, who were both born in 1863 and both died in 1914.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the process was found independently in 1886 by Hall and Heroult; Heroult was born 10 April 1863 and died 9 May 1914; Hall was born December 6, 1863 and died December 27, 1914. https://en.wikipedia.org/wiki/Paul_H%C3%A9roult https://en.wikipedia.org/wiki/Charles_Martin_Hall",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Before it capped the Washington Monument in 1884, a 100-ounce pyramid of this metal, then about as valuable as silver, was shown at Tiffany's in New York, where visitors stepped over it.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the 100-ounce aluminum apex, made of a metal then 'as rare and valuable as silver', was shown at Tiffany's in New York, where visitors stepped over it, before being set in place on December 6, 1884. https://en.wikipedia.org/wiki/Washington_Monument",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Napoleon III reportedly saved his dinner plates made of this metal, then a costly novelty, for his most honored guests.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Napoleon III 'reserved his few sets of aluminium dinner plates and eating utensils for his most honored guests', a report the clue hedges with 'reportedly'. https://en.wikipedia.org/wiki/Hall%E2%80%93H%C3%A9roult_process",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This lightweight metal, the most abundant in Earth's crust, goes into soda cans and kitchen foil, and in Britain its name has an extra 'i'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'In the Earth's crust, aluminium is the most abundant metallic element'; 'aluminium' is the British/IUPAC spelling and 'aluminum' the North American one; cans and foil are standard uses. https://en.wikipedia.org/wiki/Aluminium",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "amazon-company": {
    "id": "amazon-company",
    "answer": "Amazon",
@@ -3933,6 +3971,44 @@
     }
    ]
   },
+  "die-hard": {
+   "id": "die-hard",
+   "answer": "Die Hard",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This 1988 film's source novel was a sequel to one already filmed with Frank Sinatra, so the studio had to offer Sinatra, then in his seventies, the lead first.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Nothing Lasts Forever was a sequel to The Detective, which Fox filmed with Sinatra; 'the studio was contractually obliged to offer Frank Sinatra the role of John McClane', and Sinatra, then over 70, declined. https://en.wikipedia.org/wiki/Die_Hard",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "The tower seized by gunmen in this film is Los Angeles's Fox Plaza, which soon afterward housed Ronald Reagan's offices once he had left the White House.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Fox Plaza appeared as Nakatomi Plaza in the 1988 film; Reagan 'had his offices on the 34th floor of the building for several years after leaving public office' (he moved in on leaving office in January 1989). https://en.wikipedia.org/wiki/Fox_Plaza_(Los_Angeles)",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Alan Rickman made his film debut in this movie, and for his character's last fall the crew let go of him before the count he'd been promised, to capture real shock.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Rickman made his screen debut as Hans Gruber; 'Rickman was told he would be dropped on a count of three, but he was let go earlier to elicit a genuine look of surprise.' https://en.wikipedia.org/wiki/Die_Hard",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Bruce Willis plays New York cop John McClane in this action film, taking on Hans Gruber's gang in a Los Angeles office tower on Christmas Eve.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: on Christmas Eve, NYPD detective John McClane (Bruce Willis) arrives in Los Angeles and faces Hans Gruber's gang in Nakatomi Plaza. https://en.wikipedia.org/wiki/Die_Hard",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "distracted-boyfriend": {
    "id": "distracted-boyfriend",
    "answer": "Distracted Boyfriend",
@@ -4987,6 +5063,44 @@
     }
    ]
   },
+  "figure-skating": {
+   "id": "figure-skating",
+   "answer": "Figure Skating",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This sport became the first winter event in Olympic history at London's 1908 Games, held that October at an indoor rink in Knightsbridge, months after the summer events.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: events held 28-29 October 1908 at Prince's Skating Club, Knightsbridge, London; 'the first time that a winter sport had ever been included in the Olympic Games', about six months after most other 1908 events. https://en.wikipedia.org/wiki/Figure_skating_at_the_1908_Summer_Olympics",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Norway's Sonja Henie won this sport's Olympic title three times in a row, from 1928 to 1936, then signed with 20th Century Fox and became one of Hollywood's highest-paid stars.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Henie won Olympic gold in 1928, 1932 and 1936; Darryl Zanuck signed her to a long-term contract at Twentieth Century Fox; 'she was one of the highest-paid stars in Hollywood'. https://en.wikipedia.org/wiki/Sonja_Henie",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "After a vote-trading scandal involving a French judge at the 2002 Salt Lake City Games, a Canadian pair received duplicate gold medals, and this sport soon scrapped its 6.0 scoring.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: French judge Marie-Reine Le Gougne allegedly agreed to favor the Russian pair in exchange for reciprocal ice-dance votes; the IOC awarded Sale and Pelletier gold while the Russians kept theirs; the ISU voted in 2004 to retire the 6.0 system. https://en.wikipedia.org/wiki/2002_Winter_Olympics_figure_skating_scandal",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "In 1991 Tonya Harding became the first American woman to land a triple Axel in competition in this Winter Olympic sport, three years before her rival Nancy Kerrigan was attacked.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Harding completed her first triple Axel in competition on February 16, 1991, at the U.S. Championships, 'becoming the first American woman to do so'; Kerrigan was attacked on January 6, 1994. https://en.wikipedia.org/wiki/Tonya_Harding",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "fingernail": {
    "id": "fingernail",
    "answer": "Fingernail",
@@ -5959,6 +6073,44 @@
      "verdict": "ok",
      "evidence": "Wikipedia: it links San Francisco to Marin County across the Golden Gate strait. https://en.wikipedia.org/wiki/Golden_Gate_Bridge",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "golden-girls": {
+   "id": "golden-girls",
+   "answer": "The Golden Girls",
+   "checks": [
+    {
+     "position": 1,
+     "text": "At the Queen Mother's own request, this sitcom's stars flew to London in November 1988 to perform for her and other royals at the Royal Variety Performance.",
+     "verdict": "ok",
+     "evidence": "Biography.com: the Queen Mother was such a fan that she requested the cast fly to London in November 1988 to perform at a royal variety show; Wikipedia: they performed at the 1988 Royal Variety Performance 'at the request of Queen Elizabeth the Queen Mother' for her and other royals. https://www.biography.com/movies-tv/golden-girls-facts https://en.wikipedia.org/wiki/The_Golden_Girls",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "The actress who played this sitcom's oldest character, a mother in her 80s, was in real life about a year younger than the actress who played her daughter.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'Despite portraying Dorothy's elderly mother, in reality, Getty was a year younger than Arthur'; Biography.com says the same. https://en.wikipedia.org/wiki/The_Golden_Girls",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "All four of this sitcom's leading actresses won Emmys for their roles, a sweep matched by only a handful of sitcoms, such as All in the Family and Will & Grace.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: each of the four lead actresses won a Primetime Emmy, a distinction shared only with All in the Family, Will & Grace and Schitt's Creek. https://en.wikipedia.org/wiki/The_Golden_Girls",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Bea Arthur, Betty White, Rue McClanahan and Estelle Getty starred in this NBC sitcom about four older women sharing a house in Miami and talking things over with cheesecake.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: NBC sitcom (1985-1992) set in Miami about four older women who share a home, often talking over problems while eating cheesecake. https://en.wikipedia.org/wiki/The_Golden_Girls",
+     "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
    ]
@@ -7000,6 +7152,44 @@
      "evidence": "Messenger god, winged sandals, caduceus, Roman Mercury. https://en.wikipedia.org/wiki/Hermes",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent (fact check for PR #58/#59)"
+    }
+   ]
+  },
+  "hindenburg": {
+   "id": "hindenburg",
+   "answer": "Hindenburg",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This German aircraft's lounge had a 356-pound Blüthner baby grand piano made of aluminum alloy and covered in yellow pigskin; it was removed after one season to save weight.",
+     "verdict": "ok",
+     "evidence": "Airships.net: a 356-pound Bluthner baby grand made of Duralumin (an aluminum alloy) and covered in yellow pigskin, removed before the 1937 season; Wikipedia: 'removed after the first year to save weight'. https://www.airships.net/hindenburg/interiors/ https://en.wikipedia.org/wiki/LZ_129_Hindenburg",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "With the Olympic rings painted on its side, this aircraft flew low over Berlin's stadium at the 1936 opening ceremony, trailing the Olympic flag shortly before Hitler arrived.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Olympic rings were painted on the hull in 1936 and removed for 1937; at the opening ceremony on August 1, 1936, shortly before Hitler arrived, the airship crossed low over the stadium trailing the Olympic flag. https://en.wikipedia.org/wiki/LZ_129_Hindenburg",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Though it was lifted by hydrogen, this aircraft had a smoking room kept at higher pressure than the rest of the ship, behind a double-door airlock, with a single electric lighter.",
+     "verdict": "ok",
+     "evidence": "Airships.net: the smoking room was kept above ambient pressure so leaking hydrogen could not enter, behind a double-door airlock, and had one electric lighter. https://www.airships.net/hindenburg/interiors/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Radio reporter Herbert Morrison cried 'Oh, the humanity!' as this German airship burst into flames while landing at Lakehurst, New Jersey, in May 1937.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: destroyed May 6, 1937, while trying to dock at Naval Air Station Lakehurst, New Jersey; Herbert Morrison's radio report includes 'Oh, the humanity'. https://en.wikipedia.org/wiki/Hindenburg_disaster",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -9803,6 +9993,44 @@
     }
    ]
   },
+  "mister-rogers-neighborhood": {
+   "id": "mister-rogers-neighborhood",
+   "answer": "Mister Rogers' Neighborhood",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This children's show's host testified in the Betamax case, and the Supreme Court's 1984 ruling noted he had 'absolutely no objection' to families taping his program at home.",
+     "verdict": "ok",
+     "evidence": "Sony v. Universal (464 U.S. 417, 1984) majority opinion on Fred Rogers: 'He testified that he had absolutely no objection to home taping for noncommercial use' and called it a real service to families. https://www.law.cornell.edu/supremecourt/text/464/417",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In 1969 this show's host so moved Senator John Pastore at a hearing on public-TV funding that the gruff senator told him he'd 'just earned the $20 million'.",
+     "verdict": "ok",
+     "evidence": "PBS NewsHour: at the May 1, 1969 Senate subcommittee hearing on the $20 million CPB budget, Pastore said Rogers gave him goosebumps and told him, 'Looks like you just earned the $20 million.' https://www.pbs.org/newshour/arts/hello-neighbor-itsabeautifulday-to-pay-tribute-to-mister-rogers",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "After a five-year-old blind viewer named Katie wrote in, worried the fish weren't being fed, this show's host began saying out loud whenever he fed them.",
+     "verdict": "ok",
+     "evidence": "Today: a blind girl's letter signed 'Katie, age 5' worried she couldn't tell whether the fish were fed; Rogers then began narrating the feeding of his fish in every episode. https://www.today.com/today/amp/tdna124045",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This PBS show, which ran from 1968 to 2001, opened with its host swapping his jacket and shoes for sneakers and a zip-up cardigan knitted by his mother.",
+     "verdict": "ok",
+     "evidence": "Wikipedia show article: aired 1968 (NET, then its successor PBS) to August 31, 2001; opening has him swap his jacket for a cardigan zipper sweater and dress shoes for sneakers. Fred Rogers article: his mother Nancy 'knitted all the sweaters he wore on the program'. https://en.wikipedia.org/wiki/Mister_Rogers%27_Neighborhood https://en.wikipedia.org/wiki/Fred_Rogers",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "mistletoe": {
    "id": "mistletoe",
    "answer": "Mistletoe",
@@ -12261,6 +12489,82 @@
     }
    ]
   },
+  "price-is-right": {
+   "id": "price-is-right",
+   "answer": "The Price Is Right",
+   "checks": [
+    {
+     "position": 1,
+     "text": "Bill Cullen's 1950s version of this game show offered joke bonus prizes, such as a live elephant to go with a grand piano and a peacock as a 'color guide' for a color TV.",
+     "verdict": "ok",
+     "evidence": "1958 TV Guide article: producer Bob Stewart attached a live elephant to a grand piano prize; a schoolteacher who won a color TV also got a live peacock, which Cullen said to use 'as a color guide'. https://www.billcullen.net/tv-guide-1958",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In 2008 Terry Kniess, a former TV weatherman, bid exactly $23,743 for a package of prizes on this show, matching its value to the dollar after months of memorizing what items cost.",
+     "verdict": "ok",
+     "evidence": "Looper: in 2008 Terry Kniess, a former weatherman, bid $23,743 in the Showcase, exactly the package's value; he and his wife spent about four months watching and memorizing prices. https://www.looper.com/891149/the-price-is-right-winner-who-changed-the-show-forever/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In this show's Cliff Hangers game, a little mountain climber moves up a slope to yodeling music, one step for each dollar a contestant is off, and falls if he passes 25.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the climber moves one step up a 25-step slope for every dollar off and falls if the total exceeds $25; the 2006 Cliff Hangers article mentions the yodeling song that plays as he climbs. https://en.wikipedia.org/wiki/List_of_The_Price_Is_Right_pricing_games https://wikipedia2006.classicistranieri.com/en/c/l/i/Cliff_Hangers_036e.html",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Announcers call contestants to 'Come on down!' on this CBS game show, which Bob Barker hosted for 35 years before Drew Carey took over in 2007.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: premiered on CBS in 1972; Barker hosted from September 4, 1972, to June 15, 2007 (35 years); Drew Carey took over October 15, 2007; 'Come on down!' is the show's catchphrase. https://en.wikipedia.org/wiki/The_Price_Is_Right",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "prince": {
+   "id": "prince",
+   "answer": "Prince",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This musician wrote 'Manic Monday' for the Bangles under the name 'Christopher', and in 1986 it stalled at No. 2 on the Billboard Hot 100, behind one of his own songs.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Prince wrote it under the pseudonym 'Christopher'; it peaked at No. 2 on the Hot 100 (April 19, 1986), behind Prince and the Revolution's 'Kiss'. https://en.wikipedia.org/wiki/Manic_Monday",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "At George Harrison's 2004 Rock and Roll Hall of Fame induction, this musician ended 'While My Guitar Gently Weeps' with a blazing solo, then tossed his guitar into the air.",
+     "verdict": "ok",
+     "evidence": "Ultimate Classic Rock: at the 2004 Hall of Fame tribute to Harrison with Petty, Lynne, Winwood and Dhani Harrison, Prince's solo broke the reverent mood, and afterward he 'tossed his guitar into the air'. https://ultimateclassicrock.com/prince-while-my-guitar-gently-weeps/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In 1993, amid a fight with Warner Bros., this musician changed his stage name to an unpronounceable symbol, and he later performed with 'slave' written on his cheek.",
+     "verdict": "ok",
+     "evidence": "Mental Floss: in 1993, during strained relations with his label, he announced the change to the symbol; in 1995 he appeared on stage with 'slave' written across his cheek. https://www.mentalfloss.com/entertainment/music/prince-symbol-name-change-history",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This Minneapolis singer and guitarist, star of the 1984 film 'Purple Rain', played that song in a real downpour at the 2007 Super Bowl halftime show.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: at the February 4, 2007, Super Bowl XLI halftime show, a downpour began during 'Purple Rain', the closing song. https://en.wikipedia.org/wiki/Super_Bowl_XLI_halftime_show",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "queen-elizabeth-i": {
    "id": "queen-elizabeth-i",
    "answer": "Queen Elizabeth I",
@@ -13777,6 +14081,44 @@
      "verdict": "ok",
      "evidence": "Snapstreaks count consecutive days two users have snapped each other and are lost if both do not send a Snap within 24 hours; the ghost mascot is kept in the logo. https://en.wikipedia.org/wiki/Snapchat",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "snow-white-and-the-seven-dwarfs": {
+   "id": "snow-white-and-the-seven-dwarfs",
+   "answer": "Snow White and the Seven Dwarfs",
+   "checks": [
+    {
+     "position": 1,
+     "text": "The woman who voiced this 1937 film's heroine was paid $970 in all; two years later she spoke a single line in 'The Wizard of Oz': 'Wherefore art thou Romeo?'",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Caselotti was paid $970 in total for the film; in The Wizard of Oz (1939) she voiced the line 'Wherefore art thou Romeo?' https://en.wikipedia.org/wiki/Adriana_Caselotti",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Walt Disney's honorary Oscar for this film was one full-size statuette standing above a row of miniature ones, presented to him by 10-year-old Shirley Temple.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Disney's honorary award was one full-size statuette and seven miniatures, presented by Shirley Temple, who was 10. https://en.wikipedia.org/wiki/Snow_White_and_the_Seven_Dwarfs_(1937_film)",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Names considered for the little men in this film included Burpy, Tubby, Shifty, Weepy and Awful, before Walt Disney settled on the final line-up.",
+     "verdict": "ok",
+     "evidence": "Wikipedia lists rejected names including Awful, Burpy and Tubby; Cartoon Research lists proposed names including Shifty, Burpy and Weepy. https://en.wikipedia.org/wiki/Snow_White_and_the_Seven_Dwarfs_(1937_film) https://cartoonresearch.com/index.php/seven-secrets-of-the-seven-dwarfs/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Mocked as 'Disney's Folly' during production, this first Disney animated feature has a princess hide from her jealous stepmother with Doc, Grumpy, Sneezy, Dopey and the rest.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: industry insiders called it 'Disney's Folly' during production; it was Disney's first feature-length film. https://en.wikipedia.org/wiki/Snow_White_and_the_Seven_Dwarfs_(1937_film)",
+     "checkedOn": "2026-10-19",
      "checker": "claude-code-subagent"
     }
    ]
@@ -16164,6 +16506,44 @@
      "evidence": "Wikipedia Tulip calls the 1634-1637 Dutch episode 'the first recorded speculative bubble in history'; the clue hedges with 'what is called'. https://en.wikipedia.org/wiki/Tulip",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent (fact check for PR #58/#59)"
+    }
+   ]
+  },
+  "tutankhamun": {
+   "id": "tutankhamun",
+   "answer": "Tutankhamun",
+   "checks": [
+    {
+     "position": 1,
+     "text": "One of two daggers found in this ruler's mummy wrappings has an iron blade that a 2016 study traced to a meteorite, because of its high nickel content.",
+     "verdict": "ok",
+     "evidence": "Eos: two daggers were found in the pharaoh's linen wrappings, one gold and one iron; a May 2016 Meteoritics and Planetary Science study found more than 10% nickel, pointing to a meteorite origin. https://eos.org/articles/pharaohs-iron-dagger-made-from-a-meteorite-study-confirms",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "About 130 walking sticks and canes were buried with this ruler, and a 2010 study of his mummy reported a clubfoot and signs of malaria.",
+     "verdict": "ok",
+     "evidence": "HeraldNet (Feb 2010, on the JAMA study): '130 walking sticks and canes were discovered in Tut's tomb'; he had a club foot and severe malaria. https://www.heraldnet.com/news/frail-boy-king-tut-died-from-malaria-broken-leg/",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In 2014 the braided beard snapped off this ruler's most famous treasure while staff worked on its display case, and it was hastily glued back on with epoxy.",
+     "verdict": "ok",
+     "evidence": "National Geographic: the beard 'snapped off while museum staff worked on the display in August 2014' and was hastily reattached with epoxy. https://www.nationalgeographic.com/culture/article/151217-king-tut-mask-beard-repaired-egypt-archaeology",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Howard Carter found this boy pharaoh's almost untouched tomb in November 1922, and talk of a curse grew after Lord Carnarvon, who funded the dig, died months later.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Carnarvon funded Carter's excavations; Carter telegraphed the find on 4 November 1922; Carnarvon died in Cairo on 5 April 1923, and press speculation spread the 'Curse of Tutankhamun'. https://en.wikipedia.org/wiki/George_Herbert,_5th_Earl_of_Carnarvon",
+     "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
     }
    ]
   },
