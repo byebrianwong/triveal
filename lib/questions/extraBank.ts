@@ -1140,9 +1140,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "This optical sight is different for every viewer: no two people see exactly the same one, since it depends on where the light meets each person's eyes." },
-      { position: 2, text: "It is really a full circle of light, but from the ground the horizon usually hides all but the top arc." },
-      { position: 3, text: "Sometimes a fainter second one appears just outside it, with its colors in reverse order." },
+      { position: 1, text: "This band of light always sits about 42 degrees from the point directly opposite the sun, an angle René Descartes calculated in 1637 with a water-filled glass sphere." },
+      { position: 2, text: "This optical sight is different for every viewer: no two people see exactly the same one, since it depends on where the light meets each person's eyes." },
+      { position: 3, text: "Isaac Newton first counted only five colors in this display, then added orange and indigo so the total would match the seven notes of a musical scale." },
       { position: 4, text: "This arc of red-through-violet colors stretches across the sky when the sun shines during or after rain." },
     ],
     decoys: [
@@ -1590,7 +1590,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "This phenomenon's signal races along a wire at a large fraction of the speed of light, even though the particles carrying it barely crawl." },
+      { position: 1, text: "This phenomenon was a Roman painkiller: the emperor Claudius's own doctor told headache sufferers to hold a live torpedo ray to the sore spot until the skin went numb." },
       { position: 2, text: "In the 1780s Luigi Galvani made the legs of dead frogs twitch with this, which fed popular talk of bringing the dead back to life." },
       { position: 3, text: "In September 1882, Pearl Street Station began supplying this to customers in lower Manhattan, though the first bill went out in January 1883." },
       { position: 4, text: "This form of energy lights our bulbs and runs our devices, measured in volts and amps." },
@@ -2094,7 +2094,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Space",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "This feature of the night sky gave English the word 'galaxy', which comes from its ancient Greek name." },
+      { position: 1, text: "This galaxy's middle is crossed by a bar of stars some 27,000 light-years long, which an infrared survey pinned down in 2005 by peering through the dust." },
       { position: 2, text: "In 2022 astronomers released the first picture of the giant black hole at the heart of this galaxy, an object called Sagittarius A*." },
       { position: 3, text: "A 2016 atlas found light pollution hides this band of stars from more than a third of humanity, including nearly 80% of North Americans." },
       { position: 4, text: "This is the name of the galaxy that contains Earth, the Sun, and every star you can see by eye." },
@@ -2184,9 +2184,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Science",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "This force is by far the weakest of nature's four basic forces, yet it holds entire galaxies together." },
-      { position: 2, text: "It makes time run slower the stronger it is, so the clocks on GPS satellites, where it is weaker, must be corrected for running fast." },
-      { position: 3, text: "Its waves, ripples in space-time from two colliding black holes, were first detected in 2015, a century after Einstein predicted them." },
+      { position: 1, text: "This force was first measured in a laboratory in 1798, when Henry Cavendish gauged its pull between lead balls on a wire-hung rod and so found the density of the Earth." },
+      { position: 2, text: "This force makes time run slower the stronger it is, so the clocks on GPS satellites, where it is weaker, must be corrected for running fast." },
+      { position: 3, text: "This force's waves — ripples in space-time from two colliding black holes — were first detected in 2015, a century after Einstein predicted them." },
       { position: 4, text: "This invisible force pulls objects toward the ground and holds the planets in orbit around the Sun." },
     ],
     decoys: [
@@ -3408,9 +3408,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Space",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "This star turns about four million tons of itself into energy every second, yet will keep shining for billions of years." },
+      { position: 1, text: "This star's light revealed a new gas during an 1868 eclipse, years before anyone found it on Earth, and the element was named after this star." },
       { position: 2, text: "This star's thin outer atmosphere reaches about 2 million °F, far hotter than its 10,000 °F surface, and scientists still debate why." },
-      { position: 3, text: "A new gas was spotted in this star's light during an 1868 eclipse, years before anyone found it on Earth, and was named after it." },
+      { position: 3, text: "This star holds about 99.8 percent of all the mass in our Solar System, and 1.3 million Earths would fit inside it." },
       { position: 4, text: "Earth orbits this blazing ball of hydrogen and helium at the center of our Solar System." },
     ],
     decoys: [
@@ -3534,7 +3534,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Animals",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "This bird's eye is bigger than its brain." },
+      { position: 1, text: "This bird has two kneecaps in each knee, the only bird known to have them, while its emu relatives have no bony kneecap at all." },
       { position: 2, text: "This bird has fewer toes than any other bird, just two on each foot, and the bigger toe ends in a hoof-like nail." },
       { position: 3, text: "This bird's kick can kill a lion, and several hens lay their eggs in one shared nest that the male scrapes into the ground." },
       { position: 4, text: "This long-necked African runner, farmed for feathers and meat, hides its head in a hole only in cartoons." },
@@ -9043,8 +9043,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This dinosaur's thigh bone, dug up in Montana, held flexible soft tissue resembling blood vessels, scientists reported in 2005." },
-      { position: 2, text: "Its largest teeth were almost a foot long once you count the roots." },
-      { position: 3, text: "One of the most complete skeletons of it ever found, nicknamed Sue, stands in Chicago's Field Museum." },
+      { position: 2, text: "This dinosaur's largest teeth were almost a foot long once you count the roots." },
+      { position: 3, text: "One of the most complete skeletons of this dinosaur ever found, nicknamed Sue, stands in Chicago's Field Museum." },
       { position: 4, text: "This 'tyrant lizard king' of the Late Cretaceous was the star predator of 'Jurassic Park.'" },
     ],
     decoys: [
@@ -9384,9 +9384,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Human Body",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "This body reaction is a leftover reflex from our furrier ancestors, and it does little for us now." },
-      { position: 2, text: "Tiny muscles at the base of each hair cause it, and a moving piece of music can set it off." },
-      { position: 3, text: "The French call it 'chair de poule,' or chicken's flesh, likening it to the skin of poultry." },
+      { position: 1, text: "This body reaction's nerves form synapse-like junctions with hair-follicle stem cells, and in 2020 Harvard researchers found those cells go dormant without that signal." },
+      { position: 2, text: "Tiny muscles at the base of each hair cause this reaction, and a moving piece of music can set it off." },
+      { position: 3, text: "The French call this reaction 'chair de poule,' or chicken's flesh, likening it to the skin of poultry." },
       { position: 4, text: "This skin reaction to cold shares its name with R. L. Stine's horror books for kids." },
     ],
     decoys: [
