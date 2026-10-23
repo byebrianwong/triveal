@@ -14763,7 +14763,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "A 2009 Armed Forces Journal article titled 'Let's Do This!' linked this video game character to the American way of advising Iraq's armed forces." },
-      { position: 2, text: "In 2017 two players behind this character's viral 2005 video released its first take to raise awareness of net neutrality; one said they'd thought it was obviously satire." },
+      { position: 2, text: "In 2017 the two players behind this character's viral 2005 video released its first take, a dry run, to help raise awareness of net neutrality." },
       { position: 3, text: "In 2008 Blizzard added an achievement that gives players who kill 50 rookery whelps within 15 seconds this character's surname as a title." },
       { position: 4, text: "Back from fixing a plate of chicken, this World of Warcraft character charged into a dungeon shouting his own name and got his whole group killed." },
     ],
@@ -14800,7 +14800,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This figure from Jewish folklore gave its name to a new computer at Israel's Weizmann Institute in 1965, a name chosen by the Kabbalah scholar Gershom Scholem." },
       { position: 2, text: "In some versions, the Hebrew word for 'truth' is written on its forehead, and erasing the first letter leaves the word for 'dead'." },
-      { position: 3, text: "A 1674 letter told of a rabbi in Poland who had made one of these out of lime to be his servant and do the housework." },
+      { position: 3, text: "A 1674 letter told how a Polish rabbi named Elias, thought to be Elijah of Chełm, made one of these to be his servant and do the housework." },
       { position: 4, text: "Legend says Rabbi Judah Loew of Prague shaped this creature from Vltava river clay and brought it to life to defend the city's Jewish ghetto." },
     ],
     decoys: [
@@ -14855,7 +14855,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Internet",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This search engine was bought in 2005 by Barry Diller's IAC, in an all-stock deal valued at about $1.85 billion." },
+      { position: 1, text: "Barry Diller's IAC bought this search engine in 2005 for about $1.85 billion and, the next year, dropped the second word of its name." },
       { position: 2, text: "In 2000 this search engine became the first dot-com with a giant balloon in the Macy's Thanksgiving Day Parade." },
       { position: 3, text: "In 2009 this search engine's UK site remade its mascot as a CGI character, and kept his image there until 2016." },
       { position: 4, text: "This late-1990s search engine invited users to type questions in plain English, and its cartoon mascot was named after Bertie Wooster's valet in P. G. Wodehouse's stories." },
@@ -15003,7 +15003,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Human Body",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "These skin spots, which Amelia Earhart reportedly disliked, made news in 2012 when searchers said a jar found on a Pacific atoll may have held an ointment to fade them." },
+      { position: 1, text: "These marks, which Amelia Earhart reportedly disliked having, made news in 2012 when searchers said a jar found on a Pacific atoll may have held an ointment sold to treat them." },
       { position: 2, text: "In a 1971 Judy Blume book, a second-grader pays a girl fifty cents for a secret recipe meant to give him these, and it only makes him sick." },
       { position: 3, text: "The model Twiggy helped make these fashionable in the 1960s by not covering hers with makeup, and in the 2020s TikTok spread a trend of tattooing on fake ones." },
       { position: 4, text: "These small, flat light-brown spots are common on fair skin, and they darken with time in the sun and fade with less of it." },
@@ -15024,7 +15024,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "In 1943 Vesta Stoudt, an Illinois munitions worker with two sons in the Navy, wrote to President Roosevelt proposing this household staple as a sturdier seal for ammunition boxes." },
       { position: 2, text: "Sales of this product surged in February 2003 after the US Department of Homeland Security advised families to stock it, along with plastic sheeting, for emergencies." },
-      { position: 3, text: "In 2024 a crypto entrepreneur paid $6.2 million at Sotheby's for Maurizio Cattelan's 'Comedian', a banana stuck to a wall with a strip of this." },
+      { position: 3, text: "In 2024 a crypto entrepreneur paid $6.2 million at Sotheby's for Maurizio Cattelan's 'Comedian', an artwork made of a banana and this." },
       { position: 4, text: "This silver-gray, cloth-backed roll that tears by hand is the classic quick fix for almost anything, and it helped Apollo 13's crew rig their carbon dioxide filters." },
     ],
     decoys: [
@@ -15231,8 +15231,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This 1984 video game lets a second player steer the flying targets with a regular controller, a feature many fans first learned of from Seth Rogen's tweets in 2018." },
-      { position: 2, text: "This game grew out of a 1976 electronic light-gun toy of the same name that Gunpei Yokoi and Masayuki Uemura designed for Nintendo." },
-      { position: 3, text: "This game sold more than 28 million copies, mostly because it came packed in with the console rather than being bought on its own." },
+      { position: 2, text: "This game sold more than 28 million copies, mostly because it came packed in with the console rather than being bought on its own." },
+      { position: 3, text: "This game grew out of a 1976 electronic light-gun toy of the same name that Gunpei Yokoi and Masayuki Uemura designed for Nintendo." },
       { position: 4, text: "In this NES game you shoot at flying birds with the Zapper light gun, and a dog laughs at you whenever you miss." },
     ],
     decoys: [
@@ -15286,7 +15286,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Nature",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Herb histories often say this plant's flowers sold in ancient Rome for 100 denarii a pound, but Pliny gave that price for the costlier spikenard." },
+      { position: 1, text: "This plant's flowers are often said to have sold in ancient Rome for 100 denarii a pound, but Pliny gave that price for the costlier spikenard." },
       { position: 2, text: "This plant's English name is generally thought to come, via Old French, from the Latin verb meaning 'to wash', a nod to its use in baths." },
       { position: 3, text: "The story goes that French chemist René-Maurice Gattefossé, credited with coining the word 'aromatherapy', found that this plant's oil healed his burns from a 1910 lab explosion." },
       { position: 4, text: "This violet-flowered herb of the mint family is dried and tucked into sachets among stored clothes to scent them and keep moths away." },
@@ -15380,7 +15380,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This 1975 craze's inventor later tried other novelties such as 'Sand Breeding Kits', but none drew anything like the same interest." },
-      { position: 2, text: "The stone in each box of this novelty cost its maker under a penny, the box sold for just under $4, and nearly 1.5 million were sold before the fad ended after Christmas 1975." },
+      { position: 2, text: "This novelty's maker paid under a penny for what went in each box, sold it for $3.95, and moved nearly 1.5 million before the fad died after Christmas 1975." },
       { position: 3, text: "In January 2023 the film studio A24 sold a $35 googly-eyed version of this 1970s fad, tied to 'Everything Everywhere All at Once', and it sold out within a day." },
       { position: 4, text: "This 1975 craze from ad man Gary Dahl was a smooth Mexican beach stone sold in a cardboard carrier with air holes and straw, plus a care and training manual." },
     ],
@@ -15472,7 +15472,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This toy began in the 1940s as a liquid-filled tube, inspired by a spirit-writing gadget that the inventor's mother, a Cincinnati clairvoyant, used with clients." },
       { position: 2, text: "This toy got its present look in 1950, when Brunswick Billiards ordered it as a promotional item." },
-      { position: 3, text: "The 20-sided die floating inside this toy carries 10 yes answers, 5 no answers and 5 noncommittal ones." },
+      { position: 3, text: "The 20-sided die floating inside this toy leans positive two to one, with 10 upbeat faces against 5 gloomy ones." },
       { position: 4, text: "This black fortune-telling toy, now made by Mattel, gives replies such as 'Outlook not so good' when you shake it." },
     ],
     decoys: [

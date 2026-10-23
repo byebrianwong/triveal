@@ -894,6 +894,14 @@
      "evidence": "Wikipedia: launched June 1, 1997; users could 'submit questions in natural language'; the character was 'named after Jeeves, Bertie Wooster's valet in the fictional works of P. G. Wodehouse'. https://en.wikipedia.org/wiki/Ask.com",
      "checkedOn": "2026-10-23",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "Barry Diller's IAC bought this search engine in 2005 for about $1.85 billion and, the next year, dropped the second word of its name.",
+     "verdict": "ok",
+     "evidence": "Wikipedia says IAC bought the company in July 2005, in a deal valued at $1.85 billion, and that in February 2006 'Jeeves' was dropped and the search engine renamed Ask https://en.wikipedia.org/wiki/Ask.com",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -5380,6 +5388,14 @@
      "evidence": "Wikipedia: duct tape is a silvery gray, cloth- or scrim-backed tape, designed in 1943 'to be ripped by hand'; Apollo 13's square CO2 filters were adapted to the lunar module with duct tape. https://en.wikipedia.org/wiki/Duct_tape",
      "checkedOn": "2026-10-23",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In 2024 a crypto entrepreneur paid $6.2 million at Sotheby's for Maurizio Cattelan's 'Comedian', an artwork made of a banana and this.",
+     "verdict": "ok",
+     "evidence": "Wikipedia says the work, a banana duct-taped to a wall, sold at Sotheby's on 20 November 2024 for $5.2 million ($6.24 million with fees) to the cryptocurrency entrepreneur Justin Sun https://en.wikipedia.org/wiki/Comedian_(artwork)",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -6556,6 +6572,14 @@
      "evidence": "Wikipedia: ephelides are flat and light brown or red, most visible on fair skin; UV-B makes them darker, and they fade with less sun exposure. https://en.wikipedia.org/wiki/Freckle",
      "checkedOn": "2026-10-23",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "These marks, which Amelia Earhart reportedly disliked having, made news in 2012 when searchers said a jar found on a Pacific atoll may have held an ointment sold to treat them.",
+     "verdict": "ok",
+     "evidence": "AVweb (May 30, 2012): TIGHAR, which searches for Earhart, announced that glass pieces found on Nikumaroro reassemble into a jar 'nearly identical to one once used to hold Dr. C. H. Berry's Freckle Ointment'. A TIGHAR researcher said 'it's well documented Amelia had freckles and disliked having them.' https://avweb.com/news/unique-amelia-earhart-relic-found-on-nikumaroro/ Flying (June 1, 2012) reports the jar as 'possibly for freckle ointment' and says it was found on Nikumaroro. https://www.flyingmag.com/artifact-rekindles-amelia-earhart-speculation/",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -7496,6 +7520,16 @@
      "text": "Legend says Rabbi Judah Loew of Prague shaped this creature from Vltava river clay and brought it to life to defend the city's Jewish ghetto.",
      "verdict": "ok",
      "evidence": "Wikipedia gives the legend that Rabbi Loew 'created a golem out of clay from the banks of the Vltava River' to defend the Prague ghetto. The clue frames it as legend. https://en.wikipedia.org/wiki/Golem",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "A 1674 letter told how Rabbi Elijah of Chełm, in Poland, made one of these to be his servant and do the housework.",
+     "verdict": "loose",
+     "evidence": "Gelbin's essay says Arnold's letter, published by Wagenseil in 1674, recounts a golem made for profane purposes by a Polish rabbi Elias, 'who is today assumed to have been' Rabbi Eliyahu of Chelm, and that Jews made golems to help with domestic work https://www.ghi-dc.org/fileadmin/publications/Bulletin/bu69/GHI69fall_05FEA-GelbinonGolem_Fpp.pdf ; Wikipedia says Arnold's 1674 letter reported a golem by Rabbi Eliyahu made to be a servant and do housework https://en.wikipedia.org/wiki/Golem",
+     "problem": "Christoph Arnold's letter, published by Wagenseil in 1674, tells of a golem made by a Polish 'Rabbi Elias'. It does not name Chełm. Scholars only assume this Elias was Elijah of Chełm, so the clue states a later identification as if the letter made it.",
+     "fix": "A 1674 letter told how a Polish rabbi named Elias, thought to be Elijah of Chełm, made one of these to be his servant and do the housework.",
      "checkedOn": "2026-10-23",
      "checker": "claude-code-subagent"
     }
@@ -10780,6 +10814,14 @@
      "evidence": "Wikipedia: lavender is in Lamiaceae, and lavender flowers are 'placed among stored items of clothing to give a fresh fragrance and to deter moths' and used in sachets; the Lamiaceae article gives 'mints' as the family's common name. https://en.wikipedia.org/wiki/Lamiaceae",
      "checkedOn": "2026-10-23",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "This plant's flowers are often said to have sold in ancient Rome for 100 denarii a pound, but Pliny gave that price for the costlier spikenard.",
+     "verdict": "ok",
+     "evidence": "Wikipedia's Lavandula article says 'During Roman times, flowers were sold for 100 denarii per pound.' Its only support is an 1897 herbal (Fernie) saying 'blossoms of the Nardus sold for a hundred Roman denarii' in Pliny's time, and Fernie notes that lavender was also called nard. https://en.wikipedia.org/wiki/Lavandula Pliny, Natural History 12.26 (Nard), Bostock and Riley translation: 'the price of spikenard is one hundred denarii per pound.' Leaf nard sold for 40 to 75 denarii and Gallic nard for 3. Pliny gives no price for lavender. https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0137:book=12:chapter=26 Wikipedia's Spikenard article calls lavender and valerian 'cheaper, more common plants' that were used to adulterate true spikenard. https://en.wikipedia.org/wiki/Spikenard",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -10854,6 +10896,16 @@
      "text": "Back from fixing a plate of chicken, this World of Warcraft character charged into a dungeon shouting his own name and got his whole group killed.",
      "verdict": "ok",
      "evidence": "Wikipedia: Leeroy was away from his computer 'preparing a plate of chicken', then ran in shouting his name and the group was wiped out. https://en.wikipedia.org/wiki/Leeroy_Jenkins",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In 2017 the two players behind this character's viral 2005 video released its first cut to help raise awareness of net neutrality.",
+     "verdict": "loose",
+     "evidence": "Wikipedia: in December 2017 Ben Schulz and Ben 'Anfrony' Vinson, who recorded the video, released what Schulz called a first take or dry run of it. https://en.wikipedia.org/wiki/Leeroy_Jenkins BGR (Dec 2017): the original creator 'finally revealed the first take' and 'did it all for a good cause: Fighting the FCC on net neutrality,' after Ajit Pai's video. https://www.bgr.com/tech/leeroy-jenkins-secret-video-net-neutrality/",
+     "problem": "The sources call the released clip the 'first take' or 'dry run', an earlier recording of the staged run. 'First cut' means an early edit, which is not what it was. The year, the two players and the net neutrality motive are all supported.",
+     "fix": "In 2017 the two players behind this character's viral 2005 video released its first take, a dry run, to help raise awareness of net neutrality.",
      "checkedOn": "2026-10-23",
      "checker": "claude-code-subagent"
     }
@@ -11486,6 +11538,14 @@
      "text": "This black fortune-telling toy, now made by Mattel, gives replies such as 'Outlook not so good' when you shake it.",
      "verdict": "ok",
      "evidence": "Wikipedia: 'manufactured by Mattel'; 'Outlook not so good' is one of the negative answers. https://en.wikipedia.org/wiki/Magic_8_Ball",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "The 20-sided die floating inside this toy leans positive two to one, with 10 upbeat faces against 5 gloomy ones.",
+     "verdict": "ok",
+     "evidence": "Wikipedia says the die is a 20-sided regular icosahedron with 10 affirmative answers, 5 neutral and 5 negative, so positive faces outnumber negative ones two to one https://en.wikipedia.org/wiki/Magic_8_Ball",
      "checkedOn": "2026-10-23",
      "checker": "claude-code-subagent"
     }
@@ -14302,6 +14362,14 @@
      "text": "This 1975 craze from ad man Gary Dahl was a smooth Mexican beach stone sold in a cardboard carrier with air holes and straw, plus a care and training manual.",
      "verdict": "ok",
      "evidence": "Gary Dahl Wikipedia: advertising director; smooth 'Mexican beach stones' from Rosarito; instruction book. Pet Rock Wikipedia: cardboard boxes with ventilation holes and straw bedding imitating a pet carrier, plus 'The Care and Training of your Pet Rock' manual. https://en.wikipedia.org/wiki/Gary_Dahl_(businessman) https://en.wikipedia.org/wiki/Pet_Rock",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This novelty's maker paid under a penny for what went in each box, sold it for $3.95, and moved nearly 1.5 million before the fad died after Christmas 1975.",
+     "verdict": "ok",
+     "evidence": "Wikipedia says Dahl bought the rocks from Mexican beaches for less than a penny each, sold nearly 1.5 million in the first run, and the fad lasted about six months, ending after the Christmas season of December 1975 https://en.wikipedia.org/wiki/Pet_Rock ; NBC News says he sold them for $3.95 and estimated he had sold 1.5 million by the time the fad fizzled https://www.nbcnews.com/business/consumer/pet-rock-creator-gary-dahl-dies-n333931",
      "checkedOn": "2026-10-23",
      "checker": "claude-code-subagent"
     }
