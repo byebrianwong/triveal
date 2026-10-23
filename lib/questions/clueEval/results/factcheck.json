@@ -41,6 +41,44 @@
     }
    ]
   },
+  "adams-apple": {
+   "id": "adams-apple",
+   "answer": "Adam's Apple",
+   "checks": [
+    {
+     "position": 1,
+     "text": "In parts of the American South, this body feature goes by the folk name 'goozle'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'In the American South, goozle is used colloquially to describe the laryngeal prominence,' citing the Dictionary of Smoky Mountain English. https://en.wikipedia.org/wiki/Adam%27s_apple",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Textbooks say the two cartilage plates that form this feature meet at about 90 degrees in men but about 120 degrees in women.",
+     "verdict": "ok",
+     "evidence": "Kenhub: in females the thyroid laminae 'meet at an angle of approximately 120 degrees'; in males the angle is 'more acute at around 90 degrees.' https://www.kenhub.com/en/library/anatomy/thyroid-cartilage",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Surgeons can shrink this feature with a chondrolaryngoplasty, an operation colloquially called a 'tracheal shave'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: it can be surgically reduced by 'chondrolaryngoplasty, or colloquially as a tracheal shave.' https://en.wikipedia.org/wiki/Adam%27s_apple",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This throat bump is traditionally said to be named for a legend, found nowhere in the Bible, that forbidden fruit stuck in the first man's throat.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the common belief was that a piece of the fatal apple stuck in Adam's throat; 'The story is not found in the Bible or other Jewish, Christian, or Islamic writings.' The clue's 'traditionally said' covers the rival mistranslation theory. https://en.wikipedia.org/wiki/Adam%27s_apple",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "africa": {
    "id": "africa",
    "answer": "Africa",
@@ -589,6 +627,44 @@
     }
    ]
   },
+  "anne-of-green-gables": {
+   "id": "anne-of-green-gables",
+   "answer": "Anne of Green Gables",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This novel's author modeled her heroine's face on a magazine photo of Evelyn Nesbit, the model whose husband shot the architect Stanford White in 1906.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Montgomery clipped Nesbit's photo from the Metropolitan Magazine as the model for Anne's face; Nesbit's husband Harry Kendall Thaw shot the architect Stanford White on 25 June 1906. https://en.wikipedia.org/wiki/Evelyn_Nesbit",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This novel has been on Japan's national school curriculum since 1952, though its Japanese translator had wanted to call it 'The Girl Gazing Out the Window'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia says the novel has been on Japan's national school curriculum since 1952; the Anne manuscript site says translator Hanako Muraoka's original title idea was 'The Girl Gazing Out the Window', changed to Akage no An. https://annemanuscript.ca/stories/anne-in-japan",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In 2014 Guinness World Records named a musical of this book, first staged in Charlottetown in 1965, the world's longest-running annual musical theatre production.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: in March 2014 Guinness World Records recognised the musical, premiered at the Charlottetown Festival in 1965, as the longest-running annual musical theatre production; the Guinness page lists the record. https://en.wikipedia.org/wiki/Anne_of_Green_Gables:_The_Musical",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This 1908 L. M. Montgomery novel follows a talkative red-haired orphan sent by mistake to a Prince Edward Island farm whose owners wanted a boy.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: published 13 June 1908; Marilla and Matthew wanted a boy from the orphanage, but through a misunderstanding Anne is sent instead. https://en.wikipedia.org/wiki/Anne_of_Green_Gables",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "antarctica": {
    "id": "antarctica",
    "answer": "Antarctica",
@@ -975,6 +1051,44 @@
     }
    ]
   },
+  "atm": {
+   "id": "atm",
+   "answer": "ATM",
+   "checks": [
+    {
+     "position": 1,
+     "text": "Early versions of this device read paper tokens laced with radioactive carbon-14, and their designer said you'd have to eat 136,000 of them to come to any harm.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the machines used cheques 'impregnated with a radioactive compound of carbon-14'; Shepherd-Barron said 'you would have to eat 136,000 such cheques for it to have any effect on you.' https://en.wikipedia.org/wiki/John_Shepherd-Barron",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Antarctica's McMurdo Station got one of these in 1998, and by 2015 it kept a second unit on hand to strip for spare parts.",
+     "verdict": "ok",
+     "evidence": "Mental Floss (5 May 2015): Wells Fargo installed an ATM at McMurdo Station in 1998, and 'there's a second ATM that can be cannibalized for parts.' https://www.mentalfloss.com/geography/worlds-loneliest-atm-antarctica",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Sitcom star Reg Varney of 'On the Buses' was the first customer to use Barclays' pioneering one, in Enfield, north London, in June 1967.",
+     "verdict": "ok",
+     "evidence": "Guinness World Records: the first ATM opened at Barclays in Enfield on 27 June 1967 and actor Reg Varney, the 'soon-to-be star of On the Buses,' became its first user. The clue names him by his later show but does not say he was in it at the time. https://www.guinnessworldrecords.com/news/2015/8/60/1967-first-cash-dispenser-392981",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "You draw money from this device with a four-digit PIN, the length John Shepherd-Barron chose because his wife could only remember four figures.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: a six-digit PIN was first proposed, but Shepherd-Barron's wife Caroline could remember only four digits, so four-digit PINs were adopted. https://en.wikipedia.org/wiki/John_Shepherd-Barron",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "atom": {
    "id": "atom",
    "answer": "Atom",
@@ -1207,6 +1321,44 @@
     }
    ]
   },
+  "baba-yaga": {
+   "id": "baba-yaga",
+   "answer": "Baba Yaga",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This figure of Slavic folklore rides a pig into battle against a 'crocodile' in old Russian woodblock prints, which some scholars read as a jab at Peter the Great.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: in some lubok prints she appears astride a pig going to battle against a reptilian entity called 'crocodile'; Dmitry Rovinsky read the scene as a political parody of Peter the Great, whom Old Believers called a crocodile. Rollins lubok page confirms the Old-Believer reading of 'Yaga Baba Rides Off to Fight the Crocodile'. https://en.wikipedia.org/wiki/Baba_Yaga",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Russian troops in Ukraine gave this figure's name to the big multi-rotor bomber drones that attack their positions at night.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'Baba Yaga' is the Russian nickname for Ukrainian heavy bomber drones, large multirotor drones with four, six or eight rotors, used primarily at night. https://en.wikipedia.org/wiki/Baba_Yaga_(aircraft)",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Keanu Reeves's hitman John Wick is known in the criminal underworld by this figure's name.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'Baba Yaga' and 'Bogeyman' are nicknames for Keanu Reeves's character John Wick. https://en.wikipedia.org/wiki/Baba_Yaga",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This bony-legged witch of Russian fairy tales flies around in a mortar and lives in a hut that stands on chicken legs.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: epithet kostyanaya noga ('bony leg'), flies around in a wooden mortar, lives in a hut with chicken legs. https://en.wikipedia.org/wiki/Baba_Yaga",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "back-to-the-future": {
    "id": "back-to-the-future",
    "answer": "Back to the Future",
@@ -1434,6 +1586,46 @@
      "evidence": "Wikipedia: 'listed in Guinness World Records as the world's longest place name at 168 letters'. https://en.wikipedia.org/wiki/Bangkok",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent (fact check for PR #58/#59)"
+    }
+   ]
+  },
+  "banshee": {
+   "id": "banshee",
+   "answer": "Banshee",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This folklore figure appears in Lady Fanshawe's memoirs, which describe a pale, red-haired woman at her window one night while she stayed with the O'Brien family in the 1640s.",
+     "verdict": "loose",
+     "evidence": "Memoirs text: 'From hence we went to the Lady Honor O'Brien's... in the casement of the window, I saw, by the light of the moon, a woman... with red hair and pale and ghastly complexion', placed after leaving Red Abbey in November and before arriving at Galway in late January/February. https://www.gutenberg.org/cache/epub/6064/pg6064.txt",
+     "problem": "The memoir places the visit to Lady Honor O'Brien's after the Fanshawes fled Cork in November 1649, a month at Lord Inchiquin's, and just before they reached Galway around January-February 1650, so it was the winter of 1649-50 and may fall just outside 'the 1640s'. Retellings that say 1642 are impossible: she married in 1644. The rest (pale, red hair, at the window, O'Brien house) is supported.",
+     "fix": "This folklore figure appears in Lady Fanshawe's memoirs, which describe a pale, red-haired woman at her window one night while she stayed with the O'Brien family around 1650.",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Some people in Ireland would never pick up a comb lying on the ground, because this figure is said to groom her long hair with one.",
+     "verdict": "ok",
+     "evidence": "Claddagh Design: some people would never pick up a comb lying on the ground, linked to the banshee combing her long hair; Wikipedia also says she may be seen combing her hair. https://www.claddaghdesign.com/history/irelands-best-known-spirit-the-banshee/",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This figure's name comes from the Old Irish for 'woman of the fairy mound', after the ancient burial mounds that dot the Irish countryside.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: from Old Irish ben side, 'woman of the fairy mound'; the tumuli that dot the countryside are called side in Old Irish. https://en.wikipedia.org/wiki/Banshee",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This female spirit of Irish folklore wails outside a family's home to warn that one of them is about to die.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: she heralds the death of a family member by screaming, wailing or keening, often the household's first warning. https://en.wikipedia.org/wiki/Banshee",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -2559,6 +2751,46 @@
     }
    ]
   },
+  "bobsleigh": {
+   "id": "bobsleigh",
+   "answer": "Bobsleigh",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This sport gave boxer Eddie Eagan a 1932 Winter Olympic gold, making him, as of 2026, the only person with Summer and Winter golds in different sports.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Eagan won light-heavyweight boxing gold in 1920 and four-man bobsled gold in 1932, and 'is the only one to have won gold in each in different events' (Grafström won both in the same event). https://en.wikipedia.org/wiki/Eddie_Eagan",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This sport's oldest surviving track, opened at St. Moritz on New Year's Day 1904, is the only one still made of natural ice, rebuilt from snow each winter by about 15 workers.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the run 'officially opened on New Year's Day 1904 and is the oldest bobsleigh track in the world', is 'the only one that is naturally refrigerated', and is rebuilt from ice-covered snow each year by 'a crew of fifteen ice workers' over three weeks. https://en.wikipedia.org/wiki/St._Moritz-Celerina_Olympic_Bobrun",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Twice, in 1998 and 2018, this sport's Olympic two-man event ended in a tie for gold, and a Canadian crew shared the top step both times.",
+     "verdict": "loose",
+     "evidence": "WWMT: Canada (Kripps) and Germany (Friedrich) finished in exactly the same time in 2018 and shared gold; Canada and Italy shared gold in 1998; in 1968 Italy won gold over West Germany despite the same time. https://www.wwmt.com/sports/olympics/fit-to-be-tied-canada-germany-share-2-man-bobsled-gold",
+     "problem": "'Twice' overstates: WWMT says 2018 was 'the third time the top two sleds have finished tied in an Olympic two-man race', since in 1968 Italy and West Germany had the same total time and Italy got gold on a tiebreak. Gold was shared only in 1998 (Canada and Italy) and 2018 (Canada and Germany).",
+     "fix": "Twice, in 1998 and 2018, two crews shared this sport's Olympic two-man gold after a dead heat, and a Canadian crew was one of them both times.",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Jamaica's first team in this sport, at the 1988 Winter Olympics, inspired the 1993 Disney comedy 'Cool Runnings'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Cool Runnings is a 1993 Walt Disney Pictures sports comedy 'loosely based on the debut of the Jamaican national bobsleigh team at the 1988 Winter Olympics'. https://en.wikipedia.org/wiki/Cool_Runnings",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "bone-marrow": {
    "id": "bone-marrow",
    "answer": "Bone Marrow",
@@ -2985,6 +3217,44 @@
     }
    ]
   },
+  "buzz-aldrin": {
+   "id": "buzz-aldrin",
+   "answer": "Buzz Aldrin",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This astronaut's mother was born Marion Moon, and his MIT doctorate on orbital rendezvous led fellow astronauts to nickname him 'Dr. Rendezvous'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: his mother Marion was née Moon; his 1963 MIT thesis 'Line-of-Sight Guidance Techniques for Manned Orbital Rendezvous' earned him the nickname 'Dr. Rendezvous' from fellow astronauts. https://en.wikipedia.org/wiki/Buzz_Aldrin",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "A Presbyterian elder, this astronaut privately took communion with bread and wine from his church near Houston after landing on the Moon.",
+     "verdict": "ok",
+     "evidence": "Wikipedia calls him a Presbyterian elder who privately took communion on the Moon with a kit given by his pastor; The Gospel Coalition says he was an elder at Webster Presbyterian Church just outside Houston and quotes him on 'the chalice our church had given me'. https://www.thegospelcoalition.org/article/9-things-you-should-know-about-the-communion-service-on-the-moon/",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In 2002, at age 72, this astronaut punched a Moon-landing conspiracy theorist who confronted him at a Beverly Hills hotel, and police declined to press charges.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: on 9 September 2002 at a Beverly Hills hotel, the 72-year-old punched Bart Sibrel; 'The police declined to press charges against Aldrin.' https://en.wikipedia.org/wiki/Buzz_Aldrin",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This Apollo 11 astronaut became the second person to walk on the Moon, stepping onto the surface about 19 minutes after Neil Armstrong.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: he stepped onto the surface at 03:15:16 UTC, 'nineteen minutes after Armstrong first touched the surface'. https://en.wikipedia.org/wiki/Buzz_Aldrin",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "cairo": {
    "id": "cairo",
    "answer": "Cairo",
@@ -3097,6 +3367,44 @@
      "verdict": "ok",
      "evidence": "The shield gets its properties from vibranium, and its design is 'a white five-pointed star on a blue circle' inside red and white rings. https://en.wikipedia.org/wiki/Captain_America%27s_shield",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "caravaggio": {
+   "id": "caravaggio",
+   "answer": "Caravaggio",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This painter's Nativity was cut from its frame in a Palermo oratory in 1969 and has never been found; the FBI put the theft on its Top Ten Art Crimes list.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: cut from its frame in the Oratory of Saint Lawrence, Palermo, on the night of 17-18 October 1969, never recovered; FBI put it on its Top Ten Art Crimes list in 2005. A search found an August 2026 Il Post report that it is still missing. https://en.wikipedia.org/wiki/Nativity_with_St._Francis_and_St._Lawrence",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In 1604 a tavern waiter sued this painter for throwing a plate of artichokes in his face.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: between May and October 1604 he was sued by a tavern waiter for having thrown a plate of artichokes in his face. https://en.wikipedia.org/wiki/Caravaggio",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This painter's only signed work, an altarpiece in Valletta, Malta, carries his name written in the blood spilling from John the Baptist's neck.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the only work by Caravaggio to bear his signature, placed in the red blood spilling from the Baptist's throat; it hangs in St. John's Co-Cathedral, Valletta. https://en.wikipedia.org/wiki/The_Beheading_of_Saint_John_the_Baptist_(Caravaggio)",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Born Michelangelo Merisi, this Italian master of dramatic light and shadow killed a man in a fight in Rome in 1606 and fled under a death sentence.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Michelangelo Merisi da Caravaggio; on 29 May 1606 he killed Ranuccio Tomassoni and fled Rome with a death sentence over him. https://en.wikipedia.org/wiki/Caravaggio",
+     "checkedOn": "2026-10-23",
      "checker": "claude-code-subagent"
     }
    ]
@@ -4145,6 +4453,44 @@
     }
    ]
   },
+  "count-of-monte-cristo": {
+   "id": "count-of-monte-cristo",
+   "answer": "The Count of Monte Cristo",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This novel's author said its revenge theme came from a Paris police archivist's tale of a Nîmes shoemaker whose jealous friends falsely accused him of spying for England.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Dumas wrote that the revenge idea 'sprang from an anecdote' by Jacques Peuchet, a Paris police archivist, about shoemaker Pierre Picaud, living in Nimes in 1807, whom 'three jealous friends falsely accused ... of being a spy on behalf of England.' https://en.wikipedia.org/wiki/The_Count_of_Monte_Cristo",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "A Cuban cigar brand created in the 1930s is named after this novel, said to have been a favorite of rollers who had it read aloud at work.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Alonso Menendez created the Montecristo brand in 1935, named after the novel, 'allegedly a very popular novel among the torcedores' who had it read by the lector. https://en.wikipedia.org/wiki/Montecristo_(cigar_brand)",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Alexandre Dumas spent 500,000 francs building a château near Paris named after this book, then sold it in 1848 for 31,000 francs when he ran short of money.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the chateau at Le Port-Marly in Greater Paris was built 1844-1847 'at the cost of 500,000 francs'; Dumas, short of money, sold it in 1848 for 31,000 francs. https://en.wikipedia.org/wiki/Château_de_Monte-Cristo",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "In this 1844 novel, the sailor Edmond Dantès escapes from the Château d'If and returns rich, under a new name, to punish the men who had him jailed.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: serialized from August 1844; Dantes escapes the Chateau d'If in Faria's burial sack, becomes rich and returns under a new identity to take revenge on the men who imprisoned him. https://en.wikipedia.org/wiki/The_Count_of_Monte_Cristo",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "craigslist": {
    "id": "craigslist",
    "answer": "Craigslist",
@@ -4652,6 +4998,44 @@
      "evidence": "Wikipedia description of the image. https://en.wikipedia.org/wiki/Distracted_boyfriend_meme",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent (fact check for PR #58/#59)"
+    }
+   ]
+  },
+  "divine-comedy": {
+   "id": "divine-comedy",
+   "answer": "The Divine Comedy",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This poem's title adjective first appears in Boccaccio's writing of the 1350s, but no edition put that word in the title until a 1555 Venice printing.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the earliest known use of the adjective Divina is in Boccaccio's Trattatello in laude di Dante, written 1351-1355; the 1555 Venice edition (Lodovico Dolce, printed by Giolito) was the first to put Divina in the title. https://en.wikipedia.org/wiki/Divine_Comedy",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Each of this poem's three parts ends on the same word, 'stelle', meaning 'stars', and the whole poem runs to exactly 100 cantos.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'The last word in each of the three cantiche is stelle (\"stars\")'; three cantiche of 33 cantos plus an introductory canto bring the total to 100. https://en.wikipedia.org/wiki/Divine_Comedy",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Written in Tuscan rather than Latin, the formal written language of its day, this poem helped make its author's dialect the basis of standard Italian.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: written in the vernacular rather than Latin, the poem 'helped establish the Tuscan language, in which it is written, as the standardized Italian language.' https://en.wikipedia.org/wiki/Divine_Comedy",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Dante's epic takes him through Hell, Purgatory and Heaven, guided first by the Roman poet Virgil and then by Beatrice.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Virgil guides Dante through all of Inferno and most of Purgatorio, Beatrice from the end of Purgatorio onwards (Saint Bernard takes over in the last cantos of Paradiso, but the clue does not claim Beatrice is the last guide). https://en.wikipedia.org/wiki/Divine_Comedy",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -5437,6 +5821,44 @@
      "verdict": "ok",
      "evidence": "Emoji are picture characters used in text. https://en.wiktionary.org/wiki/emoji",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "emoticon": {
+   "id": "emoticon",
+   "answer": "Emoticon",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This kind of symbol, typed from ordinary keyboard characters, had its original pair sold as an NFT in 2021 for $237,500.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Fahlman auctioned his original 1982 emoticons as NFTs in September 2021; they sold for US$237,500. https://en.wikipedia.org/wiki/Emoticon",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Vladimir Nabokov wished for something like this in 1969, telling The New York Times there should be a special typographical sign for a smile.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Nabokov told a New York Times interviewer in 1969, 'I often think there should exist a special typographical sign for a smile.' https://en.wikipedia.org/wiki/Emoticon",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In 2000 Despair, Inc., a maker of spoof motivational posters, won a U.S. trademark on the frowning version of this for greeting cards and prints.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Despair, Inc. obtained a U.S. trademark registration in 2000 for the frowny emoticon :-( on greeting cards, posters and art prints. https://en.wikipedia.org/wiki/Emoticon",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Scott Fahlman of Carnegie Mellon proposed this in 1982: a colon, a hyphen and a closing parenthesis, read sideways, to mark a post as a joke.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: on 19 September 1982 Fahlman posted on Carnegie Mellon's bulletin board proposing :-) as a joke marker, 'Read it sideways.' https://en.wikipedia.org/wiki/Emoticon",
+     "checkedOn": "2026-10-23",
      "checker": "claude-code-subagent"
     }
    ]
@@ -6498,6 +6920,44 @@
      "evidence": "First YouTube video to reach a billion views, Dec 21, 2012. https://en.wikipedia.org/wiki/Gangnam_Style",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent (fact check for PR #58/#59)"
+    }
+   ]
+  },
+  "garden-of-earthly-delights": {
+   "id": "garden-of-earthly-delights",
+   "answer": "The Garden of Earthly Delights",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This painting was listed in early Spanish royal records as 'Del Madroño', after the strawberry-tree fruit that features prominently in its center panel.",
+     "verdict": "ok",
+     "evidence": "Wikipedia says a 1593 record of the gift to El Escorial describes it as a painting 'known as \"Del Madroño\"', and Philip IV's inventory lists it as 'La Pintura del Madroño'; the strawberry-tree fruit features prominently in the center panel. https://en.wikipedia.org/wiki/The_Garden_of_Earthly_Delights",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "When this triptych is closed, its grey-green outer wings show the world as a globe, probably on the third day of Creation.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the closed outer panels are 'rendered in a green-gray grisaille' and show a globe surrounded by sea, which 'probably' depicts the Third Day of Creation. https://en.wikipedia.org/wiki/The_Garden_of_Earthly_Delights",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In 2014 a college student transcribed the music written on a sinner's buttocks in this painting's hell panel and posted a recording of it online.",
+     "verdict": "ok",
+     "evidence": "Medievalists.net (24 Feb 2014): Amelia Hamrick, a 20-year-old student at Oklahoma Christian University, transcribed the music on the buttocks in the hell panel and posted the audio on her blog. https://www.medievalists.net/2014/02/500-year-old-song-found-butt-hell-sound-like/",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Hieronymus Bosch painted this triptych, now in Madrid's Prado, whose panels run from Eden through a crowd of naked pleasure-seekers to a nightmarish hell.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Bosch's triptych has been in the Museo del Prado in Madrid since 1939; the left panel is Eden, the center the garden of earthly delights, the right panel hell. https://en.wikipedia.org/wiki/The_Garden_of_Earthly_Delights",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -7830,6 +8290,44 @@
      "evidence": "Standard myth. https://en.wikipedia.org/wiki/Hades",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent (fact check for PR #58/#59)"
+    }
+   ]
+  },
+  "hail": {
+   "id": "hail",
+   "answer": "Hail",
+   "checks": [
+    {
+     "position": 1,
+     "text": "Kericho, a tea-growing town in Kenya's highlands, is reputed to hold the world record for the most days of this weather in a single year.",
+     "verdict": "ok",
+     "evidence": "Wikipedia's Kericho article says it is 'reputed to hold the record for the highest number of hail occurrences in a year' and describes it as a highland tea town; the Hail article says 'Kericho reached the world record for 132 days of hail in one year.' https://en.wikipedia.org/wiki/Hail",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In the Middle Ages, Europeans rang church bells and fired cannons to ward this off, and some farmers still fire acetylene 'cannons' at storms, with no evidence they work.",
+     "verdict": "ok",
+     "evidence": "Wikipedia's Hail article says people in Europe used to ring church bells and fire cannons to try to prevent hail, and that modern hail cannons are updated versions; the Hail cannon article says they ignite acetylene and oxygen and that there is 'no scientific evidence' they work. https://en.wikipedia.org/wiki/Hail_cannon",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In 2010 a piece of this that fell in Vivian, South Dakota, set US records at 8 inches across and almost 2 pounds.",
+     "verdict": "ok",
+     "evidence": "NWS Aberdeen: the 23 July 2010 Vivian, SD stone measured 8.0 inches in diameter and weighed 1.9375 lb, breaking the US records for diameter and weight (not circumference). https://www.weather.gov/abr/vivianhailstone",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "These lumps of ice form in thunderstorm updrafts, and weather spotters describe their size by comparing them to peas, golf balls and softballs.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the storm's updraft blows forming hailstones up the cloud; the NWS size chart uses a pea, a golf ball and a softball as references. https://en.wikipedia.org/wiki/Hail",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -9283,6 +9781,44 @@
     }
    ]
   },
+  "janus": {
+   "id": "janus",
+   "answer": "Janus",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This god's head appeared on early Roman bronze coins with a ship on the reverse, which Macrobius said is why boys tossing coins called out 'heads or ships'.",
+     "verdict": "ok",
+     "evidence": "Macrobius (Saturnalia 1.7) says the coin bore Janus's head on one side and a ship on the other, and that boys tossing coins still shout 'heads or ships'; the Latin uses aes (bronze money). Wikipedia shows a bronze as with laureate Janus and a ship's prow. https://sententiaeantiquae.com/2016/12/30/heads-or-ships/ https://en.wikipedia.org/wiki/Janus",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This Roman god had no known Greek equivalent, yet every Roman prayer and ritual had to call on him first, before any other god.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'the ancient Greeks had no known equivalent to Janus' and 'Any rite or religious act whatsoever required the invocation of Janus first,' whichever god was addressed. https://en.wikipedia.org/wiki/Janus",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "The doors of this god's shrine in Rome stood open in wartime and were shut only in peace, a rare event that Augustus managed three times.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the gates were open in wartime and closed in peace, an 'extremely rare event'; closed 'three times under Augustus and once by Nero.' https://en.wikipedia.org/wiki/Janus",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This two-faced Roman god of doorways and beginnings gives his name to the month of January.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Janus is the two-faced god of beginnings, gates and doorways, and 'The month of January is named for Janus.' https://en.wikipedia.org/wiki/Janus",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "japan": {
    "id": "japan",
    "answer": "Japan",
@@ -10013,6 +10549,44 @@
     }
    ]
   },
+  "lacrosse": {
+   "id": "lacrosse",
+   "answer": "Lacrosse",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This sport was the cover for a 1763 attack: Ojibwe warriors staged a game of it outside Fort Michilimackinac as a ruse to get in, then took the fort from the British.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: in 1763 the Ojibwe staged a game of baaga'adowe (a forerunner of modern lacrosse) outside Fort Michilimackinac as a ruse to get inside, killed most of the British inhabitants and held the fort for about a year. https://en.wikipedia.org/wiki/Fort_Michilimackinac",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This sport was an Olympic medal event only in 1904 and 1908, with Canadian teams winning both times, and it returns at Los Angeles 2028 in a format called sixes.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Canada won gold in 1904 (Winnipeg Shamrocks) and 1908; it was only a demonstration sport in 1928, 1932 and 1948; it will be contested at the 2028 Games in the sixes format. https://en.wikipedia.org/wiki/Lacrosse",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "The Haudenosaunee, or Six Nations of the Iroquois, field their own national team in this sport, the only First Nations team sanctioned for international competition in any sport.",
+     "verdict": "ok",
+     "evidence": "Wikipedia on the Iroquois Nationals: 'It is the only First Nations team sanctioned for international competition in any sport.' https://en.wikipedia.org/wiki/Lacrosse",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This sport, Canada's national summer sport since 1994, is played by catching and flinging a rubber ball with a mesh-pocketed stick, and its name is French for 'the stick'.",
+     "verdict": "ok",
+     "evidence": "The National Sports of Canada Act (assented 12 May 1994) declares lacrosse 'the national summer sport of Canada'; Wikipedia says the ball is solid rubber and Brébeuf called it la crosse, 'the stick' in French. https://laws-lois.justice.gc.ca/eng/acts/N-16.7/FullText.html",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "laika": {
    "id": "laika",
    "answer": "Laika",
@@ -10164,6 +10738,46 @@
      "text": "This 1960s décor icon, first sold in Britain as the Astro, is a glass vessel in which blobs of wax, warmed by a bulb, rise and sink through liquid.",
      "verdict": "ok",
      "evidence": "Lava lamp Wikipedia: Crestworth launched the first 'Astro' lava lamp in 1963; a wax blob in liquid inside a glass vessel on a base with an incandescent bulb rises when heated and sinks as it cools. https://en.wikipedia.org/wiki/Lava_lamp",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "lavender": {
+   "id": "lavender",
+   "answer": "Lavender",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This plant's flowers sold in ancient Rome for 100 denarii a pound, about a month's wages for a farm laborer.",
+     "verdict": "loose",
+     "evidence": "Wikipedia's Lavandula article repeats the 100 denarii / month's wages claim; Hastings' Dictionary of Christ and the Gospels says Pliny (xii. 26) puts the 'spicae' of nard at 100 denarii a pound and identifies nard with Nardostachys jatamansi. https://www.bibliaplus.org/en/dictionaries/13/dictionary-of-christ-and-the-gospels-james-hastings/nard",
+     "problem": "States a popular claim as fact. Wikipedia gives the 100-denarii price without a primary source, and Pliny's 100-denarii-a-pound figure (Natural History 12.26) is for the spikes of nard, i.e. Indian spikenard (Nardostachys jatamansi), not lavender. Lavender was at most one of the cheaper 'nard' plants, so the price looks borrowed from spikenard.",
+     "fix": "Herb histories often say this plant's flowers sold in ancient Rome for 100 denarii a pound, but Pliny gave that price for the costlier spikenard.",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This plant's English name is generally thought to come, via Old French, from the Latin verb meaning 'to wash', a nod to its use in baths.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the word is 'generally thought to derive from Old French lavandre, ultimately from Latin lavare', referring to the use of infusions of the plant for bathing (it notes Roman bathing works do not mention lavender, but the clue only states the etymology as generally thought). https://en.wikipedia.org/wiki/Lavandula",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "The story goes that French chemist René-Maurice Gattefossé, credited with coining the word 'aromatherapy', found that this plant's oil healed his burns from a 1910 lab explosion.",
+     "verdict": "ok",
+     "evidence": "Tisserand quotes Gattefossé: a laboratory explosion in July 1910 covered him with burning substances and 'just one rinse with lavender essence stopped the gasification of the tissue'; his 1937 book Aromathérapie was the first appearance of the word in print. EBSCO calls him a French chemist. https://roberttisserand.com/2011/04/gattefosses-burn/",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This violet-flowered herb of the mint family is dried and tucked into sachets among stored clothes to scent them and keep moths away.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: lavender is in Lamiaceae, and lavender flowers are 'placed among stored items of clothing to give a fresh fragrance and to deter moths' and used in sachets; the Lamiaceae article gives 'mints' as the family's common name. https://en.wikipedia.org/wiki/Lamiaceae",
      "checkedOn": "2026-10-23",
      "checker": "claude-code-subagent"
     }
@@ -10377,6 +10991,44 @@
     }
    ]
   },
+  "liberty-leading-the-people": {
+   "id": "liberty-leading-the-people",
+   "answer": "Liberty Leading the People",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This painting was too big for a Boeing 747, so in 1999 it flew from Paris to Tokyo standing upright in a pressurized case aboard an Airbus Beluga.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: in 1999 it flew aboard an Airbus Beluga from Paris to Tokyo; the canvas was too large for a Boeing 747 and travelled in the vertical position inside a special pressurised container. https://en.wikipedia.org/wiki/Liberty_Leading_the_People",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "The pistol-waving boy in this painting is widely believed to have inspired Gavroche in Victor Hugo's 'Les Misérables'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Gavroche 'is widely believed to have been inspired by the figure of the pistols-wielding boy' in the painting. https://en.wikipedia.org/wiki/Liberty_Leading_the_People",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Coldplay used this painting, with 'Viva La Vida' written across it in white, as the cover of their 2008 album.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Coldplay used the painting for their 2008 album cover 'with the words Viva La Vida written in white'. https://en.wikipedia.org/wiki/Liberty_Leading_the_People",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Eugène Delacroix painted this tribute to the July Revolution of 1830, in which a bare-breasted woman in a Phrygian cap raises the French tricolour over a barricade.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Delacroix's painting commemorates the July Revolution of 1830; a bare-breasted woman in a Phrygian cap holds the tricolour and leads people over a barricade. https://en.wikipedia.org/wiki/Liberty_Leading_the_People",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "lichen": {
    "id": "lichen",
    "answer": "Lichen",
@@ -10568,6 +11220,44 @@
      "evidence": "Wikipedia: capital and most populous city of Portugal, on the northern shore of the Tagus at the Atlantic. https://en.wikipedia.org/wiki/Lisbon",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent (fact check for PR #58/#59)"
+    }
+   ]
+  },
+  "lolcats": {
+   "id": "lolcats",
+   "answer": "LOLcats",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This meme genre's name was a runner-up for the American Dialect Society's 'most creative' word of 2007, losing to 'Googlegänger'.",
+     "verdict": "ok",
+     "evidence": "ADS 2007 vote tallies: Most Creative winner Googlegänger (84); lolcat 20 votes among the runners-up. https://americandialect.org/Word-of-the-Year_2007.pdf",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In 2007 a Lancaster University researcher based a joke programming language on this meme genre's captions; its programs open with 'HAI' and close with 'KTHXBYE'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: created in 2007 by Adam Lindsay, a researcher at Lancaster University's Computing Department; programs open with HAI and end with KTHXBYE. https://en.wikipedia.org/wiki/LOLCODE",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "A 2016 taxidermy sculpture by Eva and Franco Mattes, based on this meme genre's figure who peeks through a hole in the ceiling, joined SFMOMA's collection in 2020.",
+     "verdict": "ok",
+     "evidence": "The Art Newspaper (May 2020): Ceiling Cat (2016), a taxidermy cat sculpture riffing on the meme, enters SFMOMA's permanent collection this year. https://www.theartnewspaper.com/2020/05/05/eva-and-franco-mattes-technology-does-not-create-the-social-problems-we-so-often-criticise",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "These internet memes pair photos of kittens and other felines with captions in deliberately broken English, such as 'I can has cheezburger?'",
+     "verdict": "ok",
+     "evidence": "Wikipedia: cat images with captions deliberately deviating from standard spelling and grammar; popularised by I Can Has Cheezburger? https://en.wikipedia.org/wiki/Lolcat",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -11063,6 +11753,44 @@
      "verdict": "ok",
      "evidence": "She 'remains the only individual to have won the Nobel Prize in two different sciences': physics (1903) and chemistry (1911). Cited LSHTM page returned 403. http://www.earthdate.org/episodes/marie-curies-double-nobel",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "marmite": {
+   "id": "marmite",
+   "answer": "Marmite",
+   "checks": [
+    {
+     "position": 1,
+     "text": "Around 1930, doctor Lucy Wills used this cheap spread to cure an anaemia of pregnancy in Bombay; the unknown nutrient behind the cure later proved to be folate.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Wills worked in India 1928-1933, mostly Bombay; anaemia of pregnancy was prevented and cured by yeast extract, the cheapest source being Marmite; the 'Wills factor' was shown in the 1940s to be folate. https://en.wikipedia.org/wiki/Lucy_Wills",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In October 2016, a price row between Tesco and Unilever over the pound's fall after the Brexit vote saw this Unilever spread pulled from Tesco's website.",
+     "verdict": "ok",
+     "evidence": "CSM, 13 Oct 2016: Tesco removed Unilever products from its website in a dispute over roughly 10 percent price rises, with the pound down almost a fifth since the Brexit vote; Marmite is a Unilever brand. https://www.csmonitor.com/World/Europe/2016/1013/Marmite-shortage-Why-Brexit-just-got-real-for-Britons",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This spread was first made in 1902 in Burton upon Trent, from leftover yeast supplied by the Bass Brewery.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: founded 1902 in Burton upon Trent; by-product yeast supplied by Bass Brewery. https://en.wikipedia.org/wiki/Marmite",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This sticky, salty British yeast-extract spread is named after the French cooking pot pictured on its label, and its 'Love it or hate it' ads began in 1996.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the jar shows a marmite, a French covered cooking pot; 'Love it or Hate it' campaign began in October 1996. https://en.wikipedia.org/wiki/Marmite",
+     "checkedOn": "2026-10-23",
      "checker": "claude-code-subagent"
     }
    ]
@@ -12191,6 +12919,44 @@
     }
    ]
   },
+  "nadia-comaneci": {
+   "id": "nadia-comaneci",
+   "answer": "Nadia Comăneci",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This gymnast was spotted at age six turning cartwheels in a schoolyard with a friend, who grew up to become one of her country's top ballerinas.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: chosen at age six after Károlyi spotted her and a friend turning cartwheels in a schoolyard; the friend, Viorica Dumitru, 'became one of Romania's top ballerinas'. https://en.wikipedia.org/wiki/Nadia_Com%C4%83neci",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "A 1971 film tune, also the theme of The Young and the Restless, reached the US Top 10 renamed in this gymnast's honor, though she never performed to it.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: originally 'Cotton's Dream' from the 1971 film Bless the Beasts and Children, also the title theme of The Young and the Restless, a top-10 single in fall 1976; 'Comăneci never performed to Nadia's Theme'. https://en.wikipedia.org/wiki/Nadia_Com%C4%83neci",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In November 1989 this gymnast fled her country on foot at night, crossing into Hungary just weeks before the revolution that toppled Ceaușescu.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: on the night of 27 November 1989, 'a few weeks before the Romanian revolution', she crossed into Hungary near Cenad, 'mostly on foot and at night'. https://en.wikipedia.org/wiki/Nadia_Com%C4%83neci",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "At the 1976 Montreal Olympics, this 14-year-old Romanian scored the first perfect 10 in Olympic gymnastics, which the scoreboard could only show as 1.00.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: at age 14 she received the first perfect 10 at the Olympics on 18 July 1976 in Montreal; the Omega scoreboard could not show 10 and displayed 1.00. https://en.wikipedia.org/wiki/Nadia_Com%C4%83neci",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "napoleon-bonaparte": {
    "id": "napoleon-bonaparte",
    "answer": "Napoleon Bonaparte",
@@ -13271,6 +14037,44 @@
     }
    ]
   },
+  "pavlova": {
+   "id": "pavlova",
+   "answer": "Pavlova",
+   "checks": [
+    {
+     "position": 1,
+     "text": "Two food historians argue this dessert descends from the Spanische Windtorte, an Austro-Hungarian meringue cake, by way of tortes German immigrants made in America.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Andrew Paul Wood and Annabelle Utrecht trace the modern dessert to the Austro-Hungarian Spanische Windtorte, via Schaumtorte and Baisertorte made by German-speaking immigrants in the United States. https://en.wikipedia.org/wiki/Pavlova_(dessert)",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In 2005 New Zealand students made a 64-metre-long version of this from 5,000 egg whites, beating a 45-metre one made for Wellington's Te Papa museum.",
+     "verdict": "ok",
+     "evidence": "ODT: Eastern Institute of Technology students made the 2005 'Pavkong', which stretched 64 m, used 5,000 egg whites and beat the 45 m record held by Te Papa in Wellington; Wikipedia says the 45 m one was made for Te Papa's first birthday. https://www.odt.co.nz/news/national/norwegians-smash-kiwi-pavlova-world-record",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This dessert is a Christmas Day favorite in the southern summer, more often topped with kiwifruit in New Zealand and with passionfruit in Australia.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: popular on Christmas Day as Christmas falls in the southern summer; 'New Zealand pavlova is more likely to have kiwifruit', while in Australia it 'often has passionfruit'. https://en.wikipedia.org/wiki/Pavlova_(dessert)",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This crisp-shelled, soft-centred meringue dessert is named after a Russian ballerina, and both Australia and New Zealand claim to have invented it.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: a crisp crust and soft, light inside; named after the Russian ballerina Anna Pavlova; origin is a long-standing dispute between Australia and New Zealand. https://en.wikipedia.org/wiki/Pavlova_(dessert)",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "peacock": {
    "id": "peacock",
    "answer": "Peacock",
@@ -13617,6 +14421,82 @@
     }
    ]
   },
+  "picture-of-dorian-gray": {
+   "id": "picture-of-dorian-gray",
+   "answer": "The Picture of Dorian Gray",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This novel first ran in a Philadelphia magazine in 1890, after its editor secretly cut about 500 words; an uncensored edition put them back in 2011.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: J. M. Stoddart deleted around five hundred words without Wilde's knowledge before the July 1890 Lippincott's issue; the 2011 Belknap/Harvard annotated, uncensored edition includes the roughly 500 deleted words. The Clark Library page places Lippincott's editors in Philadelphia (https://clarklibrary.ucla.edu/?p=4532). https://en.wikipedia.org/wiki/The_Picture_of_Dorian_Gray",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This book was commissioned at an 1889 dinner at London's Langham Hotel, the same meal that produced Arthur Conan Doyle's The Sign of the Four.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: on 30 August 1889 Stoddart dined with Wilde, Arthur Conan Doyle and T. P. Gill at the Langham Hotel and commissioned novellas; Doyle produced The Sign of the Four for Lippincott's. https://en.wikipedia.org/wiki/The_Picture_of_Dorian_Gray",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In an 1895 libel trial, the barrister Edward Carson read passages from this novel aloud while cross-examining its author.",
+     "verdict": "ok",
+     "evidence": "Wikipedia says passages from the magazine version were read during cross-examination at the 1895 trials; the Dublin Review of Books says Carson laid particular emphasis on a quoted passage ('I quite admit that I adored you madly...') before asking Wilde whether he had ever adored a young man madly. https://drb.ie/article/hounding-oscar/",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "In this Oscar Wilde novel, a handsome young man stays youthful while his painted portrait, hidden away, grows old and ugly with his sins.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Wilde's novel in which Dorian stays young while his hidden portrait ages and records his sins. https://en.wikipedia.org/wiki/The_Picture_of_Dorian_Gray",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "pineal-gland": {
+   "id": "pineal-gland",
+   "answer": "Pineal Gland",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This brain structure in cattle yielded a frog-skin-lightening hormone that a Yale team isolated in 1958 while hoping to treat skin disorders.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: by 1917 cow pineal extract was known to lighten frog skin; Aaron B. Lerner and colleagues at Yale, 'hoping that a substance from the pineal might be useful in treating skin diseases, isolated and named the hormone melatonin in 1958.' https://en.wikipedia.org/wiki/History_of_the_pineal_gland",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "With age this structure collects calcified grains nicknamed 'brain sand', which radiologists sometimes use as landmarks on X-rays.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'Concentrations of brain sand increase with age' and 'They are sometimes used as anatomical landmarks in radiological examinations.' https://en.wikipedia.org/wiki/Corpora_arenacea",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Descartes called this structure 'the principal seat of the soul', believing it was the only part of the brain that does not come as a pair.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Descartes called it 'the principal seat of the soul' because he believed it to be the only part of the brain that exists as a single part rather than one of a pair. https://en.wikipedia.org/wiki/History_of_the_pineal_gland",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This rice-grain-sized structure deep in the brain, named for its cone-like shape, releases melatonin in the dark to help set your sleep-wake rhythm.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'about the size of a grain of rice (5-8 mm)'; its shape resembles a pine cone, which gives it its name; melatonin production is stimulated by darkness and modulates sleep patterns. https://en.wikipedia.org/wiki/Pineal_gland",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "pineapple": {
    "id": "pineapple",
    "answer": "Pineapple",
@@ -13652,6 +14532,44 @@
      "evidence": "Sam Panopoulos, born in Greece, is widely credited with creating Hawaiian pizza at the Satellite Restaurant in Chatham, Ontario, in 1962. https://www.legacy.com/news/sam-panopoulos-1934-2017 (the Canadian Encyclopedia page did not load)",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent (fact check for PR #58/#59)"
+    }
+   ]
+  },
+  "pinocchio": {
+   "id": "pinocchio",
+   "answer": "Pinocchio",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This character's story first ran as a serial in an Italian children's magazine in 1881 and ended with him hanged, until reader demand and the editor brought him back.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: serialized in Giornale per i bambini from 7 July 1881; the first run ended at Chapter 15 with Pinocchio hanged, and after strong reader demand and the editor's request Collodi resumed it in 1882. https://en.wikipedia.org/wiki/The_Adventures_of_Pinocchio",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This character's name may come from a rare Tuscan word for 'pine nut', or be built from the Italian words for 'pine' and 'eye'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the name is 'possibly derived from the rare Tuscan form pinocchio' meaning pine nut, or constructed from pino (pine) and occhio (eye). https://en.wikipedia.org/wiki/Pinocchio",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Early in the original book, this character kills the Talking Cricket by accidentally hitting it with a thrown hammer, and the cricket later returns as a ghost.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Pinocchio 'throws a hammer at the cricket, accidentally killing it,' and the cricket 'later returns as a ghost to continue advising him.' https://en.wikipedia.org/wiki/The_Adventures_of_Pinocchio",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This wooden puppet, carved by Geppetto, finds that his nose grows longer when he tells a lie.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Geppetto carves the puppet, and when Pinocchio lies to the Fairy 'his nose grows.' https://en.wikipedia.org/wiki/The_Adventures_of_Pinocchio",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -16811,6 +17729,44 @@
     }
    ]
   },
+  "stinging-nettle": {
+   "id": "stinging-nettle",
+   "answer": "Stinging Nettle",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This plant may mark the site of a long-abandoned building, because it thrives where human and animal waste have made the soil rich in phosphate and nitrogen.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: nettles may indicate the site of a long-abandoned building; human and animal waste may raise phosphate and nitrogen levels, an ideal environment for nettles. https://en.wikipedia.org/wiki/Urtica_dioica",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In Hans Christian Andersen's 'The Wild Swans', a princess gathers this plant in graveyards and, under a vow of silence, knits it into shirts to free her 11 brothers.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Elisa is told to gather stinging nettles in graveyards, takes a vow of silence, and knits nettle shirts for her eleven brothers. https://en.wikipedia.org/wiki/The_Wild_Swans",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "At a yearly contest in a Dorset pub, entrants get one hour to strip and eat the raw leaves from as many two-foot stalks of this plant as they can.",
+     "verdict": "ok",
+     "evidence": "Calendar Customs: the World Nettle Eating Championship at the Bottle Inn, Marshwood, Dorset, held each June or July; stalks about 2 feet long, leaves stripped and eaten within an hour, most stalks wins. https://calendarcustoms.com/articles/world-stinging-nettle-eating-championship/",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This plant's hollow hairs work like tiny hypodermic needles that inject histamine into the skin, and folk wisdom says to rub the rash with a dock leaf.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: hollow trichomes act like hypodermic needles injecting histamine and other chemicals; dock is a folk remedy for the sting. https://en.wikipedia.org/wiki/Urtica_dioica",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "stonehenge": {
    "id": "stonehenge",
    "answer": "Stonehenge",
@@ -16923,6 +17879,44 @@
      "verdict": "ok",
      "evidence": "Roman-numeral naming (except Super Bowl 50) and annual top TV ratings are well known. https://en.wikipedia.org/wiki/Super_Bowl_I",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "super-glue": {
+   "id": "super-glue",
+   "answer": "Super Glue",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This household product was first made in 1942 by a team seeking a clear plastic for precision gun sights, and went on sale in 1958 as 'Eastman 910'.",
+     "verdict": "ok",
+     "evidence": "Lemelson-MIT: invented by accident in 1942 by Harry Coover's team, which was trying 'to make a clear plastic that could be used for precision gunsights'; packaged as 'Eastman 910' and marketed from 1958. https://lemelson.mit.edu/resources/harry-coover",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Crime scene investigators warm this product so its fumes react with invisible fingerprint residue, leaving a white coating on the ridges of the print.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: cyanoacrylate is 'warmed to produce fumes' that react with 'invisible fingerprint residues and atmospheric moisture' to form 'a white polymer' on the ridges. https://en.wikipedia.org/wiki/Cyanoacrylate",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "On the TV show 'I've Got a Secret', inventor Harry Coover lifted the host, Garry Moore, off the ground using a single drop of it.",
+     "verdict": "ok",
+     "evidence": "Lemelson-MIT: on I've Got a Secret, Coover 'lifted the host, Garry Moore, off the ground using a single drop of the substance.' https://lemelson.mit.edu/resources/harry-coover",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This fast-setting cyanoacrylate adhesive is notorious for sticking people's fingers together within seconds.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: cyanoacrylates are fast-acting adhesives sold as Super Glue that bond skin quickly, so fingers stick together. https://en.wikipedia.org/wiki/Cyanoacrylate",
+     "checkedOn": "2026-10-23",
      "checker": "claude-code-subagent"
     }
    ]
@@ -17273,6 +18267,44 @@
     }
    ]
   },
+  "taste-buds": {
+   "id": "taste-buds",
+   "answer": "Taste Buds",
+   "checks": [
+    {
+     "position": 1,
+     "text": "These tiny sensory clusters each hold 50 to 150 receptor cells, and the body replaces those cells roughly every 10 days.",
+     "verdict": "ok",
+     "evidence": "Cleveland Clinic: 'Each taste bud has between 50 to 150 taste receptor cells' and 'Your body replaces taste receptor cells approximately every 10 days.' https://my.clevelandclinic.org/health/body/24684-taste-buds",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "The average adult has somewhere between 2,000 and 10,000 of these, and children have more, because people lose them as they age.",
+     "verdict": "ok",
+     "evidence": "Cleveland Clinic: 'The average adult has anywhere from 2,000 to 10,000 taste buds' and 'We lose taste buds as we age, which means that children have more taste buds than adults.' https://my.clevelandclinic.org/health/body/24684-taste-buds",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "A catfish typically has more than 100,000 of these spread all over its body, packed most densely on the whiskers around its mouth.",
+     "verdict": "ok",
+     "evidence": "The Log: catfish usually have 'more than 100,000 taste buds,' up to 175,000 in larger fish, spread over the body and 'most concentrated on the four pairs of whiskers surrounding its mouth.' https://www.thelog.com/news-departments/bizarre-facts-catfish-have-a-body-that-can-taste/",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "These little clusters, housed in the bumps called papillae on your tongue, let you detect sweet, sour, salty, bitter and umami flavors.",
+     "verdict": "ok",
+     "evidence": "Cleveland Clinic: three kinds of papillae contain taste buds, 'allowing you to detect the five basic tastes': sweet, salty, bitter, sour and umami. https://my.clevelandclinic.org/health/body/24684-taste-buds",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "taylor-swift": {
    "id": "taylor-swift",
    "answer": "Taylor Swift",
@@ -17391,6 +18423,44 @@
      "verdict": "ok",
      "evidence": "Mongabay (April 2007) reports the Biology Letters 2007 study by Hilgartner et al. finding that Hemiceratoides hieroglyphica uses a 'sharply barbed proboscis' to drink tears of sleeping birds in Madagascar https://news.mongabay.com/2007/04/tear-sucking-moth-in-madagascar-feeds-on-bird-eyes/ ; Wikipedia calls it a 'specialized, harpoon-like proboscis' https://en.wikipedia.org/wiki/Hemiceratoides_hieroglyphica",
      "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "teletubbies": {
+   "id": "teletubbies",
+   "answer": "Teletubbies",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This children's show was filmed on a Warwickshire farm, where the hole left by its set was later flooded into a pond to deter trespassing fans.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: filmed on a farm in Wimpstone, Warwickshire; in 2013 the owner had the location filled with water and turned into a small pond because of trespassers. https://en.wikipedia.org/wiki/Teletubbies",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This show's theme-song single reached No. 1 in the UK in December 1997, stayed in the top 75 for 32 weeks and sold over a million copies.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the single reached number 1 in the UK Singles Chart in December 1997, remained in the Top 75 for 32 weeks and sold over a million copies. https://en.wikipedia.org/wiki/Teletubbies",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In 1999 Jerry Falwell's newspaper warned parents that one of this show's characters was a gay-pride symbol, because he is purple and has a triangle-shaped antenna.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: in 1999 Falwell's National Liberty Journal attacked Tinky Winky because 'he is purple, the gay pride colour, and his antenna is shaped like a triangle'. https://en.wikipedia.org/wiki/Teletubbies",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This BBC preschool show, first aired in 1997, stars Tinky Winky, Dipsy, Laa-Laa and Po, four creatures named for the TV screens on their bellies.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: first aired on BBC2 on 31 March 1997; the characters are Tinky Winky, Dipsy, Laa-Laa and Po, named for the television screens on their bellies. https://en.wikipedia.org/wiki/Teletubbies",
+     "checkedOn": "2026-10-23",
      "checker": "claude-code-subagent"
     }
    ]
@@ -18793,6 +19863,44 @@
      "verdict": "ok",
      "evidence": "A 1995 Pixar film about toys that come to life. 'To infinity and beyond' is Buzz's catchphrase (a section heading in the article). https://en.wikipedia.org/wiki/Toy_Story",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "traffic-light": {
+   "id": "traffic-light",
+   "answer": "Traffic Light",
+   "checks": [
+    {
+     "position": 1,
+     "text": "The first of these road devices went up near London's Westminster Bridge in 1868, gas-lit at night, and exploded within a month, badly injuring the policeman working it.",
+     "verdict": "ok",
+     "evidence": "Wikipedia (J. P. Knight): installed 9 December 1868 at Great George Street and Bridge Street near Westminster Bridge, gas-lit at night; a gas leak made it explode, 'badly injuring the policeman operating it.' The Traffic light article dates the explosion to 2 January 1869. https://en.wikipedia.org/wiki/J._P._Knight https://en.wikipedia.org/wiki/Traffic_light",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Inventor Garrett Morgan, who once used his own smoke hood to rescue men from a tunnel under Lake Erie, patented a hand-operated version of this in 1923.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Morgan used his smoke hood to rescue workers trapped in a water intake tunnel 50 ft beneath Lake Erie (1916), and 'In 1923, Morgan patented his traffic signal,' a manually operated device. https://en.wikipedia.org/wiki/Garrett_Morgan",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In 1973 Japan ordered the green on these to be the bluest shade possible, because that color's official name is 'ao', a word that usually means blue.",
+     "verdict": "ok",
+     "evidence": "Mental Floss: since 1973 the Japanese government has decreed that lights be 'the bluest shade of green,' because the go color is officially called ao. Wikipedia: officials 'decreed in 1973 that the go light should be changed to the bluest possible shade of green.' https://www.mentalfloss.com/transportation/why-does-japan-have-blue-traffic-lights-instead-green https://en.wikipedia.org/wiki/Traffic_light",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "In an Irish neighborhood of Syracuse, New York, one of these hangs with green above red, after local boys kept stoning it while the 'British' red was on top.",
+     "verdict": "ok",
+     "evidence": "Jalopnik: in Syracuse's Irish Tipperary Hill neighborhood, a red-over-green light installed in the 1920s was seen as British superiority; local boys threw rocks at it until the city put green on top. https://jalopnik.com/2060232/tipperary-hill-traffic-light-upside-down/",
+     "checkedOn": "2026-10-23",
      "checker": "claude-code-subagent"
     }
    ]
@@ -20683,6 +21791,44 @@
      "verdict": "ok",
      "evidence": "Gustafson 'accepted a one-time payment of $590.38' for the yodel, recorded for what was meant to be a regional Yahoo TV ad; he then heard it in a national Yahoo ad (Super Bowl 1999); 'we had asked for $5 million'; the case settled in 2002 https://thehustle.co/the-yodeler-who-sued-yahoo ; The Register, 23 April 2002: he was suing Yahoo for $5 million and has settled https://www.theregister.com/2002/04/23/yahoo_settles_yodel_case/",
      "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "yahtzee": {
+   "id": "yahtzee",
+   "answer": "Yahtzee",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This game sold poorly after its 1956 launch because its appeal was hard to get across in an ad, until its maker threw parties where people could play it.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: launched 1956; per Lowe it did poorly because the rules and appeal were not easily conveyed in an advertisement, until he organised Yahtzee parties. https://en.wikipedia.org/wiki/Yahtzee",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "The toy maker who launched this game, Edwin S. Lowe, had earlier turned a carnival game called Beano into a national pastime under a new name: Bingo.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: in 1929 Lowe saw a game called Beano at a carnival near Atlanta and sold it as Bingo; he introduced Bingo to the U.S. market. https://en.wikipedia.org/wiki/Edwin_S._Lowe",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "The story goes that an anonymous Canadian couple invented this game as 'The Yacht Game' and traded the rights for 1,000 gift sets.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'According to Hasbro', an anonymous Canadian couple called it The Yacht Game; Lowe acquired the rights in exchange for 1,000 gift sets. https://en.wikipedia.org/wiki/Yahtzee",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "In this game, players get up to three rolls a turn to make scoring combinations with five dice, and five of a kind shares the game's name.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: five dice, three rolls per turn with the option to stop early; a Yahtzee is five of a kind. https://en.wikipedia.org/wiki/Yahtzee",
+     "checkedOn": "2026-10-23",
      "checker": "claude-code-subagent"
     }
    ]

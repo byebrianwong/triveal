@@ -14984,7 +14984,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Mythology",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This folklore figure appears in Lady Fanshawe's memoirs, which describe a pale, red-haired woman at her window one night while she stayed with the O'Brien family in the 1640s." },
+      { position: 1, text: "This folklore figure appears in Lady Fanshawe's memoirs, which describe a pale, red-haired woman at her window one night while she stayed with the O'Brien family around 1650." },
       { position: 2, text: "Some people in Ireland would never pick up a comb lying on the ground, because this figure is said to groom her long hair with one." },
       { position: 3, text: "This figure's name comes from the Old Irish for 'woman of the fairy mound', after the ancient burial mounds that dot the Irish countryside." },
       { position: 4, text: "This female spirit of Irish folklore wails outside a family's home to warn that one of them is about to die." },
@@ -15286,7 +15286,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Nature",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This plant's flowers sold in ancient Rome for 100 denarii a pound, about a month's wages for a farm laborer." },
+      { position: 1, text: "Herb histories often say this plant's flowers sold in ancient Rome for 100 denarii a pound, but Pliny gave that price for the costlier spikenard." },
       { position: 2, text: "This plant's English name is generally thought to come, via Old French, from the Latin verb meaning 'to wash', a nod to its use in baths." },
       { position: 3, text: "The story goes that French chemist René-Maurice Gattefossé, credited with coining the word 'aromatherapy', found that this plant's oil healed his burns from a 1910 lab explosion." },
       { position: 4, text: "This violet-flowered herb of the mint family is dried and tucked into sachets among stored clothes to scent them and keep moths away." },
@@ -15399,7 +15399,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This sport gave boxer Eddie Eagan a 1932 Winter Olympic gold, making him, as of 2026, the only person with Summer and Winter golds in different sports." },
       { position: 2, text: "This sport's oldest surviving track, opened at St. Moritz on New Year's Day 1904, is the only one still made of natural ice, rebuilt from snow each winter by about 15 workers." },
-      { position: 3, text: "Twice, in 1998 and 2018, this sport's Olympic two-man event ended in a tie for gold, and a Canadian crew shared the top step both times." },
+      { position: 3, text: "Twice, in 1998 and 2018, two crews shared this sport's Olympic two-man gold after a dead heat, and a Canadian crew was one of them both times." },
       { position: 4, text: "Jamaica's first team in this sport, at the 1988 Winter Olympics, inspired the 1993 Disney comedy 'Cool Runnings'." },
     ],
     decoys: [
