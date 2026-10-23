@@ -14711,7 +14711,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "This Titan fathered the nymph Calypso of the Odyssey, as well as the Hyades and the seven Pleiades." },
       { position: 2, text: "In Ovid's telling, Perseus showed this Titan Medusa's head and turned him into a mountain, his beard and hair becoming forests." },
       { position: 3, text: "While this Titan fetched the golden apples, Heracles took over his burden, then tricked him into taking it back by asking for a moment to get comfortable." },
-      { position: 4, text: "Zeus condemned this Titan to hold up the sky on his shoulders, and the mapmaker Mercator named his book of maps in his honor." },
+      { position: 4, text: "Zeus condemned this Titan to hold up the sky on his shoulders, and the top bone of the spine, which holds up the skull, is named after him." },
     ],
     decoys: [
       { text: "Prometheus", eliminatedByClue: 2 },
@@ -14799,8 +14799,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This figure from Jewish folklore gave its name to a new computer at Israel's Weizmann Institute in 1965, a name chosen by the Kabbalah scholar Gershom Scholem." },
-      { position: 2, text: "A 1674 letter told of a rabbi in Poland who had made one of these out of lime to be his servant and do the housework." },
-      { position: 3, text: "In some versions, the Hebrew word for 'truth' is written on its forehead, and erasing the first letter leaves the word for 'dead'." },
+      { position: 2, text: "In some versions, the Hebrew word for 'truth' is written on its forehead, and erasing the first letter leaves the word for 'dead'." },
+      { position: 3, text: "A 1674 letter told of a rabbi in Poland who had made one of these out of lime to be his servant and do the housework." },
       { position: 4, text: "Legend says Rabbi Judah Loew of Prague shaped this creature from Vltava river clay and brought it to life to defend the city's Jewish ghetto." },
     ],
     decoys: [
@@ -15022,8 +15022,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Technology",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This household staple's sales surged in February 2003 after the US Department of Homeland Security advised families to stock it, along with plastic sheeting, for emergencies." },
-      { position: 2, text: "In 1943 Vesta Stoudt, an Illinois munitions worker with two sons in the Navy, wrote to President Roosevelt proposing this as a sturdier seal for ammunition boxes." },
+      { position: 1, text: "In 1943 Vesta Stoudt, an Illinois munitions worker with two sons in the Navy, wrote to President Roosevelt proposing this household staple as a sturdier seal for ammunition boxes." },
+      { position: 2, text: "Sales of this product surged in February 2003 after the US Department of Homeland Security advised families to stock it, along with plastic sheeting, for emergencies." },
       { position: 3, text: "In 2024 a crypto entrepreneur paid $6.2 million at Sotheby's for Maurizio Cattelan's 'Comedian', a banana stuck to a wall with a strip of this." },
       { position: 4, text: "This silver-gray, cloth-backed roll that tears by hand is the classic quick fix for almost anything, and it helped Apollo 13's crew rig their carbon dioxide filters." },
     ],
@@ -15060,8 +15060,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This group of stars is thought to be the small clump of gold dots on the Nebra sky disc, a Bronze Age disc dug up in Germany in 1999." },
-      { position: 2, text: "Galileo's 1610 book Sidereus Nuncius included a sketch of this cluster showing 36 stars, though only about half a dozen are easy to see with the naked eye." },
-      { position: 3, text: "This cluster's dawn rising in late June or early July marks Matariki, the Māori new year, which has been a New Zealand public holiday since 2022." },
+      { position: 2, text: "This cluster's dawn rising in late June or early July marks Matariki, the Māori new year, which has been a New Zealand public holiday since 2022." },
+      { position: 3, text: "Galileo's 1610 book Sidereus Nuncius included a sketch of this cluster showing 36 stars, though only about half a dozen are easy to see with the naked eye." },
       { position: 4, text: "This star cluster in Taurus is named in Greek myth for the daughters of the Titan Atlas, and Subaru's six-star badge depicts it." },
     ],
     decoys: [
@@ -15154,7 +15154,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Space",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This seven-star pattern, which sits inside a larger constellation, gave its Chinese name to China's satellite navigation system, BeiDou." },
+      { position: 1, text: "This star pattern's Chinese name was given to China's satellite navigation system, BeiDou." },
       { position: 2, text: "Five of this pattern's stars travel through space together, but the two at its ends drift the other way, so over many thousands of years its shape will warp." },
       { position: 3, text: "A seventh-grader living in an Alaska orphanage won a 1927 contest with a flag that shows this star pattern in gold on a blue field." },
       { position: 4, text: "This group of seven stars in Ursa Major has a four-star bowl and a three-star handle, and the two front stars of the bowl point to the North Star." },
@@ -15232,7 +15232,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This 1984 video game lets a second player steer the flying targets with a regular controller, a feature many fans first learned of from Seth Rogen's tweets in 2018." },
       { position: 2, text: "This game grew out of a 1976 electronic light-gun toy of the same name that Gunpei Yokoi and Masayuki Uemura designed for Nintendo." },
-      { position: 3, text: "This game sold more than 28 million copies, helped by sharing a single cartridge with Super Mario Bros. in an NES bundle." },
+      { position: 3, text: "This game sold more than 28 million copies, mostly because it came packed in with the console rather than being bought on its own." },
       { position: 4, text: "In this NES game you shoot at flying birds with the Zapper light gun, and a dog laughs at you whenever you miss." },
     ],
     decoys: [
@@ -15305,8 +15305,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Food & Drink",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This drink's invention is claimed by rival cafés in Taichung and Tainan, but a 2019 court ruling found it could not be patented and credited neither." },
-      { position: 2, text: "One of this drink's common names was borrowed in the 1980s from a nickname of Hong Kong actress Amy Yip, which was slang for a busty woman." },
+      { position: 1, text: "One of this drink's common names is said to come from a nickname of Hong Kong actress Amy Yip, which was slang for a busty woman." },
+      { position: 2, text: "This drink's invention is claimed by rival cafés in Taichung and Tainan, but a 2019 court ruling found it could not be patented and credited neither." },
       { position: 3, text: "Shipping snarls on the US West Coast and the 2021 Suez Canal blockage left shops in the US and Canada short of this drink's key ingredient." },
       { position: 4, text: "This sweet Taiwanese drink is famous for the chewy balls of tapioca starch that sit at the bottom of the cup." },
     ],
@@ -15326,7 +15326,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This game's first known mention is in a Chinese book from around 1600, which calls it 'shoushiling' and claims Han dynasty warlords played it." },
       { position: 2, text: "In 2005 Christie's beat Sotheby's at this game, on an 11-year-old's advice, to win the right to sell a Japanese firm's art collection worth about $20 million." },
-      { position: 3, text: "Male side-blotched lizards have three throat colors whose mating tactics form a loop — orange beats blue, blue beats yellow, yellow beats orange — just like this game." },
+      { position: 3, text: "Male side-blotched lizards come in three throat colors, and biologists compare the way their rival mating tactics balance out to this game." },
       { position: 4, text: "In this hand game, a closed fist beats two fingers held in a V, the V beats a flat hand, and the flat hand covers the fist." },
     ],
     decoys: [
@@ -15380,7 +15380,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This 1975 craze's inventor later tried other novelties such as 'Sand Breeding Kits', but none drew anything like the same interest." },
-      { position: 2, text: "Each unit of this novelty cost its maker under a penny and sold for just under $4, and nearly 1.5 million were sold before the fad ended after Christmas 1975." },
+      { position: 2, text: "The stone in each box of this novelty cost its maker under a penny, the box sold for just under $4, and nearly 1.5 million were sold before the fad ended after Christmas 1975." },
       { position: 3, text: "In January 2023 the film studio A24 sold a $35 googly-eyed version of this 1970s fad, tied to 'Everything Everywhere All at Once', and it sold out within a day." },
       { position: 4, text: "This 1975 craze from ad man Gary Dahl was a smooth Mexican beach stone sold in a cardboard carrier with air holes and straw, plus a care and training manual." },
     ],
@@ -15416,8 +15416,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This 1984 film's makers tried using monkeys for its creatures, but dropped the idea when the test monkey panicked on being made to wear a creature's head." },
-      { position: 2, text: "Criticism of the PG ratings given to this film and 'Indiana Jones and the Temple of Doom' led Steven Spielberg to propose a new PG-13 rating, introduced that same year." },
-      { position: 3, text: "In this film the heroine, Kate, explains that her father died climbing down the chimney dressed as Santa Claus, a speech studio executives wanted cut." },
+      { position: 2, text: "In this film the heroine, Kate, explains that her father died climbing down the chimney dressed as Santa Claus, a speech studio executives wanted cut." },
+      { position: 3, text: "Criticism of the PG ratings given to this film and 'Indiana Jones and the Temple of Doom' led Steven Spielberg to propose a new PG-13 rating, introduced that same year." },
       { position: 4, text: "This 1984 horror-comedy turns on three rules for caring for a cute furry creature: keep it out of the light, never let it get wet, and never feed it after midnight." },
     ],
     decoys: [
@@ -15471,9 +15471,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This toy began in the 1940s as a liquid-filled tube, inspired by a spirit-writing gadget that the inventor's mother, a Cincinnati clairvoyant, used with clients." },
-      { position: 2, text: "In 2015, Phillies pitcher Cliff Lee brought this toy to a spring-training press conference and let it answer reporters' questions about a possible trade." },
-      { position: 3, text: "In Toy Story, this toy angers Woody by answering his question with 'Don't count on it.'" },
-      { position: 4, text: "This black fortune-telling toy, made to look like it belongs on a pool table, gives replies such as 'Outlook not so good' when you shake it." },
+      { position: 2, text: "This toy got its present look in 1950, when Brunswick Billiards ordered it as a promotional item." },
+      { position: 3, text: "The 20-sided die floating inside this toy carries 10 yes answers, 5 no answers and 5 noncommittal ones." },
+      { position: 4, text: "This black fortune-telling toy, now made by Mattel, gives replies such as 'Outlook not so good' when you shake it." },
     ],
     decoys: [
       { text: "Ouija Board", eliminatedByClue: 1 },
@@ -15489,7 +15489,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This quiz show was co-created by Steven Knight, who later created Peaky Blinders, and took its title from a Cole Porter song in the 1956 film High Society." },
-      { position: 2, text: "This show's tense music was built on a dissonant chord from 'Mars' in Holst's The Planets, and its pitch rose a semitone with each question." },
+      { position: 2, text: "This show's tense music took its cue from a dissonant chord in 'Mars' from Holst's The Planets, and in later rounds its pitch rose a semitone with each question." },
       { position: 3, text: "In 2003 a British Army major was convicted of cheating his way to this show's top prize, with a fellow contestant found to have coughed to signal answers." },
       { position: 4, text: "Chris Tarrant in Britain and Regis Philbin in the US hosted this quiz show, where stuck contestants could 'Phone a Friend' or 'Ask the Audience.'" },
     ],
@@ -15508,8 +15508,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This decorative light's British inventor, a wartime reconnaissance pilot, also directed what is described as the first naturist film released publicly in the UK." },
-      { position: 2, text: "This item grew out of a homemade egg timer, made of two liquids that don't mix, that its inventor spotted in a country pub in Dorset." },
-      { position: 3, text: "A camera filming a wall of about 100 of these at Cloudflare's San Francisco headquarters helps generate the keys that encrypt web traffic." },
+      { position: 2, text: "A camera filming a wall of about 100 of these at Cloudflare's San Francisco headquarters helps generate the keys that encrypt web traffic." },
+      { position: 3, text: "This item grew out of a homemade egg timer, made of two liquids that don't mix, that its inventor spotted in a country pub in Dorset." },
       { position: 4, text: "This 1960s décor icon, first sold in Britain as the Astro, is a glass vessel in which blobs of wax, warmed by a bulb, rise and sink through liquid." },
     ],
     decoys: [

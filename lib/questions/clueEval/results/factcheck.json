@@ -783,6 +783,44 @@
     }
    ]
   },
+  "ask-jeeves": {
+   "id": "ask-jeeves",
+   "answer": "Ask Jeeves",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This search engine was bought in 2005 by Barry Diller's IAC, in an all-stock deal valued at about $1.85 billion.",
+     "verdict": "ok",
+     "evidence": "NBC News, March 21, 2005: Barry Diller's IAC agreed to buy Ask Jeeves for '$1.85 billion in stock', at 1.2668 IAC shares per Ask Jeeves share. https://www.nbcnews.com/id/wbna7254989",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In 2000 this search engine became the first dot-com with a giant balloon in the Macy's Thanksgiving Day Parade.",
+     "verdict": "ok",
+     "evidence": "BizBash, posted 11.21.00: Ask Jeeves, a new parade participant, is 'The first dot-com with a balloon in the parade'. https://www.bizbash.com/event-venues/the-woman-behind-the-macy-s-parade",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In 2009 this search engine's UK site remade its mascot as a CGI character, and kept his image there until 2016.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: in April 2009, for the UK site, 'Jeeves was redesigned as a CGI character', and his image stayed 'until July 21, 2016'. https://en.wikipedia.org/wiki/Ask.com",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This late-1990s search engine invited users to type questions in plain English, and its cartoon mascot was named after Bertie Wooster's valet in P. G. Wodehouse's stories.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: launched June 1, 1997; users could 'submit questions in natural language'; the character was 'named after Jeeves, Bertie Wooster's valet in the fictional works of P. G. Wodehouse'. https://en.wikipedia.org/wiki/Ask.com",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "asteroid": {
    "id": "asteroid",
    "answer": "Asteroid",
@@ -896,6 +934,44 @@
      "evidence": "Timaeus: island beyond the Pillars of Hercules sank 'in a single day and night of misfortune'. https://en.wikipedia.org/wiki/Atlantis (not re-fetched; well established)",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent (fact check for PR #58/#59)"
+    }
+   ]
+  },
+  "atlas-titan": {
+   "id": "atlas-titan",
+   "answer": "Atlas",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This Titan fathered the nymph Calypso of the Odyssey, as well as the Hyades and the seven Pleiades.",
+     "verdict": "ok",
+     "evidence": "Theoi quotes Homer on Calypso, 'whose father is Atlas', Hyginus on the Hyades as Atlas's daughters, and Apollodorus on 'seven daughters called the Pleiades' born to Atlas and Pleione. https://www.theoi.com/Titan/TitanAtlas.html",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In Ovid's telling, Perseus showed this Titan Medusa's head and turned him into a mountain, his beard and hair becoming forests.",
+     "verdict": "ok",
+     "evidence": "Theoi, quoting Ovid: Atlas refused Perseus shelter, was turned to stone with the Gorgon's head and became a mountain, his 'beard and hair were changed to forests'. https://www.theoi.com/Titan/TitanAtlas.html",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "While this Titan fetched the golden apples, Heracles took over his burden, then tricked him into taking it back by asking for a moment to get comfortable.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Heracles held the heavens while Atlas fetched the apples, then asked Atlas to take the sky back for a few minutes so he could 'rearrange his cloak as padding on his shoulders', and left with the apples. Theoi has him asking to put a cushion on his head. 'Get comfortable' is a fair paraphrase. https://en.wikipedia.org/wiki/Atlas_(mythology)",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Zeus condemned this Titan to hold up the sky on his shoulders, and the top bone of the spine, which holds up the skull, is named after him.",
+     "verdict": "ok",
+     "evidence": "Wikipedia (Atlas mythology): 'Zeus condemned Atlas to ... hold up the sky on his shoulders.' Wikipedia (Atlas anatomy): the atlas is the topmost vertebra, supports the head, and is 'named after Atlas of Greek mythology'. https://en.wikipedia.org/wiki/Atlas_(anatomy)",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -2115,6 +2191,44 @@
     }
    ]
   },
+  "big-dipper": {
+   "id": "big-dipper",
+   "answer": "Big Dipper",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This star pattern's Chinese name was given to China's satellite navigation system, BeiDou.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the Chinese name is Beidou ('Northern Dipper'), and BeiDou is a 'Chinese global satellite navigation system named after the Big Dipper'. https://en.wikipedia.org/wiki/Big_Dipper",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Five of this pattern's stars travel through space together, but the two at its ends drift the other way, so over many thousands of years its shape will warp.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: five of the stars are the core of the Ursa Major Moving Group; 'The two at the ends, Dubhe and Alkaid, ... are moving in the opposite direction', which 'will slowly change the Dipper's shape'. Sky & Telescope: Dubhe and Alkaid are 'moving decidedly in opposite directions'. https://skyandtelescope.org/astronomy-news/a-new-way-to-see-the-big-dipper/",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "A seventh-grader living in an Alaska orphanage won a 1927 contest with a flag that shows this star pattern in gold on a blue field.",
+     "verdict": "ok",
+     "evidence": "Alaska Historical Society: Benny Benson, 13, 'was a seventh-grader at a territorial school at Seward' who lived at the Jesse Lee Home orphanage; his 1927 winning design was 'eight stars of gold placed on a field of blue'. Wikipedia notes his father was still alive, but he did live in the orphanage. https://alaskahistoricalsociety.org/discover-alaska/kids-page/benny-benson-an-alaska-kid-who-made-history/",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This group of seven stars in Ursa Major has a four-star bowl and a three-star handle, and the two front stars of the bowl point to the North Star.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: seven bright stars of Ursa Major, four forming a bowl and three a handle; a line through 'the front two stars', Merak and Dubhe, leads to Polaris. https://en.wikipedia.org/wiki/Big_Dipper",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "bitcoin": {
    "id": "bitcoin",
    "answer": "Bitcoin",
@@ -2749,6 +2863,46 @@
      "verdict": "ok",
      "evidence": "Set in Albuquerque; Better Call Saul is its prequel spin-off. https://en.wikipedia.org/wiki/Breaking_Bad_season_2",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "bubble-tea": {
+   "id": "bubble-tea",
+   "answer": "Bubble Tea",
+   "checks": [
+    {
+     "position": 1,
+     "text": "One of this drink's common names was borrowed in the 1980s from a nickname of Hong Kong actress Amy Yip, which was slang for a busty woman.",
+     "verdict": "loose",
+     "evidence": "Amy Yip's Wikipedia page: nickname 'Boba' (波霸) is 'slang for a woman with big breasts', adopted for tapioca pearls 'during the 1980s'; her breakthrough was Erotic Ghost Story (1990), sex symbol of 'the late 1980s and early 1990s'. Languagehat discussion quotes a Medium post dating the naming to 'about 3 decades ago' (about 1990), and search results show Fodor's dating the name to about 2000; no primary source found. https://en.wikipedia.org/wiki/Amy_Yip https://languagehat.com/boba/",
+     "problem": "The Amy Yip link is widely repeated but rests on anecdote, and the '1980s' date is shaky: Wikipedia's Amy Yip page says the name was adopted 'during the 1980s', but her breakthrough film came in 1990, she was a star in the late 1980s and early 1990s, and other accounts date the name to about 1990 or even about 2000. The clue states the date and the borrowing as settled fact.",
+     "fix": "One of this drink's common names is said to come from a nickname of Hong Kong actress Amy Yip, which was slang for a busty woman.",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This drink's invention is claimed by rival cafés in Taichung and Tainan, but a 2019 court ruling found it could not be patented and credited neither.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Chun Shui Tang (Taichung) and Hanlin Tea Room (Tainan) both claim the invention; a 2019 Taiwanese court ruled bubble tea was not patentable, and 'The ruling did not assign credit for the invention to either party.' Search results (Global Voices, Taiwan News) agree the decade-long dispute ended in 2019. https://en.wikipedia.org/wiki/Bubble_tea",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Shipping snarls on the US West Coast and the 2021 Suez Canal blockage left shops in the US and Canada short of this drink's key ingredient.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: a shipping and supply chain crisis on the US West Coast plus the March 2021 Suez Canal obstruction 'caused a shortage of tapioca pearls for bubble tea shops in the US and Canada.' https://en.wikipedia.org/wiki/Bubble_tea",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This sweet Taiwanese drink is famous for the chewy balls of tapioca starch that sit at the bottom of the cup.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: a Taiwanese drink whose pearls are made from tapioca (cassava) starch and sit at the bottom of the cup. https://en.wikipedia.org/wiki/Bubble_tea",
+     "checkedOn": "2026-10-23",
      "checker": "claude-code-subagent"
     }
    ]
@@ -4769,6 +4923,82 @@
     }
    ]
   },
+  "duck-hunt": {
+   "id": "duck-hunt",
+   "answer": "Duck Hunt",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This 1984 video game lets a second player steer the flying targets with a regular controller, a feature many fans first learned of from Seth Rogen's tweets in 2018.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: first released April 1984 in Japan; 'Game A allows a second player to control the flying ducks with a NES controller.' Mental Floss: Seth Rogen tweeted this on September 17, 2018, and most people had never known it. https://mentalfloss.com/article/557540/seth-rogen-reveals-duck-hunt-secret-nintendo",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This game grew out of a 1976 electronic light-gun toy of the same name that Gunpei Yokoi and Masayuki Uemura designed for Nintendo.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the game 'was inspired by a 1976 electronic toy version titled Beam Gun: Duck Hunt', designed by 'Gunpei Yokoi and Masayuki Uemura for Nintendo'. https://en.wikipedia.org/wiki/Duck_Hunt",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This game sold more than 28 million copies, mostly because it came packed in with the console rather than being bought on its own.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'over 28 million copies sold worldwide' (28.3 million), tied to its bundling with the NES console. https://en.wikipedia.org/wiki/Duck_Hunt",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "In this NES game you shoot at flying birds with the Zapper light gun, and a dog laughs at you whenever you miss.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: players fire the NES Zapper at the screen, and the dog is 'notorious for smugly laughing at the player for missing ducks'. https://en.wikipedia.org/wiki/Duck_Hunt",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "duct-tape": {
+   "id": "duct-tape",
+   "answer": "Duct Tape",
+   "checks": [
+    {
+     "position": 1,
+     "text": "In 1943 Vesta Stoudt, an Illinois munitions worker with two sons in the Navy, wrote to President Roosevelt proposing this household staple as a sturdier seal for ammunition boxes.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Stoudt worked at 'the Green River Ordnance Plant in Amboy, Illinois' packing ammunition boxes; 'As of 1943, Vesta Stoudt had two sons serving in the Navy'; in 1943 she wrote to Roosevelt suggesting 'a strong cloth tape to close seams'. https://en.wikipedia.org/wiki/Vesta_Stoudt",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Sales of this product surged in February 2003 after the US Department of Homeland Security advised families to stock it, along with plastic sheeting, for emergencies.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: on February 10, 2003, Homeland Security advised a disaster supply kit including duct tape and plastic, which 'caused a surge in demand for duct tape'. https://en.wikipedia.org/wiki/Duct_tape",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In 2024 a crypto entrepreneur paid $6.2 million at Sotheby's for Maurizio Cattelan's 'Comedian', a banana stuck to a wall with a strip of this.",
+     "verdict": "ok",
+     "evidence": "Gulf News, November 2024: Comedian, 'a piece of duct tape and a banana stuck to a wall', sold for $6.2 million at Sotheby's in New York to 'crypto entrepreneur Justin Sun'. https://gulfnews.com/entertainment/arts-culture/the-duct-taped-banana-sells-for-62-million-at-sothebys-in-new-york-1.1732158056903",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This silver-gray, cloth-backed roll that tears by hand is the classic quick fix for almost anything, and it helped Apollo 13's crew rig their carbon dioxide filters.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: duct tape is a silvery gray, cloth- or scrim-backed tape, designed in 1943 'to be ripped by hand'; Apollo 13's square CO2 filters were adapted to the lunar module with duct tape. https://en.wikipedia.org/wiki/Duct_tape",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "dungeons-and-dragons": {
    "id": "dungeons-and-dragons",
    "answer": "Dungeons & Dragons",
@@ -5523,6 +5753,44 @@
     }
    ]
   },
+  "fawlty-towers": {
+   "id": "fawlty-towers",
+   "answer": "Fawlty Towers",
+   "checks": [
+    {
+     "position": 1,
+     "text": "In the Spanish dub of this sitcom, its hapless Spanish waiter was turned into an Italian from Naples called Paolo.",
+     "verdict": "ok",
+     "evidence": "Manuel Wikipedia page: in the Spanish dub the character 'was changed to an Italian from Naples called Paolo' (the Catalan dub made him Mexican). https://en.wikipedia.org/wiki/Manuel_(Fawlty_Towers)",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In 2000, a British Film Institute poll of TV industry professionals ranked this sitcom, which ran for just 12 episodes, first among the 100 greatest British TV programmes.",
+     "verdict": "ok",
+     "evidence": "BFI TV 100 Wikipedia: 2000 poll of 1,600 UK television industry professionals ranked Fawlty Towers first. Fawlty Towers Wikipedia: 12 episodes in two series of six. https://en.wikipedia.org/wiki/BFI_TV_100 https://en.wikipedia.org/wiki/Fawlty_Towers",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "The Torquay hotel owner who inspired this sitcom's lead character is said to have thrown Eric Idle's briefcase out of a window in case it held a bomb.",
+     "verdict": "ok",
+     "evidence": "Fawlty Towers Wikipedia: Sinclair tossed Eric Idle's briefcase out a window 'in case it contained a bomb'. History UK says he was 'hurling Eric Idle's bag out of a window'. The Donald Sinclair page instead says he took it to the back of the car park, so accounts vary, but the clue's 'is said to' covers that. https://en.wikipedia.org/wiki/Fawlty_Towers https://history.co.uk/this-day-in-history/11-may/monty-python-team-stay-in-hotel-that-inspired-fawlty-towers",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "John Cleese co-wrote this sitcom with Connie Booth and starred as Basil, a rude hotelier, in an episode remembered for the line 'Don't mention the war!'",
+     "verdict": "ok",
+     "evidence": "Wikipedia: written by John Cleese and Connie Booth; Cleese plays Basil; 'Don't mention the war' comes from series 1 episode 'The Germans'. https://en.wikipedia.org/wiki/Fawlty_Towers",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "figure-skating": {
    "id": "figure-skating",
    "answer": "Figure Skating",
@@ -5828,6 +6096,44 @@
      "evidence": "Hoboken-born, Rat Pack, 'My Way', 'New York, New York'. https://en.wikipedia.org/wiki/Frank_Sinatra",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent (fact check for PR #58/#59)"
+    }
+   ]
+  },
+  "freckles": {
+   "id": "freckles",
+   "answer": "Freckles",
+   "checks": [
+    {
+     "position": 1,
+     "text": "These skin spots, which Amelia Earhart reportedly disliked, made news in 2012 when searchers said a jar found on a Pacific atoll may have held an ointment to fade them.",
+     "verdict": "ok",
+     "evidence": "NBC News, May 30, 2012: a jar found on Nikumaroro may have held Dr. C. H. Berry's Freckle Ointment; 'It's well documented Amelia had freckles and disliked having them.' https://www.nbcnews.com/news/amp/wbna47623025",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In a 1971 Judy Blume book, a second-grader pays a girl fifty cents for a secret recipe meant to give him these, and it only makes him sick.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Freckle Juice was published in 1971; Andrew, a second-grade student, pays fifty cents for the recipe, drinks it and becomes sick. https://en.wikipedia.org/wiki/Freckle_Juice",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "The model Twiggy helped make these fashionable in the 1960s by not covering hers with makeup, and in the 2020s TikTok spread a trend of tattooing on fake ones.",
+     "verdict": "ok",
+     "evidence": "History.com: 'In the 1960s, British model Twiggy helped make freckles vogue by choosing not to cover hers with makeup.' Wikipedia (Freckle): 'By the 2020s, the popularity of freckle tattoos further increased due to their popularity on social media such as TikTok.' https://en.wikipedia.org/wiki/Freckle",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "These small, flat light-brown spots are common on fair skin, and they darken with time in the sun and fade with less of it.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: ephelides are flat and light brown or red, most visible on fair skin; UV-B makes them darker, and they fade with less sun exposure. https://en.wikipedia.org/wiki/Freckle",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -6697,6 +7003,44 @@
     }
    ]
   },
+  "golem": {
+   "id": "golem",
+   "answer": "Golem",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This figure from Jewish folklore gave its name to a new computer at Israel's Weizmann Institute in 1965, a name chosen by the Kabbalah scholar Gershom Scholem.",
+     "verdict": "ok",
+     "evidence": "Times of Israel blog: in 1965 Scholem 'was asked to name the latest computer at Israel's Weizmann Institute' and 'decided upon \"Golem Aleph\"'. https://blogs.timesofisrael.com/the-golem-in-the-machine/",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "A 1674 letter told of a rabbi in Poland who had made one of these out of lime to be his servant and do the housework.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Christoph Arnold 'in a letter written in 1674' reported that Polish Jews told of Rabbi Eliyahu Baal Shem, who made a golem 'from lime' to be a servant and do housework. https://en.wikipedia.org/wiki/Golem",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In some versions, the Hebrew word for 'truth' is written on its forehead, and erasing the first letter leaves the word for 'dead'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the golem was animated by 'emes (truth)' on its forehead, and erasing the aleph changed it to 'dead'. https://en.wikipedia.org/wiki/Golem",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Legend says Rabbi Judah Loew of Prague shaped this creature from Vltava river clay and brought it to life to defend the city's Jewish ghetto.",
+     "verdict": "ok",
+     "evidence": "Wikipedia gives the legend that Rabbi Loew 'created a golem out of clay from the banks of the Vltava River' to defend the Prague ghetto. The clue frames it as legend. https://en.wikipedia.org/wiki/Golem",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "golf": {
    "id": "golf",
    "answer": "Golf",
@@ -7255,6 +7599,44 @@
      "verdict": "ok",
      "evidence": "Athens is the capital and home of the Parthenon; Santorini is a major Greek tourist island. https://en.wikipedia.org/wiki/Geography_of_Greece",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "gremlins": {
+   "id": "gremlins",
+   "answer": "Gremlins",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This 1984 film's makers tried using monkeys for its creatures, but dropped the idea when the test monkey panicked on being made to wear a creature's head.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: an earlier attempt to use monkeys was dropped because 'the test monkey panicked when made to wear a gremlin head.' Search results (Slashfilm, IMDb trivia) report Joe Dante confirming a rhesus monkey in a gremlin head bounced around the editing room before puppets were chosen. https://en.wikipedia.org/wiki/Gremlins",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In this film the heroine, Kate, explains that her father died climbing down the chimney dressed as Santa Claus, a speech studio executives wanted cut.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Kate reveals her father died at Christmas dressed as Santa Claus, breaking his neck climbing down the chimney; studio executives 'insisted upon its removal', Dante refused. Mental Floss: Spielberg and some Warner Bros. executives wanted it removed. https://en.wikipedia.org/wiki/Gremlins https://www.mentalfloss.com/entertainment/movies/21-things-you-might-not-know-about-gremlins",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Criticism of the PG ratings given to this film and 'Indiana Jones and the Temple of Doom' led Steven Spielberg to propose a new PG-13 rating, introduced that same year.",
+     "verdict": "ok",
+     "evidence": "Mental Floss: Temple of Doom and Gremlins were both rated PG and criticized; Spielberg proposed a rating between PG and R; Red Dawn was the first PG-13 release on August 10, 1984. Wikipedia: the MPAA created PG-13 'within two months of the film's release.' https://www.mentalfloss.com/entertainment/movies/21-things-you-might-not-know-about-gremlins https://en.wikipedia.org/wiki/Gremlins",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This 1984 horror-comedy turns on three rules for caring for a cute furry creature: keep it out of the light, never let it get wet, and never feed it after midnight.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: keep the mogwai away from light, 'do not let it come in contact with water', and 'never let it eat after midnight.' https://en.wikipedia.org/wiki/Gremlins",
+     "checkedOn": "2026-10-23",
      "checker": "claude-code-subagent"
     }
    ]
@@ -9359,6 +9741,44 @@
     }
    ]
   },
+  "kneecap": {
+   "id": "kneecap",
+   "answer": "Kneecap",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This bone seems to have evolved separately at least three times, in birds, lizards and mammals, yet most marsupials have no bony version of it.",
+     "verdict": "ok",
+     "evidence": "Samuels et al. (PMC): 'three occasions of independent evolution (in Aves, Squamata and Mammalia)'; an ossified patella 'seems to be absent in the great majority of extant marsupial species.' https://pmc.ncbi.nlm.nih.gov/articles/PMC5363259/",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This is the largest bone in the body that grows inside a tendon, and its medical name comes from Latin for a small, shallow dish.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'the patella is the largest sesamoid bone' (a bone embedded in a tendon); the name is the diminutive of Latin patina, 'shallow dish'. https://en.wikipedia.org/wiki/Patella",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Babies are born with this bone made of soft cartilage, and it only begins to turn into bone at about age three.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: infants are born with 'a patella of soft cartilage', and ossification begins 'by a single centre at about age three'. https://en.wikipedia.org/wiki/Patella",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Doctors test your reflexes by tapping the tendon just below this small bone at the front of the joint between your thigh and shin.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'Striking of the patellar tendon with a reflex hammer just below the patella' triggers the reflex. https://en.wikipedia.org/wiki/Patellar_reflex",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "koala": {
    "id": "koala",
    "answer": "Koala",
@@ -9711,6 +10131,44 @@
     }
    ]
   },
+  "lava-lamp": {
+   "id": "lava-lamp",
+   "answer": "Lava Lamp",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This decorative light's British inventor, a wartime reconnaissance pilot, also directed what is described as the first naturist film released publicly in the UK.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Craven Walker flew a photo reconnaissance Mosquito over Germany in World War II, and directed Travelling Light, 'the first naturist film to receive public release in the UK.' https://en.wikipedia.org/wiki/Edward_Craven_Walker",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "A camera filming a wall of about 100 of these at Cloudflare's San Francisco headquarters helps generate the keys that encrypt web traffic.",
+     "verdict": "ok",
+     "evidence": "Lavarand Wikipedia: 'a wall of around 100 lava lamps' in the lobby of Cloudflare's San Francisco headquarters, filmed by a camera, feeding servers' entropy pools (as a secondary source). Searches found no report of the wall moving. https://en.wikipedia.org/wiki/Lavarand",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This item grew out of a homemade egg timer, made of two liquids that don't mix, that its inventor spotted in a country pub in Dorset.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the idea came from 'a one-off device which used two immiscible fluids as an egg timer', made by a regular, Donald Dunnett, in 'a country pub in Dorset.' https://en.wikipedia.org/wiki/Edward_Craven_Walker",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This 1960s décor icon, first sold in Britain as the Astro, is a glass vessel in which blobs of wax, warmed by a bulb, rise and sink through liquid.",
+     "verdict": "ok",
+     "evidence": "Lava lamp Wikipedia: Crestworth launched the first 'Astro' lava lamp in 1963; a wax blob in liquid inside a glass vessel on a base with an incandescent bulb rises when heated and sinks as it cools. https://en.wikipedia.org/wiki/Lava_lamp",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "lebron-james": {
    "id": "lebron-james",
    "answer": "LeBron James",
@@ -9745,6 +10203,44 @@
      "verdict": "ok",
      "evidence": "LeBron and his foundation opened I Promise School for at-risk children in Akron in 2018, in partnership with the city (it is part of Akron Public Schools). https://abc13.com/post/i-promise-lebron-james-opens-new-school-in-hometown-of-akron/3849329/",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "leeroy-jenkins": {
+   "id": "leeroy-jenkins",
+   "answer": "Leeroy Jenkins",
+   "checks": [
+    {
+     "position": 1,
+     "text": "A 2009 Armed Forces Journal article titled 'Let's Do This!' linked this video game character to the American way of advising Iraq's armed forces.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: a 2009 Armed Forces Journal article, 'Let's Do This!: Leeroy Jenkins and the American Way of Advising', links Jenkins to the American approach to advising the indigenous armed forces in Iraq. https://en.wikipedia.org/wiki/Leeroy_Jenkins",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In 2017 two players behind this character's viral 2005 video released its first take to raise awareness of net neutrality; one said they'd thought it was obviously satire.",
+     "verdict": "ok",
+     "evidence": "Kotaku (December 2017): Ben Vinson and Ben Schulz released the first cut 'to try and raise awareness about ... Net Neutrality'; Vinson said 'we thought it was so obviously satire'. Wikipedia dates the original video to May 11, 2005. https://kotaku.com/the-makers-of-leeroy-jenkins-didnt-think-anyone-would-b-1821570730",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In 2008 Blizzard added an achievement that gives players who kill 50 rookery whelps within 15 seconds this character's surname as a title.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: in 2008 Blizzard added an achievement that 'awards the title of \"Jenkins\" to players who kill 50 of the rookery whelps from the video within 15 seconds'. https://en.wikipedia.org/wiki/Leeroy_Jenkins",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Back from fixing a plate of chicken, this World of Warcraft character charged into a dungeon shouting his own name and got his whole group killed.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Leeroy was away from his computer 'preparing a plate of chicken', then ran in shouting his name and the group was wiped out. https://en.wikipedia.org/wiki/Leeroy_Jenkins",
+     "checkedOn": "2026-10-23",
      "checker": "claude-code-subagent"
     }
    ]
@@ -10264,6 +10760,44 @@
      "evidence": "World's fourth-largest island; over 90% of its wildlife endemic. https://en.wikipedia.org/wiki/Madagascar",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent (fact check for PR #58/#59)"
+    }
+   ]
+  },
+  "magic-8-ball": {
+   "id": "magic-8-ball",
+   "answer": "Magic 8 Ball",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This toy began in the 1940s as a liquid-filled tube, inspired by a spirit-writing gadget that the inventor's mother, a Cincinnati clairvoyant, used with clients.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Carter 'was inspired by a spirit writing device used by his mother, a Cincinnati clairvoyant'; patent filed 1946 for a cylindrical device. Mental Floss: Carter's 1944 Syco-Seer was 'a liquid-filled tube'. https://en.wikipedia.org/wiki/Magic_8_Ball https://www.mentalfloss.com/article/67702/brief-history-magic-8-ball",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This toy got its present look in 1950, when Brunswick Billiards ordered it as a promotional item.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: in 1950 Brunswick Billiards 'commissioned Alabe Crafts to make a version in the form of a traditional black-and-white 8 ball.' https://en.wikipedia.org/wiki/Magic_8_Ball",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "The 20-sided die floating inside this toy carries 10 yes answers, 5 no answers and 5 noncommittal ones.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: a '20-sided regular icosahedron' die with '10 affirmative answers, 5 neutral, and 5 negative.' https://en.wikipedia.org/wiki/Magic_8_Ball",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This black fortune-telling toy, now made by Mattel, gives replies such as 'Outlook not so good' when you shake it.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'manufactured by Mattel'; 'Outlook not so good' is one of the negative answers. https://en.wikipedia.org/wiki/Magic_8_Ball",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -12929,6 +13463,46 @@
     }
    ]
   },
+  "pet-rock": {
+   "id": "pet-rock",
+   "answer": "Pet Rock",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This 1975 craze's inventor later tried other novelties such as 'Sand Breeding Kits', but none drew anything like the same interest.",
+     "verdict": "ok",
+     "evidence": "Gary Dahl Wikipedia page: he later tried 'Canned Earthquakes', 'Sand Breeding Kits' and 'Red China Dirt'; 'These novelties failed to attract as much interest as the Pet Rock.' https://en.wikipedia.org/wiki/Gary_Dahl_(businessman)",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Each unit of this novelty cost its maker under a penny and sold for just under $4, and nearly 1.5 million were sold before the fad ended after Christmas 1975.",
+     "verdict": "loose",
+     "evidence": "Pet Rock Wikipedia: Dahl bought the rocks 'from Mexican beaches for less than a penny each', earned 95 cents profit per unit, sold nearly 1.5 million 'for just under $4 each', and the fad ended after the Christmas season of December 1975. https://en.wikipedia.org/wiki/Pet_Rock",
+     "problem": "Only the stone cost under a penny. The whole unit, with its cardboard carrier, straw and printed manual, cost more; Dahl made about 95 cents profit per unit. 'Each unit ... cost its maker under a penny' overstates it.",
+     "fix": "The stone in each box of this novelty cost its maker under a penny, the box sold for just under $4, and nearly 1.5 million were sold before the fad ended after Christmas 1975.",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In January 2023 the film studio A24 sold a $35 googly-eyed version of this 1970s fad, tied to 'Everything Everywhere All at Once', and it sold out within a day.",
+     "verdict": "ok",
+     "evidence": "PhilSTAR L!fe: A24 released the Everything Everywhere Pet Rock on January 26, 2023 for $35, 'a rock with googly eyes placed in a paper nest', and it sold out in under 24 hours (announced 2 a.m., sold out by 5 p.m.). https://philstarlife.com/news-and-views/494780-everything-everywhere-pet-rock-sold-out",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This 1975 craze from ad man Gary Dahl was a smooth Mexican beach stone sold in a cardboard carrier with air holes and straw, plus a care and training manual.",
+     "verdict": "ok",
+     "evidence": "Gary Dahl Wikipedia: advertising director; smooth 'Mexican beach stones' from Rosarito; instruction book. Pet Rock Wikipedia: cardboard boxes with ventilation holes and straw bedding imitating a pet carrier, plus 'The Care and Training of your Pet Rock' manual. https://en.wikipedia.org/wiki/Gary_Dahl_(businessman) https://en.wikipedia.org/wiki/Pet_Rock",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "petra": {
    "id": "petra",
    "answer": "Petra",
@@ -13278,6 +13852,44 @@
      "evidence": "Wikipedia, citing Hasbro: primarily water, salt and flour. https://en.wikipedia.org/wiki/Play-Doh",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent (fact check for PR #58/#59)"
+    }
+   ]
+  },
+  "pleiades": {
+   "id": "pleiades",
+   "answer": "Pleiades",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This group of stars is thought to be the small clump of gold dots on the Nebra sky disc, a Bronze Age disc dug up in Germany in 1999.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'In 1999, the disc was found buried on the Mittelberg hill near Nebra in Germany'; it is Early Bronze Age, and 'The star cluster is thought to refer to the Pleiades.' https://en.wikipedia.org/wiki/Nebra_sky_disc",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This cluster's dawn rising in late June or early July marks Matariki, the Māori new year, which has been a New Zealand public holiday since 2022.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Matariki rises before sunrise in late June or early July, marks the Maori new year, and 'was first celebrated as an official public holiday in New Zealand on 24 June 2022'. https://en.wikipedia.org/wiki/Matariki",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Galileo's 1610 book Sidereus Nuncius included a sketch of this cluster showing 36 stars, though only about half a dozen are easy to see with the naked eye.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Galileo's Sidereus Nuncius (March 1610) included 'a sketch of the Pleiades showing 36 stars'; the brightest 'six or seven' are 'easily visible to the naked eye'. https://en.wikipedia.org/wiki/Pleiades",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This star cluster in Taurus is named in Greek myth for the daughters of the Titan Atlas, and Subaru's six-star badge depicts it.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the cluster is in the northwest of Taurus, the Pleiades are daughters of Atlas and Pleione, and the cluster 'is depicted in the firm's six-star logo' (Subaru). https://en.wikipedia.org/wiki/Pleiades",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -14338,6 +14950,44 @@
      "evidence": "Crusoe 'spends 28 years on a remote tropical desert island'; names his companion Friday. https://en.wikipedia.org/wiki/Robinson_Crusoe",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent (fact check for PR #58/#59)"
+    }
+   ]
+  },
+  "rock-paper-scissors": {
+   "id": "rock-paper-scissors",
+   "answer": "Rock Paper Scissors",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This game's first known mention is in a Chinese book from around 1600, which calls it 'shoushiling' and claims Han dynasty warlords played it.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'The first known mention of the game was in the book Wuzazu by the Ming-dynasty writer Xie Zhaozhe (fl. c. 1600), who wrote that the game dated back to the time of the Han dynasty, where it was played by warlords. In the book, the game was called shoushiling.' The clue correctly frames the Han claim as the book's claim. https://en.wikipedia.org/wiki/Rock_paper_scissors",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In 2005 Christie's beat Sotheby's at this game, on an 11-year-old's advice, to win the right to sell a Japanese firm's art collection worth about $20 million.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: in 2005 Maspro Denkoh's CEO had Christie's and Sotheby's play; Christie's chose scissors on the advice of a director's 11-year-old twin daughters and won; the collection sold for $20 million. Mental Floss: advice came from 'a colleague's 11-year-old twins, Flora and Alice'. Minor note: the advice came from twins, but one of them gave the reasoning, so the singular holds. https://en.wikipedia.org/wiki/Rock_paper_scissors https://www.mentalfloss.com/article/64401/time-sothebys-and-christies-played-rock-paper-scissors-cezanne",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Male side-blotched lizards come in three throat colors, and biologists compare the way their rival mating tactics balance out to this game.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the common side-blotched lizard has three male throat-color morphs; 'orange beats blue, blue beats yellow, and yellow beats orange' in competing for females, mirroring the game. https://en.wikipedia.org/wiki/Rock_paper_scissors",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "In this hand game, a closed fist beats two fingers held in a V, the V beats a flat hand, and the flat hand covers the fist.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: rock is a closed fist, paper a flat hand, scissors two fingers in a V; rock beats scissors, scissors beats paper, 'paper covers rock'. https://en.wikipedia.org/wiki/Rock_paper_scissors",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -17687,6 +18337,44 @@
     }
    ]
   },
+  "this-is-fine": {
+   "id": "this-is-fine",
+   "answer": "This Is Fine",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This meme comes from a 2013 strip of KC Green's webcomic Gunshow, drawn when he was 25 and adjusting his antidepressant dose.",
+     "verdict": "ok",
+     "evidence": "GPB: Green was 25 when he drew the 'On Fire' strip, first published in 2013 in Gunshow, while trying to 'get my anti-depressants right'. Wikipedia also has the 2013 Gunshow strip and the antidepressant dosage. https://www.gpb.org/node/872351",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In July 2016 the Republican Party's official Twitter account posted this meme on the opening day of the Democratic convention, without its creator's permission.",
+     "verdict": "ok",
+     "evidence": "Know Your Meme: @GOP tweeted the image on July 25, 2016, about 'the opening day at the Democratic National Convention'; a caption says Green 'did not give permission to the GOP to use his artwork'. GPB also says first day of the DNC. https://knowyourmeme.com/memes/this-is-fine?full=1",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In 2024 this meme's creator and Numskull Games announced an old-school platform video game based on it, subtitled 'Maximum Cope'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: in September 2024 KC Green and Numskull Games announced 'This is Fine: Maximum Cope', described as a 'classic, old-school, platformer game'. https://en.wikipedia.org/wiki/This_is_fine",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This meme shows a smiling cartoon dog with a coffee mug, sitting calmly at a table as the room around him goes up in flames.",
+     "verdict": "ok",
+     "evidence": "GPB: 'A smiling cartoon dog sits at a table, coffee mug on hand, as a room goes up in flames.' https://www.gpb.org/node/872351",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "thor-norse": {
    "id": "thor-norse",
    "answer": "Thor",
@@ -18577,6 +19265,44 @@
     }
    ]
   },
+  "vending-machine": {
+   "id": "vending-machine",
+   "answer": "Vending Machine",
+   "checks": [
+    {
+     "position": 1,
+     "text": "One of these appliances at Carnegie Mellon was wired to the ARPANET in 1982, so anyone on the network could check its contents from a keyboard.",
+     "verdict": "ok",
+     "evidence": "IBM: the Carnegie Mellon Coke machine became operational in 1982, linked through the department computer to the ARPANET, so anyone on an ARPANET-connected computer could check via finger whether there were Cokes and which were cold. https://www.ibm.com/think/topics/iot-first-device",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In 1995 U.S. safety regulators counted at least 37 deaths since 1978 from people rocking or tilting these heavy boxes until they toppled.",
+     "verdict": "ok",
+     "evidence": "CPSC release dated November 2, 1995: 'CPSC is aware of at least 37 deaths and 113 injuries since 1978' from 'consumers rocking or tilting the machines' (soda vending machines). https://www.cpsc.gov/Newsroom/News-Releases/1996/CPSC-Soda-Vending-Machine-Industry-Labeling-Campaign-Warns-Of-Deaths-And-Injuries",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Hero of Alexandria described a forerunner of this in the first century AD: a coin dropped onto a small pan tipped a lever that let out holy water.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Hero of Alexandria, 1st century AD, described a machine that accepted a coin and dispensed holy water; the coin fell on a pan attached to a lever that opened a valve. https://en.wikipedia.org/wiki/Vending_machine",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Coins or a card go into this hallway box, and out drops a can of soda or a bag of chips.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: an automated machine that dispenses snacks and drinks after payment by coins or card. https://en.wikipedia.org/wiki/Vending_machine",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "venice": {
    "id": "venice",
    "answer": "Venice",
@@ -19346,6 +20072,46 @@
      "evidence": "Wikipedia: formal title Arrangement in Grey and Black No. 1 (1871); sitter Anna McNeill Whistler; 'the American-born painter'. https://en.wikipedia.org/wiki/Whistler%27s_Mother",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent (fact check for PR #58/#59)"
+    }
+   ]
+  },
+  "who-wants-to-be-a-millionaire": {
+   "id": "who-wants-to-be-a-millionaire",
+   "answer": "Who Wants to Be a Millionaire?",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This quiz show was co-created by Steven Knight, who later created Peaky Blinders, and took its title from a Cole Porter song in the 1956 film High Society.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: created by David Briggs with Mike Whitehill and Steven Knight; title chosen by David Liddiment, the name of a Cole Porter song from the 1956 film High Society. Knight later created Peaky Blinders. https://en.wikipedia.org/wiki/Who_Wants_to_Be_a_Millionaire%3F_(British_game_show)",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This show's tense music was built on a dissonant chord from 'Mars' in Holst's The Planets, and its pitch rose a semitone with each question.",
+     "verdict": "loose",
+     "evidence": "Keith Strachan Wikipedia: 'he took inspiration from a dissonant chord in \"Mars\" from Holst's The Planets suite.' British show Wikipedia: three variations; 'the second and third compositions focused on emphasising the increased tension', and as a contestant progressed 'the pitch of the music was increased by a semitone for each subsequent question.' https://en.wikipedia.org/wiki/Keith_Strachan https://en.wikipedia.org/wiki/Who_Wants_to_Be_a_Millionaire%3F_(British_game_show)",
+     "problem": "The pitch did not rise with every question. The Strachans wrote three variations, and only the second and third raised the pitch a semitone per question as contestants reached higher amounts. 'Built on' the Mars chord is also a little strong: the sources say the theme was inspired by it.",
+     "fix": "This show's tense music took its cue from a dissonant chord in 'Mars' from Holst's The Planets, and in later rounds its pitch rose a semitone with each question.",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In 2003 a British Army major was convicted of cheating his way to this show's top prize, with a fellow contestant found to have coughed to signal answers.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Major Charles Ingram reached the £1,000,000 question in September 2001; the coughing of Fastest Finger First contestant Tecwen Whittock was linked to his answers; 'On 7 April 2003, the group were found guilty' at Southwark Crown Court. https://en.wikipedia.org/wiki/Who_Wants_to_Be_a_Millionaire%3F_(British_game_show)",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Chris Tarrant in Britain and Regis Philbin in the US hosted this quiz show, where stuck contestants could 'Phone a Friend' or 'Ask the Audience.'",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Chris Tarrant presented the British original 1998 to 2014; lifelines include Phone a Friend and Ask the Audience. Regis Philbin hosted the US version (well established). https://en.wikipedia.org/wiki/Who_Wants_to_Be_a_Millionaire%3F_(British_game_show)",
+     "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
     }
    ]
   },
