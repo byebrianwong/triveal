@@ -12658,6 +12658,14 @@
      "evidence": "'Heinz scientists have figured out that the optimal flow of ketchup is roughly 0.028 miles per hour', which is about 0.045 km/h. https://www.futurity.org/ketchup-physics-rheology-1321922-2/",
      "checkedOn": "2026-11-08",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "In the 1830s an Ohio doctor published recipes for this condiment and claimed its main ingredient eased indigestion, helping spark a craze for pills made from that ingredient.",
+     "verdict": "ok",
+     "evidence": "JSTOR Daily says Dr. John Cook Bennett offered recipes for tomato sauce, fried tomatoes, tomato pickles and 'tomato catsup', and claimed tomatoes could treat diarrhea and 'soothe indigestion'; by the 1840s concentrated tomato pills and extracts were widely sold, https://daily.jstor.org/tomatoes-as-medicine. PopSci places his tomato claims, including indigestion, in his inaugural lecture at Willoughby University in Ohio, https://www.popsci.com/science/ketchup-history-medicine/. Wikipedia says he worked as a physician in Ohio and championed the tomato from 1835 (other accounts say 1834; either way the 1830s), https://en.wikipedia.org/wiki/John_C._Bennett. America's Test Kitchen links him to the 'tomato pills' that followed, https://www.americastestkitchen.com/articles/3244-the-history-of-tomatoes-in-america",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -19440,6 +19448,14 @@
      "evidence": "Rickrolling is a bait-and-switch prank: a disguised link that leads to the music video for Rick Astley's 'Never Gonna Give You Up'. https://en.wikipedia.org/wiki/Rickrolling",
      "checkedOn": "2026-11-08",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In 2007 many people clicked a link promising the first Grand Theft Auto IV trailer and got a red-haired singer in a trench coat instead.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: in March 2007 Rockstar released the first trailer for Grand Theft Auto IV, demand crashed its site, and a 4chan user linked the Astley video while presenting it as that trailer; the video shows Astley 'wearing a trenchcoat', https://en.wikipedia.org/wiki/Rickrolling. Fatherly describes 'Astley's luxurious red hair' in the video, https://www.fatherly.com/play/weird-4k-rick-astley-video-is-rickrolling-us-all-again",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -23322,6 +23338,14 @@
      "text": "This FX kitchen series stars Jeremy Allen White as Carmy, a chef who comes home to run his late brother's Chicago sandwich shop.",
      "verdict": "ok",
      "evidence": "Wikipedia describes it as an FX series in which Jeremy Allen White plays Carmen 'Carmy' Berzatto, a chef who returns to Chicago to run his late brother's sandwich shop. https://en.wikipedia.org/wiki/The_Bear_(TV_series)",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This show's second season won 11 Emmys, at the time a record for a comedy series in a single year.",
+     "verdict": "ok",
+     "evidence": "TVLine: Season 2 won 11 Emmys at the 2024 ceremony, setting the record for most wins by a comedy in a single year and breaking the show's own record of 10 from the previous ceremony (a record later passed, so 'at the time' is accurate), https://tvline.com/awards/emmys-the-bear-season-2-record-most-wins-comedy-1235329862",
      "checkedOn": "2026-11-08",
      "checker": "claude-code-subagent"
     }
