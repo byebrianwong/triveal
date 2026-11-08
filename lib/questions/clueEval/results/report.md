@@ -11,7 +11,7 @@ The rules it checks are in `lib/questions/README.md`, under "What makes a good q
 
 | | 1 | 2 | 3 | 4 | never |
 | --- | --- | --- | --- | --- | --- |
-| Judge: typical player solves on clue | 13 | 632 | 205 | 4 | 0 |
+| Judge: typical player solves on clue | 13 | 633 | 204 | 4 | 0 |
 | Simulated player solved on clue | 204 | 45 | 6 | 1 | 1 |
 
 | Difficulty | easy | medium | hard |
@@ -25,12 +25,12 @@ Mean interest (1-5) by clue: 1 = 4.5, 2 = 4.2, 3 = 4.0, 4 = 2.3.
 
 | Flag | Questions |
 | --- | --- |
-| Clue 3 gives it away without thinking | 23 |
+| Clue 3 gives it away without thinking | 22 |
 | Plays easy | 18 |
-| A clue is easier than one after it | 14 |
+| A clue is easier than one after it | 15 |
 | A clue is awkward or vague | 9 |
 | A clue before clue 4 is a summary or the most famous fact | 6 |
-| Clue 2 gives it away without thinking | 4 |
+| Clue 2 gives it away without thinking | 5 |
 | Two clues repeat each other | 3 |
 | A clue uses a word from the answer's name | 1 |
 | The simulated player never got it | 1 |
@@ -57,7 +57,6 @@ Sorted by verdict, then by mean interest of clues 1-3. Per-clue notes are in `la
 | Duck Hunt (`duck-hunt`) | Games | needs_work | 5/3/4 |  | Clue 2 is a generic 'it sold a lot' fact and needs a detail that ties it to this one game. |
 | Electricity (`electricity`) | Science | needs_work | 5/4/3 | clue3-too-easy | Clues 1 and 2 are excellent, but clue 3 is instant and spends half its length on a billing date, so it should be swapped for a fact that still makes the player think. |
 | Honey (`honey`) | Food & Drink | needs_work | 5/4/3 | clue3-too-easy | Clues 1 and 2 are strong, but the botulism warning in clue 3 gives the answer away instantly. |
-| Kermit the Frog (`kermit-the-frog`) | Pop Culture | needs_work | 5/3/4 | order, clunky-wording | Clue 2 is a dry, awkwardly worded debut fact that is harder than clue 1; move it to clue 1 with a stronger detail. |
 | Koala (`koala`) | Animals | needs_work | 5/5/2 | clue3-too-easy, dull-clue | Clue 3 is the koala's most famous trait and instant; replace it with a lesser-known fact. |
 | Odin (`odin`) | Mythology | needs_work | 4/4/4 | order | Swap clues 2 and 3, since Odin's sacrificed eye is better known than Sleipnir. |
 | Ostrich (`ostrich`) | Animals | needs_work | 5/4/3 | clue3-too-easy | Clue 3 bundles two facts and hands over the answer with the lion-killing kick, and clue 1's claim about emu kneecaps needs verifying; clues 1 and 2 also share the same anatomy angle. |
@@ -72,11 +71,12 @@ Sorted by verdict, then by mean interest of clues 1-3. Per-clue notes are in `la
 | Duct Tape (`duct-tape`) | Technology | needs_work | 5/4/4 | clue3-too-easy | Clue 3's banana artwork is an instant giveaway and should be replaced with a less famous fact. |
 | Gravity (`gravity`) | Science | needs_work | 4/5/4 | clue3-too-easy, plays-easy | The facts are strong but the question plays easy: in Science any clue about a force and a pull points straight at this answer, and clue 3's space-time ripples make it instant. |
 | Hubble Space Telescope (`hubble-space-telescope`) | Space | needs_work | 5/4/4 | plays-easy, order, clunky-wording | The famous mirror flaw in clue 1 belongs after the Challenger clue, clues 2 and 3 lean on a bare 'it', and clue 4's orbit figures are padded and unverified. |
+| Kermit the Frog (`kermit-the-frog`) | Pop Culture | needs_work | 5/4/4 | order, clunky-wording | Strong facts, but clues 1 and 2 should swap so the obscure 'Sam and Friends' debut comes first, and clue 4 should not say 'green' twice. |
 | Leeroy Jenkins (`leeroy-jenkins`) | Internet | needs_work | 4/5/4 | order | Good facts, but clues 2 and 3 are in the wrong order: the niche Blizzard achievement should come before the viral-video clue. |
 | The Milky Way (`milky-way`) | Space | needs_work | 4/4/5 | clue3-too-easy, plays-easy | Clue 3 gives the answer away instantly and drops the voice of the other clues; the answer is also most players' default guess for any galaxy question, so the set solves on clue 1. |
 | QR code (`qr-code`) | Technology | needs_work | 4/5/4 | plays-easy, order | Clue 1 is the most direct clue and clue 3 the hardest; swapping them fixes the order and stops players solving on clue 1. |
 | Rainbow (`rainbow`) | Science | needs_work | 4/4/5 | clue3-too-easy, names-answer | Four genuinely different and interesting facts, but clue 4 uses "rain" from the answer's own name and clue 3's "seven colors" gives it away early. |
-| Venus Flytrap (`venus-flytrap`) | Nature | needs_work | 5/4/4 | clue3-too-easy | Clue 3's snapping trap is instant; reword it so the counting fact doesn't describe the trap closing. |
+| Venus Flytrap (`venus-flytrap`) | Nature | needs_work | 5/4/4 | clue2-too-easy, order | Clue 2's 'insect-eating plants' gives the answer away before the trigger-hair clue, so it should drop that hint, and clue 3 should open in the same voice as the others. |
 | Basketball (`basketball`) | Sports | needs_work | 5/5/4 | clue3-too-easy | Clues 1 and 2 are excellent, but the Muggsy Bogues clue gives the sport away at once and should be replaced with a fact that still takes thought. |
 | Star Trek (`star-trek`) | Television | needs_work | 5/4/5 |  | Strong facts throughout, but clue 3 opens with a bare 'It' and should name the show. |
 | Trumpet (`trumpet`) | Music | needs_work | 5/4/5 | order | Excellent facts, but the obscure Haydn-Weidinger clue is harder than the Tutankhamun clue and should swap places with it. |

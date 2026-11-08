@@ -223,20 +223,6 @@ Clues 1 and 2 are strong, but the botulism warning in clue 3 gives the answer aw
 - Now: Doctors warn against giving this food to babies under one year old because it can carry botulism spores.
 - Suggested: Because it holds so little water and is mildly acidic, this food almost never spoils, and sealed jars can keep for decades.
 
-## Kermit the Frog (`kermit-the-frog`): needs_work
-
-Clue 2 is a dry, awkwardly worded debut fact that is harder than clue 1; move it to clue 1 with a stronger detail.
-
-**Clue 1.** Ping-pong-ball eyes make this easier than clue 2; swap so the obscure 1955 debut comes first.
-
-- Now: This puppet's first body was cut from his creator's mother's old spring coat, with halves of a ping-pong ball for eyes.
-- Suggested: This puppet debuted in 1955 on 'Sam and Friends', a five-minute late-night show in Washington, D.C., as a vaguely lizard-like creature rather than the animal he became.
-
-**Clue 2.** Dry and awkward ('debuted... most famously on'), and harder than clue 1.
-
-- Now: He debuted in 1955 on Washington, D.C.'s WRC-TV, most famously on 'Sam and Friends,' a short late-night puppet show there.
-- Suggested: This puppet's first body was cut from his creator's mother's old spring coat, with halves of a ping-pong ball for eyes.
-
 ## Koala (`koala`): needs_work
 
 Clue 3 is the koala's most famous trait and instant; replace it with a lesser-known fact.
@@ -435,6 +421,25 @@ The famous mirror flaw in clue 1 belongs after the Challenger clue, clues 2 and 
 - Now: Released more than 600 km up in 1990 and now below 500 km, this observatory is named for the astronomer whose galaxy measurements revealed the universe is expanding.
 - Suggested: This observatory, launched in 1990, is named for the astronomer whose measurements of distant galaxies showed that the universe is expanding.
 
+## Kermit the Frog (`kermit-the-frog`): needs_work
+
+Strong facts, but clues 1 and 2 should swap so the obscure 'Sam and Friends' debut comes first, and clue 4 should not say 'green' twice.
+
+**Clue 1.** Ping-pong-ball eyes are easier to place than the obscure 'Sam and Friends' fact in clue 2, so the two are in the wrong order.
+
+- Now: This puppet's first body was cut from his creator's mother's old spring coat, with halves of a ping-pong ball for eyes.
+- Suggested: This puppet made his debut in 1955 on a Washington, D.C., TV station as a regular on the five-minute show 'Sam and Friends.'
+
+**Clue 2.** Harder than clue 1 and padded ('first appeared... where he became a regular'); swap it with clue 1.
+
+- Now: He first appeared in 1955 on a Washington, D.C., TV station, where he became a regular on the short late-night puppet show 'Sam and Friends.'
+- Suggested: His first body was cut from his creator's mother's old spring coat, with halves of a ping-pong ball for eyes.
+
+**Clue 4.** Says 'green' twice in one sentence.
+
+- Now: This green puppet, often called Jim Henson's alter ego, sings that it's not easy being green.
+- Suggested: This Muppet, often called Jim Henson's alter ego, sings that it's not easy being green.
+
 ## Leeroy Jenkins (`leeroy-jenkins`): needs_work
 
 Good facts, but clues 2 and 3 are in the wrong order: the niche Blizzard achievement should come before the viral-video clue.
@@ -520,12 +525,17 @@ Lively, well-ordered clues; just confirm or trim the Transogram toy-dog trademar
 
 ## Venus Flytrap (`venus-flytrap`): needs_work
 
-Clue 3's snapping trap is instant; reword it so the counting fact doesn't describe the trap closing.
+Clue 2's 'insect-eating plants' gives the answer away before the trigger-hair clue, so it should drop that hint, and clue 3 should open in the same voice as the others.
 
-**Clue 3.** Trigger hairs and a trap that 'snaps shut' give the answer away instantly.
+**Clue 2.** Saying 'insect-eating plants' points at once to the best-known carnivorous plant, so the clue gives the answer away too early.
 
-- Now: It counts: its trigger hairs must be touched twice within about 20 seconds before the trap snaps shut.
-- Suggested: This plant can count: it reacts only when touched twice within about 20 seconds, and needs still more touches before it starts to digest.
+- Now: Charles Darwin called it one of the most wonderful plants in the world and studied it in his 1875 book on insect-eating plants.
+- Suggested: Charles Darwin called this plant 'one of the most wonderful in the world' and studied it closely in a book he published in 1875.
+
+**Clue 3.** The clipped 'It counts:' opener breaks the voice of the other clues.
+
+- Now: It counts: its trigger hairs must be touched twice within about 20 seconds before it reacts.
+- Suggested: This plant can count: its trigger hairs must be touched twice within about 20 seconds before it snaps closed.
 
 ## Basketball (`basketball`): needs_work
 
