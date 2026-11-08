@@ -6272,7 +6272,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This food was the subject of a 1957 BBC April Fools' report that showed a Swiss family harvesting it from trees." },
       { position: 2, text: "A popular legend says Marco Polo brought this food back from China, but a Genoese soldier's will listed a basket of it in 1279." },
-      { position: 3, text: "Italian law requires the dried version of this food to be made only from durum wheat semolina and water." },
+      { position: 3, text: "Italian law requires the standard dried version of this food to be made from durum wheat semolina and water, with egg versions classed separately." },
       { position: 4, text: "Spaghetti, penne and macaroni are all shapes of this Italian staple, usually boiled and served with sauce." },
     ],
     decoys: [
@@ -6325,7 +6325,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This era's 'father' is often said to be the poet Petrarch, who is also credited with coming up with the idea of the 'Dark Ages.'" },
-      { position: 2, text: "Many historians date this era's start to 1401, when Florence held a contest to design new bronze doors for its Baptistery." },
+      { position: 2, text: "One proposed start date for this era is 1401, when Florence held a contest to design new bronze doors for its Baptistery." },
       { position: 3, text: "In 1497, during this era, followers of the friar Savonarola burned mirrors, books and paintings in Florence's Bonfire of the Vanities." },
       { position: 4, text: "Leonardo da Vinci and Michelangelo were geniuses of this cultural 'rebirth' in Europe." },
     ],
@@ -6342,7 +6342,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "History",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This standoff takes its name from a phrase George Orwell used in a 1945 essay about the atomic bomb." },
+      { position: 1, text: "This standoff's name seems to have been first applied to the postwar world by George Orwell, in a 1945 essay about the atomic bomb." },
       { position: 2, text: "The hotline set up in 1963 during this standoff was never a red telephone but a set of teletype machines." },
       { position: 3, text: "During this standoff, the 1980 and 1984 Summer Olympics were each hit by a boycott, the second widely seen as payback for the first." },
       { position: 4, text: "Symbolized by the Berlin Wall, this frosty rivalry finally thawed when the USSR collapsed in 1991." },
@@ -6489,7 +6489,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "In this movie, a briefcase glows when it is opened, and the audience is never told what is inside." },
       { position: 2, text: "Its chapters run out of order, so a character shot dead midway is walking around again by the closing scene." },
       { position: 3, text: "Quentin Tarantino took the Palme d'Or at Cannes in 1994 and won an Oscar for its screenplay." },
-      { position: 4, text: "John Travolta and Samuel L. Jackson play hitmen who debate Amsterdam burgers in Tarantino's 1994 crime mosaic." },
+      { position: 4, text: "John Travolta and Samuel L. Jackson play hitmen who chat about Amsterdam hash bars and Paris burger names in Tarantino's 1994 crime mosaic." },
     ],
     decoys: [
       { text: "Goodfellas", eliminatedByClue: 2 },
@@ -6543,7 +6543,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "This show's title character first appeared in 2013 promotional sketches for NBC Sports' coverage of English Premier League soccer." },
       { position: 2, text: "Brendan Hunt, one of this show's co-creators, also plays the title character's quiet assistant, Coach Beard." },
       { position: 3, text: "Brett Goldstein won back-to-back Emmys for playing gruff veteran footballer Roy Kent on this show." },
-      { position: 4, text: "AFC Richmond's relentlessly optimistic, mustachioed American manager lends his name to this Apple TV+ comedy." },
+      { position: 4, text: "AFC Richmond's relentlessly optimistic, mustachioed American manager lends his name to this Apple TV comedy." },
     ],
     decoys: [
       { text: "Friday Night Lights", eliminatedByClue: 1 },
@@ -6686,7 +6686,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This game's characters speak an invented gibberish, so players end up imagining their own dialogue for them." },
       { position: 2, text: "In 2002 this game passed Myst to become the best-selling PC game in history up to that time, with over 6.3 million copies sold." },
-      { position: 3, text: "Will Wright pitched it after losing his house in a wildfire, and executives were sure a game about doing laundry would flop." },
+      { position: 3, text: "Will Wright conceived this game after losing his home in the 1991 Oakland firestorm, but Maxis's skeptical board gave his 'virtual doll house' little support." },
       { position: 4, text: "In this Maxis life-simulation game, players build houses and guide the daily lives of virtual people." },
     ],
     decoys: [
@@ -6918,7 +6918,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Music",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This singer first uploaded his songs to YouTube in December 2010 under the username 'xoxxxoooxo', keeping his identity hidden at first." },
+      { position: 1, text: "This singer posted three songs to YouTube in December 2010 under the username 'xoxxxoooxo', keeping his identity hidden at first." },
       { position: 2, text: "This singer dropped the last 'e' from a common word in his stage name to avoid a trademark clash with a Canadian pop rock band." },
       { position: 3, text: "In 2021 Billboard named this Toronto singer's 90-week hit the No. 1 song on its Greatest of All Time Hot 100 chart." },
       { position: 4, text: "Born Abel Tesfaye, this Toronto R&B star headlined the 2021 Super Bowl halftime show." },
@@ -7046,7 +7046,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "A Japanese engineer introduced this square pattern in 1994 so a car-parts maker could track components faster than a striped label allowed." },
       { position: 2, text: "This pattern's inventor got the idea for its black-and-white layout while playing the board game Go over lunch." },
-      { position: 3, text: "Denso Wave chose never to enforce its patent, which is why the format spread worldwide for nothing." },
+      { position: 3, text: "This format's maker, Denso Wave, declared from the outset that it would not exercise its patent rights, letting anyone use it at no cost." },
       { position: 4, text: "The pandemic put this scannable black-and-white square on every restaurant table in place of a paper menu." },
     ],
     decoys: [
@@ -7242,7 +7242,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Pop Culture",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This movie monster's 1954 debut opens with a fishing boat engulfed by a blinding flash, echoing the Lucky Dragon No. 5, whose crew was hit by H-bomb fallout that March." },
+      { position: 1, text: "This movie monster's 1954 debut opens with a freighter engulfed by a blinding flash, echoing the Lucky Dragon No. 5, whose crew was hit by H-bomb fallout that March." },
       { position: 2, text: "In 2024 this monster's film 'Minus One' won the Oscar for Best Visual Effects, the franchise's first nomination in 70 years." },
       { position: 3, text: "The 1954 original put a man in a rubber suit into a miniature Tokyo because stop-motion cost too much." },
       { position: 4, text: "This atomic-breathed kaiju's Japanese name fuses the words for gorilla and whale." },
@@ -7407,7 +7407,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "This telescope's main mirror was ground wrong by about one-fiftieth the width of a human hair, so its first pictures came back blurred." },
       { position: 2, text: "Its launch was put off for years after the Challenger disaster, and it finally rode into orbit in the shuttle Discovery's cargo bay." },
       { position: 3, text: "Pointed at an apparently empty speck of sky for ten days, it found thousands of galaxies in the Deep Field image." },
-      { position: 4, text: "Orbiting 540 km up since 1990, this observatory is named for the astronomer who showed the universe is expanding." },
+      { position: 4, text: "Released more than 600 km up in 1990 and now below 500 km, this observatory is named for the astronomer whose galaxy measurements revealed the universe is expanding." },
     ],
     decoys: [
       { text: "James Webb Space Telescope", eliminatedByClue: 2 },
@@ -7442,7 +7442,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "The insurance market Lloyd's of London charges no higher rates for ships sailing through this stretch of sea." },
       { position: 2, text: "A 1964 magazine article coined this area's name; a librarian who later checked its cases called the legend 'a manufactured mystery.'" },
-      { position: 3, text: "The legend grew out of Flight 19, five Navy bombers that vanished on a training run out of Florida in 1945." },
+      { position: 3, text: "Flight 19, five Navy bombers that vanished on a training run out of Florida in 1945, helped build this area's legend." },
       { position: 4, text: "This patch of the Atlantic, bounded roughly by Miami, Puerto Rico and a British island territory, is blamed for swallowing ships and planes." },
     ],
     decoys: [
@@ -7513,7 +7513,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "hard",
     clues: [
       { position: 1, text: "Runes on a marble parapet in this domed building's upper gallery, probably carved by a Viking in the Byzantine emperor's guard, seem to spell the name Halfdan." },
-      { position: 2, text: "This building was the world's largest cathedral for nearly a thousand years, until Seville Cathedral overtook it in the early 1500s." },
+      { position: 2, text: "This building was the world's largest church for more than five centuries, until the abbey church at Cluny outgrew it in the 12th century." },
       { position: 3, text: "Christian mosaics share the walls with vast Arabic calligraphy roundels, because it has been a cathedral, then a mosque, then a museum, and since 2020 a mosque again." },
       { position: 4, text: "This Istanbul landmark was built as a church by the emperor Justinian, and its Greek name means 'Holy Wisdom'." },
     ],
@@ -7532,7 +7532,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "The text on this slab is a decree issued by priests at Memphis in 196 BC to affirm the royal cult of Ptolemy V." },
       { position: 2, text: "In 2022 former Egyptian antiquities minister Zahi Hawass led a petition demanding this slab's return from London to Egypt." },
-      { position: 3, text: "Napoleon's soldiers pulled it out of a fort wall in Egypt in 1799, the British carried it off two years later, and it has sat in the British Museum ever since." },
+      { position: 3, text: "Napoleon's soldiers pulled it out of a fort wall in Egypt in 1799, the British carried it off two years later, and it has sat in the British Museum almost continuously since 1802." },
       { position: 4, text: "This dark slab let Jean-François Champollion finally crack Egyptian hieroglyphs in 1822." },
     ],
     decoys: [
@@ -7567,7 +7567,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This trade network was never one route, and its name was popularized by a German geographer in 1877, long after the traffic had died." },
-      { position: 2, text: "Almost nobody travelled its whole length; goods changed hands dozens of times between Chang'an and the Mediterranean." },
+      { position: 2, text: "Almost nobody travelled its whole length; goods changed hands many times over between Chang'an and the Mediterranean." },
       { position: 3, text: "Paper, gunpowder, Buddhism and — by most accounts — the Black Death all moved along it beside the spices and horses." },
       { position: 4, text: "This network of caravan routes across Central Asia is named for the shimmering Chinese cargo that made the journey worthwhile." },
     ],
@@ -7621,8 +7621,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "Stephen King never cashed the $5,000 cheque for this film's rights, and years later posted it back to the director, framed." },
-      { position: 2, text: "This film flopped in cinemas, then rose to the top of IMDb's user rankings after a cable channel began showing it almost daily." },
-      { position: 3, text: "The novella this film adapts is titled after both its prison and a Hollywood star whose pin-up poster hides the hero's escape tunnel." },
+      { position: 2, text: "This film flopped in cinemas, then rose to the top of IMDb's user rankings after strong video sales and near-constant cable reruns." },
+      { position: 3, text: "The novella this film adapts is titled after both its prison and a Hollywood star whose pin-up was the first of several to hide the hero's escape tunnel." },
       { position: 4, text: "Andy Dufresne crawls through a sewage pipe to freedom in this 1994 prison drama taken from a King novella." },
     ],
     decoys: [
@@ -7674,7 +7674,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Television",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "NBC turned down this show's first pilot as 'too cerebral', but Lucille Ball, whose studio made it, talked the network into trying a second." },
+      { position: 1, text: "NBC turned down this show's first pilot as 'too cerebral', but Desilu, the studio Lucille Ball owned, talked the network into trying a second." },
       { position: 2, text: "Fans' letter-writing saved this show after its second season, though NBC still cancelled it after the third, in 1969." },
       { position: 3, text: "It aired one of American television's first scripted interracial kisses, and Martin Luther King Jr talked Nichelle Nichols out of quitting the bridge crew." },
       { position: 4, text: "The USS Enterprise, Vulcans and 'live long and prosper' all come from this Gene Roddenberry creation." },
@@ -7693,8 +7693,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "One episode of this show crams Jamie Lee Curtis, Bob Odenkirk and John Mulaney into a single catastrophic Christmas Eve dinner." },
-      { position: 2, text: "This show's seventh first-season episode plays out in one unbroken take of about twenty minutes." },
-      { position: 3, text: "In 2024 this show won 11 Emmys, the most ever won by a comedy series in a single year." },
+      { position: 2, text: "This show's seventh first-season episode runs just 20 minutes, 18 of them in a single unbroken take." },
+      { position: 3, text: "In 2024 this show won 11 Emmys, at the time a record for a comedy series in a single year." },
       { position: 4, text: "This FX kitchen series stars Jeremy Allen White as Carmy, a chef who comes home to run his late brother's Chicago sandwich shop." },
     ],
     decoys: [
@@ -7749,7 +7749,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "Two members of Paramore were added to the songwriting credits of one of this singer's hits after listeners noticed its debt to 'Misery Business'." },
       { position: 2, text: "This singer's debut single broke Spotify's record for the most streams in one day by a non-holiday song in January 2021." },
       { position: 3, text: "In July 2021 this singer spoke from the White House press briefing room podium to urge young people to get vaccinated against COVID-19." },
-      { position: 4, text: "This pop-punk-leaning singer's albums are Sour and Guts, and her hits include 'vampire'." },
+      { position: 4, text: "This pop-punk-leaning singer's albums include Sour and Guts, and her hits include 'vampire'." },
     ],
     decoys: [
       { text: "Sabrina Carpenter", eliminatedByClue: 2 },
@@ -7836,7 +7836,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Games",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This series found the combo by accident, when its producer noticed extra hits were possible while bug-testing a car-smashing bonus stage." },
+      { position: 1, text: "This series' combos began as a happy accident, when its producer noticed extra hits were possible while bug-testing a car-smashing bonus stage." },
       { position: 2, text: "Raúl Juliá played the villain in this series' 1994 film, opposite Jean-Claude Van Damme, and died two months before it opened." },
       { position: 3, text: "This series' 1991 second game, 'The World Warrior', had eight characters from around the globe and is credited with popularizing one-on-one combat games in the 1990s." },
       { position: 4, text: "Ryu hurls his Hadouken fireball with a quarter-circle and a punch in this long-running Capcom series." },
@@ -7892,7 +7892,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This prank began on 4chan as a bait-and-switch about a duck, before the duck was swapped for a 1987 pop video." },
       { position: 2, text: "The singer behind it pulled it himself on millions of TV viewers in 2008, popping up on a cartoon float at the Macy's Thanksgiving Day Parade." },
-      { position: 3, text: "In 2007 thousands clicked a link promising the first Grand Theft Auto IV trailer and got a red-haired singer in a trench coat instead." },
+      { position: 3, text: "In 2007 many 4chan users clicked a link promising the first Grand Theft Auto IV trailer and got a red-haired singer in a trench coat instead." },
       { position: 4, text: "This internet prank is a link that secretly leads to the music video for 'Never Gonna Give You Up'." },
     ],
     decoys: [
@@ -7908,8 +7908,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Food & Drink",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "In the 1830s an Ohio doctor published recipes for this condiment and claimed it cured indigestion, helping spark a short-lived craze for medicinal pills." },
-      { position: 2, text: "This condiment began in Asia as a fermented fish sauce, with no tomato anywhere near it." },
+      { position: 1, text: "In the 1830s an Ohio doctor published recipes for this condiment and claimed tomatoes eased indigestion, helping spark a craze for tomato pills." },
+      { position: 2, text: "This condiment is widely traced to a fermented fish sauce from Asia, with no tomato anywhere near it." },
       { position: 3, text: "In 1876 a Pittsburgh food maker began selling it in clear glass bottles, so shoppers could see how pure it was." },
       { position: 4, text: "This thick tomato condiment belongs on chips and burgers, and Heinz says its version oozes from the glass bottle at about 0.045 km/h." },
     ],
@@ -8001,7 +8001,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "This novel began as an entry in a ghost-story contest during 1816's 'Year Without a Summer', when a volcanic eruption in Indonesia had cooled the planet." },
       { position: 2, text: "This novel's author was the daughter of the feminist writer Mary Wollstonecraft, who died eleven days after giving birth to her." },
       { position: 3, text: "This novel's subtitle, 'The Modern Prometheus', casts its young scientist as the Titan who stole fire from the gods." },
-      { position: 4, text: "This Mary Shelley novel's creature has no name, yet it is almost always called by its maker's surname." },
+      { position: 4, text: "This Mary Shelley novel's creature has no name, yet it is often mistakenly called by its maker's surname." },
     ],
     decoys: [
       { text: "Dracula", eliminatedByClue: 2 },
