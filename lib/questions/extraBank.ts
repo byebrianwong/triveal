@@ -7694,7 +7694,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "One episode of this show crams Jamie Lee Curtis, Bob Odenkirk and John Mulaney into a single catastrophic Christmas Eve dinner." },
       { position: 2, text: "This show's seventh first-season episode runs just 20 minutes, 18 of them in a single unbroken take." },
-      { position: 3, text: "In 2024 this show won 11 Emmys, at the time a record for a comedy series in a single year." },
+      { position: 3, text: "This show's second season won 11 Emmys, at the time a record for a comedy series in a single year." },
       { position: 4, text: "This FX kitchen series stars Jeremy Allen White as Carmy, a chef who comes home to run his late brother's Chicago sandwich shop." },
     ],
     decoys: [
@@ -7892,7 +7892,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This prank began on 4chan as a bait-and-switch about a duck, before the duck was swapped for a 1987 pop video." },
       { position: 2, text: "The singer behind it pulled it himself on millions of TV viewers in 2008, popping up on a cartoon float at the Macy's Thanksgiving Day Parade." },
-      { position: 3, text: "In 2007 many 4chan users clicked a link promising the first Grand Theft Auto IV trailer and got a red-haired singer in a trench coat instead." },
+      { position: 3, text: "In 2007 many people clicked a link promising the first Grand Theft Auto IV trailer and got a red-haired singer in a trench coat instead." },
       { position: 4, text: "This internet prank is a link that secretly leads to the music video for 'Never Gonna Give You Up'." },
     ],
     decoys: [
@@ -7908,7 +7908,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Food & Drink",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "In the 1830s an Ohio doctor published recipes for this condiment and claimed tomatoes eased indigestion, helping spark a craze for tomato pills." },
+      { position: 1, text: "In the 1830s an Ohio doctor published recipes for this condiment and claimed its main ingredient eased indigestion, helping spark a craze for pills made from that ingredient." },
       { position: 2, text: "This condiment is widely traced to a fermented fish sauce from Asia, with no tomato anywhere near it." },
       { position: 3, text: "In 1876 a Pittsburgh food maker began selling it in clear glass bottles, so shoppers could see how pure it was." },
       { position: 4, text: "This thick tomato condiment belongs on chips and burgers, and Heinz says its version oozes from the glass bottle at about 0.045 km/h." },
