@@ -4958,7 +4958,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This show's creator has said the stress of making its first season cost him at least six of his teeth." },
       { position: 2, text: "This show's star, Lee Jung-jae, became the first Asian actor to win the Emmy for lead actor in a drama." },
-      { position: 3, text: "This show sent sales of plain white Vans slip-ons up about 7,800% as fans copied its contestants' look for Halloween." },
+      { position: 3, text: "This show sent online searches for plain white Vans slip-ons up about 7,800% as fans copied its contestants' look for Halloween." },
       { position: 4, text: "This 2021 Korean survival series became Netflix's most-watched show ever." },
     ],
     decoys: [
@@ -5425,7 +5425,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This singer plays live alone, looping his own guitar and voice on a pedal to fill whole stadiums." },
-      { position: 2, text: "This singer titles his albums with math symbols, such as '+', '×' and '÷'." },
+      { position: 2, text: "This singer titled a five-album series with math symbols, such as '+', '×' and '÷'." },
       { position: 3, text: "This singer made a cameo as a singing Lannister soldier in a 2017 episode of 'Game of Thrones'." },
       { position: 4, text: "This red-haired English singer had huge hits with 'Shape of You' and 'Perfect'." },
     ],
@@ -5588,7 +5588,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Two of these instruments, one of them silver, were found in Tutankhamun's tomb and were played on BBC radio in 1939." },
       { position: 2, text: "Joseph Haydn wrote his 1796 concerto for this instrument to show off a new keyed version developed by the virtuoso Anton Weidinger." },
-      { position: 3, text: "Dizzy Gillespie played one with an upturned bell after dancers fell on his at a 1953 party and he liked the sound." },
+      { position: 3, text: "Dizzy Gillespie played one with an upturned bell after a comedian fell on his at a 1953 party and he liked the sound." },
       { position: 4, text: "The highest brass voice in the orchestra, it is what a herald raises to announce a king." },
     ],
     decoys: [
@@ -6111,7 +6111,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "This amphibian's genome is more than ten times the size of a human's, and in 2018 it became the largest genome ever sequenced." },
       { position: 2, text: "It can regrow lost limbs, and even parts of its heart and brain, without scarring." },
       { position: 3, text: "Nearly extinct in its only wild home, the canals of Mexico City, it thrives in labs and aquariums." },
-      { position: 4, text: "Pink with a permanent 'smile,' this amphibian became a beloved character in the game Minecraft." },
+      { position: 4, text: "Often pink in captivity, with a permanent 'smile,' this amphibian became a beloved character in the game Minecraft." },
     ],
     decoys: [
       { text: "Newt", eliminatedByClue: 2 },
@@ -6127,7 +6127,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "Venezuelans traditionally eat this semi-aquatic animal during Lent, because a churchman reportedly got the Vatican to class it as fish." },
-      { position: 2, text: "This animal is so tolerant that birds, and even monkeys, are often seen sitting calmly on its back." },
+      { position: 2, text: "This animal is so tolerant that birds perch on its back and, in zoos, even monkeys ride it calmly." },
       { position: 3, text: "This animal has soaked in hot baths at a Japanese zoo since 1982, when a staff member saw the animals huddling in a warm puddle." },
       { position: 4, text: "This South American grazer, which can weigh more than 100 pounds, is the world's largest living rodent." },
     ],
@@ -6181,7 +6181,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This land holds the world's largest national park, which covers about 972,000 square kilometers of its northeast." },
-      { position: 2, text: "Apart from a few spots in the south, no roads link this land's towns, so boats, helicopters and planes carry people between them." },
+      { position: 2, text: "No ordinary road links any two of this land's towns, so boats, helicopters and planes carry people between them." },
       { position: 3, text: "This land stopped being a Danish colony in 1953 and won home rule from Denmark in 1979." },
       { position: 4, text: "The world's largest island, this Arctic territory is about four-fifths covered by a thick ice sheet." },
     ],
@@ -13026,7 +13026,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This game is one of four that Bill and Ted pick to beat Death in the 1991 film 'Bill & Ted's Bogus Journey', along with Battleship, Clue and Electric Football." },
       { position: 2, text: "This game's working title was 'Pretzel', but Milton Bradley renamed it because the toy maker Transogram already owned that trademark for a toy dog." },
-      { position: 3, text: "Rivals accused its maker of selling 'sex in a box', but sales took off after Eva Gabor played it with Johnny Carson on 'The Tonight Show' in May 1966." },
+      { position: 3, text: "Rivals accused its maker of selling 'sex in a box', but sales took off after Eva Gabor played it with Johnny Carson on 'The Tonight Show' in 1966." },
       { position: 4, text: "In this game a spinner calls out moves like 'right hand yellow', and players contort themselves across a mat of red, yellow, green and blue circles." },
     ],
     decoys: [

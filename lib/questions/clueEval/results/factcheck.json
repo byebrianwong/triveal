@@ -79,6 +79,44 @@
     }
    ]
   },
+  "adele": {
+   "id": "adele",
+   "answer": "Adele",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This singer was signed by XL Recordings in 2006 after a friend posted her three-song demo on Myspace.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: she recorded a three-song demo for a class project and gave it to a friend, who posted it on Myspace; 'In September 2006, Adele signed with XL Recordings.' https://en.wikipedia.org/wiki/Adele",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This singer's third album sold 3.38 million copies in its first US week in 2015, breaking a sales record NSYNC had held since 2000.",
+     "verdict": "ok",
+     "evidence": "Newsweek, citing Billboard/Nielsen: 25 sold 3.38 million copies in its first week, beating the record of 2.42 million set by NSYNC's No Strings Attached in 2000 ('Y2K'). 25 is her third studio album. https://www.newsweek.com/hello-its-new-record-adeles-25-hits-338-million-first-week-sales-399302",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This singer co-wrote and sang the first James Bond theme ever to win the Oscar for Best Original Song.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: she co-wrote 'Skyfall' with producer Paul Epworth, and it 'was the first Bond theme to win the award' (Academy Award for Best Original Song, 2013). https://en.wikipedia.org/wiki/Skyfall_(song)",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Belting 'Rolling in the Deep' and 'Someone Like You,' this soul singer has swept the Grammys.",
+     "verdict": "ok",
+     "evidence": "Wikipedia describes her music as 'primarily pop and soul' and credits her with 16 Grammy Awards, including big sweeps in 2012 (21, with 'Rolling in the Deep' and 'Someone Like You') and 2017. https://en.wikipedia.org/wiki/Adele",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "africa": {
    "id": "africa",
    "answer": "Africa",
@@ -508,6 +546,44 @@
      "evidence": "Wikipedia: 1930 painting, Carpenter Gothic house with a Gothic-style window. https://en.wikipedia.org/wiki/American_Gothic",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent (fact check for PR #58/#59)"
+    }
+   ]
+  },
+  "among-us": {
+   "id": "among-us",
+   "answer": "Among Us",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This game drew on the party game Mafia and the horror film The Thing, and began as a phone-only game for players in the same room.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'The game was inspired by the party game Mafia and the science fiction horror film The Thing' and 'was initially intended to be a mobile-only local multiplayer game with a single map.' https://en.wikipedia.org/wiki/Among_Us",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "It came out in 2018 and sat almost unnoticed for two years, then exploded in popularity in 2020 during the pandemic.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the game was 'initially released in 2018 to little mainstream attention' and saw 'a massive rise in popularity in 2020' through streamers during the COVID-19 pandemic. https://en.wikipedia.org/wiki/Among_Us",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Alexandria Ocasio-Cortez streamed herself playing it on Twitch in 2020 to encourage people to vote, drawing over 400,000 viewers.",
+     "verdict": "ok",
+     "evidence": "TechCrunch: AOC's October 20, 2020 Twitch stream peaked at '435,000+' concurrent viewers on her channel alone and was meant 'to get out the vote.' The cited Washington Post page returned 403. https://techcrunch.com/2020/10/21/aocs-among-us-stream-topped-435000-concurrent-viewers/",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "In this social-deduction game, armless cartoon astronauts do chores aboard a spaceship and vote out crewmates they suspect of being impostors.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: players are 'colorful, armless cartoon astronauts', and 'Crewmates work to complete assigned tasks in the game while identifying and voting out suspected Impostors.' https://en.wikipedia.org/wiki/Among_Us",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -1288,6 +1364,14 @@
      "fix": "James Cameron's 2009 3D epic reigned for well over a decade in all as the highest-grossing film ever made.",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "James Cameron's 2009 3D epic about the blue-skinned Na'vi of Pandora spent years as the highest-grossing film ever made.",
+     "verdict": "ok",
+     "evidence": "Khaleej Times: 'Avatar held the worldwide box office record for a decade before Endgame overtook it in 2019' and 'reclaimed the top spot in 2021'; Endgame's 2026 Encore re-release (about $2.9255bn) has now narrowly passed Avatar (about $2.9237bn), so the past-tense 'spent years' is accurate. https://www.khaleejtimes.com/entertainment/avengers-endgame-highest-grossing-film-2026-rerelease",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -1325,6 +1409,46 @@
      "verdict": "ok",
      "evidence": "Wikipedia: Bernard Salt's 2016 column and Tim Gurner's 2017 remarks made millennials' spending on avocado toast a stereotype. https://en.wikipedia.org/wiki/Avocado_toast",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "axolotl": {
+   "id": "axolotl",
+   "answer": "Axolotl",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This amphibian's genome is more than ten times the size of a human's, and in 2018 it became the largest genome ever sequenced.",
+     "verdict": "ok",
+     "evidence": "MPI-CBG: at 32 billion base pairs the genome is 'more than ten times larger than the human genome', 'the largest genome ever to be sequenced', published in Nature on 24 January 2018 (the year-stamped record is accurate even though larger genomes have been sequenced since). https://www.mpi-cbg.de/news-outreach/news-media/article/the-largest-genome-ever-decoding-the-axolotl",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "It can regrow lost limbs, and even parts of its heart and brain, without scarring.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: limbs and tail regrow; tissues of the eye and heart and 'non-vital parts of their brains' can be restored; axolotls 'do not heal by scarring'. https://en.wikipedia.org/wiki/Axolotl",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Nearly extinct in its only wild home, the canals of Mexico City, it thrives in labs and aquariums.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: native only to the Mexican Central Valley, its natural habitat 'is now limited to Lake Xochimilco'; Critically Endangered and driven to near extinction in the wild, with a large captive population. https://en.wikipedia.org/wiki/Axolotl",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Pink with a permanent 'smile,' this amphibian became a beloved character in the game Minecraft.",
+     "verdict": "loose",
+     "evidence": "Wikipedia: wild form is 'brown or tan with gold speckles'; captive leucistic animals have a 'pale pink body'; axolotls were added to Minecraft. https://en.wikipedia.org/wiki/Axolotl",
+     "problem": "Wild axolotls are brown or tan with gold speckles; the pink look belongs to leucistic and albino forms bred in captivity, so 'Pink' overstates it as the animal's color.",
+     "fix": "Often pink in captivity, with a permanent 'smile,' this amphibian became a beloved character in the game Minecraft.",
+     "checkedOn": "2026-11-08",
      "checker": "claude-code-subagent"
     }
    ]
@@ -1401,6 +1525,44 @@
      "verdict": "ok",
      "evidence": "A 1985 film. Fleeing in the DeLorean, Marty is 'inadvertently activating time travel when reaching 88 miles per hour' and lands in 1955. https://en.wikipedia.org/wiki/Back_to_the_Future",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "backgammon": {
+   "id": "backgammon",
+   "answer": "Backgammon",
+   "checks": [
+    {
+     "position": 1,
+     "text": "In 1979 this game's world champion lost 7–1 to a computer program, the first board-game world champion beaten by software, though its creator admitted it got the better dice.",
+     "verdict": "ok",
+     "evidence": "Berliner: on July 15, 1979 in Monte Carlo, BKG 9.8 beat 'the newly crowned backgammon World Champion' Luigi Villa 7-1 in an exhibition, and he concedes it 'had somewhat the better of the dice rolling'. Wikipedia: it became 'the first computer program to defeat a world champion in any board game'. https://bkgm.com/articles/Berliner/BackgammonProgramBeatsWorldChamp/ https://en.wikipedia.org/wiki/Backgammon",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "A sixth-century Greek epigram records how the Byzantine emperor Zeno wrecked a strong position in a Roman forerunner of this game with one bad roll that left eight pieces exposed.",
+     "verdict": "ok",
+     "evidence": "Greek Anthology 9.482, by Agathias (6th century): Zeno 'threw two, six, and five, so that at once he had eight single pieces in all'. Wikipedia's tabula article covers Zeno's game and calls tabula the Greco-Roman ancestor of the tables family. https://anthologiagraeca.org/api/passages/urn:cts:greekLit:tlg7000.tlg001.ag:9.482/?format=api https://en.wikipedia.org/wiki/Tabula_(game)",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "One 1930s story credited Russia's Grand Duke Dmitri Pavlovich, a plotter in Rasputin's murder, with inventing this game's rule for doubling the stakes mid-game.",
+     "verdict": "ok",
+     "evidence": "GammonLife: The New Yorker's Talk of the Town (September 6, 1930) said doubling 'according to one story, was thought of by the Grand Duke Dmitri', and the same article notes his involvement in Rasputin's murder. https://gammonlife.com/?p=1016",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "In this two-player dice game, each side races 15 checkers around 24 triangular points and tries to be first to bear them all off the board.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: each player has 15 pieces that move around 24 points, and the objective is to bear off all one's pieces before the opponent does. https://en.wikipedia.org/wiki/Backgammon",
+     "checkedOn": "2026-11-08",
      "checker": "claude-code-subagent"
     }
    ]
@@ -1912,6 +2074,14 @@
      "evidence": "Wikipedia: 'nearly 70 metres' long (linen ground 68.38 m), embroidered, depicts the Norman conquest up to Hastings 1066. https://en.wikipedia.org/wiki/Bayeux_Tapestry",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent (fact check for PR #58/#59)"
+    },
+    {
+     "position": 2,
+     "text": "In 1941 Himmler's Nazi research institute, the Ahnenerbe, sent a team to study this work in Normandy, and a textile expert took a piece of its backing fabric.",
+     "verdict": "ok",
+     "evidence": "Trinity College Dublin: the Ahnenerbe's Sonderauftrag Bayeux team was stationed in Bayeux in June 1941 to study the tapestry, and textile expert Karl Schlabow 'removed a fragment of the tapestry's backing fabric and brought it back to Germany', probably during June 1941. https://www.tcd.ie/news_events/articles/2025/why-the-nazis-stole-a-fragment-of-the-bayeux-tapestry/",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -2111,6 +2281,14 @@
      "problem": "The portrait on the $100 bill is based on a Duplessis painting, and it shows him without spectacles and with a closed-mouth expression, not a grin. So 'bespectacled' and 'grins' describe the bill wrongly. I could not open a page that states the missing glasses outright; this comes from the known portrait. That he is on the $100 bill is confirmed.",
      "fix": "This famous polymath gazes out from the U.S. hundred-dollar bill, though he never held the presidency.",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "At 11 this founder invented swim fins worn on the hands, and in 1968 he was inducted into the International Swimming Hall of Fame.",
+     "verdict": "ok",
+     "evidence": "ushistory.org: he invented swim fins 'At the ripe old age of 11', strapped to the hands, and was inducted into the International Swimming Hall of Fame in 1968; Swimming World also confirms the 1968 induction as a contributor. https://www.ushistory.org/Franklin/science/swimfins.htm",
+     "checkedOn": "2026-11-08",
      "checker": "claude-code-subagent"
     }
    ]
@@ -2425,6 +2603,44 @@
      "verdict": "ok",
      "evidence": "Wikipedia: seven bright stars of Ursa Major, four forming a bowl and three a handle; a line through 'the front two stars', Merak and Dubhe, leads to Polaris. https://en.wikipedia.org/wiki/Big_Dipper",
      "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "billie-eilish": {
+   "id": "billie-eilish",
+   "answer": "Billie Eilish",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This singer's debut single went viral after she posted it on SoundCloud so her dance teacher could choreograph a routine to it.",
+     "verdict": "ok",
+     "evidence": "Songfacts: she and Finneas 'uploaded the song to SoundCloud one night so that Billie's dance teacher' could use it, and 'woke up the following day to find it had gone viral'. Wikipedia names the teacher, Fred Diaz, who wanted it for choreography. https://www.songfacts.com/facts/billie-eilish/ocean-eyes",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This singer made her debut album with her brother in his small bedroom studio at the family home in Los Angeles.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'The album was recorded in O'Connell's small bedroom studio in Highland Park', the Los Angeles neighborhood where the siblings grew up in the family home. https://en.wikipedia.org/wiki/When_We_All_Fall_Asleep,_Where_Do_We_Go%3F",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Known early for neon-green roots in her hair, she swept the top four Grammys at just 18.",
+     "verdict": "ok",
+     "evidence": "Neon-green roots were her signature look from 2019 to March 2021 (https://www.businessinsider.in/entertainment/news/billie-eilish-ditches-her-signature-green-roots-for-a-shaggy-blonde-hairstyle-as-she-gears-up-for-a-new-era-of-music/articleshow/81555843.cms). Wikipedia: at the 2020 Grammys she became 'the youngest person to win the four main Grammy categories'. Born Dec 18, 2001, she was 18. https://en.wikipedia.org/wiki/Billie_Eilish",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "'Bad Guy' and the James Bond theme 'No Time to Die' are hits for this young singer.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'Bad Guy' topped the Billboard Hot 100, and she performed and co-wrote the Bond title track 'No Time to Die'. https://en.wikipedia.org/wiki/Billie_Eilish",
+     "checkedOn": "2026-11-08",
      "checker": "claude-code-subagent"
     }
    ]
@@ -3107,6 +3323,44 @@
     }
    ]
   },
+  "bts": {
+   "id": "bts",
+   "answer": "BTS",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This group went on a long break while its members did South Korea's mandatory military service, from December 2022 until June 2025.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Jin enlisted on December 13, 2022, the first member to do so, and Suga was the final member discharged in June 2025. https://en.wikipedia.org/wiki/BTS",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In November 2020, this group became the first K-pop act nominated for a Grammy, in Best Pop Duo/Group Performance at the 2021 ceremony.",
+     "verdict": "ok",
+     "evidence": "Korea JoongAng Daily: 'Dynamite' was nominated for Best Pop Duo/Group Performance at the 63rd Grammys when nominees were announced on November 24, 2020, 'the first for any Korean pop music act in history.' The ceremony was held in 2021. https://www.koreajoongangdaily.com/entertainment/bts-lands-a-nomination-for-63rd-grammy-awards-first-for-any-k-pop-act/11133040",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This group's leader, RM, spoke at the United Nations in 2018, urging young people to 'speak yourself.'",
+     "verdict": "ok",
+     "evidence": "UNICEF: speaking at the UN in New York on 24 September 2018 for the launch of Generation Unlimited, RM said, 'We have learned to love ourselves, so now I urge you to \"speak yourself.\"' https://www.unicef.org/press-releases/remarks-kim-nam-jun-launch-generation-unlimited-new-york-24-september-2018",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "'Dynamite' and 'Butter' were global smashes for this boy band whose initials stand for a Korean phrase.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the name stands for the Korean 'Bangtan Sonyeondan' ('Bulletproof Boy Scouts'). 'Dynamite' and 'Butter' both debuted at number one on the Billboard Hot 100. https://en.wikipedia.org/wiki/BTS",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "bubble-tea": {
    "id": "bubble-tea",
    "answer": "Bubble Tea",
@@ -3300,6 +3554,14 @@
      "fix": "This sprawling Egyptian capital is the heart of the largest urban area in the Arab world and, by most estimates, in Africa.",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "This city's Khan el-Khalili bazaar grew from a khan built in the 1380s on the spot where the Fatimid caliphs' tomb was demolished.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Jaharkas al-Khalili, Barquq's Master of the Stables, built the khan between 1382 and 1389 on the site of the Fatimid caliphs' mausoleum (Turbat az-Za'faran), which he demolished to erect it. https://en.wikipedia.org/wiki/Khan_el-Khalili",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -3375,6 +3637,46 @@
      "verdict": "ok",
      "evidence": "The shield gets its properties from vibranium, and its design is 'a white five-pointed star on a blue circle' inside red and white rings. https://en.wikipedia.org/wiki/Captain_America%27s_shield",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "capybara": {
+   "id": "capybara",
+   "answer": "Capybara",
+   "checks": [
+    {
+     "position": 1,
+     "text": "Venezuelans traditionally eat this semi-aquatic animal during Lent, because a churchman reportedly got the Vatican to class it as fish.",
+     "verdict": "ok",
+     "evidence": "Mental Floss: a clergyman in Venezuela wrote to the Vatican asking to eat capybaras during fasting, and the church classified them as fish; Wikipedia notes capybara is popular in Venezuela during Lent and calls the Vatican story a legend, which 'reportedly' hedges. https://www.mentalfloss.com/posts/lent-beavers-muskrats-capybaras-fish",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This animal is so tolerant that birds, and even monkeys, are often seen sitting calmly on its back.",
+     "verdict": "loose",
+     "evidence": "Wikipedia: caracaras and cattle tyrants perch on capybaras' backs and capybaras are generally indifferent to them (https://en.wikipedia.org/wiki/Capybara). Web search: squirrel monkeys ride capybaras at Tobu Zoo, Japan and Beekse Bergen, Netherlands; the species don't normally overlap in the wild. https://reuters.screenocean.com/record/464934",
+     "problem": "Birds perching on capybaras is common in the wild, but monkeys riding them is mostly seen in zoos where the species share enclosures (e.g. Tobu Zoo, Beekse Bergen); the two rarely overlap in the wild, so 'often seen' overstates it for monkeys. (Cited a-z-animals page returned 404.)",
+     "fix": "This animal is so tolerant that birds perch on its back and, in zoos, even monkeys ride it calmly.",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This animal has soaked in hot baths at a Japanese zoo since 1982, when a staff member saw the animals huddling in a warm puddle.",
+     "verdict": "ok",
+     "evidence": "Spoon & Tamago: in 1982 a keeper at Izu Shaboten Zoo cleaning a pen with warm water saw the capybaras gather in it, and the zoo began filling a hot bath for them. https://spoon-tamago.com/capybara-hot-bath-40-year-anniversary/",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This South American grazer, which can weigh more than 100 pounds, is the world's largest living rodent.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: adults typically weigh 35 to 66 kg (77 to 146 lb) and it is 'the largest living rodent', native to South America and a grazer. (Britannica returned 403.) https://en.wikipedia.org/wiki/Capybara",
+     "checkedOn": "2026-11-08",
      "checker": "claude-code-subagent"
     }
    ]
@@ -3720,6 +4022,14 @@
      "evidence": "Wikipedia: 56-second video, uploaded 22 May 2007, Harry aged 3, Charlie aged 1. https://en.wikipedia.org/wiki/Charlie_Bit_My_Finger",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent (fact check for PR #58/#59)"
+    },
+    {
+     "position": 3,
+     "text": "In October 2009 this clip passed 'Evolution of Dance' in YouTube views, with about 129.5 million.",
+     "verdict": "ok",
+     "evidence": "Illawarra Mercury, first published 28 October 2009: the clip 'crept past the long-time incumbent over the weekend', Judson Laipply's Evolution of Dance, with 129,546,156 views against 129,125,769. Wikipedia also says it passed Evolution of Dance at the end of October 2009. https://www.illawarramercury.com.au/story/623754/the-most-viewed-youtube-clip-of-all-time/",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -5085,6 +5395,44 @@
     }
    ]
   },
+  "doctor-who": {
+   "id": "doctor-who",
+   "answer": "Doctor Who",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This show's first episode aired on 23 November 1963, starting 80 seconds late because of announcements about President Kennedy's assassination.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the first episode on 23 November 1963 went out 'eighty seconds later than the scheduled programme time' 'because of announcements concerning the previous day's assassination of John F. Kennedy.' https://en.wikipedia.org/wiki/Doctor_Who",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "When this show's composer heard Delia Derbyshire's electronic take on his theme tune, he asked, 'Did I write that?' She replied, 'Most of it.'",
+     "verdict": "ok",
+     "evidence": "Wikipedia: theme written by Ron Grainer and realised by Delia Derbyshire; Grainer was amazed and asked 'Did I write that?', to which Derbyshire replied 'Most of it.' https://en.wikipedia.org/wiki/Doctor_Who_theme_music",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In 2017, this show cast Jodie Whittaker as the first woman to play its hero.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Jodie Whittaker 'is the first woman to be cast as the character', taking over as the Thirteenth Doctor at the end of the 2017 Christmas special after her 2017 casting. https://en.wikipedia.org/wiki/Doctor_Who",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This long-running BBC sci-fi series follows a two-hearted Time Lord who travels in a police box called the TARDIS.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the Doctor is 'a Time Lord' whose TARDIS 'always resembles a 1960s London police box'; Scientific American (via search, https://www.scientificamerican.com/article/doctor-whos-time-lords-have-two-hearts-heres-how-their-dual-cardiac-system/) covers Time Lords' two hearts. https://en.wikipedia.org/wiki/TARDIS",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "dolphin": {
    "id": "dolphin",
    "answer": "Dolphin",
@@ -5557,6 +5905,46 @@
     }
    ]
   },
+  "ed-sheeran": {
+   "id": "ed-sheeran",
+   "answer": "Ed Sheeran",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This singer plays live alone, looping his own guitar and voice on a pedal to fill whole stadiums.",
+     "verdict": "ok",
+     "evidence": "Official Charts on his 2017 Wembley shows: 'One man, a loop pedal and a few guitars is all it took'. He used a part-time backing band on the 2022-24 Mathematics Tour, but reviews of his 2026 Loop Tour stadium shows say he is again without a backing band (https://clutchpoints.com/entertainment/ed-sheeran-loop-tour-2026-review-metlife-stadium-new-jersey-show). https://officialcharts.com/chart-news/ed-sheeran-wows-at-opening-wembley-stadium-show__10040",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This singer titles his albums with math symbols, such as '+', '×' and '÷'.",
+     "verdict": "loose",
+     "evidence": "Radio X: he 'has finished with his mathematical album titles... There's only five.' Wikipedia lists his albums as +, ×, ÷, =, -, Autumn Variations and Play, and says Play starts a new five-part series (Play, Pause, Fast Forward, Rewind, Stop). https://en.wikipedia.org/wiki/Ed_Sheeran",
+     "problem": "The present tense makes it sound like all his albums have symbol titles. The math series ended at five albums (+, ×, ÷, =, -). He has since released 'Autumn Variations' (2023) and 'Play' (2025), the first of a new series named after playback controls.",
+     "fix": "This singer titled a five-album series with math symbols, such as '+', '×' and '÷'.",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This singer made a cameo as a singing Lannister soldier in a 2017 episode of 'Game of Thrones'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia on the Season 7 premiere 'Dragonstone': Sheeran plays a Lannister soldier whom Arya finds singing the song 'Hands of Gold'. The episode first aired July 16, 2017. (The cited NPR page returned an error.) https://en.wikipedia.org/wiki/Dragonstone_(Game_of_Thrones)",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This red-haired English singer had huge hits with 'Shape of You' and 'Perfect'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: he is an English singer-songwriter. 'Shape of You' debuted at number one on the Billboard Hot 100, and 'Perfect' reached number one in the UK, US and Australia. His red hair is well documented. https://en.wikipedia.org/wiki/Ed_Sheeran",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "edinburgh": {
    "id": "edinburgh",
    "answer": "Edinburgh",
@@ -5723,6 +6111,44 @@
     }
    ]
   },
+  "electron": {
+   "id": "electron",
+   "answer": "Electron",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This particle's discoverer won a Nobel Prize in 1906, and his son won one in 1937 for showing it also behaves like a wave.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: J. J. Thomson won the 1906 Nobel Prize in Physics; his son G. P. Thomson shared the 1937 prize 'for their experimental discovery of the diffraction of electrons by crystals' (wave behavior). https://en.wikipedia.org/wiki/George_Paget_Thomson",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This particle's name traces back to the Greek word for amber, which the ancient Greeks saw attract small objects when rubbed with fur.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the root is 'the Greek word for amber, elektron'; 'The ancient Greeks noticed that amber attracted small objects when rubbed with fur.' https://en.wikipedia.org/wiki/Electron",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This particle is so light that it would take about 1,836 of them to match the mass of one proton.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the electron's mass is about 1/1836 that of the proton. https://en.wikipedia.org/wiki/Electron",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This negatively charged particle surrounds an atom's nucleus, and atoms share or swap it to form chemical bonds.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: electrons occupy atomic orbitals around the positively charged nucleus, and outer electrons are 'transferred or shared between atoms' to form chemical bonds. https://en.wikipedia.org/wiki/Electron",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "elephant": {
    "id": "elephant",
    "answer": "Elephant",
@@ -5799,6 +6225,44 @@
      "verdict": "ok",
      "evidence": "List of his U.S. No. 1 hits includes 'Love Me Tender' (1956) and 'Jailhouse Rock' (1957); History.com confirms his Memphis home Graceland. https://houstonseagle.com/playlist/elvis-90th-birthday-no-1-hits/",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "eminem": {
+   "id": "eminem",
+   "answer": "Eminem",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This rapper's 2000 song about an obsessive fan gave English the word 'stan', which Merriam-Webster added to its dictionary in 2019.",
+     "verdict": "ok",
+     "evidence": "In April 2019 Merriam-Webster added 'stan' as a noun and verb, crediting Eminem's 2000 song about an obsessed fan. (The cited CNN page returned HTTP 451.) https://www.rollingstone.com/music/music-news/eminem-stan-merriam-websters-dictionary-entry-826557/",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This rapper holds a Guinness world record for the most words in a hit single: 1,560 in just over six minutes.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'Rap God' entered Guinness World Records as the hit single with the most words, 'totalling 1,560 words in 6 minutes, 3 seconds' (album version 6:04). https://en.wikipedia.org/wiki/Rap_God",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This rapper slept at home through the 2003 ceremony where he won the first Oscar ever given to a hip-hop song.",
+     "verdict": "ok",
+     "evidence": "XXL: Eminem 'slept through the Hollywood ceremony at his home' in 2003, and 'Lose Yourself' made him 'the first hip-hop artist to win an Oscar for Best Original Song'. Luis Resto accepted the award. https://www.xxlmag.com/today-in-hip-hop-history-eminem-wins-academy-award/",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "The semi-autobiographical film '8 Mile' and the song 'Lose Yourself' belong to this Detroit lyricist.",
+     "verdict": "ok",
+     "evidence": "XXL: 'Lose Yourself' comes from 8 Mile, the film based on the Detroit rapper's life. https://www.xxlmag.com/today-in-hip-hop-history-eminem-wins-academy-award/",
+     "checkedOn": "2026-11-08",
      "checker": "claude-code-subagent"
     }
    ]
@@ -6499,6 +6963,82 @@
     }
    ]
   },
+  "fortnite": {
+   "id": "fortnite",
+   "answer": "Fortnite",
+   "checks": [
+    {
+     "position": 1,
+     "text": "In October 2019 this game ended a season by vanishing into a black hole, and for more than a day players who logged on saw nothing but the black hole.",
+     "verdict": "ok",
+     "evidence": "News4Jax: during 'The End' event on Sunday, October 13, 2019, players were left with 'nothing but a black hole' for more than a day. The headline says it was down for over 36 hours, and the game returned on Tuesday, October 15. https://www.news4jax.com/news/fortnite-game-returns-after-going-to-black-hole-for-over-36-hours",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This game's 2020 concert starring a giant animated Travis Scott drew 12.3 million players at once, a record for the game at the time.",
+     "verdict": "ok",
+     "evidence": "Game Developer: Travis Scott's April 2020 'Astronomical' show 'attracted 12.3 million concurrent users', which Epic called 'a new all-time record'. The cited GameSpot page returned 403. https://gamedeveloper.com/business/-i-fortnite-s-i-virtual-travis-scott-gig-attracted-a-record-12-3-million-concurrent-players",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "A 2020 fight over in-app payments got this game pulled from Apple's and Google's app stores and led to antitrust lawsuits against both companies.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: after Epic's August 13, 2020 direct-payment hotfix, 'both Apple and Google had removed Fortnite from their storefronts' within hours, and 'Epic immediately filed separate lawsuits against Apple and Google for antitrust and anticompetitive behavior.' The cited Axios page returned 403. https://en.wikipedia.org/wiki/Epic_Games_v._Apple",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Famous for its flossing dances and 'Battle Pass,' this free Epic Games title is a battle-royale craze.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the floss dance emote was featured in Fortnite Battle Royale by Epic Games, and 'Flossing became popular in schools due to the popularity of Fortnite.' The Battle Royale article confirms the game is free-to-play with a seasonal Battle Pass. https://en.wikipedia.org/wiki/Floss_(dance)",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "fossil": {
+   "id": "fossil",
+   "answer": "Fossil",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This kind of find includes 'tongue stones', which Pliny the Elder said fell from the sky; in 1667 Nicolas Steno showed they were sharks' teeth.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Pliny the Elder 'believed that these triangular objects fell from the sky during lunar eclipses'; Nicolas Steno in 1667 identified them as shark teeth, with a depiction of a shark's head bearing such teeth. https://en.wikipedia.org/wiki/Glossopetrae",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "The name for this kind of find comes from Latin for 'dug up', and in the 1600s it could mean anything taken from the ground, even coal or salt.",
+     "verdict": "ok",
+     "evidence": "Wiktionary: from French fossile, from Latin fossilis, 'something which has been dug up' (https://en.wiktionary.org/wiki/fossil). Etymonline entry as returned by web search (direct fetch blocked 403): 1600s senses of 'anything dug up' / 'obtained by digging', applied to coal, salt, etc.; restricted geological sense later. https://www.etymonline.com/word/fossil",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In the early 1800s Mary Anning, a poor cabinetmaker's daughter, made her name finding and selling these on the cliffs at Lyme Regis.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: her father Richard was a cabinetmaker and carpenter; the family was left in debt and on poor relief after 1810; from about 1811 she searched the Blue Lias cliffs at Lyme Regis and the family sold finds to tourists. https://en.wikipedia.org/wiki/Mary_Anning",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "A dragonfly trapped in amber or a footprint hardened in mudstone is this preserved trace of ancient life.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: fossils include 'objects preserved in amber', and tracks left by living organisms are trace fossils (ichnofossils). https://en.wikipedia.org/wiki/Fossil",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "frank-sinatra": {
    "id": "frank-sinatra",
    "answer": "Frank Sinatra",
@@ -6617,6 +7157,44 @@
      "verdict": "ok",
      "evidence": "Covers the Storming of the Bastille on 14 July 1789, the Reign of Terror, and the 1799 coup making Napoleon First Consul. https://en.wikipedia.org/wiki/French_Revolution",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "friends": {
+   "id": "friends",
+   "answer": "Friends",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This sitcom was developed under the working title 'Insomnia Cafe' and later called 'Six of One' before it got its final name.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: developed under the working title 'Insomnia Cafe', later retitled 'Friends Like Us' and 'Six of One' before the final name. https://en.wikipedia.org/wiki/Friends",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This sitcom's 2004 finale drew 52.5 million U.S. viewers, the biggest audience for an entertainment show since the 'Seinfeld' finale.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'In the U.S., 52.5 million viewers watched the finale on May 6, 2004', 'the most-watched entertainment telecast since the Seinfeld finale in 1998.' https://en.wikipedia.org/wiki/Friends",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In 2018 Netflix reportedly paid about $100 million to keep streaming this sitcom in the US through 2019.",
+     "verdict": "ok",
+     "evidence": "FOX6, citing The New York Times (Dec 4, 2018): Netflix 'paid $100 million' to keep showing the sitcom in the U.S. through 2019; Netflix did not disclose terms. https://www.fox6now.com/news/netflix-pays-100-million-to-keep-friends-streaming-through-2019",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This NBC sitcom followed Ross, Rachel, Monica, Chandler, Joey and Phoebe, who often gathered at the Central Perk coffeehouse.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: aired on NBC 1994-2004; main characters Rachel, Monica, Phoebe, Joey, Chandler and Ross gather at the Central Perk coffee house. https://en.wikipedia.org/wiki/Friends",
+     "checkedOn": "2026-11-08",
      "checker": "claude-code-subagent"
     }
    ]
@@ -8097,6 +8675,46 @@
     }
    ]
   },
+  "greenland": {
+   "id": "greenland",
+   "answer": "Greenland",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This land holds the world's largest national park, which covers about 972,000 square kilometers of its northeast.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the park protects 972,000 km2 of the interior and northeastern coast and 'is the world's largest national park'. https://en.wikipedia.org/wiki/Northeast_Greenland_National_Park",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Apart from a few spots in the south, no roads link this land's towns, so boats, helicopters and planes carry people between them.",
+     "verdict": "loose",
+     "evidence": "Visit Greenland: no roads connect two towns; travel is by plane, helicopter and boat (https://visitgreenland.com/plan-your-trip/how-to-get-around-in-greenland/). Wikipedia: 'no roads between settlements that are capable of handling normal traffic'; 2025 Sisimiut-Kangerlussuaq ATV track; South Greenland has ATV tracks around Qassiarsuk. https://en.wikipedia.org/wiki/Transport_in_Greenland",
+     "problem": "The exception is misplaced: Visit Greenland says 'There are no roads connecting two towns in Greenland', and the south has only ATV tracks between sheep farms; the one land link between two towns is a rough off-road track between Sisimiut and Kangerlussuaq in the west, opened in 2025.",
+     "fix": "No ordinary road links any two of this land's towns, so boats, helicopters and planes carry people between them.",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This land stopped being a Danish colony in 1953 and won home rule from Denmark in 1979.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'With the 1953 Danish constitution, Greenland's colonial status ended'; the Home Rule Act took effect on 1 May 1979. https://en.wikipedia.org/wiki/Greenland",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "The world's largest island, this Arctic territory is about four-fifths covered by a thick ice sheet.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'the world's largest island'; the ice sheet covers 1,755,637 of 2,166,086 km2, about 81%. https://en.wikipedia.org/wiki/Greenland",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "gremlins": {
    "id": "gremlins",
    "answer": "Gremlins",
@@ -8902,6 +9520,14 @@
      "evidence": "Wikipedia: Pooh is 'very fond of food, particularly honey' ('hunny'). His raid on a bees' tree is in the first book and in the Disney film 'Winnie the Pooh and the Honey Tree'. https://en.wikipedia.org/wiki/Winnie-the-Pooh",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "A rock painting in Spain's Araña Caves, thought to be about 8,000 years old, shows a figure high on a cliff gathering this food from the wild.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the Cuevas de la Araña painting near Bicorp, Valencia, 'is estimated to be around 8000 years old' (dating noted as controversial) and shows 'a human figure holding onto lianas to gather honey from a beehive'. https://en.wikipedia.org/wiki/Cuevas_de_la_Araña",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -9243,6 +9869,44 @@
      "verdict": "ok",
      "evidence": "Wikipedia calls it a frozen dessert served in cones and used in sundaes, and names vanilla among the most popular flavors. https://en.wikipedia.org/wiki/Ice_cream",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "iceberg": {
+   "id": "iceberg",
+   "answer": "Iceberg",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This natural object fizzes with a crackling, frying sound as trapped air bubbles burst, and U.S. Navy scientists thought sonar might pick up the noise 100 miles away.",
+     "verdict": "ok",
+     "evidence": "Alaska Science Forum: 'bergy seltzer' is 'a continuous crackling, frying sound' caused by air bubbles breaking out of the melting ice, and U.S. Navy scientists found it 'could be detected with sonar perhaps 100 miles away'. https://www.gi.alaska.edu/alaska-science-forum/bergy-seltzer",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "The largest one ever reported, sighted by a U.S. Navy ship in 1956, was said to measure about 335 by 97 kilometers, bigger than Belgium.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'The largest iceberg on record was an Antarctic tabular iceberg measuring 335 by 97 kilometres', sighted by USS Glacier on November 12, 1956; 'This iceberg was larger than Belgium.' https://en.wikipedia.org/wiki/Iceberg",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Salvage master Nick Sloane, who refloated the Costa Concordia, proposed wrapping one of these and towing it 2,000 km toward drought-hit Cape Town for drinking water.",
+     "verdict": "ok",
+     "evidence": "Gulf Times: Nick Sloane, who 're-floated the giant Costa Concordia', proposed wrapping an iceberg in a 'textile insulation skirt' and towing it '2,000km towards Cape Town' to ease the drought. https://www.gulf-times.com/story/598419/the-tow-an-iceberg-plan-being-floated-to-ease-cape-town-drought",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Only about a tenth of one of these floating masses shows above the water, and one sank the Titanic in 1912.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'Typically about one-tenth of the volume of an iceberg is above water', and in April 1912 the Titanic sank after striking an iceberg. https://en.wikipedia.org/wiki/Iceberg",
+     "checkedOn": "2026-11-08",
      "checker": "claude-code-subagent"
     }
    ]
@@ -9967,6 +10631,44 @@
     }
    ]
   },
+  "jenga": {
+   "id": "jenga",
+   "answer": "Jenga",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This game's first 100 sets were made by Camphill, a Yorkshire community for people with learning disabilities, for a British designer who launched it in 1983.",
+     "verdict": "ok",
+     "evidence": "Strong Museum of Play: Scott first had 100 games made by Camphill, 'a community in Yorkshire for people with learning disabilities'. Wikipedia: she launched it at the London Toy Fair in January 1983 (Hasbro's 1986 launch came later). https://www.museumofplay.org/blog/block-by-block-leslie-scotts-jenga-game-or-in-swahili-zuia-kwa-kuzuia-mchezo-wa-jenga-wa-leslie-scott/ https://en.wikipedia.org/wiki/Jenga",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Its designer, born in Tanganyika and raised speaking Swahili, named this game after a Swahili word meaning 'to build'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia and the Strong Museum: Scott was born in Tanganyika (now Tanzania) and grew up speaking English and Swahili, and the name comes from the Swahili 'kujenga', 'to build'. https://en.wikipedia.org/wiki/Jenga",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "The horror role-playing game Dread uses this game instead of dice, and when it falls the player's character usually dies.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Dread is a one-session horror role-playing game in which a Jenga tower 'takes the place of dice for action resolution', and failure 'usually indicates that the character dies'. https://en.wikipedia.org/wiki/Dread_(role-playing_game)",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "In this party game, players take turns sliding one wooden block out of a tower of 54 and stacking it on top without toppling everything.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: a game of physical skill played with 54 wooden blocks; players remove one block at a time from the tower and place it on top. https://en.wikipedia.org/wiki/Jenga",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "johnny-cash": {
    "id": "johnny-cash",
    "answer": "Johnny Cash",
@@ -10621,6 +11323,44 @@
     }
    ]
   },
+  "lady-gaga": {
+   "id": "lady-gaga",
+   "answer": "Lady Gaga",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This singer played Patrizia Reggiani, who was jailed for arranging her ex-husband's murder, in Ridley Scott's 2021 film.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Reggiani divorced Maurizio Gucci in 1994 and was sentenced in 1997 to 29 years for arranging his 1995 killing. Lady Gaga played her in Ridley Scott's House of Gucci (2021). https://en.wikipedia.org/wiki/Patrizia_Reggiani",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This singer's 2014 album of jazz standards with Tony Bennett, 'Cheek to Cheek,' won the Grammy for Best Traditional Pop Vocal Album.",
+     "verdict": "ok",
+     "evidence": "Grammy.com: 'Tony Bennett & Lady Gaga won the 2015 Grammy Award for Best Traditional Pop Vocal Album with Cheek To Cheek' (album released 2014). https://www.grammy.com/awards/categories/best-traditional-pop-vocal-album/2015/",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This singer wore a giant gold dove brooch to sing 'The Star-Spangled Banner' at Joe Biden's 2021 presidential inauguration.",
+     "verdict": "ok",
+     "evidence": "ET: she sang 'The Star-Spangled Banner' at Biden's inauguration in a custom Schiaparelli look with 'a large gold gilded dove brooch, symbolizing peace'. https://www.etonline.com/lady-gaga-wears-custom-schiaparelli-to-sing-national-anthem-at-president-joe-bidens-inauguration",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "She won an Oscar for the song 'Shallow' from the film 'A Star Is Born.'",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'Shallow' from A Star Is Born won the Academy Award for Best Original Song at the 91st Academy Awards. She co-wrote it with Mark Ronson, Anthony Rossomando and Andrew Wyatt. https://en.wikipedia.org/wiki/Shallow_(Lady_Gaga_and_Bradley_Cooper_song)",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "laika": {
    "id": "laika",
    "answer": "Laika",
@@ -10739,6 +11479,44 @@
     }
    ]
   },
+  "laser": {
+   "id": "laser",
+   "answer": "Laser",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This invention first worked on May 16, 1960, when Theodore Maiman flashed a lamp around a synthetic ruby rod in a Malibu, California, lab.",
+     "verdict": "ok",
+     "evidence": "HRL: the first laser worked on May 16, 1960, at Hughes Research Laboratories in Malibu, a ruby crystal inside a helical xenon flash lamp; Wikipedia confirms a flashlamp-pumped synthetic ruby. https://hrl.com/about/laser",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This device's name was coined in 1957 by Gordon Gould, who then fought patent battles for about 30 years before winning royalties.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Gould's November 1957 notebook has the first recorded use of 'LASER'; it describes his 'thirty-year fight' with the patent office, with patents in 1977 and 1979 and the decisive 1987 enforcement victory, after which manufacturers took licenses and he earned several million dollars. https://en.wikipedia.org/wiki/Gordon_Gould",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Scientists still fire this device at mirrors Apollo astronauts left on the Moon, timing the echo to measure the distance to within millimeters.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: retroreflectors left by Apollo 11, 14 and 15; stations such as Grasse, Matera, Wettzell and APOLLO (2021-present) keep ranging; distance measured with millimeter precision (APOLLO 1.1 mm). https://en.wikipedia.org/wiki/Lunar_Laser_Ranging_experiment",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "A cat will chase the red dot from this focused beam of light, used in pointers and barcode scanners.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: laser pointers are 'a popular plaything for pets (e.g. cats...)' that chase the moving dot; red pointers are common (https://en.wikipedia.org/wiki/Laser_pointer). Laser uses include 'barcode scanners'. https://en.wikipedia.org/wiki/Laser",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "lava-lamp": {
    "id": "lava-lamp",
    "answer": "Lava Lamp",
@@ -10825,6 +11603,44 @@
     }
    ]
   },
+  "leaning-tower-of-pisa": {
+   "id": "leaning-tower-of-pisa",
+   "answer": "Leaning Tower of Pisa",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This bell tower holds seven bells, one for each note of the musical scale.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'There are seven bells, one for each note of the musical major scale.' https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In World War II, a 23-year-old American sergeant was sent to have this tower shelled if German spotters were using it, but he held back.",
+     "verdict": "ok",
+     "evidence": "Time credits 'the reticence of the 23-year-old American' sergeant ordered to destroy the tower because the Germans were thought to be using it as an observation post; Wikipedia names him as U.S. Army sergeant Leon Weckstein, sent to confirm Germans were in the tower, who 'refrained from ordering an artillery strike'. https://content.time.com/time/specials/packages/article/0,28804,1995297_1995295,00.html",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Work on this tower began in 1173, then stopped for almost a century during wars with Genoa, Lucca and Florence, so it took about two centuries to finish.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: ground-floor work began 14 August 1173; construction 'halted for the better part of a century' because Pisa was 'almost continually engaged in battles with Genoa, Lucca, and Florence'; built in three stages over 199 years, bell chamber added 1372. https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This famously tilted white marble bell tower stands beside a cathedral in Tuscany's Piazza dei Miracoli, the Square of Miracles.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: white marble campanile of Pisa Cathedral, in Cathedral Square (Piazza del Duomo), captioned as the Piazza dei Miracoli. https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "lebron-james": {
    "id": "lebron-james",
    "answer": "LeBron James",
@@ -10907,6 +11723,44 @@
      "problem": "The sources call the released clip the 'first take' or 'dry run', an earlier recording of the staged run. 'First cut' means an early edit, which is not what it was. The year, the two players and the net neutrality motive are all supported.",
      "fix": "In 2017 the two players behind this character's viral 2005 video released its first take, a dry run, to help raise awareness of net neutrality.",
      "checkedOn": "2026-10-23",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "legend-of-zelda": {
+   "id": "legend-of-zelda",
+   "answer": "The Legend of Zelda",
+   "checks": [
+    {
+     "position": 1,
+     "text": "Shigeru Miyamoto based this series on his boyhood explorations of the forests, lakes and caves around his hometown near Kyoto.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Miyamoto 'grew up exploring fields, woods, and caves near Kyoto' (his home was in Sonobe) and recalled finding a lake while hiking. Today I Found Out likewise mentions 'forests, caves, lakes' around Sonobe. https://en.wikipedia.org/wiki/The_Legend_of_Zelda_(video_game)",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In North America, this series' first game came on a gold cartridge with a battery inside that let players save their progress.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the US release came in 'the unique gold-colored cartridge' and was 'one of the first games to include an internal battery for saving data.' The Japanese original was on the Famicom Disk System. https://en.wikipedia.org/wiki/The_Legend_of_Zelda_(video_game)",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This series' princess was named after the wife of novelist F. Scott Fitzgerald.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Miyamoto said the name was inspired by Zelda Fitzgerald, wife of F. Scott Fitzgerald (a PR planner had suggested it). https://en.wikipedia.org/wiki/Princess_Zelda",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This Nintendo adventure series' hero draws a Master Sword and solves dungeon puzzles.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the Master Sword 'must be pulled from the pedestal by Link to retrieve it', as in A Link to the Past, Ocarina of Time and Breath of the Wild. https://en.wikipedia.org/wiki/Master_Sword",
+     "checkedOn": "2026-11-08",
      "checker": "claude-code-subagent"
     }
    ]
@@ -12009,6 +12863,44 @@
     }
    ]
   },
+  "meerkat": {
+   "id": "meerkat",
+   "answer": "Meerkat",
+   "checks": [
+    {
+     "position": 1,
+     "text": "In a group of these animals, one dominant female has most of the pups, and while pregnant she may drive pregnant rivals out of the group for weeks.",
+     "verdict": "ok",
+     "evidence": "Scientific American: dominant animals do the breeding; 'when pregnant, dominant meerkat females selectively chase and attack' rivals including pregnant females, evicting them 'for an average of three weeks at a time'. https://www.scientificamerican.com/article/reproductive-rule/",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This animal has dark patches around its eyes that cut the glare of the southern African desert sun.",
+     "verdict": "ok",
+     "evidence": "PBS Nature: the dark patches 'cut down the sun's glare'; meerkats live in the desert, often in southern Africa's Kalahari. https://www.pbs.org/wnet/nature/blog/meerkat-fact-sheet",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Adults of this animal teach their pups to eat scorpions, first handing them dead ones, then live ones with the stinger removed.",
+     "verdict": "ok",
+     "evidence": "University of Cambridge: older helpers kill or disable prey before giving it to pups, often removing scorpions' stings, and introduce live prey gradually as pups grow. https://www.cam.ac.uk/research/news/wild-meerkats-school-their-young",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Timon, the wisecracking sidekick in Disney's 'The Lion King', is one of these animals.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Timon is a meerkat (Suricata suricatta), half of the meerkat and warthog duo in Disney's The Lion King, listed among film sidekicks. https://en.wikipedia.org/wiki/Timon_and_Pumbaa",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "mercury-planet": {
    "id": "mercury-planet",
    "answer": "Mercury",
@@ -12399,6 +13291,44 @@
     }
    ]
   },
+  "minecraft": {
+   "id": "minecraft",
+   "answer": "Minecraft",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This game's best-known monster began as a coding mistake: its creator was building a pig and swapped the model's height and length.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the Creeper model arose 'as a result of a coding error when creating the pig mob'; Persson 'accidentally mixed up the dimensions of the model, swapping the length and height.' It is 'considered to be one of Minecraft's most iconic enemies and icons.' https://en.wikipedia.org/wiki/Creeper_(Minecraft)",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This game began as a Swedish programmer's side project and became the best-selling video game of all time.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Persson 'prototyped his own games' in his spare time while employed as a developer, and the game is the 'best-selling video game of all time' with over 400 million copies sold. https://en.wikipedia.org/wiki/Minecraft",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Players have built working computers inside this game, wiring them from a circuit material called redstone.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: redstone is used to build circuits and logic gates, and a reviewer cites 'redstone circuitry and player-built computers' as signs of the game's depth. https://en.wikipedia.org/wiki/Minecraft",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This blocky sandbox game, now owned by Microsoft, has a 'Creative' mode with unlimited resources.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Microsoft bought Mojang and the game's IP for US$2.5 billion in 2014. In Creative mode players get 'access to an infinite number of almost all resources and items.' https://en.wikipedia.org/wiki/Minecraft",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "mister-rogers-neighborhood": {
    "id": "mister-rogers-neighborhood",
    "answer": "Mister Rogers' Neighborhood",
@@ -12743,6 +13673,52 @@
      "verdict": "ok",
      "evidence": "Described as a national symbol and cultural icon of Japan, snow-covered about five months a year. https://en.wikipedia.org/wiki/Mount_Fuji",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 1,
+     "text": "On this peak's northwestern flank lies Aokigahara, a forest nicknamed the Sea of Trees that grows on lava from an eruption in 864.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Aokigahara lies 'on the northwestern flank of Mount Fuji', is known as the Sea of Trees (Jukai), and grows on lava from the eruption of 864 AD. https://en.wikipedia.org/wiki/Aokigahara",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "mount-kilimanjaro": {
+   "id": "mount-kilimanjaro",
+   "answer": "Mount Kilimanjaro",
+   "checks": [
+    {
+     "position": 1,
+     "text": "On December 9, 1961, the day Tanganyika became independent, a 'freedom torch' was first lit on this mountain's summit.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the Uhuru Torch (Mwenge wa Uhuru, 'Torch of Freedom') was 'first lit on top of Mount Kilimanjaro on December 9, 1961' by Alexander Nyirenda; The Citizen (via search) quotes Nyirenda: 'At midnight on December 9, we lit the torch' alongside the raising of the Tanganyika independence flag. https://en.wikipedia.org/wiki/Uhuru_Torch",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This mountain is the tallest on Earth that stands alone rather than as part of a range.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'the highest free-standing mountain above sea level in the world'; Guinness World Records lists it as the highest free-standing mountain (record page now 404, confirmed via search). https://en.wikipedia.org/wiki/Mount_Kilimanjaro",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Though it sits just south of the equator, this mountain lost about 82 percent of its summit ice between 1912 and 2000.",
+     "verdict": "ok",
+     "evidence": "Ohio State: 'About 82 percent of the ice fields were lost between the time they were first mapped in 1912 and 2000'; Wikipedia gives coordinates 3°04'S, near the equator. https://news.osu.edu/snows-of-kilimanjaro-disappearing-glacial-ice-loss-increasing/",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This Tanzanian volcano is the highest point on the whole African continent.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'a large dormant stratovolcano in Tanzania... It is the highest mountain in Africa.' https://en.wikipedia.org/wiki/Mount_Kilimanjaro",
+     "checkedOn": "2026-11-08",
      "checker": "claude-code-subagent"
     }
    ]
@@ -13515,6 +14491,44 @@
     }
    ]
   },
+  "nirvana-band": {
+   "id": "nirvana-band",
+   "answer": "Nirvana",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This band's debut album was recorded for just $606.17, a bill paid by a guitarist who doesn't actually play on it.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Endino billed thirty hours of recording at $606.17. Jason Everman supplied the money and is credited and pictured on the cover 'even though he did not perform on the album.' https://en.wikipedia.org/wiki/Bleach_(Nirvana_album)",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This band's breakthrough album knocked Michael Jackson's 'Dangerous' off the top of the U.S. album chart in January 1992.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Dangerous was No. 1 on the Billboard 200 dated January 4, 1992, and Nevermind replaced it on the chart dated January 11. https://en.wikipedia.org/wiki/List_of_Billboard_200_number-one_albums_of_1992",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This band's frontman died in 1994 at age 27, and his death is what gave rise to the idea of the '27 Club.'",
+     "verdict": "ok",
+     "evidence": "Wikipedia: a 1969-71 cluster of musicians' deaths at 27 was the basis, but 'only after the death of Kurt Cobain in 1994 was the notion of a club established.' Biographer Charles R. Cross says the idea reached the zeitgeist then. Cobain died aged 27. https://en.wikipedia.org/wiki/27_Club",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "'Smells Like Teen Spirit' was the anthem of this flannel-clad band, whose name means blissful peace.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Cobain wanted 'a name that was kind of beautiful or nice and pretty instead of a mean, raunchy punk name'. Nirvana is the Buddhist state of release from suffering, and 'Smells Like Teen Spirit' was the band's breakthrough grunge hit. https://en.wikipedia.org/wiki/Nirvana_(band)",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "nokia": {
    "id": "nokia",
    "answer": "Nokia",
@@ -13629,6 +14643,44 @@
     }
    ]
   },
+  "octopus": {
+   "id": "octopus",
+   "answer": "Octopus",
+   "checks": [
+    {
+     "position": 1,
+     "text": "A deep-sea female of this animal was watched guarding her eggs for 53 months off California, the longest brooding known for any animal.",
+     "verdict": "ok",
+     "evidence": "Robison et al. (PLOS ONE 2014): a Graneledone boreopacifica female in Monterey Canyon, off central California, brooded for 53 months, 'by far the longest egg-brooding period ever reported for any animal species'. https://pmc.ncbi.nlm.nih.gov/articles/PMC4116195/",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In Indonesia, one species of this animal gathers discarded coconut-shell halves, carries them across the seabed and shuts itself inside them when threatened.",
+     "verdict": "ok",
+     "evidence": "National Geographic: veined octopuses in Indonesian waters collect discarded coconut shell halves, carry them up to 20 m, and when threatened assemble the two halves into a protective sphere. https://www.nationalgeographic.com/science/article/octopus-carries-around-coconut-shells-as-suits-of-armour",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "After a 2021 government-commissioned review, the UK extended its animal sentience law to cover this animal, along with crabs and lobsters.",
+     "verdict": "ok",
+     "evidence": "UK government, 19 November 2021: after a government-commissioned independent LSE review, lobsters, octopus, crabs and all other decapod crustaceans and cephalopod molluscs were added to the Animal Welfare (Sentience) Bill, enacted in 2022. https://www.gov.uk/government/news/lobsters-octopus-and-crabs-recognised-as-sentient-beings",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This eight-armed cephalopod is a famously clever ocean animal, a close relative of the squid and cuttlefish.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: an eight-limbed mollusc in the class Cephalopoda with squids and cuttlefish, 'highly intelligent' and among the most intelligent invertebrates. https://en.wikipedia.org/wiki/Octopus",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "olympus-mons": {
    "id": "olympus-mons",
    "answer": "Olympus Mons",
@@ -13703,6 +14755,44 @@
      "verdict": "ok",
      "evidence": "Nominated for 13 Oscars and won seven, including Best Picture; released the same day as Barbie. https://en.wikipedia.org/wiki/Oppenheimer_(film)",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "orca": {
+   "id": "orca",
+   "answer": "Orca",
+   "checks": [
+    {
+     "position": 1,
+     "text": "Despite this animal's fearsome nickname, there is no recorded case of a wild one killing a human.",
+     "verdict": "ok",
+     "evidence": "Discover Wildlife: 'no documented reports of wild, free-living orcas ever having intentionally attacked humans'; Wikipedia: 'no fatal attack has been recorded in the wild' (https://en.wikipedia.org/wiki/Orca). https://www.discoverwildlife.com/animal-facts/marine-animals/are-killer-whales-dangerous-to-humans",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Off South Africa, two males of this animal nicknamed Port and Starboard kill great white sharks and eat little more than their livers.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'a pair of adult male orcas' off South Africa (Gansbaai, False Bay); great whites washed ashore 'with nothing but their livers removed'. https://en.wikipedia.org/wiki/Port_and_Starboard_(orcas)",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Since 2020, groups of these animals off Spain and Portugal have rammed sailing boats, breaking their rudders and even sinking some.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: since 2020 an Iberian subpopulation has been 'ramming boats and attacking their rudders' off Spain and Portugal, splitting or detaching rudders, with several sailboats sunk (2022-2025). https://en.wikipedia.org/wiki/Iberian_orca_attacks",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "The largest member of the dolphin family, this black-and-white animal starred in SeaWorld's Shamu shows and in the film 'Free Willy'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the orca is 'the largest member of the oceanic dolphin family' (https://en.wikipedia.org/wiki/Orca); Shamu shows at SeaWorld used orcas (https://en.wikipedia.org/wiki/Shamu); Keiko played Willy in the 1993 film Free Willy. https://en.wikipedia.org/wiki/Keiko_(orca)",
+     "checkedOn": "2026-11-08",
      "checker": "claude-code-subagent"
     }
    ]
@@ -13941,6 +15031,44 @@
      "verdict": "ok",
      "evidence": "Wikipedia: O2 is a colorless, odorless gas; water contains two volumes of hydrogen per volume of oxygen. https://en.wikipedia.org/wiki/Oxygen",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "pac-man": {
+   "id": "pac-man",
+   "answer": "Pac-Man",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This arcade game has a 'kill screen': on level 256 a bug fills half the screen with garbled symbols, so the level can't be finished.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: on level 256 'half the screen would be filled with nonsense glyphs that made it impossible to complete the level and continue.' The Pac-Man article attributes this to an integer overflow and calls it a kill screen. https://en.wikipedia.org/wiki/Billy_Mitchell_(gamer)",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "For this game's 30th anniversary in 2010, Google made its logo playable, and one firm estimated it added 4.8 million hours to people's time on Google.",
+     "verdict": "ok",
+     "evidence": "RescueTime estimated the doodle added '4,819,352 hours of time spent on the site', or about 36 seconds more per user on Google.com that day. Wikipedia confirms the playable 30th-anniversary logo in 2010. https://www.datamation.com/applications/did-googles-pac-man-celebration-gobble-productivity/",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This game's designer, Toru Iwatani, built it around eating because he wanted a game that would draw women and couples into arcades.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Iwatani felt 'attracting women and couples into arcades would create a more family-friendly atmosphere' and 'decided to center his game around eating, feeling that women like to eat sweets.' https://en.wikipedia.org/wiki/Pac-Man",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Blinky, Pinky, Inky, and Clyde hound this 1980 arcade icon around its maze.",
+     "verdict": "ok",
+     "evidence": "Wikipedia names the four ghosts Blinky, Pinky, Inky and Clyde and says the game was released in Japan on May 22, 1980 and in North America in October 1980. https://en.wikipedia.org/wiki/Pac-Man",
+     "checkedOn": "2026-11-08",
      "checker": "claude-code-subagent"
     }
    ]
@@ -14919,6 +16047,44 @@
     }
    ]
   },
+  "pokemon": {
+   "id": "pokemon",
+   "answer": "Pokémon",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This franchise's creator, Satoshi Tajiri, drew on his childhood hobby of collecting insects.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Tajiri and his friends 'would exchange insects, which later became the inspiration for his video game development'; the game 'embodied the collection and companionship of his childhood hobby, insect collecting.' https://en.wikipedia.org/wiki/Satoshi_Tajiri",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This franchise, spanning games, cards and cartoons, is the highest-grossing media property of all time.",
+     "verdict": "ok",
+     "evidence": "Wikipedia's list of highest-grossing media franchises ranks the franchise first, with an estimated $130.7 billion in total revenue. https://en.wikipedia.org/wiki/List_of_highest-grossing_media_franchises",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "A 1997 episode of this franchise's cartoon sent hundreds of Japanese children to hospital after flashing lights triggered seizures.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the episode aired once, on December 16, 1997, and its strobing red-and-blue flashes led to '685 viewers' being taken to hospitals by ambulance, 208 of whom were admitted. https://en.wikipedia.org/wiki/Denn%C5%8D_Senshi_Porygon",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Pikachu, a yellow electric mouse, is the mascot of this franchise, whose long-running cartoon followed a young trainer named Ash.",
+     "verdict": "ok",
+     "evidence": "Wikipedia calls Pikachu 'the franchise's mascot', describes it as a yellow Electric-type mouse, and says in the anime it is 'the companion of series protagonist Ash Ketchum.' https://en.wikipedia.org/wiki/Pikachu",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "polar-bear": {
    "id": "polar-bear",
    "answer": "Polar Bear",
@@ -15479,6 +16645,44 @@
     }
    ]
   },
+  "queen-band": {
+   "id": "queen-band",
+   "answer": "Queen",
+   "checks": [
+    {
+     "position": 1,
+     "text": "All four members of this rock band were inducted into the Songwriters Hall of Fame in 2003, because each had written hit singles.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'with each member having composed hit singles, all four were inducted into the Songwriters Hall of Fame in 2003.' https://en.wikipedia.org/wiki/Queen_(band)",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This band's guitarist built his own guitar with his father as a teenager and finished a PhD in astrophysics in 2007.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Brian May built the Red Special 'with his father... when he was sixteen years old', and 'earned a PhD degree in astrophysics from Imperial College London in 2007.' https://en.wikipedia.org/wiki/Brian_May",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This British band's 21-minute set at Live Aid in 1985 was voted the best rock gig of all time in a 2005 poll.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Queen 'had a 21-minute set at Wembley Stadium during Live Aid on 13 July 1985' that was 'voted as the best rock gig of all time', citing BBC News, 'Queen win greatest live gig poll' (9 Nov 2005). https://en.wikipedia.org/wiki/Queen%27s_performance_at_Live_Aid",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This band stomped and clapped through 'We Will Rock You' and layered the operatic 'Bohemian Rhapsody.'",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'We Will Rock You' became an enduring sports anthem (its beat is the stomp-stomp-clap), and 'Bohemian Rhapsody' reportedly used 180 overdubs, with a gap left on the tape for its operatic vocals. https://en.wikipedia.org/wiki/Queen_(band)",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "queen-elizabeth-i": {
    "id": "queen-elizabeth-i",
    "answer": "Queen Elizabeth I",
@@ -15817,6 +17021,44 @@
      "verdict": "ok",
      "evidence": "Victoria University (April 10, 2020), on a 2020 Current Biology study: black rhinos have poor vision, and oxpeckers give alarm calls when humans approach. Rhinos carrying oxpeckers detected approaching humans 100% of the time, and rhinos without them only 23% of the time. https://www.vu.edu.au/about-vu/news-events/news/black-rhinos-eavesdrop-on-alarm-calls-of-hitchhiking-oxpeckers-to-avoid-humans",
      "checkedOn": "2026-10-17",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "rihanna": {
+   "id": "rihanna",
+   "answer": "Rihanna",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This singer was 15 when American producer Evan Rogers discovered her while he was visiting her home island in 2003.",
+     "verdict": "ok",
+     "evidence": "WBEZ: Evan Rogers 'discovered Rihanna in Barbados in 2003' when she was 'the then-15-year old'. Wikipedia confirms her trio auditioned for Rogers in Barbados in 2003. https://www.wbez.org/stories/making-rihanna-a-podcast-biography/d4ebf93b-3088-4a91-bf53-52846eb76a88",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This singer was named a National Hero of her home country on November 30, 2021, the day it became a republic.",
+     "verdict": "ok",
+     "evidence": "Al Jazeera, 30 Nov 2021: Robyn Rihanna Fenty was named a National Hero at the overnight ceremony in Bridgetown at which, at midnight, 'the new republic was born'. https://www.aljazeera.com/news/2021/11/30/new-republic-barbados-names-rihanna-national-hero",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This singer's first name is actually Robyn; she performs under her middle name.",
+     "verdict": "ok",
+     "evidence": "Her full name is Robyn Rihanna Fenty, so she performs under her middle name. https://en.wikipedia.org/wiki/Rihanna",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This Barbadian superstar's hits include 'Umbrella' and 'Diamonds.'",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Barbadian singer whose hits include 'Umbrella' and 'Diamonds'. She was named a National Hero of Barbados in 2021. https://en.wikipedia.org/wiki/Rihanna",
+     "checkedOn": "2026-11-08",
      "checker": "claude-code-subagent"
     }
    ]
@@ -16553,6 +17795,44 @@
     }
    ]
   },
+  "saxophone": {
+   "id": "saxophone",
+   "answer": "Saxophone",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This instrument was patented in 1846 for orchestras and military bands, and French army bands took it up decades before jazz made it famous.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'On 28 June 1846 he patented the saxophone, intended for use in orchestras and military bands.' The Saxophone article adds that 'French and Belgian military bands were quick to include it', long before jazz in the 20th century. https://en.wikipedia.org/wiki/Adolphe_Sax",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Though this instrument is made of brass, it is played with a single reed like a clarinet, so it counts as a woodwind.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: a 'single-reed woodwind instrument with a conical body, usually made of brass', played with a single reed on a mouthpiece like the clarinet. https://en.wikipedia.org/wiki/Saxophone",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Jazz giants Charlie Parker, nicknamed 'Bird', and John Coltrane both made their names on this instrument.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'Alto saxophonist Charlie Parker became an icon of the bebop revolution', and Coltrane 'boosted the instrument's popularity during the 1960s.' Parker's nickname 'Bird' is well documented. https://en.wikipedia.org/wiki/Saxophone",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "President Bill Clinton famously played this reed instrument, which comes in alto and tenor sizes.",
+     "verdict": "ok",
+     "evidence": "Clinton played 'Heartbreak Hotel' on tenor saxophone on The Arsenio Hall Show on June 3, 1992. The alto and tenor are among the most widely used sizes, per Wikipedia's Saxophone article. https://www.history.com/this-day-in-history/june-3/bill-clinton-saxophone-arsenio-hall",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "scrabble": {
    "id": "scrabble",
    "answer": "Scrabble",
@@ -16779,6 +18059,44 @@
      "verdict": "ok",
      "evidence": "Raised in Compton (born in Saginaw, Michigan); won Grand Slams from 1999 to 2017. https://www.guinnessworldrecords.com/world-records/107552-first-singles-and-doubles-tennis-career-golden-grand-slam",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "sesame-street": {
+   "id": "sesame-street",
+   "answer": "Sesame Street",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This children's show grew out of a 1966 dinner party where a guest asked whether television could teach young children.",
+     "verdict": "ok",
+     "evidence": "PBS NewsHour: the idea was 'sown over a dinner party in 1966' where Lloyd Morrisett recalled asking Joan Ganz Cooney whether television could teach young children; she replied 'I don't know, but I'd like to talk about it.' https://www.pbs.org/newshour/arts/lloyd-morrisett-co-creator-of-sesame-street-dies",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Before airing, this show's segments were tested on preschoolers beside a 'distractor' slide projector, to see when the children looked away.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: in the 'distractor' method two children at a time watched an episode on a monitor with a slide show next to it, slides changing every seven seconds, while researchers recorded when attention was diverted; this formative research decided what producers would air. https://en.wikipedia.org/wiki/Sesame_Street_research",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This show's grumpy trash-can dweller was orange in its first season, 1969, before turning green.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'The Oscar muppet was orange for the first season of Sesame Street and then changed to green, which remained his permanent color.' https://en.wikipedia.org/wiki/Oscar_the_Grouch",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Brought to you by a letter and a number, this children's show is set on a make-believe city block.",
+     "verdict": "ok",
+     "evidence": "Episodes end with sponsorship by letters and numbers (the first by the letters W, S, E and numbers 2 and 3, per CBS News via search); Wikipedia: the show is set on 'a fictional street located in Manhattan' representing 'an unspecified neighborhood in New York City.' https://en.wikipedia.org/wiki/Sesame_Street_(fictional_location)",
+     "checkedOn": "2026-11-08",
      "checker": "claude-code-subagent"
     }
    ]
@@ -17411,6 +18729,44 @@
     }
    ]
   },
+  "sonic-the-hedgehog": {
+   "id": "sonic-the-hedgehog",
+   "answer": "Sonic the Hedgehog",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This video game hero's red-and-white shoes were inspired by Santa Claus and by Michael Jackson's boots.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the shoes evolved from 'a design inspired by both Santa Claus and Michael Jackson's boots', with the red-and-white contrast taken from Jackson's album Bad. https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(character)",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This character's shade of blue was chosen to match the logo of the company that created him.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the character's 'blue pigmentation was chosen to match Sega's cobalt blue logo.' https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(character)",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This character was redesigned for his 2020 live-action film after fans mocked the first trailer's version for its human-like teeth.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: after the April 2019 trailer the design was 'heavily criticized', with critics singling out the teeth and legs, and director Jeff Fowler announced a redesign for the 2020 film. https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(character)",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Sega created this spiky blue speedster to rival Nintendo's plumber, pitting him against Dr. Robotnik.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Sega wanted a mascot that could challenge Nintendo's Mario, and the villain was originally Dr. Robotnik (later Dr. Eggman). https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(character)",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "sound": {
    "id": "sound",
    "answer": "Sound",
@@ -17637,6 +18993,46 @@
      "verdict": "ok",
      "evidence": "Squidward's moai sits between SpongeBob's pineapple and Patrick Star's rock on Conch Street; Gary the snail is SpongeBob's pet. https://en.wikipedia.org/wiki/Squidward_Tentacles",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "squid-game": {
+   "id": "squid-game",
+   "answer": "Squid Game",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This show's creator has said the stress of making its first season cost him at least six of his teeth.",
+     "verdict": "ok",
+     "evidence": "Variety (AU edition): in a June 2022 Variety interview Hwang said six of his teeth fell out during production of the first season; he later told the BBC it was 'eight or nine', so 'at least six' holds. https://au.variety.com/2024/tv/news/squid-game-creator-lost-nine-teeth-season-2-money-18590/",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This show's star, Lee Jung-jae, became the first Asian actor to win the Emmy for lead actor in a drama.",
+     "verdict": "ok",
+     "evidence": "Al Jazeera: Lee Jung-jae 'has become the first Asian and South Korean to win the Emmy for best drama series actor.' https://www.aljazeera.com/news/2022/9/13/squid-game-star-lee-jung-jae-first-asian-to-win-best-actor-emmy",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This show sent sales of plain white Vans slip-ons up about 7,800% as fans copied its contestants' look for Halloween.",
+     "verdict": "wrong",
+     "evidence": "The Sole Supplier (Oct 7, 2021): 'Google Trends data has shown that searches for the \"Triple White\" colourway have increased by a whopping 7,800%', and fans want their 'Halloween fits' right; BusinessDay: VF Corp CFO Matt Puckett called it 'a small spike'. https://thesolesupplier.co.uk/news/vans-slip-on-sales-grew-by-7800-since-squid-games-series-premiere/",
+     "problem": "The 7,800% figure is not sales. It traces to The Sole Supplier, whose headline said sales but whose article body says Google Trends searches for the 'Triple White' colourway rose 7,800%. Vans' parent VF Corp called the sales effect only a 'small spike'.",
+     "fix": "This show sent online searches for plain white Vans slip-ons up about 7,800% as fans copied its contestants' look for Halloween.",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This 2021 Korean survival series became Netflix's most-watched show ever.",
+     "verdict": "ok",
+     "evidence": "What's on Netflix (updated Sept 22, 2026): its 2021 first season tops Netflix's all-time list with 265.2 million views in its first 91 days, ahead of Wednesday season 1 (252.1 million). https://www.whats-on-netflix.com/WHAT-TO-WATCH/MOST-WATCHED-SERIES-MOVIES-OF-ALL-TIME-HOURS-WATCHED/",
+     "checkedOn": "2026-11-08",
      "checker": "claude-code-subagent"
     }
    ]
@@ -18649,6 +20045,44 @@
     }
    ]
   },
+  "tetris": {
+   "id": "tetris",
+   "answer": "Tetris",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This game's name blends the Greek prefix for 'four' with tennis, its creator's favorite sport.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the name is 'a combination of \"tetra\" (meaning \"four\") and his favorite sport, tennis.' https://en.wikipedia.org/wiki/Tetris",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In late 2023 a 13-year-old became the first person known to beat this game's NES version, by playing until it crashed.",
+     "verdict": "ok",
+     "evidence": "Popular Science: 13-year-old Willis 'blue scuti' Gibson hit a game-ending crash on level 157 on December 21, 2023, 'becoming the first documented person to achieve the \"true\" game crash.' https://www.popsci.com/technology/tetris-beat-kill-screen/",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "In 1993 a cosmonaut carried this game to the Mir space station, and Guinness World Records calls it the first video game in space.",
+     "verdict": "ok",
+     "evidence": "Guinness record 'First videogame in space': cosmonaut Aleksandr A. Serebrov's Game Boy Tetris launched on 1 July 1993 aboard Soyuz TM-17 to the Mir space station. https://www.guinnessworldrecords.com/world-records/109302-first-videogame-in-space",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This addictive falling-block puzzle helped sell millions of Nintendo Game Boys.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Tetris was the Game Boy's US pack-in from July 1989, the bundle 'sold out its initial run of a million copies shortly after release', and Tetris 'contributed to the success of the Game Boy.' https://en.wikipedia.org/wiki/Tetris",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "the-alps": {
    "id": "the-alps",
    "answer": "The Alps",
@@ -18764,6 +20198,44 @@
      "fix": "In this Botticelli painting, a nude goddess drifts ashore standing on a giant scallop shell, blown along by the west wind Zephyr.",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent (fact check for PR #58/#59)"
+    }
+   ]
+  },
+  "the-catcher-in-the-rye": {
+   "id": "the-catcher-in-the-rye",
+   "answer": "The Catcher in the Rye",
+   "checks": [
+    {
+     "position": 1,
+     "text": "According to producer Don Hahn, Disney once floated an animated film called 'Dufus' that would have retold this novel's story with German shepherds.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: in 2020 Don Hahn revealed that Disney had nearly made an animated film called 'Dufus', an adaptation of the novel 'with German shepherds', an idea from Michael Eisner after Salinger would not sell the rights. https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In 1978, after three school board members in Issaquah, Washington, called this novel part of an 'overall communist plot' and got it banned, voters recalled all three.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: in 1978 the book was briefly banned in Issaquah high schools after three School Board members alleged it was part of an 'overall communist plot', and those members were recalled and removed in a special election. Crosscut (reprinted by Cascade PBS) also says the board members who voted for the ban 'were quickly recalled'. https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye https://www.cascadepbs.org/culture/2018/02/why-jd-salingers-catcher-in-rye-still-provokes-boo/",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Mark David Chapman was carrying a copy of this novel, bought that day and signed inside with its narrator's name, when he shot John Lennon.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Chapman was arrested with a copy he had bought that day, inscribed 'To Holden Caulfield, From Holden Caulfield, This is my statement.' https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This 1951 J.D. Salinger novel follows Holden Caulfield, a teenager just expelled from prep school, over a few days in New York City.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: published July 16, 1951; Holden has been expelled from Pencey Preparatory Academy and goes to New York City, where the story unfolds. https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -19269,6 +20741,44 @@
     }
    ]
   },
+  "the-rolling-stones": {
+   "id": "the-rolling-stones",
+   "answer": "The Rolling Stones",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This band named itself after a 1950 Muddy Waters blues song.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Muddy Waters' 'Rollin' Stone' was recorded and released in 1950. Robert Palmer and Jann Wenner say the Rolling Stones took their name from it. https://en.wikipedia.org/wiki/Rollin%27_Stone_(Muddy_Waters_song)",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This band's members became tax exiles in 1971 and cut much of a 1972 double album in the basement of a rented villa in the South of France.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: in 1971 the band had to leave England over unpaid taxes. Keith Richards rented the villa Nellcôte in Villefranche-sur-Mer, whose basement became a makeshift studio where basic tracks were cut. Overdubs were done in Los Angeles, and the double album came out 12 May 1972. https://en.wikipedia.org/wiki/Exile_on_Main_St.",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Founding member Brian Jones drowned in his swimming pool in 1969, less than a month after this band pushed him out.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: on 8 June 1969 Jones was told the group would continue without him. He drowned in the swimming pool at his home, Cotchford Farm, on the night of 2-3 July 1969. https://en.wikipedia.org/wiki/Brian_Jones",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "'(I Can't Get No) Satisfaction' and 'Paint It Black' are anthems of this legendary group.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: '(I Can't Get No) Satisfaction' was the band's first international No. 1, and 'Paint It Black' hit No. 1 in the UK and US in 1966. https://en.wikipedia.org/wiki/The_Rolling_Stones",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "the-simpsons": {
    "id": "the-simpsons",
    "answer": "The Simpsons",
@@ -19342,6 +20852,44 @@
      "evidence": "Phrygian caps, mushroom-shaped houses, Hanna-Barbera series 1981-1989 on NBC. https://en.wikipedia.org/wiki/The_Smurfs",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent (fact check for PR #58/#59)"
+    }
+   ]
+  },
+  "the-sopranos": {
+   "id": "the-sopranos",
+   "answer": "The Sopranos",
+   "checks": [
+    {
+     "position": 1,
+     "text": "The main inspiration for this crime drama's scheming matriarch was the mother of its creator, David Chase.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: 'Series creator David Chase has stated that the main inspiration for the character was his own mother' (Norma Chase), and several of Livia's lines are direct quotes from her. https://en.wikipedia.org/wiki/Livia_Soprano",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "In 2004, this crime drama became the first cable series to win the Emmy for Outstanding Drama Series.",
+     "verdict": "ok",
+     "evidence": "The 56th Primetime Emmy Awards article says the 2004 drama win made the show 'the first cable show, HBO, ever to beat any of the Big Four television networks for that award'; the cited Hollywood Reporter link was paywalled (402). https://en.wikipedia.org/wiki/56th_Primetime_Emmy_Awards",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This crime drama's opening credits follow its lead out of the Lincoln Tunnel and along the New Jersey Turnpike.",
+     "verdict": "ok",
+     "evidence": "The locations site lists the opening shots in order: Tony exits the NJ (western) end of the Lincoln Tunnel and the helix, then NJ Turnpike signs, the toll booth, the Turnpike over the Meadowlands and Exit 13. Wikipedia's main article also describes him emerging from the Lincoln Tunnel and passing the Turnpike tollbooth. https://sopranos-locations.com/season-0/episode-0",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This HBO drama's abrupt cut-to-black ending sparked years of debate over its meaning.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the abrupt cut to black made many viewers think their cable had cut out, and viewers split over whether Tony died. Chase has called the ambiguity deliberate and was still addressing it in a 2024 interview. https://en.wikipedia.org/wiki/Made_in_America_(The_Sopranos)",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -20021,6 +21569,46 @@
     }
    ]
   },
+  "trumpet": {
+   "id": "trumpet",
+   "answer": "Trumpet",
+   "checks": [
+    {
+     "position": 1,
+     "text": "Two of these instruments, one of them silver, were found in Tutankhamun's tomb and were played on BBC radio in 1939.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: a pair of trumpets found in Tutankhamun's burial chamber, 'one of sterling silver and one of bronze or copper', played in an international BBC broadcast aired on 16 April 1939. https://en.wikipedia.org/wiki/Tutankhamun%27s_trumpets",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Joseph Haydn wrote his 1796 concerto for this instrument to show off a new keyed version developed by the virtuoso Anton Weidinger.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Haydn wrote the concerto in 1796 for the virtuoso Anton Weidinger, who 'developed a keyed trumpet which could play chromatically throughout its entire range' (section lightly sourced but standard account). https://en.wikipedia.org/wiki/Trumpet_Concerto_(Haydn)",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Dizzy Gillespie played one with an upturned bell after dancers fell on his at a 1953 party and he liked the sound.",
+     "verdict": "loose",
+     "evidence": "Jazzfuel: on 6 January 1953 at Lorraine Gillespie's birthday party at Snookie's, the comedy duo Stump and Stumpy were fooling around, one shoved the other, who stumbled backward into the horn; Dizzy said 'I played it, and I liked the sound.' Smithsonian also: 'Somebody fell accidentally on Gillespie's trumpet' in 1953 and he liked the sound. https://jazzfuel.com/?p=92367",
+     "problem": "Gillespie's own account is that one member of the comedy duo Stump and Stumpy was shoved by the other and stumbled backward onto the horn; 'dancers fell on his' overstates it as several people falling. (Cited legacy.com page returned 403.)",
+     "fix": "Dizzy Gillespie played one with an upturned bell after a comedian fell on his at a 1953 party and he liked the sound.",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "The highest brass voice in the orchestra, it is what a herald raises to announce a king.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the trumpet is 'a musical instrument with the highest register in the brass family'; herald trumpets are used for ceremonial events and fanfares. https://en.wikipedia.org/wiki/Trumpet",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
   "tulip": {
    "id": "tulip",
    "answer": "Tulip",
@@ -20093,6 +21681,46 @@
      "verdict": "ok",
      "evidence": "Wikipedia: Carnarvon funded Carter's excavations; Carter telegraphed the find on 4 November 1922; Carnarvon died in Cairo on 5 April 1923, and press speculation spread the 'Curse of Tutankhamun'. https://en.wikipedia.org/wiki/George_Herbert,_5th_Earl_of_Carnarvon",
      "checkedOn": "2026-10-19",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "twister": {
+   "id": "twister",
+   "answer": "Twister",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This game is one of four that Bill and Ted pick to beat Death in the 1991 film 'Bill & Ted's Bogus Journey', along with Battleship, Clue and Electric Football.",
+     "verdict": "ok",
+     "evidence": "Wikipedia plot: 'they select modern games like Battleship, Clue, Electric Football and Twister, beating him every time.' https://en.wikipedia.org/wiki/Bill_%26_Ted%27s_Bogus_Journey",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "This game's working title was 'Pretzel', but Milton Bradley renamed it because the toy maker Transogram already owned that trademark for a toy dog.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the game was developed as 'Pretzel', and Milton Bradley renamed it after Mel Taft 'found that Transogram had the trademark to a toy dog named Pretzel'. https://en.wikipedia.org/wiki/Twister_(game)",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Rivals accused its maker of selling 'sex in a box', but sales took off after Eva Gabor played it with Johnny Carson on 'The Tonight Show' in May 1966.",
+     "verdict": "loose",
+     "evidence": "Wikipedia gives May 3, 1966 but flags the claim 'unreliable source?'. Philip Reed's post cites an April 4, 1966 ad that mentions the Tonight Show and quotes 'A Toy is Born' confirming that Gabor was Carson's opponent. https://en.wikipedia.org/wiki/Twister_(game) https://philipjreed.com/?p=73054",
+     "problem": "The 'sex in a box' charge and the Gabor/Carson Tonight Show game are well attested, but the date is disputed. Wikipedia's May 3, 1966 date carries an 'unreliable source?' tag, and a researcher has found a newspaper ad dated April 4, 1966 that already mentions the Tonight Show. Giving the year alone is safer.",
+     "fix": "Rivals accused its maker of selling 'sex in a box', but sales took off after Eva Gabor played it with Johnny Carson on 'The Tonight Show' in 1966.",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "In this game a spinner calls out moves like 'right hand yellow', and players contort themselves across a mat of red, yellow, green and blue circles.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: the spinner is split into left foot, right foot, left hand and right hand, with four colors each, and calls take the form 'right hand yellow'; the mat has four rows of large circles in red, yellow, green and blue. https://en.wikipedia.org/wiki/Twister_(game)",
+     "checkedOn": "2026-11-08",
      "checker": "claude-code-subagent"
     }
    ]
@@ -20825,6 +22453,44 @@
      "verdict": "ok",
      "evidence": "Wikipedia: the Lady Blunt Stradivarius was sold in London in 2011 for $15.9 million. https://en.wikipedia.org/wiki/Stradivarius",
      "checkedOn": "2026-10-12",
+     "checker": "claude-code-subagent"
+    }
+   ]
+  },
+  "vitamin": {
+   "id": "vitamin",
+   "answer": "Vitamin",
+   "checks": [
+    {
+     "position": 1,
+     "text": "This kind of nutrient is so concentrated in polar bear liver that Arctic explorers who ate the liver fell ill.",
+     "verdict": "ok",
+     "evidence": "Science History Institute: polar bears store 'astronomical amounts of vitamin A in their livers'; European explorers who ignored the Indigenous taboo and ate it quickly fell ill. https://www.sciencehistory.org/stories/disappearing-pod/death-by-nutrition/",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "Christiaan Eijkman shared a 1929 Nobel Prize for showing that a diet of polished rice, which lacks one of these nutrients, caused beriberi.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Eijkman shared the 1929 Nobel Prize with Frederick Hopkins; birds fed polished rice developed beriberi symptoms and recovered on unpolished rice, and he concluded polished rice lacked an 'anti-beriberi factor'. (nobelprize.org returned 403.) https://en.wikipedia.org/wiki/Christiaan_Eijkman",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This word was coined in 1912 by biochemist Casimir Funk, who thought these substances were all 'vital amines'.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: Funk 'coined the term vitamines (vital amines)' in 1912; the 'e' was dropped once it was realized vitamins need not be amines. https://en.wikipedia.org/wiki/Casimir_Funk",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "Labeled with letters, this class of nutrients is sold as daily supplement pills.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: vitamins are lettered (the series skips from E to K because F-J were reclassified), and dietary supplements often contain vitamins. https://en.wikipedia.org/wiki/Vitamin",
+     "checkedOn": "2026-11-08",
      "checker": "claude-code-subagent"
     }
    ]
@@ -21936,6 +23602,44 @@
      "evidence": "General description; contagious yawning is covered in Wikipedia. https://en.wikipedia.org/wiki/Yawn",
      "checkedOn": "2026-10-12",
      "checker": "claude-code-subagent (fact check for PR #58/#59)"
+    }
+   ]
+  },
+  "yayoi-kusama": {
+   "id": "yayoi-kusama",
+   "answer": "Yayoi Kusama",
+   "checks": [
+    {
+     "position": 1,
+     "text": "At the 1966 Venice Biennale, this artist spread 1,500 plastic mirrored spheres across a lawn and sold them for $2 each until the organizers made her stop.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: at the 1966 Venice Biennale, Narcissus Garden spread 1,500 plastic reflective silver spheres outdoors, and she sold them for 1,200 lire (US$2) each 'until the Biennale organizers put an end to her enterprise'. https://en.wikipedia.org/wiki/Yayoi_Kusama",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "From 1977 until her death, this artist lived by choice in a psychiatric hospital in Tokyo, working in a studio a short distance away.",
+     "verdict": "ok",
+     "evidence": "Wikipedia: she checked herself in around 1977 and took up permanent residence at Seiwa Hospital, a psychiatric hospital in Shinjuku, Tokyo, where she 'lived at the hospital for the rest of her life, by choice'; her studio was 'a short distance from the hospital'. https://en.wikipedia.org/wiki/Yayoi_Kusama",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "Her giant yellow pumpkin on a pier on the island of Naoshima was swept into the sea by a typhoon in 2021, and its replacement has a hook in the stem for dragging it to safety.",
+     "verdict": "ok",
+     "evidence": "CNN via ABC17: the pumpkin 'was swept away into the sea and broken into three pieces in August 2021', and in the replacement 'a hook was embedded into its stem so it could be easily dragged to safety if another typhoon hits.' https://abc17news.com/entertainment/cnn-style/2022/10/07/yayoi-kusamas-yellow-pumpkin-sculpture-is-back-on-naoshima-island-japan/",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 4,
+     "text": "This Japanese artist, who died at 97 in 2026, covered canvases, rooms and people in polka dots and built the mirrored Infinity Rooms.",
+     "verdict": "ok",
+     "evidence": "Wikipedia and wide news coverage (AP, NPR, SCMP): she died in Tokyo on 14 August 2026, aged 97, and was known for polka dots and Infinity Mirror Rooms. https://en.wikipedia.org/wiki/Yayoi_Kusama",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
     }
    ]
   },
