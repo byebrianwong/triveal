@@ -20712,6 +20712,14 @@
      "evidence": "The 1994 film is based on King's 1982 novella; Andy escapes through his tunnel and the prison sewage pipe. https://en.wikipedia.org/wiki/The_Shawshank_Redemption",
      "checkedOn": "2026-11-08",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "The novella this film adapts is titled after both its prison and a Hollywood star whose pin-up was the first of several to hide the hero's escape tunnel.",
+     "verdict": "ok",
+     "evidence": "Wikipedia gives the novella's full title as 'Rita Hayworth and Shawshank Redemption' (Different Seasons, 1982), naming both Shawshank prison and the actress Rita Hayworth, and says Andy first asked for a large Rita Hayworth poster and that the poster on his cell wall covered a man-sized hole, https://en.wikipedia.org/wiki/Rita_Hayworth_and_Shawshank_Redemption ; LitCharts says Hayworth's poster (1949) came first, that from 1955 Andy replaced it with other pin-ups (Marilyn Monroe, Raquel Welch, and finally Linda Ronstadt), and that the posters 'literally hide Andy's escape route', https://www.litcharts.com/lit/rita-hayworth-and-the-shawshank-redemption/symbols/pin-up-posters",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
     }
    ]
   },
