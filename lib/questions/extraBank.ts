@@ -8702,7 +8702,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "In the wild, this plant grows only within about 75 miles of Wilmington, North Carolina." },
       { position: 2, text: "Charles Darwin called it one of the most wonderful plants in the world and studied it in his 1875 book on insect-eating plants." },
-      { position: 3, text: "It counts: its trigger hairs must be touched twice within about 20 seconds before the trap snaps shut." },
+      { position: 3, text: "It counts: its trigger hairs must be touched twice within about 20 seconds before it reacts." },
       { position: 4, text: "This carnivorous plant snaps its toothy, jaw-like leaves shut on unlucky insects." },
     ],
     decoys: [
@@ -9691,7 +9691,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This puppet's first body was cut from his creator's mother's old spring coat, with halves of a ping-pong ball for eyes." },
-      { position: 2, text: "He debuted in 1955 on Washington, D.C.'s WRC-TV, most famously on 'Sam and Friends,' a short late-night puppet show there." },
+      { position: 2, text: "He first appeared in 1955 on a Washington, D.C., TV station, where he became a regular on the short late-night puppet show 'Sam and Friends.'" },
       { position: 3, text: "He once filled in for Johnny Carson as guest host of 'The Tonight Show,' and in 2002 he got his own star on the Hollywood Walk of Fame." },
       { position: 4, text: "This green puppet, often called Jim Henson's alter ego, sings that it's not easy being green." },
     ],
