@@ -8035,7 +8035,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This novel's author lost the use of a hand at the Battle of Lepanto and spent five years enslaved in Algiers before he wrote a word of it." },
-      { position: 2, text: "After an impostor published a fake sequel in 1614, this novel's author wrote his own, sending his hero to Barcelona instead of Zaragoza just to prove the fake wrong." },
+      { position: 2, text: "When an impostor published a fake sequel in 1614, this novel's author, already deep into his own, sent his hero to Barcelona instead of Zaragoza to prove the fake wrong." },
       { position: 3, text: "This novel inspired a 1965 Broadway musical whose song 'The Impossible Dream' became a standard." },
       { position: 4, text: "In this Spanish novel, a self-appointed knight charges a row of windmills he takes for giants, riding his bony horse Rocinante." },
     ],
@@ -8071,7 +8071,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This legendary ruler's grave and a lead cross naming him were 'found' by Glastonbury Abbey's monks in 1191, in what most historians call a fundraising stunt." },
-      { position: 2, text: "A 12th-century cleric, Geoffrey of Monmouth, turned this shadowy war leader into a king of Britain who conquered Gaul and Norway and defeated a Roman emperor." },
+      { position: 2, text: "A 12th-century cleric, Geoffrey of Monmouth, turned this shadowy war leader into a king of Britain who conquered Gaul and Norway and routed the armies of Rome." },
       { position: 3, text: "In Malory's telling, this ruler's half-sister Morgan le Fay steals the magic scabbard that kept him from bleeding and throws it into a lake." },
       { position: 4, text: "This ruler held court at Camelot with the Knights of the Round Table and was carried off to Avalon after his last battle, at Camlann." },
     ],
@@ -8142,7 +8142,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Human Body",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "This organ makes up about 16% of an adult's total body weight." },
+      { position: 1, text: "This organ is often said to be 16% of an adult's body weight, but that counts the fat beneath it; on its own it is nearer 5.5%." },
       { position: 2, text: "This organ is home to microscopic Demodex mites, which live in the hair follicles of nearly every adult." },
       { position: 3, text: "This organ is only about half a millimetre thick on the eyelids but can be more than 4 mm thick on the palms and soles." },
       { position: 4, text: "This is your largest organ, about two square metres of waterproof covering that keeps microbes out." },
@@ -8161,7 +8161,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "As a young man, this artist carved a sleeping Cupid that was sold to a cardinal as an ancient Roman piece; the cardinal saw through it and invited him to Rome." },
-      { position: 2, text: "Two earlier sculptors started and then abandoned the towering marble block from which this artist carved his most famous statue." },
+      { position: 2, text: "One sculptor began and abandoned the towering marble block from which this artist carved his most famous statue; a second was hired to resume it, but the deal fell through." },
       { position: 3, text: "The only work this artist ever signed is a marble of Mary cradling the dead Jesus; he is said to have carved his name after hearing visitors credit it to someone else." },
       { position: 4, text: "This Renaissance artist painted the Sistine Chapel ceiling and lent his name to the nunchuck-wielding Ninja Turtle." },
     ],
@@ -8214,7 +8214,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Art",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This painting is not a portrait of a real sitter but a tronie — a Dutch study of a face in exotic costume." },
+      { position: 1, text: "This painting was never meant as a portrait of anyone in particular but is a tronie — a Dutch study of a face in exotic costume." },
       { position: 2, text: "When scientists studied this painting in 2018, they found tiny eyelashes and a green curtain, long faded to black, in its seemingly empty background." },
       { position: 3, text: "It hangs in the Mauritshuis in The Hague and is often nicknamed the Mona Lisa of the North." },
       { position: 4, text: "Johannes Vermeer painted it around 1665, and Scarlett Johansson played its young model in a 2003 film." },
@@ -8358,7 +8358,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Mythology",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Every day, this god sends out two ravens, whose names mean Thought and Memory, to fly over the world and bring back news." },
+      { position: 1, text: "Every day, this god sends out two ravens, whose names are traditionally rendered Thought and Memory, to fly over the world and bring back news." },
       { position: 2, text: "He gave up one of his eyes in exchange for a drink from a well of wisdom." },
       { position: 3, text: "He rides an eight-legged horse named Sleipnir, which was born to the trickster god Loki." },
       { position: 4, text: "This All-Father of the Norse gods is remembered, under an Old English form of his name, in the word Wednesday." },
@@ -8432,7 +8432,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Only one of these legendary birds was said to exist at any time, and no ancient source gave it a life shorter than 500 years." },
       { position: 2, text: "Ancient writers said each new one carries its parent's remains, sealed in an egg of myrrh, to the sun god's altar at Heliopolis in Egypt." },
-      { position: 3, text: "San Francisco's flag shows one, a city emblem since at least 1852 that recalls the city's recovery from the great fires of the 1850s." },
+      { position: 3, text: "San Francisco's flag shows one, a city emblem since at least 1852 that recalls the city's recovery from the great fires of 1849 to 1851." },
       { position: 4, text: "This fiery bird of legend is reborn from its own ashes." },
     ],
     decoys: [
@@ -8613,7 +8613,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "This internet celebrity won $710,001 in a lawsuit over iced coffee drinks sold with her face on them." },
       { position: 2, text: "Her real name was Tardar Sauce, and she lived in Arizona until her death in 2019." },
       { position: 3, text: "She got her own animatronic wax figure at Madame Tussauds in San Francisco, and Aubrey Plaza voiced her in a 2014 Lifetime Christmas movie." },
-      { position: 4, text: "This frowning cat's unimpressed face became the internet's favorite way to say no." },
+      { position: 4, text: "This frowning cat's unimpressed face went viral on Reddit and spawned countless grouchy captions written in her voice." },
     ],
     decoys: [
       { text: "Keyboard Cat", eliminatedByClue: 2 },
@@ -8702,7 +8702,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "In the wild, this plant grows only within about 75 miles of Wilmington, North Carolina." },
       { position: 2, text: "Charles Darwin called it one of the most wonderful plants in the world and studied it in his 1875 book on insect-eating plants." },
-      { position: 3, text: "It counts: a trigger hair must be touched twice within about 20 seconds before it reacts." },
+      { position: 3, text: "It counts: its trigger hairs must be touched twice within about 20 seconds before the trap snaps shut." },
       { position: 4, text: "This carnivorous plant snaps its toothy, jaw-like leaves shut on unlucky insects." },
     ],
     decoys: [
@@ -8863,7 +8863,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This craftsman's own investor sued him just as his greatest project was nearly finished, and the court case cost him much of his equipment." },
-      { position: 2, text: "A goldsmith from Mainz, he devised a hand mold for casting metal letters quickly and in bulk." },
+      { position: 2, text: "Probably trained as a goldsmith, this Mainz-born craftsman is traditionally credited with a hand mold for casting metal letters in bulk." },
       { position: 3, text: "His famous 42-line Bible, printed around 1455, survives in fewer than 50 copies." },
       { position: 4, text: "This German is credited with bringing movable-type printing to Europe in the mid-1400s." },
     ],
@@ -8898,7 +8898,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Sports",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This sporting event was dreamed up in 1903 by a sports newspaper looking to sell more copies." },
+      { position: 1, text: "First held in 1903, this sporting event was dreamed up by a sports newspaper looking to sell more copies." },
       { position: 2, text: "In 1913 one rider broke his fork on a mountain descent, walked about 10 km to a village forge and fixed it himself, as this race's rules then required." },
       { position: 3, text: "This race often climbs Alpe d'Huez, whose 21 numbered hairpin bends carry signs naming the riders who won stages finishing at the top." },
       { position: 4, text: "This bicycle race, held over about three weeks each July, puts its overall leader in the yellow jersey." },
@@ -9007,7 +9007,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "A key piece of this technology came from Australian radio astronomers who were hunting for exploding black holes." },
-      { position: 2, text: "Its name was dreamed up by a branding agency and, despite a popular belief, does not stand for anything." },
+      { position: 2, text: "Its name was dreamed up by a branding agency and, despite a popular belief, was never meant to stand for anything." },
       { position: 3, text: "It usually runs on the 2.4 and 5 gigahertz bands — the lower one shared with microwave ovens." },
       { position: 4, text: "This wireless networking standard links laptops and phones to your home router." },
     ],
@@ -9188,7 +9188,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Every tree of one of this flower's most widely planted varieties is a clone, copied by grafting from a single hybrid tree." },
       { position: 2, text: "During the Second World War, some kamikaze pilots had this flower painted on the sides of their planes." },
-      { position: 3, text: "In 1912 the mayor of Tokyo gave Washington, D.C., about 3,000 of its trees, which now ring the Tidal Basin." },
+      { position: 3, text: "In 1912 the mayor of Tokyo gave Washington, D.C., about 3,000 of its trees, the first of which were planted along the Tidal Basin." },
       { position: 4, text: "This pale pink spring flower, a Japanese symbol of the fragility of life, stays in full bloom for only about a week." },
     ],
     decoys: [
@@ -9222,7 +9222,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Art",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Cataracts clouded this painter's color vision in his seventies; in 1914 he wrote that reds had begun to look muddy, and he had surgery in 1923." },
+      { position: 1, text: "Cataracts clouded this painter's color vision in his seventies; he complained that reds had begun to look muddy, and he had surgery in 1923." },
       { position: 2, text: "At his first wife's deathbed in 1879, this painter caught himself studying the blues, yellows and grays on her face, then painted her there." },
       { position: 3, text: "In 2019 one of this painter's haystack scenes sold for $110.7 million, the first Impressionist work to top $100 million at auction." },
       { position: 4, text: "This French founder of Impressionism is often mixed up with Édouard Manet; in 1865, Salon visitors even praised Manet for this painter's seascapes." },
@@ -9242,7 +9242,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This painter went broke in 1656, and his house and art collection were sold off to pay his creditors." },
       { position: 2, text: "He painted, drew and etched his own face nearly a hundred times, from cocky youth to wrinkled old age." },
-      { position: 3, text: "His most famous group portrait, of an Amsterdam militia company, got its nickname from darkened varnish — the scene is actually set in daylight." },
+      { position: 3, text: "His most famous group portrait, of an Amsterdam militia company, got its nickname from darkened varnish — it was never meant as a night scene." },
       { position: 4, text: "This 17th-century Dutch master of light and shadow, born in Leiden, is often called the greatest painter of the Dutch Golden Age." },
     ],
     decoys: [
@@ -9312,7 +9312,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Art",
     difficulty: "hard",
     clues: [
-      { position: 1, text: "This print's striking blue came from Prussian blue, a synthetic pigment newly imported to Japan from Europe." },
+      { position: 1, text: "This print's striking blue came largely from Prussian blue, a synthetic pigment invented in Berlin that had only just become cheap and plentiful in Japan." },
       { position: 2, text: "As a woodblock print it was pressed thousands of times, so dozens of museums around the world own an original." },
       { position: 3, text: "It opens Hokusai's series 'Thirty-six Views of Mount Fuji,' with the snowy peak tiny in the distance." },
       { position: 4, text: "This Japanese print shows a towering, claw-tipped breaker about to crash down on three boats full of rowers." },
@@ -9402,7 +9402,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Human Body",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "In 1901 this hormone became the first ever crystallized in pure form, a feat credited to Japanese chemist Jokichi Takamine." },
+      { position: 1, text: "In 1900, in the lab of Japanese chemist Jokichi Takamine, this hormone became the first ever crystallized in pure form." },
       { position: 2, text: "This hormone's official U.S. drug name is a different word, because its common name was too close to a drug company's trademark." },
       { position: 3, text: "Doctors give this hormone every three to five minutes during CPR to try to restart a stopped heart." },
       { position: 4, text: "This 'fight or flight' hormone is what an EpiPen injects to stop a severe allergic reaction." },
@@ -9673,7 +9673,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This character first appeared in a 1902 novel for adults, two years before he took the stage in London." },
-      { position: 2, text: "His author gave the rights to him to a London children's hospital in 1929, and the hospital still collects the royalties." },
+      { position: 2, text: "His author gave the rights to him to a London children's hospital in 1929, and a special UK law lets it collect royalties in perpetuity." },
       { position: 3, text: "On stage he has traditionally been played by a woman, from Nina Boucicault in 1904 to Mary Martin and Cathy Rigby on Broadway." },
       { position: 4, text: "He is J. M. Barrie's boy who never grows up and leads the Lost Boys in Neverland." },
     ],
@@ -9691,7 +9691,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This puppet's first body was cut from his creator's mother's old spring coat, with halves of a ping-pong ball for eyes." },
-      { position: 2, text: "He first appeared in 1955 on 'Sam and Friends,' a short late-night puppet show on a Washington, D.C., TV station." },
+      { position: 2, text: "He debuted in 1955 on Washington, D.C.'s WRC-TV, most famously on 'Sam and Friends,' a short late-night puppet show there." },
       { position: 3, text: "He once filled in for Johnny Carson as guest host of 'The Tonight Show,' and in 2002 he got his own star on the Hollywood Walk of Fame." },
       { position: 4, text: "This green puppet, often called Jim Henson's alter ego, sings that it's not easy being green." },
     ],
@@ -9746,7 +9746,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "A German toy company and a Brooklyn shopkeeper both started making this toy around 1902, apparently independently of each other." },
       { position: 2, text: "In 1907 a Michigan priest told his parish that this new toy, unlike dolls, threatened little girls' maternal instincts." },
-      { position: 3, text: "After the Titanic sank in 1912, a British retailer ordered black versions of this toy from Steiff, and only 494 were made." },
+      { position: 3, text: "In 1912 a British retailer ordered black versions of this toy from Steiff, reportedly to mourn the Titanic, and only 494 were made." },
       { position: 4, text: "This toy got its name after a 1902 hunting trip on which a U.S. president refused to shoot a captured animal tied to a tree." },
     ],
     decoys: [
