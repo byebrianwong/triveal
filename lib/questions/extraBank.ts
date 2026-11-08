@@ -8144,7 +8144,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This organ is often said to be 16% of an adult's body weight, but that counts the fat beneath it; on its own it is nearer 5.5%." },
       { position: 2, text: "This organ is home to microscopic Demodex mites, which live in the hair follicles of nearly every adult." },
-      { position: 3, text: "This organ is only about half a millimetre thick on the eyelids but can be more than 4 mm thick on the palms and soles." },
+      { position: 3, text: "This organ is only about half a millimetre thick on the eyelids but up to about 4 mm thick on the heels of the feet." },
       { position: 4, text: "This is your largest organ, about two square metres of waterproof covering that keeps microbes out." },
     ],
     decoys: [

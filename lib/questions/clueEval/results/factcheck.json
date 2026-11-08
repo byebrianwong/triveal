@@ -20110,6 +20110,14 @@
      "evidence": "'From the ashes in the pyre a new phoenix would spring to life.' https://www.encyclopedia.com/social-sciences/encyclopedias-almanacs-transcripts-and-maps/phoenix",
      "checkedOn": "2026-11-08",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "San Francisco's flag shows one, a city emblem since at least 1852 that recalls the city's recovery from the great fires of 1849 to 1851.",
+     "verdict": "ok",
+     "evidence": "Wikipedia says the flag has 'a phoenix rising from flames' at its centre and that the phoenix has been a civic symbol 'at least since 1852, when it featured on the first official seal of the city' https://en.wikipedia.org/wiki/Flag_of_San_Francisco ; the SFFD Museum says the Common Council adopted a corporation seal with a phoenix on November 4, 1852, emblematic of the city's recovery from 'the six great fires of its early days' https://guardiansofthecity.org/sffd/museum_collections/badges/phoenix_story.html ; the Museum of the City of San Francisco dates the first great fire to December 24, 1849 and the later great fires to May 4 and June 22, 1851 https://sfmuseum.org/hist1/fire.html",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -23934,6 +23942,16 @@
      "text": "This is your largest organ, about two square metres of waterproof covering that keeps microbes out.",
      "verdict": "ok",
      "evidence": "National Geographic: 'Skin is our largest organ', adults have '22 square feet (2 square meters)' of it, a 'waterproof, insulating shield' that exudes antibacterial substances to prevent infection. https://www.nationalgeographic.com/science/article/skin-1",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "This organ is only about half a millimetre thick on the eyelids but can be more than 4 mm thick on the palms and soles.",
+     "verdict": "loose",
+     "evidence": "The University of Leeds histology guide says: 'The thickness of skin varies from 0.5mm thick on the eyelids to 4.0mm thick on the heels of your feet.' https://histology.leeds.ac.uk/home/skin/skin_layers/ ; Medical News Today says: 'The skin on the eyelids is only 0.5 millimeters (mm) thick, while the skin on the heels can be up to 4 mm thick.' https://www.medicalnewstoday.com/articles/thin-skin ; NCI SEER says the epidermis alone is '.05 mm thick on the eyelids, and is 1.5 mm thick on the palms and the soles of the feet.' https://training.seer.cancer.gov/melanoma/anatomy/layers.html",
+     "problem": "The eyelid figure (about 0.5 mm whole-skin) is supported, but the sources I opened put the top of the range at about 4 mm, and on the heels, not on the palms and soles in general: Leeds says 4.0 mm and Medical News Today says up to 4 mm. None supports 'more than 4 mm', and none gives the palms a 4 mm thickness. The palms-and-soles figure that is usually quoted, 1.5 mm, is for the epidermis only.",
+     "fix": "This organ is only about half a millimetre thick on the eyelids but up to about 4 mm thick on the heels of the feet.",
      "checkedOn": "2026-11-08",
      "checker": "claude-code-subagent"
     }
