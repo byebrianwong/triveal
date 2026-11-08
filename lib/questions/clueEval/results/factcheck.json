@@ -14266,6 +14266,14 @@
      "evidence": "Wikipedia says he has often been called Jim Henson's 'soft-spoken alter-ego' and that he performed the hit 'Bein' Green' (the song whose line is 'it's not easy being green') on Sesame Street in 1970. https://en.wikipedia.org/wiki/Kermit_the_Frog",
      "checkedOn": "2026-11-08",
      "checker": "claude-code-subagent"
+    },
+    {
+     "position": 2,
+     "text": "He first appeared in 1955 on a Washington, D.C., TV station, where he became a regular on the short late-night puppet show 'Sam and Friends.'",
+     "verdict": "ok",
+     "evidence": "Wikipedia says Sam and Friends ran from May 9, 1955 to 1961 on WRC-TV and aired live as a local series in Washington, D.C. Its broadcast table lists a weeknight 23:30-23:35 slot, and the lead says it aired twice daily, so it also had an earlier slot, but 'late-night' is not false. Kermit's Wikipedia article also gives his 1955 debut as WRC-TV. https://en.wikipedia.org/wiki/Sam_and_Friends and https://en.wikipedia.org/wiki/Kermit_the_Frog. Open Culture describes 'a live television show comprised of five-minute episodes' that aired 'between the evening news and The Tonight Show,' and says 'Kermit debuted ... in the spring of 1955 as an ensemble member of Sam and Friends.' https://www.openculture.com/2021/02/witness-the-birth-of-kermit-the-frog.html",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
     }
    ]
   },
@@ -29726,6 +29734,14 @@
      "text": "This carnivorous plant snaps its toothy, jaw-like leaves shut on unlucky insects.",
      "verdict": "ok",
      "evidence": "When an insect brushes the trap's bristles two or more times, it 'springs shut in less than a second.' The cited NC State Extension page now redirects to YouTube. https://www.ncpedia.org/carnivorous-plant-venus-flytrap",
+     "checkedOn": "2026-11-08",
+     "checker": "claude-code-subagent"
+    },
+    {
+     "position": 3,
+     "text": "It counts: its trigger hairs must be touched twice within about 20 seconds before it reacts.",
+     "verdict": "ok",
+     "evidence": "Wikipedia says that when an insect touches a trigger hair 'the trap prepares to close, only fully enclosing the prey if a second hair is contacted within (approximately) twenty seconds of the first contact,' and that one hair touched twice in quick succession also works. This two-touch counting is the finding of Böhm et al. 2016 (Current Biology), which puts the window at 15-20 s, so 'about 20 seconds' is supported. https://en.wikipedia.org/wiki/Venus_flytrap",
      "checkedOn": "2026-11-08",
      "checker": "claude-code-subagent"
     }
