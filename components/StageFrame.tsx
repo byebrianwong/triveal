@@ -1,4 +1,8 @@
+"use client";
+
+import { useRef } from "react";
 import { SiteLinks } from "./chrome";
+import { useFitAboveKeyboard } from "./useFitAboveKeyboard";
 
 /**
  * Small stars scattered over the open background on desktop. Positions are in
@@ -20,11 +24,18 @@ const DESKTOP_STARS = [
  * snapshots match what players see.
  */
 export function StageFrame({ children }: { children: React.ReactNode }) {
+  const frameRef = useRef<HTMLDivElement>(null);
+  useFitAboveKeyboard(frameRef);
   return (
     // The background fills the whole window at every size. The game sits
     // straight on it rather than inside a bordered card, so the browser
-    // window is the only frame.
-    <div className="stage relative flex h-dvh w-full flex-col overflow-hidden">
+    // window is the only frame. While a phone keyboard is up it is held over
+    // the part of the screen that is still visible (see useFitAboveKeyboard).
+    // It is also the "stage" container the keyboard-up-short variant measures.
+    <div
+      ref={frameRef}
+      className="stage relative flex h-dvh w-full flex-col overflow-hidden [container:stage/size]"
+    >
       <div className="pointer-events-none absolute inset-0 hidden lg:block" aria-hidden>
         {DESKTOP_STARS.map((s) => (
           <span
@@ -41,7 +52,7 @@ export function StageFrame({ children }: { children: React.ReactNode }) {
         {children}
       </div>
       {/* Desktop only. Phones show these at the end of the result screens. */}
-      <SiteLinks className="relative hidden flex-none items-center justify-between px-9 pb-4 lg:flex" />
+      <SiteLinks className="relative hidden flex-none items-center justify-between px-9 pb-4 lg:flex keyboard-up:hidden" />
     </div>
   );
 }

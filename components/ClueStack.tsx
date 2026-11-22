@@ -43,6 +43,28 @@ interface ClueStackProps {
 }
 
 /**
+ * Scroll the list so the live clue is in view. That normally means the very
+ * bottom, where the live clue sits. When the list is shorter than the live
+ * clue (a small phone with the keyboard up), stop where the clue starts
+ * instead, so its first line shows rather than its last.
+ */
+function scrollToLiveClue(list: HTMLElement, live: HTMLElement | null, behavior: ScrollBehavior) {
+  const bottom = list.scrollHeight - list.clientHeight;
+  let top = bottom;
+  if (live) {
+    // Layout offsets, not screen positions: the card may still be sliding in.
+    // The list is the card's offsetParent. The "Clue N" pill sticks out above
+    // the card, so its (negative) offset keeps it in view too.
+    const overhang = Math.min(0, ...Array.from(live.children, (c) => (c instanceof HTMLElement ? c.offsetTop : 0)));
+    top = Math.max(0, Math.min(bottom, live.offsetTop + overhang - LIVE_CLUE_GAP_PX));
+  }
+  list.scrollTo({ top, behavior });
+}
+
+/** Space left above the live clue when the list stops at its start. */
+const LIVE_CLUE_GAP_PX = 2;
+
+/**
  * Scrollable clue history for a round in play: earlier clues recede into dim
  * cards carrying the wrong guess made on them; the live clue glows gold at the
  * bottom. Once the round ends the stage swaps to the result panel, which shows
@@ -50,20 +72,22 @@ interface ClueStackProps {
  */
 export function ClueStack({ clues, clueIndex, wrongGuesses }: ClueStackProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
+  const liveRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const el = scrollRef.current;
     if (!el) return;
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    el.scrollTo({ top: el.scrollHeight, behavior: reduce ? "auto" : "smooth" });
+    scrollToLiveClue(el, liveRef.current, reduce ? "auto" : "smooth");
   }, [clueIndex]);
 
-  // When the list changes size (the window is resized, or a miss message
-  // appears above it), jump back to the bottom so the live clue stays in view.
+  // When the list changes size (the window is resized, the keyboard opens,
+  // or a miss message appears above it), jump back to the live clue so it
+  // stays in view.
   useEffect(() => {
     const el = scrollRef.current;
     if (!el || typeof ResizeObserver === "undefined") return;
-    const observer = new ResizeObserver(() => el.scrollTo({ top: el.scrollHeight }));
+    const observer = new ResizeObserver(() => scrollToLiveClue(el, liveRef.current, "auto"));
     observer.observe(el);
     return () => observer.disconnect();
   }, []);
@@ -87,11 +111,11 @@ export function ClueStack({ clues, clueIndex, wrongGuesses }: ClueStackProps) {
         role="region"
         aria-label="Clues"
         tabIndex={0}
-        className="scroll-thin flex min-h-0 flex-1 flex-col gap-2.5 overflow-y-auto px-0.5 py-2 focus-visible:rounded-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold lg:flex-initial lg:gap-3 lg:py-3.5"
+        className="scroll-thin relative flex min-h-0 flex-1 flex-col gap-2.5 overflow-y-auto px-0.5 py-2 focus-visible:rounded-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold lg:flex-initial lg:gap-3 lg:py-3.5"
       >
         {clues.slice(0, clueIndex + 1).map((text, i) =>
           i === clueIndex ? (
-            <div key={i} className="clue-live clue-enter relative flex-none rounded-2xl p-4 pt-5 text-center lg:rounded-3xl lg:px-8 lg:pb-7 lg:pt-8">
+            <div key={i} ref={liveRef} className="clue-live clue-enter relative flex-none rounded-2xl p-4 pt-5 text-center lg:rounded-3xl lg:px-8 lg:pb-7 lg:pt-8">
               <div className="pill-gold absolute -top-2.5 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full px-3 py-px text-[10px] font-semibold uppercase tracking-wide lg:-top-3 lg:px-4 lg:py-0.5 lg:text-[11.5px]">
                 Clue {i + 1}{isGiveaway(i) ? " · giveaway" : ""}
               </div>

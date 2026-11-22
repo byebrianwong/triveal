@@ -1,5 +1,26 @@
 @import "tailwindcss";
 
+/*
+  Styles for while a phone's on-screen keyboard is up, e.g. keyboard-up:hidden.
+  StageFrame sets data-keyboard="up" on the page frame then (see
+  components/useFitAboveKeyboard.ts).
+*/
+@custom-variant keyboard-up (&:where([data-keyboard="up"] *));
+
+/*
+  The same, but only when the space left above the keyboard is short: about
+  what an iPhone mini or SE has, where the game header and a clue no longer
+  fit together. Measured against the page frame, which StageFrame makes a
+  container named "stage" and sizes to the visible area.
+*/
+@custom-variant keyboard-up-short {
+  @container stage (height < 24rem) {
+    &:where([data-keyboard="up"] *) {
+      @slot;
+    }
+  }
+}
+
 :root {
   --gold: #e8b94a;
   --gold-lt: #f6dd9b;

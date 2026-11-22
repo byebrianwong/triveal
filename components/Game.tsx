@@ -157,7 +157,7 @@ export function Game({ puzzle, config }: { puzzle: PuzzleDto; config: GameConfig
         subline drops to its own centred line under the title row. On desktop
         all three share one row across the top of the window.
       */}
-      <header className="relative grid flex-none grid-cols-[1fr_auto] items-center px-5 pt-4 lg:grid-cols-[auto_1fr_auto] lg:gap-x-6 lg:px-10 lg:pt-7">
+      <header className="relative grid flex-none grid-cols-[1fr_auto] items-center px-5 pt-4 lg:grid-cols-[auto_1fr_auto] lg:gap-x-6 lg:px-10 lg:pt-7 keyboard-up-short:hidden">
         <div className="spotlight pointer-events-none absolute -top-11 left-1/2 h-40 w-64 -translate-x-1/2 lg:hidden" />
         <span className="twinkle absolute left-6 top-14 text-[9px] text-[#cdb9ff] lg:hidden" aria-hidden>✦</span>
         <span className="twinkle absolute right-6 top-24 text-[8px] text-pink-lt [animation-delay:1.2s] lg:hidden" aria-hidden>✦</span>
@@ -175,6 +175,11 @@ export function Game({ puzzle, config }: { puzzle: PuzzleDto; config: GameConfig
         pinned answer box. On desktop they sit side by side in the middle of
         the window, each only as tall as its content, so the clue, the answer
         box and the medallion stay together instead of at opposite edges.
+
+        While a phone keyboard is up there is only room for the clues and the
+        answer box, so the prize, the clue dots and the links under the button
+        hide until it closes (keyboard-up:). On short screens, like an iPhone
+        SE's, the header hides too (keyboard-up-short:).
       */}
       <div
         className={`flex min-h-0 flex-1 flex-col ${
@@ -182,7 +187,7 @@ export function Game({ puzzle, config }: { puzzle: PuzzleDto; config: GameConfig
         }`}
       >
         {playing && (
-          <div className="relative flex-none px-5 lg:w-56 lg:px-0">
+          <div className="relative flex-none px-5 lg:w-56 lg:px-0 keyboard-up:hidden">
             <div className="spotlight pointer-events-none absolute left-1/2 top-1/2 hidden h-80 w-80 -translate-x-1/2 -translate-y-1/2 lg:block" />
             <div className="relative flex items-center justify-center gap-2 lg:flex-col lg:gap-5">
               <StarHost expression={expression} size={52} className="lg:h-[76px] lg:w-[76px]" />
@@ -253,7 +258,7 @@ export function Game({ puzzle, config }: { puzzle: PuzzleDto; config: GameConfig
           {/* Pinned input */}
           {playing && (
             <footer className="flex-none px-5 pb-5 pt-1.5 lg:px-0 lg:pb-0 lg:pt-4">
-              <div className="mb-3.5 flex justify-center gap-2.5 lg:mb-5 lg:gap-3" aria-hidden>
+              <div className="mb-3.5 flex justify-center gap-2.5 lg:mb-5 lg:gap-3 keyboard-up:hidden" aria-hidden>
                 {Array.from({ length: puzzle.clueCount }, (_, i) => (
                   <span
                     key={i}
@@ -293,7 +298,7 @@ export function Game({ puzzle, config }: { puzzle: PuzzleDto; config: GameConfig
                   )}
                 </button>
               </form>
-              <div className="mt-2 flex items-center justify-between text-[13px] font-medium text-lav-lt lg:mt-3 lg:text-[15px]">
+              <div className="mt-2 flex items-center justify-between text-[13px] font-medium text-lav-lt lg:mt-3 lg:text-[15px] keyboard-up:hidden">
                 {onLastClue ? (
                   <span className="text-lav">Last clue — make it count</span>
                 ) : (
@@ -314,7 +319,7 @@ export function Game({ puzzle, config }: { puzzle: PuzzleDto; config: GameConfig
                 </button>
               </div>
               {(config.footerLink || config.footerLinkAlt) && (
-                <div className="mt-2 flex items-center justify-center gap-4 text-center lg:mt-7 lg:gap-6">
+                <div className="mt-2 flex items-center justify-center gap-4 text-center lg:mt-7 lg:gap-6 keyboard-up:hidden">
                   {[config.footerLink, config.footerLinkAlt].map(
                     (link, i) =>
                       link && (
