@@ -16,6 +16,11 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: "#1d2c63",
+  // An on-screen keyboard covers the page instead of shrinking it. This is
+  // already the default in Chrome and Safari; naming it makes every browser
+  // that reads it behave the same way, which StageFrame relies on to tell
+  // when the keyboard is up.
+  interactiveWidget: "resizes-visual",
 };
 
 export default function RootLayout({
