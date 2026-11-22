@@ -4958,7 +4958,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This show's creator has said the stress of making its first season cost him at least six of his teeth." },
       { position: 2, text: "This show's star, Lee Jung-jae, became the first Asian actor to win the Emmy for lead actor in a drama." },
-      { position: 3, text: "This show sent sales of plain white Vans slip-ons up about 7,800% as fans copied its contestants' look for Halloween." },
+      { position: 3, text: "This show sent online searches for plain white Vans slip-ons up about 7,800% as fans copied its contestants' look for Halloween." },
       { position: 4, text: "This 2021 Korean survival series became Netflix's most-watched show ever." },
     ],
     decoys: [
@@ -5425,7 +5425,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This singer plays live alone, looping his own guitar and voice on a pedal to fill whole stadiums." },
-      { position: 2, text: "This singer titles his albums with math symbols, such as '+', '×' and '÷'." },
+      { position: 2, text: "This singer titled a five-album series with math symbols, such as '+', '×' and '÷'." },
       { position: 3, text: "This singer made a cameo as a singing Lannister soldier in a 2017 episode of 'Game of Thrones'." },
       { position: 4, text: "This red-haired English singer had huge hits with 'Shape of You' and 'Perfect'." },
     ],
@@ -5588,7 +5588,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Two of these instruments, one of them silver, were found in Tutankhamun's tomb and were played on BBC radio in 1939." },
       { position: 2, text: "Joseph Haydn wrote his 1796 concerto for this instrument to show off a new keyed version developed by the virtuoso Anton Weidinger." },
-      { position: 3, text: "Dizzy Gillespie played one with an upturned bell after dancers fell on his at a 1953 party and he liked the sound." },
+      { position: 3, text: "Dizzy Gillespie played one with an upturned bell after a comedian fell on his at a 1953 party and he liked the sound." },
       { position: 4, text: "The highest brass voice in the orchestra, it is what a herald raises to announce a king." },
     ],
     decoys: [
@@ -6111,7 +6111,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "This amphibian's genome is more than ten times the size of a human's, and in 2018 it became the largest genome ever sequenced." },
       { position: 2, text: "It can regrow lost limbs, and even parts of its heart and brain, without scarring." },
       { position: 3, text: "Nearly extinct in its only wild home, the canals of Mexico City, it thrives in labs and aquariums." },
-      { position: 4, text: "Pink with a permanent 'smile,' this amphibian became a beloved character in the game Minecraft." },
+      { position: 4, text: "Often pink in captivity, with a permanent 'smile,' this amphibian became a beloved character in the game Minecraft." },
     ],
     decoys: [
       { text: "Newt", eliminatedByClue: 2 },
@@ -6127,7 +6127,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "Venezuelans traditionally eat this semi-aquatic animal during Lent, because a churchman reportedly got the Vatican to class it as fish." },
-      { position: 2, text: "This animal is so tolerant that birds, and even monkeys, are often seen sitting calmly on its back." },
+      { position: 2, text: "This animal is so tolerant that birds perch on its back and, in zoos, even monkeys ride it calmly." },
       { position: 3, text: "This animal has soaked in hot baths at a Japanese zoo since 1982, when a staff member saw the animals huddling in a warm puddle." },
       { position: 4, text: "This South American grazer, which can weigh more than 100 pounds, is the world's largest living rodent." },
     ],
@@ -6181,7 +6181,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This land holds the world's largest national park, which covers about 972,000 square kilometers of its northeast." },
-      { position: 2, text: "Apart from a few spots in the south, no roads link this land's towns, so boats, helicopters and planes carry people between them." },
+      { position: 2, text: "No ordinary road links any two of this land's towns, so boats, helicopters and planes carry people between them." },
       { position: 3, text: "This land stopped being a Danish colony in 1953 and won home rule from Denmark in 1979." },
       { position: 4, text: "The world's largest island, this Arctic territory is about four-fifths covered by a thick ice sheet." },
     ],
@@ -6272,7 +6272,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This food was the subject of a 1957 BBC April Fools' report that showed a Swiss family harvesting it from trees." },
       { position: 2, text: "A popular legend says Marco Polo brought this food back from China, but a Genoese soldier's will listed a basket of it in 1279." },
-      { position: 3, text: "Italian law requires the dried version of this food to be made only from durum wheat semolina and water." },
+      { position: 3, text: "Italian law requires the standard dried version of this food to be made from durum wheat semolina and water, with egg versions classed separately." },
       { position: 4, text: "Spaghetti, penne and macaroni are all shapes of this Italian staple, usually boiled and served with sauce." },
     ],
     decoys: [
@@ -6325,7 +6325,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This era's 'father' is often said to be the poet Petrarch, who is also credited with coming up with the idea of the 'Dark Ages.'" },
-      { position: 2, text: "Many historians date this era's start to 1401, when Florence held a contest to design new bronze doors for its Baptistery." },
+      { position: 2, text: "One proposed start date for this era is 1401, when Florence held a contest to design new bronze doors for its Baptistery." },
       { position: 3, text: "In 1497, during this era, followers of the friar Savonarola burned mirrors, books and paintings in Florence's Bonfire of the Vanities." },
       { position: 4, text: "Leonardo da Vinci and Michelangelo were geniuses of this cultural 'rebirth' in Europe." },
     ],
@@ -6342,7 +6342,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "History",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This standoff takes its name from a phrase George Orwell used in a 1945 essay about the atomic bomb." },
+      { position: 1, text: "This standoff's name seems to have been first applied to the postwar world by George Orwell, in a 1945 essay about the atomic bomb." },
       { position: 2, text: "The hotline set up in 1963 during this standoff was never a red telephone but a set of teletype machines." },
       { position: 3, text: "During this standoff, the 1980 and 1984 Summer Olympics were each hit by a boycott, the second widely seen as payback for the first." },
       { position: 4, text: "Symbolized by the Berlin Wall, this frosty rivalry finally thawed when the USSR collapsed in 1991." },
@@ -6489,7 +6489,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "In this movie, a briefcase glows when it is opened, and the audience is never told what is inside." },
       { position: 2, text: "Its chapters run out of order, so a character shot dead midway is walking around again by the closing scene." },
       { position: 3, text: "Quentin Tarantino took the Palme d'Or at Cannes in 1994 and won an Oscar for its screenplay." },
-      { position: 4, text: "John Travolta and Samuel L. Jackson play hitmen who debate Amsterdam burgers in Tarantino's 1994 crime mosaic." },
+      { position: 4, text: "John Travolta and Samuel L. Jackson play hitmen who chat about Amsterdam hash bars and Paris burger names in Tarantino's 1994 crime mosaic." },
     ],
     decoys: [
       { text: "Goodfellas", eliminatedByClue: 2 },
@@ -6543,7 +6543,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "This show's title character first appeared in 2013 promotional sketches for NBC Sports' coverage of English Premier League soccer." },
       { position: 2, text: "Brendan Hunt, one of this show's co-creators, also plays the title character's quiet assistant, Coach Beard." },
       { position: 3, text: "Brett Goldstein won back-to-back Emmys for playing gruff veteran footballer Roy Kent on this show." },
-      { position: 4, text: "AFC Richmond's relentlessly optimistic, mustachioed American manager lends his name to this Apple TV+ comedy." },
+      { position: 4, text: "AFC Richmond's relentlessly optimistic, mustachioed American manager lends his name to this Apple TV comedy." },
     ],
     decoys: [
       { text: "Friday Night Lights", eliminatedByClue: 1 },
@@ -6686,7 +6686,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This game's characters speak an invented gibberish, so players end up imagining their own dialogue for them." },
       { position: 2, text: "In 2002 this game passed Myst to become the best-selling PC game in history up to that time, with over 6.3 million copies sold." },
-      { position: 3, text: "Will Wright pitched it after losing his house in a wildfire, and executives were sure a game about doing laundry would flop." },
+      { position: 3, text: "Will Wright conceived this game after losing his home in the 1991 Oakland firestorm, but Maxis's skeptical board gave his 'virtual doll house' little support." },
       { position: 4, text: "In this Maxis life-simulation game, players build houses and guide the daily lives of virtual people." },
     ],
     decoys: [
@@ -6918,7 +6918,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Music",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This singer first uploaded his songs to YouTube in December 2010 under the username 'xoxxxoooxo', keeping his identity hidden at first." },
+      { position: 1, text: "This singer posted three songs to YouTube in December 2010 under the username 'xoxxxoooxo', keeping his identity hidden at first." },
       { position: 2, text: "This singer dropped the last 'e' from a common word in his stage name to avoid a trademark clash with a Canadian pop rock band." },
       { position: 3, text: "In 2021 Billboard named this Toronto singer's 90-week hit the No. 1 song on its Greatest of All Time Hot 100 chart." },
       { position: 4, text: "Born Abel Tesfaye, this Toronto R&B star headlined the 2021 Super Bowl halftime show." },
@@ -7046,7 +7046,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "A Japanese engineer introduced this square pattern in 1994 so a car-parts maker could track components faster than a striped label allowed." },
       { position: 2, text: "This pattern's inventor got the idea for its black-and-white layout while playing the board game Go over lunch." },
-      { position: 3, text: "Denso Wave chose never to enforce its patent, which is why the format spread worldwide for nothing." },
+      { position: 3, text: "This format's maker, Denso Wave, declared from the outset that it would not exercise its patent rights, letting anyone use it at no cost." },
       { position: 4, text: "The pandemic put this scannable black-and-white square on every restaurant table in place of a paper menu." },
     ],
     decoys: [
@@ -7242,7 +7242,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Pop Culture",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This movie monster's 1954 debut opens with a fishing boat engulfed by a blinding flash, echoing the Lucky Dragon No. 5, whose crew was hit by H-bomb fallout that March." },
+      { position: 1, text: "This movie monster's 1954 debut opens with a freighter engulfed by a blinding flash, echoing the Lucky Dragon No. 5, whose crew was hit by H-bomb fallout that March." },
       { position: 2, text: "In 2024 this monster's film 'Minus One' won the Oscar for Best Visual Effects, the franchise's first nomination in 70 years." },
       { position: 3, text: "The 1954 original put a man in a rubber suit into a miniature Tokyo because stop-motion cost too much." },
       { position: 4, text: "This atomic-breathed kaiju's Japanese name fuses the words for gorilla and whale." },
@@ -7407,7 +7407,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "This telescope's main mirror was ground wrong by about one-fiftieth the width of a human hair, so its first pictures came back blurred." },
       { position: 2, text: "Its launch was put off for years after the Challenger disaster, and it finally rode into orbit in the shuttle Discovery's cargo bay." },
       { position: 3, text: "Pointed at an apparently empty speck of sky for ten days, it found thousands of galaxies in the Deep Field image." },
-      { position: 4, text: "Orbiting 540 km up since 1990, this observatory is named for the astronomer who showed the universe is expanding." },
+      { position: 4, text: "Released more than 600 km up in 1990 and now below 500 km, this observatory is named for the astronomer whose galaxy measurements revealed the universe is expanding." },
     ],
     decoys: [
       { text: "James Webb Space Telescope", eliminatedByClue: 2 },
@@ -7442,7 +7442,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "The insurance market Lloyd's of London charges no higher rates for ships sailing through this stretch of sea." },
       { position: 2, text: "A 1964 magazine article coined this area's name; a librarian who later checked its cases called the legend 'a manufactured mystery.'" },
-      { position: 3, text: "The legend grew out of Flight 19, five Navy bombers that vanished on a training run out of Florida in 1945." },
+      { position: 3, text: "Flight 19, five Navy bombers that vanished on a training run out of Florida in 1945, helped build this area's legend." },
       { position: 4, text: "This patch of the Atlantic, bounded roughly by Miami, Puerto Rico and a British island territory, is blamed for swallowing ships and planes." },
     ],
     decoys: [
@@ -7513,7 +7513,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "hard",
     clues: [
       { position: 1, text: "Runes on a marble parapet in this domed building's upper gallery, probably carved by a Viking in the Byzantine emperor's guard, seem to spell the name Halfdan." },
-      { position: 2, text: "This building was the world's largest cathedral for nearly a thousand years, until Seville Cathedral overtook it in the early 1500s." },
+      { position: 2, text: "This building was the world's largest church for more than five centuries, until the abbey church at Cluny outgrew it in the 12th century." },
       { position: 3, text: "Christian mosaics share the walls with vast Arabic calligraphy roundels, because it has been a cathedral, then a mosque, then a museum, and since 2020 a mosque again." },
       { position: 4, text: "This Istanbul landmark was built as a church by the emperor Justinian, and its Greek name means 'Holy Wisdom'." },
     ],
@@ -7532,7 +7532,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "The text on this slab is a decree issued by priests at Memphis in 196 BC to affirm the royal cult of Ptolemy V." },
       { position: 2, text: "In 2022 former Egyptian antiquities minister Zahi Hawass led a petition demanding this slab's return from London to Egypt." },
-      { position: 3, text: "Napoleon's soldiers pulled it out of a fort wall in Egypt in 1799, the British carried it off two years later, and it has sat in the British Museum ever since." },
+      { position: 3, text: "Napoleon's soldiers pulled it out of a fort wall in Egypt in 1799, the British carried it off two years later, and it has sat in the British Museum almost continuously since 1802." },
       { position: 4, text: "This dark slab let Jean-François Champollion finally crack Egyptian hieroglyphs in 1822." },
     ],
     decoys: [
@@ -7567,7 +7567,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This trade network was never one route, and its name was popularized by a German geographer in 1877, long after the traffic had died." },
-      { position: 2, text: "Almost nobody travelled its whole length; goods changed hands dozens of times between Chang'an and the Mediterranean." },
+      { position: 2, text: "Almost nobody travelled its whole length; goods changed hands many times over between Chang'an and the Mediterranean." },
       { position: 3, text: "Paper, gunpowder, Buddhism and — by most accounts — the Black Death all moved along it beside the spices and horses." },
       { position: 4, text: "This network of caravan routes across Central Asia is named for the shimmering Chinese cargo that made the journey worthwhile." },
     ],
@@ -7621,8 +7621,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "Stephen King never cashed the $5,000 cheque for this film's rights, and years later posted it back to the director, framed." },
-      { position: 2, text: "This film flopped in cinemas, then rose to the top of IMDb's user rankings after a cable channel began showing it almost daily." },
-      { position: 3, text: "The novella this film adapts is titled after both its prison and a Hollywood star whose pin-up poster hides the hero's escape tunnel." },
+      { position: 2, text: "This film flopped in cinemas, then rose to the top of IMDb's user rankings after strong video sales and near-constant cable reruns." },
+      { position: 3, text: "The novella this film adapts is titled after both its prison and a Hollywood star whose pin-up was the first of several to hide the hero's escape tunnel." },
       { position: 4, text: "Andy Dufresne crawls through a sewage pipe to freedom in this 1994 prison drama taken from a King novella." },
     ],
     decoys: [
@@ -7674,7 +7674,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Television",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "NBC turned down this show's first pilot as 'too cerebral', but Lucille Ball, whose studio made it, talked the network into trying a second." },
+      { position: 1, text: "NBC turned down this show's first pilot as 'too cerebral', but Desilu, the studio Lucille Ball owned, talked the network into trying a second." },
       { position: 2, text: "Fans' letter-writing saved this show after its second season, though NBC still cancelled it after the third, in 1969." },
       { position: 3, text: "It aired one of American television's first scripted interracial kisses, and Martin Luther King Jr talked Nichelle Nichols out of quitting the bridge crew." },
       { position: 4, text: "The USS Enterprise, Vulcans and 'live long and prosper' all come from this Gene Roddenberry creation." },
@@ -7693,8 +7693,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "One episode of this show crams Jamie Lee Curtis, Bob Odenkirk and John Mulaney into a single catastrophic Christmas Eve dinner." },
-      { position: 2, text: "This show's seventh first-season episode plays out in one unbroken take of about twenty minutes." },
-      { position: 3, text: "In 2024 this show won 11 Emmys, the most ever won by a comedy series in a single year." },
+      { position: 2, text: "This show's seventh first-season episode runs just 20 minutes, 18 of them in a single unbroken take." },
+      { position: 3, text: "This show's second season won 11 Emmys, at the time a record for a comedy series in a single year." },
       { position: 4, text: "This FX kitchen series stars Jeremy Allen White as Carmy, a chef who comes home to run his late brother's Chicago sandwich shop." },
     ],
     decoys: [
@@ -7749,7 +7749,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "Two members of Paramore were added to the songwriting credits of one of this singer's hits after listeners noticed its debt to 'Misery Business'." },
       { position: 2, text: "This singer's debut single broke Spotify's record for the most streams in one day by a non-holiday song in January 2021." },
       { position: 3, text: "In July 2021 this singer spoke from the White House press briefing room podium to urge young people to get vaccinated against COVID-19." },
-      { position: 4, text: "This pop-punk-leaning singer's albums are Sour and Guts, and her hits include 'vampire'." },
+      { position: 4, text: "This pop-punk-leaning singer's albums include Sour and Guts, and her hits include 'vampire'." },
     ],
     decoys: [
       { text: "Sabrina Carpenter", eliminatedByClue: 2 },
@@ -7836,7 +7836,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Games",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This series found the combo by accident, when its producer noticed extra hits were possible while bug-testing a car-smashing bonus stage." },
+      { position: 1, text: "This series' combos began as a happy accident, when its producer noticed extra hits were possible while bug-testing a car-smashing bonus stage." },
       { position: 2, text: "Raúl Juliá played the villain in this series' 1994 film, opposite Jean-Claude Van Damme, and died two months before it opened." },
       { position: 3, text: "This series' 1991 second game, 'The World Warrior', had eight characters from around the globe and is credited with popularizing one-on-one combat games in the 1990s." },
       { position: 4, text: "Ryu hurls his Hadouken fireball with a quarter-circle and a punch in this long-running Capcom series." },
@@ -7892,7 +7892,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This prank began on 4chan as a bait-and-switch about a duck, before the duck was swapped for a 1987 pop video." },
       { position: 2, text: "The singer behind it pulled it himself on millions of TV viewers in 2008, popping up on a cartoon float at the Macy's Thanksgiving Day Parade." },
-      { position: 3, text: "In 2007 thousands clicked a link promising the first Grand Theft Auto IV trailer and got a red-haired singer in a trench coat instead." },
+      { position: 3, text: "In 2007 many people clicked a link promising the first Grand Theft Auto IV trailer and got a red-haired singer in a trench coat instead." },
       { position: 4, text: "This internet prank is a link that secretly leads to the music video for 'Never Gonna Give You Up'." },
     ],
     decoys: [
@@ -7908,8 +7908,8 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Food & Drink",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "In the 1830s an Ohio doctor published recipes for this condiment and claimed it cured indigestion, helping spark a short-lived craze for medicinal pills." },
-      { position: 2, text: "This condiment began in Asia as a fermented fish sauce, with no tomato anywhere near it." },
+      { position: 1, text: "In the 1830s an Ohio doctor published recipes for this condiment and claimed its main ingredient eased indigestion, helping spark a craze for pills made from that ingredient." },
+      { position: 2, text: "This condiment is widely traced to a fermented fish sauce from Asia, with no tomato anywhere near it." },
       { position: 3, text: "In 1876 a Pittsburgh food maker began selling it in clear glass bottles, so shoppers could see how pure it was." },
       { position: 4, text: "This thick tomato condiment belongs on chips and burgers, and Heinz says its version oozes from the glass bottle at about 0.045 km/h." },
     ],
@@ -8001,7 +8001,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "This novel began as an entry in a ghost-story contest during 1816's 'Year Without a Summer', when a volcanic eruption in Indonesia had cooled the planet." },
       { position: 2, text: "This novel's author was the daughter of the feminist writer Mary Wollstonecraft, who died eleven days after giving birth to her." },
       { position: 3, text: "This novel's subtitle, 'The Modern Prometheus', casts its young scientist as the Titan who stole fire from the gods." },
-      { position: 4, text: "This Mary Shelley novel's creature has no name, yet it is almost always called by its maker's surname." },
+      { position: 4, text: "This Mary Shelley novel's creature has no name, yet it is often mistakenly called by its maker's surname." },
     ],
     decoys: [
       { text: "Dracula", eliminatedByClue: 2 },
@@ -8035,7 +8035,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This novel's author lost the use of a hand at the Battle of Lepanto and spent five years enslaved in Algiers before he wrote a word of it." },
-      { position: 2, text: "After an impostor published a fake sequel in 1614, this novel's author wrote his own, sending his hero to Barcelona instead of Zaragoza just to prove the fake wrong." },
+      { position: 2, text: "When an impostor published a fake sequel in 1614, this novel's author, already deep into his own, sent his hero to Barcelona instead of Zaragoza to prove the fake wrong." },
       { position: 3, text: "This novel inspired a 1965 Broadway musical whose song 'The Impossible Dream' became a standard." },
       { position: 4, text: "In this Spanish novel, a self-appointed knight charges a row of windmills he takes for giants, riding his bony horse Rocinante." },
     ],
@@ -8071,7 +8071,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This legendary ruler's grave and a lead cross naming him were 'found' by Glastonbury Abbey's monks in 1191, in what most historians call a fundraising stunt." },
-      { position: 2, text: "A 12th-century cleric, Geoffrey of Monmouth, turned this shadowy war leader into a king of Britain who conquered Gaul and Norway and defeated a Roman emperor." },
+      { position: 2, text: "A 12th-century cleric, Geoffrey of Monmouth, turned this shadowy war leader into a king of Britain who conquered Gaul and Norway and routed the armies of Rome." },
       { position: 3, text: "In Malory's telling, this ruler's half-sister Morgan le Fay steals the magic scabbard that kept him from bleeding and throws it into a lake." },
       { position: 4, text: "This ruler held court at Camelot with the Knights of the Round Table and was carried off to Avalon after his last battle, at Camlann." },
     ],
@@ -8142,9 +8142,9 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Human Body",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "This organ makes up about 16% of an adult's total body weight." },
+      { position: 1, text: "This organ is often said to be 16% of an adult's body weight, but that counts the fat beneath it; on its own it is nearer 5.5%." },
       { position: 2, text: "This organ is home to microscopic Demodex mites, which live in the hair follicles of nearly every adult." },
-      { position: 3, text: "This organ is only about half a millimetre thick on the eyelids but can be more than 4 mm thick on the palms and soles." },
+      { position: 3, text: "This organ is only about half a millimetre thick on the eyelids but up to about 4 mm thick on the heels of the feet." },
       { position: 4, text: "This is your largest organ, about two square metres of waterproof covering that keeps microbes out." },
     ],
     decoys: [
@@ -8161,7 +8161,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "As a young man, this artist carved a sleeping Cupid that was sold to a cardinal as an ancient Roman piece; the cardinal saw through it and invited him to Rome." },
-      { position: 2, text: "Two earlier sculptors started and then abandoned the towering marble block from which this artist carved his most famous statue." },
+      { position: 2, text: "One sculptor began and abandoned the towering marble block from which this artist carved his most famous statue; a second was hired to resume it, but the deal fell through." },
       { position: 3, text: "The only work this artist ever signed is a marble of Mary cradling the dead Jesus; he is said to have carved his name after hearing visitors credit it to someone else." },
       { position: 4, text: "This Renaissance artist painted the Sistine Chapel ceiling and lent his name to the nunchuck-wielding Ninja Turtle." },
     ],
@@ -8214,7 +8214,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Art",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This painting is not a portrait of a real sitter but a tronie — a Dutch study of a face in exotic costume." },
+      { position: 1, text: "This painting was never meant as a portrait of anyone in particular but is a tronie — a Dutch study of a face in exotic costume." },
       { position: 2, text: "When scientists studied this painting in 2018, they found tiny eyelashes and a green curtain, long faded to black, in its seemingly empty background." },
       { position: 3, text: "It hangs in the Mauritshuis in The Hague and is often nicknamed the Mona Lisa of the North." },
       { position: 4, text: "Johannes Vermeer painted it around 1665, and Scarlett Johansson played its young model in a 2003 film." },
@@ -8358,7 +8358,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Mythology",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "Every day, this god sends out two ravens, whose names mean Thought and Memory, to fly over the world and bring back news." },
+      { position: 1, text: "Every day, this god sends out two ravens, whose names are traditionally rendered Thought and Memory, to fly over the world and bring back news." },
       { position: 2, text: "He gave up one of his eyes in exchange for a drink from a well of wisdom." },
       { position: 3, text: "He rides an eight-legged horse named Sleipnir, which was born to the trickster god Loki." },
       { position: 4, text: "This All-Father of the Norse gods is remembered, under an Old English form of his name, in the word Wednesday." },
@@ -8432,7 +8432,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Only one of these legendary birds was said to exist at any time, and no ancient source gave it a life shorter than 500 years." },
       { position: 2, text: "Ancient writers said each new one carries its parent's remains, sealed in an egg of myrrh, to the sun god's altar at Heliopolis in Egypt." },
-      { position: 3, text: "San Francisco's flag shows one, a city emblem since at least 1852 that recalls the city's recovery from the great fires of the 1850s." },
+      { position: 3, text: "San Francisco's flag shows one, a city emblem since at least 1852 that recalls the city's recovery from the great fires of 1849 to 1851." },
       { position: 4, text: "This fiery bird of legend is reborn from its own ashes." },
     ],
     decoys: [
@@ -8613,7 +8613,7 @@ export const EXTRA_QUESTIONS: Question[] = [
       { position: 1, text: "This internet celebrity won $710,001 in a lawsuit over iced coffee drinks sold with her face on them." },
       { position: 2, text: "Her real name was Tardar Sauce, and she lived in Arizona until her death in 2019." },
       { position: 3, text: "She got her own animatronic wax figure at Madame Tussauds in San Francisco, and Aubrey Plaza voiced her in a 2014 Lifetime Christmas movie." },
-      { position: 4, text: "This frowning cat's unimpressed face became the internet's favorite way to say no." },
+      { position: 4, text: "This frowning cat's unimpressed face went viral on Reddit and spawned countless grouchy captions written in her voice." },
     ],
     decoys: [
       { text: "Keyboard Cat", eliminatedByClue: 2 },
@@ -8702,7 +8702,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "In the wild, this plant grows only within about 75 miles of Wilmington, North Carolina." },
       { position: 2, text: "Charles Darwin called it one of the most wonderful plants in the world and studied it in his 1875 book on insect-eating plants." },
-      { position: 3, text: "It counts: a trigger hair must be touched twice within about 20 seconds before it reacts." },
+      { position: 3, text: "It counts: its trigger hairs must be touched twice within about 20 seconds before it reacts." },
       { position: 4, text: "This carnivorous plant snaps its toothy, jaw-like leaves shut on unlucky insects." },
     ],
     decoys: [
@@ -8863,7 +8863,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "medium",
     clues: [
       { position: 1, text: "This craftsman's own investor sued him just as his greatest project was nearly finished, and the court case cost him much of his equipment." },
-      { position: 2, text: "A goldsmith from Mainz, he devised a hand mold for casting metal letters quickly and in bulk." },
+      { position: 2, text: "Probably trained as a goldsmith, this Mainz-born craftsman is traditionally credited with a hand mold for casting metal letters in bulk." },
       { position: 3, text: "His famous 42-line Bible, printed around 1455, survives in fewer than 50 copies." },
       { position: 4, text: "This German is credited with bringing movable-type printing to Europe in the mid-1400s." },
     ],
@@ -8898,7 +8898,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Sports",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "This sporting event was dreamed up in 1903 by a sports newspaper looking to sell more copies." },
+      { position: 1, text: "First held in 1903, this sporting event was dreamed up by a sports newspaper looking to sell more copies." },
       { position: 2, text: "In 1913 one rider broke his fork on a mountain descent, walked about 10 km to a village forge and fixed it himself, as this race's rules then required." },
       { position: 3, text: "This race often climbs Alpe d'Huez, whose 21 numbered hairpin bends carry signs naming the riders who won stages finishing at the top." },
       { position: 4, text: "This bicycle race, held over about three weeks each July, puts its overall leader in the yellow jersey." },
@@ -9007,7 +9007,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "A key piece of this technology came from Australian radio astronomers who were hunting for exploding black holes." },
-      { position: 2, text: "Its name was dreamed up by a branding agency and, despite a popular belief, does not stand for anything." },
+      { position: 2, text: "Its name was dreamed up by a branding agency and, despite a popular belief, was never meant to stand for anything." },
       { position: 3, text: "It usually runs on the 2.4 and 5 gigahertz bands — the lower one shared with microwave ovens." },
       { position: 4, text: "This wireless networking standard links laptops and phones to your home router." },
     ],
@@ -9188,7 +9188,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "Every tree of one of this flower's most widely planted varieties is a clone, copied by grafting from a single hybrid tree." },
       { position: 2, text: "During the Second World War, some kamikaze pilots had this flower painted on the sides of their planes." },
-      { position: 3, text: "In 1912 the mayor of Tokyo gave Washington, D.C., about 3,000 of its trees, which now ring the Tidal Basin." },
+      { position: 3, text: "In 1912 the mayor of Tokyo gave Washington, D.C., about 3,000 of its trees, the first of which were planted along the Tidal Basin." },
       { position: 4, text: "This pale pink spring flower, a Japanese symbol of the fragility of life, stays in full bloom for only about a week." },
     ],
     decoys: [
@@ -9222,7 +9222,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Art",
     difficulty: "easy",
     clues: [
-      { position: 1, text: "Cataracts clouded this painter's color vision in his seventies; in 1914 he wrote that reds had begun to look muddy, and he had surgery in 1923." },
+      { position: 1, text: "Cataracts clouded this painter's color vision in his seventies; he complained that reds had begun to look muddy, and he had surgery in 1923." },
       { position: 2, text: "At his first wife's deathbed in 1879, this painter caught himself studying the blues, yellows and grays on her face, then painted her there." },
       { position: 3, text: "In 2019 one of this painter's haystack scenes sold for $110.7 million, the first Impressionist work to top $100 million at auction." },
       { position: 4, text: "This French founder of Impressionism is often mixed up with Édouard Manet; in 1865, Salon visitors even praised Manet for this painter's seascapes." },
@@ -9242,7 +9242,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This painter went broke in 1656, and his house and art collection were sold off to pay his creditors." },
       { position: 2, text: "He painted, drew and etched his own face nearly a hundred times, from cocky youth to wrinkled old age." },
-      { position: 3, text: "His most famous group portrait, of an Amsterdam militia company, got its nickname from darkened varnish — the scene is actually set in daylight." },
+      { position: 3, text: "His most famous group portrait, of an Amsterdam militia company, got its nickname from darkened varnish — it was never meant as a night scene." },
       { position: 4, text: "This 17th-century Dutch master of light and shadow, born in Leiden, is often called the greatest painter of the Dutch Golden Age." },
     ],
     decoys: [
@@ -9312,7 +9312,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Art",
     difficulty: "hard",
     clues: [
-      { position: 1, text: "This print's striking blue came from Prussian blue, a synthetic pigment newly imported to Japan from Europe." },
+      { position: 1, text: "This print's striking blue came largely from Prussian blue, a synthetic pigment invented in Berlin that had only just become cheap and plentiful in Japan." },
       { position: 2, text: "As a woodblock print it was pressed thousands of times, so dozens of museums around the world own an original." },
       { position: 3, text: "It opens Hokusai's series 'Thirty-six Views of Mount Fuji,' with the snowy peak tiny in the distance." },
       { position: 4, text: "This Japanese print shows a towering, claw-tipped breaker about to crash down on three boats full of rowers." },
@@ -9402,7 +9402,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     category: "Human Body",
     difficulty: "medium",
     clues: [
-      { position: 1, text: "In 1901 this hormone became the first ever crystallized in pure form, a feat credited to Japanese chemist Jokichi Takamine." },
+      { position: 1, text: "In 1900, in the lab of Japanese chemist Jokichi Takamine, this hormone became the first ever crystallized in pure form." },
       { position: 2, text: "This hormone's official U.S. drug name is a different word, because its common name was too close to a drug company's trademark." },
       { position: 3, text: "Doctors give this hormone every three to five minutes during CPR to try to restart a stopped heart." },
       { position: 4, text: "This 'fight or flight' hormone is what an EpiPen injects to stop a severe allergic reaction." },
@@ -9673,7 +9673,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This character first appeared in a 1902 novel for adults, two years before he took the stage in London." },
-      { position: 2, text: "His author gave the rights to him to a London children's hospital in 1929, and the hospital still collects the royalties." },
+      { position: 2, text: "His author gave the rights to him to a London children's hospital in 1929, and a special UK law lets it collect royalties in perpetuity." },
       { position: 3, text: "On stage he has traditionally been played by a woman, from Nina Boucicault in 1904 to Mary Martin and Cathy Rigby on Broadway." },
       { position: 4, text: "He is J. M. Barrie's boy who never grows up and leads the Lost Boys in Neverland." },
     ],
@@ -9691,7 +9691,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     difficulty: "easy",
     clues: [
       { position: 1, text: "This puppet's first body was cut from his creator's mother's old spring coat, with halves of a ping-pong ball for eyes." },
-      { position: 2, text: "He first appeared in 1955 on 'Sam and Friends,' a short late-night puppet show on a Washington, D.C., TV station." },
+      { position: 2, text: "He first appeared in 1955 on a Washington, D.C., TV station, where he became a regular on the short late-night puppet show 'Sam and Friends.'" },
       { position: 3, text: "He once filled in for Johnny Carson as guest host of 'The Tonight Show,' and in 2002 he got his own star on the Hollywood Walk of Fame." },
       { position: 4, text: "This green puppet, often called Jim Henson's alter ego, sings that it's not easy being green." },
     ],
@@ -9746,7 +9746,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "A German toy company and a Brooklyn shopkeeper both started making this toy around 1902, apparently independently of each other." },
       { position: 2, text: "In 1907 a Michigan priest told his parish that this new toy, unlike dolls, threatened little girls' maternal instincts." },
-      { position: 3, text: "After the Titanic sank in 1912, a British retailer ordered black versions of this toy from Steiff, and only 494 were made." },
+      { position: 3, text: "In 1912 a British retailer ordered black versions of this toy from Steiff, reportedly to mourn the Titanic, and only 494 were made." },
       { position: 4, text: "This toy got its name after a 1902 hunting trip on which a U.S. president refused to shoot a captured animal tied to a tree." },
     ],
     decoys: [
@@ -13026,7 +13026,7 @@ export const EXTRA_QUESTIONS: Question[] = [
     clues: [
       { position: 1, text: "This game is one of four that Bill and Ted pick to beat Death in the 1991 film 'Bill & Ted's Bogus Journey', along with Battleship, Clue and Electric Football." },
       { position: 2, text: "This game's working title was 'Pretzel', but Milton Bradley renamed it because the toy maker Transogram already owned that trademark for a toy dog." },
-      { position: 3, text: "Rivals accused its maker of selling 'sex in a box', but sales took off after Eva Gabor played it with Johnny Carson on 'The Tonight Show' in May 1966." },
+      { position: 3, text: "Rivals accused its maker of selling 'sex in a box', but sales took off after Eva Gabor played it with Johnny Carson on 'The Tonight Show' in 1966." },
       { position: 4, text: "In this game a spinner calls out moves like 'right hand yellow', and players contort themselves across a mat of red, yellow, green and blue circles." },
     ],
     decoys: [
